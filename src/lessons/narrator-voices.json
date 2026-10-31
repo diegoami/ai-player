@@ -1,0 +1,25 @@
+{
+  "provider": "minimax",
+  "sampleModel": "speech-02-hd",
+  "voices": {
+    "John": {
+      "voiceId": "moss_audio_5421e68d-d4ad-11f1-8568-2afee2873678",
+      "languages": [
+        "en"
+      ],
+      "assessment": "User accepted English sample as decent and not too artificial",
+      "identityNote": "Only new ID after John creation; API names blank; generated sample accepted"
+    },
+    "Italian-recorded clone": {
+      "voiceId": "moss_audio_7c908e62-d4ab-11f1-bf7a-5699d2bd1137",
+      "languages": [
+        "it",
+        "de",
+        "fr",
+        "zh"
+      ],
+      "assessment": "User liked these languages; English excessively accented"
+    }
+  },
+  "note": "Preference metadata; existing render scripts still select the stock narrator explicitly."
+}

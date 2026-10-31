@@ -1,0 +1,89 @@
+{
+  "title": "Eight western states: a GeoClick pilot",
+  "manual": "http://localhost:5173/manual",
+  "url": "http://localhost:5173/map/usa-states",
+  "viewport": { "width": 1280, "height": 720 },
+  "intro": [
+    "Let's learn eight western states with GeoClick. We're in Known mode: clicking a state reveals its name and a fact card.",
+    "We'll follow the Pacific coast south, then turn inland. The names we choose stay on the map, building a picture as we go."
+  ],
+  "states": [
+    {
+      "name": "Washington", "point": [238, 222],
+      "lines": [
+        "Start in the northwest corner: Washington. It's north of Oregon, with Canada above it and the Pacific coast to the west.",
+        "Its card explains that this is the only state named for a U.S. president: George Washington. Columbia was considered as an alternative name.",
+        "Remember Washington State here on the Pacific, far from Washington, D.C., on the other side of the country."
+      ],
+      "sources": ["https://capitol.wa.gov/discover/artwork-memorials/george-washington-bust", "https://www2.sos.wa.gov/_assets/elections/voters%20pamphlet%202014.pdf"]
+    },
+    {
+      "name": "Oregon", "point": [224, 302],
+      "lines": [
+        "Directly south is Oregon, the middle state of our three-state Pacific coast chain. Washington above; California below.",
+        "The card says Oregon's name has an uncertain origin. Its other fact is firmer: Crater Lake is the deepest lake in the United States.",
+        "That lake fills a volcanic caldera. Pair Oregon with a deep blue lake inside a collapsed volcano."
+      ],
+      "sources": ["https://www.oregonencyclopedia.org/articles/oregon_the_name/", "https://www.nps.gov/places/crater-lake.htm"]
+    },
+    {
+      "name": "California", "point": [225, 437],
+      "lines": [
+        "Continue south to California, the long Pacific state. Notice its angled eastern border: Nevada lies beyond much of that edge.",
+        "Here's the card's surprising name story: California was a fictional island in a Spanish adventure story, ruled by Queen Calafia.",
+        "So our coast chain is Washington, Oregon, California. Say those three north to south before we leave the ocean."
+      ],
+      "sources": ["https://guides.loc.gov/border-art/calafia", "https://www.senate.ca.gov/sites/senate.ca.gov/files/the%20golden%20book%202010_0.pdf"]
+    },
+    {
+      "name": "Nevada", "point": [288, 406],
+      "lines": [
+        "Now step inland to Nevada, east of California and south of Oregon. Its long sloping western edge fits against California.",
+        "The name means snow-covered in Spanish, referring to the Sierra Nevada. Think snowy mountains when you see the name Nevada.",
+        "The card also notes that most of Nevada's land belongs to the federal government. For our map memory, keep Nevada just inland from California."
+      ],
+      "sources": ["https://epubs.nsla.nv.gov/statepubs/epubs/899700-2020.pdf", "https://www.gov.nv.gov/press-releases/governor-lombardo-requests-resolution-encouraging-the-release-of-federal-land-to-increase-housing-availability-and-decrease-housing-costs/"]
+    },
+    {
+      "name": "Arizona", "point": [368, 510],
+      "lines": [
+        "Head southeast to Arizona. It's east of southern California, south of Utah, and touches Mexico along its southern border.",
+        "Its fact card introduces the Grand Canyon. Measured along the Colorado River, the canyon stretches about 446 kilometres, or 277 miles.",
+        "Use the canyon as your memory hook for Arizona. Next, we'll move straight north into Utah."
+      ],
+      "sources": ["https://www.nps.gov/grca/faqs.htm?TB_iframe=true&height=658.8&width=370.8"]
+    },
+    {
+      "name": "Utah", "point": [382, 407],
+      "lines": [
+        "Utah sits directly north of Arizona and east of Nevada. Notice the notch in its northeast corner.",
+        "The card connects Utah's name with the Ute people. It also points to the Great Salt Lake, the largest natural lake west of the Mississippi.",
+        "Remember this vertical pair: Utah above Arizona. Nevada is to Utah's west; Colorado is to its east."
+      ],
+      "sources": ["https://www.utah.gov/about/quick-facts.html", "https://wildlife.utah.gov/gslep/about"]
+    },
+    {
+      "name": "Colorado", "point": [475, 407],
+      "lines": [
+        "Move east to Colorado, the broad rectangle beside Utah. New Mexico is directly below it.",
+        "The card gives us a striking elevation fact: Colorado's lowest point is higher than the highest point in eighteen other states.",
+        "That's a useful way to remember Colorado's high country. Keep Colorado east of Utah, above New Mexico."
+      ],
+      "sources": ["https://www.cpr.org/2022/08/26/colorado-lowest-point-yuma-county/", "https://www.ncsl.org/resources/map-monday-elevated-states"]
+    },
+    {
+      "name": "New Mexico", "point": [475, 501],
+      "lines": [
+        "Our eighth state is New Mexico, directly south of Colorado and east of Arizona. Look for the small step in its southwestern outline.",
+        "Its card takes us to Trinity: the world's first atomic bomb test happened in New Mexico on July 16th, 1945.",
+        "Finish with two pairs: Utah above Arizona, and Colorado above New Mexico. Those four states meet at the point called Four Corners."
+      ],
+      "sources": ["https://www.nps.gov/mapr/learn/historyculture/trinity.htm"]
+    }
+  ],
+  "recap": [
+    "Eight states, now visible together. Along the Pacific, north to south: Washington, Oregon, California. Inland from California: Nevada.",
+    "Then two north-south pairs: Utah and Arizona; Colorado and New Mexico. Pause here and trace that route yourself.",
+    "That's our eight-state pilot. We've explored their locations and facts in Known mode. A quiz can test what we remember next time."
+  ]
+}

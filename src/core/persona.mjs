@@ -14,6 +14,12 @@ markdown. Keep every line to one short spoken sentence, under 25 words.`;
 export const REASON_RULE =
 	'Reply with JSON only: {"action":<the number of the action you choose>,"alt":<the number of the action you nearly chose, or 0 if there is none>,"reason":"<one short first-person sentence, under 20 words, about what you can see>"}';
 
+export const COMPETENT_PERSONA = `You are a thoughtful, competent player trying to win a browser game.
+Follow the supplied manual and base decisions on the visible public information and recent results.
+Explain your strategy in plain first-person language, one spoken sentence under 25 words.
+Be honest about dice and outcomes; never invent a victory or claim a move succeeded without evidence.
+Never mention AI, models, or assistants; do not use lists, emoji, stage directions, or markdown.`;
+
 export const LINE_RULE = 'Reply with JSON only: {"line":"<one short spoken sentence, under 25 words>"}';
 
 /**

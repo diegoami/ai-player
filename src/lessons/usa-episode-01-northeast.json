@@ -1,0 +1,102 @@
+{
+  "title":"Episode 1 · Northeast · 11 states",
+  "manual":"http://localhost:5173/manual",
+  "url":"http://localhost:5173/map/usa-states",
+  "viewport":{"width":1600,"height":900},
+  "restore":[
+    {"name":"Maine"}, {"name":"New Hampshire"}, {"name":"Vermont"},
+    {"name":"Massachusetts"}, {"name":"Rhode Island"}, {"name":"Connecticut"},
+    {"name":"New York"}, {"name":"New Jersey"}, {"name":"Delaware"},
+    {"name":"Maryland","location":[-76.8,39.35]}, {"name":"Virginia"}
+  ],
+  "intro":[
+    "Welcome to the first episode of our U.S. states series. First, I clear the names so we can begin with a clean map.",
+    "Today we'll learn eleven states: all six of New England, then New York and the coast down to Virginia. Let's zoom in."
+  ],
+  "states":[
+    {"name":"Maine","point":[740,500],
+     "transition":"Let's bring New England closer. Watch the northeastern corner move into view, with Maine reaching up toward Canada.",
+     "gestures":[{"bounds":[[-73.8,40.8],[-66.7,47.5]]}],
+     "lines":[
+       "Maine is our first stop: the big northeastern state, beside Canada. New Hampshire is its only neighbouring U.S. state.",
+       "The card offers two possible origins for Maine's name. One points to the French province; another to sailors referring to the mainland.",
+       "Its forest fact is memorable: close to nine-tenths of Maine's land is forested. Picture a wooded coast at the top of our route."
+     ],"sources":["https://research.fs.usda.gov/treesearch/65706"]},
+    {"name":"New Hampshire","point":[606,640],"rotateExtra":true,"factContains":"Old Man",
+     "lines":[
+       "Follow Maine's southwestern edge into New Hampshire. Notice the small stretch that reaches the Atlantic; most of the state extends inland.",
+       "Its name comes from Hampshire in England. Another card fact recalls the Old Man of the Mountain, a rock profile that collapsed in 2003.",
+       "Keep the neighbours straight: Maine to the east, Vermont to the west, Massachusetts below. Next, we'll compare New Hampshire with Vermont."
+     ],"sources":["https://moose.nhhistory.org/educators/primary-source-sets/source-set-old-man-of-the-mountain"]},
+    {"name":"Vermont","factContains":"1777",
+     "lines":[
+       "Vermont is the inland state immediately west of New Hampshire. New York lies to its west, Canada above it, and Massachusetts below.",
+       "Its name comes from French words meaning green mountain. The card recalls that Vermont was an independent republic from 1777 to 1791.",
+       "In 1791 it joined the United States as the fourteenth state. Remember the northern pair: Vermont on the left, New Hampshire on the right."
+     ],"sources":["https://www.loc.gov/item/today-in-history/july-09/","https://historicsites.vermont.gov/constitution-house"]},
+    {"name":"Massachusetts","point":[560,752],
+     "transition":"Let's zoom closer to southern New England. Massachusetts and the small states below it now have more room on the map.",
+     "gestures":[{"bounds":[[-73.8,40.8],[-69.5,43.2]]}],
+     "lines":[
+       "Now Massachusetts, directly south of New Hampshire. Follow its eastern coast around Boston and out toward the hook of Cape Cod.",
+       "The name comes from the Massachusett people. The card also mentions Harvard, founded in 1636: the oldest institution of higher education in the United States.",
+       "Use Massachusetts as our horizontal anchor. The two small states immediately below it are Rhode Island and Connecticut."
+     ],"sources":["https://www.harvard.edu/about/history/"]},
+    {"name":"Rhode Island","point":[604,810],
+     "lines":[
+       "Here's Rhode Island, the tiny state below Massachusetts and just east of Connecticut. The whole state is more than the islands in its bay.",
+       "It's the smallest U.S. state by area. The card recalls its longer official name, which included Providence Plantations until voters shortened it in 2020.",
+       "For the map, remember the tiny coastal slot: Massachusetts above, Connecticut to the left. Small state, but worth a careful look."
+     ],"sources":["https://www.ri.gov/facts/trivia.php","https://www.sos.ri.gov/divisions/civics-and-education/facts-and-figures/state-symbols"]},
+    {"name":"Connecticut","point":[550,810],
+     "lines":[
+       "Slide west into Connecticut. It sits below Massachusetts, beside Rhode Island, with Long Island Sound along its southern edge.",
+       "Its name is linked to an Indigenous expression for the long tidal river. That gives us a landscape clue as well as a name to remember.",
+       "That's all six New England states: Maine, New Hampshire, Vermont, Massachusetts, Rhode Island and Connecticut. Next, we turn toward New York."
+     ],"sources":["https://dec.vermont.gov/watershed/restoring/connecticut-river"]},
+    {"name":"New York","point":[690,440],
+     "transition":"Let's move southwest, keeping a close view. New York is much larger than its famous city, and New Jersey and Delaware need room below it.",
+     "gestures":[{"bounds":[[-79.9,38.0],[-71.7,45.2]]}],
+     "lines":[
+       "This broad state is New York. Most of it extends inland, while Long Island projects into the Atlantic beside Connecticut.",
+       "The card takes us to the Erie Canal, opened in 1825. It connected the Hudson River with the Great Lakes, making an inland route to the coast.",
+       "Think of New York as the bridge between the Great Lakes and the Atlantic. New Jersey lies just below its southeastern corner."
+     ],"sources":["https://www.canals.ny.gov/About/History"]},
+    {"name":"New Jersey","point":[785,625],"rotateExtra":true,"factContains":"phonograph",
+     "transition":"We'll move closer again for New Jersey and Delaware. The coast and the two bays are easier to distinguish at this scale.",
+     "gestures":[{"bounds":[[-76.6,38.0],[-73.3,41.6]]}],
+     "lines":[
+       "New Jersey is the narrow coastal state south of New York. Pennsylvania is inland to its west, across the Delaware River.",
+       "Its name comes from Jersey in the Channel Islands. Another fact brings us to Edison's Menlo Park laboratory, where his phonograph was invented in 1877.",
+       "Follow New Jersey's coastline south. Delaware Bay opens below it, pointing us toward the next small state."
+     ],"sources":["https://www.nps.gov/edis/learn/kidsyouth/the-phonograph.htm"]},
+    {"name":"Delaware","point":[726,736],
+     "lines":[
+       "Delaware is this small strip below Pennsylvania, across Delaware Bay from New Jersey. Maryland wraps around its western and southern sides.",
+       "Its First State nickname comes from ratification: Delaware was the first state to ratify the United States Constitution, on December 7th, 1787.",
+       "Keep Delaware Bay and Chesapeake Bay separate. Delaware lies east of the Chesapeake, on the peninsula it shares with Maryland and Virginia."
+     ],"sources":["https://delawareday.delaware.gov/about-delaware-day/"]},
+    {"name":"Maryland","point":[665,760],"location":[-76.8,39.35],
+     "transition":"Now we'll widen the view toward Maryland, so its long western reach and the Chesapeake Bay are both visible.",
+     "gestures":[{"bounds":[[-79.6,37.8],[-74.0,40.8]]}],
+     "lines":[
+       "Maryland is the irregular state around the upper Chesapeake Bay. Notice its narrow western reach and its land on both sides of the bay.",
+       "Its name honours Queen Henrietta Maria. The card also recalls Fort McHenry: the flag seen there in 1814 inspired the words of The Star-Spangled Banner.",
+       "Use the Chesapeake as your landmark for Maryland. Virginia lies farther south, and we will move the map to see it properly."
+     ],"sources":["https://www.si.edu/spotlight/flag-day/banner-facts"]},
+    {"name":"Virginia","point":[600,600],
+     "transition":"One more move south brings Virginia fully into the study area. Watch its long western taper and the Atlantic coast on the right.",
+     "gestures":[{"bounds":[[-83.8,36.3],[-75.0,39.8]]}],
+     "lines":[
+       "Virginia is our eleventh state, south of Maryland and north of North Carolina. West Virginia is a separate state on its inland side.",
+       "The name honours Elizabeth the First. Its other card fact explains a nickname: eight U.S. presidents were born in Virginia, more than in any other state.",
+       "We've reached the southern end of today's route. Keep Virginia below Maryland, with North Carolina waiting for a later lesson."
+     ],"sources":["https://publications.virginiageneralassembly.gov/download_publication/125"]}
+  ],
+  "recapGestures":[{"bounds":[[-80.1,36.3],[-66.7,47.5]]}],
+  "recap":[
+    "Let's pull back and retrace our route. New England first: Maine, New Hampshire, Vermont, Massachusetts, Rhode Island and Connecticut.",
+    "Then New York, New Jersey, Delaware, Maryland and Virginia. Pause here and find each of our eleven states on the map.",
+    "That's eleven states in the first episode of our series. We've saved the coverage list, and the next episode will explore another region."
+  ]
+}

@@ -1,252 +1,116 @@
-// Malpaco: an island-conquest board game against computer opponents.
-//
-// The board is an SVG map. Every region is a `g.country` element carrying who
-// owns it and how many armies stand on it, and the human player is the seat
-// the turn tracker marks as "you" (seat 1, blue).
-//
-// A turn is not one click. The game walks through phases, and the adapter
-// keeps track of which one it is in:
-//
-//   cards        choose or skip a card, or skip to the next phase
-//   reinforce    put the pool of armies onto one of your own regions
-//   attack       pick a region of yours, then one of the enemy next to it
-//   end          hand the turn back and wait for your next one
-//
-// Every step is defensive: if a button the game would normally show is not
-// there, the adapter moves on rather than stopping the run.
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-/** Where the human player sits, and the colour they play. */
+// Public UI adapter: reads the manual and Countries inspector, then uses normal controls.
+import { writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const YOU = 'seat1';
-const COLOURS = { seat1: 'blue', seat2: 'orange', seat3: 'green', seat4: 'purple' };
-
+const country = (page, id) => page.locator(`g.country[data-id="${id}"]`);
 export default {
-	name: 'malpaco',
-	summary: 'Play an island-conquest board game against computer opponents',
-	url: process.env.MALPACO_URL ?? 'https://malpaco.netlify.app/?seed=1994',
-
-	/** Start a game with the default settings. */
-	async setup(ctx) {
-		const { page, base } = ctx;
-		await page.goto(base, { waitUntil: 'networkidle' });
-		await page.waitForSelector('#start-game', { timeout: 60000 });
-		await page.click('#start-game');
-		await sleep(3000);
-		ctx.state = { phase: 'cards', source: null };
-	},
-
-	/** The regions on the map, with where they are on screen. */
-	async regions(page) {
-		return page.evaluate(() =>
-			[...document.querySelectorAll('g.country')].map((g) => {
-				const b = g.getBoundingClientRect();
-				return {
-					id: g.dataset.id,
-					owner: g.dataset.owner,
-					armies: Number(g.dataset.armies ?? 0),
-					x: Math.round(b.x + b.width / 2),
-					y: Math.round(b.y + b.height / 2),
-					w: Math.round(b.width),
-					h: Math.round(b.height)
-				};
-			})
-		);
-	},
-
-	/** What the game says about whose turn it is and what it wants. */
-	async guidance(page) {
-		return page.evaluate(() => {
-			const seatRow = document.querySelector('#turn-tracker [data-current="true"]');
-			return {
-				phase: document.getElementById('turn-phase')?.textContent?.trim() ?? '',
-				instruction: document.getElementById('turn-instruction')?.textContent?.trim() ?? '',
-				pool: Number(document.getElementById('placement-pool-count')?.textContent?.trim() ?? 0),
-				current: seatRow?.dataset?.turnPlayer ?? null,
-				status: document.getElementById('game-status')?.textContent?.trim() ?? ''
-			};
-		});
-	},
-
-	/** Where a region sits on the map, in words, for the model to choose by. */
-	place(box) {
-		const left = box.x < 640;
-		const top = box.y < 360;
-		return `${top ? 'upper' : 'lower'} ${left ? 'left' : 'right'}`;
-	},
-
-	/** The legal actions right now. */
-	async observe(ctx) {
-		const { page } = ctx;
-		const g = await this.guidance(page);
-
-		// Not our turn: skip ahead to it.
-		if (g.current && g.current !== YOU) {
-			await page.click('#fast-forward-button').catch(() => {});
-			await sleep(1200);
-			return { actions: [], prompt: '', waiting: true };
-		}
-
-		const regions = await this.regions(page);
-		const mine = regions.filter((r) => r.owner === YOU);
-
-		// Reinforcement: put the pool on one of our own regions.
-		if (/place armies|reinforc/i.test(g.instruction) && g.pool > 0) {
-			ctx.state.phase = 'reinforce';
-			return {
-				actions: mine.map((r) => ({
-					id: `reinforce:${r.id}`,
-					label: `the ${COLOURS[r.owner] ?? r.owner} region ${this.place(r)}`,
-					hint: `${r.armies} armies on it now`,
-					at: { x: r.x, y: r.y },
-					payload: r
-				})),
-				prompt:
-					`You are playing an island-conquest game. You are the ${COLOURS[YOU]} player. ` +
-					`You have ${g.pool} armies to place on your own regions. ` +
-					`Which one of your regions should they go to?`
-			};
-		}
-
-		// Attack: first the region that attacks, then the one attacked.
-		if (ctx.state.phase === 'attack-target' && ctx.state.source) {
-			const enemies = regions.filter(
-				(r) => r.owner !== YOU && this.near(ctx.state.source, r, regions)
-			);
-			if (enemies.length) {
-				return {
-					actions: enemies.map((r) => ({
-						id: `attack:${ctx.state.source.id}:${r.id}`,
-						label: `the ${COLOURS[r.owner] ?? r.owner} region ${this.place(r)}`,
-						hint: `${r.armies} armies defending it`,
-						at: { x: r.x, y: r.y },
-						payload: r
-					})),
-					prompt:
-						`You are attacking from your region ${this.place(ctx.state.source)}. ` +
-						`Which enemy region do you attack? Prefer one you can take.`
-				};
-			}
-			ctx.state.phase = 'attack-source';
-		}
-
-		if (ctx.state.phase === 'attack-source') {
-			const attackers = mine.filter((r) => r.armies >= 2);
-			if (attackers.length) {
-				return {
-					actions: attackers.map((r) => ({
-						id: `source:${r.id}`,
-						label: `your region ${this.place(r)}`,
-						hint: `${r.armies} armies on it`,
-						at: { x: r.x, y: r.y },
-						payload: r
-					})),
-					prompt:
-						`It is your turn to attack. Choose one of your regions to attack from. ` +
-						`A region with more armies attacks more safely.`
-				};
-			}
-		}
-
-		// Nothing else to do this turn.
-		ctx.state.phase = 'end';
-		return {
-			actions: [
-				{
-					id: 'end-turn',
-					label: 'end your turn',
-					hint: 'nothing else to do'
-				}
-			],
-			prompt:
-				`You are playing an island-conquest game. You are the ${COLOURS[YOU]} player. ` +
-				`There is nothing else for you to do this turn.`
-		};
-	},
-
-	/** Whether two regions touch, by their distance on screen. */
-	near(a, b, all) {
-		const distance = (p, q) => Math.hypot(p.x - q.x, p.y - q.y);
-		const closest = Math.min(
-			...all
-				.filter((r) => r.id !== a.id && r.id !== b.id)
-				.map((r) => distance(a, r))
-		);
-		return distance(a, b) < Math.max(closest, 1) * 1.6;
-	},
-
-	/** Carry the action out. */
-	async perform(ctx, action) {
-		const { page } = ctx;
-		if (action.id === 'end-turn') {
-			await page.click('#end-turn-button').catch(() => {});
-			await sleep(600);
-			return;
-		}
-		if (action.id.startsWith('source:')) {
-			ctx.state.source = action.payload;
-			ctx.state.phase = 'attack-target';
-			await page.mouse.click(action.payload.x, action.payload.y);
-			await sleep(700);
-			return;
-		}
-		if (action.id.startsWith('attack:')) {
-			await page.mouse.click(action.payload.x, action.payload.y);
-			await sleep(900);
-			await page.click('#single-exchange-button').catch(() => {});
-			await sleep(1200);
-			return;
-		}
-		if (action.id.startsWith('reinforce:')) {
-			await page.mouse.click(action.payload.x, action.payload.y);
-			await sleep(900);
-			// The panel that opens has a confirm button; it is called
-			// something different in different phases, so look for the
-			// obvious ones and take the default amount if there is none.
-			await this.confirmPlacement(ctx);
-			await sleep(900);
-		}
-	},
-
-	/** Press the confirm button of the panel that is open, if there is one. */
-	async confirmPlacement(ctx) {
-		const { page } = ctx;
-		const clicked = await page.evaluate(() => {
-			const drawer = document.getElementById('game-focus-drawer');
-			const scope = drawer && drawer.offsetParent ? drawer : document;
-			const buttons = [...scope.querySelectorAll('button')].filter((b) => b.offsetParent);
-			const confirm = buttons.find((b) => /confirm|place|ok|apply/i.test(b.textContent ?? ''));
-			if (confirm) {
-				confirm.click();
-				return confirm.textContent.trim();
-			}
-			return null;
-		});
-		if (!clicked) {
-			// No panel: the click may have placed the armies on its own.
-			await page.keyboard.press('Enter').catch(() => {});
-		}
-		return clicked;
-	},
-
-	/** What the game says about what just happened. */
-	async outcome(ctx, action) {
-		const { page } = ctx;
-		const g = await this.guidance(page);
-		if (action.id === 'end-turn')
-			return { detail: 'You ended your turn and the computers take over.' };
-		if (action.id.startsWith('attack:')) {
-			const battle = await page.evaluate(() => ({
-				source: document.getElementById('battle-source-name')?.textContent?.trim(),
-				target: document.getElementById('battle-target-name')?.textContent?.trim(),
-				status: document.getElementById('battle-status')?.textContent?.trim()
-			}));
-			const parts = [];
-			if (battle.source) parts.push(`You attacked ${battle.target} from ${battle.source}.`);
-			if (battle.status) parts.push(battle.status);
-			return { detail: parts.join(' ') || 'The attack was fought.' };
-		}
-		if (action.id.startsWith('reinforce:'))
-			return { detail: `You put your armies on ${action.label}.` };
-		return { detail: g.instruction };
-	}
+ name: 'malpaco',
+ summary: 'Play Malpaco using its manual and public country inspector',
+ url: process.env.MALPACO_URL ?? 'http://localhost:5173/',
+ competent: true,
+ playerDescription: 'You control Blue (seat1). Blue gaining countries or armies is good for you. Orange, Green, and Purple are your opponents.',
+ async setup(ctx) {
+  const {page, base} = ctx;
+  const manualUrl = new URL('/manual/index.html', base).href;
+  await page.goto(manualUrl, {waitUntil:'networkidle'});
+  ctx.manual = await page.locator('main').innerText();
+  if (!ctx.manual.includes('Attack one exchange')) throw new Error('Player manual did not load');
+  writeFileSync(join(ctx.cfg.dir, 'manual.txt'), ctx.manual);
+  ctx.manualUrl = manualUrl;
+  await sleep(1800);
+  await page.goto(base, {waitUntil:'networkidle'});
+  await page.click('#start-game');
+  await page.waitForFunction(() => Number(document.querySelector('#placement-pool-count')?.textContent) > 0, null, {timeout:60000});
+  ctx.state = {graph:{}, islands:{}, recent:[], humanTurns:0};
+  // Inspect the public map once; geography stays fixed throughout the match.
+  await page.click('#open-countries');
+  await page.click('[data-key="filter:false"]');
+  const ids = await page.locator('g.country').evaluateAll(es=>es.map(e=>e.dataset.id));
+  for (const id of ids) {
+   await page.click('[data-key="filter:false"]');
+   await page.locator(`[data-key="inspect:${id}"]`).click();
+   ctx.state.graph[id] = await page.locator('.country-neighbours button').evaluateAll(es=>es.map(e=>e.dataset.key.replace('inspect:','')));
+   ctx.state.islands[id] = await page.locator('.country-facts dd').last().innerText();
+   await page.click('[data-key="back"]');
+  }
+  await page.click('#close-game-drawer');
+  await page.click('#map-fit');
+  ctx.state.initial = await this.score(ctx);
+  writeFileSync(join(ctx.cfg.dir,'map.json'), JSON.stringify({neighbours:ctx.state.graph,islands:ctx.state.islands},null,2));
+ },
+ async regions(page) {
+  return page.locator('g.country').evaluateAll(es=>es.map(e=>{
+   const label=e.querySelector('.army-count')??e;const b=label.getBoundingClientRect();
+   return {id:e.dataset.id,name:e.querySelector('.name')?.textContent,owner:e.dataset.owner,armies:Number(e.dataset.armies),at:{x:b.x+b.width/2,y:b.y+b.height/2}};
+  }));
+ },
+ async guidance(page) {
+  return page.evaluate(()=>({phase:document.querySelector('#turn-phase')?.textContent?.trim()??'', instruction:document.querySelector('#turn-instruction')?.textContent?.trim()??'', pool:Number(document.querySelector('#placement-pool-count')?.textContent??0), current:document.querySelector('#turn-tracker [data-current="true"]')?.dataset.turnPlayer??null}));
+ },
+ async score(ctx) {
+  const regions=await this.regions(ctx.page);const seats={};
+  for(const r of regions){const s=seats[r.owner]??={countries:0,armies:0};s.countries++;s.armies+=r.armies;}
+  return seats;
+ },
+ async observe(ctx) {
+  const {page,state}=ctx;const g=await this.guidance(page);
+  if(await page.locator('.victory-result').isVisible()){ctx.result=await page.locator('.victory-result').innerText();return {done:true};}
+  if(g.current!==YOU){await sleep(900);return {waiting:true,actions:[]};}
+  const regions=await this.regions(page);const byId=Object.fromEntries(regions.map(r=>[r.id,r]));
+  const mine=regions.filter(r=>r.owner===YOU);
+  const neighbours=r=>(state.graph[r.id]??[]).map(id=>byId[id]);
+  const situation=regions.map(r=>`${r.name}: ${r.owner}, ${r.armies} armies; ${state.islands[r.id]}; neighbours ${neighbours(r).map(n=>`${n.name} (${n.owner},${n.armies})`).join(', ')}`).join('\n');
+  const prompt=`You are Blue (seat1), playing competently to win. ${g.phase}. ${g.instruction}\n`+
+   `Read manual:\n${ctx.manual}\n\nPublic map:\n${situation}\nRecent results: ${state.recent.slice(-6).join(' | ')}\n`+
+   'Concentrate reinforcements to secure small islands and earn their recurring bonuses. Defender wins ties: each exchange wins with probability 15/36 and loses with probability 21/36. Two armies versus one defender wins only 42% overall, and is NOT favourable. Only attacks with at least twice the defending armies plus one are offered. One capture per turn earns a card. Preserve useful stacks and end the turn when further attacks are poor. Use only the offered actions. An attack action fights exchanges until capture or the stated safety stop; a capture is confirmed separately. A captured country does not complete an island unless ALL countries on that island are now yours.';
+  if(await page.locator('#confirm-capture-button').isVisible()){
+   const input=page.locator('#capture-amount');const min=Number(await input.getAttribute('min')),max=Number(await input.getAttribute('max'));
+   return {prompt,actions:[...new Set([max,min,Math.max(min,Math.floor(max/2))])].map(n=>({id:`capture:${n}`,label:`confirm ${n} armies into the captured country`,payload:{amount:n}}))};
+  }
+  // Required card decisions are exposed as labelled buttons in the open card.
+  const cardActions=await page.locator('.card-choice-controls button').evaluateAll(es=>es.filter(e=>e.getBoundingClientRect().width&&!e.disabled).map(e=>({key:e.dataset.key,id:e.id,label:e.getAttribute('aria-label')||e.textContent.trim()})));
+  if(cardActions.length)return {prompt,actions:cardActions.map((b,i)=>({id:`card:${i}`,label:b.label,payload:b}))};
+  if(g.pool>0&&/place|reinforc/i.test(`${g.phase} ${g.instruction}`))return {prompt,actions:mine.map(r=>({id:`reinforce:${r.id}`,label:`place all ${g.pool} reinforcements in ${r.name}`,hint:`${r.armies} armies; ${state.islands[r.id]}; enemies: ${neighbours(r).filter(n=>n.owner!==YOU).map(n=>`${n.name} ${n.armies}`).join(', ')||'none'}`,at:r.at,payload:{...r,pool:g.pool}}))};
+  if(await page.locator('#end-turn-button').isVisible()){
+   const actions=[];
+   for(const r of mine.filter(r=>r.armies>=3))for(const target of neighbours(r).filter(n=>n.owner!==YOU && r.armies>=2*n.armies+1))actions.push({id:`attack:${r.id}:${target.id}`,label:`attack ${target.name} from ${r.name}`,hint:`${r.armies} vs ${target.armies}; stop if attacking stack falls below twice the remaining defenders plus one`,at:target.at,payload:{source:r.id,target:target.id}});
+   actions.push({id:'end-turn',label:'end turn, retain armies and collect a card if a country was captured'});
+   return {prompt,actions};
+  }
+  throw new Error(`Unrecognised human phase: ${JSON.stringify(g)}`);
+ },
+ async perform(ctx, action) {
+  const {page}=ctx;ctx.state.before=await this.score(ctx);ctx.state.battle='';
+  if(action.id.startsWith('reinforce:')){
+   for(let n=0;n<action.payload.pool;n++){await country(page,action.payload.id).press('Enter');await sleep(100);}
+   const g=await this.guidance(page);if(g.pool!==0)throw new Error(`Reinforcement did not finish: ${g.pool} left`);
+  }else if(action.id.startsWith('attack:')){
+   const {source,target}=action.payload;
+   await country(page,source).press('Shift+Enter');await country(page,target).press('Shift+Enter');
+   let exchanges=0;
+   while(exchanges<40){
+    const rs=await this.regions(page);const a=rs.find(r=>r.id===source),d=rs.find(r=>r.id===target);
+    if(d.owner===YOU||a.armies<2||(exchanges>0&&a.armies<2*d.armies+1))break;
+    const button=page.locator('#province-action-button');
+    if(!(await button.isVisible())||await button.getAttribute('aria-label')!=='Attack')throw new Error('Attack control unavailable for offered route');
+    await button.click();await sleep(450);exchanges++;
+   }
+   ctx.state.battle=`Fought ${exchanges} exchanges. `+(await page.locator('#battle-status').textContent().catch(()=>''));
+  }else if(action.id.startsWith('capture:')){
+   await page.locator('#capture-amount').fill(String(action.payload.amount));await page.click('#confirm-capture-button');
+  }else if(action.id==='end-turn'){
+   await page.click('#end-turn-button');ctx.state.humanTurns++;
+  }else if(action.id.startsWith('card:')){
+   const b=action.payload;
+   if(b.id)await page.locator(`[id="${b.id}"]`).click();
+   else if(b.key)await page.locator(`.card-choice-controls [data-key="${b.key}"]`).click();
+   else await page.locator('.card-choice-controls').getByRole('button',{name:b.label,exact:true}).click();
+  }
+  await sleep(350);
+ },
+ async outcome(ctx,action){
+  const score=await this.score(ctx);const detail=`${action.label}. ${ctx.state.battle} Blue now has ${score[YOU]?.countries??0} countries and ${score[YOU]?.armies??0} armies.`;
+  ctx.state.recent.push(detail);return {detail,before:ctx.state.before,after:score,humanTurns:ctx.state.humanTurns};
+ }
 };

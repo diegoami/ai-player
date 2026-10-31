@@ -1,0 +1,12 @@
+{
+  "publisher": "Natural Earth",
+  "scale": "1:50m",
+  "license": "Public domain",
+  "retrieved": "2026-10-30",
+  "sources": [
+    "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces.geojson",
+    "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson"
+  ],
+  "sha256": "2032cd57631f26c283cb751df478541c2a99ba2fa255cbbe58789e27368c51e4",
+  "processing": "USA states plus USA/Canada/Russia/Mexico country context; positive longitudes wrapped by -360 for a continuous Pacific view. No relocation or rescaling of states."
+}

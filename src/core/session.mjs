@@ -34,7 +34,7 @@ import { join } from 'node:path';
 import { chromium } from 'playwright';
 import { assemble } from './assemble.mjs';
 import { costReport } from './cost.mjs';
-import { LINE_RULE, PERSONA, REASON_RULE, languageRule } from './persona.mjs';
+import { COMPETENT_PERSONA, LINE_RULE, PERSONA, REASON_RULE, languageRule } from './persona.mjs';
 import { probeDuration, speak } from './narrator.mjs';
 import { askBrain, describeActions, shoot } from './vision.mjs';
 
@@ -64,6 +64,7 @@ export async function play(cfg, game) {
 	const at = () => (Date.now() - t0) / 1000;
 
 	const ctx = { cfg, page, base, game };
+	ctx.persona = (game.competent ? COMPETENT_PERSONA : PERSONA) + (game.playerDescription ? `\n${game.playerDescription}` : '');
 	const trace = { game: game.name, model: cfg.model, brain: cfg.brain, lines: [], turns: [] };
 
 	/** Says a line: generated, spoken, and timed against the video. */
@@ -81,6 +82,7 @@ export async function play(cfg, game) {
 
 	try {
 		await game.setup?.(ctx);
+		trace.manualUrl = ctx.manualUrl;
 		await say(await opening(ctx), 'intro');
 		await loop(ctx, trace, say);
 		await say(await closing(ctx, trace), 'outro');
@@ -109,27 +111,32 @@ export async function play(cfg, game) {
 /** The loop of turns. */
 async function loop(ctx, trace, say) {
 	const { cfg, page, game } = ctx;
-	for (let turn = 0; turn < cfg.turns; turn++) {
+	let idleSince = Date.now();
+	for (let turn = 0; turn < cfg.turns;) {
 		const seen = await game.observe(ctx);
 		if (seen.done) break;
 		if (!seen.actions?.length) {
+			if (Date.now() - idleSince > 180000) throw new Error('No playable action for three minutes');
 			await sleep(700);
 			continue;
 		}
+		idleSince = Date.now();
 
 		const image = await shoot(page, seen.actions);
 		const listing = describeActions(seen.actions);
-		const prompt = `${seen.prompt}\n\nThe legal actions are:\n${listing}\n\n${PERSONA}${languageRule(cfg.lang)}\n\n${REASON_RULE}`;
+		const prompt = `${seen.prompt}\n\nThe legal actions are:\n${listing}\n\n${ctx.persona}${languageRule(cfg.lang)}\n\n${REASON_RULE}`;
 
 		let answer = {};
 		try {
 			answer = await askBrain(cfg, { text: prompt, image });
 		} catch (e) {
+			if (game.competent) throw e;
 			// One bad answer is not worth losing the round over.
 			process.stdout.write(`  ! no answer from the model (${e.message})\n`);
 		}
 
-		const picked = pickAction(seen.actions, answer, cfg.mistakes);
+		if (game.competent && (!Number.isInteger(Number(answer.action)) || Number(answer.action) < 1 || Number(answer.action) > seen.actions.length)) throw new Error('Model did not choose a legal action');
+		const picked = pickAction(seen.actions, answer, game.competent ? 0 : cfg.mistakes);
 		const changed = picked.changed;
 		const action = picked.action;
 		const reason = String(answer.reason ?? '').trim();
@@ -142,6 +149,8 @@ async function loop(ctx, trace, say) {
 		await game.perform(ctx, action);
 		const outcome = (await game.outcome?.(ctx, action)) ?? {};
 		trace.turns.push({ action: action.id, label: action.label, ...outcome });
+		turn++;
+		writeFileSync(join(cfg.dir, 'progress.json'), JSON.stringify(trace, null, 2), 'utf8');
 
 		await say(
 			await reaction(ctx, { action, outcome }),
@@ -173,7 +182,7 @@ async function opening(ctx) {
 	const { cfg, game } = ctx;
 	try {
 		const json = await askBrain(cfg, {
-			text: `${PERSONA}${languageRule(cfg.lang)}\n\nYou have just opened ${game.name}. Introduce the round in one short spoken sentence, as a slightly nervous player about to start.\n\n${LINE_RULE}`
+			text: `${ctx.persona}${languageRule(cfg.lang)}\n\nYou have just opened ${game.name}. Introduce the round in one short spoken sentence, as a player about to start.\n\n${LINE_RULE}`
 		});
 		return json.line;
 	} catch {
@@ -189,7 +198,7 @@ async function reaction(ctx, { action, outcome }) {
 		: `You chose "${action.label}".`;
 	try {
 		const json = await askBrain(cfg, {
-			text: `${PERSONA}${languageRule(cfg.lang)}\n\n${facts}\nReact out loud, as a mediocre player would. If it went badly, own it.\n\n${LINE_RULE}`,
+			text: `${ctx.persona}${languageRule(cfg.lang)}\n\n${facts}\nReact out loud in your player persona. If it went badly, own it.\n\n${LINE_RULE}`,
 			temperature: 0.9,
 			maxTokens: 400
 		});
@@ -206,10 +215,10 @@ async function closing(ctx, trace) {
 	const scored = trace.turns.filter((t) => typeof t.correct === 'boolean');
 	const summary = scored.length
 		? `The game is over: you got ${scored.filter((t) => t.correct).length} of ${scored.length} right.`
-		: `The game is over. You played ${trace.turns.length} moves.`;
+		: `This recording ends after ${trace.turns.length} moves. ${ctx.result ?? "The match is still in progress."}`;
 	try {
 		const json = await askBrain(cfg, {
-			text: `${PERSONA}${languageRule(cfg.lang)}\n\n${summary} Say what you make of it, out loud, as a mediocre player.\n\n${LINE_RULE}`,
+			text: `${ctx.persona}${languageRule(cfg.lang)}\n\n${summary} Say what you make of it, out loud, in your player persona.\n\n${LINE_RULE}`,
 			temperature: 0.9,
 			maxTokens: 400
 		});

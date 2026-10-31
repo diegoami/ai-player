@@ -1,0 +1,443 @@
+[
+  {
+    "state": "Florida",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 9,
+    "samples": 12,
+    "pickupTime": 9.5,
+    "resolvedTime": 11,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Arizona",
+    "firstTrayAppearance": 11,
+    "lastTrayAppearance": 20.5,
+    "samples": 20,
+    "pickupTime": 21.0,
+    "resolvedTime": 22.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Indiana",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 24,
+    "samples": 42,
+    "pickupTime": 24.5,
+    "resolvedTime": 30.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Kentucky",
+    "firstTrayAppearance": 30.5,
+    "lastTrayAppearance": 32.5,
+    "samples": 5,
+    "pickupTime": 33.0,
+    "resolvedTime": 34.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Missouri",
+    "firstTrayAppearance": 34.5,
+    "lastTrayAppearance": 38.5,
+    "samples": 9,
+    "pickupTime": 39.0,
+    "resolvedTime": 40,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "New Mexico",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 41.5,
+    "samples": 77,
+    "pickupTime": 42.0,
+    "resolvedTime": 42.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Oklahoma",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 44,
+    "samples": 82,
+    "pickupTime": 44.5,
+    "resolvedTime": 53,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Tennessee",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 62.5,
+    "samples": 119,
+    "pickupTime": 63.0,
+    "resolvedTime": 63.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Arkansas",
+    "firstTrayAppearance": 63.5,
+    "lastTrayAppearance": 68,
+    "samples": 10,
+    "pickupTime": 68.5,
+    "resolvedTime": 72,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Maine",
+    "firstTrayAppearance": 53,
+    "lastTrayAppearance": 73.5,
+    "samples": 41,
+    "pickupTime": 74.0,
+    "resolvedTime": 75,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Idaho",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 77.5,
+    "samples": 148,
+    "pickupTime": 78.0,
+    "resolvedTime": 78.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Mississippi",
+    "firstTrayAppearance": 78.5,
+    "lastTrayAppearance": 81.5,
+    "samples": 7,
+    "pickupTime": 82.0,
+    "resolvedTime": 83,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Michigan",
+    "firstTrayAppearance": 72,
+    "lastTrayAppearance": 84,
+    "samples": 25,
+    "pickupTime": 84.5,
+    "resolvedTime": 88.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Minnesota",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 90.5,
+    "samples": 174,
+    "pickupTime": 91.0,
+    "resolvedTime": 92,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Colorado",
+    "firstTrayAppearance": 83,
+    "lastTrayAppearance": 94,
+    "samples": 23,
+    "pickupTime": 94.5,
+    "resolvedTime": 100,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Montana",
+    "firstTrayAppearance": 75,
+    "lastTrayAppearance": 101.5,
+    "samples": 54,
+    "pickupTime": 102.0,
+    "resolvedTime": 103,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Louisiana",
+    "firstTrayAppearance": 103,
+    "lastTrayAppearance": 104,
+    "samples": 3,
+    "pickupTime": 104.5,
+    "resolvedTime": 105.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "South Carolina",
+    "firstTrayAppearance": 40,
+    "lastTrayAppearance": 106,
+    "samples": 133,
+    "pickupTime": 106.5,
+    "resolvedTime": 108,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Ohio",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 109.5,
+    "samples": 213,
+    "pickupTime": 110.0,
+    "resolvedTime": 110.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "South Dakota",
+    "firstTrayAppearance": 105.5,
+    "lastTrayAppearance": 115,
+    "samples": 19,
+    "pickupTime": 115.5,
+    "resolvedTime": 118,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "New Jersey",
+    "firstTrayAppearance": 108,
+    "lastTrayAppearance": 117.5,
+    "samples": 20,
+    "pickupTime": 118.0,
+    "resolvedTime": 120.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Pennsylvania",
+    "firstTrayAppearance": 110.5,
+    "lastTrayAppearance": 121.5,
+    "samples": 23,
+    "pickupTime": 122.0,
+    "resolvedTime": 124.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "New York",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 126,
+    "samples": 246,
+    "pickupTime": 126.5,
+    "resolvedTime": 128.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "California",
+    "firstTrayAppearance": 100,
+    "lastTrayAppearance": 131.5,
+    "samples": 64,
+    "pickupTime": 132.0,
+    "resolvedTime": 132.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Maryland",
+    "firstTrayAppearance": 128.5,
+    "lastTrayAppearance": 138,
+    "samples": 20,
+    "pickupTime": 138.5,
+    "resolvedTime": 143,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "North Dakota",
+    "firstTrayAppearance": 124.5,
+    "lastTrayAppearance": 144,
+    "samples": 40,
+    "pickupTime": 144.5,
+    "resolvedTime": 145,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Alabama",
+    "firstTrayAppearance": 145,
+    "lastTrayAppearance": 146.5,
+    "samples": 4,
+    "pickupTime": 147.0,
+    "resolvedTime": 148,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Texas",
+    "firstTrayAppearance": 88.5,
+    "lastTrayAppearance": 151.5,
+    "samples": 127,
+    "pickupTime": 152.0,
+    "resolvedTime": 152.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Nevada",
+    "firstTrayAppearance": 148,
+    "lastTrayAppearance": 154,
+    "samples": 13,
+    "pickupTime": 154.5,
+    "resolvedTime": 155,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Connecticut",
+    "firstTrayAppearance": 155,
+    "lastTrayAppearance": 159.5,
+    "samples": 10,
+    "pickupTime": 160.0,
+    "resolvedTime": 162,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Massachusetts",
+    "firstTrayAppearance": 152.5,
+    "lastTrayAppearance": 175.5,
+    "samples": 47,
+    "pickupTime": 176.0,
+    "resolvedTime": 177.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Illinois",
+    "firstTrayAppearance": 177.5,
+    "lastTrayAppearance": 179.5,
+    "samples": 5,
+    "pickupTime": 180.0,
+    "resolvedTime": 182.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Iowa",
+    "firstTrayAppearance": 143,
+    "lastTrayAppearance": 184,
+    "samples": 83,
+    "pickupTime": 184.5,
+    "resolvedTime": 185.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Georgia",
+    "firstTrayAppearance": 185.5,
+    "lastTrayAppearance": 187,
+    "samples": 4,
+    "pickupTime": 187.5,
+    "resolvedTime": 188.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Delaware",
+    "firstTrayAppearance": 162,
+    "lastTrayAppearance": 193.5,
+    "samples": 64,
+    "pickupTime": 194.0,
+    "resolvedTime": 196,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Kansas",
+    "firstTrayAppearance": 196,
+    "lastTrayAppearance": 201,
+    "samples": 11,
+    "pickupTime": 201.5,
+    "resolvedTime": 203.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Nebraska",
+    "firstTrayAppearance": 203.5,
+    "lastTrayAppearance": 204,
+    "samples": 2,
+    "pickupTime": 204.5,
+    "resolvedTime": 205.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Wisconsin",
+    "firstTrayAppearance": 120.5,
+    "lastTrayAppearance": 215.5,
+    "samples": 191,
+    "pickupTime": 216.0,
+    "resolvedTime": 216.5,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Washington",
+    "firstTrayAppearance": 182.5,
+    "lastTrayAppearance": 221.5,
+    "samples": 79,
+    "pickupTime": 222.0,
+    "resolvedTime": 224,
+    "timingEvidence": "tray removal and new-name refill"
+  },
+  {
+    "state": "Oregon",
+    "firstTrayAppearance": 224,
+    "lastTrayAppearance": 226,
+    "samples": 5,
+    "pickupTime": 226.5,
+    "resolvedTime": 227.5,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "New Hampshire",
+    "firstTrayAppearance": 132.5,
+    "lastTrayAppearance": 232,
+    "samples": 197,
+    "pickupTime": 232.5,
+    "resolvedTime": 236.5,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "Vermont",
+    "firstTrayAppearance": 3.5,
+    "lastTrayAppearance": 238.5,
+    "samples": 470,
+    "pickupTime": 239.0,
+    "resolvedTime": 240.0,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "West Virginia",
+    "firstTrayAppearance": 205.5,
+    "lastTrayAppearance": 241.5,
+    "samples": 73,
+    "pickupTime": 242.0,
+    "resolvedTime": 243.0,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "Virginia",
+    "firstTrayAppearance": 42.5,
+    "lastTrayAppearance": 245,
+    "samples": 405,
+    "pickupTime": 245.5,
+    "resolvedTime": 246.5,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "North Carolina",
+    "firstTrayAppearance": 216.5,
+    "lastTrayAppearance": 248,
+    "samples": 63,
+    "pickupTime": 248.5,
+    "resolvedTime": 249.5,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "District of Columbia",
+    "firstTrayAppearance": 92,
+    "lastTrayAppearance": 255.5,
+    "samples": 327,
+    "pickupTime": 256.0,
+    "resolvedTime": 258.0,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "Rhode Island",
+    "firstTrayAppearance": 118,
+    "lastTrayAppearance": 261.5,
+    "samples": 266,
+    "pickupTime": 262.0,
+    "resolvedTime": 264.0,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "Wyoming",
+    "firstTrayAppearance": 22.5,
+    "lastTrayAppearance": 268.5,
+    "samples": 491,
+    "pickupTime": 269.0,
+    "resolvedTime": 270.0,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  },
+  {
+    "state": "Utah",
+    "firstTrayAppearance": 188.5,
+    "lastTrayAppearance": 271,
+    "samples": 166,
+    "pickupTime": 271.5,
+    "resolvedTime": 272.0,
+    "timingEvidence": "upscaled drag-label OCR and post-placement frame review"
+  }
+]

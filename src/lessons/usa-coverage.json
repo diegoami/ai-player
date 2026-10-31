@@ -1,0 +1,196 @@
+{
+  "series": "US states in regional lessons",
+  "targetStatesPerVideoRange": [
+    10,
+    15
+  ],
+  "coveredStateCount": 50,
+  "status": "complete",
+  "edition": "Restarted series: Northeast including Vermont is episode 1; earlier videos are prototypes",
+  "episodes": [
+    {
+      "id": "01-northeast",
+      "status": "complete",
+      "covered": [
+        "Maine",
+        "New Hampshire",
+        "Vermont",
+        "Massachusetts",
+        "Rhode Island",
+        "Connecticut",
+        "New York",
+        "New Jersey",
+        "Delaware",
+        "Maryland",
+        "Virginia"
+      ],
+      "lesson": "src/lessons/usa-episode-01-northeast.json",
+      "video": "rendered/usa-episode-01-northeast-20261030/geoclick/play-no-subtitles.mp4",
+      "uploadPackage": "rendered/usa-episode-01-northeast-20261030/geoclick/youtube-upload.zip",
+      "durationSeconds": 415.24,
+      "optionalSubtitleLanguages": [
+        "en",
+        "de",
+        "it"
+      ],
+      "verified": "Eleven-name Clear opening, eleven states including Vermont, first-episode narration, non-overlapping fact panels, clean H.264/AAC master, audio headroom, 44 cues per subtitle language, native playback and captions-off check."
+    },
+    {
+      "id": "02-south",
+      "status": "complete",
+      "covered": [
+        "West Virginia",
+        "Kentucky",
+        "Tennessee",
+        "North Carolina",
+        "South Carolina",
+        "Georgia",
+        "Florida",
+        "Alabama",
+        "Mississippi",
+        "Louisiana",
+        "Arkansas",
+        "Oklahoma",
+        "Texas"
+      ],
+      "lesson": "src/lessons/usa-episode-02-south.json",
+      "video": "rendered/usa-episode-02-south-20261030/geoclick/play-no-subtitles.mp4",
+      "uploadPackage": "rendered/usa-episode-02-south-20261030/geoclick/youtube-upload.zip",
+      "durationSeconds": 487.08,
+      "optionalSubtitleLanguages": [
+        "en",
+        "de",
+        "it"
+      ],
+      "completesRegionWithEpisode1": true,
+      "verified": "13 new states with zero episode-1 repeats; all 16 Census South states covered across the series; actual Clear opening, non-overlapping fact panels, clean H.264/AAC master, audio headroom, 50 matched cues per language, optional track playback and captions-off screenshots checked.",
+      "regionDefinition": "All remaining US Census South states; Delaware, Maryland and Virginia were completed in episode 1; DC is not a state",
+      "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html"
+    },
+    {
+      "id": "03-midwest-and-pennsylvania",
+      "status": "complete",
+      "covered": [
+        "Pennsylvania",
+        "Ohio",
+        "Michigan",
+        "Indiana",
+        "Illinois",
+        "Wisconsin",
+        "Minnesota",
+        "Iowa",
+        "Missouri",
+        "Kansas",
+        "Nebraska",
+        "South Dakota",
+        "North Dakota"
+      ],
+      "lesson": "src/lessons/usa-episode-03-midwest.json",
+      "video": "rendered/usa-episode-03-midwest-20261030/geoclick/play-no-subtitles.mp4",
+      "uploadPackage": "rendered/usa-episode-03-midwest-20261030/geoclick/youtube-upload.zip",
+      "durationSeconds": 509.64,
+      "optionalSubtitleLanguages": [
+        "en",
+        "de",
+        "it"
+      ],
+      "verified": "13 new states, zero repeats, 37 distinct states overall; full Census Midwest and Northeast complete; Clear opening, outside-map fact cards, clean H.264/AAC master, audio headroom, all 51 cues in each language parsed and toggled off in native playback; Michigan caption-on/off previews inspected.",
+      "regionDefinition": "All twelve Census Midwest states plus Pennsylvania, completing the remaining Census Northeast state",
+      "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html"
+    },
+    {
+      "id": "04-west",
+      "status": "complete",
+      "covered": [
+        "Montana",
+        "Idaho",
+        "Wyoming",
+        "Colorado",
+        "New Mexico",
+        "Arizona",
+        "Utah",
+        "Nevada",
+        "California",
+        "Oregon",
+        "Washington",
+        "Alaska",
+        "Hawaii"
+      ],
+      "lesson": "src/lessons/usa-episode-04-west.json",
+      "video": "rendered/usa-episode-04-west-20261030/geoclick/play-no-subtitles.mp4",
+      "uploadPackage": "rendered/usa-episode-04-west-20261030/geoclick/youtube-upload.zip",
+      "durationSeconds": 502.24,
+      "optionalSubtitleLanguages": [
+        "en",
+        "de",
+        "it"
+      ],
+      "verified": "13 new states, zero repeats, all 50 US states verified exactly once across canonical episodes; 11 GeoClick and 2 labelled Natural Earth supplemental views; Clear opening, outside-map fact cards, clean H.264/AAC master, audio headroom, all 50 cues in three languages parsed and toggled off in native playback; Alaska/Hawaii and caption-on/off screenshots checked.",
+      "regionDefinition": "All thirteen Census West states; Alaska and Hawaii use explicitly labelled supplemental Natural Earth geographic views",
+      "supplementalStates": [
+        "Alaska",
+        "Hawaii"
+      ]
+    }
+  ],
+  "demonstrations": [
+    {
+      "id": "human-player-after-lessons",
+      "status": "superseded: user rejected generic commentary",
+      "source": "C:/bandicam/bandicam 2026-10-30 14-50-20-120.mp4",
+      "video": "rendered/human-player-20261030/play-no-subtitles.mp4",
+      "uploadPackage": "rendered/human-player-20261030/youtube-upload.zip",
+      "durationSeconds": 282.833333,
+      "result": {
+        "correctFirstTry": 49,
+        "targets": 49,
+        "mistakes": 0
+      },
+      "scope": "48 contiguous states plus DC; this demonstration is separate from the canonical 50-state teaching coverage",
+      "narration": "Third-person English commentary; the user supplies the premise that the human watched and learned from the regional videos",
+      "optionalSubtitleLanguages": [
+        "en",
+        "de",
+        "it"
+      ],
+      "supersededBy": "human-state-memory-hooks"
+    },
+    {
+      "id": "human-state-memory-hooks",
+      "status": "complete",
+      "source": "C:/bandicam/bandicam 2026-10-30 14-50-20-120.mp4",
+      "video": "rendered/human-state-hooks-20261030/play-no-subtitles.mp4",
+      "uploadPackage": "rendered/human-state-hooks-20261030/youtube-upload.zip",
+      "durationSeconds": 400.533333,
+      "placementHooks": 49,
+      "narrationCues": 51,
+      "result": {
+        "correctFirstTry": 49,
+        "targets": 49,
+        "mistakes": 0
+      },
+      "scope": "48 contiguous states plus DC; this demonstration is separate from the canonical 50-state teaching coverage",
+      "narration": "Third-person, named state-by-state geographic memory hooks and facts recalled from the four canonical lessons",
+      "editing": "Brief holds keep each hook with its target before the next name pickup; source is unchanged; Utah is last",
+      "optionalSubtitleLanguages": [
+        "en",
+        "de",
+        "it"
+      ],
+      "verified": "49 unique targets; non-overlapping narration; lesson provenance in trace; 51 cues per language parsed in native playback; captions-off checked; Arizona, northeastern targets, Utah and result holds inspected"
+    }
+  ],
+  "archivedPrototypes": [
+    {
+      "video": "rendered/usa-states-pilot-20261030/geoclick/play.mp4",
+      "states": 8,
+      "status": "prototype; not part of restarted series"
+    },
+    {
+      "video": "rendered/usa-northeast-coast-20261030/geoclick/play-no-subtitles.mp4",
+      "states": 10,
+      "status": "superseded prototype; Vermont added in new episode 1"
+    }
+  ],
+  "note": "The canonical four-episode series is complete: 50 distinct US states, no duplicates, DC excluded. The local GeoClick USA catalog has 48 contiguous states plus DC. Alaska and Hawaii were completed in episode 4 using explicitly labelled supplemental Natural Earth geographic views, not claimed as native GeoClick targets. Earlier prototypes remain archived outside this series."
+}

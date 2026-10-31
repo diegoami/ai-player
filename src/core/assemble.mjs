@@ -36,10 +36,11 @@ function duration(file) {
 }
 
 /** Writes an SRT file from the trace's lines. */
-function writeSrt(lines, file) {
+export function writeSrt(lines, file) {
 	const stamp = (s) => {
-		const ms = Math.round((s % 1) * 1000);
-		const total = Math.floor(s);
+		const roundedMs = Math.round(s * 1000);
+		const ms = roundedMs % 1000;
+		const total = Math.floor(roundedMs / 1000);
 		const p = (n, w = 2) => String(n).padStart(w, '0');
 		return `${p(Math.floor(total / 3600))}:${p(Math.floor((total % 3600) / 60))}:${p(total % 60)},${p(ms, 3)}`;
 	};
@@ -67,9 +68,11 @@ function findVideo(dir, trace) {
 
 /** Cuts the mp4. Returns where it went and how long it is. */
 export function assemble(cfg, trace) {
+	const trimStart = cfg.trimStart ?? 0;
 	const videoPath = findVideo(cfg.dir, trace);
 	if (!videoPath) throw new Error('No video found');
-	const clips = trace.lines.filter((l) => existsSync(join(cfg.dir, 'clips', l.file)));
+	const clips = trace.lines.filter((l) => existsSync(join(cfg.dir, 'clips', l.file)))
+		.map((l) => ({ ...l, start: l.start - trimStart, end: l.end - trimStart }));
 	if (!clips.length) throw new Error('No narration clips found');
 
 	// ffmpeg runs inside the output folder, so the subtitle file is a plain
@@ -109,22 +112,22 @@ export function assemble(cfg, trace) {
 		join(cfg.dir, 'subtitles.srt')
 	);
 
-	const out = join(cfg.dir, 'play.mp4');
-	const videoLength = duration(videoPath);
-	const total = Math.max(videoLength, audioEnd) + 0.5;
+	const out = join(cfg.dir, cfg.videoFilename ?? 'play.mp4');
+	const videoLength = cfg.videoDuration ?? (Math.min(duration(videoPath), cfg.trimEnd ?? Infinity) - trimStart);
+	const total = Math.max(videoLength, audioEnd) + (cfg.tailSeconds ?? 0.5);
 	const style = [
 		'FontName=Arial',
 		// libass scales against a 288px-tall reference, so 12 lands near 30px
 		// on a 720p frame.
-		'FontSize=12',
+		`FontSize=${cfg.subtitleFontSize ?? 12}`,
 		'PrimaryColour=&H00FFFFFF',
 		'OutlineColour=&H00000000',
 		'BackColour=&HB4000000',
 		'BorderStyle=3',
 		'Outline=1',
 		'Shadow=0',
-		'Alignment=2',
-		'MarginV=24'
+		`Alignment=${cfg.subtitleAlignment ?? 2}`,
+		`MarginV=${cfg.subtitleMarginV ?? 24}`
 	].join(',');
 
 	ffmpeg(
@@ -133,9 +136,11 @@ export function assemble(cfg, trace) {
 			videoPath,
 			'-i',
 			audioFile,
+			'-map', '0:v:0',
+			'-map', '1:a:0',
 			// Freeze the last frame if the narration runs past the recording.
 			'-vf',
-			`tpad=stop_mode=clone:stop_duration=${Math.ceil(total - videoLength) + 1},subtitles=filename=subtitles.srt:force_style='${style}'`,
+			`${trimStart || cfg.trimEnd ? `trim=start=${trimStart}${cfg.trimEnd ? `:end=${cfg.trimEnd}` : ''},setpts=PTS-STARTPTS,` : ''}${cfg.videoFilter ? `${cfg.videoFilter},` : ''}tpad=stop_mode=clone:stop_duration=${Math.ceil(total - videoLength) + 1}${cfg.burnSubtitles === false ? '' : `,subtitles=filename=subtitles.srt:force_style='${style}'`}`,
 			'-c:v',
 			'libx264',
 			'-preset',

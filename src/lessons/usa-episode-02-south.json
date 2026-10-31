@@ -1,0 +1,111 @@
+{
+  "title":"Episode 2 · The South · 13 states",
+  "manual":"http://localhost:5173/manual",
+  "url":"http://localhost:5173/map/usa-states",
+  "viewport":{"width":1600,"height":900},
+  "regionDefinition":"Remaining US Census South states after episode 1; DC is not a state",
+  "regionSource":"https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
+  "restore":[{"name":"West Virginia","location":[-81.63,38.35]},{"name":"Kentucky"},{"name":"Tennessee"},{"name":"North Carolina"},{"name":"South Carolina"},{"name":"Georgia"},{"name":"Florida","location":[-81.7,28.5]},{"name":"Alabama"},{"name":"Mississippi"},{"name":"Louisiana","location":[-92.3,31.2]},{"name":"Arkansas"},{"name":"Oklahoma"},{"name":"Texas"}],
+  "intro":[
+    "Welcome to episode two. First, I clear the map. Today we explore thirteen new states in the South, without repeating episode one.",
+    "Using the Census definition, these are all the Southern states we have left to cover. We'll move through Appalachia, the Atlantic and Gulf coasts, then west."
+  ],
+  "states":[
+    {"name":"West Virginia","location":[-81.63,38.35],"factContains":"1863",
+     "transition":"Let's begin in the Appalachian interior, where West Virginia, Kentucky and Tennessee form our first group.",
+     "gestures":[{"bounds":[[-90.5,34.5],[-77.5,41.0]]}],
+     "lines":[
+       "West Virginia is the irregular mountain state west of Virginia. It is landlocked, with Kentucky to the southwest and Ohio across the river to the northwest.",
+       "The card explains its unusual name and history: it separated from Virginia during the Civil War and became a state in 1863.",
+       "Remember West Virginia as a separate state, with a northern panhandle and an eastern one. We now move southwest into Kentucky."
+     ],"sources":["https://www.archives.gov/legislative/features/west-virginia"]},
+    {"name":"Kentucky","factContains":"Mammoth Cave",
+     "lines":[
+       "Kentucky stretches west from West Virginia, directly above Tennessee. Its winding northern edge follows the Ohio River for much of the way.",
+       "The card's name origin is uncertain, but its cave fact is clear: Mammoth Cave is the world's longest known cave system.",
+       "Picture Kentucky as the upper half of a long east-west pair. Tennessee is the lower half, and our next stop."
+     ],"sources":["https://www.nps.gov/maca/faqs.htm"]},
+    {"name":"Tennessee","factContains":"eight states",
+     "lines":[
+       "Tennessee is the long, narrow state immediately south of Kentucky. It runs from the Mississippi River in the west to the Appalachian mountains in the east.",
+       "Its name comes from Tanasi, a Cherokee town. The card notes that Tennessee borders eight states, tying Missouri for the most.",
+       "Keep Kentucky above Tennessee. Below Tennessee sit Mississippi, Alabama and Georgia; east of its mountains lies North Carolina."
+     ],"sources":["https://www.tn.gov/directory/county-city-web-sites.html"]},
+    {"name":"North Carolina","factContains":"1903",
+     "transition":"Now move east to the Atlantic side. We'll follow North Carolina, South Carolina and Georgia down the coast.",
+     "gestures":[{"bounds":[[-85.8,30.2],[-75.2,37.0]]}],
+     "lines":[
+       "North Carolina is the long state below Virginia, reaching from the mountains to the Atlantic. Notice the thin Outer Banks along its eastern coast.",
+       "Carolina comes from Carolus, the Latin form of Charles. Near Kitty Hawk, the Wright brothers made their first successful airplane flights in 1903.",
+       "For your map memory, North Carolina is the broad northern Carolina, with mountains at one end and barrier islands at the other."
+     ],"sources":["https://www.nps.gov/wrbr/index.htm"]},
+    {"name":"South Carolina","factContains":"Fort Sumter",
+     "lines":[
+       "South Carolina sits below North Carolina and northeast of Georgia. Its compact shape slopes southeast toward the Atlantic.",
+       "Its card takes us to Charleston Harbor. Confederate forces fired on Fort Sumter there in April 1861, beginning the Civil War.",
+       "Remember the Carolina pair: the longer North Carolina above, the smaller South Carolina below. Georgia is next to the southwest."
+     ],"sources":["https://www.nps.gov/articles/battle-of-fort-sumter-april-1861.htm"]},
+    {"name":"Georgia","rotateExtra":true,"factContains":"Martin Luther King",
+     "lines":[
+       "Georgia lies south of Tennessee and west of South Carolina. It reaches the Atlantic, while its wide southern border rests above Florida.",
+       "Its name honours King George the Second. The card also connects Georgia with Martin Luther King, Junior, who was born in Atlanta in 1929.",
+       "Think of Georgia as the broad state above Florida. Alabama is to its west; now follow the coast down onto the Florida peninsula."
+     ],"sources":["https://www.nps.gov/articles/featured_stories_malu.htm","https://dlg.usg.edu/record/gaarchives_adhoc_411"]},
+    {"name":"Florida","location":[-81.7,28.5],"factContains":"Everglades",
+     "transition":"Let's frame all of Florida, including its western panhandle and the peninsula stretching south between two coasts.",
+     "gestures":[{"bounds":[[-88.0,24.0],[-79.5,31.5]]}],
+     "lines":[
+       "Florida is the long peninsula below Georgia, with a panhandle extending west toward Alabama. The Atlantic lies to its east and the Gulf to its west.",
+       "Its Spanish name means flowery. The Everglades in southern Florida are often called a river of grass: a broad, shallow, slow-moving flow of water.",
+       "Remember both parts of Florida: the south-pointing peninsula and the west-reaching panhandle. The panhandle leads us toward Alabama."
+     ],"sources":["https://www.nps.gov/articles/everglades.htm"]},
+    {"name":"Alabama","rotateExtra":true,"factContains":"Huntsville",
+     "transition":"We'll move west along the Gulf Coast, studying Alabama, Mississippi and Louisiana as a connected group.",
+     "gestures":[{"bounds":[[-94.5,28.5],[-84.5,35.3]]}],
+     "lines":[
+       "Alabama sits west of Georgia and south of Tennessee. Its small coastal opening reaches the Gulf beside Florida's panhandle.",
+       "The card points north to Huntsville, nicknamed Rocket City. NASA's Marshall Space Flight Center there helped develop the Saturn rockets used for Apollo.",
+       "Keep this east-west sequence in mind: Georgia, Alabama, Mississippi. We move one state farther west next."
+     ],"sources":["https://home.nps.gov/articles/nasa-nhls.htm"]},
+    {"name":"Mississippi","factContains":"blues",
+     "lines":[
+       "Mississippi lies immediately west of Alabama, below Tennessee. Its western river border separates it from Arkansas and much of Louisiana.",
+       "Its name comes from an Indigenous expression meaning great river. The Mississippi Delta is closely associated with the origins and development of the blues.",
+       "Here the musical Delta means a region in northwestern Mississippi, not simply the river's mouth. Follow the river south toward Louisiana."
+     ],"sources":["https://www.nps.gov/locations/lowermsdeltaregion/history-and-culture-of-the-mississippi-delta-region.htm"]},
+    {"name":"Louisiana","location":[-92.3,31.2],"rotateExtra":true,"factContains":"1803",
+     "lines":[
+       "Louisiana is the boot-shaped Gulf state west of Mississippi and south of Arkansas. The Mississippi River reaches the coast through its southeastern wetlands.",
+       "The name honours Louis the Fourteenth of France. The Louisiana Purchase of 1803 covered a vast territory, much larger than today's state.",
+       "Distinguish the modern state from that historic purchase. Keep Louisiana below Arkansas, with Texas along its western side."
+     ],"sources":["https://www.sos.la.gov/HistoricalResources/PublishedDocuments/LouisianaFactsBooklet.pdf","https://www.archives.gov/milestone-documents/louisiana-purchase-treaty"]},
+    {"name":"Arkansas","factContains":"Crater of Diamonds",
+     "transition":"Now turn inland to Arkansas and Oklahoma. These belong to the Census South too, along with Texas, our final stop.",
+     "gestures":[{"bounds":[[-103.5,32.8],[-89.5,37.5]]}],
+     "lines":[
+       "Arkansas lies directly north of Louisiana and west of the Mississippi River. Oklahoma is its western neighbour; Missouri is above it.",
+       "The card links its name to the Quapaw people through French spelling. At Crater of Diamonds State Park, visitors can search for diamonds and keep their finds.",
+       "Remember Arkansas above Louisiana. Its final letter is silent, unlike Kansas, which is a different state farther northwest."
+     ],"sources":["https://www.arkansas.com/state-parks/explore/parks/crater-of-diamonds-state-park"]},
+    {"name":"Oklahoma","rotateExtra":true,"factContains":"Sooners",
+     "lines":[
+       "Oklahoma stretches west from Arkansas, directly above Texas. Notice its narrow panhandle pointing west between Kansas and Texas.",
+       "Its Choctaw-derived name means red people. The Sooner nickname recalls settlers who entered land before the official start of the 1889 land run.",
+       "Those land openings followed the dispossession of Native nations. For the map, remember Oklahoma above Texas, with Arkansas on its eastern side."
+     ],"sources":["https://www.okhistory.org/publications/enc/entry?entry=SO010","https://www.okhistory.org/publications/enc/entry?entry=LA014"]},
+    {"name":"Texas","factContains":"1836",
+     "transition":"Finally, let's give Texas a wider frame, from its northern panhandle to the Rio Grande and the Gulf Coast.",
+     "gestures":[{"bounds":[[-107.0,25.0],[-93.0,37.3]]}],
+     "lines":[
+       "Texas is the large state below Oklahoma and west of Louisiana. Its southern river border, the Rio Grande, separates it from Mexico.",
+       "The card traces its name to a Caddo word for friend or ally. Texas declared independence in 1836 and joined the United States in 1845.",
+       "Texas completes our thirteen new states. Its northern panhandle sits below Oklahoma's, while its southeastern edge reaches the Gulf."
+     ],"sources":["https://www.tsl.texas.gov/treasures/republic/index.html"]}
+  ],
+  "recapGestures":[{"bounds":[[-107.0,24.0],[-75.0,41.0]]}],
+  "recap":[
+    "Our thirteen-state route began with West Virginia, Kentucky and Tennessee, then North Carolina, South Carolina, Georgia and Florida.",
+    "Along the Gulf we added Alabama, Mississippi and Louisiana; inland and west, Arkansas, Oklahoma and Texas. Pause and trace those four groups.",
+    "Together with episode one's three Southern states, that completes the Census South. We have now taught twenty-four distinct states, with no repeats between episodes."
+  ]
+}
