@@ -32,7 +32,8 @@ export const LANGUAGES = {
 	it: { name: 'Italian', voice: 'Italian_Narrator' },
 	es: { name: 'Spanish', voice: 'Spanish_SereneWoman' },
 	fr: { name: 'French', voice: 'French_Narrator' },
-	de: { name: 'German', voice: 'German_Narrator' }
+	de: { name: 'German', voice: 'German_Narrator' },
+	zh: { name: 'Mandarin Chinese' }
 };
 
 /** The instruction that puts the agent in the right language. */

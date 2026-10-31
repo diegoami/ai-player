@@ -36,6 +36,7 @@ import { assemble } from './assemble.mjs';
 import { costReport } from './cost.mjs';
 import { COMPETENT_PERSONA, LINE_RULE, PERSONA, REASON_RULE, languageRule } from './persona.mjs';
 import { probeDuration, speak } from './narrator.mjs';
+import { narrationSettings } from './narration.mjs';
 import { askBrain, describeActions, shoot } from './vision.mjs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -65,7 +66,7 @@ export async function play(cfg, game) {
 
 	const ctx = { cfg, page, base, game };
 	ctx.persona = (game.competent ? COMPETENT_PERSONA : PERSONA) + (game.playerDescription ? `\n${game.playerDescription}` : '');
-	const trace = { game: game.name, model: cfg.model, brain: cfg.brain, lines: [], turns: [] };
+	const trace = { game: game.name, model: cfg.model, brain: cfg.brain, narration: narrationSettings(cfg), lines: [], turns: [] };
 
 	/** Says a line: generated, spoken, and timed against the video. */
 	async function say(text, kind, extra = {}) {

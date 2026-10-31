@@ -6,6 +6,7 @@ import { join, resolve } from 'node:path';
 import { chromium } from 'playwright';
 import { readConfig } from '../src/core/config.mjs';
 import { speak, probeDuration } from '../src/core/narrator.mjs';
+import { narrationSettings, speechCacheKey } from '../src/core/narration.mjs';
 import { assemble } from '../src/core/assemble.mjs';
 import { costs } from '../src/core/cost.mjs';
 
@@ -22,7 +23,7 @@ const segments = [
 // Synthesize before recording so network delays don't become empty footage.
 for (let i = 0; i < segments.length; i++) {
   const segment = segments[i];
-  segment.file = `lesson-${String(i).padStart(2, '0')}.mp3`;
+  segment.file = `lesson-${String(i).padStart(2, '0')}-${speechCacheKey(cfg,segment.text)}.mp3`;
   const path = join(cfg.dir, 'clips', segment.file);
   segment.duration = existsSync(path) ? probeDuration(path) : await speak(cfg, segment.text, segment.file);
   console.log(`Prepared ${i + 1}/${segments.length}: ${segment.state ?? segment.kind}`);
@@ -37,7 +38,7 @@ const context = await browser.newContext({
 const t0 = Date.now();
 const page = await context.newPage();
 const at = () => (Date.now() - t0) / 1000;
-const trace = { game: 'geoclick', mode: 'Known', lesson: lesson.title, manualUrl: `${base}/manual`, lines: [], turns: [] };
+const trace = { game: 'geoclick', mode: 'Known', lesson: lesson.title, narration: narrationSettings(cfg), manualUrl: `${base}/manual`, lines: [], turns: [] };
 let trimStart;
 try {
   await page.goto(`${base}/manual`);

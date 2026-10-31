@@ -3,10 +3,10 @@
 // Unlike play.mjs this is an authored lesson, not a scored model-driven quiz.
 import { readFileSync, writeFileSync, existsSync, copyFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
-import { createHash } from 'node:crypto';
 import { chromium } from 'playwright';
 import { readConfig } from '../src/core/config.mjs';
 import { speak, probeDuration } from '../src/core/narrator.mjs';
+import { canReuseSpeech, narrationSettings, speechCacheKey } from '../src/core/narration.mjs';
 import { assemble } from '../src/core/assemble.mjs';
 import { costs } from '../src/core/cost.mjs';
 import { lessonLayout, gesture, status, verifyUncovered, attachCamera, statePoint } from '../src/core/geoclick-lesson-ui.mjs';
@@ -22,7 +22,8 @@ if(repeated.length)throw Error(`States already covered: ${repeated.map(s=>s.name
 if(new Set(lesson.states.map(s=>s.name)).size!==lesson.states.length)throw Error('Duplicate state within lesson');
 const inspect = process.argv.includes('--inspect');
 const audioCacheDir=process.argv.find(a=>a.startsWith('--audio-cache='))?.slice(14);
-const cachedLines=audioCacheDir?JSON.parse(readFileSync(join(audioCacheDir,'trace.json'),'utf8')).lines:[];
+const cachedTrace=audioCacheDir?JSON.parse(readFileSync(join(audioCacheDir,'trace.json'),'utf8')):null;
+const cachedLines=canReuseSpeech(cachedTrace,cfg)?cachedTrace.lines:[];
 const base = cfg.base || new URL(lesson.url).origin;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const segments = [
@@ -37,7 +38,7 @@ const segments = [
 // Synthesize before recording so network delays don't become empty footage.
 for (let i = 0; i < segments.length; i++) {
   const segment = segments[i];
-  const textHash=createHash('sha256').update(segment.text).digest('hex').slice(0,10);
+  const textHash=speechCacheKey(cfg,segment.text);
   segment.file = `lesson-${String(i).padStart(2, '0')}-${textHash}.mp3`;
   const path = join(cfg.dir, 'clips', segment.file);
   const cached=cachedLines.find(line=>line.text===segment.text);
@@ -58,7 +59,7 @@ const context = await browser.newContext({
 const t0 = Date.now();
 const page = await context.newPage();
 const at = () => (Date.now() - t0) / 1000;
-const trace = { game: 'geoclick', mode: 'Known', lesson: lesson.title, manualUrl: `${base}/manual`, lines: [], turns: [] };
+const trace = { game: 'geoclick', mode: 'Known', lesson: lesson.title, narration: narrationSettings(cfg), manualUrl: `${base}/manual`, lines: [], turns: [] };
 let trimStart;
 try {
   await page.goto(`${base}/manual`);

@@ -8,6 +8,7 @@ import { existsSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { addSpeech } from './cost.mjs';
 import { loadKeys } from './keys.mjs';
+import { narrationSettings } from './narration.mjs';
 
 /** Sends a line to a voice provider and writes an mp3. Returns its duration. */
 export async function speak(cfg, text, file) {
@@ -31,7 +32,7 @@ async function minimaxTts(cfg, text, target) {
 		method: 'POST',
 		headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
 		body: JSON.stringify({
-			model: process.env.AI_PLAYER_SPEECH_MODEL ?? 'speech-02-hd',
+			model: narrationSettings(cfg).model,
 			text,
 			stream: false,
 			voice_setting: { voice_id: cfg.voice, speed: 1, vol: 1, pitch: 0 },
