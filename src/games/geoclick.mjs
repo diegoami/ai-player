@@ -9,11 +9,14 @@
 // the place, and that popup carries a `revealed` class when the answer was
 // wrong.
 import { join } from 'node:path';
+import { existsSync, realpathSync } from 'node:fs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /** Where the Geoclick checkout is. */
-const CHECKOUT = process.env.GEOCLICK_PATH ?? join(process.cwd(), '..', 'Geoclick2027');
+const checkout = process.env.GEOCLICK_PATH ?? join(process.cwd(), '..', 'Geoclick2027');
+// Vite must use the physical root when Windows projects live behind a junction.
+const CHECKOUT = existsSync(checkout) ? realpathSync(checkout) : checkout;
 const PORT = process.env.GEOCLICK_PORT ?? '5199';
 
 export default {

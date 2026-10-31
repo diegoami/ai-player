@@ -1,14 +1,7 @@
 // The knobs, from the command line and the environment.
 import { mkdirSync } from 'node:fs';
-import { join } from 'node:path';
-import { LANGUAGES } from './persona.mjs';
-
-/** The default voice of each provider. */
-const VOICES = {
-	minimax: 'English_expressive_narrator',
-	elevenlabs: '21m00Tcm4TlvDq8ikWAM',
-	edge: 'en-GB-SoniaNeural'
-};
+import { join, resolve } from 'node:path';
+import { defaultVoice } from './narration.mjs';
 
 /** The default brain of each provider. */
 const BRAINS = {
@@ -43,8 +36,8 @@ export function readConfig(argv = process.argv.slice(2)) {
 	if (out.voiceProvider === 'auto') out.voiceProvider = 'minimax';
 	// The voice follows the language unless one is named.
 	if (!out.voice)
-		out.voice = LANGUAGES[out.lang]?.voice ?? VOICES[out.voiceProvider] ?? VOICES.edge;
-	out.dir = join(process.cwd(), out.out, out.game);
+		out.voice = defaultVoice(out.voiceProvider, out.lang);
+	out.dir = resolve(out.out, out.game);
 	mkdirSync(join(out.dir, 'clips'), { recursive: true });
 	mkdirSync(join(out.dir, 'video'), { recursive: true });
 	return out;

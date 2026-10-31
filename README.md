@@ -112,11 +112,67 @@ Alaska and Hawaii use labelled supplemental Natural Earth maps because the
 local GeoClick USA map omits them. The four canonical episodes cover all 50
 states once; the ledger records the verified videos and upload packages.
 
-For the observed human-play demonstration, timed third-person commentary is
-in `src/lessons/human-geoclick-commentary.json`. Run
-`node bin/narrate-recording.mjs` to recreate the clean narrated copy from the
-user-supplied Bandicam source. The source recording is preserved; optional
-caption translations use the matching `.subtitles.json` file.
+The preferred human-play replay uses the 49 named memory hooks in
+`src/lessons/human-state-hooks.json` and the verified placement timings in
+`src/lessons/data/human-placement-events.json`. After restoring the original
+Bandicam source referenced by that plan, render a new copy with:
+
+```powershell
+node bin/narrate-state-hooks.mjs --out=rendered/human-state-hooks-new-voice
+```
+
+This uses John for English narration and preserves the source recording.
+The old generic commentary and `bin/narrate-recording.mjs` are superseded;
+use the state-specific hooks for new human replays. Optional captions use
+`human-state-hooks.subtitles.json` and stay separate from the clean master.
+
+## Narrator choices
+
+New MiniMax narration uses the accepted voices recorded in
+`src/lessons/narrator-voices.json`: John for English, and the Italian-recorded
+clone for Italian, German, French and Mandarin (`--lang=zh`). An explicit
+`--voice=ID` overrides the default. Prepared English lessons and the human
+replay retain their English text; a voice/language flag does not translate an
+authored script.
+
+Use a new output folder when changing a narrator. Speech filenames include
+text, language, provider, voice and speech model, so an old stock-voice clip
+cannot silently substitute for the accepted voice. `--audio-cache` reuse also
+requires matching narrator metadata in the saved trace. Older traces without
+that metadata are not reused automatically. Existing videos are not regenerated.
+
+## Windows runtime setup
+
+Use native Windows Node 24/npm, then install the committed dependencies:
+
+```powershell
+npm ci
+npx playwright install chromium
+Get-Command ffmpeg,ffprobe
+```
+
+Install FFmpeg/FFprobe separately if either command is absent. Put the MiniMax
+key for the account owning the accepted voices in `~/.config/ai-keys.env`.
+The key for narration must have speech access; a working model connection
+alone does not verify voice access. OpenRouter and ElevenLabs are optional.
+
+The sibling games need their own `npm ci`. Run GeoClick from
+`../Geoclick2027` with `npm run dev` (port 5187), and Malpaco from
+`../malpaco` with `npm run dev` (port 5173), in separate terminals. From this
+checkout, a silent GeoClick teaching preflight is:
+
+```powershell
+node bin/geoclick-lesson.mjs --game=geoclick --base=http://127.0.0.1:5187 --inspect --out=rendered/geoclick-preflight
+```
+
+Use `--base=http://127.0.0.1:5173/` for the Malpaco adapter. Always verify the
+app behind a URL: the two games must not share the same port. On a Windows
+`projects` junction, start GeoClick from its physical path
+(on Leopard, `H:\projects\Geoclick2027`) so Vite's allowed paths match its
+generated files. The quiz adapter resolves this path automatically.
+Runtime setup does not restore ignored media; rebuilding the existing human replay still
+requires its original Bandicam recording. Run `npm test` for offline narrator
+selection and speech-cache checks.
 
 ## Adding a game
 
@@ -188,7 +244,7 @@ project.
 | `--brain=` | `minimax` | `minimax` or `openrouter` |
 | `--model=` | per brain | The model that looks at the screen |
 | `--mistakes=` | `0.4` | How often the agent chooses its second choice; disabled for Malpaco |
-| `--lang=` | `en` | The language the narrator speaks. `en`, `it`, `es`, `fr`, `de` |
+| `--lang=` | `en` | The language the narrator speaks. `en`, `it`, `es`, `fr`, `de`, `zh` |
 | `--voice=` | per language | The narrator's voice |
 | `--voice-provider=` | `minimax` | `minimax`, `elevenlabs` or `edge` |
 | `--base=` | none | Drive a game that is already running |

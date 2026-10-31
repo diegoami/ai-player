@@ -469,9 +469,13 @@ The API lists blank names. John's identity is inferred from the only new ID
 appearing after the user created/replaced the Diego2 slot and named it John;
 the user then listened to and accepted that ID's generated sample.
 
-Existing lesson/replay scripts still explicitly select the stock narrator.
-These accepted choices are recorded for future narration; no existing video
-has been regenerated with them. Earlier Diego2 metadata is historical.
+New lesson/replay narration defaults to these accepted choices. Explicit
+`--voice=ID` still wins. No existing video has been regenerated; earlier Diego2
+metadata and stock-voice exports remain historical. Use a new output folder
+for a narrator change (`narrate-state-hooks.mjs` now accepts `--out=...`).
+Speech filenames and saved traces include the narrator identity; imported
+audio caches must match provider, voice, language and speech model. Older
+traces without that identity are not reused automatically.
 
 Earlier samples had a user-reported recurring sound like "new" between
 sentences, across languages. The exact cause was not established. Scripts

@@ -21,5 +21,5 @@
       "assessment": "User liked these languages; English excessively accented"
     }
   },
-  "note": "Preference metadata; existing render scripts still select the stock narrator explicitly."
+  "note": "Defaults for new MiniMax narration; an explicit --voice choice takes precedence. Existing media is unchanged."
 }

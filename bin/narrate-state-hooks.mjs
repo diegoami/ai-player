@@ -3,14 +3,14 @@
 // Short replay holds give fast placements enough time for their memory hook.
 import {readFileSync,writeFileSync,mkdirSync,existsSync,copyFileSync} from 'node:fs';
 import {resolve,join} from 'node:path';
-import {createHash} from 'node:crypto';
 import {speak,probeDuration} from '../src/core/narrator.mjs';
+import {defaultVoice,narrationSettings,speechCacheKey} from '../src/core/narration.mjs';
 import {assemble} from '../src/core/assemble.mjs';
 const plan=JSON.parse(readFileSync('src/lessons/human-state-hooks.json','utf8'));
 const eventsFile=existsSync(plan.eventsFile)?plan.eventsFile:'src/lessons/data/human-placement-events.json';
 const events=JSON.parse(readFileSync(eventsFile,'utf8'));
-const dir=resolve('rendered/human-state-hooks-20261030');mkdirSync(join(dir,'clips'),{recursive:true});
-const cfg={dir,lang:'en',voiceProvider:'minimax',voice:'English_expressive_narrator'};
+const dir=resolve(process.argv.find(a=>a.startsWith('--out='))?.slice(6)??'rendered/human-state-hooks-20261030');mkdirSync(join(dir,'clips'),{recursive:true});
+const cfg={dir,lang:'en',voiceProvider:'minimax',voice:process.argv.find(a=>a.startsWith('--voice='))?.slice(8)??defaultVoice('minimax','en')};
 if(events.length!==49||new Set(events.map(e=>e.state)).size!==49||events.some(e=>!plan.hooks[e.state]))throw Error('Need exactly 49 verified target hooks');
 if(Math.abs(probeDuration(plan.sourceVideo)-plan.sourceDuration)>.1)throw Error('Source changed');
 const cues=[{state:null,sourceStart:1,holdAt:6.5,text:plan.opening},
@@ -21,7 +21,7 @@ const lessonFiles=['usa-episode-01-northeast.json','usa-episode-02-south.json','
 const lessonIndex=new Map();
 for(const file of lessonFiles){for(const state of JSON.parse(readFileSync(join('src/lessons',file),'utf8')).states)lessonIndex.set(state.name,{file,lines:state.lines});}
 for(let i=0;i<cues.length;i++){
- const cue=cues[i],hash=createHash('sha256').update(cue.text).digest('hex').slice(0,10);
+ const cue=cues[i],hash=speechCacheKey(cfg,cue.text);
  cue.file=`hook-${String(i).padStart(2,'0')}-${hash}.mp3`;const path=join(dir,'clips',cue.file);
  cue.duration=existsSync(path)?probeDuration(path):await speak(cfg,cue.text,cue.file);
  const available=(cues[i+1]?.sourceStart??plan.sourceDuration)-cue.sourceStart;
@@ -32,7 +32,7 @@ for(let i=0;i<cues.length;i++){
  console.log(`${i+1}/${cues.length} ${cue.state??'Context'}: ${cue.duration.toFixed(2)}s, hold ${cue.holdSeconds.toFixed(2)}s`);
 }
 const shifted=t=>t+holds.filter(h=>h.at<=t).reduce((sum,h)=>sum+h.duration,0);
-const trace={game:'geoclick-human-state-hooks',mode:'educational replay with declared memory-hook holds',video:resolve(plan.sourceVideo),trimStart:0,lines:[],turns:[],holds,result:{correctFirstTry:49,targets:49,mistakes:0},sourceDuration:plan.sourceDuration};
+const trace={game:'geoclick-human-state-hooks',mode:'educational replay with declared memory-hook holds',narration:narrationSettings(cfg),video:resolve(plan.sourceVideo),trimStart:0,lines:[],turns:[],holds,result:{correctFirstTry:49,targets:49,mistakes:0},sourceDuration:plan.sourceDuration};
 for(const cue of cues){
  const start=shifted(cue.sourceStart),end=start+cue.duration;
  trace.lines.push({start,end,text:cue.text,file:cue.file,kind:cue.state?'state-hook':'context',state:cue.state,sourceStart:cue.sourceStart});

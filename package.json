@@ -8,6 +8,7 @@
 		"ai-player": "bin/play.mjs"
 	},
 	"scripts": {
+		"test": "node --test",
 		"play": "node bin/play.mjs",
 		"games": "node bin/play.mjs --list"
 	},
