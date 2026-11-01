@@ -48,6 +48,12 @@ The workflow lock prevents concurrent invocations of the migrated entrypoint.
 
 ## Authority and retained files
 
+Versioned English subtitle backups for all 18 current US, Europe and Asia
+episodes are in [subtitles/](../subtitles/README.md). Its manifest maps exact
+caption bytes to canonical masters and the eleven known YouTube IDs. These
+backups do not replace the original queue caption inputs or checkpoints;
+Asia remains an offline preparation.
+
 These remain the original operational authorities; do not move or regenerate them:
 
 | Authority | Location |

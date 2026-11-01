@@ -1,0 +1,421 @@
+{
+  "schema": "ai-player.subtitle-backup.v1",
+  "edition": "2026-11-01",
+  "note": "Exact caption bytes from approved canonical masters. Video IDs indicate known uploads, not visibility or caption installation. Asia remains offline; no upload authorization is implied.",
+  "episodes": [
+    {
+      "series": "usa",
+      "episode": 1,
+      "id": "northeast",
+      "ledger": "src/lessons/usa-five-video-coverage.json",
+      "master": "rendered/usa-five-20261101/01-northeast/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "Ee6KhuqvxJU",
+      "files": [
+        {
+          "path": "subtitles/usa/01-northeast/subtitles.en.srt",
+          "source": "rendered/usa-five-20261101/01-northeast/geoclick/subtitles.en.srt",
+          "bytes": 5980,
+          "sha256": "4f56046e06f84d8481404f49a85747edc815a1180e5ed9b4cd187d039223138b"
+        },
+        {
+          "path": "subtitles/usa/01-northeast/subtitles.en.vtt",
+          "source": "rendered/usa-five-20261101/01-northeast/geoclick/subtitles.en.vtt",
+          "bytes": 7788,
+          "sha256": "6742e1700410e4260e67ffbd6985fb302c80f4c08ce5c71c6ad9cbf20dbb636f"
+        }
+      ]
+    },
+    {
+      "series": "usa",
+      "episode": 2,
+      "id": "south-atlantic",
+      "ledger": "src/lessons/usa-five-video-coverage.json",
+      "master": "rendered/usa-five-20261101/02-south-atlantic/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "NGqNJIwxL28",
+      "files": [
+        {
+          "path": "subtitles/usa/02-south-atlantic/subtitles.en.srt",
+          "source": "rendered/usa-five-20261101/02-south-atlantic/geoclick/subtitles.en.srt",
+          "bytes": 5772,
+          "sha256": "fc52d81cb4c5986df6e4a55f3222e241108bbbdd1e30d61e95477daaa7fd7b8a"
+        },
+        {
+          "path": "subtitles/usa/02-south-atlantic/subtitles.en.vtt",
+          "source": "rendered/usa-five-20261101/02-south-atlantic/geoclick/subtitles.en.vtt",
+          "bytes": 7480,
+          "sha256": "274fdc2b5f6464b549f1faef902a16c5b51e3702d8943780f17983dabecacedf"
+        }
+      ]
+    },
+    {
+      "series": "usa",
+      "episode": 3,
+      "id": "south-central",
+      "ledger": "src/lessons/usa-five-video-coverage.json",
+      "master": "rendered/usa-five-20261101/03-south-central/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "aCTntZyZ508",
+      "files": [
+        {
+          "path": "subtitles/usa/03-south-central/subtitles.en.srt",
+          "source": "rendered/usa-five-20261101/03-south-central/geoclick/subtitles.en.srt",
+          "bytes": 5362,
+          "sha256": "8f8ec2a203d98326fdba92ce603177bef87218a4404acd8510f9f448a6b3354d"
+        },
+        {
+          "path": "subtitles/usa/03-south-central/subtitles.en.vtt",
+          "source": "rendered/usa-five-20261101/03-south-central/geoclick/subtitles.en.vtt",
+          "bytes": 6970,
+          "sha256": "bd6f0b647d4068c8a23cfff2b58da0fa8aa52e24d779d8a90174a5b4ff522a19"
+        }
+      ]
+    },
+    {
+      "series": "usa",
+      "episode": 4,
+      "id": "midwest",
+      "ledger": "src/lessons/usa-five-video-coverage.json",
+      "master": "rendered/usa-five-20261101/04-midwest/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "G_6nYAsJLpk",
+      "files": [
+        {
+          "path": "subtitles/usa/04-midwest/subtitles.en.srt",
+          "source": "rendered/usa-five-20261101/04-midwest/geoclick/subtitles.en.srt",
+          "bytes": 8075,
+          "sha256": "013766b33862f5077c1ffdc1e03bc4a594822717f205b43c0877dc04d6a9423c"
+        },
+        {
+          "path": "subtitles/usa/04-midwest/subtitles.en.vtt",
+          "source": "rendered/usa-five-20261101/04-midwest/geoclick/subtitles.en.vtt",
+          "bytes": 10433,
+          "sha256": "e9c2d17f618e27cd9e788297b0fb582d343d684c934472dad587c3d79e84d016"
+        }
+      ]
+    },
+    {
+      "series": "usa",
+      "episode": 5,
+      "id": "west",
+      "ledger": "src/lessons/usa-five-video-coverage.json",
+      "master": "rendered/usa-five-20261101/05-west/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "84VFIjTlTn4",
+      "files": [
+        {
+          "path": "subtitles/usa/05-west/subtitles.en.srt",
+          "source": "rendered/usa-five-20261101/05-west/geoclick/subtitles.en.srt",
+          "bytes": 7064,
+          "sha256": "c94d68e157da08a1fbfe3153fccb39ef21fa0a0a638f42bf9ef7024273b6b006"
+        },
+        {
+          "path": "subtitles/usa/05-west/subtitles.en.vtt",
+          "source": "rendered/usa-five-20261101/05-west/geoclick/subtitles.en.vtt",
+          "bytes": 9172,
+          "sha256": "07fab80836a30d60a3e894ba83391fe03d18f81128cbe9629cc9e2275c7ae919"
+        }
+      ]
+    },
+    {
+      "series": "europe",
+      "episode": 1,
+      "id": "north-atlantic-nordics",
+      "ledger": "src/lessons/europe-coverage.json",
+      "master": "rendered/europe-six-20261101/01-north-atlantic-nordics/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "mfVopBILw2k",
+      "files": [
+        {
+          "path": "subtitles/europe/01-north-atlantic-nordics/subtitles.en.srt",
+          "source": "rendered/europe-six-20261101/01-north-atlantic-nordics/geoclick/subtitles.en.srt",
+          "bytes": 5158,
+          "sha256": "1d497caeb9587c3345384bfdb82bd223e15f42868be93ec6f10ff30367e32264"
+        },
+        {
+          "path": "subtitles/europe/01-north-atlantic-nordics/subtitles.en.vtt",
+          "source": "rendered/europe-six-20261101/01-north-atlantic-nordics/geoclick/subtitles.en.vtt",
+          "bytes": 6616,
+          "sha256": "78acfb2b82550a1f52f8ffbf20f9a633b07902f8d67d4f6c0517f2a844c1de58"
+        }
+      ]
+    },
+    {
+      "series": "europe",
+      "episode": 2,
+      "id": "western-europe",
+      "ledger": "src/lessons/europe-coverage.json",
+      "master": "rendered/europe-six-20261101/02-western-europe-refined/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "qmDUrxDDU38",
+      "files": [
+        {
+          "path": "subtitles/europe/02-western-europe/subtitles.en.srt",
+          "source": "rendered/europe-six-20261101/02-western-europe-refined/geoclick/subtitles.en.srt",
+          "bytes": 4017,
+          "sha256": "d9f88f3856e32d29755c3b0db135acb307f654bfeeab0e09b09e13e5383c0868"
+        },
+        {
+          "path": "subtitles/europe/02-western-europe/subtitles.en.vtt",
+          "source": "rendered/europe-six-20261101/02-western-europe-refined/geoclick/subtitles.en.vtt",
+          "bytes": 5175,
+          "sha256": "dad33e7de1f5e100f9a39f4bede301de3e9ada3fa4a95defb7ef729109eae424"
+        }
+      ]
+    },
+    {
+      "series": "europe",
+      "episode": 3,
+      "id": "central-europe",
+      "ledger": "src/lessons/europe-coverage.json",
+      "master": "rendered/europe-six-20261101/03-central-europe/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "vcu28JSsDjw",
+      "files": [
+        {
+          "path": "subtitles/europe/03-central-europe/subtitles.en.srt",
+          "source": "rendered/europe-six-20261101/03-central-europe/geoclick/subtitles.en.srt",
+          "bytes": 5830,
+          "sha256": "765ca19a6c24d92dfd1c9fe76577777c374013cb0f597b0584f5bfc36d016a14"
+        },
+        {
+          "path": "subtitles/europe/03-central-europe/subtitles.en.vtt",
+          "source": "rendered/europe-six-20261101/03-central-europe/geoclick/subtitles.en.vtt",
+          "bytes": 7488,
+          "sha256": "9c30c6ec69c535fc54acf7878c46e1862c3067953f1b4ad9c68755b9ae32d516"
+        }
+      ]
+    },
+    {
+      "series": "europe",
+      "episode": 4,
+      "id": "iberia-mediterranean",
+      "ledger": "src/lessons/europe-coverage.json",
+      "master": "rendered/europe-six-20261101/04-iberia-mediterranean-refined/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "YqDRmhKatpU",
+      "files": [
+        {
+          "path": "subtitles/europe/04-iberia-mediterranean/subtitles.en.srt",
+          "source": "rendered/europe-six-20261101/04-iberia-mediterranean-refined/geoclick/subtitles.en.srt",
+          "bytes": 5577,
+          "sha256": "8920a7a9d2e5bc82bf7f111bfd6b76d382539c59c1cedb3e2c24c913778ddeb2"
+        },
+        {
+          "path": "subtitles/europe/04-iberia-mediterranean/subtitles.en.vtt",
+          "source": "rendered/europe-six-20261101/04-iberia-mediterranean-refined/geoclick/subtitles.en.vtt",
+          "bytes": 7185,
+          "sha256": "918907c13ed9d8ece62a114de914cfa610f2136287dce25d6d61c0534b9e119e"
+        }
+      ]
+    },
+    {
+      "series": "europe",
+      "episode": 5,
+      "id": "balkans-greece",
+      "ledger": "src/lessons/europe-coverage.json",
+      "master": "rendered/europe-six-20261101/05-balkans-greece/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "Ak77mm3gWLE",
+      "files": [
+        {
+          "path": "subtitles/europe/05-balkans-greece/subtitles.en.srt",
+          "source": "rendered/europe-six-20261101/05-balkans-greece/geoclick/subtitles.en.srt",
+          "bytes": 6255,
+          "sha256": "456310bf3dd25ebdd86a3b51c0509433f375ab6426a7c8231cff28fee51096fe"
+        },
+        {
+          "path": "subtitles/europe/05-balkans-greece/subtitles.en.vtt",
+          "source": "rendered/europe-six-20261101/05-balkans-greece/geoclick/subtitles.en.vtt",
+          "bytes": 7963,
+          "sha256": "766b076b745daf99b0f8b19a9f948eb4779dfabcc12c6302f65e232643197725"
+        }
+      ]
+    },
+    {
+      "series": "europe",
+      "episode": 6,
+      "id": "baltic-eastern-europe",
+      "ledger": "src/lessons/europe-coverage.json",
+      "master": "rendered/europe-six-20261101/06-baltic-eastern-europe/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "XjTQCS8WNEc",
+      "files": [
+        {
+          "path": "subtitles/europe/06-baltic-eastern-europe/subtitles.en.srt",
+          "source": "rendered/europe-six-20261101/06-baltic-eastern-europe/geoclick/subtitles.en.srt",
+          "bytes": 6659,
+          "sha256": "9ac0d348893e1b2d77c41e0515a9a84d7a563d37ea6bd66609465fecf24d4dfa"
+        },
+        {
+          "path": "subtitles/europe/06-baltic-eastern-europe/subtitles.en.vtt",
+          "source": "rendered/europe-six-20261101/06-baltic-eastern-europe/geoclick/subtitles.en.vtt",
+          "bytes": 8467,
+          "sha256": "a50d0aa38930653c765ffc79578aa3de3371632fa5c2289d8b36156a3a97c492"
+        }
+      ]
+    },
+    {
+      "series": "asia",
+      "episode": 1,
+      "id": "turkiye-cyprus-caucasus",
+      "ledger": "src/lessons/asia-coverage.json",
+      "master": "rendered/asia-seven-20261101/01-turkiye-cyprus-caucasus-refined/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/asia/01-turkiye-cyprus-caucasus/subtitles.en.srt",
+          "source": "rendered/asia-seven-20261101/01-turkiye-cyprus-caucasus-refined/geoclick/subtitles.en.srt",
+          "bytes": 4051,
+          "sha256": "0cad0c4bd06781d03ef25dc0e751df9d4978e815106d0da5d1253c14891b0f00"
+        },
+        {
+          "path": "subtitles/asia/01-turkiye-cyprus-caucasus/subtitles.en.vtt",
+          "source": "rendered/asia-seven-20261101/01-turkiye-cyprus-caucasus-refined/geoclick/subtitles.en.vtt",
+          "bytes": 5159,
+          "sha256": "d75600860ef47939d3d508c83d57992c7a5dafe11de8d6a9467402c9942c3cbe"
+        }
+      ]
+    },
+    {
+      "series": "asia",
+      "episode": 2,
+      "id": "levant-mesopotamia",
+      "ledger": "src/lessons/asia-coverage.json",
+      "master": "rendered/asia-seven-20261101/02-levant-mesopotamia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/asia/02-levant-mesopotamia/subtitles.en.srt",
+          "source": "rendered/asia-seven-20261101/02-levant-mesopotamia/geoclick/subtitles.en.srt",
+          "bytes": 5355,
+          "sha256": "f0eba6364f4c3940ac30a2f91048d811ee5f2df6ccefad1e25df2a5be9d1c1b2"
+        },
+        {
+          "path": "subtitles/asia/02-levant-mesopotamia/subtitles.en.vtt",
+          "source": "rendered/asia-seven-20261101/02-levant-mesopotamia/geoclick/subtitles.en.vtt",
+          "bytes": 6813,
+          "sha256": "b559a45ceded6a280c49ba1bdb113510331d215088a15ef229e0952c80c12ad6"
+        }
+      ]
+    },
+    {
+      "series": "asia",
+      "episode": 3,
+      "id": "arabian-peninsula",
+      "ledger": "src/lessons/asia-coverage.json",
+      "master": "rendered/asia-seven-20261101/03-arabian-peninsula/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/asia/03-arabian-peninsula/subtitles.en.srt",
+          "source": "rendered/asia-seven-20261101/03-arabian-peninsula/geoclick/subtitles.en.srt",
+          "bytes": 5464,
+          "sha256": "d9ad02029f49d5aca9a9f421c1a4119db122ecba98c469c29229e8e7158859c7"
+        },
+        {
+          "path": "subtitles/asia/03-arabian-peninsula/subtitles.en.vtt",
+          "source": "rendered/asia-seven-20261101/03-arabian-peninsula/geoclick/subtitles.en.vtt",
+          "bytes": 7022,
+          "sha256": "41d60cee94133b079ebd6f044b00701d2e5544a99936c3eb41ee08dcd05a755f"
+        }
+      ]
+    },
+    {
+      "series": "asia",
+      "episode": 4,
+      "id": "central-asia-afghanistan",
+      "ledger": "src/lessons/asia-coverage.json",
+      "master": "rendered/asia-seven-20261101/04-central-asia-afghanistan/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/asia/04-central-asia-afghanistan/subtitles.en.srt",
+          "source": "rendered/asia-seven-20261101/04-central-asia-afghanistan/geoclick/subtitles.en.srt",
+          "bytes": 4567,
+          "sha256": "9d9cf8034b839cde7d015bba8019af16930a4dc83dcf29478d88ead21dd6fd72"
+        },
+        {
+          "path": "subtitles/asia/04-central-asia-afghanistan/subtitles.en.vtt",
+          "source": "rendered/asia-seven-20261101/04-central-asia-afghanistan/geoclick/subtitles.en.vtt",
+          "bytes": 5825,
+          "sha256": "e142997c1f4f2782ba513d6bb07fc0983536f9c04f92bf4d1025c606cc4cfb3f"
+        }
+      ]
+    },
+    {
+      "series": "asia",
+      "episode": 5,
+      "id": "south-asia",
+      "ledger": "src/lessons/asia-coverage.json",
+      "master": "rendered/asia-seven-20261101/05-south-asia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/asia/05-south-asia/subtitles.en.srt",
+          "source": "rendered/asia-seven-20261101/05-south-asia/geoclick/subtitles.en.srt",
+          "bytes": 5510,
+          "sha256": "40e4abfe8654fc3adfaa546f3489d4612ab81956857840c97ac0977735685bcd"
+        },
+        {
+          "path": "subtitles/asia/05-south-asia/subtitles.en.vtt",
+          "source": "rendered/asia-seven-20261101/05-south-asia/geoclick/subtitles.en.vtt",
+          "bytes": 7068,
+          "sha256": "1073abd7697a2102f3404801473d695fc5e1c79113a598e770be8e1e783806ab"
+        }
+      ]
+    },
+    {
+      "series": "asia",
+      "episode": 6,
+      "id": "east-asia",
+      "ledger": "src/lessons/asia-coverage.json",
+      "master": "rendered/asia-seven-20261101/06-east-asia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/asia/06-east-asia/subtitles.en.srt",
+          "source": "rendered/asia-seven-20261101/06-east-asia/geoclick/subtitles.en.srt",
+          "bytes": 4935,
+          "sha256": "dd791c2803bc1cfd601f9a0bb0137b0b2f0129e3ec06cbe7f6e2392e1423e3a2"
+        },
+        {
+          "path": "subtitles/asia/06-east-asia/subtitles.en.vtt",
+          "source": "rendered/asia-seven-20261101/06-east-asia/geoclick/subtitles.en.vtt",
+          "bytes": 6293,
+          "sha256": "795dc75833555f176b790b685a1068f9b32e0a6210122649d675dd859480cc43"
+        }
+      ]
+    },
+    {
+      "series": "asia",
+      "episode": 7,
+      "id": "southeast-asia",
+      "ledger": "src/lessons/asia-coverage.json",
+      "master": "rendered/asia-seven-20261101/07-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/asia/07-southeast-asia/subtitles.en.srt",
+          "source": "rendered/asia-seven-20261101/07-southeast-asia/geoclick/subtitles.en.srt",
+          "bytes": 8475,
+          "sha256": "2649b70934471c1ec2115b67fbbd7472a9d45615b6480007265066ddbc560ab3"
+        },
+        {
+          "path": "subtitles/asia/07-southeast-asia/subtitles.en.vtt",
+          "source": "rendered/asia-seven-20261101/07-southeast-asia/geoclick/subtitles.en.vtt",
+          "bytes": 10783,
+          "sha256": "c40cb5a88a8a7428f7776566e219115e6c06c2ee0a4e345d8b063d0cc711751f"
+        }
+      ]
+    }
+  ]
+}

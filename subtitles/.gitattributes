@@ -1,0 +1,3 @@
+# Preserve exact caption bytes and publishing fingerprints across platforms.
+*.srt -text
+*.vtt -text
