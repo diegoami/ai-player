@@ -1,0 +1,477 @@
+{
+  "title": "Asia 3 of 7 · Arabian Peninsula",
+  "edition": "Asia countries · Seven regional lessons · John · November 2026",
+  "mapId": "asia-countries",
+  "area": "Asia",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/asia-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      33,
+      11
+    ],
+    [
+      61,
+      33
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Saudi Arabia",
+      "location": [
+        45,
+        24
+      ],
+      "bounds": [
+        [
+          33,
+          11
+        ],
+        [
+          61,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "Yemen",
+      "location": [
+        47.5,
+        15.5
+      ],
+      "bounds": [
+        [
+          41,
+          11
+        ],
+        [
+          61,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "Oman",
+      "location": [
+        56.5,
+        21.5
+      ],
+      "bounds": [
+        [
+          41,
+          11
+        ],
+        [
+          61,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "location": [
+        54.3,
+        24
+      ],
+      "bounds": [
+        [
+          45,
+          23
+        ],
+        [
+          57,
+          31.5
+        ]
+      ]
+    },
+    {
+      "name": "Qatar",
+      "location": [
+        51.2,
+        25.3
+      ],
+      "bounds": [
+        [
+          49.8,
+          24
+        ],
+        [
+          52.5,
+          27.1
+        ]
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "location": [
+        47.5,
+        29.3
+      ],
+      "bounds": [
+        [
+          45,
+          23
+        ],
+        [
+          57,
+          31.5
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Asia episode three of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "We circle Arabia through seven countries: Saudi Arabia, Yemen, Oman, the United Arab Emirates, Qatar, Bahrain and Kuwait. Bahrain uses a labelled supplemental map because GeoClick omits it."
+  ],
+  "states": [
+    {
+      "name": "Saudi Arabia",
+      "location": [
+        45,
+        24
+      ],
+      "lines": [
+        "Saudi Arabia fills most of the Arabian Peninsula, between the Red Sea and the Gulf. Jordan and Iraq are north, Yemen south, and Oman toward the southeast.",
+        "Hegra preserves monumental rock-cut tombs made by the Nabataeans, the same civilisation associated with Petra. Desert routes linked these places across modern borders.",
+        "Remember the peninsula’s large central country, with Hegra’s carved tombs as the hook. The smaller Gulf countries cluster along its eastern side."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1293/"
+      ],
+      "cameraBounds": [
+        [
+          33,
+          11
+        ],
+        [
+          61,
+          33
+        ]
+      ],
+      "transition": "Let's bring Saudi Arabia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              33,
+              11
+            ],
+            [
+              61,
+              33
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yemen",
+      "location": [
+        47.5,
+        15.5
+      ],
+      "lines": [
+        "Yemen occupies the southwestern corner of Arabia, below Saudi Arabia and west of Oman. Its shores face the Red Sea and the Gulf of Aden.",
+        "Old Sana’a is famous for tall traditional tower houses in a mountain valley. Several-storey earthen buildings make an unexpected skyline in this part of Arabia.",
+        "Picture tower houses above the southwest coast. Yemen is the peninsula’s lower-left country; Oman is the lower-right neighbour farther east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/385/"
+      ],
+      "cameraBounds": [
+        [
+          41,
+          11
+        ],
+        [
+          61,
+          25
+        ]
+      ],
+      "transition": "Let's bring Yemen and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              41,
+              11
+            ],
+            [
+              61,
+              25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oman",
+      "location": [
+        56.5,
+        21.5
+      ],
+      "lines": [
+        "Oman curves around Arabia’s southeastern edge, east of Yemen and south of the United Arab Emirates. Its separate Musandam territory overlooks the Strait of Hormuz.",
+        "Oman’s aflaj irrigation systems move spring or underground water by gravity. Communities share that water for farms and households, making careful cooperation part of the engineering.",
+        "Remember the southeastern curve and its gravity-fed channels. The small northern Musandam piece also belongs to Oman, even though the Emirates separate it from the main territory."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1207/"
+      ],
+      "cameraBounds": [
+        [
+          41,
+          11
+        ],
+        [
+          61,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "location": [
+        54.3,
+        24
+      ],
+      "lines": [
+        "The United Arab Emirates lies along the southern Gulf coast, between Saudi Arabia and Oman. Dubai and Abu Dhabi are cities within this country, not separate countries.",
+        "The oases around Al Ain preserve traces of settled life in the desert, including ancient tombs, wells and irrigation works. The country’s history reaches far beyond modern skyscrapers.",
+        "Picture the coastal federation beside Oman, with inland oases behind its cities. Keep the country’s long name together: United Arab Emirates is one stop on our map."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1343/"
+      ],
+      "cameraBounds": [
+        [
+          45,
+          23
+        ],
+        [
+          57,
+          31.5
+        ]
+      ],
+      "transition": "Let's bring United Arab Emirates and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              45,
+              23
+            ],
+            [
+              57,
+              31.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qatar",
+      "location": [
+        51.2,
+        25.3
+      ],
+      "lines": [
+        "Qatar is the small peninsula projecting north from Arabia into the Gulf. Saudi Arabia is its only land neighbour; Bahrain lies offshore to the northwest.",
+        "Al Zubarah was a trading and pearling town. Wind-blown sand protected parts of its streets, houses and harbour remains after the settlement declined.",
+        "Remember Qatar as the little thumb of land pointing into the Gulf. Picture a trading town preserved beneath sand, and keep the peninsula separate from island Bahrain."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1402/"
+      ],
+      "cameraBounds": [
+        [
+          49.8,
+          24
+        ],
+        [
+          52.5,
+          27.1
+        ]
+      ],
+      "transition": "Let's bring Qatar and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              49.8,
+              24
+            ],
+            [
+              52.5,
+              27.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bahrain",
+      "location": [
+        50.55,
+        26.05
+      ],
+      "lines": [
+        "Bahrain is an island country in the Gulf, east of Saudi Arabia and northwest of Qatar. This labelled supplemental map adds it because GeoClick leaves it out.",
+        "Bahrain’s pearling heritage connects oyster beds offshore with merchants’ houses and storehouses in Muharraq. The sea supported an economy long before oil became central to the region.",
+        "Picture pearls beside an island: Bahrain. Qatar is a peninsula attached to Arabia; Bahrain is offshore. Keep their two small shapes distinct."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1364/"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO World Heritage Centre",
+      "contextLabels": [
+        [
+          "Saudi Arabia",
+          [
+            50.05,
+            26.05
+          ]
+        ],
+        [
+          "Gulf",
+          [
+            50.77,
+            25.87
+          ]
+        ]
+      ],
+      "cameraBounds": [
+        [
+          50.25,
+          25.65
+        ],
+        [
+          50.85,
+          26.4
+        ]
+      ],
+      "transition": "Let's find Bahrain on a labelled supplemental map, then move in for a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              48,
+              24
+            ],
+            [
+              53,
+              28
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              50.25,
+              25.65
+            ],
+            [
+              50.85,
+              26.4
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "Bahrain is an island country in the Gulf, east of Saudi Arabia and northwest of Qatar. This labelled supplemental map adds it because GeoClick leaves it out.",
+        "Bahrain’s pearling heritage connects oyster beds offshore with merchants’ houses and storehouses in Muharraq. The sea supported an economy long before oil became central to the region."
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "location": [
+        47.5,
+        29.3
+      ],
+      "lines": [
+        "Kuwait sits at the northwestern head of the Gulf, below Iraq and above Saudi Arabia. It is a small coastal country, far north of Qatar and the Emirates.",
+        "Al Sadu is a traditional Bedouin weaving craft preserved in Kuwait. Geometric textiles were used for tents and other practical objects, carrying desert knowledge into woven patterns.",
+        "Think woven tent fabric at the top of the Gulf. Place Kuwait below Iraq first, then look south along the coast for Bahrain, Qatar and the Emirates."
+      ],
+      "sources": [
+        "https://www.wipo.int/en/web/wipo-magazine/articles/how-al-sadu-society-is-weaving-ip-into-the-promotion-of-traditional-textiles-in-kuwait-71417"
+      ],
+      "cameraBounds": [
+        [
+          45,
+          23
+        ],
+        [
+          57,
+          31.5
+        ]
+      ],
+      "transition": "Let's bring Kuwait and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              45,
+              23
+            ],
+            [
+              57,
+              31.5
+            ]
+          ]
+        }
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          33,
+          11
+        ],
+        [
+          61,
+          33
+        ]
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recap": [
+    "Saudi Arabia fills the centre. Yemen is southwest, Oman southeast, the Emirates along the southern Gulf, Qatar the small peninsula, Bahrain the nearby islands, and Kuwait at the Gulf’s northern head.",
+    "Remember rock-cut tombs, tower houses, irrigation channels, oases, a sand-covered trading town, pearls and weaving. Keep peninsula Qatar separate from island Bahrain."
+  ],
+  "supplement": {
+    "data": "src/lessons/data/asia-small-countries.geojson",
+    "mapCredit": "Natural Earth · generalized land polygons",
+    "mapAttribution": "Natural Earth · public domain · generalized geographic view",
+    "contextLabels": [],
+    "islandLabels": []
+  },
+  "recapMoves": [
+    [],
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            49.5,
+            24
+          ],
+          [
+            52.5,
+            27.5
+          ]
+        ]
+      }
+    ]
+  ]
+}

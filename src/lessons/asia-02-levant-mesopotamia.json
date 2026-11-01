@@ -1,0 +1,404 @@
+{
+  "title": "Asia 2 of 7 · Levant and Mesopotamia",
+  "edition": "Asia countries · Seven regional lessons · John · November 2026",
+  "mapId": "asia-countries",
+  "area": "Asia",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/asia-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      32,
+      25
+    ],
+    [
+      64,
+      40
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Syria",
+      "location": [
+        38.8,
+        35
+      ],
+      "bounds": [
+        [
+          33,
+          28
+        ],
+        [
+          43,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "location": [
+        35.8,
+        33.8
+      ],
+      "bounds": [
+        [
+          33.7,
+          29.2
+        ],
+        [
+          37,
+          35.4
+        ]
+      ]
+    },
+    {
+      "name": "Israel",
+      "location": [
+        35,
+        31.3
+      ],
+      "bounds": [
+        [
+          33.7,
+          29.2
+        ],
+        [
+          37,
+          35.4
+        ]
+      ]
+    },
+    {
+      "name": "Palestine",
+      "location": [
+        35.25,
+        32.05
+      ],
+      "bounds": [
+        [
+          33.7,
+          29.2
+        ],
+        [
+          37,
+          35.4
+        ]
+      ]
+    },
+    {
+      "name": "Jordan",
+      "location": [
+        36.7,
+        31.2
+      ],
+      "bounds": [
+        [
+          33,
+          28
+        ],
+        [
+          43,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "Iraq",
+      "location": [
+        43.7,
+        33.1
+      ],
+      "bounds": [
+        [
+          38,
+          25
+        ],
+        [
+          64,
+          40
+        ]
+      ]
+    },
+    {
+      "name": "Iran",
+      "location": [
+        54,
+        32
+      ],
+      "bounds": [
+        [
+          38,
+          25
+        ],
+        [
+          64,
+          40
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Asia episode two of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Seven places take us from the eastern Mediterranean to Iran: Syria, Lebanon, Israel, Palestine, Jordan, Iraq and Iran. Map outlines simplify disputed boundaries and do not show current control."
+  ],
+  "states": [
+    {
+      "name": "Syria",
+      "location": [
+        38.8,
+        35
+      ],
+      "lines": [
+        "Syria lies below Türkiye and west of Iraq. It has a short Mediterranean coast, with Lebanon and Israel toward its southwestern edge and Jordan farther south.",
+        "Palmyra developed as an oasis city on caravan routes through the desert. Its architecture brought together influences from the Mediterranean world and lands farther east.",
+        "Picture an oasis crossroads between coast and inland desert. Syria sits above Jordan and west of Iraq; the trade routes help connect that position with its history."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/23/"
+      ],
+      "cameraBounds": [
+        [
+          33,
+          28
+        ],
+        [
+          43,
+          38
+        ]
+      ],
+      "transition": "Let's bring Syria and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              33,
+              28
+            ],
+            [
+              43,
+              38
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "location": [
+        35.8,
+        33.8
+      ],
+      "lines": [
+        "Lebanon is the narrow Mediterranean country below Syria and above Israel. Its small area still contains a coastal strip and high mountain country.",
+        "Ancient Tyre was a Phoenician maritime city whose colonies included Carthage. A small stretch of coast could connect with a trading network reaching far across the Mediterranean.",
+        "Remember Lebanon as the thin coastal link between Syria and Israel. Imagine ships leaving Tyre: its maritime history belongs on this western edge of Asia."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/299/"
+      ],
+      "cameraBounds": [
+        [
+          33.7,
+          29.2
+        ],
+        [
+          37,
+          35.4
+        ]
+      ],
+      "transition": "Let's bring Lebanon and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              33.7,
+              29.2
+            ],
+            [
+              37,
+              35.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Israel",
+      "location": [
+        35,
+        31.3
+      ],
+      "lines": [
+        "Israel lies on the eastern Mediterranean, below Lebanon and west of Jordan. The Palestinian West Bank and Gaza Strip are separate map areas; borders and territorial status require care.",
+        "Ancient settlement mounds at Megiddo, Hazor and Beer Sheba preserve elaborate underground water systems. Engineers brought water to towns long before modern pumps and pipes.",
+        "Use the Mediterranean coast and Jordan to orient Israel, with the Red Sea at its southern tip. The underground-water hook belongs to ancient towns, not to a claim about disputed boundaries."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1108/"
+      ],
+      "cameraBounds": [
+        [
+          33.7,
+          29.2
+        ],
+        [
+          37,
+          35.4
+        ]
+      ]
+    },
+    {
+      "name": "Palestine",
+      "location": [
+        35.25,
+        32.05
+      ],
+      "lines": [
+        "GeoClick’s Palestine target includes the West Bank, beside Jordan, and Gaza on the Mediterranean. The two areas are geographically separate; this simplified map does not show control on the ground.",
+        "At Battir, stone farming terraces and spring-fed channels support olives, vines and gardens. Families traditionally share water through an organised distribution system.",
+        "Remember two separated areas, and picture terraced hills in the West Bank. Palestine received United Nations non-member observer State status in 2012; its borders and sovereignty remain contested."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1492/",
+        "https://www.un.org/unispal/document/palestines-status-at-the-un-explained-news-item/"
+      ],
+      "cameraBounds": [
+        [
+          33.7,
+          29.2
+        ],
+        [
+          37,
+          35.4
+        ]
+      ]
+    },
+    {
+      "name": "Jordan",
+      "location": [
+        36.7,
+        31.2
+      ],
+      "lines": [
+        "Jordan sits east of Israel and the West Bank, below Syria and west of Saudi Arabia. Its narrow outlet at Aqaba reaches the Red Sea.",
+        "Petra was a Nabataean caravan city, with monumental facades carved directly into rock. Its location connected routes between Arabia, Egypt and the eastern Mediterranean.",
+        "Picture the rock-cut city inland, east of the Jordan valley. Jordan is mostly inland, but keep that small Red Sea opening at its southwestern corner."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/326/"
+      ],
+      "cameraBounds": [
+        [
+          33,
+          28
+        ],
+        [
+          43,
+          38
+        ]
+      ],
+      "transition": "Let's bring Jordan and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              33,
+              28
+            ],
+            [
+              43,
+              38
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iraq",
+      "location": [
+        43.7,
+        33.1
+      ],
+      "lines": [
+        "Iraq lies between Syria and Iran, below Türkiye and above Kuwait. The Tigris and Euphrates cross its territory toward a short coast at the head of the Gulf.",
+        "Babylon’s ruins lie south of Baghdad. Its walls, gates and palaces preserve the remains of a city that became the capital of the Neo-Babylonian Empire.",
+        "Remember Iraq through its two great rivers, with Babylon as the historical anchor. Keep Iran to the east: the similar names belong to different countries."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/278/"
+      ],
+      "cameraBounds": [
+        [
+          38,
+          25
+        ],
+        [
+          64,
+          40
+        ]
+      ],
+      "transition": "Let's bring Iraq and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              38,
+              25
+            ],
+            [
+              64,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iran",
+      "location": [
+        54,
+        32
+      ],
+      "lines": [
+        "Iran is the broad country east of Iraq, with the Caspian Sea to its north and the Gulf and Gulf of Oman to its south. Afghanistan and Pakistan lie to the east.",
+        "Darius the First founded Persepolis in 518 BC. Its palace complex rose on an enormous terrace, giving ancient Persian imperial ceremonies a monumental setting.",
+        "Picture the palace terrace between northern mountains and southern seas. Iraq is the river country to the west; Iran is the much broader neighbour to its east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/114/"
+      ],
+      "cameraBounds": [
+        [
+          38,
+          25
+        ],
+        [
+          64,
+          40
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          32,
+          25
+        ],
+        [
+          64,
+          40
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Start with Syria above the small Mediterranean neighbours. Lebanon and Israel follow the coast; Palestine has the separate West Bank and Gaza areas. Jordan is inland to their east, with a small Red Sea opening.",
+    "Then follow the Tigris and Euphrates through Iraq, with broad Iran to the east. Recall caravan routes, Phoenician ships, water engineering, farming terraces, Petra, Babylon and Persepolis."
+  ]
+}

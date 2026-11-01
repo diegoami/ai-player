@@ -61,6 +61,45 @@ manual, inspected map and a trace with before/after country and army counts.
 
 ## GeoClick teaching pilot
 
+YouTube operations are owned by this repository through
+`bin/geoclick-youtube.ps1`, using installed youtube3 2.10.0. Read the
+[publishing runbook](docs/YOUTUBE_PUBLISHING.md) before account operations.
+Original US/Europe queues and the shared upload ledger remain authoritative.
+The eleven-video public release is quota-blocked; seven Asia entries are
+prepared offline only.
+
+The completed Asia edition has seven regional lessons with John,
+interesting facts, geographic memory hooks and separate optional English captions.
+See `src/lessons/asia-coverage.json`: 49 teaching stops, with Northern Cyprus
+demonstrated within the Cyprus stop, and Bahrain, Maldives and Singapore in
+labelled supplemental views. All 47 native Asia targets are visited. Run
+`node bin/render-asia-series.mjs`; `--inspect` checks map actions and
+`--prepare-only` prepares narration. Outputs: `rendered/asia-seven-20261101/`.
+All 49 stops appear exactly once; the collection is
+`rendered/asia-seven-20261101/all-seven-asia-videos.zip`. The coverage ledger
+selects the reviewed masters, including refined episode 1.
+
+The completed Europe teaching series uses six regional lessons, John’s English narration,
+and separate optional captions. It covers all 39 native GeoClick Europe targets
+plus six microstates in clearly labelled supplemental geographic views. See
+`src/lessons/europe-coverage.json` and [the recording notes](docs/GEOCLICK.md).
+Run `node bin/render-europe-series.mjs`; use `--inspect` for silent checks or
+`--prepare-only` for audio preparation. Outputs go under
+`rendered/europe-six-20261101/`. All 45 places appear exactly once. The collection
+is `rendered/europe-six-20261101/all-six-europe-videos.zip`; the coverage ledger
+selects the reviewed exports, including refined Western and Mediterranean views.
+
+The completed US teaching edition has **five videos covering the 48
+contiguous states**: Northeast, South Atlantic, South Central, Midwest and West.
+John narrates location cues, interesting facts and memory hooks. Alaska and
+Hawaii are deliberately omitted, with a short explanation in the final video.
+See [the current recording notes](docs/GEOCLICK.md) and
+`src/lessons/usa-five-video-coverage.json`. Run the prepared edition with
+`node bin/render-five-video-series.mjs`; clean MP4 masters and separate optional
+English captions go under `rendered/usa-five-20261101/`.
+
+The following commands document the historical pilot and four-video edition.
+
 For the eight-state lesson in **Known** mode, read [the GeoClick notes](docs/GEOCLICK.md)
 and run:
 

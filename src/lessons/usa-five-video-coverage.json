@@ -1,0 +1,165 @@
+{
+  "edition": "Five-video mainland edition · November 2026",
+  "status": "complete",
+  "scope": "48 contiguous US states",
+  "excluded": [
+    "Alaska",
+    "Hawaii"
+  ],
+  "exclusionReason": "Deliberately omitted at user request; explained briefly in episode 5 because their distinctive locations are easy to remember",
+  "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
+  "coveredStateCount": 48,
+  "episodes": [
+    {
+      "id": "northeast",
+      "status": "complete",
+      "lesson": "src/lessons/usa-five-01-northeast.json",
+      "states": [
+        "Maine",
+        "New Hampshire",
+        "Vermont",
+        "Massachusetts",
+        "Rhode Island",
+        "Connecticut",
+        "New York",
+        "New Jersey",
+        "Pennsylvania"
+      ],
+      "video": "rendered/usa-five-20261101/01-northeast/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 405.6,
+      "covered": [
+        "Maine",
+        "New Hampshire",
+        "Vermont",
+        "Massachusetts",
+        "Rhode Island",
+        "Connecticut",
+        "New York",
+        "New Jersey",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "id": "south-atlantic",
+      "status": "complete",
+      "lesson": "src/lessons/usa-five-02-south-atlantic.json",
+      "states": [
+        "Delaware",
+        "Maryland",
+        "Virginia",
+        "West Virginia",
+        "North Carolina",
+        "South Carolina",
+        "Georgia",
+        "Florida"
+      ],
+      "video": "rendered/usa-five-20261101/02-south-atlantic/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 390.72,
+      "covered": [
+        "Delaware",
+        "Maryland",
+        "Virginia",
+        "West Virginia",
+        "North Carolina",
+        "South Carolina",
+        "Georgia",
+        "Florida"
+      ]
+    },
+    {
+      "id": "south-central",
+      "status": "complete",
+      "lesson": "src/lessons/usa-five-03-south-central.json",
+      "states": [
+        "Kentucky",
+        "Tennessee",
+        "Alabama",
+        "Mississippi",
+        "Louisiana",
+        "Arkansas",
+        "Oklahoma",
+        "Texas"
+      ],
+      "video": "rendered/usa-five-20261101/03-south-central/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 363,
+      "covered": [
+        "Kentucky",
+        "Tennessee",
+        "Alabama",
+        "Mississippi",
+        "Louisiana",
+        "Arkansas",
+        "Oklahoma",
+        "Texas"
+      ]
+    },
+    {
+      "id": "midwest",
+      "status": "complete",
+      "lesson": "src/lessons/usa-five-04-midwest.json",
+      "states": [
+        "Ohio",
+        "Michigan",
+        "Indiana",
+        "Illinois",
+        "Wisconsin",
+        "Minnesota",
+        "Iowa",
+        "Missouri",
+        "Kansas",
+        "Nebraska",
+        "South Dakota",
+        "North Dakota"
+      ],
+      "video": "rendered/usa-five-20261101/04-midwest/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 554.92,
+      "covered": [
+        "Ohio",
+        "Michigan",
+        "Indiana",
+        "Illinois",
+        "Wisconsin",
+        "Minnesota",
+        "Iowa",
+        "Missouri",
+        "Kansas",
+        "Nebraska",
+        "South Dakota",
+        "North Dakota"
+      ]
+    },
+    {
+      "id": "west",
+      "status": "complete",
+      "lesson": "src/lessons/usa-five-05-west.json",
+      "states": [
+        "Montana",
+        "Idaho",
+        "Wyoming",
+        "Colorado",
+        "New Mexico",
+        "Arizona",
+        "Utah",
+        "Nevada",
+        "California",
+        "Oregon",
+        "Washington"
+      ],
+      "video": "rendered/usa-five-20261101/05-west/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 487.92,
+      "covered": [
+        "Montana",
+        "Idaho",
+        "Wyoming",
+        "Colorado",
+        "New Mexico",
+        "Arizona",
+        "Utah",
+        "Nevada",
+        "California",
+        "Oregon",
+        "Washington"
+      ]
+    }
+  ]
+}

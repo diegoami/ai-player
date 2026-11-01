@@ -1,5 +1,267 @@
 # GeoClick: learned controls and recording notes
 
+## YouTube publishing ownership
+
+ai-player now owns the operational entrypoint: see
+[YOUTUBE_PUBLISHING.md](YOUTUBE_PUBLISHING.md) and
+`config/geoclick-youtube.json`. Use `bin/geoclick-youtube.ps1` with installed
+youtube3 2.10.0. Keep the original US/Europe queues, child jobs,
+`public-release.json`, known video IDs and shared upload ledger in place;
+the three legacy Europe scripts delegate to the repository workflow, with
+their originals backed up under `rendered/youtube-publishing/migration-backup/`.
+
+The owner authorized final Europe caption/membership recovery, adding the
+playlist link to eleven existing descriptions, and public visibility for those
+eleven videos and the existing playlist. The 1 November 2026, 22:08 UTC attempt
+again returned `403 quotaExceeded` during caption recovery. No account changes
+were accepted and no account calls followed the refusal. Last full remote state
+remains ten unlisted playlist videos, final Europe video `XjTQCS8WNEc` private
+with captions/membership pending, and an unlisted playlist. Do not describe this
+old verification as a fresh remote check. Resume manually when quota permits;
+do not schedule retries or replace youtube3's recovery logic.
+
+The seven canonical Asia masters/captions and screenshot thumbnails are prepared
+offline in `rendered/asia-seven-20261101/youtube-publishing/`. Each description
+links to the playlist, game and both repositories. No Asia uploads are authorized
+by the existing-eleven public release. Preserve the current screenshot-based
+playlist cover and all other metadata.
+
+## Completed Asia edition: seven country lessons
+
+The user approved seven Asia episodes. Use `src/lessons/asia-coverage.json`;
+preserve the completed Europe and US editions. There are 49 teaching stops,
+exactly once: 46 primary native targets plus Bahrain, Maldives and Singapore
+in labelled Natural Earth supplemental views. Northern Cyprus is a related
+selection during the Cyprus stop, with division/recognition explained, not
+counted as a second country. Thus all 47 native Asia targets are visited.
+Türkiye is labelled Turkey in GeoClick. Asian Russia is briefly oriented;
+its full country lesson was in Europe. Palestine and Taiwan include short
+context notes. Map outlines do not settle sovereignty, disputed boundaries
+or current territorial control.
+
+Groups: Türkiye/Cyprus/Caucasus (5), Levant/Mesopotamia (7), Arabian Peninsula
+(7), Central Asia/Afghanistan (6), South Asia (7), East Asia (6), Southeast
+Asia (11). John narrates location cues, interesting facts and memory hooks.
+Primary sources are in `src/lessons/asia-content.mjs` and generated lessons.
+Supplemental maps use generalized Natural Earth 1:10m land polygons at actual
+positions and relative scale. The Maldives click is an island interior near
+Baa Atoll, not a lagoon or enlarged territory. Tiny islands, reefs, reclamation
+and causeways may be omitted. Source metadata/checksum and public-domain
+notice are beside `src/lessons/data/asia-small-countries.geojson`.
+
+`bin/prepare-asia-map.mjs` builds geography;
+`bin/prepare-asia-series.mjs` builds lessons and the initial ledger. Use
+`--refresh-lessons` to preserve production history. The shared recorder
+supports related native selections at specific narration lines, checked
+separately from primary stops. It opens About/info then User manual before
+map operation, closes the Known notice and presses the real eye control.
+Clean masters have no burned-in narration captions; optional English SRT
+and top-positioned WebVTT are separate.
+
+`node bin/render-asia-series.mjs --inspect` checks all targets and layouts;
+`--prepare-only` prepares John audio. The plain command records three
+independent headless web sessions. Outputs/logs belong in
+`rendered/asia-seven-20261101/`. Media verification and individual visual
+review must pass before `node bin/package-asia-series.mjs` marks completion.
+
+Preflight caught a Maldives point too small to hit at the original camera
+scale. The current script uses a larger real island interior near Baa Atoll
+and a tighter camera; the country geometry is never enlarged. Its wide
+locator/recap labels India and Sri Lanka. The first episode's initial export
+showed an outdated native extra fact about Varosha. Its related Northern
+Cyprus selection now uses `hideExtra:true`: only that optional paragraph is
+hidden, while the actual map target, pinned status/origin and map label remain.
+The recorded narration never repeats the outdated claim. Episode 1's reviewed
+export is `01-turkiye-cyprus-caucasus-refined/geoclick/`; the initial export is
+archived and is not delivered. Silent inspections now retain
+screenshots/trace without recording redundant video; actual exports still record.
+
+All seven are complete and packaged in
+`rendered/asia-seven-20261101/all-seven-asia-videos.zip`. All 49 teaching stops
+appear exactly once. Every one of the native map's 47 targets was selected,
+including the related Northern Cyprus selection within Cyprus; the three
+supplemental countries were selected on their labelled polygons.
+The final Brunei point is `[114.67,4.54]` in its western territory; the original
+point fell in the Malaysian corridor between Brunei's two parts.
+
+Representative first/middle/final/recap frames and optional-caption previews
+were visually inspected for every export, plus all three supplemental views
+and the refined Northern Cyprus frame. Caption loading/positioning/toggling,
+stream checks, audio decoding and peaks all passed. Peaks range from -3.6 to
+-3.1 dB; these checks do not constitute a listening review. All masters are
+1600×900 H.264/AAC with separate optional English SRT/WebVTT. Transcripts,
+fact references, verification reports and supplemental map sources are included.
+The six existing offline narration/path tests pass; syntax/diff checks pass.
+
+| Episode | Teaching stops | Duration |
+|---|---:|---:|
+| Türkiye, Cyprus and the Caucasus | 5 | 5:18 |
+| Levant and Mesopotamia | 7 | 6:30 |
+| Arabian Peninsula | 7 | 6:45 |
+| Central Asia and Afghanistan | 6 | 5:21 |
+| South Asia | 7 | 6:35 |
+| East Asia | 6 | 5:40 |
+| Southeast Asia | 11 | 10:04 |
+
+## Completed Europe edition: six country lessons
+
+The user accepted the proposed six-video Europe route and requested producing
+the full series. Native inspection of GeoClick v1.2.1 found 39 Europe targets,
+including Kosovo, and no microstates. The accepted plan explicitly includes
+the microstates: Monaco, Liechtenstein, Andorra, San Marino, Vatican City and
+Malta are added as labelled Natural Earth supplemental views, not presented
+as native game targets. The series covers 45 places, each exactly once.
+Türkiye, Cyprus and the Caucasus are absent from the map and outside this
+edition's scope; the final recap explains that this is not a universal
+definition of Europe. Kosovo's disputed status is explained at its stop;
+Russia's European map view is distinguished from its Siberian fact.
+
+Groups: North Atlantic/Nordics (7), Western Europe (5), Central Europe (8),
+Iberia/Mediterranean (7), Balkans/Greece (9), Baltic/Eastern Europe (9).
+John narrates location cues, one researched fact and a geographic memory hook
+per place. Primary sources are recorded in `src/lessons/europe-content.mjs`
+and the six `europe-0*.json` lessons. `src/lessons/europe-coverage.json` is the
+independent ledger. Do not modify either completed US ledger.
+
+`bin/prepare-europe-map.mjs` extracts target polygons and neighbouring
+context from Natural Earth 1:10m country data. Vatican City uses the detailed
+geoBoundaries VAT-ADM0-52476719 polygon (Wikimedia Commons, public domain).
+Monaco uses geoBoundaries MCO-ADM0-9783051 (OpenStreetMap, ODbL 1.0); the French
+Riviera context uses IGN-F ADMIN EXPRESS 2022 via geoBoundaries FRA ADM1,
+clipped to the local geographic rectangle under Etalab Open License 2.0.
+Preflight/visual review caught both the coarse Vatican locator and the much
+too broad Natural Earth Monaco outline. A detailed Monaco polygon cannot be
+combined with the old coarse French cutout: it appears offshore. The IGN-F
+coastal context fixes the joins without moving or rescaling anything.
+France's coarse country lines are suppressed on supplemental views so they
+do not draw false internal seams. Beside Andorra, clipped Natural Earth
+French context preserves the join with the Natural Earth Spain/Andorra
+boundaries; mixing the French ADM0 edge with them left a false water gap.
+The initial Mediterranean export is archived; use the reviewed refined export.
+Metadata/checksum and attribution/license
+notices are beside `src/lessons/data/europe-microstates.geojson`. The combined
+database is offered under ODbL and included in the collection ZIP.
+Sources are visibly credited on supplemental views. It is a generalized
+geographic map, not street/survey data. All polygons retain their actual
+positions and relative scale. `bin/prepare-europe-series.mjs` builds lessons;
+`--refresh-lessons` preserves production history. Do not change recorded
+narration without invalidating affected media/cache checks deliberately.
+
+The shared recorder now accepts lesson mapId/area/unit/initialBounds and
+per-restore camera bounds; USA defaults remain intact. It opens About → User
+manual, closes the empty Known notice, clicks Clear, then presses the eye.
+Native state/country reveals are real map clicks. Supplemental view switches
+and real polygon clicks are distinguished in the trace. Supplemental recaps
+locate all six small states without implying earned quiz progress.
+
+Run `node bin/render-europe-series.mjs --inspect` for all preflights, and
+`--prepare-only` for John audio without a browser. The plain command records
+two episodes at a time after all preflights pass. Outputs/logs live under
+`rendered/europe-six-20261101/`. The shared verifier exports optional English
+SRT/top-positioned WebVTT and tests parsing/toggling, streams and audio levels;
+it extracts first/middle/final/recap frames and each supplemental target.
+Visual inspection is required before marking the new edition complete.
+The initial Western and Mediterranean exports are archived. The ledger delivers
+`02-western-europe-refined/geoclick/` and
+`04-iberia-mediterranean-refined/geoclick/`. The other episode paths keep
+their original names. John audio is reused only when both text and narrator
+configuration match. `--workers=3` was used to finish independent recordings;
+the renderer defaults to two.
+
+All six are complete and packaged as
+`rendered/europe-six-20261101/all-six-europe-videos.zip`. Coverage is 45 distinct
+places exactly once: 39 native targets and six supplemental microstates.
+Representative first/middle/final/recap frames, all six supplemental close
+views, and caption-on previews were visually inspected. Optional captions
+parse and toggle correctly; all audio decodes with peaks from -3.9 to -3.4 dB.
+These technical checks are not a listening review. No narration captions are
+burned into the masters. Transcripts, sources, map data and license notices
+are included in the collection.
+
+| Episode | Places | Duration |
+|---|---:|---:|
+| North Atlantic and Nordics | 7 | 6:16 |
+| Western Europe | 5 | 4:32 |
+| Central Europe | 8 | 6:56 |
+| Iberia and Mediterranean | 7 | 6:55 |
+| Balkans and Greece | 9 | 7:41 |
+| Baltic and Eastern Europe | 9 | 7:34 |
+
+## Completed US edition: five videos, 48 contiguous states
+
+The user explicitly requested all five videos in one task, with unequal but
+coherent groups. The new edition supersedes the four-video edition for new
+delivery; preserve the historical ledger and media. John remains the English
+narrator. Scope is exactly 48 contiguous states, excluding DC, Alaska and Hawaii.
+The final episode briefly explains the deliberate omission of Alaska/Hawaii:
+their distinctive locations already make them easy to remember.
+
+Groups follow Census definitions: Northeast (9), South Atlantic (8), the
+combined East/West South Central divisions (8), Midwest (12), and contiguous
+West (11). Region definitions and reviewed fact sources are in the lesson JSON.
+`src/lessons/usa-five-video-coverage.json` tracks this edition independently.
+`bin/prepare-five-video-series.mjs` builds its five `usa-five-*.json` lessons
+from the historical reviewed material and checks all 48 states exactly once.
+It replaces old episode references and transitions to match the new groups.
+Do not rerun the builder over a finished ledger without intending to reset its
+production status.
+
+`node bin/render-five-video-series.mjs` preflights all five lessons and renders
+two independent browser recordings at a time. It reuses matching John clips
+from the new New England pilot, never old narrator audio. Outputs and logs are
+in `rendered/usa-five-20261101/`; each episode has a `geoclick/` subfolder.
+The runner opens About → User manual, dismisses the empty Known notice, clears
+chosen names and presses the eye button. No earned progress is fabricated.
+`bin/verify-lesson-video.mjs --dir=<episode-output>` exports wrapped optional
+English SRT/WebVTT, checks native caption parsing and switching off, probes
+media/audio, and extracts a contact sheet for human visual inspection.
+Do not mark an episode complete until that inspection passes.
+
+**All five videos are complete and visually checked.** The new edition covers
+48 distinct states exactly once, with Alaska/Hawaii deliberately excluded and
+the requested brief explanation in episode 5. Clean 1600×900 H.264/AAC masters:
+
+| Episode | States | Duration | Output folder under `rendered/usa-five-20261101/` |
+| --- | ---: | --- | --- |
+| Northeast | 9 | 6m46 | `01-northeast/geoclick/` |
+| South Atlantic | 8 | 6m31 | `02-south-atlantic/geoclick/` |
+| South Central | 8 | 6m03 | `03-south-central/geoclick/` |
+| Midwest | 12 | 9m15 | `04-midwest/geoclick/` |
+| West | 11 | 8m08 | `05-west/geoclick/` |
+
+Each folder contains `play-no-subtitles.mp4`, optional English SRT and
+top-positioned WebVTT, transcript/sources, trace, screenshots and verification.
+Caption cue counts are 36, 34, 32, 47 and 42. Browser playback verified loading,
+top positioning and switching captions off; caption-on previews and extracted
+first/state/final/recap frames were visually checked for each episode. Every
+state selection and fact-card non-overlap passed. Audio peaks range from -3.1
+to -3.5 dB; these are decoding/level checks, not a listening review.
+`all-five-videos.zip` contains all five masters, captions, transcripts/sources,
+verification reports and an index. `series-manifest.json` records exact lengths.
+The five-video ledger is complete; preserve the historical fifty-state ledger.
+
+## New John pilot (1 November 2026)
+
+The user requested a new Northeast pilot with John, explicitly permitting the
+local web application as an alternative to the desktop application. This is a
+new six-state New England pilot, not additional canonical series coverage.
+Preparation and media are under `rendered/john-northeast-pilot-20261101/`.
+The current v1.2.1 manual was opened through the home About/info link and its
+User manual link before operating the map. The lesson runner now follows that
+route, closes the bottom-left Nothing known yet notice with its real close
+button, and presses the right-hand eye button after Clear to hide the toolbar.
+Its `--review` flag permits explicitly requested pilots/revisions of previously
+covered states; ordinary new lessons retain the duplicate-coverage guard.
+The local web server for this run is `http://127.0.0.1:5188`.
+Use John's accepted voice ID and a clean master with separate optional captions.
+
+Completed pilot: `rendered/john-northeast-pilot-20261101/geoclick/play-no-subtitles.mp4`,
+273.44 seconds, 1600×900 H.264/AAC. Six real state selections, outside-map fact
+cards, notice dismissal and eye action passed. English SRT and top-positioned
+WebVTT each contain 23 cues; browser loading and switching captions off passed.
+An extracted Rhode Island frame verified export timing independently of browser
+seeking. Audio peak is -3.2 dB; this is a level/decoding check, not a listening review.
+
 Read and exercised on 30 October 2026, local v1.1.0 build d3f2399.
 Manual: <http://localhost:5173/manual>. The full rendered manual was read through
 the browser; the authored source is `../Geoclick2027/docs/USER_MANUAL.md`.

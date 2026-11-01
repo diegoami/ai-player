@@ -1,0 +1,278 @@
+{
+  "edition": "Asia · Seven regional lessons · November 2026",
+  "status": "complete",
+  "scope": "49 teaching stops: 46 primary native targets plus Bahrain, Maldives and Singapore; Northern Cyprus is a related selection within Cyprus, not an additional country count",
+  "targetCount": 49,
+  "nativeTargetCount": 47,
+  "nativeTeachingStopCount": 46,
+  "supplementalCount": 3,
+  "coveredPlaceCount": 49,
+  "russia": "Asian Russia oriented briefly; full country stop already covered in Europe",
+  "episodes": [
+    {
+      "id": "turkiye-cyprus-caucasus",
+      "title": "Türkiye, Cyprus and the Caucasus",
+      "status": "complete",
+      "lesson": "src/lessons/asia-01-turkiye-cyprus-caucasus.json",
+      "places": [
+        "Turkey",
+        "Cyprus",
+        "Georgia",
+        "Armenia",
+        "Azerbaijan"
+      ],
+      "nativeTargets": [
+        "Turkey",
+        "Cyprus",
+        "Georgia",
+        "Armenia",
+        "Azerbaijan"
+      ],
+      "relatedTargets": [
+        "Northern Cyprus"
+      ],
+      "supplemental": [],
+      "video": "rendered/asia-seven-20261101/01-turkiye-cyprus-caucasus-refined/geoclick/play-no-subtitles.mp4",
+      "audioCache": "rendered/asia-seven-20261101/01-turkiye-cyprus-caucasus/geoclick",
+      "covered": [
+        "Turkey",
+        "Cyprus",
+        "Georgia",
+        "Armenia",
+        "Azerbaijan"
+      ],
+      "durationSeconds": 318.24
+    },
+    {
+      "id": "levant-mesopotamia",
+      "title": "Levant and Mesopotamia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-02-levant-mesopotamia.json",
+      "places": [
+        "Syria",
+        "Lebanon",
+        "Israel",
+        "Palestine",
+        "Jordan",
+        "Iraq",
+        "Iran"
+      ],
+      "nativeTargets": [
+        "Syria",
+        "Lebanon",
+        "Israel",
+        "Palestine",
+        "Jordan",
+        "Iraq",
+        "Iran"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-seven-20261101/02-levant-mesopotamia/geoclick/play-no-subtitles.mp4",
+      "covered": [
+        "Syria",
+        "Lebanon",
+        "Israel",
+        "Palestine",
+        "Jordan",
+        "Iraq",
+        "Iran"
+      ],
+      "durationSeconds": 389.52
+    },
+    {
+      "id": "arabian-peninsula",
+      "title": "Arabian Peninsula",
+      "status": "complete",
+      "lesson": "src/lessons/asia-03-arabian-peninsula.json",
+      "places": [
+        "Saudi Arabia",
+        "Yemen",
+        "Oman",
+        "United Arab Emirates",
+        "Qatar",
+        "Bahrain",
+        "Kuwait"
+      ],
+      "nativeTargets": [
+        "Saudi Arabia",
+        "Yemen",
+        "Oman",
+        "United Arab Emirates",
+        "Qatar",
+        "Kuwait"
+      ],
+      "relatedTargets": [],
+      "supplemental": [
+        "Bahrain"
+      ],
+      "video": "rendered/asia-seven-20261101/03-arabian-peninsula/geoclick/play-no-subtitles.mp4",
+      "covered": [
+        "Saudi Arabia",
+        "Yemen",
+        "Oman",
+        "United Arab Emirates",
+        "Qatar",
+        "Bahrain",
+        "Kuwait"
+      ],
+      "durationSeconds": 404.76
+    },
+    {
+      "id": "central-asia-afghanistan",
+      "title": "Central Asia and Afghanistan",
+      "status": "complete",
+      "lesson": "src/lessons/asia-04-central-asia-afghanistan.json",
+      "places": [
+        "Kazakhstan",
+        "Uzbekistan",
+        "Turkmenistan",
+        "Kyrgyzstan",
+        "Tajikistan",
+        "Afghanistan"
+      ],
+      "nativeTargets": [
+        "Kazakhstan",
+        "Uzbekistan",
+        "Turkmenistan",
+        "Kyrgyzstan",
+        "Tajikistan",
+        "Afghanistan"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-seven-20261101/04-central-asia-afghanistan/geoclick/play-no-subtitles.mp4",
+      "covered": [
+        "Kazakhstan",
+        "Uzbekistan",
+        "Turkmenistan",
+        "Kyrgyzstan",
+        "Tajikistan",
+        "Afghanistan"
+      ],
+      "durationSeconds": 320.96
+    },
+    {
+      "id": "south-asia",
+      "title": "South Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-05-south-asia.json",
+      "places": [
+        "Pakistan",
+        "India",
+        "Nepal",
+        "Bhutan",
+        "Bangladesh",
+        "Sri Lanka",
+        "Maldives"
+      ],
+      "nativeTargets": [
+        "Pakistan",
+        "India",
+        "Nepal",
+        "Bhutan",
+        "Bangladesh",
+        "Sri Lanka"
+      ],
+      "relatedTargets": [],
+      "supplemental": [
+        "Maldives"
+      ],
+      "video": "rendered/asia-seven-20261101/05-south-asia/geoclick/play-no-subtitles.mp4",
+      "covered": [
+        "Pakistan",
+        "India",
+        "Nepal",
+        "Bhutan",
+        "Bangladesh",
+        "Sri Lanka",
+        "Maldives"
+      ],
+      "durationSeconds": 394.6
+    },
+    {
+      "id": "east-asia",
+      "title": "East Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-06-east-asia.json",
+      "places": [
+        "China",
+        "Mongolia",
+        "Taiwan",
+        "North Korea",
+        "South Korea",
+        "Japan"
+      ],
+      "nativeTargets": [
+        "China",
+        "Mongolia",
+        "Taiwan",
+        "North Korea",
+        "South Korea",
+        "Japan"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-seven-20261101/06-east-asia/geoclick/play-no-subtitles.mp4",
+      "covered": [
+        "China",
+        "Mongolia",
+        "Taiwan",
+        "North Korea",
+        "South Korea",
+        "Japan"
+      ],
+      "durationSeconds": 339.8
+    },
+    {
+      "id": "southeast-asia",
+      "title": "Southeast Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-07-southeast-asia.json",
+      "places": [
+        "Myanmar",
+        "Thailand",
+        "Laos",
+        "Cambodia",
+        "Vietnam",
+        "Malaysia",
+        "Singapore",
+        "Brunei",
+        "Indonesia",
+        "Philippines",
+        "Timor-Leste"
+      ],
+      "nativeTargets": [
+        "Myanmar",
+        "Thailand",
+        "Laos",
+        "Cambodia",
+        "Vietnam",
+        "Malaysia",
+        "Brunei",
+        "Indonesia",
+        "Philippines",
+        "Timor-Leste"
+      ],
+      "relatedTargets": [],
+      "supplemental": [
+        "Singapore"
+      ],
+      "video": "rendered/asia-seven-20261101/07-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "covered": [
+        "Myanmar",
+        "Thailand",
+        "Laos",
+        "Cambodia",
+        "Vietnam",
+        "Malaysia",
+        "Singapore",
+        "Brunei",
+        "Indonesia",
+        "Philippines",
+        "Timor-Leste"
+      ],
+      "durationSeconds": 604.28
+    }
+  ]
+}

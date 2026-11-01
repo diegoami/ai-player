@@ -1,0 +1,230 @@
+{
+  "title": "Episode 3 of 5 · South Central · 8 states",
+  "edition": "Five videos · 48 contiguous states · John · November 2026",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/usa-states",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
+  "restore": [
+    {
+      "name": "Kentucky"
+    },
+    {
+      "name": "Tennessee"
+    },
+    {
+      "name": "Alabama"
+    },
+    {
+      "name": "Mississippi"
+    },
+    {
+      "name": "Louisiana",
+      "location": [
+        -92.3,
+        31.2
+      ]
+    },
+    {
+      "name": "Arkansas"
+    },
+    {
+      "name": "Oklahoma"
+    },
+    {
+      "name": "Texas"
+    }
+  ],
+  "intro": [
+    "Welcome to episode three of our U.S. states series. First, I clear the map so we can study a fresh group.",
+    "Today we connect the eight South Central states. We start with Kentucky and Tennessee, move down to Alabama and Mississippi, then follow Louisiana, Arkansas, Oklahoma and Texas westward."
+  ],
+  "states": [
+    {
+      "name": "Kentucky",
+      "factContains": "Mammoth Cave",
+      "lines": [
+        "Kentucky stretches west from West Virginia, directly above Tennessee. Its winding northern edge follows the Ohio River for much of the way.",
+        "The card's name origin is uncertain, but its cave fact is clear: Mammoth Cave is the world's longest known cave system.",
+        "Picture Kentucky as the upper half of a long east-west pair. Tennessee is the lower half, and our next stop."
+      ],
+      "sources": [
+        "https://www.nps.gov/maca/faqs.htm"
+      ],
+      "transition": "Let's begin with Kentucky above Tennessee, two long states stretching west from the Appalachians.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -90.5,
+              34.5
+            ],
+            [
+              -81,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tennessee",
+      "factContains": "eight states",
+      "lines": [
+        "Tennessee is the long, narrow state immediately south of Kentucky. It runs from the Mississippi River in the west to the Appalachian mountains in the east.",
+        "Its name comes from Tanasi, a Cherokee town. The card notes that Tennessee borders eight states, tying Missouri for the most.",
+        "Keep Kentucky above Tennessee. Below Tennessee sit Mississippi, Alabama and Georgia. We now turn south to Alabama."
+      ],
+      "sources": [
+        "https://www.tn.gov/directory/county-city-web-sites.html"
+      ]
+    },
+    {
+      "name": "Alabama",
+      "rotateExtra": true,
+      "factContains": "Huntsville",
+      "transition": "Now follow Alabama and Mississippi down toward the Gulf, then turn west along the coast into Louisiana.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -94.5,
+              28.5
+            ],
+            [
+              -84.5,
+              35.3
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Alabama sits west of Georgia and south of Tennessee. Its small coastal opening reaches the Gulf beside Florida's panhandle.",
+        "The card points north to Huntsville, nicknamed Rocket City. NASA's Marshall Space Flight Center there helped develop the Saturn rockets used for Apollo.",
+        "Keep this east-west sequence in mind: Georgia, Alabama, Mississippi. We move one state farther west next."
+      ],
+      "sources": [
+        "https://home.nps.gov/articles/nasa-nhls.htm"
+      ]
+    },
+    {
+      "name": "Mississippi",
+      "factContains": "blues",
+      "lines": [
+        "Mississippi lies immediately west of Alabama, below Tennessee. Its western river border separates it from Arkansas and much of Louisiana.",
+        "Its name comes from an Indigenous expression meaning great river. The Mississippi Delta is closely associated with the origins and development of the blues.",
+        "Here the musical Delta means a region in northwestern Mississippi, not simply the river's mouth. Follow the river south toward Louisiana."
+      ],
+      "sources": [
+        "https://www.nps.gov/locations/lowermsdeltaregion/history-and-culture-of-the-mississippi-delta-region.htm"
+      ]
+    },
+    {
+      "name": "Louisiana",
+      "location": [
+        -92.3,
+        31.2
+      ],
+      "rotateExtra": true,
+      "factContains": "1803",
+      "lines": [
+        "Louisiana is the boot-shaped Gulf state west of Mississippi and south of Arkansas. The Mississippi River reaches the coast through its southeastern wetlands.",
+        "The name honours Louis the Fourteenth of France. The Louisiana Purchase of 1803 covered a vast territory, much larger than today's state.",
+        "Distinguish the modern state from that historic purchase. Keep Louisiana below Arkansas, with Texas along its western side."
+      ],
+      "sources": [
+        "https://www.sos.la.gov/HistoricalResources/PublishedDocuments/LouisianaFactsBooklet.pdf",
+        "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty"
+      ]
+    },
+    {
+      "name": "Arkansas",
+      "factContains": "Crater of Diamonds",
+      "transition": "Turn inland to Arkansas and Oklahoma. Louisiana is below Arkansas, while Texas waits below Oklahoma.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -103.5,
+              32.8
+            ],
+            [
+              -89.5,
+              37.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Arkansas lies directly north of Louisiana and west of the Mississippi River. Oklahoma is its western neighbour; Missouri is above it.",
+        "The card links its name to the Quapaw people through French spelling. At Crater of Diamonds State Park, visitors can search for diamonds and keep their finds.",
+        "Remember Arkansas above Louisiana. Its final letter is silent, unlike Kansas, which is a different state farther northwest."
+      ],
+      "sources": [
+        "https://www.arkansas.com/state-parks/explore/parks/crater-of-diamonds-state-park"
+      ]
+    },
+    {
+      "name": "Oklahoma",
+      "rotateExtra": true,
+      "factContains": "Sooners",
+      "lines": [
+        "Oklahoma stretches west from Arkansas, directly above Texas. Notice its narrow panhandle pointing west between Kansas and Texas.",
+        "Its Choctaw-derived name means red people. The Sooner nickname recalls settlers who entered land before the official start of the 1889 land run.",
+        "Those land openings followed the dispossession of Native nations. For the map, remember Oklahoma above Texas, with Arkansas on its eastern side."
+      ],
+      "sources": [
+        "https://www.okhistory.org/publications/enc/entry?entry=SO010",
+        "https://www.okhistory.org/publications/enc/entry?entry=LA014"
+      ]
+    },
+    {
+      "name": "Texas",
+      "factContains": "1836",
+      "transition": "Finally, let's give Texas a wider frame, from its northern panhandle to the Rio Grande and the Gulf Coast.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -107,
+              25
+            ],
+            [
+              -93,
+              37.3
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Texas is the large state below Oklahoma and west of Louisiana. Its southern river border, the Rio Grande, separates it from Mexico.",
+        "The card traces its name to a Caddo word for friend or ally. Texas declared independence in 1836 and joined the United States in 1845.",
+        "Texas completes our eight South Central states. Its northern panhandle sits below Oklahoma's, while its southeastern edge reaches the Gulf."
+      ],
+      "sources": [
+        "https://www.tsl.texas.gov/treasures/republic/index.html"
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -107,
+          25
+        ],
+        [
+          -81,
+          40
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Our first pair was Kentucky above Tennessee. Below them came Alabama and Mississippi; then Louisiana below Arkansas, with Oklahoma above Texas farther west.",
+    "Those eight states combine the Census East and West South Central divisions. Picture their linked pairs, with the Mississippi River and Gulf Coast helping you keep your bearings."
+  ]
+}

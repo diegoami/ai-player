@@ -1,6 +1,6 @@
 // Recording-only layout. The app's real fact card sits beside its real map.
 // No GeoClick source files or earned progress are changed.
-export async function lessonLayout(page, title) {
+export async function lessonLayout(page, title, area = 'United States') {
   await page.addStyleTag({ content: `
     body { margin:0!important; background:#f3efe5!important; overflow:hidden!important; }
     [data-map-fit-root] { position:absolute!important; left:12px!important; top:250px!important; width:1160px!important; height:638px!important; }
@@ -14,11 +14,11 @@ export async function lessonLayout(page, title) {
     #lesson-heading {position:fixed;left:1200px;top:115px;width:370px;font:26px/1.25 Georgia;color:#203b30;}
     #lesson-status {position:fixed;left:1200px;top:215px;width:370px;font:17px/1.4 system-ui;color:#65563c;}
   ` });
-  await page.evaluate(title => {
+  await page.evaluate(({title,area}) => {
     const heading=document.createElement('div');heading.id='lesson-heading';heading.textContent=title;document.body.append(heading);
-    const status=document.createElement('div');status.id='lesson-status';status.textContent='Known mode · United States';document.body.append(status);
+    const status=document.createElement('div');status.id='lesson-status';status.textContent=`Known mode · ${area}`;document.body.append(status);
     window.dispatchEvent(new Event('resize'));
-  }, title);
+  }, {title,area});
   await page.waitForTimeout(1800);
 }
 
@@ -28,16 +28,16 @@ export async function status(page, text) {
 
 // Use MapLibre's public camera/projection methods for reproducible framing.
 // Capture the existing map on a real zoom event, then restore the prototype.
-export async function attachCamera(page) {
-  await page.evaluate(async()=>{
+export async function attachCamera(page, mapId = 'usa-states') {
+  await page.evaluate(async(mapId)=>{
     const url=performance.getEntriesByType('resource').map(e=>e.name).find(n=>/maplibre-gl\.mjs\?/.test(n));
     if(!url)throw Error('MapLibre module not found');
     const mod=await import(url);const MapClass=mod.Map ?? mod.default?.Map;
     window.__lessonMapClass=MapClass;
     window.__lessonOriginalFire=MapClass.prototype.fire;
     MapClass.prototype.fire=function(...args){if(this.getCanvas)window.__lessonMap=this;return window.__lessonOriginalFire.apply(this,args);};
-    window.__lessonTargets=(await(await fetch('/maps/usa-states/map.json')).json()).targets;
-  });
+    window.__lessonTargets=(await(await fetch(`/maps/${mapId}/map.json`)).json()).targets;
+  },mapId);
   try {
     await page.getByRole('button',{name:'Zoom in',exact:true}).click();
     await page.waitForTimeout(800);

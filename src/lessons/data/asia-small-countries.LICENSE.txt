@@ -1,0 +1,4 @@
+Asia supplemental geography
+
+Natural Earth 1:10m country polygons, public domain. https://www.naturalearthdata.com/about/terms-of-use/
+Original geographic positions and relative scale retained. Generalized land polygons, not street or survey data.

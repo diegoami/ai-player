@@ -1,0 +1,599 @@
+{
+  "title": "Europe 4 of 6 · Iberia and Mediterranean",
+  "edition": "Europe countries · Six regional lessons · John · November 2026",
+  "mapId": "europe-countries",
+  "area": "Europe",
+  "unit": "places",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/europe-countries",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -11,
+      33
+    ],
+    [
+      19,
+      48
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Portugal",
+      "location": [
+        -8,
+        39.5
+      ],
+      "bounds": [
+        [
+          -10.5,
+          35.5
+        ],
+        [
+          4,
+          44.8
+        ]
+      ]
+    },
+    {
+      "name": "Spain",
+      "location": [
+        -3,
+        40
+      ],
+      "bounds": [
+        [
+          -10.5,
+          35.5
+        ],
+        [
+          4,
+          44.8
+        ]
+      ]
+    },
+    {
+      "name": "Italy",
+      "location": [
+        12.5,
+        42.2
+      ],
+      "bounds": [
+        [
+          6,
+          35
+        ],
+        [
+          19,
+          47.5
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Europe episode four of six. First, I clear the chosen names so we can study a fresh regional group.",
+    "Our seven-place route joins Iberia with Italy and the central Mediterranean. Andorra, San Marino, Vatican City and Malta use clearly labelled supplemental maps, because the game omits these small countries."
+  ],
+  "states": [
+    {
+      "name": "Portugal",
+      "location": [
+        -8,
+        39.5
+      ],
+      "lines": [
+        "Portugal occupies the Atlantic side of the Iberian Peninsula. Spain borders it on the north and east, while the ocean lies along its western and southern coasts.",
+        "Lisbon’s Tower of Belem commemorates Vasco da Gama’s expedition. The country’s Atlantic position helps connect that maritime history with the map.",
+        "Remember Portugal as Iberia’s western strip, facing the Atlantic. Spain is the much broader neighbour to its east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/263/"
+      ],
+      "rotateExtra": true,
+      "factContains": "Vasco",
+      "cameraBounds": [
+        [
+          -10.5,
+          35.5
+        ],
+        [
+          4,
+          44.8
+        ]
+      ],
+      "transition": "Let's bring Portugal and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -10.5,
+              35.5
+            ],
+            [
+              4,
+              44.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spain",
+      "location": [
+        -3,
+        40
+      ],
+      "lines": [
+        "Spain fills most of the Iberian Peninsula, east of Portugal and south of France across the Pyrenees. The Mediterranean follows its eastern and southeastern sides.",
+        "The Alhambra in Granada preserves the palace-and-garden world of Muslim rulers in medieval Spain. It is a vivid reminder of the long history of al-Andalus.",
+        "Picture Spain as the broad Iberian country: Portugal along the west, France beyond the northern mountains, and the Mediterranean curling along the east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/314/"
+      ],
+      "factContains": "al-Andalus",
+      "cameraBounds": [
+        [
+          -10.5,
+          35.5
+        ],
+        [
+          4,
+          44.8
+        ]
+      ]
+    },
+    {
+      "name": "Andorra",
+      "location": [
+        1.57,
+        42.55
+      ],
+      "lines": [
+        "Andorra is the tiny landlocked country high in the Pyrenees between Spain and France. It belongs in the mountain gap, not on either country’s coast.",
+        "Its UNESCO-listed Madriu valley preserves mountain pastures, stone paths and traces of centuries of shared land use. The landscape tells a story of living with steep terrain.",
+        "Think Andorra in the Pyrenees: France above, Spain below, mountain communities between them. This is a labelled supplemental geographic view."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1160/"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO World Heritage Centre",
+      "cameraBounds": [
+        [
+          1.35,
+          42.4
+        ],
+        [
+          1.82,
+          42.68
+        ]
+      ],
+      "transition": "Let's locate Andorra on a labelled supplemental map, then zoom in to see its outline.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -1,
+              40
+            ],
+            [
+              4,
+              45
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              1.35,
+              42.4
+            ],
+            [
+              1.82,
+              42.68
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "Andorra is the tiny landlocked country high in the Pyrenees between Spain and France. It belongs in the mountain gap, not on either country’s coast.",
+        "Its UNESCO-listed Madriu valley preserves mountain pastures, stone paths and traces of centuries of shared land use. The landscape tells a story of living with steep terrain."
+      ],
+      "contextLabels": [
+        [
+          "France",
+          [
+            1.72,
+            42.68
+          ]
+        ],
+        [
+          "Spain",
+          [
+            1.42,
+            42.43
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Italy",
+      "location": [
+        12.5,
+        42.2
+      ],
+      "lines": [
+        "Italy is the boot-shaped peninsula extending southeast from the Alps into the Mediterranean. Sicily sits near its toe, while Sardinia lies off its western side.",
+        "The Kingdom of Italy was proclaimed in 1861, and Rome joined it in 1870. A familiar modern outline came together through a much more recent unification.",
+        "Use the boot, Sicily and Sardinia together. Next we will look closely at San Marino and Vatican City, two separate small states surrounded by Italy."
+      ],
+      "sources": [
+        "https://vive.cultura.gov.it/en/vittoriano/history/victor-emmanuel-ii-and-risorgimento-process"
+      ],
+      "factContains": "1861",
+      "cameraBounds": [
+        [
+          6,
+          35
+        ],
+        [
+          19,
+          47.5
+        ]
+      ],
+      "transition": "Let's bring Italy and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6,
+              35
+            ],
+            [
+              19,
+              47.5
+            ]
+          ]
+        }
+      ],
+      "view": "geoclick"
+    },
+    {
+      "name": "San Marino",
+      "location": [
+        12.46,
+        43.94
+      ],
+      "lines": [
+        "San Marino is a small inland state entirely surrounded by Italy, near the Adriatic side of the peninsula. It is separate from the Italian state around it.",
+        "Its historic centre and Mount Titano preserve a republic with roots in the Middle Ages. The towers on the mountain make a strong image for this tiny country.",
+        "Remember San Marino near Italy’s eastern side: a mountain republic inside the boot. It is not Vatican City, which sits farther southwest in Rome."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1245/"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO World Heritage Centre",
+      "cameraBounds": [
+        [
+          12.36,
+          43.88
+        ],
+        [
+          12.53,
+          44.01
+        ]
+      ],
+      "transition": "Let's locate San Marino on a labelled supplemental map, then zoom in to see its outline.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10,
+              42
+            ],
+            [
+              15,
+              45.5
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              12.36,
+              43.88
+            ],
+            [
+              12.53,
+              44.01
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "San Marino is a small inland state entirely surrounded by Italy, near the Adriatic side of the peninsula. It is separate from the Italian state around it.",
+        "Its historic centre and Mount Titano preserve a republic with roots in the Middle Ages. The towers on the mountain make a strong image for this tiny country."
+      ],
+      "contextLabels": [
+        [
+          "Italy",
+          [
+            12.39,
+            43.985
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Vatican City",
+      "location": [
+        12.4515,
+        41.9033
+      ],
+      "lines": [
+        "Vatican City is the tiny independent state within Rome, entirely surrounded by Italy. We need this close supplemental view to make its outline visible.",
+        "St Peter’s Basilica, its square, palaces and gardens form an extraordinary concentration of architecture inside a very small state. The whole Vatican City is a UNESCO World Heritage site.",
+        "Keep the two enclaves apart: San Marino near the Adriatic, Vatican City within Rome. Italy surrounds both, but each is a separate country."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/286/"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO World Heritage Centre",
+      "cameraBounds": [
+        [
+          12.443,
+          41.897
+        ],
+        [
+          12.461,
+          41.911
+        ]
+      ],
+      "transition": "Let's locate Vatican City on a labelled supplemental map, then zoom in to see its outline.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.7,
+              41.4
+            ],
+            [
+              13.2,
+              42.4
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              12.443,
+              41.897
+            ],
+            [
+              12.461,
+              41.911
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "Vatican City is the tiny independent state within Rome, entirely surrounded by Italy. We need this close supplemental view to make its outline visible.",
+        "St Peter’s Basilica, its square, palaces and gardens form an extraordinary concentration of architecture inside a very small state. The whole Vatican City is a UNESCO World Heritage site."
+      ],
+      "contextLabels": [
+        [
+          "Rome · Italy",
+          [
+            12.457,
+            41.907
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Malta",
+      "location": [
+        14.44,
+        35.91
+      ],
+      "lines": [
+        "Malta is an island country south of Sicily, between the central Mediterranean’s European and North African shores. The main islands include Malta and Gozo.",
+        "Its megalithic temples preserve a prehistoric tradition of building with huge stones. The UNESCO-listed sites on Malta and Gozo make a striking contrast with the islands’ small size.",
+        "Remember Malta below Sicily: small islands, enormous ancient stones. This supplemental view completes our Iberian and central Mediterranean group."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/132/"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO World Heritage Centre",
+      "cameraBounds": [
+        [
+          14.1,
+          35.75
+        ],
+        [
+          14.65,
+          36.13
+        ]
+      ],
+      "transition": "Let's locate Malta on a labelled supplemental map, then zoom in to see its outline.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.5,
+              33.5
+            ],
+            [
+              17,
+              38.5
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              14.1,
+              35.75
+            ],
+            [
+              14.65,
+              36.13
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "Malta is an island country south of Sicily, between the central Mediterranean’s European and North African shores. The main islands include Malta and Gozo.",
+        "Its megalithic temples preserve a prehistoric tradition of building with huge stones. The UNESCO-listed sites on Malta and Gozo make a striking contrast with the islands’ small size."
+      ],
+      "contextLabels": [
+        [
+          "Gozo",
+          [
+            14.24,
+            36.05
+          ]
+        ],
+        [
+          "Mediterranean Sea",
+          [
+            14.24,
+            35.8
+          ]
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -11,
+          33
+        ],
+        [
+          19,
+          48
+        ]
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recap": [
+    "Portugal faces the Atlantic along western Iberia; Spain fills most of the peninsula, with Andorra in the Pyrenees between Spain and France.",
+    "Italy gives us the boot, Sicily and Sardinia. Keep its two enclaves separate: San Marino near the Adriatic, and Vatican City inside Rome.",
+    "Malta lies below Sicily. Think mountain valley, medieval republic, basilica and ancient stone temples: four very small states with very different locations and stories."
+  ],
+  "supplement": {
+    "data": "src/lessons/data/europe-microstates.geojson",
+    "mapCredit": "Natural Earth / geoBoundaries",
+    "attribution": "Natural Earth public-domain 1:10m context; public-domain geoBoundaries VAT polygon",
+    "contextLabels": [
+      [
+        "France",
+        [
+          2.4,
+          46.5
+        ]
+      ],
+      [
+        "Spain",
+        [
+          -3,
+          40
+        ]
+      ],
+      [
+        "Italy",
+        [
+          12.4,
+          43
+        ]
+      ],
+      [
+        "Switzerland",
+        [
+          8,
+          47
+        ]
+      ],
+      [
+        "Austria",
+        [
+          13.4,
+          47.8
+        ]
+      ],
+      [
+        "Sicily",
+        [
+          14,
+          37.5
+        ]
+      ],
+      [
+        "Rome",
+        [
+          12.52,
+          41.89
+        ]
+      ]
+    ],
+    "islandLabels": [],
+    "mapAttribution": "Natural Earth / geoBoundaries · IGN-F 2022 · <a href=\"https://www.openstreetmap.org/copyright\">© OpenStreetMap contributors</a> (Monaco)"
+  },
+  "recapMoves": [
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            -1,
+            40
+          ],
+          [
+            4,
+            45
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            10,
+            40.7
+          ],
+          [
+            14,
+            45
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            10.5,
+            33.5
+          ],
+          [
+            17,
+            38.5
+          ]
+        ]
+      }
+    ]
+  ]
+}

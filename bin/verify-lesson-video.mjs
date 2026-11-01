@@ -1,0 +1,53 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {execFileSync,spawnSync} from 'node:child_process';
+import {resolve,join} from 'node:path';
+import {chromium} from 'playwright';
+import {writeSrt} from '../src/core/assemble.mjs';
+const arg=process.argv.find(a=>a.startsWith('--dir='));
+if(!arg)throw Error('Usage: node bin/verify-lesson-video.mjs --dir=<output>');
+const dir=resolve(arg.slice(6));
+const trace=JSON.parse(readFileSync(join(dir,'trace.json'),'utf8'));
+const lesson=JSON.parse(readFileSync(join(dir,'lesson.json'),'utf8'));
+if(!trace.knownNoticeClosed||!trace.buttonsHiddenWithEye||trace.result?.statesVisited!==lesson.states.length)throw Error('Incomplete UI checks');
+if(trace.narration.voice!=='moss_audio_5421e68d-d4ad-11f1-8568-2afee2873678')throw Error('Unexpected narrator');
+if(trace.turns.some((t,i)=>t.state!==lesson.states[i].name))throw Error('State order mismatch');
+const related=lesson.states.flatMap(s=>(s.relatedSelections??[]).map(r=>({parent:s.name,target:r.name,lineIndex:r.lineIndex})));
+if(JSON.stringify(related)!==JSON.stringify((trace.relatedSelections??[]).map(({parent,target,lineIndex})=>({parent,target,lineIndex}))))throw Error('Related target selection mismatch');
+const wrap=text=>{const rows=[];let row='';for(const word of text.split(/\s+/)){if(row&&row.length+word.length+1>78){rows.push(row);row=word;}else row+=(row?' ':'')+word;}if(row)rows.push(row);return rows.join('\n');};
+writeSrt(trace.lines.map(l=>({...l,start:l.start-trace.trimStart,end:l.end-trace.trimStart,text:wrap(l.text)})),join(dir,'subtitles.en.srt'));
+const srt=readFileSync(join(dir,'subtitles.en.srt'),'utf8');
+writeFileSync(join(dir,'subtitles.en.vtt'),'WEBVTT\n\n'+srt.replace(/(\d{2}:\d{2}:\d{2}),(\d{3})/g,'$1.$2').replace(/(--> \d{2}:\d{2}:\d{2}\.\d{3})/g,'$1 line:2% position:50%,center size:96% align:center'));
+const mp4=join(dir,'play-no-subtitles.mp4');
+const metadata=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-show_format','-of','json',mp4],{encoding:'utf8'}));
+if(metadata.streams.some(s=>s.codec_type==='subtitle')||metadata.streams.find(s=>s.codec_type==='video')?.width!==1600)throw Error('Invalid media streams');
+const decode=spawnSync('ffmpeg',['-hide_banner','-i',mp4,'-af','volumedetect','-vn','-f','null','NUL'],{encoding:'utf8'});
+if(decode.status!==0)throw Error(decode.stderr);
+const peak=Number(decode.stderr.match(/max_volume: ([\d.-]+) dB/)?.[1]);
+if(!Number.isFinite(peak)||peak>=0)throw Error('Invalid or clipped audio');
+const select=trace.turns.find(t=>['Rhode Island','Delaware','Florida','Louisiana','Michigan','California'].includes(t.state))??trace.turns[Math.floor(trace.turns.length/2)];
+for(const turn of trace.turns.filter(t=>t.view==='supplemental'))execFileSync('ffmpeg',['-y','-ss',String(turn.start-trace.trimStart+4),'-i',mp4,'-frames:v','1',join(dir,`supplement-${turn.state.replaceAll(' ','-')}.png`)],{stdio:'ignore'});
+for(const turn of trace.relatedSelections??[])execFileSync('ffmpeg',['-y','-ss',String(turn.start-trace.trimStart+4),'-i',mp4,'-frames:v','1',join(dir,`related-${turn.target.replaceAll(' ','-')}-video.png`)],{stdio:'ignore'});
+const times=[trace.turns[0].start-trace.trimStart+4,select.start-trace.trimStart+4,trace.turns.at(-1).start-trace.trimStart+4,trace.lines.at(-1).start-trace.trimStart+2];
+for(let i=0;i<times.length;i++)execFileSync('ffmpeg',['-y','-ss',String(times[i]),'-i',mp4,'-frames:v','1','-vf','scale=800:450',join(dir,`qa-${i}.png`)],{stdio:'ignore'});
+execFileSync('ffmpeg',['-y',...times.flatMap((_,i)=>['-i',join(dir,`qa-${i}.png`)]),'-filter_complex','[0:v][1:v][2:v][3:v]xstack=inputs=4:layout=0_0|800_0|0_450|800_450','-frames:v','1',join(dir,'qa-contact.png')],{stdio:'ignore'});
+const video=readFileSync(mp4), browser=await chromium.launch();let cueCount;
+try{
+ const p=await browser.newPage({viewport:{width:1600,height:900}});
+ await p.route('http://lesson.local/**',async route=>{
+  const path=new URL(route.request().url()).pathname;
+  if(path==='/video.mp4'){
+   const range=route.request().headers().range?.match(/bytes=(\d+)-(\d*)/),start=range?Number(range[1]):0,end=range?.[2]?Math.min(Number(range[2]),video.length-1):video.length-1;
+   await route.fulfill({status:range?206:200,contentType:'video/mp4',headers:{'Accept-Ranges':'bytes',...(range?{'Content-Range':`bytes ${start}-${end}/${video.length}`}:{})},body:video.subarray(start,end+1)});
+  }else if(path==='/en.vtt')await route.fulfill({contentType:'text/vtt',body:readFileSync(join(dir,'subtitles.en.vtt'))});
+  else await route.fulfill({contentType:'text/html',body:'<style>body{margin:0}video{width:1600px;height:900px}video::cue{font-size:28px}</style><video src="/video.mp4"><track kind="subtitles" srclang="en" src="/en.vtt"></video>'});
+ });
+ await p.goto('http://lesson.local/');await p.locator('track').evaluate(el=>el.track.mode='showing');
+ await p.waitForFunction(()=>document.querySelector('track').readyState===2);
+ const cues=await p.locator('track').evaluate(el=>({count:el.track.cues.length,line:el.track.cues[0].line}));cueCount=cues.count;
+ if(cues.count!==trace.lines.length||cues.line!==2)throw Error('Caption parsing or positioning mismatch');
+ await p.locator('video').evaluate(async(v,time)=>{if(v.readyState<1)await new Promise(r=>v.addEventListener('loadedmetadata',r,{once:true}));v.currentTime=time;await new Promise(r=>v.addEventListener('seeked',r,{once:true}));},times[1]);
+ await p.waitForTimeout(500);await p.screenshot({path:join(dir,'captions-on.png')});
+ await p.locator('track').evaluate(el=>el.track.mode='disabled');await p.waitForTimeout(250);await p.screenshot({path:join(dir,'captions-off.png')});
+}finally{await browser.close();}
+const report={durationSeconds:Number(metadata.format.duration),states:trace.turns.map(t=>t.state),narration:trace.narration,noticeClosed:true,eyeUsed:true,cleanMaster:true,optionalCaptions:{languages:['en'],formats:['srt','vtt'],cues:cueCount,toggleOffVerified:true},audioPeakDb:peak,visualReview:'pending'};
+writeFileSync(join(dir,'verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));

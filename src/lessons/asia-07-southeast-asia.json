@@ -1,0 +1,706 @@
+{
+  "title": "Asia 7 of 7 · Southeast Asia",
+  "edition": "Asia countries · Seven regional lessons · John · November 2026",
+  "mapId": "asia-countries",
+  "area": "Asia",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/asia-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      91,
+      -12
+    ],
+    [
+      142,
+      29
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Myanmar",
+      "location": [
+        96,
+        21
+      ],
+      "bounds": [
+        [
+          91,
+          5
+        ],
+        [
+          111,
+          29
+        ]
+      ]
+    },
+    {
+      "name": "Thailand",
+      "location": [
+        100.5,
+        16.5
+      ],
+      "bounds": [
+        [
+          91,
+          5
+        ],
+        [
+          111,
+          29
+        ]
+      ]
+    },
+    {
+      "name": "Laos",
+      "location": [
+        102.6,
+        19.5
+      ],
+      "bounds": [
+        [
+          97,
+          8
+        ],
+        [
+          111,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Cambodia",
+      "location": [
+        105,
+        12.7
+      ],
+      "bounds": [
+        [
+          97,
+          8
+        ],
+        [
+          111,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "location": [
+        108,
+        15.8
+      ],
+      "bounds": [
+        [
+          97,
+          8
+        ],
+        [
+          111,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "location": [
+        102,
+        4
+      ],
+      "bounds": [
+        [
+          98,
+          -1
+        ],
+        [
+          120,
+          9
+        ]
+      ]
+    },
+    {
+      "name": "Brunei",
+      "location": [
+        114.67,
+        4.54
+      ],
+      "bounds": [
+        [
+          113.3,
+          3.5
+        ],
+        [
+          116,
+          5.8
+        ]
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "location": [
+        113,
+        -1
+      ],
+      "bounds": [
+        [
+          94,
+          -12
+        ],
+        [
+          142,
+          7
+        ]
+      ]
+    },
+    {
+      "name": "Philippines",
+      "location": [
+        121,
+        16
+      ],
+      "bounds": [
+        [
+          116,
+          4
+        ],
+        [
+          128,
+          21
+        ]
+      ]
+    },
+    {
+      "name": "Timor-Leste",
+      "location": [
+        125.6,
+        -8.8
+      ],
+      "bounds": [
+        [
+          122,
+          -11
+        ],
+        [
+          129,
+          -7
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Asia episode seven of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Our final episode is longer, with eleven countries from mainland Southeast Asia into the island world. Singapore uses a labelled supplemental map; Malaysia and Indonesia need special attention because their territory spans separated regions and islands."
+  ],
+  "states": [
+    {
+      "name": "Myanmar",
+      "location": [
+        96,
+        21
+      ],
+      "lines": [
+        "Myanmar lies east of Bangladesh and India, west of Thailand and Laos, and south of China. Its long western and southern shores face the Bay of Bengal and Andaman Sea.",
+        "Bagan spreads temples and stupas across a plain beside the Ayeyarwady River. The landscape records the religious and artistic achievements of an early Buddhist kingdom.",
+        "Picture temple silhouettes along a river plain at mainland Southeast Asia’s western edge. Myanmar is west of Thailand, not on the eastern Vietnamese coast."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1588/"
+      ],
+      "cameraBounds": [
+        [
+          91,
+          5
+        ],
+        [
+          111,
+          29
+        ]
+      ],
+      "transition": "Let's bring Myanmar and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              91,
+              5
+            ],
+            [
+              111,
+              29
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thailand",
+      "location": [
+        100.5,
+        16.5
+      ],
+      "lines": [
+        "Thailand occupies the middle of the mainland group, between Myanmar and Laos, above Cambodia and Malaysia. Its southern arm follows the peninsula toward Malaysia.",
+        "Sukhothai was an early capital of Siam. Its monuments show how several cultural influences combined into a distinctive style of Thai art and architecture.",
+        "Remember Thailand as a broad northern body with a long southern handle. Place old Sukhothai in the mainland portion, then follow the handle toward Malaysia."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/574/"
+      ],
+      "cameraBounds": [
+        [
+          91,
+          5
+        ],
+        [
+          111,
+          29
+        ]
+      ]
+    },
+    {
+      "name": "Laos",
+      "location": [
+        102.6,
+        19.5
+      ],
+      "lines": [
+        "Laos is landlocked, east of Thailand and west of Vietnam, with China to the north and Cambodia to the south. It is the inland member of this mainland chain.",
+        "The Plain of Jars contains huge stone vessels linked to Iron Age funerary practices. Archaeological evidence connects them with burials, even though many details remain under study.",
+        "Picture stone jars inland between Thailand and Vietnam. Rivers cross Laos, but no part of the country reaches the sea."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1587/"
+      ],
+      "cameraBounds": [
+        [
+          97,
+          8
+        ],
+        [
+          111,
+          24
+        ]
+      ],
+      "transition": "Let's bring Laos and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              97,
+              8
+            ],
+            [
+              111,
+              24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cambodia",
+      "location": [
+        105,
+        12.7
+      ],
+      "lines": [
+        "Cambodia sits below Laos, southeast of Thailand and west of southern Vietnam. Its southwestern edge has a coast on the Gulf of Thailand.",
+        "Angkor preserves the remains of successive Khmer capitals, including Angkor Wat and the carved faces at the Bayon. The famous temple belongs to a much larger historical landscape.",
+        "Remember Angkor below Laos and inside Vietnam’s coastal curve. Cambodia has a southwestern coast; Laos, immediately north, is landlocked."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/668/"
+      ],
+      "cameraBounds": [
+        [
+          97,
+          8
+        ],
+        [
+          111,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "location": [
+        108,
+        15.8
+      ],
+      "lines": [
+        "Vietnam follows the eastern coast of the mainland, below China and east of Laos and Cambodia. Its long, narrow central stretch links broader northern and southern regions.",
+        "Ha Long Bay and the Cat Ba area contain limestone towers rising from the sea. Water has flooded a karst landscape, leaving a remarkable scattering of rocky islands.",
+        "Picture limestone towers beside the long eastern coastal ribbon. Vietnam curves around Laos and Cambodia; Thailand lies farther west."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/672/"
+      ],
+      "cameraBounds": [
+        [
+          97,
+          8
+        ],
+        [
+          111,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "location": [
+        102,
+        4
+      ],
+      "lines": [
+        "Malaysia has two main regions: one on the Malay Peninsula below Thailand, the other on northern Borneo. The South China Sea separates them; both belong to the same country.",
+        "Kinabalu Park, in Sabah on Borneo, rises from tropical rainforest into much cooler mountain habitats. A single mountain landscape supports a remarkable range of plant life.",
+        "Remember one country in two regions, with Mount Kinabalu on the Borneo side. Singapore sits off the peninsula’s southern tip, while Brunei is tucked into Borneo’s northern coast."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1012/"
+      ],
+      "cameraBounds": [
+        [
+          98,
+          -1
+        ],
+        [
+          120,
+          9
+        ]
+      ],
+      "transition": "Let's bring Malaysia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              98,
+              -1
+            ],
+            [
+              120,
+              9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singapore",
+      "location": [
+        103.82,
+        1.35
+      ],
+      "lines": [
+        "Singapore is the small island country immediately south of peninsular Malaysia. Indonesia’s nearby islands lie across the strait; this labelled supplemental map shows Singapore separately.",
+        "Singapore Botanic Gardens became an important centre of tropical plant research, including work connected with rubber cultivation. A garden helped shape a major regional industry.",
+        "Picture a research garden at the peninsula’s southern tip. Singapore is its own country, not a city inside Malaysia, despite the very short crossing between them."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1483/"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO World Heritage Centre",
+      "contextLabels": [
+        [
+          "Malaysia",
+          [
+            103.82,
+            1.51
+          ]
+        ],
+        [
+          "Singapore Strait",
+          [
+            103.83,
+            1.17
+          ]
+        ]
+      ],
+      "cameraBounds": [
+        [
+          103.55,
+          1.15
+        ],
+        [
+          104.1,
+          1.53
+        ]
+      ],
+      "transition": "Let's find Singapore on a labelled supplemental map, then move in for a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              99,
+              -1
+            ],
+            [
+              106,
+              6
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              103.55,
+              1.15
+            ],
+            [
+              104.1,
+              1.53
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "Singapore is the small island country immediately south of peninsular Malaysia. Indonesia’s nearby islands lie across the strait; this labelled supplemental map shows Singapore separately.",
+        "Singapore Botanic Gardens became an important centre of tropical plant research, including work connected with rubber cultivation. A garden helped shape a major regional industry."
+      ]
+    },
+    {
+      "name": "Brunei",
+      "location": [
+        114.67,
+        4.54
+      ],
+      "lines": [
+        "Brunei is a small country on Borneo’s northern coast, surrounded on land by Malaysia. Malaysian territory separates its two main parts.",
+        "Mangroves along the Brunei River are habitat for proboscis monkeys, famous for their large noses. The wildlife hook belongs to Borneo, not the Malay Peninsula.",
+        "Picture the long-nosed monkey on Borneo’s north coast. Keep Brunei small and coastal, with Malaysian territory around it and Indonesian Borneo farther south."
+      ],
+      "sources": [
+        "https://www.bruneitourism.com/wp-content/uploads/2025/03/Mini-Guide-Brochure_English.pdf"
+      ],
+      "cameraBounds": [
+        [
+          113.3,
+          3.5
+        ],
+        [
+          116,
+          5.8
+        ]
+      ],
+      "transition": "Let's bring Brunei and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              113.3,
+              3.5
+            ],
+            [
+              116,
+              5.8
+            ]
+          ]
+        }
+      ],
+      "view": "geoclick"
+    },
+    {
+      "name": "Indonesia",
+      "location": [
+        113,
+        -1
+      ],
+      "lines": [
+        "Indonesia stretches across a vast chain of islands between the Indian and Pacific Oceans. It includes Sumatra, Java, much of Borneo, Sulawesi and the western part of New Guinea.",
+        "Komodo dragons are giant lizards native to a small part of Indonesia. Their island habitats are protected in Komodo National Park: real reptiles behind a dragon’s name.",
+        "Picture the dragon among a long east-west island chain. Borneo is shared with Malaysia and Brunei, and New Guinea is shared with Papua New Guinea; neither whole island is exclusively Indonesian."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/609/"
+      ],
+      "cameraBounds": [
+        [
+          94,
+          -12
+        ],
+        [
+          142,
+          7
+        ]
+      ],
+      "transition": "Let's bring Indonesia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              94,
+              -12
+            ],
+            [
+              142,
+              7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Philippines",
+      "location": [
+        121,
+        16
+      ],
+      "lines": [
+        "The Philippines is the island country east of Vietnam, north of Indonesia and south of Taiwan. Luzon is toward the north, with Mindanao toward the south.",
+        "In the Cordillera mountains, Ifugao rice terraces follow steep slopes in carefully maintained steps. Farming knowledge and water management turned mountainsides into productive fields.",
+        "Remember a mostly north-south island group above Indonesia, with rice terraces on northern Luzon. Keep it separate from Indonesia’s much longer east-west chain."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/722/"
+      ],
+      "cameraBounds": [
+        [
+          116,
+          4
+        ],
+        [
+          128,
+          21
+        ]
+      ],
+      "transition": "Let's bring Philippines and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              116,
+              4
+            ],
+            [
+              128,
+              21
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Timor-Leste",
+      "location": [
+        125.6,
+        -8.8
+      ],
+      "lines": [
+        "Timor-Leste occupies the eastern part of Timor, plus the separate Oecusse enclave and nearby islands. Indonesia occupies the western part of the main island.",
+        "Tais is a handwoven textile used in ceremonies, exchanges and community life. Its colours and patterns carry identities and knowledge passed down by Timorese weavers.",
+        "Picture woven cloth at the eastern end of Timor, below Indonesia’s main island chain. The small Oecusse piece also belongs to Timor-Leste, although Indonesian territory surrounds it on land."
+      ],
+      "sources": [
+        "https://ich.unesco.org/en/USL/tais-traditional-textile-01688"
+      ],
+      "cameraBounds": [
+        [
+          122,
+          -11
+        ],
+        [
+          129,
+          -7
+        ]
+      ],
+      "transition": "Let's bring Timor-Leste and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              122,
+              -11
+            ],
+            [
+              129,
+              -7
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          91,
+          -12
+        ],
+        [
+          142,
+          29
+        ]
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recap": [
+    "On the mainland, Myanmar is west, Thailand central, Laos inland, Cambodia below Laos, and Vietnam along the eastern coast. Malaysia reaches down the peninsula and across to Borneo; Singapore sits off the peninsula’s tip.",
+    "Brunei is small and coastal on Borneo. Indonesia stretches east to west, the Philippines forms a more north-south island group above it, and Timor-Leste occupies eastern Timor with its separate enclave.",
+    "Across seven episodes, we have visited forty-nine teaching stops. Cyprus counts once, with its separate northern map target explained; Bahrain, Maldives and Singapore use supplemental views. Recall each country through its position and its memorable fact."
+  ],
+  "supplement": {
+    "data": "src/lessons/data/asia-small-countries.geojson",
+    "mapCredit": "Natural Earth · generalized land polygons",
+    "mapAttribution": "Natural Earth · public domain · generalized geographic view",
+    "contextLabels": [
+      [
+        "Malaysia",
+        [
+          102,
+          3
+        ]
+      ],
+      [
+        "Sumatra · Indonesia",
+        [
+          101,
+          0.25
+        ]
+      ]
+    ],
+    "islandLabels": []
+  },
+  "recapMoves": [
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            99,
+            -1
+          ],
+          [
+            106,
+            6
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "view": "geoclick",
+        "bounds": [
+          [
+            105,
+            -12
+          ],
+          [
+            142,
+            21
+          ]
+        ]
+      }
+    ],
+    []
+  ]
+}

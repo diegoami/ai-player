@@ -1,0 +1,498 @@
+{
+  "title": "Asia 5 of 7 · South Asia",
+  "edition": "Asia countries · Seven regional lessons · John · November 2026",
+  "mapId": "asia-countries",
+  "area": "Asia",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/asia-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      59,
+      -1
+    ],
+    [
+      98,
+      38
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Pakistan",
+      "location": [
+        69,
+        30
+      ],
+      "bounds": [
+        [
+          59,
+          5
+        ],
+        [
+          94,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "India",
+      "location": [
+        79,
+        22
+      ],
+      "bounds": [
+        [
+          66,
+          6
+        ],
+        [
+          98,
+          36
+        ]
+      ]
+    },
+    {
+      "name": "Nepal",
+      "location": [
+        84,
+        28
+      ],
+      "bounds": [
+        [
+          78,
+          25
+        ],
+        [
+          94,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "Bhutan",
+      "location": [
+        90.4,
+        27.4
+      ],
+      "bounds": [
+        [
+          78,
+          25
+        ],
+        [
+          94,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "location": [
+        90.3,
+        23.8
+      ],
+      "bounds": [
+        [
+          86,
+          20
+        ],
+        [
+          95,
+          28
+        ]
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "location": [
+        80.7,
+        7.8
+      ],
+      "bounds": [
+        [
+          78,
+          5
+        ],
+        [
+          83,
+          11
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Asia episode five of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Our seven South Asian stops are Pakistan, India, Nepal, Bhutan, Bangladesh, Sri Lanka and the Maldives. A labelled supplemental map will bring the Maldives’ tiny islands into view."
+  ],
+  "states": [
+    {
+      "name": "Pakistan",
+      "location": [
+        69,
+        30
+      ],
+      "lines": [
+        "Pakistan lies west of India and southeast of Afghanistan, with an Arabian Sea coast in the south. The Indus River runs through much of its length.",
+        "Mohenjo-daro preserves evidence of carefully planned city life in the ancient Indus civilisation. Its organised streets show that urban planning is thousands of years old.",
+        "Picture the Indus leading south to the sea, with an ancient planned city beside it. Pakistan is the western coastal anchor of our South Asian group."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/138/"
+      ],
+      "cameraBounds": [
+        [
+          59,
+          5
+        ],
+        [
+          94,
+          38
+        ]
+      ],
+      "transition": "Let's bring Pakistan and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              59,
+              5
+            ],
+            [
+              94,
+              38
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "location": [
+        79,
+        22
+      ],
+      "lines": [
+        "India fills most of the South Asian peninsula, between the Arabian Sea and Bay of Bengal. Pakistan is west, the Himalayan countries north, and Bangladesh near its eastern side.",
+        "The Taj Mahal at Agra is a mausoleum, commissioned by Shah Jahan in memory of his wife. Its famous white marble belongs to a tomb complex, rather than a royal residence.",
+        "Remember the broad peninsula pointing into the Indian Ocean. Place the marble mausoleum in northern India, and keep the surrounding smaller countries in their separate positions."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/252/"
+      ],
+      "cameraBounds": [
+        [
+          66,
+          6
+        ],
+        [
+          98,
+          36
+        ]
+      ],
+      "transition": "Let's bring India and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              66,
+              6
+            ],
+            [
+              98,
+              36
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nepal",
+      "location": [
+        84,
+        28
+      ],
+      "lines": [
+        "Nepal is the long, narrow inland country along the Himalayas, between India and China. Bhutan lies farther east, separated from Nepal by Indian territory.",
+        "Nepal is not only high peaks: Chitwan National Park protects lowland habitat for one-horned rhinoceroses and Bengal tigers. The country rises from warm plains to Himalayan mountains.",
+        "Picture a rhinoceros below the mountains. Nepal is the western member of the Nepal-Bhutan pair, stretched along India’s northern edge."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/284/"
+      ],
+      "cameraBounds": [
+        [
+          78,
+          25
+        ],
+        [
+          94,
+          32
+        ]
+      ],
+      "transition": "Let's bring Nepal and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              78,
+              25
+            ],
+            [
+              94,
+              32
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bhutan",
+      "location": [
+        90.4,
+        27.4
+      ],
+      "lines": [
+        "Bhutan is the smaller Himalayan country east of Nepal, between India and China. It is landlocked, above northeastern India and north of Bangladesh.",
+        "The Drametse mask dance combines drumming with dancers wearing animal and mythical masks. This sacred performance is a living Bhutanese tradition passed between generations.",
+        "Remember masked dancers in the eastern Himalayan pocket. Nepal is the long strip farther west; Bhutan is the compact country to the east."
+      ],
+      "sources": [
+        "https://ich.unesco.org/en/RL/mask-dance-of-the-drums-from-drametse-00161"
+      ],
+      "cameraBounds": [
+        [
+          78,
+          25
+        ],
+        [
+          94,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "location": [
+        90.3,
+        23.8
+      ],
+      "lines": [
+        "Bangladesh sits on the Bay of Bengal, almost surrounded by India, with Myanmar along part of its southeastern border. Great rivers spread across its low delta.",
+        "The Sundarbans contain salt-tolerant mangrove forests threaded by tidal channels. Bengal tigers live in this watery landscape shared across the Bangladesh-India border.",
+        "Picture a tiger among mangroves at the river delta. Bangladesh belongs at the head of the Bay of Bengal, below the Himalayan countries and east of most of India."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/798/"
+      ],
+      "cameraBounds": [
+        [
+          86,
+          20
+        ],
+        [
+          95,
+          28
+        ]
+      ],
+      "transition": "Let's bring Bangladesh and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              86,
+              20
+            ],
+            [
+              95,
+              28
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "location": [
+        80.7,
+        7.8
+      ],
+      "lines": [
+        "Sri Lanka is the island immediately southeast of India’s southern tip. A narrow stretch of water separates the two countries.",
+        "Sigiriya’s Lion Rock rises steeply above the surrounding landscape, with the remains of a royal capital on its slopes and summit. A monumental lion once framed the approach.",
+        "Picture the lion rock on the island below India. Keep Sri Lanka close to India’s southeastern tip; the Maldives are the much smaller islands farther southwest."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/202/"
+      ],
+      "cameraBounds": [
+        [
+          78,
+          5
+        ],
+        [
+          83,
+          11
+        ]
+      ],
+      "transition": "Let's bring Sri Lanka and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              78,
+              5
+            ],
+            [
+              83,
+              11
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maldives",
+      "location": [
+        73.0486578888889,
+        5.129819222222222
+      ],
+      "lines": [
+        "The Maldives form a chain of small coral islands in the Indian Ocean, southwest of India and Sri Lanka. This supplemental view shows real land polygons; blue gaps are sea and lagoons.",
+        "Baa Atoll is a UNESCO Biosphere Reserve with coral reefs, islands and rich marine life. The country’s story is spread across the sea, rather than contained in one large island.",
+        "Remember a north-south necklace of coral islands southwest of Sri Lanka. These are close views of tiny land areas, not one solid strip of territory."
+      ],
+      "sources": [
+        "https://www.unesco.org/en/mab/baa-atoll"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO Man and the Biosphere Programme",
+      "contextLabels": [
+        [
+          "Baa Atoll",
+          [
+            73.1,
+            5.19
+          ]
+        ],
+        [
+          "Indian Ocean",
+          [
+            73.11,
+            5.08
+          ]
+        ]
+      ],
+      "cameraBounds": [
+        [
+          72.97,
+          5.05
+        ],
+        [
+          73.15,
+          5.22
+        ]
+      ],
+      "transition": "Let's find Maldives on a labelled supplemental map, then move in for a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              69,
+              -1
+            ],
+            [
+              83,
+              10
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              72.97,
+              5.05
+            ],
+            [
+              73.15,
+              5.22
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "The Maldives form a chain of small coral islands in the Indian Ocean, southwest of India and Sri Lanka. This supplemental view shows real land polygons; blue gaps are sea and lagoons.",
+        "Baa Atoll is a UNESCO Biosphere Reserve with coral reefs, islands and rich marine life. The country’s story is spread across the sea, rather than contained in one large island."
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          59,
+          -1
+        ],
+        [
+          98,
+          38
+        ]
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recap": [
+    "Pakistan anchors the west; India fills the broad peninsula. Nepal and Bhutan sit along the Himalayan side, Bangladesh at the river delta, Sri Lanka below India’s southeastern tip, and the Maldives farther southwest.",
+    "Remember the planned Indus city, marble mausoleum, lowland rhinoceros, masked dance, mangrove tiger, lion rock and coral islands. For the Maldives, we zoom into real tiny land areas rather than enlarging the country’s territory."
+  ],
+  "supplement": {
+    "data": "src/lessons/data/asia-small-countries.geojson",
+    "mapCredit": "Natural Earth · generalized land polygons",
+    "mapAttribution": "Natural Earth · public domain · generalized geographic view",
+    "contextLabels": [
+      [
+        "India",
+        [
+          77,
+          10
+        ]
+      ],
+      [
+        "Sri Lanka",
+        [
+          80.7,
+          7.8
+        ]
+      ],
+      [
+        "Indian Ocean",
+        [
+          76,
+          2
+        ]
+      ]
+    ],
+    "islandLabels": []
+  },
+  "recapMoves": [
+    [],
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            70,
+            -1
+          ],
+          [
+            82,
+            10
+          ]
+        ]
+      }
+    ]
+  ]
+}

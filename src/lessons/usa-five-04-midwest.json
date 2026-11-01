@@ -1,0 +1,336 @@
+{
+  "title": "Episode 4 of 5 · Midwest · 12 states",
+  "edition": "Five videos · 48 contiguous states · John · November 2026",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/usa-states",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
+  "restore": [
+    {
+      "name": "Ohio"
+    },
+    {
+      "name": "Michigan",
+      "location": [
+        -84.55,
+        42.73
+      ]
+    },
+    {
+      "name": "Indiana"
+    },
+    {
+      "name": "Illinois"
+    },
+    {
+      "name": "Wisconsin"
+    },
+    {
+      "name": "Minnesota"
+    },
+    {
+      "name": "Iowa"
+    },
+    {
+      "name": "Missouri"
+    },
+    {
+      "name": "Kansas"
+    },
+    {
+      "name": "Nebraska"
+    },
+    {
+      "name": "South Dakota"
+    },
+    {
+      "name": "North Dakota"
+    }
+  ],
+  "intro": [
+    "Welcome to episode four of our U.S. states series. First, I clear the map so we can study a fresh group.",
+    "Today we explore all twelve Midwest states, from the Great Lakes through the Mississippi Valley to the central Plains. Lakes, river borders and north-south pairs will guide us."
+  ],
+  "states": [
+    {
+      "name": "Ohio",
+      "rotateExtra": true,
+      "factContains": "Wright",
+      "lines": [
+        "Ohio sits immediately west of Pennsylvania, above Kentucky. Its northern edge reaches Lake Erie; the Ohio River curves along much of its southern border.",
+        "The name comes from a Seneca expression for a good or great river. The Wright brothers developed their aircraft in Dayton, before flying in North Carolina.",
+        "Use Ohio as our eastern gateway to the Midwest. Indiana lies to its west, while Michigan reaches down from the north."
+      ],
+      "sources": [
+        "https://www.nasa.gov/history/120-years-ago-the-first-powered-flight-at-kitty-hawk/"
+      ],
+      "transition": "Let's begin with Ohio on Lake Erie, then travel around the Great Lakes and west across the Midwest.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -85,
+              38.5
+            ],
+            [
+              -80.3,
+              43.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Michigan",
+      "location": [
+        -84.55,
+        42.73
+      ],
+      "factContains": "Straits of Mackinac",
+      "transition": "We'll widen the view northward for Michigan. Its two main peninsulas need to be seen together, across the Great Lakes.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -91,
+              41.5
+            ],
+            [
+              -82,
+              48.4
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Michigan has a mitten-shaped Lower Peninsula and a separate Upper Peninsula extending west above Lake Michigan. Both belong to the same state.",
+        "Its name refers to large water. The Mackinac Bridge connects the two peninsulas across the Straits of Mackinac; it opened in 1957.",
+        "Do not mistake the Upper Peninsula for Wisconsin. Michigan's two parts frame the northern end of Lake Michigan, while Indiana is farther south."
+      ],
+      "sources": [
+        "https://www.mackinacbridge.org/about-the-bridge/location/",
+        "https://www.mackinacbridge.org/history/history-of-the-bridge/"
+      ]
+    },
+    {
+      "name": "Indiana",
+      "factContains": "1911",
+      "transition": "Now follow Lake Michigan south. We'll study Indiana and Illinois side by side before continuing up the lake's western shore.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -92,
+              36.5
+            ],
+            [
+              -84,
+              43.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Indiana lies west of Ohio and east of Illinois, with Kentucky below it. Its short northern shoreline touches Lake Michigan.",
+        "The name means land of the Indians, a name given by settlers. The first Indianapolis 500 motor race was held here in 1911.",
+        "Remember Indiana as the middle state in this east-west sequence: Ohio, Indiana, Illinois. We move one state west next."
+      ],
+      "sources": [
+        "https://www.indianapolismotorspeedway.com/history/first-500"
+      ]
+    },
+    {
+      "name": "Illinois",
+      "factContains": "1871",
+      "lines": [
+        "Illinois is the long state west of Indiana. Chicago sits in its northeastern corner on Lake Michigan, while the Mississippi River forms its western edge.",
+        "Its name comes through French from the Illinois peoples, and the final s is silent. Chicago rebuilt after its 1871 fire and became a centre of early skyscraper design.",
+        "Keep Illinois between Indiana and the Mississippi. Wisconsin lies directly above it, along the western side of Lake Michigan."
+      ],
+      "sources": [
+        "https://www.architecture.org/online-resources/architecture-encyclopedia/the-great-chicago-fire-of-1871"
+      ]
+    },
+    {
+      "name": "Wisconsin",
+      "factContains": "cheese",
+      "transition": "Let's move north and west to Wisconsin and Minnesota. The Great Lakes give way to the upper Mississippi and a landscape of many smaller lakes.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -97.5,
+              42.3
+            ],
+            [
+              -86.5,
+              49.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Wisconsin lies north of Illinois, between Minnesota and Lake Michigan. Lake Superior touches its northern edge, below Michigan's Upper Peninsula.",
+        "The card highlights Wisconsin's cheese-making identity. Dairy farming and cheese production are central to the state's America’s Dairyland nickname.",
+        "Remember Wisconsin on Lake Michigan's western shore. Minnesota is immediately to the west, across river borders in the south and on land farther north."
+      ],
+      "sources": [
+        "https://datcp.wi.gov/Pages/Publications/WIAgStatistics.aspx",
+        "https://legacy.wisconsinhistory.org/Records/Article/CS2102"
+      ]
+    },
+    {
+      "name": "Minnesota",
+      "rotateExtra": true,
+      "factContains": "Lake Itasca",
+      "lines": [
+        "Minnesota is west of Wisconsin and north of Iowa. Its northeastern tip reaches Lake Superior, and its northern boundary meets Canada.",
+        "Its Dakota-derived name is associated with sky-tinted or cloudy water. The Mississippi River begins here at Lake Itasca, far from its mouth in Louisiana.",
+        "Keep Minnesota above Iowa and east of the Dakotas. Our next move follows the Mississippi south, toward Iowa and Missouri."
+      ],
+      "sources": [
+        "https://www.dnr.state.mn.us/state-parks/itasca/headwaters.html"
+      ]
+    },
+    {
+      "name": "Iowa",
+      "factContains": "corn",
+      "transition": "We now move south along the Mississippi Valley. Iowa and Missouri form another useful north-south pair.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -97,
+              35.5
+            ],
+            [
+              -89,
+              44
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Iowa lies directly below Minnesota, with the Mississippi along its eastern edge. Nebraska is to its west and Missouri below it.",
+        "The name comes from the Ioway people. The card points to Iowa's farming identity; corn production is a major part of the state's agriculture.",
+        "Remember Iowa between the Missouri River on the west and the Mississippi on the east. Missouri, our next state, is directly south."
+      ],
+      "sources": [
+        "https://www.nass.usda.gov/Statistics_by_State/Iowa/Publications/Annual_Statistical_Bulletin/2025-Iowa-Annual-Bulletin.pdf"
+      ]
+    },
+    {
+      "name": "Missouri",
+      "factContains": "Gateway Arch",
+      "lines": [
+        "Missouri sits below Iowa and west of Illinois. The Mississippi forms its eastern boundary; the Missouri River crosses the state toward St Louis.",
+        "The card connects Missouri with westward travel. In St Louis, the Gateway Arch commemorates the city's role in the westward expansion of the United States.",
+        "Look for Missouri's small southeastern bootheel. Kansas lies to the west; we now turn toward the central Plains."
+      ],
+      "sources": [
+        "https://www.nps.gov/places/gateway-arch-monument.htm"
+      ]
+    },
+    {
+      "name": "Kansas",
+      "rotateExtra": true,
+      "factContains": "1954",
+      "transition": "Let's frame Kansas and Nebraska, two broad Plains states stacked north and south. Then we'll continue north through the Dakotas.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -104.3,
+              36.5
+            ],
+            [
+              -94.3,
+              43.2
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Kansas lies west of Missouri, directly above Oklahoma and below Nebraska. Most of its outline is rectangular, apart from its northeastern river boundary.",
+        "Its name comes from the Kansa people. The Topeka case in Brown versus Board of Education helped lead to the 1954 ruling that racial segregation in public schools was unconstitutional.",
+        "Remember Kansas above Oklahoma and below Nebraska. Unlike Arkansas, its final s is pronounced; those are two different states."
+      ],
+      "sources": [
+        "https://www.archives.gov/milestone-documents/brown-v-board-of-education"
+      ]
+    },
+    {
+      "name": "Nebraska",
+      "factContains": "unicameral",
+      "lines": [
+        "Nebraska stretches across the Plains above Kansas. Notice the notch in its southwestern corner and the Missouri River along its eastern side.",
+        "Its name refers to flat water, linked to the Platte River. Nebraska has the country's only one-house state legislature, officially organised on a nonpartisan basis.",
+        "Think of Nebraska as the next rung north from Kansas. South Dakota lies above it; Iowa is across the Missouri River to the east."
+      ],
+      "sources": [
+        "https://www.nebraskalegislature.gov/about/ou_facts.php"
+      ]
+    },
+    {
+      "name": "South Dakota",
+      "factContains": "Mount Rushmore",
+      "transition": "Our final close view takes in both Dakotas, from Nebraska's northern border up to Canada. Watch the two stacked outlines.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -104.5,
+              42.3
+            ],
+            [
+              -96,
+              49.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "South Dakota lies above Nebraska and below North Dakota. Minnesota is to the east, while the Black Hills are in the western part of the state.",
+        "The card recalls Mount Rushmore, carved between 1927 and 1941 in the Black Hills. The area is sacred to the Lakota, and its history remains contested.",
+        "Remember South Dakota as the lower Dakota. Its northern neighbour shares both its name and the day it became a state."
+      ],
+      "sources": [
+        "https://www.nps.gov/articles/000/mount-rushmore-national-memorial-501080.htm"
+      ]
+    },
+    {
+      "name": "North Dakota",
+      "factContains": "1889",
+      "lines": [
+        "North Dakota is directly above South Dakota, along the Canadian border. Minnesota is to its east and Montana to its west.",
+        "Dakota means friend or ally. Both Dakotas joined the Union on November second, 1889; the signing papers were shuffled so the order was not recorded.",
+        "North Dakota completes our twelve Midwest states. Trace the Plains stack from south to north: Kansas, Nebraska, South Dakota, North Dakota."
+      ],
+      "sources": [
+        "https://www.loc.gov/item/today-in-history/november-02/",
+        "https://www.ndstudies.gov/gr4/early-settlement-north-dakota/part-1-early-settlement-north-dakota/section-6-statehood"
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -105,
+          36
+        ],
+        [
+          -80.3,
+          49.5
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Start with Ohio, Michigan, Indiana and Illinois; continue around the lakes to Wisconsin and Minnesota. Then locate Iowa above Missouri.",
+    "Finish with the Plains stack: Kansas, Nebraska, South Dakota and North Dakota. That completes all twelve Midwest states. One final episode will take us across the West."
+  ]
+}

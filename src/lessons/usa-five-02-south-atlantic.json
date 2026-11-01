@@ -1,0 +1,282 @@
+{
+  "title": "Episode 2 of 5 · South Atlantic · 8 states",
+  "edition": "Five videos · 48 contiguous states · John · November 2026",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/usa-states",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
+  "restore": [
+    {
+      "name": "Delaware"
+    },
+    {
+      "name": "Maryland",
+      "location": [
+        -76.8,
+        39.35
+      ]
+    },
+    {
+      "name": "Virginia"
+    },
+    {
+      "name": "West Virginia",
+      "location": [
+        -81.63,
+        38.35
+      ]
+    },
+    {
+      "name": "North Carolina"
+    },
+    {
+      "name": "South Carolina"
+    },
+    {
+      "name": "Georgia"
+    },
+    {
+      "name": "Florida",
+      "location": [
+        -81.7,
+        28.5
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to episode two of our U.S. states series. First, I clear the map so we can study a fresh group.",
+    "Our eight-state route follows the South Atlantic group: Delaware and Maryland, Virginia and West Virginia, the Carolinas, Georgia and Florida. West Virginia is the inland mountain member."
+  ],
+  "states": [
+    {
+      "name": "Delaware",
+      "point": [
+        726,
+        736
+      ],
+      "lines": [
+        "Delaware is this small strip below Pennsylvania, across Delaware Bay from New Jersey. Maryland wraps around its western and southern sides.",
+        "Its First State nickname comes from ratification: Delaware was the first state to ratify the United States Constitution, on December 7th, 1787.",
+        "Keep Delaware Bay and Chesapeake Bay separate. Delaware lies east of the Chesapeake, on the peninsula it shares with Maryland and Virginia."
+      ],
+      "sources": [
+        "https://delawareday.delaware.gov/about-delaware-day/"
+      ],
+      "transition": "Begin with a close view of Delaware, the small state between Delaware Bay and Maryland.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -76.6,
+              38
+            ],
+            [
+              -73.3,
+              41.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maryland",
+      "point": [
+        665,
+        760
+      ],
+      "location": [
+        -76.8,
+        39.35
+      ],
+      "transition": "Now we'll widen the view toward Maryland, so its long western reach and the Chesapeake Bay are both visible.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -79.6,
+              37.8
+            ],
+            [
+              -74,
+              40.8
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Maryland is the irregular state around the upper Chesapeake Bay. Notice its narrow western reach and its land on both sides of the bay.",
+        "Its name honours Queen Henrietta Maria. The card also recalls Fort McHenry: the flag seen there in 1814 inspired the words of The Star-Spangled Banner.",
+        "Use the Chesapeake as your landmark for Maryland. Virginia lies farther south, and we will move the map to see it properly."
+      ],
+      "sources": [
+        "https://www.si.edu/spotlight/flag-day/banner-facts"
+      ]
+    },
+    {
+      "name": "Virginia",
+      "point": [
+        600,
+        600
+      ],
+      "transition": "One more move south brings Virginia fully into the study area. Watch its long western taper and the Atlantic coast on the right.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -83.8,
+              36.3
+            ],
+            [
+              -75,
+              39.8
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Virginia lies south of Maryland and north of North Carolina. West Virginia is a separate state on its inland side.",
+        "The name honours Elizabeth the First. Its other card fact explains a nickname: eight U.S. presidents were born in Virginia, more than in any other state.",
+        "Keep Virginia below Maryland and along the Atlantic. Next, we turn inland to West Virginia and compare their shapes."
+      ],
+      "sources": [
+        "https://publications.virginiageneralassembly.gov/download_publication/125"
+      ]
+    },
+    {
+      "name": "West Virginia",
+      "location": [
+        -81.63,
+        38.35
+      ],
+      "factContains": "1863",
+      "transition": "Let's compare the two Virginias. West Virginia's mountain outline lies inland from the larger coastal state.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -83.8,
+              36.3
+            ],
+            [
+              -75,
+              41
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "West Virginia is the irregular mountain state west of Virginia. It is landlocked, with Kentucky to the southwest and Ohio across the river to the northwest.",
+        "The card explains its unusual name and history: it separated from Virginia during the Civil War and became a state in 1863.",
+        "Remember West Virginia's northern and eastern panhandles. Virginia reaches the Atlantic; West Virginia is landlocked. Next, we return to the coast in North Carolina."
+      ],
+      "sources": [
+        "https://www.archives.gov/legislative/features/west-virginia"
+      ]
+    },
+    {
+      "name": "North Carolina",
+      "factContains": "1903",
+      "transition": "Now move east to the Atlantic side. We'll follow North Carolina, South Carolina and Georgia down the coast.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -85.8,
+              30.2
+            ],
+            [
+              -75.2,
+              37
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "North Carolina is the long state below Virginia, reaching from the mountains to the Atlantic. Notice the thin Outer Banks along its eastern coast.",
+        "Carolina comes from Carolus, the Latin form of Charles. Near Kitty Hawk, the Wright brothers made their first successful airplane flights in 1903.",
+        "For your map memory, North Carolina is the broad northern Carolina, with mountains at one end and barrier islands at the other."
+      ],
+      "sources": [
+        "https://www.nps.gov/wrbr/index.htm"
+      ]
+    },
+    {
+      "name": "South Carolina",
+      "factContains": "Fort Sumter",
+      "lines": [
+        "South Carolina sits below North Carolina and northeast of Georgia. Its compact shape slopes southeast toward the Atlantic.",
+        "Its card takes us to Charleston Harbor. Confederate forces fired on Fort Sumter there in April 1861, beginning the Civil War.",
+        "Remember the Carolina pair: the longer North Carolina above, the smaller South Carolina below. Georgia is next to the southwest."
+      ],
+      "sources": [
+        "https://www.nps.gov/articles/battle-of-fort-sumter-april-1861.htm"
+      ]
+    },
+    {
+      "name": "Georgia",
+      "rotateExtra": true,
+      "factContains": "Martin Luther King",
+      "lines": [
+        "Georgia lies south of Tennessee and west of South Carolina. It reaches the Atlantic, while its wide southern border rests above Florida.",
+        "Its name honours King George the Second. The card also connects Georgia with Martin Luther King, Junior, who was born in Atlanta in 1929.",
+        "Think of Georgia as the broad state above Florida. Alabama is to its west; now follow the coast down onto Florida, our final state today."
+      ],
+      "sources": [
+        "https://www.nps.gov/articles/featured_stories_malu.htm",
+        "https://dlg.usg.edu/record/gaarchives_adhoc_411"
+      ]
+    },
+    {
+      "name": "Florida",
+      "location": [
+        -81.7,
+        28.5
+      ],
+      "factContains": "Everglades",
+      "transition": "Let's frame all of Florida, including its western panhandle and the peninsula stretching south between two coasts.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -88,
+              24
+            ],
+            [
+              -79.5,
+              31.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Florida is the long peninsula below Georgia, with a panhandle extending west toward Alabama. The Atlantic lies to its east and the Gulf to its west.",
+        "Its Spanish name means flowery. The Everglades in southern Florida are often called a river of grass: a broad, shallow, slow-moving flow of water.",
+        "Remember both parts of Florida: the south-pointing peninsula and the west-reaching panhandle. That completes our eight-state South Atlantic route."
+      ],
+      "sources": [
+        "https://www.nps.gov/articles/everglades.htm"
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -85.8,
+          24
+        ],
+        [
+          -74,
+          41.2
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Trace our eight states from Delaware and Maryland around the Chesapeake, into Virginia and West Virginia, then down through North Carolina, South Carolina, Georgia and Florida.",
+    "Remember the two Virginias, the Carolina pair, and Florida below Georgia. These are the eight states of the Census South Atlantic division; Washington, D.C., is not a state."
+  ]
+}

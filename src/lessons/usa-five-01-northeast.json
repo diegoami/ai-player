@@ -1,0 +1,274 @@
+{
+  "title": "Episode 1 of 5 · Northeast · 9 states",
+  "edition": "Five videos · 48 contiguous states · John · November 2026",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/usa-states",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
+  "restore": [
+    {
+      "name": "Maine"
+    },
+    {
+      "name": "New Hampshire"
+    },
+    {
+      "name": "Vermont"
+    },
+    {
+      "name": "Massachusetts"
+    },
+    {
+      "name": "Rhode Island"
+    },
+    {
+      "name": "Connecticut"
+    },
+    {
+      "name": "New York"
+    },
+    {
+      "name": "New Jersey"
+    },
+    {
+      "name": "Pennsylvania"
+    }
+  ],
+  "intro": [
+    "Welcome to episode one of our U.S. states series. First, I clear the map so we can study a fresh group.",
+    "We begin with all six New England states, then New York, New Jersey and Pennsylvania. Together they form the Census Northeast."
+  ],
+  "states": [
+    {
+      "name": "Maine",
+      "point": [
+        740,
+        500
+      ],
+      "transition": "Let's bring New England closer. Watch the northeastern corner move into view, with Maine reaching up toward Canada.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -73.8,
+              40.8
+            ],
+            [
+              -66.7,
+              47.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Maine is our first stop: the big northeastern state, beside Canada. New Hampshire is its only neighbouring U.S. state.",
+        "The card offers two possible origins for Maine's name. One points to the French province; another to sailors referring to the mainland.",
+        "Its forest fact is memorable: close to nine-tenths of Maine's land is forested. Picture a wooded coast at the top of our route."
+      ],
+      "sources": [
+        "https://research.fs.usda.gov/treesearch/65706"
+      ]
+    },
+    {
+      "name": "New Hampshire",
+      "point": [
+        606,
+        640
+      ],
+      "rotateExtra": true,
+      "factContains": "Old Man",
+      "lines": [
+        "Follow Maine's southwestern edge into New Hampshire. Notice the small stretch that reaches the Atlantic; most of the state extends inland.",
+        "Its name comes from Hampshire in England. Another card fact recalls the Old Man of the Mountain, a rock profile that collapsed in 2003.",
+        "Keep the neighbours straight: Maine to the east, Vermont to the west, Massachusetts below. Next, we'll compare New Hampshire with Vermont."
+      ],
+      "sources": [
+        "https://moose.nhhistory.org/educators/primary-source-sets/source-set-old-man-of-the-mountain"
+      ]
+    },
+    {
+      "name": "Vermont",
+      "factContains": "1777",
+      "lines": [
+        "Vermont is the inland state immediately west of New Hampshire. New York lies to its west, Canada above it, and Massachusetts below.",
+        "Its name comes from French words meaning green mountain. The card recalls that Vermont was an independent republic from 1777 to 1791.",
+        "In 1791 it joined the United States as the fourteenth state. Remember the northern pair: Vermont on the left, New Hampshire on the right."
+      ],
+      "sources": [
+        "https://www.loc.gov/item/today-in-history/july-09/",
+        "https://historicsites.vermont.gov/constitution-house"
+      ]
+    },
+    {
+      "name": "Massachusetts",
+      "point": [
+        560,
+        752
+      ],
+      "transition": "Let's zoom closer to southern New England. Massachusetts and the small states below it now have more room on the map.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -73.8,
+              40.8
+            ],
+            [
+              -69.5,
+              43.2
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Now Massachusetts, directly south of New Hampshire. Follow its eastern coast around Boston and out toward the hook of Cape Cod.",
+        "The name comes from the Massachusett people. The card also mentions Harvard, founded in 1636: the oldest institution of higher education in the United States.",
+        "Use Massachusetts as our horizontal anchor. The two small states immediately below it are Rhode Island and Connecticut."
+      ],
+      "sources": [
+        "https://www.harvard.edu/about/history/"
+      ]
+    },
+    {
+      "name": "Rhode Island",
+      "point": [
+        604,
+        810
+      ],
+      "lines": [
+        "Here's Rhode Island, the tiny state below Massachusetts and just east of Connecticut. The whole state is more than the islands in its bay.",
+        "It's the smallest U.S. state by area. The card recalls its longer official name, which included Providence Plantations until voters shortened it in 2020.",
+        "For the map, remember the tiny coastal slot: Massachusetts above, Connecticut to the left. Small state, but worth a careful look."
+      ],
+      "sources": [
+        "https://www.ri.gov/facts/trivia.php",
+        "https://www.sos.ri.gov/divisions/civics-and-education/facts-and-figures/state-symbols"
+      ]
+    },
+    {
+      "name": "Connecticut",
+      "point": [
+        550,
+        810
+      ],
+      "lines": [
+        "Slide west into Connecticut. It sits below Massachusetts, beside Rhode Island, with Long Island Sound along its southern edge.",
+        "Its name is linked to an Indigenous expression for the long tidal river. That gives us a landscape clue as well as a name to remember.",
+        "That's all six New England states: Maine, New Hampshire, Vermont, Massachusetts, Rhode Island and Connecticut. Next, we turn toward New York."
+      ],
+      "sources": [
+        "https://dec.vermont.gov/watershed/restoring/connecticut-river"
+      ]
+    },
+    {
+      "name": "New York",
+      "point": [
+        690,
+        440
+      ],
+      "transition": "Let's move southwest to New York. Its inland reach, Long Island, and its neighbours New Jersey and Pennsylvania now come into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -80.8,
+              38.5
+            ],
+            [
+              -71.7,
+              45.2
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "This broad state is New York. Most of it extends inland, while Long Island projects into the Atlantic beside Connecticut.",
+        "The card takes us to the Erie Canal, opened in 1825. It connected the Hudson River with the Great Lakes, making an inland route to the coast.",
+        "Think of New York as the bridge between the Great Lakes and the Atlantic. New Jersey lies just below its southeastern corner."
+      ],
+      "sources": [
+        "https://www.canals.ny.gov/About/History"
+      ]
+    },
+    {
+      "name": "New Jersey",
+      "point": [
+        785,
+        625
+      ],
+      "rotateExtra": true,
+      "factContains": "phonograph",
+      "transition": "Let's look more closely at New Jersey, between the Atlantic coast and Pennsylvania across the Delaware River.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -76.6,
+              38.7
+            ],
+            [
+              -73.3,
+              41.6
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "New Jersey is the narrow coastal state south of New York. Pennsylvania is inland to its west, across the Delaware River.",
+        "Its name comes from Jersey in the Channel Islands. Another fact brings us to Edison's Menlo Park laboratory, where his phonograph was invented in 1877.",
+        "Remember New Jersey's narrow coast beside Pennsylvania. We turn inland to Pennsylvania next, our final northeastern state."
+      ],
+      "sources": [
+        "https://www.nps.gov/edis/learn/kidsyouth/the-phonograph.htm"
+      ]
+    },
+    {
+      "name": "Pennsylvania",
+      "factContains": "Philadelphia",
+      "transition": "Now widen the view westward to Pennsylvania, the final member of our Northeast group.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -81,
+              38.8
+            ],
+            [
+              -74.3,
+              43.2
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Pennsylvania is the broad state south of New York and east of Ohio. Notice its small northwestern corner reaching Lake Erie.",
+        "Its name means Penn's woods. In Philadelphia, Independence Hall was the setting for the signing of the Declaration of Independence and the Constitution.",
+        "Pennsylvania completes our nine northeastern states. Keep it below New York, above Maryland, and west of New Jersey across the Delaware River."
+      ],
+      "sources": [
+        "https://www.nps.gov/places/000/independence-hall.htm"
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -80.8,
+          38.5
+        ],
+        [
+          -66.7,
+          47.5
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "New England gives us Maine, New Hampshire, Vermont, Massachusetts, Rhode Island and Connecticut. Then New York, New Jersey and Pennsylvania complete our nine-state group.",
+    "Remember Vermont west of New Hampshire, the small coastal pair below Massachusetts, and Pennsylvania south of New York. Next time we follow the Atlantic south."
+  ]
+}

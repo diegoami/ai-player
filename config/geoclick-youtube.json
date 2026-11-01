@@ -1,0 +1,36 @@
+{
+  "schema": "ai-player.geoclick-youtube.v1",
+  "youtube3_version": "2.10.0",
+  "profile": "lynxsupercluster",
+  "channel_id": "UCQHMx6rNOKfLxFRI4_Tf6cA",
+  "playlist_id": "PLNl_MybP55PE",
+  "playlist_title": "Learning Geography with Geoclick",
+  "release_state": "rendered/europe-six-20261101/youtube-publishing/public-release.json",
+  "operations_dir": "rendered/youtube-publishing",
+  "series": [
+    {
+      "id": "usa",
+      "ledger": "src/lessons/usa-five-video-coverage.json",
+      "publishing_dir": "rendered/usa-five-20261101/youtube-publishing",
+      "video_ids": ["Ee6KhuqvxJU", "NGqNJIwxL28", "aCTntZyZ508", "G_6nYAsJLpk", "84VFIjTlTn4"]
+    },
+    {
+      "id": "europe",
+      "ledger": "src/lessons/europe-coverage.json",
+      "publishing_dir": "rendered/europe-six-20261101/youtube-publishing",
+      "video_ids": ["mfVopBILw2k", "qmDUrxDDU38", "vcu28JSsDjw", "YqDRmhKatpU", "Ak77mm3gWLE", "XjTQCS8WNEc"]
+    }
+  ],
+  "pending_entry": "europe-06-baltic-eastern-europe",
+  "offline_series": {
+    "id": "asia",
+    "ledger": "src/lessons/asia-coverage.json",
+    "publishing_dir": "rendered/asia-seven-20261101/youtube-publishing"
+  },
+  "links": {
+    "playlist": "https://www.youtube.com/playlist?list=PLNl_MybP55PE",
+    "game": "https://geoclick.netlify.app/",
+    "geoclick_repository": "https://github.com/diegoami/Geoclick2027",
+    "ai_player_repository": "https://github.com/diegoami/ai-player"
+  }
+}

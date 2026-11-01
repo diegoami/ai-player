@@ -1,0 +1,487 @@
+{
+  "title": "Europe 5 of 6 · Balkans and Greece",
+  "edition": "Europe countries · Six regional lessons · John · November 2026",
+  "mapId": "europe-countries",
+  "area": "Europe",
+  "unit": "places",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/europe-countries",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      12,
+      34
+    ],
+    [
+      29,
+      48
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Slovenia",
+      "location": [
+        14.9,
+        46.1
+      ],
+      "bounds": [
+        [
+          12.5,
+          41
+        ],
+        [
+          21,
+          47.2
+        ]
+      ]
+    },
+    {
+      "name": "Croatia",
+      "location": [
+        15.98,
+        45.81
+      ],
+      "bounds": [
+        [
+          12.5,
+          41
+        ],
+        [
+          21,
+          47.2
+        ]
+      ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "location": [
+        17.8,
+        43.9
+      ],
+      "bounds": [
+        [
+          12.5,
+          41
+        ],
+        [
+          21,
+          47.2
+        ]
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "location": [
+        19.2,
+        42.7
+      ],
+      "bounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "Serbia",
+      "location": [
+        20.8,
+        44.2
+      ],
+      "bounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "Kosovo",
+      "location": [
+        20.9,
+        42.6
+      ],
+      "bounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "Albania",
+      "location": [
+        20,
+        41.2
+      ],
+      "bounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "North Macedonia",
+      "location": [
+        21.7,
+        41.6
+      ],
+      "bounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "Greece",
+      "location": [
+        22.5,
+        39
+      ],
+      "bounds": [
+        [
+          19,
+          34
+        ],
+        [
+          29,
+          42.5
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Europe episode five of six. First, I clear the chosen names so we can study a fresh regional group.",
+    "Today we learn nine map targets through the Adriatic and Balkan region, ending in Greece. Kosovo is included as a GeoClick target; its disputed status will be explained at its stop."
+  ],
+  "states": [
+    {
+      "name": "Slovenia",
+      "location": [
+        14.9,
+        46.1
+      ],
+      "lines": [
+        "Slovenia sits below Austria, east of Italy and northwest of Croatia. It has a small Adriatic coastline, despite its largely inland, mountainous outline.",
+        "Postojna Cave is home to the olm, a pale cave-dwelling salamander associated with stories of baby dragons. Underground wildlife gives Slovenia a memorable creature of its own.",
+        "Keep Slovenia beside Italy and Austria, at the head of the Adriatic group. Slovakia, from our central lesson, is the different country beside Czechia."
+      ],
+      "sources": [
+        "https://environment.ec.europa.eu/topics/nature-and-biodiversity/natura-2000-award/meet-natura-2000-heroes/postojna-cave-baby-dragon-guardians_en"
+      ],
+      "factContains": "Postojna",
+      "cameraBounds": [
+        [
+          12.5,
+          41
+        ],
+        [
+          21,
+          47.2
+        ]
+      ],
+      "transition": "Let's bring Slovenia and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.5,
+              41
+            ],
+            [
+              21,
+              47.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Croatia",
+      "location": [
+        15.98,
+        45.81
+      ],
+      "lines": [
+        "Croatia bends around Bosnia and Herzegovina, with a long Adriatic coast and a broad inland northern arm. Slovenia is above its western end.",
+        "Dubrovnik, on the southern coast, was the city of the maritime Republic of Ragusa. Its surviving walls connect Croatia’s coastal shape with a history of sea trade.",
+        "Remember Croatia as the coastal curve around Bosnia, rather than a simple compact block. Follow its Adriatic edge south toward Montenegro."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/95/"
+      ],
+      "rotateExtra": true,
+      "factContains": "Dubrovnik",
+      "cameraBounds": [
+        [
+          12.5,
+          41
+        ],
+        [
+          21,
+          47.2
+        ]
+      ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "location": [
+        17.8,
+        43.9
+      ],
+      "lines": [
+        "Bosnia and Herzegovina sits inside Croatia’s coastal curve, west of Serbia and north of Montenegro. Its small outlet at Neum reaches the Adriatic.",
+        "Mostar’s Old Bridge was destroyed in 1993 and rebuilt in 2004. The reconstructed crossing over the Neretva is both an architectural landmark and a reminder of recovery after war.",
+        "Picture Bosnia inside Croatia’s bend, with Mostar’s bridge joining two riverbanks. Do not forget its small stretch of coast between Croatian sections."
+      ],
+      "sources": [
+        "https://www.unesco.org/en/articles/10th-anniversary-reconstruction-mostar-bridge-celebrates-peace-and-dialogue-region"
+      ],
+      "rotateExtra": true,
+      "factContains": "Mostar",
+      "cameraBounds": [
+        [
+          12.5,
+          41
+        ],
+        [
+          21,
+          47.2
+        ]
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "location": [
+        19.2,
+        42.7
+      ],
+      "lines": [
+        "Montenegro is the small Adriatic country below Bosnia and Herzegovina and west of Serbia and Kosovo. Albania is its southern coastal neighbour.",
+        "Montenegro became independent again in 2006 after a referendum ended its union with Serbia. Its name means black mountain, matching a rugged coastal-country image.",
+        "Remember the small mountain state between Bosnia and Albania. It has a coast; Serbia and Kosovo, just inland, do not."
+      ],
+      "sources": [
+        "https://2001-2009.state.gov/secretary/rm/2006/67839.htm"
+      ],
+      "factContains": "2006",
+      "cameraBounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ],
+      "transition": "Let's bring Montenegro and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              16,
+              39
+            ],
+            [
+              25,
+              46.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Serbia",
+      "location": [
+        20.8,
+        44.2
+      ],
+      "lines": [
+        "Serbia is the inland country east of Bosnia and Herzegovina, south of Hungary and west of Romania and Bulgaria. Its capital, Belgrade, stands where the Sava meets the Danube.",
+        "The inventor Nikola Tesla was a Serb born in Smiljan, in what is now Croatia. His museum is in Belgrade: cultural identities and present-day borders can cross one another.",
+        "Remember Serbia inland beside Bosnia, with the Danube as a northern river landmark. Keep it separate from the Adriatic countries to its west."
+      ],
+      "sources": [
+        "https://tesla-museum.org/en/extraordinary-world/birthplace/"
+      ],
+      "factContains": "Tesla",
+      "cameraBounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "Kosovo",
+      "location": [
+        20.9,
+        42.6
+      ],
+      "lines": [
+        "Kosovo is the small landlocked target between Serbia, Montenegro, Albania and North Macedonia. We include it because GeoClick gives it its own outline.",
+        "Kosovo declared independence in 2008. Its status remains disputed, and Serbia does not recognise that independence; the map target does not mean universal recognition.",
+        "Use the neighbour pattern to remember it: Albania west, North Macedonia south, Serbia north and east, Montenegro northwest. Keep the geographic location distinct from the status dispute."
+      ],
+      "sources": [
+        "https://icj-web.leman.un-icc.cloud/case/141",
+        "https://www.un.org/sg/en/content/former-secretary-general/statements/2008-02-18/secretary-generals-statement-the-security-council-kosovo"
+      ],
+      "rotateExtra": true,
+      "factContains": "2008",
+      "cameraBounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "Albania",
+      "location": [
+        20,
+        41.2
+      ],
+      "lines": [
+        "Albania is the narrow coastal country below Montenegro, west of North Macedonia and northwest of Greece. Kosovo lies just beyond its northeastern edge.",
+        "Under Enver Hoxha’s dictatorship, concrete bunkers were built across Albania. Some now house museums, turning a landscape of defensive shelters into places to examine that history.",
+        "Remember Albania as the coastal strip west of North Macedonia. The bunkers are its historical hook; the Adriatic and Ionian shores give you its western edge."
+      ],
+      "sources": [
+        "https://www.muzeu-fa.gov.al/lufta-e-ftohte/36-bunkerizimi",
+        "https://bunkart.al/1/faqe/rreth-nesh"
+      ],
+      "rotateExtra": true,
+      "factContains": "bunkers",
+      "cameraBounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "North Macedonia",
+      "location": [
+        21.7,
+        41.6
+      ],
+      "lines": [
+        "North Macedonia is the small inland country above Greece and east of Albania. Kosovo and Serbia lie to its north, with Bulgaria to its east.",
+        "Lake Ohrid, shared with Albania, is an ancient lake with distinctive native wildlife. Its natural and cultural heritage is recognised by UNESCO.",
+        "Keep North Macedonia above Greece and away from the sea. Lake Ohrid gives it water, but a lake shore is not a Mediterranean coastline."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/99/"
+      ],
+      "factContains": "Ohrid",
+      "cameraBounds": [
+        [
+          16,
+          39
+        ],
+        [
+          25,
+          46.8
+        ]
+      ]
+    },
+    {
+      "name": "Greece",
+      "location": [
+        22.5,
+        39
+      ],
+      "lines": [
+        "Greece forms the southern end of the Balkan Peninsula, extending into the Mediterranean with many islands. Albania, North Macedonia and Bulgaria are above its mainland.",
+        "Ancient Athens developed a form of citizen democracy. It was far from universal voting: women, enslaved people and many residents were excluded from political rights.",
+        "Remember Greece by its southern peninsula and island-filled seas. Ancient Athens is the historical hook; the mainland and islands belong to the same modern country."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/404/"
+      ],
+      "factContains": "Democracy",
+      "cameraBounds": [
+        [
+          19,
+          34
+        ],
+        [
+          29,
+          42.5
+        ]
+      ],
+      "transition": "Let's bring Greece and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19,
+              34
+            ],
+            [
+              29,
+              42.5
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          12,
+          34
+        ],
+        [
+          29,
+          48
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Begin with Slovenia below Austria, then Croatia’s coastal curve around Bosnia and Herzegovina. Montenegro and Albania continue along the sea; Serbia and Kosovo sit inland.",
+    "North Macedonia lies above Greece and east of Albania. Greece completes the southern peninsula and its islands. Remember the cave salamander, Dubrovnik, Mostar’s bridge, and Lake Ohrid as anchors along the route."
+  ]
+}

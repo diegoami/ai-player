@@ -1,0 +1,346 @@
+{
+  "title": "Asia 4 of 7 · Central Asia and Afghanistan",
+  "edition": "Asia countries · Seven regional lessons · John · November 2026",
+  "mapId": "asia-countries",
+  "area": "Asia",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/asia-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      46,
+      28
+    ],
+    [
+      88,
+      57
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Kazakhstan",
+      "location": [
+        67,
+        48
+      ],
+      "bounds": [
+        [
+          46,
+          35
+        ],
+        [
+          88,
+          57
+        ]
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "location": [
+        64.5,
+        41.3
+      ],
+      "bounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Turkmenistan",
+      "location": [
+        59,
+        39
+      ],
+      "bounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "location": [
+        74.7,
+        41.3
+      ],
+      "bounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Tajikistan",
+      "location": [
+        69.5,
+        38.6
+      ],
+      "bounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Afghanistan",
+      "location": [
+        67.7,
+        34
+      ],
+      "bounds": [
+        [
+          59,
+          28
+        ],
+        [
+          76,
+          40
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Asia episode four of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Six inland countries connect the steppe with high mountains: Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan and Afghanistan. Russia lies to the north; it was already a full stop in our Europe series."
+  ],
+  "states": [
+    {
+      "name": "Kazakhstan",
+      "location": [
+        67,
+        48
+      ],
+      "lines": [
+        "Kazakhstan is the huge northern anchor of Central Asia, below Russia and west of China. Its western edge reaches the Caspian, which is an inland sea rather than an ocean outlet.",
+        "The Saryarka wetlands are important stopovers for migrating water birds. These lakes link breeding grounds in Siberia with routes toward Europe, Africa and southern Asia.",
+        "Picture migrating birds crossing a very broad steppe country. Kazakhstan caps the Central Asian group; the smaller countries cluster beneath it."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1102/"
+      ],
+      "cameraBounds": [
+        [
+          46,
+          35
+        ],
+        [
+          88,
+          57
+        ]
+      ],
+      "transition": "Let's bring Kazakhstan and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              46,
+              35
+            ],
+            [
+              88,
+              57
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "location": [
+        64.5,
+        41.3
+      ],
+      "lines": [
+        "Uzbekistan sits below Kazakhstan and between Turkmenistan, Tajikistan and Kyrgyzstan. A short southern border touches Afghanistan; it has no coastline.",
+        "Samarkand’s historic monuments include Ulugh Beg’s observatory. A Silk Road city was also a place to study the sky, connecting trade with astronomy.",
+        "Remember Uzbekistan in the central cluster, with Samarkand’s observatory as its hook. The Caspian coast belongs to Turkmenistan and Kazakhstan, not Uzbekistan."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/603/"
+      ],
+      "cameraBounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ],
+      "transition": "Let's bring Uzbekistan and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              51,
+              34
+            ],
+            [
+              82,
+              46
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turkmenistan",
+      "location": [
+        59,
+        39
+      ],
+      "lines": [
+        "Turkmenistan lies east of the Caspian Sea, below Uzbekistan and above Iran. Afghanistan touches its southeastern side.",
+        "Ancient Merv was an oasis city on the Silk Roads. Its remains span thousands of years, showing how a dependable source of water could sustain a major desert crossroads.",
+        "Picture an oasis east of the Caspian. Turkmenistan is the southwestern member of our Central Asian group, between that inland sea and Afghanistan."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/886/"
+      ],
+      "cameraBounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "location": [
+        74.7,
+        41.3
+      ],
+      "lines": [
+        "Kyrgyzstan is the mountainous country below Kazakhstan, east of Uzbekistan and north of Tajikistan. China borders its eastern side.",
+        "The Manas epic belongs to a living tradition of storytelling. Specialist narrators perform long accounts of heroes, carrying historical memory and community values through spoken words.",
+        "Remember the storyteller in the northern mountain pocket beside China. Kyrgyzstan lies above Tajikistan; keep those two eastern members of the group in that order."
+      ],
+      "sources": [
+        "https://www.unesco.org/en/memory-world/manuscript-kyrgyz-epic-manas-narrator-sagymbay-orozbakov"
+      ],
+      "cameraBounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Tajikistan",
+      "location": [
+        69.5,
+        38.6
+      ],
+      "lines": [
+        "Tajikistan lies below Kyrgyzstan, east of Uzbekistan and north of Afghanistan. Its mountainous eastern end reaches China.",
+        "The Pamirs form a meeting point of great Asian mountain ranges. Tajik National Park contains high plateaux, glaciers and peaks rising above seven thousand metres.",
+        "Picture the knot of mountains below Kyrgyzstan. Tajikistan is the southern mountain country in this pair, with Afghanistan immediately beyond its southern border."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1252/"
+      ],
+      "cameraBounds": [
+        [
+          51,
+          34
+        ],
+        [
+          82,
+          46
+        ]
+      ]
+    },
+    {
+      "name": "Afghanistan",
+      "location": [
+        67.7,
+        34
+      ],
+      "lines": [
+        "Afghanistan is landlocked, south of the Central Asian republics, east of Iran and west of Pakistan. Its narrow northeastern Wakhan Corridor reaches China.",
+        "The Bamiyan Valley preserves Buddhist caves and the niches of two giant standing Buddhas. The Taliban destroyed those statues in 2001; the surviving landscape records a much older cultural crossroads.",
+        "Remember Afghanistan below the Central Asian cluster, with a thin finger reaching China. The empty Buddha niches are its historical hook in the mountain interior."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/208/"
+      ],
+      "cameraBounds": [
+        [
+          59,
+          28
+        ],
+        [
+          76,
+          40
+        ]
+      ],
+      "transition": "Let's bring Afghanistan and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              59,
+              28
+            ],
+            [
+              76,
+              40
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          46,
+          28
+        ],
+        [
+          88,
+          57
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Kazakhstan caps the group. Uzbekistan sits in the central cluster, Turkmenistan reaches the Caspian on the southwest, and Kyrgyzstan lies above Tajikistan beside China. Afghanistan is below them.",
+    "Recall migrating birds, Samarkand’s observatory, Merv’s oasis, the Manas storyteller, the Pamir mountain knot and Bamiyan’s empty niches. Trace the neighbour pattern before trying the names without labels."
+  ]
+}

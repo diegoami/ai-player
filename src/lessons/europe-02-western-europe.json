@@ -1,0 +1,420 @@
+{
+  "title": "Europe 2 of 6 · Western Europe",
+  "edition": "Europe countries · Six regional lessons · John · November 2026",
+  "mapId": "europe-countries",
+  "area": "Europe",
+  "unit": "places",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/europe-countries",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -6,
+      41
+    ],
+    [
+      9,
+      54
+    ]
+  ],
+  "restore": [
+    {
+      "name": "France",
+      "location": [
+        2.4,
+        46.5
+      ],
+      "bounds": [
+        [
+          -6,
+          41
+        ],
+        [
+          9,
+          52
+        ]
+      ]
+    },
+    {
+      "name": "Belgium",
+      "location": [
+        4.6,
+        50.7
+      ],
+      "bounds": [
+        [
+          2,
+          49
+        ],
+        [
+          8,
+          54
+        ]
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "location": [
+        5.3,
+        52.1
+      ],
+      "bounds": [
+        [
+          2,
+          49
+        ],
+        [
+          8,
+          54
+        ]
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "location": [
+        6.1,
+        49.8
+      ],
+      "bounds": [
+        [
+          4.7,
+          48.6
+        ],
+        [
+          7.7,
+          51
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Europe episode two of six. First, I clear the chosen names so we can study a fresh regional group.",
+    "Today we connect France with the Benelux countries, then zoom into Monaco on the French Riviera. Monaco needs a labelled supplemental map because GeoClick omits it."
+  ],
+  "states": [
+    {
+      "name": "France",
+      "location": [
+        2.4,
+        46.5
+      ],
+      "lines": [
+        "France is the broad country south of Belgium and west of Germany and Switzerland. Spain lies across the Pyrenees; its coasts face both the Atlantic and the Mediterranean.",
+        "Revolutionary France helped establish the metric system. An early definition of the metre used a fraction of the Earth’s meridian: everyday measuring linked to the size of the planet.",
+        "Use France as our western anchor between the Channel, the Atlantic, the Pyrenees and the Alps. Think of a metre ruler stretched across that broad outline."
+      ],
+      "sources": [
+        "https://www.bipm.org/en/history-si/metre",
+        "https://www.nist.gov/si-redefinition/meter"
+      ],
+      "factContains": "metre",
+      "cameraBounds": [
+        [
+          -6,
+          41
+        ],
+        [
+          9,
+          52
+        ]
+      ],
+      "transition": "Let's bring France and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -6,
+              41
+            ],
+            [
+              9,
+              52
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Belgium",
+      "location": [
+        4.6,
+        50.7
+      ],
+      "lines": [
+        "Belgium sits above France and below the Netherlands, with Germany and Luxembourg on its eastern side. It has a short North Sea coast.",
+        "Belgium has three official languages: Dutch, French and German. Its language communities help explain why a small country can have a complex political structure.",
+        "Remember Belgium in the middle of the western coastal chain: France, Belgium, Netherlands. Three languages make a useful hook for that small central link."
+      ],
+      "sources": [
+        "https://www.belgium.be/en/about_belgium/government/federale_staat"
+      ],
+      "rotateExtra": true,
+      "factContains": "three official languages",
+      "cameraBounds": [
+        [
+          2,
+          49
+        ],
+        [
+          8,
+          54
+        ]
+      ],
+      "transition": "Let's bring Belgium and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2,
+              49
+            ],
+            [
+              8,
+              54
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "location": [
+        5.3,
+        52.1
+      ],
+      "lines": [
+        "The Netherlands lies north of Belgium and west of Germany. Its North Sea coast and river mouths make water a constant feature of the country’s geography.",
+        "Holland is only part of the Netherlands: North Holland and South Holland are two provinces, not the name of the entire country.",
+        "Keep the Netherlands above Belgium. Remember the low coastal country by its water-shaped outline, and keep Holland as a smaller name inside the larger one."
+      ],
+      "sources": [
+        "https://www.holland.com/global/tourism/getting-around/information/netherlands-vs-holland"
+      ],
+      "factContains": "Holland",
+      "cameraBounds": [
+        [
+          2,
+          49
+        ],
+        [
+          8,
+          54
+        ]
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "location": [
+        6.1,
+        49.8
+      ],
+      "lines": [
+        "Luxembourg is the small inland country between Belgium, France and Germany. Unlike Belgium and the Netherlands, it has no coastline.",
+        "Luxembourg is the world’s only remaining grand duchy. Its name also recalls a little castle, a fitting image for this small country at a three-neighbour junction.",
+        "Remember the Benelux trio: Belgium, Netherlands, Luxembourg. Luxembourg is the tiny inland member, below Belgium and beside France and Germany."
+      ],
+      "sources": [
+        "https://gouvernement.lu/content/gouvernement/en/systeme-politique.html",
+        "https://luxembourg.public.lu/en/society-and-culture.html"
+      ],
+      "factContains": "grand duchy",
+      "cameraBounds": [
+        [
+          4.7,
+          48.6
+        ],
+        [
+          7.7,
+          51
+        ]
+      ],
+      "transition": "Let's bring Luxembourg and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.7,
+              48.6
+            ],
+            [
+              7.7,
+              51
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monaco",
+      "location": [
+        7.424,
+        43.738
+      ],
+      "lines": [
+        "Monaco is a tiny Mediterranean state on the French Riviera, surrounded on land by France. Italy is nearby to the east, but does not share its border.",
+        "Monaco’s Oceanographic Museum connects this small coastal state with marine science. Prince Albert the First’s expeditions helped create its oceanographic collections.",
+        "Think tiny state, French Riviera, big interest in the ocean. This labelled supplemental view adds Monaco because GeoClick’s Europe target list leaves it out."
+      ],
+      "sources": [
+        "https://musee.oceano.org/en/museum-areas/monaco-and-the-ocean/"
+      ],
+      "view": "supplemental",
+      "factCredit": "Oceanographic Museum of Monaco",
+      "cameraBounds": [
+        [
+          7.39,
+          43.716
+        ],
+        [
+          7.45,
+          43.76
+        ]
+      ],
+      "transition": "Let's locate Monaco on a labelled supplemental map, then zoom in to see its outline.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.5,
+              42.7
+            ],
+            [
+              8.5,
+              45
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              7.39,
+              43.716
+            ],
+            [
+              7.45,
+              43.76
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "Monaco is a tiny Mediterranean state on the French Riviera, surrounded on land by France. Italy is nearby to the east, but does not share its border.",
+        "Monaco’s Oceanographic Museum connects this small coastal state with marine science. Prince Albert the First’s expeditions helped create its oceanographic collections."
+      ],
+      "contextLabels": [
+        [
+          "France",
+          [
+            7.408,
+            43.75
+          ]
+        ],
+        [
+          "Mediterranean Sea",
+          [
+            7.439,
+            43.726
+          ]
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -6,
+          41
+        ],
+        [
+          9,
+          54
+        ]
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recap": [
+    "Our western chain is France, Belgium and the Netherlands, with Luxembourg tucked inland between Belgium, France and Germany. Remember the metre, three languages, Holland and the grand duchy.",
+    "Monaco is the tiny Riviera state on France’s Mediterranean edge. Its oceanographic story completes this five-place group; the labelled supplemental view keeps its real location visible."
+  ],
+  "supplement": {
+    "data": "src/lessons/data/europe-microstates.geojson",
+    "mapCredit": "Natural Earth / geoBoundaries",
+    "attribution": "Natural Earth public-domain 1:10m context; public-domain geoBoundaries VAT polygon",
+    "contextLabels": [
+      [
+        "France",
+        [
+          2.4,
+          46.5
+        ]
+      ],
+      [
+        "Spain",
+        [
+          -3,
+          40
+        ]
+      ],
+      [
+        "Italy",
+        [
+          12.4,
+          43
+        ]
+      ],
+      [
+        "Switzerland",
+        [
+          8,
+          47
+        ]
+      ],
+      [
+        "Austria",
+        [
+          13.4,
+          47.8
+        ]
+      ],
+      [
+        "Sicily",
+        [
+          14,
+          37.5
+        ]
+      ],
+      [
+        "Rome",
+        [
+          12.52,
+          41.89
+        ]
+      ]
+    ],
+    "islandLabels": [],
+    "mapAttribution": "Natural Earth / geoBoundaries · IGN-F 2022 · <a href=\"https://www.openstreetmap.org/copyright\">© OpenStreetMap contributors</a> (Monaco)"
+  },
+  "recapMoves": [
+    [],
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            6.8,
+            43.2
+          ],
+          [
+            8,
+            44.2
+          ]
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "title": "Europe 1 of 6 · North Atlantic and Nordics",
+  "edition": "Europe countries · Six regional lessons · John · November 2026",
+  "mapId": "europe-countries",
+  "area": "Europe",
+  "unit": "places",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/europe-countries",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -27,
+      49
+    ],
+    [
+      33,
+      72
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Iceland",
+      "location": [
+        -19,
+        65
+      ],
+      "bounds": [
+        [
+          -26,
+          62
+        ],
+        [
+          -12,
+          67.6
+        ]
+      ]
+    },
+    {
+      "name": "Ireland",
+      "location": [
+        -8,
+        53.3
+      ],
+      "bounds": [
+        [
+          -12,
+          49
+        ],
+        [
+          3,
+          60.5
+        ]
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "location": [
+        -2.5,
+        54.5
+      ],
+      "bounds": [
+        [
+          -12,
+          49
+        ],
+        [
+          3,
+          60.5
+        ]
+      ]
+    },
+    {
+      "name": "Denmark",
+      "location": [
+        9.5,
+        56.1
+      ],
+      "bounds": [
+        [
+          7,
+          53
+        ],
+        [
+          16,
+          59
+        ]
+      ]
+    },
+    {
+      "name": "Norway",
+      "location": [
+        8,
+        61.2
+      ],
+      "bounds": [
+        [
+          -1,
+          54
+        ],
+        [
+          33,
+          72
+        ]
+      ]
+    },
+    {
+      "name": "Sweden",
+      "location": [
+        15,
+        62
+      ],
+      "bounds": [
+        [
+          -1,
+          54
+        ],
+        [
+          33,
+          72
+        ]
+      ]
+    },
+    {
+      "name": "Finland",
+      "location": [
+        26,
+        64
+      ],
+      "bounds": [
+        [
+          -1,
+          54
+        ],
+        [
+          33,
+          72
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Europe episode one of six. First, I clear the chosen names so we can study a fresh regional group.",
+    "We begin with seven places around the North Atlantic and northern Europe: Iceland, Ireland, the United Kingdom, Denmark, Norway, Sweden and Finland."
+  ],
+  "states": [
+    {
+      "name": "Iceland",
+      "location": [
+        -19,
+        65
+      ],
+      "lines": [
+        "Iceland stands apart in the North Atlantic, northwest of the United Kingdom and west of Norway. It is an island country, not part of Scandinavia’s mainland.",
+        "Its Althing assembly began at Thingvellir in the year 930. Imagine people gathering outdoors in this volcanic landscape to make laws and settle disputes.",
+        "Remember Iceland as our distant northwestern island: old parliament, volcanic ground, and a wide stretch of Atlantic before the European mainland."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1152/"
+      ],
+      "factContains": "930",
+      "cameraBounds": [
+        [
+          -26,
+          62
+        ],
+        [
+          -12,
+          67.6
+        ]
+      ],
+      "transition": "Let's bring Iceland and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -26,
+              62
+            ],
+            [
+              -12,
+              67.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "location": [
+        -8,
+        53.3
+      ],
+      "lines": [
+        "Ireland is the island west of Great Britain. The independent country covers most of it; Northern Ireland, in the northeast, belongs to the United Kingdom.",
+        "Ireland’s national emblem is a harp. You can find it on Irish coins and official symbols: a musical instrument gives this country a memorable visual signature.",
+        "Picture the harp on the western island. Keep Ireland separate from Northern Ireland, and look east across the Irish Sea toward Great Britain."
+      ],
+      "sources": [
+        "https://www.gov.ie/en/department-of-the-taoiseach/publications/the-harp/"
+      ],
+      "rotateExtra": true,
+      "factContains": "harp",
+      "cameraBounds": [
+        [
+          -12,
+          49
+        ],
+        [
+          3,
+          60.5
+        ]
+      ],
+      "transition": "Let's bring Ireland and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -12,
+              49
+            ],
+            [
+              3,
+              60.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "location": [
+        -2.5,
+        54.5
+      ],
+      "lines": [
+        "The United Kingdom includes England, Scotland and Wales on Great Britain, plus Northern Ireland across the water. Ireland is a separate neighbouring country.",
+        "The United Kingdom’s constitution is not collected in a single written document. It draws on laws, court decisions and conventions: a different arrangement from countries with one codified constitutional text.",
+        "Use the island outlines: Ireland on the west, Great Britain on the east, with Northern Ireland completing the United Kingdom across the Irish Sea."
+      ],
+      "sources": [
+        "https://members.parliament.uk/region",
+        "https://www.parliament.uk/about/how/role/sovereignty/"
+      ],
+      "rotateExtra": true,
+      "factContains": "constitution",
+      "cameraBounds": [
+        [
+          -12,
+          49
+        ],
+        [
+          3,
+          60.5
+        ]
+      ]
+    },
+    {
+      "name": "Denmark",
+      "location": [
+        9.5,
+        56.1
+      ],
+      "lines": [
+        "Denmark sits above Germany, between the North Sea and the Baltic. Its Jutland peninsula reaches north from Germany, with major islands extending east toward Sweden.",
+        "The Danish realm also includes Greenland and the Faroe Islands, both with self-government. This close European view shows Denmark’s mainland and nearby islands, not the whole realm.",
+        "Remember Denmark as the low bridge between Germany and Scandinavia: a peninsula pointing north and islands stepping east toward Sweden."
+      ],
+      "sources": [
+        "https://um.dk/en/foreign-policy/the-arctic/greenland-and-the-faroe-islands/"
+      ],
+      "rotateExtra": true,
+      "factContains": "Greenland",
+      "cameraBounds": [
+        [
+          7,
+          53
+        ],
+        [
+          16,
+          59
+        ]
+      ],
+      "transition": "Let's bring Denmark and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7,
+              53
+            ],
+            [
+              16,
+              59
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Norway",
+      "location": [
+        8,
+        61.2
+      ],
+      "lines": [
+        "Norway follows the western side of the Scandinavian Peninsula. Its long coast faces the North Atlantic, while Sweden lies along much of its eastern border.",
+        "Norway’s fjords are sea-filled valleys shaped by glaciers. The western fjords recognised by UNESCO show steep rock walls and deep water reaching far inland.",
+        "Picture a long, deeply notched western coast. Norway is the Atlantic-facing side of the peninsula; Sweden is the broader neighbour to its east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1195"
+      ],
+      "cameraBounds": [
+        [
+          -1,
+          54
+        ],
+        [
+          33,
+          72
+        ]
+      ],
+      "transition": "Let's bring Norway and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -1,
+              54
+            ],
+            [
+              33,
+              72
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sweden",
+      "location": [
+        15,
+        62
+      ],
+      "lines": [
+        "Sweden occupies the eastern side of the Scandinavian Peninsula, between Norway and the Baltic Sea. Finland lies across the northern border and the Gulf of Bothnia.",
+        "On September third, 1967, Sweden changed from driving on the left to driving on the right. Picture a whole country carefully changing sides in one morning.",
+        "Keep Norway on the Atlantic side and Sweden on the Baltic side. The traffic switch is Sweden’s extra memory hook, attached to the eastern half of the peninsula."
+      ],
+      "sources": [
+        "https://stockholmskallan.stockholm.se/teman/stockholmshandelser/hogertrafikomlaggningen-1967/"
+      ],
+      "rotateExtra": true,
+      "factContains": "1967",
+      "cameraBounds": [
+        [
+          -1,
+          54
+        ],
+        [
+          33,
+          72
+        ]
+      ]
+    },
+    {
+      "name": "Finland",
+      "location": [
+        26,
+        64
+      ],
+      "lines": [
+        "Finland lies east of Sweden and west of Russia, with the Gulf of Finland along its southern edge. Estonia is across that gulf, farther south.",
+        "Sauna culture is part of Finland’s UNESCO-listed living heritage. It is about family traditions, shared spaces and wellbeing, rather than simply taking a hot bath.",
+        "Remember Finland as the eastern Nordic country: Sweden to the west, Russia to the east, and sauna culture as the fact that fixes its position in memory."
+      ],
+      "sources": [
+        "https://ich.unesco.org/en/RL/sauna-culture-in-finland-01596"
+      ],
+      "rotateExtra": true,
+      "factContains": "saunas",
+      "cameraBounds": [
+        [
+          -1,
+          54
+        ],
+        [
+          33,
+          72
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -27,
+          49
+        ],
+        [
+          33,
+          72
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Retrace the islands first: Iceland far northwest, Ireland west of Great Britain, and the United Kingdom spanning Great Britain and Northern Ireland.",
+    "Then Denmark below the Scandinavian Peninsula, Norway along its Atlantic side, Sweden on its Baltic side, and Finland farther east. Connect each location with its fact, and try tracing the route without the labels."
+  ]
+}

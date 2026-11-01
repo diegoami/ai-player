@@ -1,0 +1,317 @@
+{
+  "title": "Asia 1 of 7 · Türkiye, Cyprus and the Caucasus",
+  "edition": "Asia countries · Seven regional lessons · John · November 2026",
+  "mapId": "asia-countries",
+  "area": "Asia",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/asia-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      24,
+      33
+    ],
+    [
+      52,
+      45
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Turkey",
+      "location": [
+        35,
+        39
+      ],
+      "bounds": [
+        [
+          24,
+          34
+        ],
+        [
+          46,
+          44
+        ]
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "location": [
+        32.8,
+        34.9
+      ],
+      "bounds": [
+        [
+          31.7,
+          34.3
+        ],
+        [
+          35.2,
+          36
+        ]
+      ]
+    },
+    {
+      "name": "Georgia",
+      "location": [
+        43.8,
+        42.1
+      ],
+      "bounds": [
+        [
+          38,
+          37
+        ],
+        [
+          52,
+          45
+        ]
+      ]
+    },
+    {
+      "name": "Armenia",
+      "location": [
+        44.8,
+        40.3
+      ],
+      "bounds": [
+        [
+          38,
+          37
+        ],
+        [
+          52,
+          45
+        ]
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "location": [
+        47.7,
+        40.3
+      ],
+      "bounds": [
+        [
+          38,
+          37
+        ],
+        [
+          52,
+          45
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Asia episode one of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin at Asia’s western crossroads: Türkiye, Cyprus, Georgia, Armenia and Azerbaijan. Cyprus counts once, with the island’s division explained at its stop."
+  ],
+  "states": [
+    {
+      "name": "Turkey",
+      "location": [
+        35,
+        39
+      ],
+      "lines": [
+        "Türkiye, labelled Turkey in GeoClick, stretches across Anatolia between the Black Sea and the Mediterranean. A smaller part lies in southeastern Europe, beyond the Bosphorus.",
+        "Istanbul grew beside that narrow water crossing. Its historic monuments include the sixth-century Hagia Sophia: a reminder that this meeting point of seas also connected empires and cultures.",
+        "Remember the broad bridge between Europe and Asia: Black Sea above, Mediterranean below, and Istanbul at the western crossing. Most of the country lies on the Asian side."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/356/"
+      ],
+      "cameraBounds": [
+        [
+          24,
+          34
+        ],
+        [
+          46,
+          44
+        ]
+      ],
+      "transition": "Let's bring Turkey and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24,
+              34
+            ],
+            [
+              46,
+              44
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "location": [
+        32.8,
+        34.9
+      ],
+      "lines": [
+        "Cyprus is the island south of Türkiye and west of the Syrian and Lebanese coast. Keep it offshore in the eastern Mediterranean, rather than attached to the mainland.",
+        "Paphos preserves ancient mosaics and a sanctuary associated with Aphrodite. Her birth from the sea is a Greek myth linked to this island, not a historical event.",
+        "The island is divided by a United Nations buffer zone. GeoClick labels Northern Cyprus separately; that northern entity is recognised only by Türkiye. We count Cyprus once. Remember one island, south of Türkiye."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/79/",
+        "https://unficyp.unmissions.org/en/about-buffer-zone",
+        "https://www.gov.uk/government/publications/the-north-of-cyprus-parental-child-abduction/the-north-of-cyprus-parental-child-abduction"
+      ],
+      "relatedSelections": [
+        {
+          "lineIndex": 2,
+          "name": "Northern Cyprus",
+          "location": [
+            33.8,
+            35.3
+          ],
+          "hideExtra": true
+        }
+      ],
+      "cameraBounds": [
+        [
+          31.7,
+          34.3
+        ],
+        [
+          35.2,
+          36
+        ]
+      ],
+      "transition": "Let's bring Cyprus and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              31.7,
+              34.3
+            ],
+            [
+              35.2,
+              36
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "location": [
+        43.8,
+        42.1
+      ],
+      "lines": [
+        "Georgia lies at the eastern end of the Black Sea, below Russia and above Armenia and Türkiye. Azerbaijan is its neighbour toward the Caspian side.",
+        "Traditional Georgian wine-making uses large clay vessels called qvevri, buried in the ground. Families pass down the skills for fermenting and storing wine inside these egg-shaped pots.",
+        "Picture a clay wine vessel beside the Black Sea end of the Caucasus. Georgia has a Black Sea coast; Armenia, immediately south, does not."
+      ],
+      "sources": [
+        "https://ich.unesco.org/en/RL/ancient-georgian-traditional-qvevri-wine-making-method-00870"
+      ],
+      "cameraBounds": [
+        [
+          38,
+          37
+        ],
+        [
+          52,
+          45
+        ]
+      ],
+      "transition": "Let's bring Georgia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              38,
+              37
+            ],
+            [
+              52,
+              45
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Armenia",
+      "location": [
+        44.8,
+        40.3
+      ],
+      "lines": [
+        "Armenia is landlocked, south of Georgia and east of Türkiye. Azerbaijan lies to its east, while a short southern border reaches Iran.",
+        "At Geghard, several churches and tombs were cut into the surrounding rock. The monastery makes architecture and mountain landscape seem to grow together.",
+        "Remember the inland country below Georgia: rock-cut churches in the mountains. Do not give Armenia a Black Sea or Caspian coast; neither sea reaches it."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/960/"
+      ],
+      "cameraBounds": [
+        [
+          38,
+          37
+        ],
+        [
+          52,
+          45
+        ]
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "location": [
+        47.7,
+        40.3
+      ],
+      "lines": [
+        "Azerbaijan occupies the Caspian side of the southern Caucasus, east of Armenia and southeast of Georgia. Its Nakhchivan exclave is separated from the main territory by Armenia.",
+        "Baku preserves an old walled city inside a much larger modern capital. Its Maiden Tower and palace reflect the layers of history beside the Caspian shore.",
+        "Keep the pair apart: Georgia on the Black Sea, Azerbaijan on the Caspian, Armenia inland between and below them. Think of Baku’s old walls at the eastern end."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/958/"
+      ],
+      "cameraBounds": [
+        [
+          38,
+          37
+        ],
+        [
+          52,
+          45
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          24,
+          33
+        ],
+        [
+          52,
+          45
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Türkiye bridges the seas, Cyprus sits offshore to its south, and the three Caucasus countries connect the Black Sea with the Caspian. Georgia is on the Black Sea, Armenia inland, Azerbaijan on the Caspian.",
+    "Recall Istanbul’s crossing, the island’s ancient mosaics, Georgia’s clay wine vessels, Armenia’s rock-cut monastery and Baku’s old walls. These five stops begin our seven-part route through Asia."
+  ]
+}

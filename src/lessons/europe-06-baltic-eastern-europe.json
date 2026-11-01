@@ -1,0 +1,503 @@
+{
+  "title": "Europe 6 of 6 · Baltic and Eastern Europe",
+  "edition": "Europe countries · Six regional lessons · John · November 2026",
+  "mapId": "europe-countries",
+  "area": "Europe",
+  "unit": "places",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/europe-countries",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      18,
+      40
+    ],
+    [
+      62,
+      70
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Estonia",
+      "location": [
+        25.5,
+        58.7
+      ],
+      "bounds": [
+        [
+          19,
+          53
+        ],
+        [
+          30,
+          61
+        ]
+      ]
+    },
+    {
+      "name": "Latvia",
+      "location": [
+        24.6,
+        56.9
+      ],
+      "bounds": [
+        [
+          19,
+          53
+        ],
+        [
+          30,
+          61
+        ]
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "location": [
+        24,
+        55.2
+      ],
+      "bounds": [
+        [
+          19,
+          53
+        ],
+        [
+          30,
+          61
+        ]
+      ]
+    },
+    {
+      "name": "Belarus",
+      "location": [
+        28,
+        53.7
+      ],
+      "bounds": [
+        [
+          22,
+          45
+        ],
+        [
+          42,
+          57.5
+        ]
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "location": [
+        31.2,
+        49
+      ],
+      "bounds": [
+        [
+          22,
+          45
+        ],
+        [
+          42,
+          57.5
+        ]
+      ]
+    },
+    {
+      "name": "Moldova",
+      "location": [
+        28.6,
+        47
+      ],
+      "bounds": [
+        [
+          19,
+          41
+        ],
+        [
+          36,
+          50
+        ]
+      ]
+    },
+    {
+      "name": "Romania",
+      "location": [
+        25,
+        46
+      ],
+      "bounds": [
+        [
+          19,
+          41
+        ],
+        [
+          36,
+          50
+        ]
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "location": [
+        25.5,
+        42.7
+      ],
+      "bounds": [
+        [
+          19,
+          41
+        ],
+        [
+          36,
+          50
+        ]
+      ]
+    },
+    {
+      "name": "Russia",
+      "location": [
+        39,
+        57
+      ],
+      "bounds": [
+        [
+          22,
+          47
+        ],
+        [
+          62,
+          70
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Europe episode six of six. First, I clear the chosen names so we can study a fresh regional group.",
+    "Our final nine-place group follows the Baltic countries south through Belarus and Ukraine, then Moldova, Romania and Bulgaria, finishing with European Russia."
+  ],
+  "states": [
+    {
+      "name": "Estonia",
+      "location": [
+        25.5,
+        58.7
+      ],
+      "lines": [
+        "Estonia is the northernmost Baltic country, directly south of Finland across the Gulf of Finland. Latvia is below it, and Russia lies to its east.",
+        "Estonian is closely related to Finnish. That language link points across the gulf, even though Estonia’s location groups it with Latvia and Lithuania.",
+        "Remember the Baltic stack from north to south: Estonia, Latvia, Lithuania. Estonia is the one facing Finland across the water."
+      ],
+      "sources": [
+        "https://www.studyinestonia.ee/estonia/language"
+      ],
+      "factContains": "Finnish",
+      "cameraBounds": [
+        [
+          19,
+          53
+        ],
+        [
+          30,
+          61
+        ]
+      ],
+      "transition": "Let's bring Estonia and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19,
+              53
+            ],
+            [
+              30,
+              61
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Latvia",
+      "location": [
+        24.6,
+        56.9
+      ],
+      "lines": [
+        "Latvia is the middle Baltic country, below Estonia and above Lithuania. Its coastline bends around the Gulf of Riga, with Russia and Belarus toward the east.",
+        "Riga is renowned for its Art Nouveau buildings. Imagine decorative facades beside a Baltic trading port: a visual hook for the middle country in our stack.",
+        "Keep Latvia between Estonia and Lithuania. Riga and the gulf share a name, helping connect the cultural fact with the coastline."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/852/"
+      ],
+      "factContains": "Art Nouveau",
+      "cameraBounds": [
+        [
+          19,
+          53
+        ],
+        [
+          30,
+          61
+        ]
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "location": [
+        24,
+        55.2
+      ],
+      "lines": [
+        "Lithuania is the southernmost Baltic country, below Latvia and above Poland and Belarus. Russia’s separate Kaliningrad territory lies along its southwestern side.",
+        "On March eleventh, 1990, Lithuania declared the restoration of its independence. That declaration became a defining moment in its departure from Soviet rule.",
+        "Finish the Baltic stack: Estonia at the top, Latvia in the middle, Lithuania at the bottom. Lithuania is the Baltic member nearest Poland."
+      ],
+      "sources": [
+        "https://www.urm.lt/en/believe-in-freedom.-11-march-1990/1365"
+      ],
+      "rotateExtra": true,
+      "factContains": "1990",
+      "cameraBounds": [
+        [
+          19,
+          53
+        ],
+        [
+          30,
+          61
+        ]
+      ]
+    },
+    {
+      "name": "Belarus",
+      "location": [
+        28,
+        53.7
+      ],
+      "lines": [
+        "Belarus is inland, east of Poland, below Lithuania and Latvia, and north of Ukraine. Russia lies along its eastern and northeastern side.",
+        "The Bialowieza Forest crosses the Belarus-Poland border. It preserves old forest habitat and supports European bison, linking this country to a living landscape rather than a coastline.",
+        "Remember Belarus above Ukraine and east of Poland. Picture the shared forest and bison on its western edge."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/33/"
+      ],
+      "factContains": "Forest",
+      "cameraBounds": [
+        [
+          22,
+          45
+        ],
+        [
+          42,
+          57.5
+        ]
+      ],
+      "transition": "Let's bring Belarus and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22,
+              45
+            ],
+            [
+              42,
+              57.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "location": [
+        31.2,
+        49
+      ],
+      "lines": [
+        "Ukraine lies south of Belarus and west of Russia, with Black Sea shores to the south. Poland, Slovakia, Hungary, Romania and Moldova connect it to central and southeastern Europe.",
+        "Kyiv was a major centre of medieval Kyivan Rus. Saint Sophia Cathedral and the city’s historic monastic sites preserve connections with that long history.",
+        "Keep Ukraine below Belarus and above the Black Sea. Kyiv is its historical anchor; current occupation does not change Ukraine’s internationally recognised borders."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/527/",
+        "https://dppa.un.org/en/speeches-and-statements/remarks-by-usg-dicarlo-to-the-security-council-on-ukraine-as-delivered"
+      ],
+      "factContains": "Kyiv",
+      "cameraBounds": [
+        [
+          22,
+          45
+        ],
+        [
+          42,
+          57.5
+        ]
+      ]
+    },
+    {
+      "name": "Moldova",
+      "location": [
+        28.6,
+        47
+      ],
+      "lines": [
+        "Moldova is the narrow inland country between Romania and Ukraine. It comes close to the Black Sea region but has no sea coast.",
+        "Its Milestii Mici cellars occupy underground limestone galleries and hold a wine collection recognised by Guinness World Records. Imagine long tunnels of bottles under this small country.",
+        "Remember Moldova squeezed between Romania and Ukraine: an inland sliver, with underground wine cellars as its memory hook."
+      ],
+      "sources": [
+        "https://www.guinnessworldrecords.com/world-records/largest-wine-cellar-by-number-of-bottles",
+        "https://whc.unesco.org/fr/listesindicatives/6789"
+      ],
+      "rotateExtra": true,
+      "factContains": "cellars",
+      "cameraBounds": [
+        [
+          19,
+          41
+        ],
+        [
+          36,
+          50
+        ]
+      ],
+      "transition": "Let's bring Moldova and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19,
+              41
+            ],
+            [
+              36,
+              50
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Romania",
+      "location": [
+        25,
+        46
+      ],
+      "lines": [
+        "Romania lies west of Moldova and Ukraine’s southwestern side, and north of Bulgaria across the Danube. Its southeastern edge reaches the Black Sea.",
+        "Bran Castle is marketed as Dracula’s Castle, but Bram Stoker’s fictional castle and the historical ruler Vlad were different stories. A memorable legend should not replace the geography or the history.",
+        "Picture Romania above Bulgaria, with the Carpathian arc in its interior and a Black Sea opening on the east. Keep Dracula as a story, not a location guide."
+      ],
+      "sources": [
+        "https://bran-castle.com/pages/history",
+        "https://www.bramstokerestate.com/resources/where-was-castle-dracula"
+      ],
+      "factContains": "Dracula",
+      "cameraBounds": [
+        [
+          19,
+          41
+        ],
+        [
+          36,
+          50
+        ]
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "location": [
+        25.5,
+        42.7
+      ],
+      "lines": [
+        "Bulgaria lies directly below Romania, north of Greece and west of the Black Sea. Serbia and North Macedonia are its western neighbours, with Türkiye to the southeast.",
+        "The Cyrillic alphabet developed in the First Bulgarian Empire around the ninth and tenth centuries. Its later spread connects Bulgaria with many other languages using Cyrillic today.",
+        "Remember Bulgaria below Romania: the Danube helps divide the pair, and both reach the Black Sea. The alphabet is Bulgaria’s cultural memory hook."
+      ],
+      "sources": [
+        "https://ibl.bas.bg/en/bulgarian-alphabets/"
+      ],
+      "factContains": "Cyrillic",
+      "cameraBounds": [
+        [
+          19,
+          41
+        ],
+        [
+          36,
+          50
+        ]
+      ]
+    },
+    {
+      "name": "Russia",
+      "location": [
+        39,
+        57
+      ],
+      "lines": [
+        "Russia extends far beyond this European view. Here we see its western part, east of Finland, the Baltic countries, Belarus and Ukraine; Kaliningrad is separate on the Baltic.",
+        "Its Lake Baikal is the world’s deepest lake, but lies in Siberia, in Asian Russia, outside this map view. A country can span two continents without becoming two countries.",
+        "Remember European Russia continuing off the eastern edge, and keep Kaliningrad separate from the main landmass. Our six-video route finishes here after forty-five places, including the six supplemental microstates."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/754/"
+      ],
+      "rotateExtra": true,
+      "factContains": "Baikal",
+      "cameraBounds": [
+        [
+          22,
+          47
+        ],
+        [
+          62,
+          70
+        ]
+      ],
+      "transition": "Let's bring Russia and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22,
+              47
+            ],
+            [
+              62,
+              70
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          18,
+          40
+        ],
+        [
+          62,
+          70
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "The Baltic stack is Estonia, Latvia, Lithuania. Inland, Belarus is above Ukraine; Moldova fits between Ukraine and Romania, while Bulgaria sits below Romania along the Black Sea.",
+    "Russia continues far beyond Europe; its Siberian facts belong outside this European map view. Across six lessons we covered all thirty-nine GeoClick Europe targets, plus six microstates in labelled supplemental views.",
+    "This is the scope of our map-based series, not a universal definition of Europe. Türkiye, Cyprus and the Caucasus are outside this map’s target list and are left for neighbouring-region lessons. Rebuild the six groups using their locations and memorable facts."
+  ]
+}

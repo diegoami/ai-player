@@ -1,0 +1,248 @@
+{
+  "edition": "Europe · Six regional lessons · November 2026",
+  "status": "complete",
+  "scope": "39 GeoClick Europe map targets plus six supplemental microstates, including Kosovo with a status note",
+  "targetCount": 45,
+  "nativeTargetCount": 39,
+  "supplementalCount": 6,
+  "coveredPlaceCount": 45,
+  "outsideScope": [
+    "Türkiye",
+    "Cyprus",
+    "Georgia",
+    "Armenia",
+    "Azerbaijan"
+  ],
+  "episodes": [
+    {
+      "id": "north-atlantic-nordics",
+      "title": "North Atlantic and Nordics",
+      "status": "complete",
+      "lesson": "src/lessons/europe-01-north-atlantic-nordics.json",
+      "places": [
+        "Iceland",
+        "Ireland",
+        "United Kingdom",
+        "Denmark",
+        "Norway",
+        "Sweden",
+        "Finland"
+      ],
+      "nativeTargets": [
+        "Iceland",
+        "Ireland",
+        "United Kingdom",
+        "Denmark",
+        "Norway",
+        "Sweden",
+        "Finland"
+      ],
+      "supplemental": [],
+      "video": "rendered/europe-six-20261101/01-north-atlantic-nordics/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 376.28,
+      "covered": [
+        "Iceland",
+        "Ireland",
+        "United Kingdom",
+        "Denmark",
+        "Norway",
+        "Sweden",
+        "Finland"
+      ]
+    },
+    {
+      "id": "western-europe",
+      "title": "Western Europe",
+      "status": "complete",
+      "lesson": "src/lessons/europe-02-western-europe.json",
+      "places": [
+        "France",
+        "Belgium",
+        "Netherlands",
+        "Luxembourg",
+        "Monaco"
+      ],
+      "nativeTargets": [
+        "France",
+        "Belgium",
+        "Netherlands",
+        "Luxembourg"
+      ],
+      "supplemental": [
+        "Monaco"
+      ],
+      "video": "rendered/europe-six-20261101/02-western-europe-refined/geoclick/play-no-subtitles.mp4",
+      "audioCache": "rendered/europe-six-20261101/02-western-europe/geoclick",
+      "durationSeconds": 272.12,
+      "covered": [
+        "France",
+        "Belgium",
+        "Netherlands",
+        "Luxembourg",
+        "Monaco"
+      ]
+    },
+    {
+      "id": "central-europe",
+      "title": "Central Europe",
+      "status": "complete",
+      "lesson": "src/lessons/europe-03-central-europe.json",
+      "places": [
+        "Germany",
+        "Switzerland",
+        "Liechtenstein",
+        "Austria",
+        "Poland",
+        "Czechia",
+        "Slovakia",
+        "Hungary"
+      ],
+      "nativeTargets": [
+        "Germany",
+        "Switzerland",
+        "Austria",
+        "Poland",
+        "Czechia",
+        "Slovakia",
+        "Hungary"
+      ],
+      "supplemental": [
+        "Liechtenstein"
+      ],
+      "video": "rendered/europe-six-20261101/03-central-europe/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 416.4,
+      "covered": [
+        "Germany",
+        "Switzerland",
+        "Liechtenstein",
+        "Austria",
+        "Poland",
+        "Czechia",
+        "Slovakia",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "iberia-mediterranean",
+      "title": "Iberia and Mediterranean",
+      "status": "complete",
+      "lesson": "src/lessons/europe-04-iberia-mediterranean.json",
+      "places": [
+        "Portugal",
+        "Spain",
+        "Andorra",
+        "Italy",
+        "San Marino",
+        "Vatican City",
+        "Malta"
+      ],
+      "nativeTargets": [
+        "Portugal",
+        "Spain",
+        "Italy"
+      ],
+      "supplemental": [
+        "Andorra",
+        "San Marino",
+        "Vatican City",
+        "Malta"
+      ],
+      "video": "rendered/europe-six-20261101/04-iberia-mediterranean-refined/geoclick/play-no-subtitles.mp4",
+      "audioCache": "rendered/europe-six-20261101/04-iberia-mediterranean/geoclick",
+      "durationSeconds": 415.16,
+      "covered": [
+        "Portugal",
+        "Spain",
+        "Andorra",
+        "Italy",
+        "San Marino",
+        "Vatican City",
+        "Malta"
+      ]
+    },
+    {
+      "id": "balkans-greece",
+      "title": "Balkans and Greece",
+      "status": "complete",
+      "lesson": "src/lessons/europe-05-balkans-greece.json",
+      "places": [
+        "Slovenia",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "Montenegro",
+        "Serbia",
+        "Kosovo",
+        "Albania",
+        "North Macedonia",
+        "Greece"
+      ],
+      "nativeTargets": [
+        "Slovenia",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "Montenegro",
+        "Serbia",
+        "Kosovo",
+        "Albania",
+        "North Macedonia",
+        "Greece"
+      ],
+      "supplemental": [],
+      "video": "rendered/europe-six-20261101/05-balkans-greece/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 461.28,
+      "covered": [
+        "Slovenia",
+        "Croatia",
+        "Bosnia and Herzegovina",
+        "Montenegro",
+        "Serbia",
+        "Kosovo",
+        "Albania",
+        "North Macedonia",
+        "Greece"
+      ]
+    },
+    {
+      "id": "baltic-eastern-europe",
+      "title": "Baltic and Eastern Europe",
+      "status": "complete",
+      "lesson": "src/lessons/europe-06-baltic-eastern-europe.json",
+      "places": [
+        "Estonia",
+        "Latvia",
+        "Lithuania",
+        "Belarus",
+        "Ukraine",
+        "Moldova",
+        "Romania",
+        "Bulgaria",
+        "Russia"
+      ],
+      "nativeTargets": [
+        "Estonia",
+        "Latvia",
+        "Lithuania",
+        "Belarus",
+        "Ukraine",
+        "Moldova",
+        "Romania",
+        "Bulgaria",
+        "Russia"
+      ],
+      "supplemental": [],
+      "video": "rendered/europe-six-20261101/06-baltic-eastern-europe/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 453.68,
+      "covered": [
+        "Estonia",
+        "Latvia",
+        "Lithuania",
+        "Belarus",
+        "Ukraine",
+        "Moldova",
+        "Romania",
+        "Bulgaria",
+        "Russia"
+      ]
+    }
+  ]
+}

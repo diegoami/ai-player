@@ -1,0 +1,580 @@
+{
+  "title": "Europe 3 of 6 · Central Europe",
+  "edition": "Europe countries · Six regional lessons · John · November 2026",
+  "mapId": "europe-countries",
+  "area": "Europe",
+  "unit": "places",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/europe-countries",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      4,
+      45
+    ],
+    [
+      25,
+      56
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Germany",
+      "location": [
+        10.4,
+        51.1
+      ],
+      "bounds": [
+        [
+          4,
+          47
+        ],
+        [
+          17,
+          56
+        ]
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "location": [
+        8.2,
+        46.8
+      ],
+      "bounds": [
+        [
+          5.5,
+          45
+        ],
+        [
+          17.5,
+          49.5
+        ]
+      ]
+    },
+    {
+      "name": "Austria",
+      "location": [
+        13.4,
+        47.6
+      ],
+      "bounds": [
+        [
+          5.5,
+          45
+        ],
+        [
+          17.5,
+          49.5
+        ]
+      ]
+    },
+    {
+      "name": "Poland",
+      "location": [
+        19.1,
+        52
+      ],
+      "bounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ]
+    },
+    {
+      "name": "Czechia",
+      "location": [
+        15.5,
+        49.8
+      ],
+      "bounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "location": [
+        19.5,
+        48.7
+      ],
+      "bounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ]
+    },
+    {
+      "name": "Hungary",
+      "location": [
+        19.5,
+        47.1
+      ],
+      "bounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Europe episode three of six. First, I clear the chosen names so we can study a fresh regional group.",
+    "Eight places connect the central crossroads and the Alps: Germany, Switzerland, Liechtenstein, Austria, Poland, Czechia, Slovakia and Hungary. Liechtenstein uses a labelled supplemental map."
+  ],
+  "states": [
+    {
+      "name": "Germany",
+      "location": [
+        10.4,
+        51.1
+      ],
+      "lines": [
+        "Germany is central Europe’s broad northern anchor, south of Denmark and east of the Netherlands, Belgium and France. Poland and Czechia lie along its eastern side.",
+        "German reunification took effect on October third, 1990. The Berlin Wall had fallen the previous year, making the two dates related but different.",
+        "Remember Germany as a central crossroads between western Europe, the Baltic side and the Alps. Reunification is the historical hook attached to that central position."
+      ],
+      "sources": [
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/die-einheit-ist-wirklichkeit-432814"
+      ],
+      "rotateExtra": true,
+      "factContains": "1990",
+      "cameraBounds": [
+        [
+          4,
+          47
+        ],
+        [
+          17,
+          56
+        ]
+      ],
+      "transition": "Let's bring Germany and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4,
+              47
+            ],
+            [
+              17,
+              56
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "location": [
+        8.2,
+        46.8
+      ],
+      "lines": [
+        "Switzerland sits in the Alps, below Germany and between France, Italy and Austria. Liechtenstein is tucked against its eastern side.",
+        "Switzerland has four national languages: German, French, Italian and Romansh. Its mountain setting holds several language communities within one country.",
+        "Picture a multilingual Alpine crossroads. France is west, Italy south, Germany north; keep Switzerland inland, rather than looking for a coast."
+      ],
+      "sources": [
+        "https://www.aboutswitzerland.eda.admin.ch/en/multilingualism"
+      ],
+      "factContains": "four national languages",
+      "cameraBounds": [
+        [
+          5.5,
+          45
+        ],
+        [
+          17.5,
+          49.5
+        ]
+      ],
+      "transition": "Let's bring Switzerland and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.5,
+              45
+            ],
+            [
+              17.5,
+              49.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liechtenstein",
+      "location": [
+        9.55,
+        47.15
+      ],
+      "lines": [
+        "Liechtenstein is the small Alpine country between Switzerland and Austria. The Rhine runs along much of its western boundary beside Switzerland.",
+        "It is doubly landlocked: both its neighbours are landlocked too. You must cross at least two national borders to reach an open sea.",
+        "Remember the tiny slot between Switzerland and Austria: landlocked neighbours around a landlocked country. This labelled supplemental map shows its actual outline."
+      ],
+      "sources": [
+        "https://www.liechtensteinusa.org/liechtenstein-at-a-glance"
+      ],
+      "view": "supplemental",
+      "factCredit": "Embassy of Liechtenstein",
+      "cameraBounds": [
+        [
+          9.43,
+          47.02
+        ],
+        [
+          9.68,
+          47.29
+        ]
+      ],
+      "transition": "Let's locate Liechtenstein on a labelled supplemental map, then zoom in to see its outline.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7,
+              45.8
+            ],
+            [
+              12,
+              49
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              9.43,
+              47.02
+            ],
+            [
+              9.68,
+              47.29
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "Liechtenstein is the small Alpine country between Switzerland and Austria. The Rhine runs along much of its western boundary beside Switzerland.",
+        "It is doubly landlocked: both its neighbours are landlocked too. You must cross at least two national borders to reach an open sea."
+      ],
+      "contextLabels": [
+        [
+          "Switzerland",
+          [
+            9.46,
+            47.14
+          ]
+        ],
+        [
+          "Austria",
+          [
+            9.65,
+            47.22
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Austria",
+      "location": [
+        13.4,
+        47.6
+      ],
+      "lines": [
+        "Austria stretches east from Switzerland and Liechtenstein, below Germany and Czechia. Italy and Slovenia lie to the south, with Hungary toward its eastern end.",
+        "Vienna became a major European centre of music, associated with composers including Mozart and Beethoven. The city of music gives Austria a memorable cultural anchor.",
+        "Keep Austria as the long Alpine country east of Switzerland. Its eastern end points toward Vienna and the Danube, leading us toward the countries farther east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1033/"
+      ],
+      "rotateExtra": true,
+      "factContains": "Mozart",
+      "cameraBounds": [
+        [
+          5.5,
+          45
+        ],
+        [
+          17.5,
+          49.5
+        ]
+      ],
+      "transition": "Let's bring Austria and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.5,
+              45
+            ],
+            [
+              17.5,
+              49.5
+            ]
+          ]
+        }
+      ],
+      "view": "geoclick"
+    },
+    {
+      "name": "Poland",
+      "location": [
+        19.1,
+        52
+      ],
+      "lines": [
+        "Poland is the broad country east of Germany and north of Czechia and Slovakia. Its northern edge reaches the Baltic; Belarus and Ukraine lie to the east.",
+        "Poland regained independence in 1918 after 123 years of partition. Its people and culture continued even while an independent Polish state was absent from the map.",
+        "Picture Poland above the Czechia-Slovakia pair, with a Baltic opening at the top. The lost-and-restored state is a historical hook, not a description of today’s borders."
+      ],
+      "sources": [
+        "https://stat.gov.pl/en/news/national-independence-day%2C66%2C1.html"
+      ],
+      "rotateExtra": true,
+      "factContains": "123",
+      "cameraBounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ],
+      "transition": "Let's bring Poland and its neighbours into a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.5,
+              45
+            ],
+            [
+              25,
+              55.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Czechia",
+      "location": [
+        15.5,
+        49.8
+      ],
+      "lines": [
+        "Czechia is the inland country below Poland, east of Germany and north of Austria. Slovakia lies immediately to its east.",
+        "Charles University in Prague was founded in 1348. Picture an old university city inside this landlocked country, rather than confusing it with a coastal state.",
+        "Remember the west-east pair: Czechia, then Slovakia. Czechia touches Germany; Slovakia stretches onward toward Ukraine. Slovenia is a different country farther south."
+      ],
+      "sources": [
+        "https://cuni.cz/UKEN-115.html"
+      ],
+      "factContains": "1348",
+      "cameraBounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "location": [
+        19.5,
+        48.7
+      ],
+      "lines": [
+        "Slovakia is the narrow inland country east of Czechia, below Poland and above Hungary. Its eastern tip reaches Ukraine.",
+        "Bratislava, its capital, was a coronation city for the Hungarian kingdom between 1563 and 1830. Present-day borders and historical kingdoms do not always line up.",
+        "Keep Slovakia above Hungary and east of Czechia. To separate the similar names, remember Slovakia beside Czechia; Slovenia will appear beside the Adriatic countries later."
+      ],
+      "sources": [
+        "https://www.visitbratislava.com/about-coronations/"
+      ],
+      "factContains": "Bratislava",
+      "cameraBounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ]
+    },
+    {
+      "name": "Hungary",
+      "location": [
+        19.5,
+        47.1
+      ],
+      "lines": [
+        "Hungary lies below Slovakia and east of Austria, in the inland basin crossed by the Danube. Romania is to the east, with Serbia and Croatia toward the south.",
+        "Erno Rubik invented his famous rotating cube in Budapest in 1974. The puzzle gives Hungary a colourful memory hook in the middle of this inland group.",
+        "Picture the Rubik’s Cube below Slovakia and beside Austria. Keep Hungary away from the coast: it is an inland country with the Danube running through it."
+      ],
+      "sources": [
+        "https://www.guinnessworldrecords.com/news/2021/7/an-interview-with-rubiks-cube-creator-erno-rubik-667516"
+      ],
+      "rotateExtra": true,
+      "factContains": "Rubik",
+      "cameraBounds": [
+        [
+          11.5,
+          45
+        ],
+        [
+          25,
+          55.5
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          4,
+          45
+        ],
+        [
+          25,
+          56
+        ]
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recap": [
+    "Germany anchors the north; Switzerland and Austria follow the Alps, with tiny Liechtenstein between them. Remember reunification, four languages, the doubly landlocked country, and Vienna’s music.",
+    "Farther east, Poland sits above Czechia and Slovakia; Hungary lies below Slovakia. Keep Slovakia beside Czechia, not confused with Slovenia. Those eight places complete our central group."
+  ],
+  "supplement": {
+    "data": "src/lessons/data/europe-microstates.geojson",
+    "mapCredit": "Natural Earth / geoBoundaries",
+    "attribution": "Natural Earth public-domain 1:10m context; public-domain geoBoundaries VAT polygon",
+    "contextLabels": [
+      [
+        "France",
+        [
+          2.4,
+          46.5
+        ]
+      ],
+      [
+        "Spain",
+        [
+          -3,
+          40
+        ]
+      ],
+      [
+        "Italy",
+        [
+          12.4,
+          43
+        ]
+      ],
+      [
+        "Switzerland",
+        [
+          8,
+          47
+        ]
+      ],
+      [
+        "Austria",
+        [
+          13.4,
+          47.8
+        ]
+      ],
+      [
+        "Sicily",
+        [
+          14,
+          37.5
+        ]
+      ],
+      [
+        "Rome",
+        [
+          12.52,
+          41.89
+        ]
+      ]
+    ],
+    "islandLabels": [],
+    "mapAttribution": "Natural Earth / geoBoundaries · IGN-F 2022 · <a href=\"https://www.openstreetmap.org/copyright\">© OpenStreetMap contributors</a> (Monaco)"
+  },
+  "recapMoves": [
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            7,
+            45.8
+          ],
+          [
+            12,
+            49
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "view": "geoclick",
+        "bounds": [
+          [
+            4,
+            45
+          ],
+          [
+            25,
+            56
+          ]
+        ]
+      }
+    ]
+  ]
+}

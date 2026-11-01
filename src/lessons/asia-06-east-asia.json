@@ -1,0 +1,377 @@
+{
+  "title": "Asia 6 of 7 · East Asia",
+  "edition": "Asia countries · Seven regional lessons · John · November 2026",
+  "mapId": "asia-countries",
+  "area": "Asia",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/asia-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      72,
+      17
+    ],
+    [
+      147,
+      56
+    ]
+  ],
+  "restore": [
+    {
+      "name": "China",
+      "location": [
+        104,
+        35
+      ],
+      "bounds": [
+        [
+          72,
+          17
+        ],
+        [
+          137,
+          55
+        ]
+      ]
+    },
+    {
+      "name": "Mongolia",
+      "location": [
+        103,
+        46
+      ],
+      "bounds": [
+        [
+          85,
+          39
+        ],
+        [
+          122,
+          56
+        ]
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "location": [
+        121,
+        23.8
+      ],
+      "bounds": [
+        [
+          117.5,
+          20.5
+        ],
+        [
+          124,
+          27
+        ]
+      ]
+    },
+    {
+      "name": "North Korea",
+      "location": [
+        126.8,
+        40.2
+      ],
+      "bounds": [
+        [
+          122,
+          32
+        ],
+        [
+          132,
+          44
+        ]
+      ]
+    },
+    {
+      "name": "South Korea",
+      "location": [
+        127.8,
+        36
+      ],
+      "bounds": [
+        [
+          122,
+          32
+        ],
+        [
+          132,
+          44
+        ]
+      ]
+    },
+    {
+      "name": "Japan",
+      "location": [
+        138,
+        36
+      ],
+      "bounds": [
+        [
+          127,
+          29
+        ],
+        [
+          147,
+          47
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Asia episode six of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Six map targets form our East Asian route: China, Mongolia, Taiwan, North Korea, South Korea and Japan. Taiwan’s separate target is a geographic teaching choice, not a settlement of its political status."
+  ],
+  "states": [
+    {
+      "name": "China",
+      "location": [
+        104,
+        35
+      ],
+      "lines": [
+        "China is the broad eastern mainland country south of Mongolia and Russia. The Korean Peninsula and Japan lie beyond its eastern side; India and the Himalayan countries are to the southwest.",
+        "The Great Wall was developed across many periods, joining and extending older defences. It is a network with a long history, rather than one wall built in a single project.",
+        "Picture a long defensive frontier across northern China, below Mongolia. Use the broad mainland outline first, then place the smaller eastern neighbours around it."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/438/"
+      ],
+      "cameraBounds": [
+        [
+          72,
+          17
+        ],
+        [
+          137,
+          55
+        ]
+      ],
+      "transition": "Let's bring China and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              72,
+              17
+            ],
+            [
+              137,
+              55
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mongolia",
+      "location": [
+        103,
+        46
+      ],
+      "lines": [
+        "Mongolia is the large landlocked country between Russia and China. It has no direct border with Kazakhstan, despite coming close to its eastern end.",
+        "The Orkhon Valley contains the remains of Karakorum, a capital of the Mongol Empire. Pastureland and traces of imperial government sit together in the same cultural landscape.",
+        "Remember a steppe country sandwiched between two giants, Russia above and China below. Picture an imperial capital amid grazing lands, rather than looking for a coast."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1081/"
+      ],
+      "cameraBounds": [
+        [
+          85,
+          39
+        ],
+        [
+          122,
+          56
+        ]
+      ],
+      "transition": "Let's bring Mongolia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              85,
+              39
+            ],
+            [
+              122,
+              56
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "location": [
+        121,
+        23.8
+      ],
+      "lines": [
+        "Taiwan is the island off China’s southeastern coast, north of the Philippines and southwest of Japan’s main islands. The Taiwan Strait separates it from the mainland.",
+        "Taipei’s National Palace Museum holds a jadeite cabbage with tiny carved insects. The artist used the stone’s natural green and white colours to imitate leaves and stalk.",
+        "Picture the jade cabbage on the island across the strait. Taiwan is self-governed and claimed by China; we follow its separate GeoClick target without treating the map as a settlement of political status."
+      ],
+      "sources": [
+        "https://digitalarchive.npm.gov.tw/Collection/Detail?dep=U&id=3",
+        "https://www.europarl.europa.eu/factsheets/en/sheet/182/east-asia"
+      ],
+      "cameraBounds": [
+        [
+          117.5,
+          20.5
+        ],
+        [
+          124,
+          27
+        ]
+      ],
+      "transition": "Let's bring Taiwan and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              117.5,
+              20.5
+            ],
+            [
+              124,
+              27
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North Korea",
+      "location": [
+        126.8,
+        40.2
+      ],
+      "lines": [
+        "North Korea occupies the northern part of the Korean Peninsula, below China and above South Korea. A short northeastern border touches Russia.",
+        "Ancient Koguryo tombs preserve painted scenes of daily life and beliefs. Their history reaches back many centuries before the modern division of Korea.",
+        "Remember painted tombs in the northern half of the peninsula. The two Korean map targets are neighbours on the same peninsula; Japan is across the sea to the east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1091/"
+      ],
+      "cameraBounds": [
+        [
+          122,
+          32
+        ],
+        [
+          132,
+          44
+        ]
+      ],
+      "transition": "Let's bring North Korea and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              122,
+              32
+            ],
+            [
+              132,
+              44
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South Korea",
+      "location": [
+        127.8,
+        36
+      ],
+      "lines": [
+        "South Korea occupies the southern part of the Korean Peninsula, below North Korea. Its shores face seas on three sides, with Japan across the water to the east.",
+        "Haeinsa Temple safeguards Buddhist texts carved on around eighty thousand wooden printing blocks. Their purpose-built storage buildings helped preserve this enormous wooden library.",
+        "Picture a library made of carved wood in the peninsula’s southern half. North Korea above, South Korea below: the paired location comes before the extra fact."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/737/"
+      ],
+      "cameraBounds": [
+        [
+          122,
+          32
+        ],
+        [
+          132,
+          44
+        ]
+      ]
+    },
+    {
+      "name": "Japan",
+      "location": [
+        138,
+        36
+      ],
+      "lines": [
+        "Japan is the island arc east of Korea and the Asian mainland. Its main islands run roughly northeast to southwest, with Hokkaido toward the north and Kyushu toward the south.",
+        "Yakushima, south of Kyushu, preserves ancient Japanese cedar trees. This forested island is a reminder that Japan includes exceptional natural landscapes as well as densely built cities.",
+        "Picture old cedar trees on the island arc beyond Korea. Keep Japan offshore, and remember that the main islands are only part of a much wider island country."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/662/"
+      ],
+      "cameraBounds": [
+        [
+          127,
+          29
+        ],
+        [
+          147,
+          47
+        ]
+      ],
+      "transition": "Let's bring Japan and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              127,
+              29
+            ],
+            [
+              147,
+              47
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          72,
+          17
+        ],
+        [
+          147,
+          56
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "China is the broad mainland, Mongolia the landlocked country above it. Taiwan lies off the southeastern coast; North and South Korea share a peninsula, and Japan forms the island arc beyond them.",
+    "Recall the long-built wall, steppe capital, jade cabbage, painted tombs, wooden printing library and ancient cedar forest. Asian Russia continues north of this group; we orient it here without repeating the Europe lesson."
+  ]
+}

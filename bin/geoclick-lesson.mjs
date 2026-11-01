@@ -15,10 +15,12 @@ import {installSupplement} from '../src/core/geoclick-supplement.mjs';
 const cfg = readConfig();
 const lessonPath = process.argv.find(a=>a.startsWith('--lesson='))?.slice(9) ?? 'src/lessons/usa-episode-01-northeast.json';
 const lesson = JSON.parse(readFileSync(resolve(lessonPath), 'utf8'));
+const mapId=lesson.mapId??'usa-states';
+const unit=lesson.unit??'states';
 const coverage=JSON.parse(readFileSync(resolve('src/lessons/usa-coverage.json'),'utf8'));
-const previousStates=new Set(coverage.episodes.filter(e=>e.status==='complete'&&e.lesson!==lessonPath).flatMap(e=>e.covered??[]));
+const previousStates=new Set(mapId==='usa-states'?coverage.episodes.filter(e=>e.status==='complete'&&e.lesson!==lessonPath).flatMap(e=>e.covered??[]):[]);
 const repeated=lesson.states.filter(s=>previousStates.has(s.name));
-if(repeated.length)throw Error(`States already covered: ${repeated.map(s=>s.name).join(', ')}`);
+if(repeated.length && !process.argv.includes('--review'))throw Error(`States already covered: ${repeated.map(s=>s.name).join(', ')}; use --review for an explicitly requested new edition or pilot`);
 if(new Set(lesson.states.map(s=>s.name)).size!==lesson.states.length)throw Error('Duplicate state within lesson');
 const inspect = process.argv.includes('--inspect');
 const audioCacheDir=process.argv.find(a=>a.startsWith('--audio-cache='))?.slice(14);
@@ -30,7 +32,7 @@ const segments = [
   ...lesson.intro.map(text => ({ kind: 'intro', text })),
   ...lesson.states.flatMap(state => [
     ...(state.transition ? [{kind:'transition',text:state.transition,gestures:state.gestures,view:state.view}] : []),
-    ...state.lines.map((text, i) => ({ kind: 'state', state: state.name, first: i === 0, text }))
+    ...state.lines.map((text, i) => ({ kind: 'state', state: state.name, first: i === 0, lineIndex:i, text }))
   ]),
   ...lesson.recap.map((text,i) => ({ kind: 'recap', firstRecap:i===0, text,gestures:lesson.recapMoves?.[i]??[] }))
 ];
@@ -54,31 +56,38 @@ if(process.argv.includes('--prepare-only')){console.log('Narration prepared; no 
 const browser = await chromium.launch();
 const context = await browser.newContext({
   viewport: lesson.viewport, deviceScaleFactor: 2,
-  recordVideo: { dir: join(cfg.dir, 'video'), size: lesson.viewport }
+  ...(!inspect?{recordVideo: { dir: join(cfg.dir, 'video'), size: lesson.viewport }}:{})
 });
 const t0 = Date.now();
 const page = await context.newPage();
 const at = () => (Date.now() - t0) / 1000;
-const trace = { game: 'geoclick', mode: 'Known', lesson: lesson.title, narration: narrationSettings(cfg), manualUrl: `${base}/manual`, lines: [], turns: [] };
+const trace = { game: 'geoclick', mode: 'Known', mapId, unit, lesson: lesson.title, narration: narrationSettings(cfg), manualUrl: `${base}/manual`, lines: [], turns: [] };
 let trimStart;
 try {
-  await page.goto(`${base}/manual`);
+  await page.goto(base);
+  await page.getByRole('link', {name:'About',exact:true}).click();
+  await page.waitForURL('**/about');
+  await page.waitForTimeout(2000);
+  await page.getByRole('link', {name:'User manual',exact:true}).click();
   await page.locator('article h1').waitFor();
   const manual = await page.locator('article').innerText();
   if (!manual.includes('Tap a place to put its name on the map')) throw Error('Manual did not load as expected');
   writeFileSync(join(cfg.dir, 'manual.txt'), manual);
-  await page.goto(`${base}/map/usa-states`);
+  await page.goto(`${base}/map/${mapId}`);
   await page.locator('.maplibregl-canvas').waitFor();
   await page.getByTestId('known-empty').waitFor();
+  await page.getByTestId('known-empty').getByRole('button', {name:'Close this notice'}).click();
+  trace.knownNoticeClosed = true;
   await sleep(6000);
-  await lessonLayout(page, lesson.title);
-  await attachCamera(page);
-  await gesture(page,{bounds:[[-125,24],[-66,50]]});
+  await lessonLayout(page, lesson.title, lesson.area??'United States');
+  await attachCamera(page,mapId);
+  await gesture(page,{bounds:lesson.initialBounds??[[-125,24],[-66,50]]});
   if(lesson.supplement)await installSupplement(page,lesson);
   // Prepare chosen names through public clicks so Clear is a visible real
   // action. This changes no earned quiz progress and implies no earlier episode.
   for (const previous of lesson.restore ?? []) {
     console.log(`Preparing Clear: ${previous.name}`);
+    if(previous.bounds)await gesture(page,{bounds:previous.bounds});
     const point=await statePoint(page,previous.name,previous.location);
     await page.mouse.click(...point);
     const actual=await page.getByTestId('fact-card').locator('.fact-name').innerText();
@@ -88,20 +97,25 @@ try {
     await page.mouse.click(...point);
     await page.mouse.click(...point);
   }
+  if(lesson.initialBounds)await gesture(page,{bounds:lesson.initialBounds});
   trimStart = at();
   await sleep(inspect ? 50 : 700);
   await page.getByTestId('clear-names').click();
   if(await page.getByTestId('fact-card').count())throw Error('Clear did not dismiss the old fact card');
+  await page.getByRole('button', {name:'Hide the buttons',exact:true}).click();
+  await page.getByRole('button', {name:'Show the buttons',exact:true}).waitFor();
+  trace.buttonsHiddenWithEye = true;
   trace.clearedNames = lesson.restore.map(s=>s.name);
   await page.screenshot({path:join(cfg.dir,'cleared.png'),scale:'css'});
-  await status(page,`A fresh map · ${lesson.states.length} states`);
+  await status(page,`A fresh map · ${lesson.states.length} ${unit}`);
   for (const segment of segments) {
     if(segment.kind==='transition') {
       const open=page.getByTestId('fact-card');
       if(await open.count())await open.getByRole('button',{name:'Close',exact:true}).click();
-      if(segment.view==='supplemental'){
+      if(segment.view){
+        if(!lesson.supplement)throw Error('A view switch requires supplemental configuration');
         if(!await page.evaluate(()=>!!window.__lessonSupplementReady))await installSupplement(page,lesson);
-        await page.evaluate(()=>window.__lessonUseView('supplemental'));
+        await page.evaluate(view=>window.__lessonUseView(view),segment.view);
       }
       await status(page, 'Moving to the next study area');
     }
@@ -131,6 +145,23 @@ try {
       await page.screenshot({ path: join(cfg.dir, `${state.name.replaceAll(' ', '-')}.png`), scale: 'css' });
       console.log(`Revealed ${actual}: ${facts.replaceAll('\n', ' ')}`);
     }
+    if(segment.kind==='state'){
+      const state=lesson.states.find(s=>s.name===segment.state);
+      for(const related of (state.relatedSelections??[]).filter(r=>r.lineIndex===segment.lineIndex)){
+        await page.mouse.click(...await statePoint(page,related.name,related.location));
+        const card=page.getByTestId('fact-card');await card.waitFor();
+        const actual=await card.locator('.fact-name').innerText();
+        if(actual!==related.name)throw Error(`Related selection expected ${related.name}, got ${actual}`);
+        // A related status explanation may omit an outdated optional app fact.
+        // The native target, label and pinned origin/status remain unchanged.
+        if(related.hideExtra)await card.locator('.fact-extra').evaluateAll(nodes=>nodes.forEach(n=>n.style.display='none'));
+        const layout=await verifyUncovered(page);
+        (trace.relatedSelections??=[]).push({parent:state.name,target:actual,lineIndex:segment.lineIndex,start:at(),layout});
+        await status(page,`${trace.turns.length} / ${lesson.states.length} · ${state.name} · ${actual} explained`);
+        await page.mouse.move(1180,260);
+        await page.screenshot({path:join(cfg.dir,`related-${actual.replaceAll(' ','-')}.png`),scale:'css'});
+      }
+    }
     if (segment.firstRecap) {
       await page.getByTestId('fact-card').getByRole('button', { name: 'Close', exact: true }).click();
       for(const action of lesson.recapGestures ?? [])await gesture(page,action);
@@ -154,7 +185,7 @@ try {
 } finally {
   const video = page.video();
   await context.close();
-  trace.video = await video.path();
+  trace.video = video ? await video.path() : null;
   await browser.close();
   trace.trimStart = trimStart;
   trace.costs = costs;

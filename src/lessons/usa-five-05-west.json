@@ -1,0 +1,272 @@
+{
+  "title": "Episode 5 of 5 · West · 11 states",
+  "edition": "Five videos · 48 contiguous states · John · November 2026",
+  "manual": "http://127.0.0.1:5188/manual",
+  "url": "http://127.0.0.1:5188/map/usa-states",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "regionSource": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
+  "restore": [
+    {
+      "name": "Montana"
+    },
+    {
+      "name": "Idaho"
+    },
+    {
+      "name": "Wyoming"
+    },
+    {
+      "name": "Colorado"
+    },
+    {
+      "name": "New Mexico"
+    },
+    {
+      "name": "Arizona"
+    },
+    {
+      "name": "Utah"
+    },
+    {
+      "name": "Nevada"
+    },
+    {
+      "name": "California"
+    },
+    {
+      "name": "Oregon"
+    },
+    {
+      "name": "Washington"
+    }
+  ],
+  "intro": [
+    "Welcome to episode five of our U.S. states series. First, I clear the map so we can study a fresh group.",
+    "For our final episode, we explore eleven Western states: the northern Rockies, the Four Corners group, Nevada and the three Pacific coast states."
+  ],
+  "states": [
+    {
+      "name": "Montana",
+      "rotateExtra": true,
+      "factContains": "Glacier",
+      "transition": "Let's start in the northern Rockies with Montana, Idaho and Wyoming, directly west of the Plains states we studied last time.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -117.5,
+              40.6
+            ],
+            [
+              -103.5,
+              49.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Montana is the broad state along the Canadian border, west of North Dakota. Mountains dominate its west, while its eastern land opens onto the Great Plains.",
+        "Its name comes from the Spanish word for mountain. Glacier National Park, established in 1910, lies in Montana's western Rockies.",
+        "Remember Montana above Wyoming, with Idaho along its irregular western edge. Idaho is our next stop."
+      ],
+      "sources": [
+        "https://www.nps.gov/glac/learn/education/development.htm"
+      ]
+    },
+    {
+      "name": "Idaho",
+      "rotateExtra": true,
+      "factContains": "Hells Canyon",
+      "lines": [
+        "Idaho is the state with a narrow northern panhandle below Canada and a wider southern body. It sits between the Pacific states and Montana and Wyoming.",
+        "The card points to Hells Canyon on the Oregon border. Carved by the Snake River, it is North America's deepest river gorge.",
+        "Use Idaho's bent outline as a memory hook: a narrow top and a broader bottom. Wyoming is to the southeast."
+      ],
+      "sources": [
+        "https://www.recreation.gov/permits/234625"
+      ]
+    },
+    {
+      "name": "Wyoming",
+      "rotateExtra": true,
+      "factContains": "1869",
+      "lines": [
+        "Wyoming is the near-rectangular state directly below Montana and above Colorado. Idaho is to its west, and the Dakotas and Nebraska are to its east.",
+        "Wyoming Territory granted women voting rights in 1869. Yellowstone, much of it in Wyoming, became the first U.S. national park in 1872.",
+        "Remember this vertical Rocky Mountain stack: Montana, Wyoming, Colorado. We now move south to Colorado and the Four Corners states."
+      ],
+      "sources": [
+        "https://www.nps.gov/articles/woman-suffrage-in-the-west.htm",
+        "https://soswy.state.wy.us/Forms/Publications/Student%20Packet%20Content%20Files/WyomingStudentGuide.pdf"
+      ]
+    },
+    {
+      "name": "Colorado",
+      "factContains": "lowest point",
+      "transition": "Our next view holds the Four Corners group: Colorado, New Mexico, Arizona and Utah. We'll trace them clockwise around their shared meeting point.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -115,
+              30.9
+            ],
+            [
+              -101.5,
+              42.3
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Colorado is the broad rectangle below Wyoming and west of Kansas. Utah is to its west, and New Mexico directly below it.",
+        "Its Spanish name means coloured red, referring to the Colorado River. The card's elevation fact is striking: its lowest point is higher than the highest point in eighteen other states.",
+        "Keep Colorado at the northeastern corner of our group. New Mexico is immediately south, beginning our clockwise loop."
+      ],
+      "sources": [
+        "https://www.cpr.org/2022/08/26/colorado-lowest-point-yuma-county/"
+      ]
+    },
+    {
+      "name": "New Mexico",
+      "factContains": "Trinity",
+      "lines": [
+        "New Mexico lies south of Colorado and east of Arizona. Texas borders it to the east and south; a short southern stretch touches Mexico.",
+        "The card recalls Trinity: the world's first atomic bomb test took place in New Mexico in July 1945, after development work at Los Alamos.",
+        "Remember New Mexico as the southeastern state of our Four Corners group. Arizona is directly to its west."
+      ],
+      "sources": [
+        "https://www.nps.gov/mapr/learn/historyculture/trinity.htm"
+      ]
+    },
+    {
+      "name": "Arizona",
+      "factContains": "Grand Canyon",
+      "lines": [
+        "Arizona is west of New Mexico and south of Utah. Its southern border meets Mexico, while its western edge follows the Colorado River in places.",
+        "The Grand Canyon is Arizona's memory hook. The Colorado River carved this landscape; the canyon extends about 277 miles, or 446 kilometres, along the river.",
+        "Keep Arizona below Utah and beside New Mexico. We now move north to Utah, completing the loop."
+      ],
+      "sources": [
+        "https://www.nps.gov/grca/faqs.htm"
+      ]
+    },
+    {
+      "name": "Utah",
+      "factContains": "Great Salt Lake",
+      "lines": [
+        "Utah sits north of Arizona and west of Colorado. Notice the notch in its northeastern corner, with Wyoming beyond it.",
+        "Its name is connected with the Ute people. The Great Salt Lake is the largest natural lake west of the Mississippi, a memorable feature of northern Utah.",
+        "Our Four Corners loop is Colorado, New Mexico, Arizona, Utah. Nevada lies west of Utah and leads us toward the Pacific states."
+      ],
+      "sources": [
+        "https://wildlife.utah.gov/gslep/about"
+      ]
+    },
+    {
+      "name": "Nevada",
+      "rotateExtra": true,
+      "factContains": "Hoover Dam",
+      "transition": "Now turn west to Nevada and California. We'll follow the inland mountains to the Pacific, then travel north along the coast.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -125,
+              31.5
+            ],
+            [
+              -113.5,
+              43
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Nevada lies between California and Utah, below Oregon and Idaho. Its long diagonal western border fits against California.",
+        "Its Spanish name means snow-covered, from the Sierra Nevada. Hoover Dam, on the Arizona border, was built during the 1930s.",
+        "Remember Nevada just inland from California. The angled border between them makes a useful pair of matching outlines."
+      ],
+      "sources": [
+        "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html"
+      ]
+    },
+    {
+      "name": "California",
+      "rotateExtra": true,
+      "factContains": "Mount Whitney",
+      "lines": [
+        "California is the long Pacific state west of Nevada. Oregon is above it, and Mexico below its southern border.",
+        "Its name comes from a fictional island ruled by Queen Calafia. The state also contains Mount Whitney and Death Valley, the highest and lowest points in the contiguous United States.",
+        "Use California's long coast and angled inland edge to remember its shape. Next, follow that coast north into Oregon."
+      ],
+      "sources": [
+        "https://guides.loc.gov/border-art/calafia",
+        "https://www.nps.gov/deva/learn/nature/badwater.htm"
+      ]
+    },
+    {
+      "name": "Oregon",
+      "factContains": "Crater Lake",
+      "transition": "Let's bring the Pacific Northwest closer. Oregon and Washington form our final mainland pair, with the ocean to the west and Idaho inland.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -125.3,
+              41.5
+            ],
+            [
+              -116.3,
+              49.5
+            ]
+          ]
+        }
+      ],
+      "lines": [
+        "Oregon is the Pacific state between California and Washington. Idaho is to the east, across part of the Snake River boundary.",
+        "Its name has an uncertain origin. Crater Lake, formed in the caldera of a collapsed volcano, is the deepest lake in the United States.",
+        "Remember the three-state Pacific coast chain: California, Oregon, Washington. We move north to Washington next."
+      ],
+      "sources": [
+        "https://www.nps.gov/places/crater-lake.htm"
+      ]
+    },
+    {
+      "name": "Washington",
+      "rotateExtra": true,
+      "factContains": "1980",
+      "lines": [
+        "Washington is the northwestern corner of the contiguous states. Canada is above it, Oregon below it and Idaho to the east.",
+        "It is the only state named for a U.S. president: George Washington. Mount St Helens, also here, underwent its major landscape-changing eruption in 1980.",
+        "Keep Washington State on the Pacific, far from Washington, D.C. Washington completes our eleven Western states and the mainland series."
+      ],
+      "sources": [
+        "https://capitol.wa.gov/discover/artwork-memorials/george-washington-bust",
+        "https://www.usgs.gov/volcanoes/mount-st.-helens"
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -125.3,
+          30.9
+        ],
+        [
+          -102,
+          49.5
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Trace Montana, Idaho and Wyoming; then the Four Corners loop of Colorado, New Mexico, Arizona and Utah. Nevada leads us to California, Oregon and Washington.",
+    "Across five videos, we have covered all forty-eight contiguous states, exactly once. We deliberately left out Alaska and Hawaii: their distinctive locations already make them easy to remember.",
+    "Our mainland tour is complete. Use the regional groups, neighbouring states and memorable facts to rebuild the map in your mind, then test yourself in GeoClick."
+  ]
+}
