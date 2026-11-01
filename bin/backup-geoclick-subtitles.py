@@ -39,7 +39,7 @@ def main():
                           'bytes': checked['bytes'], 'sha256': checked['sha256']})
         entries.append({'series': args.series, 'episode': number, 'id': episode['id'], 'ledger': series['ledger'],
                         'master': episode['video'], 'language': 'en',
-                        'youtube_video_id': series.get('video_ids', [None] * len(ledger['episodes']))[number - 1], 'files': files})
+                        'youtube_video_id': series.get('video_ids', [None] * len(ledger['episodes']))[number - 1] or episode.get('youtubeVideoId'), 'files': files})
     # Validate every source and existing destination before copying anything.
     for source, target in pending:
         target.parent.mkdir(parents=True, exist_ok=True)

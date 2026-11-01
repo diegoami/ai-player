@@ -20,7 +20,12 @@ island countries must be demonstrated. Outputs: `rendered/africa-eight-20261102/
 All media checks and visual reviews passed; the collection ZIP is
 `all-eight-africa-videos.zip` under that output root. Exact optional English
 SRT/WebVTT backups are in tracked `subtitles/africa/`. Eight entries are
-prepared in the separate offline publishing batch. No Africa uploads are authorized.
+prepared in the separate publishing batch. The owner then authorized uploading
+all eight. North Africa uploaded privately as `pT0TDuGl2e4`; quota stopped its
+thumbnail stage, before captions/membership. Seven uploads remain pending.
+Preserve `rendered/africa-eight-20261102/youtube-publishing/queue.json`, its jobs,
+immutable plan and shared ledger. Retry that existing thumbnail stage through
+youtube3 when quota permits; never reupload the accepted video. See the runbook.
 
 For GeoClick work, read [docs/GEOCLICK.md](docs/GEOCLICK.md) before operating or
 recording the game. It contains the manual digest, controls, teaching workflow,

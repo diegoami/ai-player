@@ -69,8 +69,9 @@ Four island countries use labelled supplemental views. See the
 [GeoClick notes](docs/GEOCLICK.md) for production commands and review gates.
 All eight masters and optional captions are packaged in
 `rendered/africa-eight-20261102/all-eight-africa-videos.zip`; episode durations
-range from 4:27 to 8:02. The offline publishing batch is prepared, with uploads
-awaiting separate authorization. Approved subtitle backups travel with Git in
+range from 4:27 to 8:02. Uploads were then authorized: North Africa uploaded,
+and YouTube quota stopped its thumbnail stage; seven uploads remain queued.
+See the publishing runbook for recovery. Approved subtitle backups travel with Git in
 [subtitles/](subtitles/README.md).
 
 YouTube operations are owned by this repository through

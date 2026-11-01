@@ -48,7 +48,8 @@
         "Libya",
         "Egypt",
         "Western Sahara"
-      ]
+      ],
+      "youtubeVideoId": "pT0TDuGl2e4"
     },
     {
       "id": "atlantic-west-africa",
@@ -377,5 +378,16 @@
       ]
     }
   ],
-  "coveredCountryCount": 54
+  "coveredCountryCount": 54,
+  "publishing": {
+    "status": "quota-blocked",
+    "authorized": "Eight Africa uploads with captions and existing playlist; private batch visibility retained",
+    "queue": "rendered/africa-eight-20261102/youtube-publishing/queue.json",
+    "uploadedCount": 1,
+    "completedCount": 0,
+    "pendingUploadCount": 7,
+    "blockedStage": "thumbnail",
+    "lastError": "quotaExceeded",
+    "note": "No account calls after refusal. Resume native queue; never reupload known video."
+  }
 }

@@ -60,7 +60,7 @@ uploads, and the eleven-video release workflow never uploads either series.
 
 Versioned English subtitle backups for all 26 current US, Europe, Asia and Africa
 episodes are in [subtitles/](../subtitles/README.md). Its manifest maps exact
-caption bytes to canonical masters and the eleven known YouTube IDs. These
+caption bytes to canonical masters and known YouTube IDs. These
 backups do not replace the original queue caption inputs or checkpoints;
 Asia remains an offline preparation.
 
@@ -188,7 +188,48 @@ All eight Africa exports passed production and visual review on 2 November
 Sixteen exact SRT/WebVTT backups are tracked in `subtitles/africa/`. This work
 made no YouTube account calls and did not retry the quota-blocked release.
 
-## Last attempt: 1 November 2026, 22:08 UTC
+## Authorized Africa uploads: 2 November 2026
+
+After the eight completed videos were delivered, the owner said "upload".
+This authorizes all eight Africa uploads, English captions, screenshot
+thumbnails and membership in the existing playlist. The prepared batch's
+private visibility and disabled subscriber notifications were retained.
+Asia uploads remain outside this authorization.
+
+Installed youtube3 created the immutable Africa `plan.json` and native
+`queue.json` under `rendered/africa-eight-20261102/youtube-publishing/`, using
+the original shared per-channel ledger. North Africa uploaded successfully as
+[`pT0TDuGl2e4`](https://www.youtube.com/watch?v=pT0TDuGl2e4). YouTube returned
+HTTP 403 `quotaExceeded` at the thumbnail stage. The queue stopped immediately;
+no account reads or writes followed the refusal. Its thumbnail is failed,
+metadata/captions/publication/membership are pending, and seven entries have
+not uploaded. No post-quota remote verification is claimed.
+
+The shared ledger now contains twelve records. A local comparison confirmed
+all eleven original records unchanged. `ledger-before-africa.json`,
+`upload-authorization.json` and `last-upload-run.json` retain local evidence.
+Do not rebuild the plan/queue, remove the known ID, or confirm this upload as
+missing. The eleven-video public-release workflow remains separate.
+
+When quota permits, recover the first existing job through youtube3:
+
+```powershell
+youtube3 publishing-batch retry rendered/africa-eight-20261102/youtube-publishing/queue.json --profile lynxsupercluster --entry africa-01-north-africa --stage thumbnail --apply
+```
+
+Only after that command completes successfully, continue the seven pending
+entries through the same queue (stop on any quota refusal):
+
+```powershell
+youtube3 publishing-batch resume rendered/africa-eight-20261102/youtube-publishing/queue.json --profile lynxsupercluster --apply
+```
+
+Use native status/checkpoints for progress and accepted caption IDs. Once all
+eight complete without a quota stop, batch-read the eight video descriptions/
+visibility and playlist membership/order. Preserve the existing playlist cover.
+No scheduled retry is installed.
+
+## Previous release attempt: 1 November 2026, 22:08 UTC
 
 The migration's first `resume` hit HTTP 403 `quotaExceeded` during the existing
 Europe caption recovery. No account writes were accepted, no upload was

@@ -69,7 +69,9 @@ and public-domain attribution accompany `src/lessons/data/africa-islands.geojson
 All exports require clean masters and separate optional English SRT/WebVTT,
 with top-positioned WebVTT. Keep generated media in ignored `rendered/`; copy
 approved caption bytes into tracked `subtitles/` only after final approval.
-No Africa YouTube uploads are authorized by production of these lessons.
+Producing the lessons alone did not authorize uploads. The owner subsequently
+said "upload", authorizing all eight Africa videos with their prepared private
+visibility, captions and playlist membership.
 
 All eight lessons are complete and packaged in
 `rendered/africa-eight-20261102/all-eight-africa-videos.zip`. Durations in
@@ -84,8 +86,12 @@ and caption on/off previews, plus extracted frames for all four supplements
 and the Somaliland selection. Clean-master streams, audio decoding and peaks,
 caption loading, top positioning and toggling all passed. Peaks range from
 -3.8 to -3.4 dB. These checks do not constitute a full listening review.
-The eight offline publishing entries include approved masters, English SRT,
-screenshot thumbnails and all four links. No account calls or uploads occurred.
+The eight publishing entries include approved masters, English SRT,
+screenshot thumbnails and all four links. The subsequent authorized upload
+accepted North Africa as `pT0TDuGl2e4`, then returned `quotaExceeded` at its
+thumbnail stage. No account calls followed the refusal. Its captions and
+playlist membership, and seven uploads, remain pending. Preserve the native
+Africa queue/jobs/plan and shared upload ledger; resume without reuploading.
 Exact approved SRT/WebVTT bytes are backed up under `subtitles/africa/`, with
 source paths and hashes in the shared subtitle manifest. Existing US/Europe/
 Asia caption records remain intact.
