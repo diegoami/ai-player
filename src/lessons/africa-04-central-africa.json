@@ -1,0 +1,502 @@
+{
+  "title": "Africa 4 of 8 · Central Africa",
+  "edition": "Africa countries · Eight regional lessons · John · November 2026",
+  "mapId": "africa-countries",
+  "area": "Africa",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/africa-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      8,
+      -6
+    ],
+    [
+      31,
+      24
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Chad",
+      "location": [
+        19,
+        15
+      ],
+      "bounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "location": [
+        12,
+        6
+      ],
+      "bounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Central African Republic",
+      "location": [
+        20.5,
+        6.5
+      ],
+      "bounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "location": [
+        10.3,
+        1.6
+      ],
+      "bounds": [
+        [
+          7,
+          -1
+        ],
+        [
+          13,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "Gabon",
+      "location": [
+        11.7,
+        -1
+      ],
+      "bounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Republic of the Congo",
+      "location": [
+        15.5,
+        -1
+      ],
+      "bounds": [
+        [
+          8,
+          -14
+        ],
+        [
+          32,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "location": [
+        23,
+        -3
+      ],
+      "bounds": [
+        [
+          8,
+          -14
+        ],
+        [
+          32,
+          6
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Africa episode four of eight. First, I clear the chosen names for a fresh regional lesson.",
+    "Eight countries connect desert Chad with the Congo forests and Atlantic islands. São Tomé and Príncipe needs a labelled supplemental view because it is absent from GeoClick’s native map."
+  ],
+  "states": [
+    {
+      "name": "Chad",
+      "location": [
+        19,
+        15
+      ],
+      "lines": [
+        "Chad is landlocked below Libya, east of Niger and west of Sudan. Cameroon and the Central African Republic lie toward its south.",
+        "The lakes of Ounianga survive in a very dry Saharan landscape because groundwater feeds them. Some lakes are fresh and others salty, despite lying in the same desert region.",
+        "Picture surprising lakes in the desert above the Congo Basin. Chad is the tall inland link between Libya and the Central African Republic."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1400/"
+      ],
+      "cameraBounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ],
+      "transition": "Let's bring Chad and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8,
+              -6
+            ],
+            [
+              31,
+              24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "location": [
+        12,
+        6
+      ],
+      "lines": [
+        "Cameroon lies southeast of Nigeria, with Chad toward its northeast and Gabon, Equatorial Guinea and the Republic of the Congo below. A southwestern coast reaches the Gulf of Guinea.",
+        "The Dja Faunal Reserve is almost encircled by the Dja River. Its forest supports many primates, with the river providing a remarkable natural boundary.",
+        "Remember a river loop around rainforest. Cameroon is the coastal hinge between West and Central Africa, below Nigeria’s eastern side."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/407/"
+      ],
+      "cameraBounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Central African Republic",
+      "location": [
+        20.5,
+        6.5
+      ],
+      "lines": [
+        "The Central African Republic is landlocked below Chad and west of South Sudan. Cameroon lies west, with the two Congos toward its south.",
+        "The Sangha Trinational landscape joins protected forests in the Central African Republic, Cameroon and the Republic of the Congo. Forest clearings provide gathering places for elephants and other animals.",
+        "Picture elephants in a forest clearing at a three-country meeting. The Central African Republic sits inland above the Congo countries; its name describes its broad position."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1380/"
+      ],
+      "cameraBounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "location": [
+        10.3,
+        1.6
+      ],
+      "lines": [
+        "Equatorial Guinea includes a small mainland part below Cameroon, plus islands in the Gulf of Guinea. Bioko lies offshore; Gabon surrounds much of the mainland part.",
+        "This country’s geography is split between mainland and islands. Its name can mislead: the mainland is north of the equator, while the island of Annobón lies south of it.",
+        "Remember one country in separated pieces beside Cameroon and Gabon. Do not confuse Equatorial Guinea with Guinea or Guinea-Bissau on the West African coast."
+      ],
+      "sources": [
+        "https://www.un.org/geospatial/content/equatorial-guinea"
+      ],
+      "cameraBounds": [
+        [
+          7,
+          -1
+        ],
+        [
+          13,
+          5
+        ]
+      ],
+      "transition": "Let's bring Equatorial Guinea and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7,
+              -1
+            ],
+            [
+              13,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gabon",
+      "location": [
+        11.7,
+        -1
+      ],
+      "lines": [
+        "Gabon faces the Atlantic below Equatorial Guinea and Cameroon. The Republic of the Congo curves around its eastern and southern sides.",
+        "At Lopé-Okanda, rainforest meets older savannah patches. The landscape also preserves rock carvings and evidence of people moving through the Ogooué valley over long periods.",
+        "Picture forest beside savannah on the equatorial Atlantic coast. Gabon is west of the Republic of the Congo, with Equatorial Guinea tucked above it."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1147/"
+      ],
+      "cameraBounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ],
+      "transition": "Let's bring Gabon and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8,
+              -6
+            ],
+            [
+              31,
+              24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Republic of the Congo",
+      "location": [
+        15.5,
+        -1
+      ],
+      "lines": [
+        "The Republic of the Congo lies east of Gabon and west of the much larger Democratic Republic of the Congo. Its short southwestern coastline reaches the Atlantic.",
+        "The Sangha forest landscape is shared with Cameroon and the Central African Republic. It connects protected habitats for forest elephants, gorillas and chimpanzees across national boundaries.",
+        "Remember Congo-Brazzaville as the smaller western Congo. Its neighbour across the great river is the Democratic Republic of the Congo; the similar names identify separate countries."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1380/"
+      ],
+      "cameraBounds": [
+        [
+          8,
+          -14
+        ],
+        [
+          32,
+          6
+        ]
+      ],
+      "transition": "Let's bring Republic of the Congo and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8,
+              -14
+            ],
+            [
+              32,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "location": [
+        23,
+        -3
+      ],
+      "lines": [
+        "The Democratic Republic of the Congo occupies a vast central area east of the Republic of the Congo. It extends toward the Great Lakes in the east and has a very short Atlantic outlet.",
+        "Virunga National Park contains an extraordinary range of habitats, from volcanic landscapes to high mountains. Mountain gorillas live within this diverse eastern border region.",
+        "Picture a huge central basin reaching east to volcanoes and gorillas. This is Congo-Kinshasa, the larger Congo, not its smaller western neighbour."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/63/"
+      ],
+      "cameraBounds": [
+        [
+          8,
+          -14
+        ],
+        [
+          32,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "location": [
+        6.62,
+        0.3
+      ],
+      "lines": [
+        "São Tomé and Príncipe is an Atlantic island country west of Gabon. Its two main islands lie in the Gulf of Guinea, separate from mainland Central Africa.",
+        "UNESCO’s Príncipe Biosphere Reserve recognises an island environment with distinctive forest and marine habitats. Isolation helps explain why island wildlife can differ from mainland wildlife.",
+        "Remember two islands off Gabon, not an extra mainland strip. Príncipe lies northeast of São Tomé; this labelled supplemental view keeps their real geographic positions."
+      ],
+      "sources": [
+        "https://www.unesco.org/en/mab/island-principe"
+      ],
+      "view": "supplemental",
+      "factCredit": "UNESCO Man and the Biosphere Programme",
+      "cameraBounds": [
+        [
+          5.8,
+          -0.2
+        ],
+        [
+          7.8,
+          2
+        ]
+      ],
+      "transition": "Let's locate São Tomé and Príncipe on a labelled supplemental map, then move in for a closer view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3,
+              -3
+            ],
+            [
+              13,
+              5
+            ]
+          ]
+        },
+        {
+          "bounds": [
+            [
+              5.8,
+              -0.2
+            ],
+            [
+              7.8,
+              2
+            ]
+          ]
+        }
+      ],
+      "mapFacts": [
+        "São Tomé and Príncipe is an Atlantic island country west of Gabon. Its two main islands lie in the Gulf of Guinea, separate from mainland Central Africa.",
+        "UNESCO’s Príncipe Biosphere Reserve recognises an island environment with distinctive forest and marine habitats. Isolation helps explain why island wildlife can differ from mainland wildlife."
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          8,
+          -6
+        ],
+        [
+          31,
+          24
+        ]
+      ],
+      "view": "geoclick"
+    }
+  ],
+  "recap": [
+    "Chad is above the Central African Republic. Cameroon reaches the Gulf of Guinea; Equatorial Guinea and Gabon follow the coast south. The smaller Republic of the Congo lies west of the much larger Democratic Republic of the Congo.",
+    "Recall desert lakes, a river-ringed forest, elephant clearings, mainland and island pieces, forest beside savannah and eastern volcanoes. São Tomé and Príncipe is offshore west of Gabon, not on the mainland."
+  ],
+  "supplement": {
+    "data": "src/lessons/data/africa-islands.geojson",
+    "mapCredit": "Natural Earth · generalized land polygons",
+    "mapAttribution": "Natural Earth · public domain · generalized geographic view",
+    "contextLabels": [
+      [
+        "Gabon",
+        [
+          10,
+          -1
+        ]
+      ],
+      [
+        "Gulf of Guinea",
+        [
+          4,
+          1
+        ]
+      ]
+    ],
+    "islandLabels": []
+  },
+  "recapMoves": [
+    [],
+    [
+      {
+        "view": "supplemental",
+        "bounds": [
+          [
+            3,
+            -3
+          ],
+          [
+            13,
+            5
+          ]
+        ]
+      }
+    ]
+  ]
+}

@@ -16,6 +16,41 @@ spec.loader.exec_module(workflow)
 
 
 class WorkflowTests(unittest.TestCase):
+    def test_offline_prepare_does_not_require_operational_queues(self):
+        config = {'offline_series': {'id': 'asia'}}
+        modules = (object(), object(), object(), object(), object(), object())
+        with patch.object(workflow, 'read', return_value=config), patch.object(workflow, 'library', return_value=modules), patch.object(workflow, 'inventory', side_effect=AssertionError('must not inspect account queues')), patch.object(workflow, 'prepare') as prepare, patch('sys.argv', ['geoclick-youtube.py', 'prepare', '--series', 'africa']):
+            self.assertEqual(workflow.main(), 0)
+            prepare.assert_called_once_with(config, modules[3], modules[1], 'africa')
+
+    def test_africa_offline_batch_keeps_uploads_unauthorized(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            series = {'id': 'africa', 'ledger': 'coverage.json', 'publishing_dir': 'offline'}
+            config = {'offline_series': {'id': 'asia'}, 'additional_offline_series': [series], 'profile': 'owner', 'channel_id': 'channel', 'playlist_id': 'playlist', 'links': dict(playlist='playlist-url', game='game-url', geoclick_repository='geoclick-url', ai_player_repository='tools-url')}
+            episodes = []
+            for i in range(1, 9):
+                episode = {'id': f'region-{i}', 'title': f'Region {i}', 'status': 'complete', 'video': f'episode-{i}/master.mp4', 'places': ['A']}
+                episodes.append(episode)
+                workflow.save(root / f'episode-{i}/verification.json', {'visualReview': 'passed'})
+                (root / episode['video']).write_bytes(b'approved master')
+                (root / f'episode-{i}/subtitles.en.srt').write_text('caption', encoding='utf-8')
+                (root / 'offline').mkdir(exist_ok=True)
+                (root / f'offline/africa-{i:02d}-region-{i}.jpg').write_bytes(b'existing screenshot')
+            workflow.save(root / 'coverage.json', {'status': 'complete', 'episodes': episodes})
+            batch = types.SimpleNamespace(resolve_batch=lambda path: None)
+            captions = types.SimpleNamespace(check_caption=lambda path: {'sha256': workflow.digest(path)})
+            with patch.object(workflow, 'ROOT', root), patch.object(workflow.subprocess, 'run', side_effect=AssertionError('thumbnail already exists')), contextlib.redirect_stdout(io.StringIO()):
+                workflow.prepare(config, batch, captions, 'africa')
+            result = workflow.read(root / 'offline/batch.json')
+            self.assertEqual(len(result['entries']), 8)
+            self.assertEqual(result['settings']['privacy'], 'private')
+            self.assertFalse(result['settings']['notify_subscribers'])
+            self.assertIn('8/8', result['entries'][-1]['settings']['title'])
+            for entry in result['entries']:
+                self.assertTrue(all(url in entry['settings']['description'] for url in config['links'].values()))
+            self.assertFalse(workflow.read(root / 'offline/offline-manifest.json')['upload_authorized'])
+
     def test_link_is_inserted_among_links_once(self):
         original = 'Owner text\n\nPlay GeoClick: game\nSource: repo\n'
         desired = workflow.linked(original, 'playlist-url')

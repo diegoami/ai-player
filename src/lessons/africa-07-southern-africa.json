@@ -1,0 +1,544 @@
+{
+  "title": "Africa 7 of 8 · Southern Africa",
+  "edition": "Africa countries · Eight regional lessons · John · November 2026",
+  "mapId": "africa-countries",
+  "area": "Africa",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/africa-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      10,
+      -36
+    ],
+    [
+      42,
+      -4
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Angola",
+      "location": [
+        17,
+        -12
+      ],
+      "bounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          42,
+          -4
+        ]
+      ]
+    },
+    {
+      "name": "Zambia",
+      "location": [
+        28,
+        -14
+      ],
+      "bounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ]
+    },
+    {
+      "name": "Malawi",
+      "location": [
+        34,
+        -13
+      ],
+      "bounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "location": [
+        35,
+        -18
+      ],
+      "bounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "location": [
+        29,
+        -19
+      ],
+      "bounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ]
+    },
+    {
+      "name": "Botswana",
+      "location": [
+        24,
+        -22
+      ],
+      "bounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          36,
+          -19
+        ]
+      ]
+    },
+    {
+      "name": "Namibia",
+      "location": [
+        17,
+        -22
+      ],
+      "bounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          36,
+          -19
+        ]
+      ]
+    },
+    {
+      "name": "South Africa",
+      "location": [
+        25,
+        -30
+      ],
+      "bounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          36,
+          -19
+        ]
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "location": [
+        28.3,
+        -29.5
+      ],
+      "bounds": [
+        [
+          25,
+          -32
+        ],
+        [
+          32,
+          -27
+        ]
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "location": [
+        31.5,
+        -26.5
+      ],
+      "bounds": [
+        [
+          28,
+          -29
+        ],
+        [
+          34,
+          -24
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Africa episode seven of eight. First, I clear the chosen names for a fresh regional lesson.",
+    "Our longest lesson covers ten countries across southern Africa, from Angola to Eswatini. Follow the coasts, the Zambezi neighbours and the two small countries beside South Africa."
+  ],
+  "states": [
+    {
+      "name": "Angola",
+      "location": [
+        17,
+        -12
+      ],
+      "lines": [
+        "Angola faces the Atlantic below the Democratic Republic of the Congo and above Namibia. Zambia lies east, while Cabinda is a separate northern coastal exclave.",
+        "Mbanza Kongo preserves the former capital of the kingdom of Kongo. Its remains record an African political centre and the changes that followed contact with Portuguese traders and Christianity.",
+        "Picture an old royal capital on the Atlantic side of southern Africa. Angola is above Namibia; remember that Cabinda is separated from its main territory."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1511/"
+      ],
+      "cameraBounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          42,
+          -4
+        ]
+      ],
+      "transition": "Let's bring Angola and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10,
+              -36
+            ],
+            [
+              42,
+              -4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zambia",
+      "location": [
+        28,
+        -14
+      ],
+      "lines": [
+        "Zambia is landlocked east of Angola, below the Democratic Republic of the Congo and above Zimbabwe. Malawi and Mozambique lie toward its east.",
+        "At Mosi-oa-Tunya, also called Victoria Falls, the Zambezi drops into basalt gorges and throws up clouds of spray. The falls are shared with Zimbabwe across the river.",
+        "Picture falling water on the southern border. Zambia is above Zimbabwe; their shared waterfall helps keep the pair in the right order."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/509/"
+      ],
+      "cameraBounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ],
+      "transition": "Let's bring Zambia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              20,
+              -24
+            ],
+            [
+              41,
+              -7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Malawi",
+      "location": [
+        34,
+        -13
+      ],
+      "lines": [
+        "Malawi is the narrow inland country east of Zambia and west and north of Mozambique. Lake Malawi follows much of its eastern side, below Tanzania.",
+        "Lake Malawi National Park is famous for its diversity of fish, including many species found nowhere else. These related fish provide an important window into evolution.",
+        "Picture colourful fish along a long lake. Malawi is the slim inland country; Mozambique curves around its southern and eastern sides."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/289/"
+      ],
+      "cameraBounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "location": [
+        35,
+        -18
+      ],
+      "lines": [
+        "Mozambique stretches along the Indian Ocean below Tanzania and east of Malawi, Zambia and Zimbabwe. South Africa and Eswatini lie toward its southern end.",
+        "The Island of Mozambique preserves buildings shaped by African, Arab and European connections across the Indian Ocean. Its town records a long history of maritime exchange.",
+        "Remember a historic trading island beside the long eastern coast. Mozambique is on the ocean; Malawi and Zambia behind it are landlocked."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/599/"
+      ],
+      "cameraBounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "location": [
+        29,
+        -19
+      ],
+      "lines": [
+        "Zimbabwe is landlocked below Zambia, west of Mozambique and above South Africa. Botswana lies toward its southwest.",
+        "Great Zimbabwe preserves the remains of an important medieval trading city associated with Shona civilisation. Its imposing stone enclosures challenge the idea that African urban history began with European colonisation.",
+        "Picture a stone city below Zambia. Zimbabwe sits between the Zambezi region and South Africa, with Mozambique separating it from the Indian Ocean."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/364/"
+      ],
+      "cameraBounds": [
+        [
+          20,
+          -24
+        ],
+        [
+          41,
+          -7
+        ]
+      ]
+    },
+    {
+      "name": "Botswana",
+      "location": [
+        24,
+        -22
+      ],
+      "lines": [
+        "Botswana is landlocked above South Africa, east of Namibia and southwest of Zimbabwe. A very short northern boundary reaches Zambia.",
+        "The Okavango Delta spreads inland instead of flowing to the sea. Floodwater arrives in the dry season, supporting wetlands and wildlife amid a much drier surrounding region.",
+        "Picture a river opening into an inland wetland. Botswana has a delta but no coastline; Namibia lies between it and the Atlantic."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1432/"
+      ],
+      "cameraBounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          36,
+          -19
+        ]
+      ],
+      "transition": "Let's bring Botswana and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10,
+              -36
+            ],
+            [
+              36,
+              -19
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Namibia",
+      "location": [
+        17,
+        -22
+      ],
+      "lines": [
+        "Namibia follows the Atlantic below Angola and west of Botswana. South Africa lies south, while its narrow northeastern extension reaches toward the Zambezi.",
+        "In the Namib Sand Sea, coastal fog supplies water to a desert dune ecosystem. Animals and plants survive using moisture that comes from the ocean air rather than regular rainfall.",
+        "Picture fog drifting over dunes beside the Atlantic. Namibia is the western coastal country; Botswana is inland to its east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1430/"
+      ],
+      "cameraBounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          36,
+          -19
+        ]
+      ]
+    },
+    {
+      "name": "South Africa",
+      "location": [
+        25,
+        -30
+      ],
+      "lines": [
+        "South Africa occupies the continent’s southern end, facing both the Atlantic and Indian Oceans. Namibia, Botswana and Zimbabwe lie north; Lesotho is completely enclosed within it.",
+        "Mapungubwe preserves the remains of a medieval kingdom near the meeting of the Limpopo and Shashe rivers. Southern Africa had important political centres and trading networks long before modern borders.",
+        "Picture an old kingdom at the northern edge of the southernmost country. Keep Lesotho inside South Africa, and Eswatini beside its eastern side."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1099/"
+      ],
+      "cameraBounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          36,
+          -19
+        ]
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "location": [
+        28.3,
+        -29.5
+      ],
+      "lines": [
+        "Lesotho is entirely surrounded by South Africa. It occupies a mountainous inland area, with no border to any other country and no coast.",
+        "The Maloti-Drakensberg landscape combines high mountain habitats with rock art made by San people. The paintings preserve a cultural record within a dramatic mountain setting.",
+        "Picture a mountain island on land, enclosed by South Africa. Lesotho is the fully surrounded country; Eswatini also borders Mozambique."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/985/"
+      ],
+      "cameraBounds": [
+        [
+          25,
+          -32
+        ],
+        [
+          32,
+          -27
+        ]
+      ],
+      "transition": "Let's bring Lesotho and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25,
+              -32
+            ],
+            [
+              32,
+              -27
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "location": [
+        31.5,
+        -26.5
+      ],
+      "lines": [
+        "Eswatini is the small country between eastern South Africa and Mozambique. It is landlocked, even though the Indian Ocean lies relatively nearby.",
+        "Eswatini was previously known internationally as Swaziland. The country’s present name makes a useful reminder to match modern naming with the same small geographic location.",
+        "Keep the two small southern countries apart. Eswatini touches Mozambique; Lesotho is entirely surrounded by South Africa. Neither has an ocean coast."
+      ],
+      "sources": [
+        "https://www.un.org/en/about-us/member-states/eswatini"
+      ],
+      "cameraBounds": [
+        [
+          28,
+          -29
+        ],
+        [
+          34,
+          -24
+        ]
+      ],
+      "transition": "Let's bring Eswatini and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              28,
+              -29
+            ],
+            [
+              34,
+              -24
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          10,
+          -36
+        ],
+        [
+          42,
+          -4
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Angola and Namibia follow the Atlantic. Zambia lies above Zimbabwe; Malawi is beside its long lake, and Mozambique follows the Indian Ocean coast. Botswana is inland between Namibia, Zimbabwe and South Africa.",
+    "South Africa occupies the southern end. Lesotho is entirely enclosed inside it; Eswatini also touches Mozambique. Remember the royal capital, waterfall, lake fish, maritime island, stone city, inland delta, fog dunes and highland rock art."
+  ]
+}

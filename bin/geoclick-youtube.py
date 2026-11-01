@@ -389,11 +389,24 @@ def release(mode, config, rows, ledger, modules):
         return 2
 
 
-def prepare(config, batch_module, captions):
-    series = config['offline_series']
+def prepare(config, batch_module, captions, series_id=None):
+    candidates = [config['offline_series'], *config.get('additional_offline_series', [])]
+    selected = [s for s in candidates if s['id'] == (series_id or config['offline_series']['id'])]
+    if len(selected) != 1:
+        raise ValueError('Unknown offline series')
+    series = selected[0]
+    identity, label = series['id'], series['id'].title()
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
         raise ValueError('Offline series is not complete')
+    total = len(production['episodes'])
+    scope = ('This seven-part edition has 49 teaching stops. Cyprus counts once, with its divided island explained; '
+             'Bahrain, Maldives and Singapore use labelled supplemental geographic views. Asian Russia is briefly '
+             'oriented because its full country stop was in the Europe series. Map targets do not settle disputed political status or boundaries.'
+             if identity == 'asia' else
+             'This eight-part edition covers 54 countries once each, plus Western Sahara as a disputed-territory stop. '
+             'Somaliland is demonstrated within Somalia. Sao Tome and Principe, Comoros, Mauritius and Seychelles use labelled '
+             'supplemental geographic views. Teaching groups and map targets do not settle political status, boundaries or control.')
     folder = ROOT / series['publishing_dir']
     folder.mkdir(parents=True, exist_ok=True)
     entries, manifest = [], []
@@ -406,23 +419,21 @@ def prepare(config, batch_module, captions):
             raise ValueError('Unreviewed episode')
         subtitle = master.parent / 'subtitles.en.srt'
         caption_report = captions.check_caption(subtitle)
-        thumbnail = folder / f'asia-{i:02d}-{episode["id"]}.jpg'
+        thumbnail = folder / f'{identity}-{i:02d}-{episode["id"]}.jpg'
         if not thumbnail.exists():
             trace = read(master.parent / 'trace.json')
             second = trace['turns'][0]['start'] - trace['trimStart'] + 4
             subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-ss', str(second), '-i', str(master), '-frames:v', '1', '-vf', 'scale=1280:720', '-q:v', '2', str(thumbnail)], check=True, capture_output=True)
         text = (f'Learn {episode["title"]} with GeoClick: locations, interesting facts and geographic memory hooks.\n\n'
-                f'Asia lesson {i} of 7. Places covered: {", ".join(episode["places"])}.\n\n'
-                'This seven-part edition has 49 teaching stops. Cyprus counts once, with its divided island explained; '
-                'Bahrain, Maldives and Singapore use labelled supplemental geographic views. Asian Russia is briefly '
-                'oriented because its full country stop was in the Europe series. Map targets do not settle disputed political status or boundaries.\n\n'
+                f'{label} lesson {i} of {total}. Places covered: {", ".join(episode["places"])}.\n\n'
+                f'{scope}\n\n'
                 'Prepared geography lesson, not a scored quiz. English narration by John (synthetic voice); optional English captions.\n\n'
                 f'Full playlist: {config["links"]["playlist"]}\nPlay GeoClick: {config["links"]["game"]}\n'
-                f'GeoClick source code: {config["links"]["geoclick_repository"]}\nVideo production tools: {config["links"]["ai_player_repository"]}\n\n#GeoClick #LearnGeography #Asia')
-        entries.append({'id': f'asia-{i:02d}-{episode["id"]}', 'file': str(master), 'episode': i,
-                        'settings': {'title': f'Learn Asia: {episode["title"]} | GeoClick Geography {i}/7',
+                f'GeoClick source code: {config["links"]["geoclick_repository"]}\nVideo production tools: {config["links"]["ai_player_repository"]}\n\n#GeoClick #LearnGeography #{label}')
+        entries.append({'id': f'{identity}-{i:02d}-{episode["id"]}', 'file': str(master), 'episode': i,
+                        'settings': {'title': f'Learn {label}: {episode["title"]} | GeoClick Geography {i}/{total}',
                                      'description': text, 'thumbnail': str(thumbnail),
-                                     'tags': ['GeoClick', 'Asia', 'learn geography', episode['title']],
+                                     'tags': ['GeoClick', label, 'learn geography', episode['title']],
                                      'subtitles': [{'file': str(subtitle), 'language': 'en', 'name': 'English', 'draft': False}]}})
         manifest.append({'episode': i, 'master': str(master), 'master_sha256': digest(master),
                          'caption': caption_report, 'thumbnail': str(thumbnail), 'status': 'offline-prepared-not-upload-authorized'})
@@ -438,23 +449,26 @@ def prepare(config, batch_module, captions):
     batch_module.resolve_batch(path)
     save(folder / 'offline-manifest.json', {'prepared_at': now(), 'account_writes': False, 'upload_authorized': False,
          'native_youtube3_plan_and_queue': 'Not created; youtube3 plan needs account reads. No upload command is exposed by the existing-video release workflow.', 'entries': manifest})
-    print('Offline prepared: seven canonical Asia masters, captions, screenshot thumbnails and all four links. No account access or writes.')
+    print(f'Offline prepared: {total} canonical {label} masters, captions, screenshot thumbnails and all four links. No account access or writes.')
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
+    parser.add_argument('--series', choices=['asia', 'africa'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()
+    if args.series and args.mode != 'prepare':
+        raise ValueError('--series applies only to offline prepare')
+    if args.mode == 'prepare':
+        prepare(config, modules[3], modules[1], args.series)
+        return 0
     rows, ledger = inventory(config, modules[3], modules[4])
     if args.mode == 'audit':
         print(json.dumps({'youtube3_version': version('youtube3'), 'profile': config['profile'], 'channel_id': config['channel_id'],
                           'playlist_id': config['playlist_id'], 'shared_ledger': str(ledger), 'account_access': False,
                           'known_videos': [{'entry': r['entry'], 'video_id': r['video_id'], 'queue_state': r['queue_state']} for r in rows]}, indent=2))
-        return 0
-    if args.mode == 'prepare':
-        prepare(config, modules[3], modules[1])
         return 0
     if args.mode == 'migrate':
         with modules[4].locked(ROOT / config['operations_dir'] / 'workflow.lock'):

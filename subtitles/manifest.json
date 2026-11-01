@@ -1,7 +1,7 @@
 {
   "schema": "ai-player.subtitle-backup.v1",
-  "edition": "2026-11-01",
-  "note": "Exact caption bytes from approved canonical masters. Video IDs indicate known uploads, not visibility or caption installation. Asia remains offline; no upload authorization is implied.",
+  "edition": "November 2026 regional lessons",
+  "note": "Exact caption bytes from approved canonical masters. Video IDs indicate known uploads, not visibility or caption installation. Entries without video IDs remain offline; no upload authorization is implied.",
   "episodes": [
     {
       "series": "usa",
@@ -414,6 +414,190 @@
           "source": "rendered/asia-seven-20261101/07-southeast-asia/geoclick/subtitles.en.vtt",
           "bytes": 10783,
           "sha256": "c40cb5a88a8a7428f7776566e219115e6c06c2ee0a4e345d8b063d0cc711751f"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 1,
+      "id": "north-africa",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/01-north-africa/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/01-north-africa/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/01-north-africa/geoclick/subtitles.en.srt",
+          "bytes": 4690,
+          "sha256": "31d59e2e59fa2d2b89e55e099f865e49dce454e946371137c0f5c61c4d349c3e"
+        },
+        {
+          "path": "subtitles/africa/01-north-africa/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/01-north-africa/geoclick/subtitles.en.vtt",
+          "bytes": 5998,
+          "sha256": "55e91add12d76fbf89554cc137c3236c6e882324a7a83e8903b4e205c7f565b6"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 2,
+      "id": "atlantic-west-africa",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/02-atlantic-west-africa/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/02-atlantic-west-africa/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/02-atlantic-west-africa/geoclick/subtitles.en.srt",
+          "bytes": 5808,
+          "sha256": "491632f95ef6fd3dda5b41f0a946b6078ac666eecbc73c242696d6105c9f9dc8"
+        },
+        {
+          "path": "subtitles/africa/02-atlantic-west-africa/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/02-atlantic-west-africa/geoclick/subtitles.en.vtt",
+          "bytes": 7416,
+          "sha256": "48e3d1642ced43d1e56a2c3283edb3e42daf58a45f12cb62d4b58374fd5b59b3"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 3,
+      "id": "sahel-gulf-guinea",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/03-sahel-gulf-guinea/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/03-sahel-gulf-guinea/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/03-sahel-gulf-guinea/geoclick/subtitles.en.srt",
+          "bytes": 5420,
+          "sha256": "852a3acf4474d54383edb240cc025af63cb5ae68de80332d0a99abd0ffc2aeeb"
+        },
+        {
+          "path": "subtitles/africa/03-sahel-gulf-guinea/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/03-sahel-gulf-guinea/geoclick/subtitles.en.vtt",
+          "bytes": 6928,
+          "sha256": "25d65241978716f50ebeef613a9932719b8cd8037928ce1b2bee2a09fbafa3ab"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 4,
+      "id": "central-africa",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/04-central-africa/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/04-central-africa/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/04-central-africa/geoclick/subtitles.en.srt",
+          "bytes": 6122,
+          "sha256": "c7d11000416f11a35fddab4403c856a0c0e7b4f893486929e27033669a299317"
+        },
+        {
+          "path": "subtitles/africa/04-central-africa/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/04-central-africa/geoclick/subtitles.en.vtt",
+          "bytes": 7780,
+          "sha256": "c0753d6611d90e98d196f772fb4a83963557b1776f763ae73b10cba51b9f9b81"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 5,
+      "id": "nile-horn",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/05-nile-horn/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/05-nile-horn/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/05-nile-horn/geoclick/subtitles.en.srt",
+          "bytes": 4659,
+          "sha256": "667290939e98cabec9ef6729119c5df5abf4c03b63c58f2ea081e459025904ff"
+        },
+        {
+          "path": "subtitles/africa/05-nile-horn/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/05-nile-horn/geoclick/subtitles.en.vtt",
+          "bytes": 5967,
+          "sha256": "f56a9d642b63d6b4f16ac923c311b70814477d8e063d0d15f45c025ba297b34e"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 6,
+      "id": "east-africa-great-lakes",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/06-east-africa-great-lakes/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/06-east-africa-great-lakes/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/06-east-africa-great-lakes/geoclick/subtitles.en.srt",
+          "bytes": 3887,
+          "sha256": "ffc2af124fbb691096f13530443b1dfd6326d20a2aed1218013e5c6eede2e2d6"
+        },
+        {
+          "path": "subtitles/africa/06-east-africa-great-lakes/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/06-east-africa-great-lakes/geoclick/subtitles.en.vtt",
+          "bytes": 4995,
+          "sha256": "1f47a55dad16a8984cf8ca72dfbccdddd3e43610a780c74072fec8b13e564ab7"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 7,
+      "id": "southern-africa",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/07-southern-africa/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/07-southern-africa/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/07-southern-africa/geoclick/subtitles.en.srt",
+          "bytes": 7003,
+          "sha256": "b32e227412b28d6865282f63c6dd43da2ae5420f46545a27887c84fa50a2bc1d"
+        },
+        {
+          "path": "subtitles/africa/07-southern-africa/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/07-southern-africa/geoclick/subtitles.en.vtt",
+          "bytes": 8961,
+          "sha256": "d96a8a1a1a5a1c330f5fdb5df24776f235b64eec2ea470cb1097a8eced3d3b64"
+        }
+      ]
+    },
+    {
+      "series": "africa",
+      "episode": 8,
+      "id": "indian-ocean-islands",
+      "ledger": "src/lessons/africa-coverage.json",
+      "master": "rendered/africa-eight-20261102/08-indian-ocean-islands/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa/08-indian-ocean-islands/subtitles.en.srt",
+          "source": "rendered/africa-eight-20261102/08-indian-ocean-islands/geoclick/subtitles.en.srt",
+          "bytes": 4118,
+          "sha256": "af5ba53072bde2350806e0bb4d257710e21145318f46bf6ccc78caf2a240f33e"
+        },
+        {
+          "path": "subtitles/africa/08-indian-ocean-islands/subtitles.en.vtt",
+          "source": "rendered/africa-eight-20261102/08-indian-ocean-islands/geoclick/subtitles.en.vtt",
+          "bytes": 5176,
+          "sha256": "0aaf5d9cdbdddffe70539b1c48bb131fbd90d7f5bd8c0ca857a7f4f29508552e"
         }
       ]
     }

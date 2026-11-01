@@ -22,6 +22,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File bin/geoclick-youtube.ps1 -Mo
 # No account access: prepare the seven approved Asia masters and captions.
 powershell -NoProfile -ExecutionPolicy Bypass -File bin/geoclick-youtube.ps1 -Mode prepare
 
+# No account access: prepare Africa only after all eight exports are approved.
+powershell -NoProfile -ExecutionPolicy Bypass -File bin/geoclick-youtube.ps1 -Mode prepare -Series africa
+
 # Account reads, no account writes: reconcile a fresh public-release preview.
 powershell -NoProfile -ExecutionPolicy Bypass -File bin/geoclick-youtube.ps1 -Mode plan
 
@@ -46,9 +49,16 @@ After a quota refusal, stop all account calls. Once quota/access is known to
 permit work, run `resume` once. No retry loop or scheduled task is installed.
 The workflow lock prevents concurrent invocations of the migrated entrypoint.
 
+`prepare` defaults to Asia; `-Series africa` selects the separate Africa offline
+batch. Both require a complete production ledger and passed visual reviews,
+use installed youtube3 for caption validation and batch resolution, and make no
+account calls. They do not require the original US/Europe operational queues
+or shared ledger. All four links are included. Neither preparation authorizes
+uploads, and the eleven-video release workflow never uploads either series.
+
 ## Authority and retained files
 
-Versioned English subtitle backups for all 18 current US, Europe and Asia
+Versioned English subtitle backups for all 26 current US, Europe, Asia and Africa
 episodes are in [subtitles/](../subtitles/README.md). Its manifest maps exact
 caption bytes to canonical masters and the eleven known YouTube IDs. These
 backups do not replace the original queue caption inputs or checkpoints;
@@ -142,8 +152,9 @@ checkpoint states manually. Resume through ai-player after explicit recovery.
 
 ## Offline Asia queue
 
-`prepare` reads only the three current canonical production ledgers and uses
-the Asia ledger's approved paths. US and Europe already have known uploads.
+`prepare` defaults to the Asia ledger's approved paths. US and Europe already
+have known uploads; no original publishing checkpoints are required to prepare
+a new offline batch.
 Historical four-video US exports, prototypes and superseded renders are not
 queued. The seven Asia entries use refined episode 1 and their adjacent approved
 English SRT tracks. Caption validation and batch resolution use youtube3's
@@ -160,6 +171,22 @@ queue: native `plan_batch` verifies the account and therefore needs API reads.
 No native Asia queue or new upload ledger is created offline. After separate
 owner authorization, use youtube3's own plan/run/queue flow and the same shared
 ledger; do not build custom upload, OAuth, caption or recovery code.
+
+## Offline Africa queue
+
+`prepare -Series africa` reads `src/lessons/africa-coverage.json` and refuses
+unfinished or visually unreviewed episodes. After production approval it writes
+eight entries to `rendered/africa-eight-20261102/youtube-publishing/batch.json`,
+with an offline manifest and screenshot thumbnails. Descriptions include all
+four links, explain the 54-country scope and disputed/related targets, and
+identify the four supplemental countries. Private planned visibility and
+disabled subscriber notifications match Asia's preparation. No native queue,
+account access, upload or authorization is created by this offline step.
+
+All eight Africa exports passed production and visual review on 2 November
+2026, and their offline batch, manifest and screenshot thumbnails are prepared.
+Sixteen exact SRT/WebVTT backups are tracked in `subtitles/africa/`. This work
+made no YouTube account calls and did not retry the quota-blocked release.
 
 ## Last attempt: 1 November 2026, 22:08 UTC
 

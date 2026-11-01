@@ -1,0 +1,415 @@
+{
+  "title": "Africa 3 of 8 · Sahel and Gulf of Guinea",
+  "edition": "Africa countries · Eight regional lessons · John · November 2026",
+  "mapId": "africa-countries",
+  "area": "Africa",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/africa-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -13,
+      3
+    ],
+    [
+      16,
+      25
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Mali",
+      "location": [
+        -4,
+        17
+      ],
+      "bounds": [
+        [
+          -13,
+          3
+        ],
+        [
+          16,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "location": [
+        -1.5,
+        12.5
+      ],
+      "bounds": [
+        [
+          -13,
+          3
+        ],
+        [
+          16,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "Niger",
+      "location": [
+        9,
+        18
+      ],
+      "bounds": [
+        [
+          -13,
+          3
+        ],
+        [
+          16,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "location": [
+        -5.5,
+        7.5
+      ],
+      "bounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Ghana",
+      "location": [
+        -1,
+        7.8
+      ],
+      "bounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Togo",
+      "location": [
+        1,
+        8.5
+      ],
+      "bounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Benin",
+      "location": [
+        2.4,
+        9.5
+      ],
+      "bounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "location": [
+        8,
+        9
+      ],
+      "bounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Africa episode three of eight. First, I clear the chosen names for a fresh regional lesson.",
+    "We connect three inland countries, Mali, Burkina Faso and Niger, with five Gulf of Guinea neighbours: Côte d'Ivoire, Ghana, Togo, Benin and Nigeria."
+  ],
+  "states": [
+    {
+      "name": "Mali",
+      "location": [
+        -4,
+        17
+      ],
+      "lines": [
+        "Mali is landlocked, east of Mauritania and north of Guinea, Côte d'Ivoire and Burkina Faso. Its northern territory reaches deep into the Sahara.",
+        "Timbuktu was a centre of Islamic scholarship, with schools and historic mosques. Its reputation grew from learning and exchange across the region, not from being an imaginary distant place.",
+        "Picture a real city of scholars near the Sahara’s southern side. Mali is inland above the coastal countries, with Niger to its east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/119/"
+      ],
+      "cameraBounds": [
+        [
+          -13,
+          3
+        ],
+        [
+          16,
+          25
+        ]
+      ],
+      "transition": "Let's bring Mali and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -13,
+              3
+            ],
+            [
+              16,
+              25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "location": [
+        -1.5,
+        12.5
+      ],
+      "lines": [
+        "Burkina Faso is landlocked below Mali and west of Niger. Ghana, Togo, Benin and Côte d'Ivoire lie toward its southern side.",
+        "The stone walls at Loropéni preserve a fortified settlement linked with the regional gold trade. The ruins show that West African history includes substantial stone-built trading centres.",
+        "Picture a stone enclosure above the Gulf of Guinea countries. Burkina Faso has no coast: Ghana and its neighbours lie between it and the sea."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1225/"
+      ],
+      "cameraBounds": [
+        [
+          -13,
+          3
+        ],
+        [
+          16,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "Niger",
+      "location": [
+        9,
+        18
+      ],
+      "lines": [
+        "Niger is the landlocked country east of Mali and north of Nigeria. Algeria and Libya lie to its north, with Chad to the east.",
+        "The W-Arly-Pendjari protected landscape crosses Niger, Burkina Faso and Benin. Its savannah habitats support elephants, lions and other wildlife across modern borders.",
+        "Remember a shared savannah park and keep the similar names apart. Niger is the inland country above Nigeria; Nigeria reaches the Gulf of Guinea."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/749/"
+      ],
+      "cameraBounds": [
+        [
+          -13,
+          3
+        ],
+        [
+          16,
+          25
+        ]
+      ]
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "location": [
+        -5.5,
+        7.5
+      ],
+      "lines": [
+        "Côte d'Ivoire, also called Ivory Coast in English, lies east of Liberia and west of Ghana. Mali and Burkina Faso are north, while its southern coast faces the Gulf of Guinea.",
+        "Taï National Park protects tropical forest that is home to pygmy hippopotamuses and several monkey species. The forest is part of a once more extensive West African ecosystem.",
+        "Picture a forest hippo on the coast west of Ghana. Côte d'Ivoire reaches the sea; Burkina Faso, above it, does not."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/195/"
+      ],
+      "cameraBounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ],
+      "transition": "Let's bring Côte d'Ivoire and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -9,
+              3
+            ],
+            [
+              15,
+              13
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ghana",
+      "location": [
+        -1,
+        7.8
+      ],
+      "lines": [
+        "Ghana lies between Côte d'Ivoire and Togo, below Burkina Faso. Its southern edge faces the Gulf of Guinea.",
+        "Fortified trading posts survive along Ghana’s coast, recording centuries of contact and commerce across the Atlantic. Their history also requires remembering the human suffering of the slave trade.",
+        "Picture coastal forts between the larger western neighbour and narrow Togo. Ghana has a southern coast; Burkina Faso sits directly inland to the north."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/34/"
+      ],
+      "cameraBounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Togo",
+      "location": [
+        1,
+        8.5
+      ],
+      "lines": [
+        "Togo is the narrow country between Ghana and Benin. It stretches north from a short Gulf of Guinea coast toward Burkina Faso.",
+        "At Koutammakou, Batammariba communities build distinctive earthen tower houses. The cultural landscape extends across northeastern Togo and neighbouring Benin, beyond a single national boundary.",
+        "Picture a tower house inside a narrow north-south strip. Togo comes between Ghana and Benin; both narrow neighbours reach the sea."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1140/"
+      ],
+      "cameraBounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Benin",
+      "location": [
+        2.4,
+        9.5
+      ],
+      "lines": [
+        "Benin lies east of Togo and west of Nigeria, with Niger and Burkina Faso toward its north. It narrows toward its Gulf of Guinea coast.",
+        "The royal palaces of Abomey preserve the history of the kingdom of Dahomey. Successive rulers added palaces within a shared walled area, creating a layered royal complex.",
+        "Remember a palace enclosure in the country immediately west of Nigeria. Benin is a modern country here; the historic Benin City lies in neighbouring Nigeria."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/323/"
+      ],
+      "cameraBounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "location": [
+        8,
+        9
+      ],
+      "lines": [
+        "Nigeria lies below Niger and west of Cameroon, with Benin on its western side. Its southern coast opens onto the Gulf of Guinea.",
+        "The Osun-Osogbo Sacred Grove combines forest, a river, shrines and sculpture in a Yoruba sacred landscape. Nature and cultural practice are closely connected at this site.",
+        "Picture a sacred forest below Niger. Nigeria is the broad coastal country east of Benin, while Niger is its landlocked northern neighbour."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1118/"
+      ],
+      "cameraBounds": [
+        [
+          -9,
+          3
+        ],
+        [
+          15,
+          13
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -13,
+          3
+        ],
+        [
+          16,
+          25
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Mali, Burkina Faso and Niger form the inland band. Along the coast, move east from Côte d'Ivoire to Ghana, Togo, Benin and Nigeria. Niger is above Nigeria; similar names do not mean the same country.",
+    "Remember scholarship, stone walls, shared savannah, forest hippos, coastal forts, tower houses, royal palaces and a sacred grove. Togo and Benin are the narrow coastal pair between Ghana and Nigeria."
+  ]
+}

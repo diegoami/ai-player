@@ -1,0 +1,361 @@
+{
+  "title": "Africa 1 of 8 · North Africa",
+  "edition": "Africa countries · Eight regional lessons · John · November 2026",
+  "mapId": "africa-countries",
+  "area": "Africa",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/africa-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -18,
+      18
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Morocco",
+      "location": [
+        -6,
+        33
+      ],
+      "bounds": [
+        [
+          -14,
+          25
+        ],
+        [
+          13,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "Algeria",
+      "location": [
+        2,
+        28
+      ],
+      "bounds": [
+        [
+          -14,
+          25
+        ],
+        [
+          13,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "location": [
+        9.5,
+        34
+      ],
+      "bounds": [
+        [
+          -14,
+          25
+        ],
+        [
+          13,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "Libya",
+      "location": [
+        18,
+        27
+      ],
+      "bounds": [
+        [
+          8,
+          19
+        ],
+        [
+          27,
+          34
+        ]
+      ]
+    },
+    {
+      "name": "Egypt",
+      "location": [
+        29,
+        27
+      ],
+      "bounds": [
+        [
+          23,
+          21
+        ],
+        [
+          37,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "Western Sahara",
+      "location": [
+        -14,
+        23
+      ],
+      "bounds": [
+        [
+          -18,
+          20
+        ],
+        [
+          -7,
+          29
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Africa episode one of eight. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin along the Mediterranean, from Morocco to Egypt, then locate Western Sahara on the Atlantic. There are five countries and one disputed territory in this episode."
+  ],
+  "states": [
+    {
+      "name": "Morocco",
+      "location": [
+        -6,
+        33
+      ],
+      "lines": [
+        "Morocco occupies Africa’s northwestern corner, facing the Atlantic and the Mediterranean. The Strait of Gibraltar separates its northern coast from Spain. Algeria lies east.",
+        "The old city of Fez preserves schools, mosques, fountains and merchants’ buildings from its long history as a cultural centre. Its streets recall a city organised around learning and trade.",
+        "Picture the old streets of Fez at Africa’s northwestern gateway. Morocco has two sea fronts; Algeria stretches east along the Mediterranean."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/170/"
+      ],
+      "cameraBounds": [
+        [
+          -14,
+          25
+        ],
+        [
+          13,
+          38
+        ]
+      ],
+      "transition": "Let's bring Morocco and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -14,
+              25
+            ],
+            [
+              13,
+              38
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algeria",
+      "location": [
+        2,
+        28
+      ],
+      "lines": [
+        "Algeria lies east of Morocco and west of Tunisia and Libya. A Mediterranean coast tops a broad territory extending deep into the Sahara.",
+        "At Tassili n’Ajjer, prehistoric drawings and engravings record animals, people and changing environments. The rock art is a reminder that today’s desert has a much longer environmental history.",
+        "Think of a great rock-art gallery beneath a Mediterranean roof. Algeria reaches far south into the Sahara; it is much more than its coastal strip."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/179/"
+      ],
+      "cameraBounds": [
+        [
+          -14,
+          25
+        ],
+        [
+          13,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "location": [
+        9.5,
+        34
+      ],
+      "lines": [
+        "Tunisia is the smaller Mediterranean country between Algeria and Libya. Its northern coast faces the central Mediterranean, with Sicily across the water.",
+        "Carthage developed into a powerful Mediterranean trading city before Rome destroyed it and later built a Roman city on the same site. One place preserves several layers of history.",
+        "Picture trading ships beside the small northern wedge. Tunisia fits between broad Algeria and Libya; do not move Carthage to the opposite side of the Mediterranean."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/37/"
+      ],
+      "cameraBounds": [
+        [
+          -14,
+          25
+        ],
+        [
+          13,
+          38
+        ]
+      ]
+    },
+    {
+      "name": "Libya",
+      "location": [
+        18,
+        27
+      ],
+      "lines": [
+        "Libya lies east of Tunisia and Algeria, west of Egypt, and north of Chad and Niger. Most of its territory extends inland from the Mediterranean into the Sahara.",
+        "The Roman emperor Septimius Severus was born at Leptis Magna, on this coast. He later enlarged the city, whose remains include a harbour, public buildings and a marketplace.",
+        "Remember an emperor’s home city on the Mediterranean above a vast desert. Libya is the broad coastal link between Tunisia and Egypt."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/183/"
+      ],
+      "cameraBounds": [
+        [
+          8,
+          19
+        ],
+        [
+          27,
+          34
+        ]
+      ],
+      "transition": "Let's bring Libya and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8,
+              19
+            ],
+            [
+              27,
+              34
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Egypt",
+      "location": [
+        29,
+        27
+      ],
+      "lines": [
+        "Egypt anchors Africa’s northeastern corner, with Libya west and Sudan south. The Nile runs toward the Mediterranean; the Sinai Peninsula lies across the Suez Canal in Asia.",
+        "The pyramid fields around ancient Memphis include Giza, Saqqara and Dahshur. These monuments belong to a wider funerary landscape, rather than a single isolated pyramid.",
+        "Follow the Nile north to its delta and remember the pyramid landscape beside it. Keep Egypt at the Mediterranean and Red Sea meeting point."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/86/"
+      ],
+      "cameraBounds": [
+        [
+          23,
+          21
+        ],
+        [
+          37,
+          33
+        ]
+      ],
+      "transition": "Let's bring Egypt and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23,
+              21
+            ],
+            [
+              37,
+              33
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Western Sahara",
+      "location": [
+        -14,
+        23
+      ],
+      "lines": [
+        "Western Sahara is the Atlantic territory south of Morocco and north and west of Mauritania. GeoClick presents it as a separate map target.",
+        "The United Nations lists Western Sahara as a Non-Self-Governing Territory. Its status is unresolved, so this separate teaching stop does not treat a simplified map boundary as a political settlement.",
+        "Remember the disputed Atlantic strip below Morocco. We distinguish this territory from the fifty-four countries in our Africa coverage and do not infer control from the map."
+      ],
+      "sources": [
+        "https://www.un.org/dppa/decolonization/en/nsgt/western-sahara"
+      ],
+      "cameraBounds": [
+        [
+          -18,
+          20
+        ],
+        [
+          -7,
+          29
+        ]
+      ],
+      "transition": "Let's bring Western Sahara and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -18,
+              20
+            ],
+            [
+              -7,
+              29
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -18,
+          18
+        ],
+        [
+          37,
+          38
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "From west to east, follow Morocco, Algeria, Tunisia, Libya and Egypt. Remember Fez, Saharan rock art, Carthage, an emperor’s home city and the pyramid fields beside the Nile.",
+    "Western Sahara lies south of Morocco on the Atlantic. It is a separate disputed-territory stop, not an extra country in our fifty-four-country coverage. Map outlines do not settle status or show control."
+  ]
+}

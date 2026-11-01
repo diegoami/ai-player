@@ -1,0 +1,445 @@
+{
+  "title": "Africa 2 of 8 · Atlantic West Africa",
+  "edition": "Africa countries · Eight regional lessons · John · November 2026",
+  "mapId": "africa-countries",
+  "area": "Africa",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/africa-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -25,
+      3
+    ],
+    [
+      -7,
+      27
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Cabo Verde",
+      "location": [
+        -23.6,
+        15.1
+      ],
+      "bounds": [
+        [
+          -26,
+          14
+        ],
+        [
+          -22,
+          18
+        ]
+      ]
+    },
+    {
+      "name": "Mauritania",
+      "location": [
+        -10.5,
+        20
+      ],
+      "bounds": [
+        [
+          -25,
+          3
+        ],
+        [
+          -7,
+          27
+        ]
+      ]
+    },
+    {
+      "name": "Senegal",
+      "location": [
+        -14.5,
+        14.5
+      ],
+      "bounds": [
+        [
+          -18,
+          11
+        ],
+        [
+          -10,
+          17
+        ]
+      ]
+    },
+    {
+      "name": "The Gambia",
+      "location": [
+        -15.5,
+        13.45
+      ],
+      "bounds": [
+        [
+          -18,
+          11
+        ],
+        [
+          -10,
+          17
+        ]
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "location": [
+        -15,
+        12
+      ],
+      "bounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Guinea",
+      "location": [
+        -10.8,
+        10.5
+      ],
+      "bounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "location": [
+        -11.8,
+        8.5
+      ],
+      "bounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Liberia",
+      "location": [
+        -9.5,
+        6.5
+      ],
+      "bounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Africa episode two of eight. First, I clear the chosen names for a fresh regional lesson.",
+    "Eight countries take us from offshore Cabo Verde down the Atlantic coast: Mauritania, Senegal, The Gambia, Guinea-Bissau, Guinea, Sierra Leone and Liberia."
+  ],
+  "states": [
+    {
+      "name": "Cabo Verde",
+      "location": [
+        -23.6,
+        15.1
+      ],
+      "lines": [
+        "Cabo Verde is an Atlantic island country west of Senegal. Its islands sit offshore, separate from the mainland countries that follow the African coast.",
+        "Cidade Velha on Santiago preserves a fortress, churches and an early colonial street pattern. Its history connects these islands with Atlantic navigation and the exploitation of enslaved people.",
+        "Picture an old fortified town out in the Atlantic. Cabo Verde is the offshore stop west of Senegal, not a coastal province on the mainland."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1310/"
+      ],
+      "cameraBounds": [
+        [
+          -26,
+          14
+        ],
+        [
+          -22,
+          18
+        ]
+      ],
+      "transition": "Let's bring Cabo Verde and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -26,
+              14
+            ],
+            [
+              -22,
+              18
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mauritania",
+      "location": [
+        -10.5,
+        20
+      ],
+      "lines": [
+        "Mauritania lies on the Atlantic below Western Sahara, north of Senegal and west of Mali. Much of the country belongs to the Sahara.",
+        "Desert towns including Chinguetti and Ouadane grew around caravan trade and Islamic learning. Their narrow streets and courtyard houses preserve the shape of Saharan trading settlements.",
+        "Picture a caravan town between desert routes and the Atlantic. Mauritania is above Senegal; Mali continues inland to its east."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/750/"
+      ],
+      "cameraBounds": [
+        [
+          -25,
+          3
+        ],
+        [
+          -7,
+          27
+        ]
+      ],
+      "transition": "Let's bring Mauritania and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -25,
+              3
+            ],
+            [
+              -7,
+              27
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Senegal",
+      "location": [
+        -14.5,
+        14.5
+      ],
+      "lines": [
+        "Senegal lies below Mauritania at Africa’s western shoulder. It surrounds The Gambia on land, while Guinea-Bissau and Guinea lie farther south.",
+        "Stone circles in Senegal and The Gambia form a shared archaeological landscape. Carefully shaped pillars and burial mounds record societies that built sacred monuments over many centuries.",
+        "Remember stone circles around the river country. Senegal wraps around The Gambia, so the long narrow shape inside its western side is a separate country."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1226/"
+      ],
+      "cameraBounds": [
+        [
+          -18,
+          11
+        ],
+        [
+          -10,
+          17
+        ]
+      ],
+      "transition": "Let's bring Senegal and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -18,
+              11
+            ],
+            [
+              -10,
+              17
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Gambia",
+      "location": [
+        -15.5,
+        13.45
+      ],
+      "lines": [
+        "The Gambia is the narrow country following the River Gambia inland from the Atlantic. Senegal surrounds it on every landward side.",
+        "Kunta Kinteh Island and associated river sites preserve evidence of encounters between Africa and Europe, including the slave trade and its abolition. The river was a route into the interior.",
+        "Use the river as your memory line: a thin country inside Senegal. The Gambia reaches the Atlantic, although most of its outline looks like an inland ribbon."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/761/"
+      ],
+      "cameraBounds": [
+        [
+          -18,
+          11
+        ],
+        [
+          -10,
+          17
+        ]
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "location": [
+        -15,
+        12
+      ],
+      "lines": [
+        "Guinea-Bissau lies below Senegal and northwest of Guinea. Its mainland coast faces the Atlantic, with the Bijagós islands just offshore.",
+        "The Bijagós archipelago has important coastal habitats and nesting beaches for sea turtles. Local communities and customary resource management are central to protecting this island environment.",
+        "Picture turtle islands off the small coast below Senegal. Guinea-Bissau is northwest of Guinea; their similar names belong to separate countries."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1431/"
+      ],
+      "cameraBounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ],
+      "transition": "Let's bring Guinea-Bissau and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -17,
+              4
+            ],
+            [
+              -7,
+              13
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guinea",
+      "location": [
+        -10.8,
+        10.5
+      ],
+      "lines": [
+        "Guinea lies below Guinea-Bissau and west of Mali, with Sierra Leone and Liberia to its south. Its territory reaches the Atlantic despite its broad inland part.",
+        "Mount Nimba rises near the meeting of Guinea, Liberia and Côte d'Ivoire. Its unusual wildlife includes a toad that gives birth to live young, rather than laying eggs in a pond.",
+        "Remember the live-bearing toad on the mountain border. Guinea is the larger inland-reaching country above Sierra Leone and Liberia, not Guinea-Bissau."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/155/"
+      ],
+      "cameraBounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "location": [
+        -11.8,
+        8.5
+      ],
+      "lines": [
+        "Sierra Leone is the Atlantic country southwest of Guinea and northwest of Liberia. Its compact outline fits between those two neighbours.",
+        "The Gola-Tiwai protected landscape preserves Upper Guinean rainforest and river-island habitats. It shelters rare wildlife including the pygmy hippopotamus, a much smaller relative of the familiar river hippo.",
+        "Picture a small forest hippo in the compact coastal country. Sierra Leone comes before Liberia when following this coast southeast."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1746/"
+      ],
+      "cameraBounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ]
+    },
+    {
+      "name": "Liberia",
+      "location": [
+        -9.5,
+        6.5
+      ],
+      "lines": [
+        "Liberia follows the Atlantic coast southeast of Sierra Leone, below Guinea and west of Côte d'Ivoire. Its inland forests connect with the wider Upper Guinean forest region.",
+        "Sapo National Park in Sinoe County protects an important tract of tropical forest. Liberia’s environmental authorities describe it as a major refuge for the country’s biodiversity.",
+        "Remember the forest refuge at the southeastern end of this coastal chain. Liberia lies between Sierra Leone and Côte d'Ivoire, not inland behind them."
+      ],
+      "sources": [
+        "https://epa.gov.lr/epa-boss-rejects-proposal-to-remove-sapo-national-park-from-protected-status/"
+      ],
+      "cameraBounds": [
+        [
+          -17,
+          4
+        ],
+        [
+          -7,
+          13
+        ]
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -25,
+          3
+        ],
+        [
+          -7,
+          27
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Cabo Verde is offshore. Mauritania lies above Senegal, which surrounds The Gambia on land. Guinea-Bissau is below Senegal, Guinea stretches inland, then Sierra Leone and Liberia follow the coast southeast.",
+    "Recall the old island town, caravan settlements, stone circles, river island, turtle beaches, live-bearing toad, pygmy hippo and forest refuge. Use the coastline to put the names back in order."
+  ]
+}

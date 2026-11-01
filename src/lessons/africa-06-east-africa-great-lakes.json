@@ -1,0 +1,304 @@
+{
+  "title": "Africa 6 of 8 · East Africa and Great Lakes",
+  "edition": "Africa countries · Eight regional lessons · John · November 2026",
+  "mapId": "africa-countries",
+  "area": "Africa",
+  "unit": "places",
+  "url": "http://127.0.0.1:5188/map/africa-countries",
+  "manual": "http://127.0.0.1:5188/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      27,
+      -12
+    ],
+    [
+      43,
+      6
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Uganda",
+      "location": [
+        32,
+        1
+      ],
+      "bounds": [
+        [
+          27,
+          -12
+        ],
+        [
+          43,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "Kenya",
+      "location": [
+        38,
+        1
+      ],
+      "bounds": [
+        [
+          27,
+          -12
+        ],
+        [
+          43,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "location": [
+        29.9,
+        -1.9
+      ],
+      "bounds": [
+        [
+          28,
+          -5
+        ],
+        [
+          36,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "Burundi",
+      "location": [
+        29.9,
+        -3.4
+      ],
+      "bounds": [
+        [
+          28,
+          -5
+        ],
+        [
+          36,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "location": [
+        35,
+        -6
+      ],
+      "bounds": [
+        [
+          27,
+          -12
+        ],
+        [
+          43,
+          6
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Africa episode six of eight. First, I clear the chosen names for a fresh regional lesson.",
+    "Five countries connect the Great Lakes with the Indian Ocean: Uganda, Kenya, Rwanda, Burundi and Tanzania. This shorter lesson gives extra attention to the small inland pair."
+  ],
+  "states": [
+    {
+      "name": "Uganda",
+      "location": [
+        32,
+        1
+      ],
+      "lines": [
+        "Uganda is landlocked west of Kenya and north of Tanzania and Rwanda. Its southern side reaches Lake Victoria, while the Democratic Republic of the Congo lies west.",
+        "Bwindi’s forest in southwestern Uganda is habitat for mountain gorillas. The protected landscape lies where lowland and mountain forests meet, supporting rich plant and animal life.",
+        "Picture a gorilla forest west of Kenya and above Lake Victoria. Uganda has a great lake shore but no ocean coastline."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/682/"
+      ],
+      "cameraBounds": [
+        [
+          27,
+          -12
+        ],
+        [
+          43,
+          6
+        ]
+      ],
+      "transition": "Let's bring Uganda and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              27,
+              -12
+            ],
+            [
+              43,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kenya",
+      "location": [
+        38,
+        1
+      ],
+      "lines": [
+        "Kenya lies east of Uganda, below Ethiopia and Somalia, and above Tanzania. Its southeastern coastline reaches the Indian Ocean.",
+        "The Great Rift Valley lakes in Kenya support remarkable birdlife, including large gatherings of flamingos. Different lake conditions create feeding places for different species.",
+        "Remember pink birds along the rift, with the Indian Ocean beyond the southeast. Kenya is the coastal neighbour east of Uganda and north of Tanzania."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1060/"
+      ],
+      "cameraBounds": [
+        [
+          27,
+          -12
+        ],
+        [
+          43,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "location": [
+        29.9,
+        -1.9
+      ],
+      "lines": [
+        "Rwanda is the small landlocked country below Uganda, east of the Democratic Republic of the Congo and above Burundi. Tanzania borders its eastern side.",
+        "Nyungwe National Park preserves montane rainforest with chimpanzees and other primates. Mountain forest is an important part of this country’s landscape, despite its small area.",
+        "Picture a forested highland patch above Burundi. Keep the small pair in order: Rwanda north, Burundi south, both inland west of Tanzania."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1697/"
+      ],
+      "cameraBounds": [
+        [
+          28,
+          -5
+        ],
+        [
+          36,
+          3
+        ]
+      ],
+      "transition": "Let's bring Rwanda and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              28,
+              -5
+            ],
+            [
+              36,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burundi",
+      "location": [
+        29.9,
+        -3.4
+      ],
+      "lines": [
+        "Burundi lies immediately below Rwanda, east of the Democratic Republic of the Congo and west of Tanzania. Its southwestern edge reaches Lake Tanganyika.",
+        "The ritual dance of the royal drum combines powerful ensemble drumming with dance and song. This living cultural tradition makes the drum a memorable symbol for Burundi.",
+        "Hear the drum below Rwanda and beside Lake Tanganyika. Burundi is the southern member of the small inland pair; neither country reaches the ocean."
+      ],
+      "sources": [
+        "https://ich.unesco.org/en/RL/ritual-dance-of-the-royal-drum-00989"
+      ],
+      "cameraBounds": [
+        [
+          28,
+          -5
+        ],
+        [
+          36,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "location": [
+        35,
+        -6
+      ],
+      "lines": [
+        "Tanzania lies below Kenya and Uganda, east of Rwanda and Burundi, and north of Mozambique. It reaches the Indian Ocean and includes Zanzibar offshore.",
+        "On the Serengeti plains, great herds of wildebeest, zebras and gazelles move in search of water and grazing. Predators follow this seasonal movement across the wider ecosystem.",
+        "Picture moving herds below Kenya, with Zanzibar offshore to the east. Tanzania connects the Great Lakes region with the Indian Ocean coast."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/156/"
+      ],
+      "cameraBounds": [
+        [
+          27,
+          -12
+        ],
+        [
+          43,
+          6
+        ]
+      ],
+      "transition": "Let's bring Tanzania and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              27,
+              -12
+            ],
+            [
+              43,
+              6
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          27,
+          -12
+        ],
+        [
+          43,
+          6
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Uganda lies west of Kenya and above Lake Victoria. Rwanda is above Burundi, both west of Tanzania. Tanzania lies below Kenya and reaches the Indian Ocean, with Zanzibar offshore.",
+    "Recall Uganda’s gorilla forest, Kenya’s rift-lake birds, Rwanda’s mountain forest, Burundi’s drums and Tanzania’s moving herds. Great lakes give inland countries shores, but those are not ocean coastlines."
+  ]
+}

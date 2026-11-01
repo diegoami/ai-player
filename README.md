@@ -61,6 +61,18 @@ manual, inspected map and a trace with before/after country and army counts.
 
 ## GeoClick teaching pilot
 
+The completed Africa edition has eight regional lessons with John,
+interesting facts, geographic memory hooks and separate optional English
+captions. Its [coverage ledger](src/lessons/africa-coverage.json) tracks 54
+countries plus Western Sahara, with Somaliland shown within Somalia's stop.
+Four island countries use labelled supplemental views. See the
+[GeoClick notes](docs/GEOCLICK.md) for production commands and review gates.
+All eight masters and optional captions are packaged in
+`rendered/africa-eight-20261102/all-eight-africa-videos.zip`; episode durations
+range from 4:27 to 8:02. The offline publishing batch is prepared, with uploads
+awaiting separate authorization. Approved subtitle backups travel with Git in
+[subtitles/](subtitles/README.md).
+
 YouTube operations are owned by this repository through
 `bin/geoclick-youtube.ps1`, using installed youtube3 2.10.0. Read the
 [publishing runbook](docs/YOUTUBE_PUBLISHING.md) before account operations.

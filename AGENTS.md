@@ -12,6 +12,16 @@ errors; do not create a scheduled task. The 1 November 2026 resume hit quota
 again at the final Europe captions, with no accepted account changes. Seven
 canonical Asia videos are prepared offline only; their uploads are not authorized.
 
+The completed Africa edition has **eight regional lessons** with John.
+Use `src/lessons/africa-coverage.json`: 54 countries once each, plus Western
+Sahara as a disputed-territory stop. Somaliland is a related selection within
+Somalia, not another country. All 52 native targets and four supplemental
+island countries must be demonstrated. Outputs: `rendered/africa-eight-20261102/`.
+All media checks and visual reviews passed; the collection ZIP is
+`all-eight-africa-videos.zip` under that output root. Exact optional English
+SRT/WebVTT backups are in tracked `subtitles/africa/`. Eight entries are
+prepared in the separate offline publishing batch. No Africa uploads are authorized.
+
 For GeoClick work, read [docs/GEOCLICK.md](docs/GEOCLICK.md) before operating or
 recording the game. It contains the manual digest, controls, teaching workflow,
 and the eight-state pilot procedure requested by the user.

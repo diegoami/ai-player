@@ -26,6 +26,70 @@ links to the playlist, game and both repositories. No Asia uploads are authorize
 by the existing-eleven public release. Preserve the current screenshot-based
 playlist cover and all other metadata.
 
+## Completed Africa edition: eight country lessons
+
+The owner approved eight lessons: North Africa; Atlantic West Africa; Sahel
+and Gulf of Guinea; Central Africa; Nile and Horn; East Africa and Great Lakes;
+Southern Africa; Indian Ocean Islands. Follow `src/lessons/africa-coverage.json`.
+Coverage is 54 countries once each and Western Sahara as a separate disputed
+territory, 55 main teaching stops. Somaliland is a related native selection
+within Somalia. The 52 native GeoClick targets include those two disputed
+targets; São Tomé and Príncipe, Comoros, Mauritius and Seychelles need labelled
+supplemental Natural Earth views. Teaching groups are not an official regional
+classification. Mayotte and Réunion are not additional country stops.
+
+John gives a location cue, researched fact and memory hook at each stop. Source
+references are in `src/lessons/africa-content.mjs` and each generated lesson.
+Research uses UNESCO heritage/biosphere records, the British Museum's Laas Geel
+project, the Smithsonian volcano catalogue and UN/Ramsar sources. The current
+manual is opened through About/info and User manual by the recorder before
+every browser run. Close the Known notice, use Clear for chosen names, and
+hide controls with the actual eye button. No earned progress is reset.
+
+Build supplemental geography with `node bin/prepare-africa-map.mjs` using the
+retained Natural Earth source in `rendered/europe-natural-earth-10m.geojson`.
+Then `node bin/prepare-africa-series.mjs` creates the lessons/initial ledger;
+`--refresh-lessons` updates lessons while retaining production history.
+`node bin/render-africa-series.mjs --prepare-only` prepares narration;
+`--inspect` checks UI selections/layouts, and the plain command records and
+verifies media using up to three isolated headless sessions (`--workers=1`
+through `3`). Outputs/logs: `rendered/africa-eight-20261102/`.
+`node bin/package-africa-series.mjs` requires every visual review to pass and
+checks all coverage before marking the series complete and creating the ZIP.
+The existing US, Europe and Asia outputs/checkpoints remain untouched.
+
+Preflight found the original Western Sahara point inside GeoClick's Morocco
+polygon. The corrected `[-14,23]` point selects its actual Western Sahara
+target. Native geometry reflects a control-line split; narration explicitly
+distinguishes the unresolved territory from countries and avoids interpreting
+the map as a political settlement. The four supplemental maps retain actual
+positions and relative scale; tiny islands/reefs may be omitted. Source hash
+and public-domain attribution accompany `src/lessons/data/africa-islands.geojson`.
+
+All exports require clean masters and separate optional English SRT/WebVTT,
+with top-positioned WebVTT. Keep generated media in ignored `rendered/`; copy
+approved caption bytes into tracked `subtitles/` only after final approval.
+No Africa YouTube uploads are authorized by production of these lessons.
+
+All eight lessons are complete and packaged in
+`rendered/africa-eight-20261102/all-eight-africa-videos.zip`. Durations in
+episode order are 5:26, 6:27, 6:17, 6:51, 5:37, 4:27, 8:02 and 4:32.
+All 54 countries occur once, with 55 main stops and the related Somaliland
+selection. Every native map target and all four supplemental countries were
+selected successfully. All Known-notice, Clear, eye-control, card-fit and
+sidebar non-overlap checks passed.
+
+Visual review inspected each export's first/middle/final/recap contact sheet
+and caption on/off previews, plus extracted frames for all four supplements
+and the Somaliland selection. Clean-master streams, audio decoding and peaks,
+caption loading, top positioning and toggling all passed. Peaks range from
+-3.8 to -3.4 dB. These checks do not constitute a full listening review.
+The eight offline publishing entries include approved masters, English SRT,
+screenshot thumbnails and all four links. No account calls or uploads occurred.
+Exact approved SRT/WebVTT bytes are backed up under `subtitles/africa/`, with
+source paths and hashes in the shared subtitle manifest. Existing US/Europe/
+Asia caption records remain intact.
+
 ## Completed Asia edition: seven country lessons
 
 The user approved seven Asia episodes. Use `src/lessons/asia-coverage.json`;

@@ -27,6 +27,13 @@
     "ledger": "src/lessons/asia-coverage.json",
     "publishing_dir": "rendered/asia-seven-20261101/youtube-publishing"
   },
+  "additional_offline_series": [
+    {
+      "id": "africa",
+      "ledger": "src/lessons/africa-coverage.json",
+      "publishing_dir": "rendered/africa-eight-20261102/youtube-publishing"
+    }
+  ],
   "links": {
     "playlist": "https://www.youtube.com/playlist?list=PLNl_MybP55PE",
     "game": "https://geoclick.netlify.app/",
