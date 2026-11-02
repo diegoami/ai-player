@@ -1,0 +1,282 @@
+{
+  "title": "South America capitals three of three · The South and Brasília",
+  "edition": "South America capitals · Three regional lessons · John · November 2026",
+  "mapId": "south-america-capitals",
+  "area": "South America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/south-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -74,
+      -37
+    ],
+    [
+      -44,
+      -12
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Brasília",
+      "location": [
+        -47.918,
+        -15.7814
+      ],
+      "bounds": [
+        [
+          -49.32,
+          -17.18
+        ],
+        [
+          -46.52,
+          -14.38
+        ]
+      ]
+    },
+    {
+      "name": "Santiago",
+      "location": [
+        -70.6505,
+        -33.4402
+      ],
+      "bounds": [
+        [
+          -72.05,
+          -34.84
+        ],
+        [
+          -69.25,
+          -32.04
+        ]
+      ]
+    },
+    {
+      "name": "Buenos Aires",
+      "location": [
+        -58.4325,
+        -34.6107
+      ],
+      "bounds": [
+        [
+          -59.83,
+          -36.01
+        ],
+        [
+          -57.03,
+          -33.21
+        ]
+      ]
+    },
+    {
+      "name": "Montevideo",
+      "location": [
+        -56.1868,
+        -34.9054
+      ],
+      "bounds": [
+        [
+          -57.59,
+          -36.31
+        ],
+        [
+          -54.79,
+          -33.51
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the South America capitals, episode three of three. First, I clear the chosen names for a fresh regional lesson.",
+    "And four close the series: the new capital of Brazil in the interior, the Chilean capital under the Andes, and the two cities of the Río de la Plata."
+  ],
+  "states": [
+    {
+      "name": "Brasília",
+      "location": [
+        -47.918,
+        -15.7814
+      ],
+      "lines": [
+        "Brasília stands on the central plateau of Brazil, roughly a thousand kilometres inland from the coast.",
+        "Built in 41 months and inaugurated in 1960, designed by Lúcio Costa and Oscar Niemeyer, it is the only city built in the twentieth century to be a UNESCO World Heritage site.",
+        "Remember Brasília as the city drawn on the plan and finished in 41 months, the only new capital of the last century on UNESCO's list."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+        "https://en.wikipedia.org/wiki/History_of_Bras%C3%ADlia"
+      ],
+      "cameraBounds": [
+        [
+          -49.32,
+          -17.18
+        ],
+        [
+          -46.52,
+          -14.38
+        ]
+      ],
+      "transition": "Let's bring Brasília into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -49.32,
+              -17.18
+            ],
+            [
+              -46.52,
+              -14.38
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Santiago",
+      "location": [
+        -70.6505,
+        -33.4402
+      ],
+      "lines": [
+        "Santiago lies in a valley of the Chilean Andes, about 570 metres above the sea, with the snow-capped mountains rising straight behind it.",
+        "Founded in 1541 by the conquistador Pedro de Valdivia, it stayed a small town until the nineteenth century; its Gran Torre Santiago, finished in 2013, was then the tallest building in Latin America.",
+        "Remember Santiago as the valley city under the Andes, and the tower that was the tallest in Latin America."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Santiago",
+        "https://en.wikipedia.org/wiki/Gran_Torre_Santiago"
+      ],
+      "cameraBounds": [
+        [
+          -72.05,
+          -34.84
+        ],
+        [
+          -69.25,
+          -32.04
+        ]
+      ],
+      "transition": "Let's bring Santiago into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -72.05,
+              -34.84
+            ],
+            [
+              -69.25,
+              -32.04
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Buenos Aires",
+      "location": [
+        -58.4325,
+        -34.6107
+      ],
+      "lines": [
+        "Buenos Aires stands on the pampas of eastern Argentina, on the western bank of the wide Río de la Plata.",
+        "The province around the capital shares its name but is administered separately, for the city is a district of its own. The pampas are among the most fertile grasslands on earth, and their beef and grain made Argentina briefly one of the world's richest countries.",
+        "Remember Buenos Aires as the city on the silver river, the gaucho's plain, and Martín Fierro, the national poem."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Buenos_Aires",
+        "https://en.wikipedia.org/wiki/Pampas",
+        "https://en.wikipedia.org/wiki/Mart%C3%ADn_Fierro"
+      ],
+      "cameraBounds": [
+        [
+          -59.83,
+          -36.01
+        ],
+        [
+          -57.03,
+          -33.21
+        ]
+      ],
+      "transition": "Let's bring Buenos Aires into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -59.83,
+              -36.01
+            ],
+            [
+              -57.03,
+              -33.21
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Montevideo",
+      "location": [
+        -56.1868,
+        -34.9054
+      ],
+      "lines": [
+        "Montevideo stands on the eastern shore of the Río de la Plata, facing Buenos Aires across the wide water.",
+        "Where the name comes from is disputed; one old reading is \"I see a mountain\", for the hill across the bay. Its Rambla runs along the river for more than twenty kilometres, and its Palacio Salvo of 1928 was once the tallest building in South America.",
+        "Remember Montevideo as the city opposite Buenos Aires, with the long Rambla and the 1928 tower that was the tallest in South America."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Montevideo",
+        "https://en.wikipedia.org/wiki/Palacio_Salvo"
+      ],
+      "cameraBounds": [
+        [
+          -57.59,
+          -36.31
+        ],
+        [
+          -54.79,
+          -33.51
+        ]
+      ],
+      "transition": "Let's bring Montevideo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -57.59,
+              -36.31
+            ],
+            [
+              -54.79,
+              -33.51
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -74,
+          -37
+        ],
+        [
+          -44,
+          -12
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Brasília stands alone in the central plateau, Santiago lies under the snow of the Andes, and Buenos Aires and Montevideo face each other across the silver river.",
+    "Remember the forty-one months of Brasília, the tower of Santiago under the Andes, the pampas and Martín Fierro of Buenos Aires, and the Rambla of Montevideo."
+  ]
+}

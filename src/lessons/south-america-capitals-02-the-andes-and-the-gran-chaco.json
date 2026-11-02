@@ -1,0 +1,281 @@
+{
+  "title": "South America capitals two of three · The Andes and the Gran Chaco",
+  "edition": "South America capitals · Three regional lessons · John · November 2026",
+  "mapId": "south-america-capitals",
+  "area": "South America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/south-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -80,
+      -27
+    ],
+    [
+      -54,
+      -9
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Lima",
+      "location": [
+        -77.052,
+        -12.0461
+      ],
+      "bounds": [
+        [
+          -78.45,
+          -13.45
+        ],
+        [
+          -75.65,
+          -10.65
+        ]
+      ]
+    },
+    {
+      "name": "La Paz",
+      "location": [
+        -68.1519,
+        -16.496
+      ],
+      "bounds": [
+        [
+          -69.55,
+          -17.9
+        ],
+        [
+          -66.75,
+          -15.1
+        ]
+      ]
+    },
+    {
+      "name": "Sucre",
+      "location": [
+        -65.2595,
+        -19.041
+      ],
+      "bounds": [
+        [
+          -66.66,
+          -20.44
+        ],
+        [
+          -63.86,
+          -17.64
+        ]
+      ]
+    },
+    {
+      "name": "Asunción",
+      "location": [
+        -57.6258,
+        -25.2907
+      ],
+      "bounds": [
+        [
+          -59.03,
+          -26.69
+        ],
+        [
+          -56.23,
+          -23.89
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the South America capitals, episode two of three. First, I clear the chosen names for a fresh regional lesson.",
+    "Four capitals run down the Pacific and the interior: Peru on the desert coast, the two Bolivian capitals in the highlands, and Paraguay on the river."
+  ],
+  "states": [
+    {
+      "name": "Lima",
+      "location": [
+        -77.052,
+        -12.0461
+      ],
+      "lines": [
+        "Lima sits on the Pacific side of Peru, on a plain of desert and fog about a dozen kilometres inland from the sea.",
+        "Francisco Pizarro founded it in 1535 as the City of Kings. It hardly ever rains here, though a grey sea mist covers it for months, and its cathedral holds the tomb of Pizarro himself.",
+        "Remember Lima as the City of Kings under the mist, one of the driest cities on earth."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lima",
+        "https://en.wikipedia.org/wiki/History_of_Lima"
+      ],
+      "cameraBounds": [
+        [
+          -78.45,
+          -13.45
+        ],
+        [
+          -75.65,
+          -10.65
+        ]
+      ],
+      "transition": "Let's bring Lima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -78.45,
+              -13.45
+            ],
+            [
+              -75.65,
+              -10.65
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "La Paz",
+      "location": [
+        -68.1519,
+        -16.496
+      ],
+      "lines": [
+        "La Paz lies in a canyon of the Bolivian Andes, about 3,650 metres above the sea, with the city of El Alto on the plateau above it.",
+        "Its cable-car network, Mi Teleférico, is the longest urban cable-car system in the world, and its Witches' Market sells herbs and dried llama foetuses for offerings.",
+        "Remember La Paz as the canyon capital with the world's longest cable-car network, and the witches' market under the snow."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/La_Paz",
+        "https://en.wikipedia.org/wiki/Mi_Telef%C3%A9rico"
+      ],
+      "cameraBounds": [
+        [
+          -69.55,
+          -17.9
+        ],
+        [
+          -66.75,
+          -15.1
+        ]
+      ],
+      "transition": "Let's bring La Paz into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -69.55,
+              -17.9
+            ],
+            [
+              -66.75,
+              -15.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucre",
+      "location": [
+        -65.2595,
+        -19.041
+      ],
+      "lines": [
+        "Sucre stands in the southern Bolivian Andes at about 2,800 metres, and it is Bolivia's constitutional capital, while La Paz is the seat of government.",
+        "Bolivia's independence was declared here in 1825; the city is named for Antonio José de Sucre, and its white colonial centre is a UNESCO site.",
+        "Remember Sucre as the city of four names — Charcas, La Plata, Chuquisaca and Sucre — where Bolivia declared its independence."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sucre",
+        "https://en.wikipedia.org/wiki/History_of_Bolivia"
+      ],
+      "cameraBounds": [
+        [
+          -66.66,
+          -20.44
+        ],
+        [
+          -63.86,
+          -17.64
+        ]
+      ],
+      "transition": "Let's bring Sucre into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -66.66,
+              -20.44
+            ],
+            [
+              -63.86,
+              -17.64
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Asunción",
+      "location": [
+        -57.6258,
+        -25.2907
+      ],
+      "lines": [
+        "Asunción stands on the east bank of the Paraguay river, on a high terrace above the lowlands of western Paraguay.",
+        "Founded on the feast of the Assumption, 15 August 1537, it is one of the oldest cities in South America, and from here the Spanish set out to found Buenos Aires a second time, in 1580.",
+        "Remember Asunción as the city founded on Assumption Day of 1537, from which the Spanish sailed to rebuild Buenos Aires."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+        "https://en.wikipedia.org/wiki/History_of_Asunci%C3%B3n"
+      ],
+      "cameraBounds": [
+        [
+          -59.03,
+          -26.69
+        ],
+        [
+          -56.23,
+          -23.89
+        ]
+      ],
+      "transition": "Let's bring Asunción into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -59.03,
+              -26.69
+            ],
+            [
+              -56.23,
+              -23.89
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -80,
+          -27
+        ],
+        [
+          -54,
+          -9
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Lima is the coastal city in the mist, La Paz and Sucre are the two Bolivian capitals in the Andes, and Asunción is the old river town of the Gran Chaco.",
+    "Remember the City of Kings and Pizarro's tomb, the canyon of La Paz and its witches' market, the four names of Sucre, and the founding of Asunción in 1537."
+  ]
+}

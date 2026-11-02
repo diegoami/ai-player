@@ -1,0 +1,341 @@
+{
+  "title": "South America capitals one of three · The North and the Caribbean Coast",
+  "edition": "South America capitals · Three regional lessons · John · November 2026",
+  "mapId": "south-america-capitals",
+  "area": "South America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/south-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -81,
+      -8
+    ],
+    [
+      -50,
+      13
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Caracas",
+      "location": [
+        -66.919,
+        10.5029
+      ],
+      "bounds": [
+        [
+          -68.32,
+          9.1
+        ],
+        [
+          -65.52,
+          11.9
+        ]
+      ]
+    },
+    {
+      "name": "Georgetown",
+      "location": [
+        -58.167,
+        6.802
+      ],
+      "bounds": [
+        [
+          -59.57,
+          5.4
+        ],
+        [
+          -56.77,
+          8.2
+        ]
+      ]
+    },
+    {
+      "name": "Paramaribo",
+      "location": [
+        -55.167,
+        5.835
+      ],
+      "bounds": [
+        [
+          -56.57,
+          4.44
+        ],
+        [
+          -53.77,
+          7.24
+        ]
+      ]
+    },
+    {
+      "name": "Bogotá",
+      "location": [
+        -74.0853,
+        4.5984
+      ],
+      "bounds": [
+        [
+          -75.49,
+          3.2
+        ],
+        [
+          -72.69,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "Quito",
+      "location": [
+        -78.502,
+        -0.213
+      ],
+      "bounds": [
+        [
+          -79.9,
+          -1.61
+        ],
+        [
+          -77.1,
+          1.19
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the South America capitals, episode one of three. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin in the north: the Andean capitals of Venezuela, Colombia and Ecuador, and the two Guianas on the Atlantic coast."
+  ],
+  "states": [
+    {
+      "name": "Caracas",
+      "location": [
+        -66.919,
+        10.5029
+      ],
+      "lines": [
+        "Caracas stands in a valley of the northern Andes, a dozen kilometres inland from the Caribbean, with the wall of El Ávila rising between the city and the sea.",
+        "Named for the Caracas people who lived in the valley, it was the birthplace of Simón Bolívar in 1783.",
+        "Remember Caracas as the city of Bolívar, tucked under the wall of Ávila between the mountains and the Caribbean."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caracas",
+        "https://en.wikipedia.org/wiki/Venezuela"
+      ],
+      "cameraBounds": [
+        [
+          -68.32,
+          9.1
+        ],
+        [
+          -65.52,
+          11.9
+        ]
+      ],
+      "transition": "Let's bring Caracas into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -68.32,
+              9.1
+            ],
+            [
+              -65.52,
+              11.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Georgetown",
+      "location": [
+        -58.167,
+        6.802
+      ],
+      "lines": [
+        "Georgetown stands on the Atlantic coast of Guyana, at the mouth of the Demerara river, a little north of the Essequibo.",
+        "Named for King George III, its wooden St George's Cathedral is one of the tallest wooden churches in the world, and much of the city lies below sea level behind a sea wall of the 19th century.",
+        "Remember Georgetown as the wooden cathedral capital, guarded by the sea wall that holds back the Atlantic."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Georgetown",
+        "https://en.wikipedia.org/wiki/Guyana"
+      ],
+      "cameraBounds": [
+        [
+          -59.57,
+          5.4
+        ],
+        [
+          -56.77,
+          8.2
+        ]
+      ],
+      "transition": "Let's bring Georgetown into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -59.57,
+              5.4
+            ],
+            [
+              -56.77,
+              8.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paramaribo",
+      "location": [
+        -55.167,
+        5.835
+      ],
+      "lines": [
+        "Paramaribo lies on the Suriname river, about fifteen kilometres from the Atlantic, on the north coast of Suriname.",
+        "Its inner city of wooden Dutch colonial houses is a UNESCO site, and a mosque and a synagogue stand side by side on the same street.",
+        "Remember Paramaribo as the Dutch wooden town where a mosque and a synagogue share one street."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paramaribo",
+        "https://en.wikipedia.org/wiki/Suriname"
+      ],
+      "cameraBounds": [
+        [
+          -56.57,
+          4.44
+        ],
+        [
+          -53.77,
+          7.24
+        ]
+      ],
+      "transition": "Let's bring Paramaribo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -56.57,
+              4.44
+            ],
+            [
+              -53.77,
+              7.24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bogotá",
+      "location": [
+        -74.0853,
+        4.5984
+      ],
+      "lines": [
+        "Bogotá lies high in the eastern Andes, on a plateau about 2,640 metres above the sea, in the centre of Colombia.",
+        "It grew from Bacatá, the Muisca capital, meaning \"enclosure outside the farmland\"; the Spanish added Santa Fe, and the two names competed for centuries. Its Gold Museum holds some 55,000 pieces of pre-Hispanic goldwork.",
+        "Remember Bogotá as the high plateau capital where the Muisca Bacatá and the Spanish Santa Fe still share the name."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+        "https://en.wikipedia.org/wiki/Muisca",
+        "https://en.wikipedia.org/wiki/Museo_del_Oro"
+      ],
+      "cameraBounds": [
+        [
+          -75.49,
+          3.2
+        ],
+        [
+          -72.69,
+          6
+        ]
+      ],
+      "transition": "Let's bring Bogotá into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -75.49,
+              3.2
+            ],
+            [
+              -72.69,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quito",
+      "location": [
+        -78.502,
+        -0.213
+      ],
+      "lines": [
+        "Quito stands in the Andes of Ecuador at about 2,850 metres above the sea, a capital city on the equator.",
+        "Its old centre was among the first places added to UNESCO's World Heritage list, in 1978, and it lies below the Pichincha volcano, which last erupted in 1999.",
+        "Remember Quito as the capital of the equator, one of the first on UNESCO's list, sitting under a volcano that erupted in 1999."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Quito",
+        "https://en.wikipedia.org/wiki/City_of_Quito",
+        "https://en.wikipedia.org/wiki/Pichincha"
+      ],
+      "cameraBounds": [
+        [
+          -79.9,
+          -1.61
+        ],
+        [
+          -77.1,
+          1.19
+        ]
+      ],
+      "transition": "Let's bring Quito into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -79.9,
+              -1.61
+            ],
+            [
+              -77.1,
+              1.19
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -81,
+          -8
+        ],
+        [
+          -50,
+          13
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Caracas sits under the Ávila wall by the Caribbean, Bogotá and Quito climb high into the Andes, and Georgetown and Paramaribo are the two small colonial ports of the Guianas.",
+    "Remember the city of Bolívar, the wooden cathedral of Georgetown, the wooden Dutch houses of Paramaribo, the equator capital under a volcano, and the gold of Bacatá."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "edition": "South America capitals · Three regional lessons · November 2026",
+  "status": "complete",
+  "scope": "All 13 capital targets of GeoClick's native south-america-capitals map, each exactly once: the capitals of the twelve South American countries the map names, with Bolivia's two capitals, La Paz and Sucre, both taught. Episode groups are teaching routes, not an official classification.",
+  "targetCount": 13,
+  "countryCount": 12,
+  "nativeTargetCount": 13,
+  "nativeTeachingStopCount": 13,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 13,
+  "episodes": [
+    {
+      "id": "north-and-the-caribbean-coast",
+      "title": "The North and the Caribbean Coast",
+      "status": "complete",
+      "lesson": "src/lessons/south-america-capitals-01-north-and-the-caribbean-coast.json",
+      "places": [
+        "Caracas",
+        "Georgetown",
+        "Paramaribo",
+        "Bogotá",
+        "Quito"
+      ],
+      "countries": [
+        "Caracas",
+        "Georgetown",
+        "Paramaribo",
+        "Bogotá",
+        "Quito"
+      ],
+      "nativeTargets": [
+        "Caracas",
+        "Georgetown",
+        "Paramaribo",
+        "Bogotá",
+        "Quito"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/south-america-capitals-20261102/01-north-and-the-caribbean-coast/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 247.16,
+      "covered": [
+        "Caracas",
+        "Georgetown",
+        "Paramaribo",
+        "Bogotá",
+        "Quito"
+      ]
+    },
+    {
+      "id": "the-andes-and-the-gran-chaco",
+      "title": "The Andes and the Gran Chaco",
+      "status": "complete",
+      "lesson": "src/lessons/south-america-capitals-02-the-andes-and-the-gran-chaco.json",
+      "places": [
+        "Lima",
+        "La Paz",
+        "Sucre",
+        "Asunción"
+      ],
+      "countries": [
+        "Lima",
+        "La Paz",
+        "Sucre",
+        "Asunción"
+      ],
+      "nativeTargets": [
+        "Lima",
+        "La Paz",
+        "Sucre",
+        "Asunción"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/south-america-capitals-20261102/02-the-andes-and-the-gran-chaco/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 213.04,
+      "covered": [
+        "Lima",
+        "La Paz",
+        "Sucre",
+        "Asunción"
+      ]
+    },
+    {
+      "id": "the-south-and-brasilia",
+      "title": "The South and Brasília",
+      "status": "complete",
+      "lesson": "src/lessons/south-america-capitals-03-the-south-and-brasilia.json",
+      "places": [
+        "Brasília",
+        "Santiago",
+        "Buenos Aires",
+        "Montevideo"
+      ],
+      "countries": [
+        "Brasília",
+        "Santiago",
+        "Buenos Aires",
+        "Montevideo"
+      ],
+      "nativeTargets": [
+        "Brasília",
+        "Santiago",
+        "Buenos Aires",
+        "Montevideo"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/south-america-capitals-20261102/03-the-south-and-brasilia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 216.96,
+      "covered": [
+        "Brasília",
+        "Santiago",
+        "Buenos Aires",
+        "Montevideo"
+      ]
+    }
+  ],
+  "coveredCountryCount": 12
+}
