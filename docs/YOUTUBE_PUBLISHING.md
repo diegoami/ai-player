@@ -520,6 +520,23 @@ three South America capitals videos, showed the playlist public with 48
 members, none missing, none duplicated and the playlist link in every
 description; this series was uploaded by the same flow with the same seats.
 
+## Prepared and waiting: Oceania capitals
+
+The eighth edition, Oceania capitals, is produced, reviewed and packaged, with
+clean masters in `rendered/oceania-capitals-20261102/`, optional English
+SRT/WebVTT in tracked `subtitles/oceania-capitals/` and the offline batch
+prepared under `rendered/oceania-capitals-20261102/youtube-publishing/`.
+
+It is **not uploaded**. The general quota bucket was exhausted by the releases
+above, and the runbook's rule is to stop on a quota error rather than work
+around it. The bucket resets at midnight Pacific; the upload then needs the
+owner's visibility choice, and the same rule as always applies afterwards:
+never reupload a known video ID.
+
+While that waits, the one live check still outstanding is a fresh read of the
+five North America capitals videos, to replace the queue's own record with an
+independent confirmation.
+
 ## Africa state: uploaded privately, then published
 
 This section records how the eight Africa videos were uploaded. The owner

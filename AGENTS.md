@@ -91,6 +91,21 @@ City. Use `src/lessons/north-america-capitals-coverage.json` and
 the same playlist as `JDlnPz-Rsl4`, `-5npYYzoZ3I`, `JAi68d3yfrA`, `lNI6UGU06ys`
 and `m9A2bJ8kt0M`, with their captions deferred.
 
+The completed Oceania capitals edition has **four capital lessons**, with John,
+interesting facts/location hooks and separate optional English captions. It
+uses GeoClick's native `oceania-capitals` point map, whose 11 capital targets
+are all demonstrated once each: the Pacific island states and Australia and New
+Zealand. Use `src/lessons/oceania-capitals-coverage.json` and
+`src/lessons/oceania-capitals-content.mjs`. Output:
+`rendered/oceania-capitals-20261102/`; the collection ZIP is
+`all-four-oceania-capitals-videos.zip`. Durations are 2:33, 2:00, 2:29 and
+2:39. Exact optional English SRT/WebVTT backups are in tracked
+`subtitles/oceania-capitals/`. **It is produced but not uploaded**: the general
+quota bucket was exhausted by the earlier releases, so the runbook's rule to
+stop on a quota error applies. The batch is prepared under
+`rendered/oceania-capitals-20261102/youtube-publishing/` and still needs the
+owner's visibility choice; nothing may be re-uploaded after it goes out.
+
 The completed South America edition has **three country lessons**, with John,
 interesting facts/location hooks and separate optional English captions. It
 uses GeoClick's native `south-america-countries` map, whose 12 country targets

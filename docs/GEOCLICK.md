@@ -454,6 +454,49 @@ card reads "Mexico City". The click-point finder now records the name the card
 actually displays, and the lessons teach that name — the lesson would have
 failed its own card check otherwise.
 
+## Completed Oceania capitals edition: four capital lessons
+
+An eighth edition completes the capitals for the inhabited continents: Oceania,
+on GeoClick's native `oceania-capitals` point map, whose 11 capital targets are
+all demonstrated once each — Palau, Micronesia, the Marshall Islands,
+Kiribati, Tuvalu, the Solomon Islands, Papua New Guinea, Vanuatu, Fiji,
+Australia and New Zealand.
+
+`src/lessons/oceania-capitals-content.mjs` holds the researched narration and
+`src/lessons/oceania-capitals-coverage.json` is the independent ledger. The
+groups are teaching routes: Palau, Pohnpei and the Marshalls; Kiribati and
+Tuvalu; the Melanesian capitals; and Fiji, Australia and New Zealand.
+
+| Episode | Stops | Duration | Output under `rendered/oceania-capitals-20261102/` |
+|---|---:|---:|---|
+| Palau, Pohnpei and the Marshalls | 3 | 2:33 | `01-palau-pohnpei-and-the-marshalls/geoclick/` |
+| Kiribati and Tuvalu | 2 | 2:00 | `02-kiribati-and-tuvalu/geoclick/` |
+| The Melanesian capitals | 3 | 2:29 | `03-the-melanesian-capitals/geoclick/` |
+| Fiji, Australia and New Zealand | 3 | 2:39 | `04-fiji-australia-and-new-zealand/geoclick/` |
+
+Clean 1600×900 H.264/AAC masters have no burned-in narration captions; optional
+English SRT and top-positioned WebVTT are separate. Audio peaks range from
+-3.8 to -3.3 dB, with 16, 12, 16 and 16 caption cues. The contact sheets and
+the caption-on/off previews of every episode were inspected. The collection
+ZIP is
+`rendered/oceania-capitals-20261102/all-four-oceania-capitals-videos.zip`.
+
+Two things a map near the date line needs:
+
+- **Keep the camera box east of 180°.** Funafuti (179.2°E) and Suva (178.4°E)
+  sit within a degree of the antimeridian, so their boxes are drawn to stop
+  short of it rather than cross it.
+- **A two-capital episode is still an episode.** Kiribati and Tuvalu share a
+  frame of reference: both are atolls whose land is a few metres above the
+  sea, both are countries spread across a huge area of ocean, and Kiribati is
+  the only country in all four hemispheres.
+
+The edition is produced and packaged but **not yet uploaded**: the general
+quota bucket was exhausted when the two previous editions went out, and the
+runbook's rule is to stop on a quota error. The batch is prepared under
+`rendered/oceania-capitals-20261102/youtube-publishing/` and the upload needs
+the owner's visibility choice.
+
 ## Completed Europe edition: six country lessons
 
 The user accepted the proposed six-video Europe route and requested producing

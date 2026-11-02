@@ -4,7 +4,8 @@ English subtitles for the current November 2026 editions are preserved here:
 five US episodes, six Europe episodes, seven Asia episodes, eight Africa
 episodes, three North America episodes, three South America episodes, six
 Europe capitals episodes, seven Asia capitals episodes, three South America
-capitals episodes and five North America capitals episodes, 106 files in total.
+capitals episodes, five North America capitals episodes and four Oceania
+capitals episodes, 114 files in total.
 Each episode
 has optional SRT and WebVTT tracks. WebVTT retains the original top positioning.
 Use the numbered episode folders to find the matching track.
@@ -25,7 +26,8 @@ three South America episodes went out the same way, unlisted, with their video
 IDs recorded here. The six Europe capitals episodes and the seven Asia
 capitals episodes went out unlisted too, with their video IDs recorded here,
 and the three South America capitals episodes and five North America capitals
-episodes followed them, also unlisted.
+episodes followed them, also unlisted. The four Oceania capitals episodes are
+produced and backed up here but not yet uploaded, so they have no video IDs.
 
 These text files travel with Git. Media and publishing checkpoints remain in
 ignored `rendered/` folders and must be backed up separately. Keep original
