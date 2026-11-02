@@ -1106,6 +1106,121 @@
           "sha256": "0ec129b8fbcb77cd90c423905085b20a05c2971e32c46ae2c7561ca27edc3d2f"
         }
       ]
+    },
+    {
+      "series": "north-america-capitals",
+      "episode": 1,
+      "id": "canada-the-united-states-and-mexico",
+      "ledger": "src/lessons/north-america-capitals-coverage.json",
+      "master": "rendered/north-america-capitals-20261102/01-canada-the-united-states-and-mexico/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "JDlnPz-Rsl4",
+      "files": [
+        {
+          "path": "subtitles/north-america-capitals/01-canada-the-united-states-and-mexico/subtitles.en.srt",
+          "source": "rendered/north-america-capitals-20261102/01-canada-the-united-states-and-mexico/geoclick/subtitles.en.srt",
+          "bytes": 2624,
+          "sha256": "bd0ee135925fd3c904eb06e4e2ac64e5fda822493daa24241002047bd9c9e457"
+        },
+        {
+          "path": "subtitles/north-america-capitals/01-canada-the-united-states-and-mexico/subtitles.en.vtt",
+          "source": "rendered/north-america-capitals-20261102/01-canada-the-united-states-and-mexico/geoclick/subtitles.en.vtt",
+          "bytes": 3432,
+          "sha256": "c7809ad4af37c69fd85b2b12fa4218a42234d98c9c0aed4ccf0ab6cc10838785"
+        }
+      ]
+    },
+    {
+      "series": "north-america-capitals",
+      "episode": 2,
+      "id": "central-america-and-belize",
+      "ledger": "src/lessons/north-america-capitals-coverage.json",
+      "master": "rendered/north-america-capitals-20261102/02-central-america-and-belize/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "-5npYYzoZ3I",
+      "files": [
+        {
+          "path": "subtitles/north-america-capitals/02-central-america-and-belize/subtitles.en.srt",
+          "source": "rendered/north-america-capitals-20261102/02-central-america-and-belize/geoclick/subtitles.en.srt",
+          "bytes": 4899,
+          "sha256": "512049ae92f388dc894f6d2fdfcaa87af325984290b2f948cc140f2f6a39351a"
+        },
+        {
+          "path": "subtitles/north-america-capitals/02-central-america-and-belize/subtitles.en.vtt",
+          "source": "rendered/north-america-capitals-20261102/02-central-america-and-belize/geoclick/subtitles.en.vtt",
+          "bytes": 6507,
+          "sha256": "589c91f83cf6d1fd3d19937fec50bdafa363805378fc86be6ca629fe23c4fff1"
+        }
+      ]
+    },
+    {
+      "series": "north-america-capitals",
+      "episode": 3,
+      "id": "cuba-hispaniola-and-jamaica",
+      "ledger": "src/lessons/north-america-capitals-coverage.json",
+      "master": "rendered/north-america-capitals-20261102/03-cuba-hispaniola-and-jamaica/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "JAi68d3yfrA",
+      "files": [
+        {
+          "path": "subtitles/north-america-capitals/03-cuba-hispaniola-and-jamaica/subtitles.en.srt",
+          "source": "rendered/north-america-capitals-20261102/03-cuba-hispaniola-and-jamaica/geoclick/subtitles.en.srt",
+          "bytes": 2814,
+          "sha256": "1fe154f462783f2eec6b5cc3a0fe689c7190b0ab87e43a77778f642fd7ba813d"
+        },
+        {
+          "path": "subtitles/north-america-capitals/03-cuba-hispaniola-and-jamaica/subtitles.en.vtt",
+          "source": "rendered/north-america-capitals-20261102/03-cuba-hispaniola-and-jamaica/geoclick/subtitles.en.vtt",
+          "bytes": 3822,
+          "sha256": "b20169acf63de2037b321efe84eedbb54baf582476b50c22e16893bbb9d1fa66"
+        }
+      ]
+    },
+    {
+      "series": "north-america-capitals",
+      "episode": 4,
+      "id": "the-bahamas-and-the-leewards",
+      "ledger": "src/lessons/north-america-capitals-coverage.json",
+      "master": "rendered/north-america-capitals-20261102/04-the-bahamas-and-the-leewards/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "lNI6UGU06ys",
+      "files": [
+        {
+          "path": "subtitles/north-america-capitals/04-the-bahamas-and-the-leewards/subtitles.en.srt",
+          "source": "rendered/north-america-capitals-20261102/04-the-bahamas-and-the-leewards/geoclick/subtitles.en.srt",
+          "bytes": 3423,
+          "sha256": "36fbf2a1fc8dda18a11eadc5759c26c17dd2ceaede01cfb767157f290a72db52"
+        },
+        {
+          "path": "subtitles/north-america-capitals/04-the-bahamas-and-the-leewards/subtitles.en.vtt",
+          "source": "rendered/north-america-capitals-20261102/04-the-bahamas-and-the-leewards/geoclick/subtitles.en.vtt",
+          "bytes": 4631,
+          "sha256": "35f9106b0d57646dac3d4ac91a6df5d4c4b68e944b300ca73141fe1cf17eef69"
+        }
+      ]
+    },
+    {
+      "series": "north-america-capitals",
+      "episode": 5,
+      "id": "the-windwards-and-trinidad",
+      "ledger": "src/lessons/north-america-capitals-coverage.json",
+      "master": "rendered/north-america-capitals-20261102/05-the-windwards-and-trinidad/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "m9A2bJ8kt0M",
+      "files": [
+        {
+          "path": "subtitles/north-america-capitals/05-the-windwards-and-trinidad/subtitles.en.srt",
+          "source": "rendered/north-america-capitals-20261102/05-the-windwards-and-trinidad/geoclick/subtitles.en.srt",
+          "bytes": 2859,
+          "sha256": "1ab1144dddf054bccecd910c8c94b1790bee3ab3ba5208bd4dd8b537eadd528b"
+        },
+        {
+          "path": "subtitles/north-america-capitals/05-the-windwards-and-trinidad/subtitles.en.vtt",
+          "source": "rendered/north-america-capitals-20261102/05-the-windwards-and-trinidad/geoclick/subtitles.en.vtt",
+          "bytes": 3867,
+          "sha256": "e77232d970c3fb8914390fc4c6565589210f29a97216516dfd18d830ae5b2d5b"
+        }
+      ]
     }
   ]
 }

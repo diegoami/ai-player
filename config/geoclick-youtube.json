@@ -78,6 +78,14 @@
       "published": "unlisted 2026-11-02",
       "captions": "deferred",
       "video_ids": ["5oSNj262L9s", "NpgKeTiG6lc", "5VpzfSO_SWU"]
+    },
+    {
+      "id": "north-america-capitals",
+      "ledger": "src/lessons/north-america-capitals-coverage.json",
+      "publishing_dir": "rendered/north-america-capitals-20261102/youtube-publishing",
+      "published": "unlisted 2026-11-02",
+      "captions": "deferred",
+      "video_ids": ["JDlnPz-Rsl4", "-5npYYzoZ3I", "JAi68d3yfrA", "lNI6UGU06ys", "m9A2bJ8kt0M"]
     }
   ],
   "links": {
