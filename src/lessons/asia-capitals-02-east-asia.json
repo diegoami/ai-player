@@ -1,0 +1,339 @@
+{
+  "title": "Asia capitals two of seven · East Asia",
+  "edition": "Asia capitals · Seven regional lessons · John · November 2026",
+  "mapId": "asia-capitals",
+  "area": "Asia",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/asia-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      110,
+      22
+    ],
+    [
+      146,
+      46
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Beijing",
+      "location": [
+        116.41,
+        39.9
+      ],
+      "bounds": [
+        [
+          115.09,
+          38.6
+        ],
+        [
+          117.69,
+          41.2
+        ]
+      ]
+    },
+    {
+      "name": "Pyongyang",
+      "location": [
+        125.75,
+        39.02
+      ],
+      "bounds": [
+        [
+          124.45,
+          37.72
+        ],
+        [
+          127.05,
+          40.32
+        ]
+      ]
+    },
+    {
+      "name": "Seoul",
+      "location": [
+        126.98,
+        37.57
+      ],
+      "bounds": [
+        [
+          125.7,
+          36.27
+        ],
+        [
+          128.3,
+          38.87
+        ]
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "location": [
+        139.69,
+        35.69
+      ],
+      "bounds": [
+        [
+          138.45,
+          34.39
+        ],
+        [
+          141.05,
+          36.99
+        ]
+      ]
+    },
+    {
+      "name": "Taipei",
+      "location": [
+        121.56,
+        25.03
+      ],
+      "bounds": [
+        [
+          120.27,
+          23.74
+        ],
+        [
+          122.87,
+          26.34
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Asia capitals, episode two of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Five capitals of East Asia: the northern and southern Korean states, the two great East Asian powers, and Taipei in the north of Taiwan."
+  ],
+  "states": [
+    {
+      "name": "Beijing",
+      "location": [
+        116.41,
+        39.9
+      ],
+      "lines": [
+        "Beijing lies in the north of China, on the plain where the Yongding and Chaobai rivers meet, a short step from the Great Wall.",
+        "\"Northern capital\" — bei north, jing capital; Nanjing is the southern one, with the same second character. It has been the capital on and off since Kublai Khan made it one in 1272.",
+        "Remember Beijing as the northern capital, whose Forbidden City has 980 buildings and was closed to ordinary people for nearly five hundred years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Beijing",
+        "https://en.wikipedia.org/wiki/China"
+      ],
+      "cameraBounds": [
+        [
+          115.09,
+          38.6
+        ],
+        [
+          117.69,
+          41.2
+        ]
+      ],
+      "transition": "Let's bring Beijing into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              115.09,
+              38.6
+            ],
+            [
+              117.69,
+              41.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pyongyang",
+      "location": [
+        125.75,
+        39.02
+      ],
+      "lines": [
+        "Pyongyang stands on the Taedong river in the west of North Korea, on the plain of the same name.",
+        "\"Flat land\". Its Juche Tower, 170 m high, was finished in 1982, and only people approved by the state are allowed to live in it.",
+        "Remember Pyongyang as the flat-land capital with the Juche Tower, where only the state's approved may live."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pyongyang",
+        "https://en.wikipedia.org/wiki/North_Korea"
+      ],
+      "cameraBounds": [
+        [
+          124.45,
+          37.72
+        ],
+        [
+          127.05,
+          40.32
+        ]
+      ],
+      "transition": "Let's bring Pyongyang into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              124.45,
+              37.72
+            ],
+            [
+              127.05,
+              40.32
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seoul",
+      "location": [
+        126.98,
+        37.57
+      ],
+      "lines": [
+        "Seoul stands in the middle of the Korean peninsula, on the Han river, and about half of all South Koreans live in it or its surrounding region.",
+        "Unusual among Korean place names in being pure native Korean rather than Sino-Korean: seoul simply means \"capital\", so the city is called Capital.",
+        "Remember Seoul as the city whose name simply means capital, rebuilt almost entirely after the Korean War."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Seoul",
+        "https://en.wikipedia.org/wiki/South_Korea"
+      ],
+      "cameraBounds": [
+        [
+          125.7,
+          36.27
+        ],
+        [
+          128.3,
+          38.87
+        ]
+      ],
+      "transition": "Let's bring Seoul into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              125.7,
+              36.27
+            ],
+            [
+              128.3,
+              38.87
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "location": [
+        139.69,
+        35.69
+      ],
+      "lines": [
+        "Tokyo stands on the eastern coast of Honshu, where the Sumida and Arakawa rivers reach the bay of the Pacific.",
+        "\"Eastern capital\", renamed from Edo in 1868 when the emperor moved here from Kyōto, the old capital in the west. Greater Tokyo is the largest metropolitan area in the world, about 37 million people.",
+        "Remember Tokyo as the eastern capital, and Edo, already the largest city in the world by 1720 with over a million people."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tokyo",
+        "https://en.wikipedia.org/wiki/Japan"
+      ],
+      "cameraBounds": [
+        [
+          138.45,
+          34.39
+        ],
+        [
+          141.05,
+          36.99
+        ]
+      ],
+      "transition": "Let's bring Tokyo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              138.45,
+              34.39
+            ],
+            [
+              141.05,
+              36.99
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taipei",
+      "location": [
+        121.56,
+        25.03
+      ],
+      "lines": [
+        "Taipei stands in the north of Taiwan, in the basin of the Tamsui river, a short way inland from the coast.",
+        "\"North Taiwan\". Its National Palace Museum holds treasures that came from the imperial collections of Beijing, and its night markets are among the busiest in Asia.",
+        "Remember Taipei as the north of Taiwan, guardian of the imperial treasures from Beijing, with the night markets of Asia."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Taipei",
+        "https://en.wikipedia.org/wiki/Taiwan"
+      ],
+      "cameraBounds": [
+        [
+          120.27,
+          23.74
+        ],
+        [
+          122.87,
+          26.34
+        ]
+      ],
+      "transition": "Let's bring Taipei into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              120.27,
+              23.74
+            ],
+            [
+              122.87,
+              26.34
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          110,
+          22
+        ],
+        [
+          146,
+          46
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Beijing is the northern capital of China, Pyongyang the flat-land capital of North Korea, Seoul the capital of South Korea, Tokyo the eastern capital of Japan, and Taipei the north of Taiwan.",
+    "Remember the Forbidden City closed for five hundred years, the Juche Tower, the city whose name simply means capital, Edo the largest city in the world by 1720, and the night markets of Taipei."
+  ]
+}

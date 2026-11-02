@@ -1,0 +1,455 @@
+{
+  "title": "Asia capitals five of seven · The Gulf and the Peninsula",
+  "edition": "Asia capitals · Seven regional lessons · John · November 2026",
+  "mapId": "asia-capitals",
+  "area": "Asia",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/asia-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      46,
+      14
+    ],
+    [
+      62,
+      34
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Kuwait City",
+      "location": [
+        47.98,
+        29.38
+      ],
+      "bounds": [
+        [
+          47.08,
+          28.47
+        ],
+        [
+          48.88,
+          30.27
+        ]
+      ]
+    },
+    {
+      "name": "Manama",
+      "location": [
+        50.5830517,
+        26.2361363
+      ],
+      "bounds": [
+        [
+          49.28,
+          24.94
+        ],
+        [
+          51.88,
+          27.54
+        ]
+      ]
+    },
+    {
+      "name": "Doha",
+      "location": [
+        51.53,
+        25.29
+      ],
+      "bounds": [
+        [
+          50.23,
+          23.99
+        ],
+        [
+          52.83,
+          26.59
+        ]
+      ]
+    },
+    {
+      "name": "Abu Dhabi",
+      "location": [
+        54.37,
+        24.45
+      ],
+      "bounds": [
+        [
+          53.07,
+          23.17
+        ],
+        [
+          55.67,
+          25.77
+        ]
+      ]
+    },
+    {
+      "name": "Riyadh",
+      "location": [
+        46.72,
+        24.69
+      ],
+      "bounds": [
+        [
+          45.42,
+          23.33
+        ],
+        [
+          48.02,
+          25.93
+        ]
+      ]
+    },
+    {
+      "name": "Muscat",
+      "location": [
+        58.41,
+        23.59
+      ],
+      "bounds": [
+        [
+          57.08,
+          22.29
+        ],
+        [
+          59.68,
+          24.89
+        ]
+      ]
+    },
+    {
+      "name": "Sanaa",
+      "location": [
+        44.19,
+        15.37
+      ],
+      "bounds": [
+        [
+          42.9,
+          14.06
+        ],
+        [
+          45.5,
+          16.66
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Asia capitals, episode five of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Seven capitals of the Gulf and the Arabian Peninsula: the bay cities of the north and the inland capitals of the centre and the south."
+  ],
+  "states": [
+    {
+      "name": "Kuwait City",
+      "location": [
+        47.98,
+        29.38
+      ],
+      "lines": [
+        "Kuwait City stands at the head of the Persian Gulf in the east of Kuwait, on the bay around which the country grew.",
+        "Its Kuwait Towers, opened in 1979, have become the country's emblem, and most of Kuwait's people live in and around it.",
+        "Remember Kuwait City as the bay city whose twin towers became the emblem of the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kuwait_City",
+        "https://en.wikipedia.org/wiki/Kuwait"
+      ],
+      "cameraBounds": [
+        [
+          47.08,
+          28.47
+        ],
+        [
+          48.88,
+          30.27
+        ]
+      ],
+      "transition": "Let's bring Kuwait City into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              47.08,
+              28.47
+            ],
+            [
+              48.88,
+              30.27
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manama",
+      "location": [
+        50.5830517,
+        26.2361363
+      ],
+      "lines": [
+        "Manama stands on the north coast of Bahrain, an island in the Persian Gulf, north of Qatar and about 35 kilometres from the Saudi coast.",
+        "\"Place of rest\". Qal'at al-Bahrain, nearby, was the seat of ancient Dilmun and is a UNESCO site, and the Bahrain World Trade Center has three wind turbines between its two towers.",
+        "Remember Manama as the place of rest beside ancient Dilmun, and the towers with wind turbines between them."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Manama",
+        "https://en.wikipedia.org/wiki/Bahrain"
+      ],
+      "cameraBounds": [
+        [
+          49.28,
+          24.94
+        ],
+        [
+          51.88,
+          27.54
+        ]
+      ],
+      "transition": "Let's bring Manama into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              49.28,
+              24.94
+            ],
+            [
+              51.88,
+              27.54
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Doha",
+      "location": [
+        51.53,
+        25.29
+      ],
+      "lines": [
+        "Doha stands on the east coast of the Qatar peninsula, on the bay facing the Persian Gulf.",
+        "A village of pearl divers that grew rich on oil and gas, its Museum of Islamic Art was designed by I. M. Pei.",
+        "Remember Doha as the pearl divers' village that grew rich, with I. M. Pei's museum on the bay."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Doha",
+        "https://en.wikipedia.org/wiki/Qatar"
+      ],
+      "cameraBounds": [
+        [
+          50.23,
+          23.99
+        ],
+        [
+          52.83,
+          26.59
+        ]
+      ],
+      "transition": "Let's bring Doha into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              50.23,
+              23.99
+            ],
+            [
+              52.83,
+              26.59
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abu Dhabi",
+      "location": [
+        54.37,
+        24.45
+      ],
+      "lines": [
+        "Abu Dhabi stands on an island off the coast of the Persian Gulf, in the west of the United Arab Emirates, north of Dubai.",
+        "\"Father of the gazelle\". The Louvre Abu Dhabi opened in 2017 under a dome of latticed steel, and the Sheikh Zayed Grand Mosque has one of the largest carpets in the world.",
+        "Remember Abu Dhabi as the father of the gazelle, with the Louvre under its lattice dome by the gulf."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abu_Dhabi",
+        "https://en.wikipedia.org/wiki/United_Arab_Emirates"
+      ],
+      "cameraBounds": [
+        [
+          53.07,
+          23.17
+        ],
+        [
+          55.67,
+          25.77
+        ]
+      ],
+      "transition": "Let's bring Abu Dhabi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              53.07,
+              23.17
+            ],
+            [
+              55.67,
+              25.77
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riyadh",
+      "location": [
+        46.72,
+        24.69
+      ],
+      "lines": [
+        "Riyadh stands in the centre of the Arabian Peninsula, in the Najd highlands, in the middle of Saudi Arabia.",
+        "\"The gardens\", for the oases where it grew. The Masmak fortress, taken by Ibn Saud in 1902, marks the start of the modern kingdom.",
+        "Remember Riyadh as the gardens of the Najd oases, where the Masmak fortress marks the start of the kingdom."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Riyadh",
+        "https://en.wikipedia.org/wiki/Saudi_Arabia"
+      ],
+      "cameraBounds": [
+        [
+          45.42,
+          23.33
+        ],
+        [
+          48.02,
+          25.93
+        ]
+      ],
+      "transition": "Let's bring Riyadh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              45.42,
+              23.33
+            ],
+            [
+              48.02,
+              25.93
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Muscat",
+      "location": [
+        58.41,
+        23.59
+      ],
+      "lines": [
+        "Muscat stands on the coast of Oman, at the foot of the mountains that block the interior, on the Gulf of Oman.",
+        "Two Portuguese forts of the 16th century, Jalali and Mirani, guard its old harbour, and its Royal Opera House, opened in 2011, was the first in the Gulf.",
+        "Remember Muscat as the harbour guarded by two Portuguese forts, and the Gulf's first opera house."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muscat",
+        "https://en.wikipedia.org/wiki/Oman"
+      ],
+      "cameraBounds": [
+        [
+          57.08,
+          22.29
+        ],
+        [
+          59.68,
+          24.89
+        ]
+      ],
+      "transition": "Let's bring Muscat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              57.08,
+              22.29
+            ],
+            [
+              59.68,
+              24.89
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanaa",
+      "location": [
+        44.19,
+        15.37
+      ],
+      "lines": [
+        "Sanaa stands on the highland plateau of northern Yemen, about 2,250 metres above the Red Sea coast.",
+        "By tradition it was founded by Shem, a son of Noah, and its Great Mosque is one of the oldest in the Islamic world.",
+        "Remember Sanaa as the high plateau capital founded by tradition by a son of Noah, with one of Islam's oldest great mosques."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sanaa",
+        "https://en.wikipedia.org/wiki/Yemen"
+      ],
+      "cameraBounds": [
+        [
+          42.9,
+          14.06
+        ],
+        [
+          45.5,
+          16.66
+        ]
+      ],
+      "transition": "Let's bring Sanaa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              42.9,
+              14.06
+            ],
+            [
+              45.5,
+              16.66
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          46,
+          14
+        ],
+        [
+          62,
+          34
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Kuwait City, Manama and Doha line the Gulf's northern shore, with Abu Dhabi further west. Riyadh stands inland in the Najd highlands, Muscat on the coast of Oman, and Sanaa high on the Yemeni plateau.",
+    "Remember the twin towers of the emblem, the place of rest beside ancient Dilmun, the pearl divers who grew rich, the father of the gazelle, the gardens of the oases, the harbour of two Portuguese forts, and the city founded by a son of Noah."
+  ]
+}

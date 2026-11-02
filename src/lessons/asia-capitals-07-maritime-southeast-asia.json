@@ -1,0 +1,339 @@
+{
+  "title": "Asia capitals seven of seven · The Maritime South-East",
+  "edition": "Asia capitals · Seven regional lessons · John · November 2026",
+  "mapId": "asia-capitals",
+  "area": "Asia",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/asia-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      100,
+      -12
+    ],
+    [
+      130,
+      18
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Manila",
+      "location": [
+        120.98,
+        14.6
+      ],
+      "bounds": [
+        [
+          119.68,
+          13.31
+        ],
+        [
+          122.28,
+          15.91
+        ]
+      ]
+    },
+    {
+      "name": "Jakarta",
+      "location": [
+        106.85,
+        -6.21
+      ],
+      "bounds": [
+        [
+          105.53,
+          -7.47
+        ],
+        [
+          108.13,
+          -4.87
+        ]
+      ]
+    },
+    {
+      "name": "Bandar Seri Begawan",
+      "location": [
+        114.94,
+        4.89
+      ],
+      "bounds": [
+        [
+          114.03,
+          3.98
+        ],
+        [
+          115.83,
+          5.78
+        ]
+      ]
+    },
+    {
+      "name": "Singapore",
+      "location": [
+        103.82,
+        1.35
+      ],
+      "bounds": [
+        [
+          102.95,
+          0.39
+        ],
+        [
+          104.75,
+          2.19
+        ]
+      ]
+    },
+    {
+      "name": "Dili",
+      "location": [
+        125.58,
+        -8.55
+      ],
+      "bounds": [
+        [
+          124.68,
+          -9.46
+        ],
+        [
+          126.48,
+          -7.66
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Asia capitals, episode seven of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Five capitals of the maritime south-east: the Spanish walled city, the sinking capital of Java, the sultanate on Borneo, the island city and the far east of Timor."
+  ],
+  "states": [
+    {
+      "name": "Manila",
+      "location": [
+        120.98,
+        14.6
+      ],
+      "lines": [
+        "Manila stands on the bay in the west of Luzon, in the northern Philippines, on the South China Sea.",
+        "From may-nilad, \"where the nilad grows\", a shrub of its shores. Intramuros, the walled city the Spanish built, is at its heart.",
+        "Remember Manila as the city where the nilad grows, with the Spanish walled city at its heart."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Manila",
+        "https://en.wikipedia.org/wiki/Philippines"
+      ],
+      "cameraBounds": [
+        [
+          119.68,
+          13.31
+        ],
+        [
+          122.28,
+          15.91
+        ]
+      ],
+      "transition": "Let's bring Manila into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              119.68,
+              13.31
+            ],
+            [
+              122.28,
+              15.91
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jakarta",
+      "location": [
+        106.85,
+        -6.21
+      ],
+      "lines": [
+        "Jakarta stands on the north coast of Java, in the western part of Indonesia, facing the Java Sea.",
+        "From Jayakarta, \"complete victory\", given in 1527; the Dutch renamed it Batavia, and the name came back under the Japanese occupation in 1942.",
+        "Remember Jakarta as the complete victory that became Batavia and back again, and the sinking capital that is moving to Borneo."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jakarta",
+        "https://en.wikipedia.org/wiki/Indonesia"
+      ],
+      "cameraBounds": [
+        [
+          105.53,
+          -7.47
+        ],
+        [
+          108.13,
+          -4.87
+        ]
+      ],
+      "transition": "Let's bring Jakarta into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              105.53,
+              -7.47
+            ],
+            [
+              108.13,
+              -4.87
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bandar Seri Begawan",
+      "location": [
+        114.94,
+        4.89
+      ],
+      "lines": [
+        "Bandar Seri Begawan stands on the Brunei river in the north-west of Borneo, facing the water village of Kampong Ayer.",
+        "Named in 1970 in honour of the sultan's father, and the gold-domed Omar Ali Saifuddien Mosque rises over a lagoon.",
+        "Remember Bandar Seri Begawan as the capital named for a sultan's father, with the gold mosque over its lagoon."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bandar_Seri_Begawan",
+        "https://en.wikipedia.org/wiki/Brunei"
+      ],
+      "cameraBounds": [
+        [
+          114.03,
+          3.98
+        ],
+        [
+          115.83,
+          5.78
+        ]
+      ],
+      "transition": "Let's bring Bandar Seri Begawan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              114.03,
+              3.98
+            ],
+            [
+              115.83,
+              5.78
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singapore",
+      "location": [
+        103.82,
+        1.35
+      ],
+      "lines": [
+        "Singapore stands on an island at the southern tip of the Malay Peninsula, facing the Straits.",
+        "From Sanskrit Singapura, \"lion city\", though no lions are known to have lived there. Stamford Raffles founded a British trading post here in 1819.",
+        "Remember Singapore as the lion city where no lions lived, and the trading post of 1819 that became independent in 1965."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Singapore",
+        "https://en.wikipedia.org/wiki/Singapore"
+      ],
+      "cameraBounds": [
+        [
+          102.95,
+          0.39
+        ],
+        [
+          104.75,
+          2.19
+        ]
+      ],
+      "transition": "Let's bring Singapore into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              102.95,
+              0.39
+            ],
+            [
+              104.75,
+              2.19
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dili",
+      "location": [
+        125.58,
+        -8.55
+      ],
+      "lines": [
+        "Dili lies on the north coast of Timor, in the east of Timor-Leste, facing the island of Atauro.",
+        "It was the capital of Portuguese Timor from 1769, and its statue of Cristo Rei, 27 m high, stands on a headland east of the town.",
+        "Remember Dili as the Portuguese Timor capital of 1769, with Cristo Rei looking out over the northern coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dili",
+        "https://en.wikipedia.org/wiki/Timor-Leste"
+      ],
+      "cameraBounds": [
+        [
+          124.68,
+          -9.46
+        ],
+        [
+          126.48,
+          -7.66
+        ]
+      ],
+      "transition": "Let's bring Dili into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              124.68,
+              -9.46
+            ],
+            [
+              126.48,
+              -7.66
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          100,
+          -12
+        ],
+        [
+          130,
+          18
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Manila is in the north of the Philippines, Jakarta on the north coast of Java, Bandar Seri Begawan across Borneo's river, Singapore at the tip of the peninsula, and Dili on the north coast of Timor.",
+    "Remember where the nilad grows, the complete victory that became Batavia, the gold mosque over its lagoon, the lion city where no lions lived, and Cristo Rei above the northern coast."
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "title": "Asia capitals six of seven · Mainland Southeast Asia",
+  "edition": "Asia capitals · Seven regional lessons · John · November 2026",
+  "mapId": "asia-capitals",
+  "area": "Asia",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/asia-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      96,
+      5
+    ],
+    [
+      120,
+      26
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Bangkok",
+      "location": [
+        100.5,
+        13.75
+      ],
+      "bounds": [
+        [
+          99.21,
+          12.45
+        ],
+        [
+          101.81,
+          15.05
+        ]
+      ]
+    },
+    {
+      "name": "Phnom Penh",
+      "location": [
+        104.92,
+        11.56
+      ],
+      "bounds": [
+        [
+          103.61,
+          10.25
+        ],
+        [
+          106.21,
+          12.85
+        ]
+      ]
+    },
+    {
+      "name": "Vientiane",
+      "location": [
+        102.6,
+        17.97
+      ],
+      "bounds": [
+        [
+          101.3,
+          16.67
+        ],
+        [
+          103.9,
+          19.27
+        ]
+      ]
+    },
+    {
+      "name": "Hanoi",
+      "location": [
+        105.85,
+        21.03
+      ],
+      "bounds": [
+        [
+          104.55,
+          19.74
+        ],
+        [
+          107.15,
+          22.34
+        ]
+      ]
+    },
+    {
+      "name": "Naypyidaw",
+      "location": [
+        96.11,
+        19.75
+      ],
+      "bounds": [
+        [
+          94.82,
+          18.47
+        ],
+        [
+          97.42,
+          21.07
+        ]
+      ]
+    },
+    {
+      "name": "Kuala Lumpur",
+      "location": [
+        101.69,
+        3.14
+      ],
+      "bounds": [
+        [
+          100.39,
+          1.84
+        ],
+        [
+          102.99,
+          4.44
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Asia capitals, episode six of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Six capitals of mainland Southeast Asia: the Chao Phraya, the Mekong, the Red River and the Malay peninsula."
+  ],
+  "states": [
+    {
+      "name": "Bangkok",
+      "location": [
+        100.5,
+        13.75
+      ],
+      "lines": [
+        "Bangkok stands on the Chao Phraya river in the centre of Thailand, in the flat rice plains of the lower delta.",
+        "Thais call it Krung Thep, \"city of angels\". The reclining Buddha of Wat Pho is 46 m long, and its canals once led foreigners to call it the Venice of the East.",
+        "Remember Bangkok as the city of angels, the Venice of the East with a 46-metre reclining Buddha."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bangkok",
+        "https://en.wikipedia.org/wiki/Thailand"
+      ],
+      "cameraBounds": [
+        [
+          99.21,
+          12.45
+        ],
+        [
+          101.81,
+          15.05
+        ]
+      ],
+      "transition": "Let's bring Bangkok into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              99.21,
+              12.45
+            ],
+            [
+              101.81,
+              15.05
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Phnom Penh",
+      "location": [
+        104.92,
+        11.56
+      ],
+      "lines": [
+        "Phnom Penh stands where the Tonlé Sap river meets the Mekong, in the south of Cambodia.",
+        "\"Penh's hill\", for a woman, Daun Penh, who by legend found statues of the Buddha in the river. The Khmer Rouge emptied it in 1975, driving its people into the countryside.",
+        "Remember Phnom Penh as the hill of the woman who found the Buddhas, emptied by the Khmer Rouge in 1975."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Phnom_Penh",
+        "https://en.wikipedia.org/wiki/Cambodia"
+      ],
+      "cameraBounds": [
+        [
+          103.61,
+          10.25
+        ],
+        [
+          106.21,
+          12.85
+        ]
+      ],
+      "transition": "Let's bring Phnom Penh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              103.61,
+              10.25
+            ],
+            [
+              106.21,
+              12.85
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vientiane",
+      "location": [
+        102.6,
+        17.97
+      ],
+      "lines": [
+        "Vientiane stands on the Mekong in the north of Laos, facing Thailand across the river.",
+        "Often read as \"city of sandalwood\", its Pha That Luang, a golden stupa, is the national symbol.",
+        "Remember Vientiane as the city of sandalwood across the Mekong from Thailand, with the golden stupa."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vientiane",
+        "https://en.wikipedia.org/wiki/Laos"
+      ],
+      "cameraBounds": [
+        [
+          101.3,
+          16.67
+        ],
+        [
+          103.9,
+          19.27
+        ]
+      ],
+      "transition": "Let's bring Vientiane into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              101.3,
+              16.67
+            ],
+            [
+              103.9,
+              19.27
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hanoi",
+      "location": [
+        105.85,
+        21.03
+      ],
+      "lines": [
+        "Hanoi stands in the bend of the Red River in the north of Vietnam, in the delta of the Red River.",
+        "\"Inside the rivers\" — ha river, noi inside: it has been a capital on and off since 1010, when a king saw a dragon rise and named it Thang Long, ascending dragon.",
+        "Remember Hanoi as the city inside the river bend, called the ascending dragon, with the tortoise steles of its first university."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hanoi",
+        "https://en.wikipedia.org/wiki/Vietnam"
+      ],
+      "cameraBounds": [
+        [
+          104.55,
+          19.74
+        ],
+        [
+          107.15,
+          22.34
+        ]
+      ],
+      "transition": "Let's bring Hanoi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              104.55,
+              19.74
+            ],
+            [
+              107.15,
+              22.34
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Naypyidaw",
+      "location": [
+        96.11,
+        19.75
+      ],
+      "lines": [
+        "Naypyidaw stands in central Myanmar, in the hills of the Shan plateau, some 300 kilometres north of Yangon.",
+        "Built from nothing and made the capital in 2005, it has motorways of up to twenty lanes that are almost empty, and its name means \"abode of kings\".",
+        "Remember Naypyidaw as the capital built from nothing, its empty twenty-lane motorways and its name meaning abode of kings."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Naypyidaw",
+        "https://en.wikipedia.org/wiki/Myanmar"
+      ],
+      "cameraBounds": [
+        [
+          94.82,
+          18.47
+        ],
+        [
+          97.42,
+          21.07
+        ]
+      ],
+      "transition": "Let's bring Naypyidaw into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              94.82,
+              18.47
+            ],
+            [
+              97.42,
+              21.07
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kuala Lumpur",
+      "location": [
+        101.69,
+        3.14
+      ],
+      "lines": [
+        "Kuala Lumpur stands in the west of Peninsular Malaysia, where two rivers meet, inland from the strait.",
+        "\"Muddy confluence\", where two rivers meet. It grew from a tin-mining camp of the 1850s, and the Batu Caves, just outside it, hold a Hindu shrine reached by 272 steps.",
+        "Remember Kuala Lumpur as the muddy confluence of two rivers, grown from a tin camp."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+        "https://en.wikipedia.org/wiki/Malaysia"
+      ],
+      "cameraBounds": [
+        [
+          100.39,
+          1.84
+        ],
+        [
+          102.99,
+          4.44
+        ]
+      ],
+      "transition": "Let's bring Kuala Lumpur into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              100.39,
+              1.84
+            ],
+            [
+              102.99,
+              4.44
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          96,
+          5
+        ],
+        [
+          120,
+          26
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Bangkok stands on the Chao Phraya, Phnom Penh where the Tonlé Sap meets the Mekong, Vientiane across the river from Thailand, Hanoi in the bend of the Red River, Naypyidaw in the Shan hills, and Kuala Lumpur at a muddy confluence.",
+    "Remember the city of angels and its 46-metre Buddha, the hill of Daun Penh, the golden stupa, the ascending dragon, the capital built from nothing, and the muddy confluence of two rivers."
+  ]
+}

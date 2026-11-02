@@ -68,7 +68,9 @@ export async function gesture(page, action) {
     await page.mouse.move(...action.drag[1],{steps:35});await page.mouse.up();
   }
   if(action.wheel){await page.mouse.move(...action.wheel.point);await page.mouse.wheel(0,action.wheel.delta);}
-  await page.waitForTimeout(1800);
+  // The camera animation runs for 1400 ms. A click projected at one instant
+  // lands elsewhere if the camera is still moving, so wait well past it.
+  await page.waitForTimeout(2600);
 }
 
 export async function verifyUncovered(page) {

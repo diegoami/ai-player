@@ -1,0 +1,513 @@
+{
+  "title": "Asia capitals four of seven · The Levant, Iraq, Türkiye and Iran",
+  "edition": "Asia capitals · Seven regional lessons · John · November 2026",
+  "mapId": "asia-capitals",
+  "area": "Asia",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/asia-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      28,
+      28
+    ],
+    [
+      62,
+      46
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Nicosia",
+      "location": [
+        33.38,
+        35.17
+      ],
+      "bounds": [
+        [
+          32.47,
+          34.27
+        ],
+        [
+          34.27,
+          36.07
+        ]
+      ]
+    },
+    {
+      "name": "Beirut",
+      "location": [
+        35.5,
+        33.89
+      ],
+      "bounds": [
+        [
+          34.21,
+          32.57
+        ],
+        [
+          36.81,
+          35.17
+        ]
+      ]
+    },
+    {
+      "name": "Damascus",
+      "location": [
+        36.3,
+        33.51
+      ],
+      "bounds": [
+        [
+          35,
+          32.2
+        ],
+        [
+          37.6,
+          34.8
+        ]
+      ]
+    },
+    {
+      "name": "Amman",
+      "location": [
+        35.93,
+        31.95
+      ],
+      "bounds": [
+        [
+          34.63,
+          30.65
+        ],
+        [
+          37.23,
+          33.25
+        ]
+      ]
+    },
+    {
+      "name": "Jerusalem",
+      "location": [
+        35.22,
+        31.78
+      ],
+      "bounds": [
+        [
+          33.91,
+          30.48
+        ],
+        [
+          36.51,
+          33.08
+        ]
+      ]
+    },
+    {
+      "name": "Baghdad",
+      "location": [
+        44.36,
+        33.31
+      ],
+      "bounds": [
+        [
+          43.09,
+          32.04
+        ],
+        [
+          45.69,
+          34.64
+        ]
+      ]
+    },
+    {
+      "name": "Ankara",
+      "location": [
+        32.85,
+        39.93
+      ],
+      "bounds": [
+        [
+          31.56,
+          38.63
+        ],
+        [
+          34.16,
+          41.23
+        ]
+      ]
+    },
+    {
+      "name": "Tehran",
+      "location": [
+        51.39,
+        35.69
+      ],
+      "bounds": [
+        [
+          50.12,
+          34.37
+        ],
+        [
+          52.72,
+          36.97
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Asia capitals, episode four of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Eight capitals of the eastern Mediterranean and the Middle East: the island of Cyprus, the Levant coast, the Jordan, Jerusalem, the Tigris, and the two great inland powers."
+  ],
+  "states": [
+    {
+      "name": "Nicosia",
+      "location": [
+        33.38,
+        35.17
+      ],
+      "lines": [
+        "Nicosia stands on the plain in the centre of Cyprus, the largest city on the island.",
+        "Its Venetian walls of the 16th century form a star with eleven bastions, and since 2008 Ledra Street, in its old town, has been a crossing point between the two sides.",
+        "Remember Nicosia as the walled city of eleven bastions, whose old street is a crossing point between the two sides of the island."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nicosia",
+        "https://en.wikipedia.org/wiki/Cyprus"
+      ],
+      "cameraBounds": [
+        [
+          32.47,
+          34.27
+        ],
+        [
+          34.27,
+          36.07
+        ]
+      ],
+      "transition": "Let's bring Nicosia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              32.47,
+              34.27
+            ],
+            [
+              34.27,
+              36.07
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beirut",
+      "location": [
+        35.5,
+        33.89
+      ],
+      "lines": [
+        "Beirut stands on the coast of the Mediterranean in the west of Lebanon, on a bay below the Mount Lebanon range.",
+        "From an old word for \"wells\", its Roman school of law was one of the most famous of the empire. Rebuilt after the civil war of 1975 to 1990, it lost much of its port area to an explosion in 2020.",
+        "Remember Beirut as the city of wells and of the empire's law school, rebuilt after its civil war."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Beirut",
+        "https://en.wikipedia.org/wiki/Lebanon"
+      ],
+      "cameraBounds": [
+        [
+          34.21,
+          32.57
+        ],
+        [
+          36.81,
+          35.17
+        ]
+      ],
+      "transition": "Let's bring Beirut into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              34.21,
+              32.57
+            ],
+            [
+              36.81,
+              35.17
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Damascus",
+      "location": [
+        36.3,
+        33.51
+      ],
+      "lines": [
+        "Damascus stands on the Barada river in the south-west of Syria, on the edge of the Syrian desert.",
+        "The Umayyad Mosque, built in the early 8th century, is one of the oldest great mosques in the world, and the Straight Street of the Acts of the Apostles still crosses its old city.",
+        "Remember Damascus as the oldest great mosque of Islam, and the street of the Acts still crossing its old town."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Damascus",
+        "https://en.wikipedia.org/wiki/Syria"
+      ],
+      "cameraBounds": [
+        [
+          35,
+          32.2
+        ],
+        [
+          37.6,
+          34.8
+        ]
+      ],
+      "transition": "Let's bring Damascus into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              35,
+              32.2
+            ],
+            [
+              37.6,
+              34.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amman",
+      "location": [
+        35.93,
+        31.95
+      ],
+      "lines": [
+        "Amman stands on the hills of north-central Jordan, about 800 metres above the level of the Dead Sea below it.",
+        "The Rabbath Ammon of the Bible; the Greeks called it Philadelphia, and a Roman theatre for some 6,000 people is cut into a hill in its centre.",
+        "Remember Amman as the Rabbath Ammon of the Bible, with a Roman theatre cut into the hill in its middle."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amman",
+        "https://en.wikipedia.org/wiki/Jordan"
+      ],
+      "cameraBounds": [
+        [
+          34.63,
+          30.65
+        ],
+        [
+          37.23,
+          33.25
+        ]
+      ],
+      "transition": "Let's bring Amman into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              34.63,
+              30.65
+            ],
+            [
+              37.23,
+              33.25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jerusalem",
+      "location": [
+        35.22,
+        31.78
+      ],
+      "lines": [
+        "Jerusalem stands in the hills between the Mediterranean coast and the Jordan valley; Israel claims it as its capital and it is the administrative seat of the Palestinian Authority.",
+        "A city holy to Judaism, Christianity and Islam; the walls of its Old City were built by the Ottoman sultan Suleiman the Magnificent in the 1530s.",
+        "Remember Jerusalem as the holy city of three religions, whose status is one of the most disputed questions in the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jerusalem",
+        "https://en.wikipedia.org/wiki/Israel"
+      ],
+      "cameraBounds": [
+        [
+          33.91,
+          30.48
+        ],
+        [
+          36.51,
+          33.08
+        ]
+      ],
+      "transition": "Let's bring Jerusalem into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              33.91,
+              30.48
+            ],
+            [
+              36.51,
+              33.08
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baghdad",
+      "location": [
+        44.36,
+        33.31
+      ],
+      "lines": [
+        "Baghdad stands on the Tigris in the centre of Iraq, about a hundred kilometres from the Persian Gulf.",
+        "Founded in 762 by the caliph al-Mansur as a round city, its House of Wisdom was a great centre of learning in the Islamic golden age.",
+        "Remember Baghdad as the round city of 762, with the Tigris through its centre and the House of Wisdom."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baghdad",
+        "https://en.wikipedia.org/wiki/Iraq"
+      ],
+      "cameraBounds": [
+        [
+          43.09,
+          32.04
+        ],
+        [
+          45.69,
+          34.64
+        ]
+      ],
+      "transition": "Let's bring Baghdad into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              43.09,
+              32.04
+            ],
+            [
+              45.69,
+              34.64
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ankara",
+      "location": [
+        32.85,
+        39.93
+      ],
+      "lines": [
+        "Ankara stands on the Ankara river in the centre of Anatolia, in the middle of Türkiye, about 300 kilometres from the sea.",
+        "From Ancyra, Greek for \"anchor\". Atatürk made it the capital in 1923 over Istanbul, deliberately choosing a small Anatolian town of 30,000 people.",
+        "Remember Ankara as the anchor in the middle of Anatolia, chosen as capital in 1923 over Istanbul."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ankara",
+        "https://en.wikipedia.org/wiki/Turkey"
+      ],
+      "cameraBounds": [
+        [
+          31.56,
+          38.63
+        ],
+        [
+          34.16,
+          41.23
+        ]
+      ],
+      "transition": "Let's bring Ankara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              31.56,
+              38.63
+            ],
+            [
+              34.16,
+              41.23
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tehran",
+      "location": [
+        51.39,
+        35.69
+      ],
+      "lines": [
+        "Tehran stands on the southern slope of the Alborz mountains in the north of Iran, with ski slopes within an hour of the city.",
+        "The capital since 1786 under the Qajar dynasty, and its Azadi Tower, built in 1971, is the symbol of the city.",
+        "Remember Tehran as the capital of 1786 below the Alborz, with ski slopes an hour away."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tehran",
+        "https://en.wikipedia.org/wiki/Iran"
+      ],
+      "cameraBounds": [
+        [
+          50.12,
+          34.37
+        ],
+        [
+          52.72,
+          36.97
+        ]
+      ],
+      "transition": "Let's bring Tehran into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              50.12,
+              34.37
+            ],
+            [
+              52.72,
+              36.97
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          28,
+          28
+        ],
+        [
+          62,
+          46
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Nicosia stands alone on Cyprus, then Beirut, Damascus and Amman run along the Levant with Jerusalem among them. Baghdad sits on the Tigris, Ankara in Anatolia, and Tehran below the Alborz.",
+    "Remember the eleven bastions and the crossing street, the wells and the law school, the oldest great mosque, the theatre cut into a hill, the holy city of three religions, the round city of 762, the anchor chosen over Istanbul, and the capital of 1786."
+  ]
+}

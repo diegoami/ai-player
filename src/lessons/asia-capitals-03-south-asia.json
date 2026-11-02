@@ -1,0 +1,455 @@
+{
+  "title": "Asia capitals three of seven · South Asia",
+  "edition": "Asia capitals · Seven regional lessons · John · November 2026",
+  "mapId": "asia-capitals",
+  "area": "Asia",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/asia-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      60,
+      5
+    ],
+    [
+      92,
+      37
+    ]
+  ],
+  "restore": [
+    {
+      "name": "New Delhi",
+      "location": [
+        77.21,
+        28.61
+      ],
+      "bounds": [
+        [
+          75.9,
+          27.3
+        ],
+        [
+          78.5,
+          29.9
+        ]
+      ]
+    },
+    {
+      "name": "Islamabad",
+      "location": [
+        73.05,
+        33.68
+      ],
+      "bounds": [
+        [
+          71.78,
+          32.39
+        ],
+        [
+          74.38,
+          34.99
+        ]
+      ]
+    },
+    {
+      "name": "Kabul",
+      "location": [
+        69.21,
+        34.56
+      ],
+      "bounds": [
+        [
+          67.88,
+          33.22
+        ],
+        [
+          70.48,
+          35.82
+        ]
+      ]
+    },
+    {
+      "name": "Kathmandu",
+      "location": [
+        85.32,
+        27.71
+      ],
+      "bounds": [
+        [
+          84.01,
+          26.42
+        ],
+        [
+          86.61,
+          29.02
+        ]
+      ]
+    },
+    {
+      "name": "Thimphu",
+      "location": [
+        89.64,
+        27.47
+      ],
+      "bounds": [
+        [
+          88.74,
+          26.57
+        ],
+        [
+          90.54,
+          28.37
+        ]
+      ]
+    },
+    {
+      "name": "Dhaka",
+      "location": [
+        90.41,
+        23.81
+      ],
+      "bounds": [
+        [
+          89.11,
+          22.43
+        ],
+        [
+          91.71,
+          25.03
+        ]
+      ]
+    },
+    {
+      "name": "Colombo",
+      "location": [
+        79.86,
+        6.93
+      ],
+      "bounds": [
+        [
+          78.56,
+          5.63
+        ],
+        [
+          81.16,
+          8.23
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Asia capitals, episode three of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Seven capitals of South Asia: the two planned capitals of the north, the Hindu Kush, the Himalaya, the Bengal delta and the island of Sri Lanka."
+  ],
+  "states": [
+    {
+      "name": "New Delhi",
+      "location": [
+        77.21,
+        28.61
+      ],
+      "lines": [
+        "New Delhi stands on the Yamuna river in north-central India, about fifteen kilometres from the older city of Delhi.",
+        "Planned by the architects Edwin Lutyens and Herbert Baker and inaugurated in 1931, its Rashtrapati Bhavan, the president's palace, has some 340 rooms.",
+        "Remember New Delhi as the planned garden capital of 1931, with India Gate for the soldiers of the First World War."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/New_Delhi",
+        "https://en.wikipedia.org/wiki/India"
+      ],
+      "cameraBounds": [
+        [
+          75.9,
+          27.3
+        ],
+        [
+          78.5,
+          29.9
+        ]
+      ],
+      "transition": "Let's bring New Delhi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              75.9,
+              27.3
+            ],
+            [
+              78.5,
+              29.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Islamabad",
+      "location": [
+        73.05,
+        33.68
+      ],
+      "lines": [
+        "Islamabad was built in the 1960s as a new capital at the foot of the Margalla Hills, in the north of Pakistan.",
+        "Its Faisal Mosque, shaped like a desert tent, was for years the largest in the world, and its twin city Rawalpindi lies right next to it.",
+        "Remember Islamabad as the new tent-shaped mosque capital of the 1960s, beside its twin city."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Islamabad",
+        "https://en.wikipedia.org/wiki/Pakistan"
+      ],
+      "cameraBounds": [
+        [
+          71.78,
+          32.39
+        ],
+        [
+          74.38,
+          34.99
+        ]
+      ],
+      "transition": "Let's bring Islamabad into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              71.78,
+              32.39
+            ],
+            [
+              74.38,
+              34.99
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kabul",
+      "location": [
+        69.21,
+        34.56
+      ],
+      "lines": [
+        "Kabul lies in a valley among the mountains of the Hindu Kush, in the east of Afghanistan, at about 1,800 metres.",
+        "Babur, the founder of the Mughal empire, asked to be buried here, and his garden tomb still stands.",
+        "Remember Kabul as the high valley capital where Babur asked to be buried, and one of the highest capitals in the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kabul",
+        "https://en.wikipedia.org/wiki/Afghanistan"
+      ],
+      "cameraBounds": [
+        [
+          67.88,
+          33.22
+        ],
+        [
+          70.48,
+          35.82
+        ]
+      ],
+      "transition": "Let's bring Kabul into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              67.88,
+              33.22
+            ],
+            [
+              70.48,
+              35.82
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kathmandu",
+      "location": [
+        85.32,
+        27.71
+      ],
+      "lines": [
+        "Kathmandu stands in a valley north of the Himalayas, in the centre of Nepal, at about 1,400 metres.",
+        "From Kasthamandap, a temple said to have been built from the wood of a single tree, its Durbar Square belongs to the valley's UNESCO site.",
+        "Remember Kathmandu as the temple of a single tree, with the stupa of Swayambhunath on its hill."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kathmandu",
+        "https://en.wikipedia.org/wiki/Nepal"
+      ],
+      "cameraBounds": [
+        [
+          84.01,
+          26.42
+        ],
+        [
+          86.61,
+          29.02
+        ]
+      ],
+      "transition": "Let's bring Kathmandu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              84.01,
+              26.42
+            ],
+            [
+              86.61,
+              29.02
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thimphu",
+      "location": [
+        89.64,
+        27.47
+      ],
+      "lines": [
+        "Thimphu lies in a valley in the north of Bhutan, on the Wang Chhu river below the mountains that ring the kingdom.",
+        "A capital without traffic lights: police officers direct the traffic by hand. It became the capital in 1961.",
+        "Remember Thimphu as the capital with no traffic lights, its police waving cars through the valley by hand."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thimphu",
+        "https://en.wikipedia.org/wiki/Bhutan"
+      ],
+      "cameraBounds": [
+        [
+          88.74,
+          26.57
+        ],
+        [
+          90.54,
+          28.37
+        ]
+      ],
+      "transition": "Let's bring Thimphu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              88.74,
+              26.57
+            ],
+            [
+              90.54,
+              28.37
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dhaka",
+      "location": [
+        90.41,
+        23.81
+      ],
+      "lines": [
+        "Dhaka stands on the Buriganga river in the centre of Bangladesh, in the delta of the Ganges, Brahmaputra and Meghna.",
+        "Often called the rickshaw capital of the world, it is one of the most densely populated cities in the world.",
+        "Remember Dhaka as the rickshaw capital of the delta, with Louis Kahn's parliament house of 1982."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dhaka",
+        "https://en.wikipedia.org/wiki/Bangladesh"
+      ],
+      "cameraBounds": [
+        [
+          89.11,
+          22.43
+        ],
+        [
+          91.71,
+          25.03
+        ]
+      ],
+      "transition": "Let's bring Dhaka into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              89.11,
+              22.43
+            ],
+            [
+              91.71,
+              25.03
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colombo",
+      "location": [
+        79.86,
+        6.93
+      ],
+      "lines": [
+        "Colombo stands on the west coast of Sri Lanka, on the shore facing the Indian Ocean; the official capital, Sri Jayawardenepura Kotte, lies on its edge.",
+        "Its seaside park, Galle Face Green, dates from 1859, and Arab traders knew its harbour centuries before the Portuguese arrived in 1505.",
+        "Remember Colombo as the commercial capital on the Indian Ocean, with a harbour known to Arab traders long before the Portuguese."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colombo",
+        "https://en.wikipedia.org/wiki/Sri_Lanka"
+      ],
+      "cameraBounds": [
+        [
+          78.56,
+          5.63
+        ],
+        [
+          81.16,
+          8.23
+        ]
+      ],
+      "transition": "Let's bring Colombo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              78.56,
+              5.63
+            ],
+            [
+              81.16,
+              8.23
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          60,
+          5
+        ],
+        [
+          92,
+          37
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "New Delhi and Islamabad are the twentieth-century planned capitals, with Kabul in the Hindu Kush between them. Kathmandu and Thimphu are the Himalayan valleys, Dhaka the delta, and Colombo the ocean port.",
+    "Remember the garden capital of 1931, the tent-shaped mosque, Babur's tomb, the temple of a single tree, the capital with no traffic lights, the rickshaw capital, and the harbour Arab traders knew first."
+  ]
+}

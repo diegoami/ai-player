@@ -1,0 +1,328 @@
+{
+  "edition": "Asia capitals · Seven regional lessons · November 2026",
+  "status": "complete",
+  "scope": "All 47 capital targets of GeoClick's native asia-capitals map, each exactly once: the capitals of every Asian country the map names. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 47,
+  "countryCount": 47,
+  "nativeTargetCount": 47,
+  "nativeTeachingStopCount": 47,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 47,
+  "episodes": [
+    {
+      "id": "central-asia-and-caucasus",
+      "title": "Central Asia and the Caucasus",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-01-central-asia-and-caucasus.json",
+      "places": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent",
+        "Dushanbe",
+        "Ashgabat",
+        "Tbilisi",
+        "Baku",
+        "Yerevan"
+      ],
+      "countries": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent",
+        "Dushanbe",
+        "Ashgabat",
+        "Tbilisi",
+        "Baku",
+        "Yerevan"
+      ],
+      "nativeTargets": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent",
+        "Dushanbe",
+        "Ashgabat",
+        "Tbilisi",
+        "Baku",
+        "Yerevan"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-20261102/01-central-asia-and-caucasus/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 390.32,
+      "covered": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent",
+        "Dushanbe",
+        "Ashgabat",
+        "Tbilisi",
+        "Baku",
+        "Yerevan"
+      ]
+    },
+    {
+      "id": "east-asia",
+      "title": "East Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-02-east-asia.json",
+      "places": [
+        "Beijing",
+        "Pyongyang",
+        "Seoul",
+        "Tokyo",
+        "Taipei"
+      ],
+      "countries": [
+        "Beijing",
+        "Pyongyang",
+        "Seoul",
+        "Tokyo",
+        "Taipei"
+      ],
+      "nativeTargets": [
+        "Beijing",
+        "Pyongyang",
+        "Seoul",
+        "Tokyo",
+        "Taipei"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-20261102/02-east-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 241.4,
+      "covered": [
+        "Beijing",
+        "Pyongyang",
+        "Seoul",
+        "Tokyo",
+        "Taipei"
+      ]
+    },
+    {
+      "id": "south-asia",
+      "title": "South Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-03-south-asia.json",
+      "places": [
+        "New Delhi",
+        "Islamabad",
+        "Kabul",
+        "Kathmandu",
+        "Thimphu",
+        "Dhaka",
+        "Colombo"
+      ],
+      "countries": [
+        "New Delhi",
+        "Islamabad",
+        "Kabul",
+        "Kathmandu",
+        "Thimphu",
+        "Dhaka",
+        "Colombo"
+      ],
+      "nativeTargets": [
+        "New Delhi",
+        "Islamabad",
+        "Kabul",
+        "Kathmandu",
+        "Thimphu",
+        "Dhaka",
+        "Colombo"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-20261102/03-south-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 314.48,
+      "covered": [
+        "New Delhi",
+        "Islamabad",
+        "Kabul",
+        "Kathmandu",
+        "Thimphu",
+        "Dhaka",
+        "Colombo"
+      ]
+    },
+    {
+      "id": "levant-iraq-turkey-iran",
+      "title": "The Levant, Iraq, Türkiye and Iran",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-04-levant-iraq-turkey-iran.json",
+      "places": [
+        "Nicosia",
+        "Beirut",
+        "Damascus",
+        "Amman",
+        "Jerusalem",
+        "Baghdad",
+        "Ankara",
+        "Tehran"
+      ],
+      "countries": [
+        "Nicosia",
+        "Beirut",
+        "Damascus",
+        "Amman",
+        "Jerusalem",
+        "Baghdad",
+        "Ankara",
+        "Tehran"
+      ],
+      "nativeTargets": [
+        "Nicosia",
+        "Beirut",
+        "Damascus",
+        "Amman",
+        "Jerusalem",
+        "Baghdad",
+        "Ankara",
+        "Tehran"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-20261102/04-levant-iraq-turkey-iran/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 362.24,
+      "covered": [
+        "Nicosia",
+        "Beirut",
+        "Damascus",
+        "Amman",
+        "Jerusalem",
+        "Baghdad",
+        "Ankara",
+        "Tehran"
+      ]
+    },
+    {
+      "id": "gulf-and-peninsula",
+      "title": "The Gulf and the Peninsula",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-05-gulf-and-peninsula.json",
+      "places": [
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Abu Dhabi",
+        "Riyadh",
+        "Muscat",
+        "Sanaa"
+      ],
+      "countries": [
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Abu Dhabi",
+        "Riyadh",
+        "Muscat",
+        "Sanaa"
+      ],
+      "nativeTargets": [
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Abu Dhabi",
+        "Riyadh",
+        "Muscat",
+        "Sanaa"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-20261102/05-gulf-and-peninsula/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 313.56,
+      "covered": [
+        "Kuwait City",
+        "Manama",
+        "Doha",
+        "Abu Dhabi",
+        "Riyadh",
+        "Muscat",
+        "Sanaa"
+      ]
+    },
+    {
+      "id": "mainland-southeast-asia",
+      "title": "Mainland Southeast Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-06-mainland-southeast-asia.json",
+      "places": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Naypyidaw",
+        "Kuala Lumpur"
+      ],
+      "countries": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Naypyidaw",
+        "Kuala Lumpur"
+      ],
+      "nativeTargets": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Naypyidaw",
+        "Kuala Lumpur"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-20261102/06-mainland-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 285.2,
+      "covered": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Naypyidaw",
+        "Kuala Lumpur"
+      ]
+    },
+    {
+      "id": "maritime-southeast-asia",
+      "title": "The Maritime South-East",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-07-maritime-southeast-asia.json",
+      "places": [
+        "Manila",
+        "Jakarta",
+        "Bandar Seri Begawan",
+        "Singapore",
+        "Dili"
+      ],
+      "countries": [
+        "Manila",
+        "Jakarta",
+        "Bandar Seri Begawan",
+        "Singapore",
+        "Dili"
+      ],
+      "nativeTargets": [
+        "Manila",
+        "Jakarta",
+        "Bandar Seri Begawan",
+        "Singapore",
+        "Dili"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-20261102/07-maritime-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 247.04,
+      "covered": [
+        "Manila",
+        "Jakarta",
+        "Bandar Seri Begawan",
+        "Singapore",
+        "Dili"
+      ]
+    }
+  ],
+  "coveredCountryCount": 47
+}

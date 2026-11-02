@@ -1,0 +1,571 @@
+{
+  "title": "Asia capitals one of seven · Central Asia and the Caucasus",
+  "edition": "Asia capitals · Seven regional lessons · John · November 2026",
+  "mapId": "asia-capitals",
+  "area": "Asia",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/asia-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      44,
+      32
+    ],
+    [
+      114,
+      58
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Astana",
+      "location": [
+        71.43,
+        51.13
+      ],
+      "bounds": [
+        [
+          70.13,
+          49.88
+        ],
+        [
+          72.73,
+          52.48
+        ]
+      ]
+    },
+    {
+      "name": "Ulaanbaatar",
+      "location": [
+        106.92,
+        47.89
+      ],
+      "bounds": [
+        [
+          105.61,
+          46.62
+        ],
+        [
+          108.21,
+          49.22
+        ]
+      ]
+    },
+    {
+      "name": "Bishkek",
+      "location": [
+        74.59,
+        42.87
+      ],
+      "bounds": [
+        [
+          73.28,
+          41.58
+        ],
+        [
+          75.88,
+          44.18
+        ]
+      ]
+    },
+    {
+      "name": "Tashkent",
+      "location": [
+        69.24,
+        41.3
+      ],
+      "bounds": [
+        [
+          67.97,
+          40
+        ],
+        [
+          70.57,
+          42.6
+        ]
+      ]
+    },
+    {
+      "name": "Dushanbe",
+      "location": [
+        68.79,
+        38.55
+      ],
+      "bounds": [
+        [
+          67.47,
+          37.26
+        ],
+        [
+          70.07,
+          39.86
+        ]
+      ]
+    },
+    {
+      "name": "Ashgabat",
+      "location": [
+        58.38,
+        37.95
+      ],
+      "bounds": [
+        [
+          57.08,
+          36.65
+        ],
+        [
+          59.68,
+          39.25
+        ]
+      ]
+    },
+    {
+      "name": "Tbilisi",
+      "location": [
+        44.79,
+        41.72
+      ],
+      "bounds": [
+        [
+          43.49,
+          40.43
+        ],
+        [
+          46.09,
+          43.03
+        ]
+      ]
+    },
+    {
+      "name": "Baku",
+      "location": [
+        49.87,
+        40.41
+      ],
+      "bounds": [
+        [
+          48.56,
+          39.1
+        ],
+        [
+          51.16,
+          41.7
+        ]
+      ]
+    },
+    {
+      "name": "Yerevan",
+      "location": [
+        44.51,
+        40.18
+      ],
+      "bounds": [
+        [
+          43.21,
+          38.88
+        ],
+        [
+          45.81,
+          41.48
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Asia capitals, episode one of seven. First, I clear the chosen names for a fresh regional lesson.",
+    "Nine capitals run from the steppes of Central Asia to the Caucasus: Astana, Ulaanbaatar, Bishkek, Tashkent, Dushanbe and Ashgabat, then Tbilisi, Baku and Yerevan."
+  ],
+  "states": [
+    {
+      "name": "Astana",
+      "location": [
+        71.43,
+        51.13
+      ],
+      "lines": [
+        "Astana stands on the Ishim river in the north of Kazakhstan, on the middle of the Eurasian steppe, where the country chose its capital in 1997.",
+        "Its name means \"capital\" in Kazakh, and it has changed its name four times since the Soviet era. It is one of the coldest capitals in the world.",
+        "Remember Astana as the steppe capital renamed four times, with its Bayterek tower meant to be a tree holding a golden egg."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Astana",
+        "https://en.wikipedia.org/wiki/Kazakhstan"
+      ],
+      "cameraBounds": [
+        [
+          70.13,
+          49.88
+        ],
+        [
+          72.73,
+          52.48
+        ]
+      ],
+      "transition": "Let's bring Astana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              70.13,
+              49.88
+            ],
+            [
+              72.73,
+              52.48
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ulaanbaatar",
+      "location": [
+        106.92,
+        47.89
+      ],
+      "lines": [
+        "Ulaanbaatar stands in the valley of the Tuul river in the north of Mongolia, where the winter is severe on the open steppe.",
+        "\"Red hero\", a name given in 1924, it is the coldest national capital in the world by average temperature.",
+        "Remember Ulaanbaatar as the Red Hero, a moving monastery town that settled here only in 1778."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ulaanbaatar",
+        "https://en.wikipedia.org/wiki/Mongolia"
+      ],
+      "cameraBounds": [
+        [
+          105.61,
+          46.62
+        ],
+        [
+          108.21,
+          49.22
+        ]
+      ],
+      "transition": "Let's bring Ulaanbaatar into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              105.61,
+              46.62
+            ],
+            [
+              108.21,
+              49.22
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bishkek",
+      "location": [
+        74.59,
+        42.87
+      ],
+      "lines": [
+        "Bishkek lies at the foot of the Tian Shan mountains in the north of Kyrgyzstan, with the range rising to its south.",
+        "From 1926 to 1991 it was called Frunze, after a Red Army commander born here, and a statue of Manas, hero of the Kyrgyz epic, stands on its main square.",
+        "Remember Bishkek as the city of the Tian Shan, with Manas, the epic hero, on its main square."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishkek",
+        "https://en.wikipedia.org/wiki/Kyrgyzstan"
+      ],
+      "cameraBounds": [
+        [
+          73.28,
+          41.58
+        ],
+        [
+          75.88,
+          44.18
+        ]
+      ],
+      "transition": "Let's bring Bishkek into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              73.28,
+              41.58
+            ],
+            [
+              75.88,
+              44.18
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tashkent",
+      "location": [
+        69.24,
+        41.3
+      ],
+      "lines": [
+        "Tashkent lies in the fertile Fergana valley in the east of Uzbekistan, the largest city of former Soviet Central Asia.",
+        "\"Stone city\", much of it was rebuilt after an earthquake in 1966, and its metro, opened in 1977, was the first in Central Asia.",
+        "Remember Tashkent as the stone city that rebuilt itself after the earthquake of 1966, with Central Asia's first underground."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tashkent",
+        "https://en.wikipedia.org/wiki/Uzbekistan"
+      ],
+      "cameraBounds": [
+        [
+          67.97,
+          40
+        ],
+        [
+          70.57,
+          42.6
+        ]
+      ],
+      "transition": "Let's bring Tashkent into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              67.97,
+              40
+            ],
+            [
+              70.57,
+              42.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dushanbe",
+      "location": [
+        68.79,
+        38.55
+      ],
+      "lines": [
+        "Dushanbe stands in the valley of the Varzob river in the west of Tajikistan, at the foot of the Pamirs.",
+        "\"Monday\" in Tajik, for the market held here on that day, it was a village until 1924 and grew as the capital of Soviet Tajikistan.",
+        "Remember Dushanbe as the Monday market town that became a capital in 1924, once home to the world's tallest flagpole."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dushanbe",
+        "https://en.wikipedia.org/wiki/Tajikistan"
+      ],
+      "cameraBounds": [
+        [
+          67.47,
+          37.26
+        ],
+        [
+          70.07,
+          39.86
+        ]
+      ],
+      "transition": "Let's bring Dushanbe into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              67.47,
+              37.26
+            ],
+            [
+              70.07,
+              39.86
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashgabat",
+      "location": [
+        58.38,
+        37.95
+      ],
+      "lines": [
+        "Ashgabat lies at the edge of the Karakum desert in the south of Turkmenistan, below the Kopet Dag mountains.",
+        "Its name is usually read as \"city of love\", from Persian. An earthquake flattened it in 1948, killing a large part of its people.",
+        "Remember Ashgabat as the city of love on the edge of the Karakum desert, rebuilt after the earthquake of 1948."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ashgabat",
+        "https://en.wikipedia.org/wiki/Turkmenistan"
+      ],
+      "cameraBounds": [
+        [
+          57.08,
+          36.65
+        ],
+        [
+          59.68,
+          39.25
+        ]
+      ],
+      "transition": "Let's bring Ashgabat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              57.08,
+              36.65
+            ],
+            [
+              59.68,
+              39.25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tbilisi",
+      "location": [
+        44.79,
+        41.72
+      ],
+      "lines": [
+        "Tbilisi stands in a valley in the east of Georgia, on the Mtkvari river between the ranges of the Caucasus.",
+        "From tbili, \"warm\", for its sulphur springs. By legend King Vakhtang founded it after his falcon fell into a hot spring while hunting.",
+        "Remember Tbilisi as the warm sulphur spring of the legend, where the old town mixes Georgian churches, a mosque and Persian bathhouses."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tbilisi",
+        "https://en.wikipedia.org/wiki/Georgia_(country)"
+      ],
+      "cameraBounds": [
+        [
+          43.49,
+          40.43
+        ],
+        [
+          46.09,
+          43.03
+        ]
+      ],
+      "transition": "Let's bring Tbilisi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              43.49,
+              40.43
+            ],
+            [
+              46.09,
+              43.03
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baku",
+      "location": [
+        49.87,
+        40.41
+      ],
+      "lines": [
+        "Baku stands on the Caspian shore in the east of Azerbaijan, on the Absheron peninsula.",
+        "The name may come from a Persian phrase for \"wind-pounded city\", and at about 28 m below sea level it is the lowest capital in the world.",
+        "Remember Baku as the lowest capital on Earth, its walled old city and Maiden Tower a UNESCO site."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baku",
+        "https://en.wikipedia.org/wiki/Azerbaijan"
+      ],
+      "cameraBounds": [
+        [
+          48.56,
+          39.1
+        ],
+        [
+          51.16,
+          41.7
+        ]
+      ],
+      "transition": "Let's bring Baku into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              48.56,
+              39.1
+            ],
+            [
+              51.16,
+              41.7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yerevan",
+      "location": [
+        44.51,
+        40.18
+      ],
+      "lines": [
+        "Yerevan stands on the Hrazdan river in the west of Armenia, in the plain below Mount Ararat.",
+        "It began as the fortress of Erebuni in 782 BC, 29 years before Rome by the traditional date, and much of it is built of pink volcanic stone.",
+        "Remember Yerevan as the pink city, founded as a fortress of Erebuni before Rome, with the Matenadaran's medieval manuscripts."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yerevan",
+        "https://en.wikipedia.org/wiki/Armenia"
+      ],
+      "cameraBounds": [
+        [
+          43.21,
+          38.88
+        ],
+        [
+          45.81,
+          41.48
+        ]
+      ],
+      "transition": "Let's bring Yerevan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              43.21,
+              38.88
+            ],
+            [
+              45.81,
+              41.48
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          44,
+          32
+        ],
+        [
+          114,
+          58
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Astana and Ulaanbaatar are the two great steppe capitals, with Bishkek, Tashkent, Dushanbe and Ashgabat between them. Tbilisi, Baku and Yerevan close the group in the Caucasus.",
+    "Remember the capital renamed four times, the Red Hero of the cold, the stone city rebuilt after its earthquake, the Monday market town, the city of love, the warm spring, the lowest capital on Earth, and the pink city founded before Rome."
+  ]
+}
