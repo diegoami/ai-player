@@ -10,6 +10,12 @@ playlist [`PLNl_MybP55PE`](https://www.youtube.com/playlist?list=PLNl_MybP55PE),
 **Learning Geography with Geoclick**. Policy and known IDs are in
 [config/geoclick-youtube.json](../config/geoclick-youtube.json).
 
+**Current state: all 26 videos are public and the playlist is public.** The
+release happened on 2 November 2026 with subtitles deliberately postponed; see
+*Published release: 2 November 2026* below. The older sections are kept as the
+history of how the eleven US and Europe videos and the eight Africa uploads
+got there.
+
 ## Commands from ai-player
 
 ```powershell
@@ -34,6 +40,35 @@ powershell -NoProfile -ExecutionPolicy Bypass -File bin/geoclick-youtube.ps1 -Mo
 # Account reads only: check public visibility, descriptions, metadata and order.
 powershell -NoProfile -ExecutionPolicy Bypass -File bin/geoclick-youtube.ps1 -Mode verify
 ```
+
+### Commands for the published release (2 November 2026)
+
+The owner asked for the videos to be published with subtitles postponed,
+because caption insertion is expensive. Two scripts serve that release. Both
+call installed youtube3 2.10.0 for every account write; neither reimplements
+uploads, OAuth, captions or recovery, and neither touches a native checkpoint.
+
+```powershell
+$py = "$env:LOCALAPPDATA\Programs\youtube3\Scripts\python.exe"
+
+# Upload an approved series (caption-free derived batch, chosen visibility).
+& $py -I bin/upload-series.py --series asia --privacy unlisted
+& $py -I bin/upload-series.py --series north-america --privacy unlisted
+
+# Publish what already exists: playlist link in the description, public
+# visibility, screenshot thumbnail and playlist seat. Captions are never sent.
+& $py -I bin/publish-videos.py --step us-europe
+& $py -I bin/publish-videos.py --step asia
+& $py -I bin/publish-videos.py --step africa
+& $py -I bin/publish-videos.py --step playlist
+
+# Account reads only: visibility, links, playlist order and membership.
+& $py -I bin/publish-videos.py --step verify
+```
+
+Order matters for the playlist: `us-europe` first, then the Asia upload, then
+`africa`. Each seat is appended, so the list ends up United States (5), Europe
+(6), Asia (7), Africa (8).
 
 The wrapper defaults to
 `$env:LOCALAPPDATA\Programs\youtube3\Scripts\python.exe`. Set
@@ -152,6 +187,86 @@ confirming the corresponding uncertain write did not land. Never use
 `--confirm-not-uploaded` for any of the eleven known video IDs. Do not edit
 checkpoint states manually. Resume through ai-player after explicit recovery.
 
+## Published release: 2 November 2026
+
+The owner asked to publish the videos and to postpone subtitles, because
+caption insertion is expensive. All three pending series went out. Every
+write went through installed youtube3 2.10.0; no caption was read, planned or
+inserted in this release.
+
+Live state, confirmed by a fresh read after the last write:
+
+- **32 videos are public** on channel `UCQHMx6rNOKfLxFRI4_Tf6cA`: eleven US
+  and Europe, seven Asia and eight Africa, plus the three North America and
+  three South America videos that went out unlisted and were later made
+  public at the owner's request. Each description carries the playlist link
+  exactly once.
+- **Thirteen more videos are unlisted**, added at the end of the day: six
+  Europe capitals lessons and seven Asia capitals lessons. They are reachable
+  through the playlist but not pushed to the channel. See *Europe capitals:
+  uploaded unlisted* and *Asia capitals: uploaded unlisted* below.
+- **The playlist `PLNl_MybP55PE` is public** with all 45 members, in order:
+  United States 1–5, Europe 1–6, Asia 1–7, Africa 1–8, North America 1–3,
+  South America 1–3, Europe capitals 1–6, Asia capitals 1–7. No duplicates and
+  no unrelated members. Title, description and the screenshot cover are
+  unchanged.
+- **Captions are deferred, not installed.** Ten US and Europe videos keep the
+  captions they already had. Thirty-five videos have no caption track:
+  Europe 6, all seven Asia videos, all eight Africa videos and the twenty
+  North America, South America, Europe capitals and Asia capitals videos.
+
+New artefacts, all ignored by Git:
+
+| Artefact | What it is |
+|---|---|
+| `rendered/youtube-publishing/publish-run.json` | The last publish step and its accepted actions |
+| `rendered/youtube-publishing/publish-verification.json` | The read-back of visibility, links and playlist order |
+| `rendered/asia-seven-20261101/youtube-publishing/batch-upload.json` | The caption-free derived Asia batch used for the upload |
+| `rendered/asia-seven-20261101/youtube-publishing/plan-upload.json`, `queue-upload.json`, `queue-upload.json.jobs/` | The native plan, queue and checkpoints of the seven Asia uploads |
+| `rendered/asia-seven-20261101/youtube-publishing/upload-run.json` | The accepted Asia upload IDs and their playlist seats |
+
+The seven Asia uploads went through youtube3's own `plan`, `run` and queue flow
+with the same shared per-channel upload ledger; the ledger now holds 26
+records. The derived batch omits the subtitle rows, so no caption stage exists
+in those jobs at all.
+
+### Two things the API required
+
+- **Playlist visibility** cannot be changed with a status-only call. YouTube
+  refuses `part=status` with `unexpectedPart`. The working form is
+  `part=snippet,status` with the current snippet sent back unchanged beside
+  `status.privacyStatus`, which leaves the title, description and cover as
+  they were.
+- **The queued publication target is not the release.** The native Africa and
+  Europe 6 jobs still name `private`/`unlisted` as their publication target,
+  because those plans predate the release. **Do not resume those queues to add
+  captions**: the publication stage would put the videos back to private.
+  Captions for the sixteen videos are uploaded per video with youtube3's own
+  caption upload instead, which touches only the caption track.
+
+### Recovering captions later
+
+Captions are optional tracks, not part of publication. When the owner decides
+to add them, use installed youtube3's own per-video caption upload for each of
+the sixteen videos below, one at a time, and stop on any quota refusal:
+
+| Series | Video IDs without a caption track |
+|---|---|
+| Europe | `XjTQCS8WNEc` |
+| Asia | `ZWDk7zrMGVI`, `uNAcGGGhEsA`, `L4UhrpAyu4M`, `YOThLJvmFzs`, `fQWA6FnkaCI`, `kGCh1nB_J-Q`, `GEBsFJ0db3k` |
+| Africa | `pT0TDuGl2e4`, `s0vsG7yVHlY`, `Xy_DXMAmwA0`, `hLO1bU245W0`, `Y76NzmtwcmY`, `b86GIVPIUwk`, `s8dLsVaWWHs`, `iFDob_qsXiE` |
+| North America | `mEvKC8wtS44`, `CktKmkqtw8g`, `Fm2Y-M0-Btw` |
+| South America | `m_s2tya9grM`, `-Wi_pE_Nwx0`, `_q2YJDRGgpg` |
+| Europe capitals | `L_fCNufSRMM`, `mZ6S5pXin7E`, `dmuhY0J50I0`, `2GOYTfxBX4A`, `ZHbvY3GAGwg`, `285b_NcXI5Y` |
+| Asia capitals | `zSO15iqpqjQ`, `eZjfTqr5gLU`, `JgDnVRBCXck`, `JkfAdRz4VKk`, `xi7PSSQea20`, `jqr0M9ifQJY`, `guDkbWfob2w` |
+
+The exact approved English SRT/WebVTT bytes are backed up in
+[subtitles/](../subtitles/README.md) and mapped to those video IDs in
+`subtitles/manifest.json`. Uploading them changes only the caption track; the
+published visibility, description, thumbnail and playlist seat stay as they
+are.
+
+
 ## Offline Asia queue
 
 `prepare` defaults to the Asia ledger's approved paths. US and Europe already
@@ -166,13 +281,18 @@ Output: `rendered/asia-seven-20261101/youtube-publishing/batch.json`,
 `offline-manifest.json` and seven JPEG thumbnails. Every description contains
 the playlist, game, GeoClick repository and ai-player repository links. Masters
 and captions have fingerprints; planned visibility is private with subscriber
-notifications disabled. **Uploading Asia is not authorized by this release.**
+notifications disabled.
 
 This is a durable offline batch definition, not a fabricated native youtube3
 queue: native `plan_batch` verifies the account and therefore needs API reads.
 No native Asia queue or new upload ledger is created offline. After separate
 owner authorization, use youtube3's own plan/run/queue flow and the same shared
-ledger; do not build custom upload, OAuth, caption or recovery code.
+ledger; do not build custom upload, OAuth, caption or recovery code. That
+authorization came on 2 November 2026: the seven videos were uploaded and
+published through `bin/upload-asia.py` and `bin/publish-videos.py`, as
+described under *Published release* above. The prepared `batch.json` itself is
+unchanged and still holds its subtitle rows; the upload used the separate
+caption-free `batch-upload.json`.
 
 ## Offline Africa queue
 
@@ -231,9 +351,116 @@ eight complete without a quota stop, batch-read the eight video descriptions/
 visibility and playlist membership/order. Preserve the existing playlist cover.
 No scheduled retry is installed.
 
-## Current Africa state: all eight uploaded privately
+## North America: uploaded unlisted
 
-The owner correctly pointed out that uploads can continue despite finishing
+The owner authorized the North America edition to be uploaded private or
+unlisted, to the same playlist as the other series. It went out **unlisted**,
+with the playlist link in each description, its screenshot thumbnail and a seat
+in `PLNl_MybP55PE`, and no captions, which stay deferred like the rest.
+
+| Episode | Video ID |
+|---|---|
+| Canada and the United States | `mEvKC8wtS44` |
+| Mexico and Central America | `CktKmkqtw8g` |
+| The Caribbean | `Fm2Y-M0-Btw` |
+
+They are the last three members of the playlist, after the twenty-six public
+videos. The playlist itself stays public and the other twenty-six videos keep
+their public visibility; only these three are unlisted, so they are reachable
+through the playlist but are not pushed to the channel.
+
+The hashtag in those three descriptions was corrected from `#North America` to
+`#NorthAmerica` after publication, because YouTube reads a space as the end of
+a tag. `bin/publish-videos.py --step north-america-tags` made that change and
+touched nothing else.
+
+## South America: uploaded unlisted
+
+The South America edition was produced the same way as North America and then
+uploaded the same way, unlisted in the same playlist. Three lessons, four
+countries each, all 12 country targets of GeoClick's native
+`south-america-countries` map: the northern countries (Colombia, Venezuela,
+Guyana, Suriname), the Andean west (Ecuador, Peru, Bolivia, Chile) and Brazil
+with the southern countries (Brazil, Paraguay, Uruguay, Argentina).
+
+| Episode | Video ID |
+|---|---|
+| The Northern Countries | `m_s2tya9grM` |
+| Along the Andes | `-Wi_pE_Nwx0` |
+| Brazil and the Southern Countries | `_q2YJDRGgpg` |
+
+Their captions are deferred too. The shared upload ledger now holds
+thirty-five records.
+
+
+
+The upload used the same native flow as Asia: an offline prepared batch in
+`rendered/north-america-three-20261102/youtube-publishing/`, a derived
+caption-free `batch-upload.json` with `privacy: unlisted`, and youtube3's own
+plan/run/queue with the shared per-channel upload ledger. The shared ledger
+now holds thirty-two records.
+
+```powershell
+& $py -I bin/upload-series.py --series north-america --privacy unlisted
+```
+
+`bin/upload-series.py` is the general form of that step: it derives the
+caption-free batch from an approved prepared batch, refuses to differ from an
+existing one, and never reuploads a known video ID.
+
+## Europe capitals: uploaded unlisted
+
+A fourth edition follows the countries: the capitals. The six lessons cover all
+44 capital targets of GeoClick's native `europe-capitals` map exactly once,
+with clean masters and optional English SRT/WebVTT in
+`rendered/europe-capitals-20261102/` and tracked caption backups in
+`subtitles/europe-capitals/`.
+
+The owner authorised the upload on 2 November 2026, unlisted, with playlist
+seats in `PLNl_MybP55PE`, the playlist link in each description and its
+screenshot thumbnail. Captions stay deferred.
+
+| Episode | Video ID |
+|---|---|
+| North Atlantic and the Nordics | `L_fCNufSRMM` |
+| The Baltic and the East | `mZ6S5pXin7E` |
+| The West and the Centre | `dmuhY0J50I0` |
+| The Alps and Italy | `2GOYTfxBX4A` |
+| The Balkans | `ZHbvY3GAGwg` |
+| Iberia and the Mediterranean | `285b_NcXI5Y` |
+
+They are the last six members of the playlist. The shared upload ledger now
+holds 38 records.
+
+## Asia capitals: uploaded unlisted
+
+A fifth edition completes the capitals: Asia's. The seven lessons cover all 47
+capital targets of GeoClick's native `asia-capitals` map exactly once, with
+clean masters and optional English SRT/WebVTT in
+`rendered/asia-capitals-20261102/` and tracked caption backups in
+`subtitles/asia-capitals/`.
+
+The owner authorised the upload on 2 November 2026, unlisted, with playlist
+seats in `PLNl_MybP55PE`, the playlist link in each description and its
+screenshot thumbnail. Captions stay deferred.
+
+| Episode | Video ID |
+|---|---|
+| Central Asia and the Caucasus | `zSO15iqpqjQ` |
+| East Asia | `eZjfTqr5gLU` |
+| South Asia | `JgDnVRBCXck` |
+| The Levant, Iraq, Türkiye and Iran | `JkfAdRz4VKk` |
+| The Gulf and the Peninsula | `xi7PSSQea20` |
+| Mainland Southeast Asia | `jqr0M9ifQJY` |
+| The Maritime South-East | `guDkbWfob2w` |
+
+They are the last seven members of the playlist. The shared upload ledger now
+holds 45 records.
+
+## Africa state: uploaded privately, then published
+
+This section records how the eight Africa videos were uploaded. The owner
+correctly pointed out that uploads can continue despite finishing
 quota exhaustion. Google's rules updated 15 October 2026 give `videos.insert`
 its own bucket (100 calls/day by default), separate from the 10,000-unit bucket
 for other endpoints. See [the official quota table](https://developers.google.com/youtube/data/determine_quota_cost).
@@ -255,8 +482,10 @@ jobs confirm successful uploads, pending captions and pending membership for
 all eight. First thumbnail is failed; the other seven thumbnails are pending.
 Remote readback is deferred along with other calls using the general bucket.
 
-The retry/resume commands above remain the recovery route for finishing work
-once general quota permits. Uploads will be skipped using their accepted IDs.
+**Since 2 November 2026 these eight are public**, with their screenshot
+thumbnails and their playlist seats, and their captions are still deferred.
+The native jobs still name `private` as their publication target, so they must
+not be resumed; see *Published release* above for the caption route.
 
 ## Previous release attempt: 1 November 2026, 22:08 UTC
 

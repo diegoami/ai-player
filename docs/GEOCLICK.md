@@ -1,6 +1,76 @@
 # GeoClick: learned controls and recording notes
 
-## YouTube publishing ownership
+## Published release: 2 November 2026
+
+The owner asked to publish the videos and to postpone subtitles, because
+caption insertion is expensive. All three pending series are now public on
+channel `UCQHMx6rNOKfLxFRI4_Tf6cA`, and playlist `PLNl_MybP55PE`
+(*Learning Geography with Geoclick*) is public with all 26 members in order:
+United States 1–5, Europe 1–6, Asia 1–7, Africa 1–8. Every description
+carries the playlist link exactly once, and every video has its screenshot
+thumbnail.
+
+Ten US and Europe videos keep the captions they already had. Sixteen videos
+have no caption track: Europe 6, all seven Asia videos and all eight Africa
+videos. Captions are optional and are added later per video with installed
+youtube3's own caption upload; the native Africa and Europe 6 queues must not
+be resumed, because their queued publication target is still private or
+unlisted and would un-publish the videos. The exact approved SRT/WebVTT bytes
+are in `subtitles/`, with the video IDs in `subtitles/manifest.json` and
+`config/geoclick-youtube.json`.
+
+The seven Asia videos were uploaded through youtube3's own plan/run/queue flow
+with the shared per-channel upload ledger, using a caption-free derived batch.
+`bin/publish-videos.py` published what already existed; `bin/upload-asia.py`
+did the uploads. See [YOUTUBE_PUBLISHING.md](YOUTUBE_PUBLISHING.md).
+
+## Completed North America edition: three country lessons
+
+The owner asked for North America to be recorded the same way as the other
+editions. It uses GeoClick's native `north-america-countries` map, which has
+16 country targets and full facts for every one of them: name origin, a
+researched fact, largest city, highest peak, borders and position
+(`data/maps/north-america-countries/facts.json`). No supplemental maps were
+needed; all 16 countries are native targets.
+
+`src/lessons/north-america-content.mjs` holds the researched narration, and
+`src/lessons/north-america-coverage.json` is the independent ledger. The
+groups are teaching routes, not an official regional classification: Canada
+and the United States; Mexico and the seven Central American countries; and
+the six Caribbean countries. Greenland is not a target of this map.
+
+| Episode | Stops | Duration | Output under `rendered/north-america-three-20261102/` |
+|---|---:|---:|---|
+| Canada and the United States | 2 | 2:47 | `01-canada-united-states/geoclick/` |
+| Mexico and Central America | 8 | 6:52 | `02-mexico-central-america/geoclick/` |
+| The Caribbean | 6 | 5:25 | `03-caribbean/geoclick/` |
+
+All 16 country targets are selected by real clicks, each with its own fact
+card outside the map. Clean 1600×900 H.264/AAC masters have no burned-in
+narration captions; optional English SRT and top-positioned WebVTT are
+separate. Audio peaks range from -3.5 to -3.3 dB. The caption count is 12,
+36 and 28 cues. The contact sheet, the first/middle/final/recap frames and the
+caption-on/off previews of every episode were inspected. The collection ZIP is
+`rendered/north-america-three-20261102/all-three-north-america-videos.zip`.
+The owner then authorized the upload, and the three videos went out
+**unlisted** in playlist `PLNl_MybP55PE` as `mEvKC8wtS44`, `CktKmkqtw8g` and
+`Fm2Y-M0-Btw`, each with the playlist link and its screenshot thumbnail.
+Their captions are deferred like the rest.
+
+Two things a new map needs that the earlier editions already had:
+
+- **Click points.** A country's map centroid is often in the sea (the United
+  States centroid sits in the Pacific off California), so every stop carries
+  its own `location` on land. `bin/find-map-points.mjs` finds these by
+  clicking candidates in the running app and keeping only the points that
+  really select that country.
+- **A restore list.** The Clear button only exists once something is chosen,
+  so the lesson re-creates its own stops with real clicks and then records
+  clearing them, exactly as the Africa and Asia lessons do.
+
+`src/lessons/north-america-pilot.json` is the four-country pilot that proved
+the pipeline first; the three production lessons supersede it.
+
 
 ai-player now owns the operational entrypoint: see
 [YOUTUBE_PUBLISHING.md](YOUTUBE_PUBLISHING.md) and
@@ -22,11 +92,51 @@ do not schedule retries or replace youtube3's recovery logic.
 
 The seven canonical Asia masters/captions and screenshot thumbnails are prepared
 offline in `rendered/asia-seven-20261101/youtube-publishing/`. Each description
-links to the playlist, game and both repositories. No Asia uploads are authorized
-by the existing-eleven public release. Preserve the current screenshot-based
-playlist cover and all other metadata.
+links to the playlist, game and both repositories. The owner authorized the
+seven uploads on 2 November 2026; they were uploaded and published through
+youtube3's own plan/run/queue flow with the shared ledger, using a caption-free
+derived batch, and their captions remain deferred. Preserve the current
+screenshot-based playlist cover and all other metadata.
 
-## Completed Africa edition: eight country lessons
+## Completed South America edition: three country lessons
+
+South America followed North America, using GeoClick's native
+`south-america-countries` map with its 12 country targets and full facts for
+every one of them. All 12 are demonstrated exactly once, by real clicks, with
+no supplemental maps: French Guiana is not a target of that map.
+
+`src/lessons/south-america-content.mjs` holds the researched narration and
+`src/lessons/south-america-coverage.json` is the independent ledger. The groups
+are teaching routes: the northern countries (Colombia, Venezuela, Guyana,
+Suriname), the Andean west (Ecuador, Peru, Bolivia, Chile) and Brazil with the
+southern countries (Brazil, Paraguay, Uruguay, Argentina).
+
+| Episode | Stops | Duration | Output under `rendered/south-america-three-20261102/` |
+|---|---:|---:|---|
+| The Northern Countries | 4 | 4:01 | `01-northern-countries/geoclick/` |
+| Along the Andes | 4 | 4:12 | `02-along-the-andes/geoclick/` |
+| Brazil and the Southern Countries | 4 | 4:03 | `03-brazil-and-the-south/geoclick/` |
+
+Clean 1600×900 H.264/AAC masters with no burned-in narration captions;
+optional English SRT and top-positioned WebVTT are separate. Audio peaks
+range from -3.8 to -3.5 dB, with 20 caption cues per episode. The contact
+sheets and the caption-on/off previews of every episode were inspected. The
+collection ZIP is
+`rendered/south-america-three-20261102/all-three-south-america-videos.zip`.
+
+The owner asked for North America to be uploaded private or unlisted to the
+same playlist and then for South America to be done; South America went out the
+same way, **unlisted** in playlist `PLNl_MybP55PE` as `m_s2tya9grM`,
+`-Wi_pE_Nwx0` and `_q2YJDRGgpg`, with the playlist link, its screenshot
+thumbnails and no captions.
+
+Every source link in both new editions was checked against Wikidata and
+Wikipedia before publication: several UNESCO list numbers first written from
+memory were wrong (Mexico City is 412, not Oaxaca's 415; Tikal is 64; Copán is
+129; the Citadelle is 180; Santo Domingo is 526; the Blue Mountains are 1356;
+the Galápagos is 1) and are now corrected in the transcripts.
+
+
 
 The owner approved eight lessons: North Africa; Atlantic West Africa; Sahel
 and Gulf of Guinea; Central Africa; Nile and Horn; East Africa and Great Lakes;
@@ -82,11 +192,11 @@ selected successfully. All Known-notice, Clear, eye-control, card-fit and
 sidebar non-overlap checks passed.
 
 Publishing update: after the initial thumbnail refusal, the owner clarified
-that uploads have a separate quota bucket. All eight Africa videos are now
-uploaded privately through the same native queue and shared ledger. Their IDs
-are in the production ledger and subtitle manifest. Thumbnails, captions and
-playlist membership remain pending against the exhausted general API bucket.
-See the publishing runbook's current Africa state and upload-only runner.
+that uploads have a separate quota bucket. All eight Africa videos were
+uploaded privately through the same native queue and shared ledger, and on
+2 November 2026 they were published: public, with their screenshot thumbnails
+and their playlist seats. Their IDs are in the production ledger and subtitle
+manifest. Captions are still deferred, deliberately.
 
 Visual review inspected each export's first/middle/final/recap contact sheet
 and caption on/off previews, plus extracted frames for all four supplements
@@ -179,6 +289,88 @@ The six existing offline narration/path tests pass; syntax/diff checks pass.
 | South Asia | 7 | 6:35 |
 | East Asia | 6 | 5:40 |
 | Southeast Asia | 11 | 10:04 |
+
+## Completed Asia capitals edition: seven capital lessons
+
+A fifth edition completes the capitals: Asia's, on GeoClick's native
+`asia-capitals` map with 47 capital targets and full facts for every one of
+them. All 47 are demonstrated exactly once, by real clicks.
+
+`src/lessons/asia-capitals-content.mjs` holds the researched narration and
+`src/lessons/asia-capitals-coverage.json` is the independent ledger. The
+groups are teaching routes: Central Asia and the Caucasus; East Asia; South
+Asia; the Levant, Iraq, Türkiye and Iran; the Gulf and the Peninsula; Mainland
+Southeast Asia; and the Maritime South-East.
+
+| Episode | Stops | Duration | Output under `rendered/asia-capitals-20261102/` |
+|---|---:|---:|---|
+| Central Asia and the Caucasus | 9 | 6:30 | `01-central-asia-and-caucasus/geoclick/` |
+| East Asia | 5 | 4:01 | `02-east-asia/geoclick/` |
+| South Asia | 7 | 5:14 | `03-south-asia/geoclick/` |
+| The Levant, Iraq, Türkiye and Iran | 8 | 6:02 | `04-levant-iraq-turkey-iran/geoclick/` |
+| The Gulf and the Peninsula | 7 | 5:14 | `05-gulf-and-peninsula/geoclick/` |
+| Mainland Southeast Asia | 6 | 4:45 | `06-mainland-southeast-asia/geoclick/` |
+| The Maritime South-East | 5 | 4:07 | `07-maritime-southeast-asia/geoclick/` |
+
+Clean 1600×900 H.264/AAC masters have no burned-in narration captions;
+optional English SRT and top-positioned WebVTT are separate. Audio peaks
+range from -4.0 to -3.4 dB, with 40, 24, 32, 36, 32, 28 and 24 caption cues.
+The contact sheets and the caption-on/off previews of every episode were
+inspected. The collection ZIP is
+`rendered/asia-capitals-20261102/all-seven-asia-capitals-videos.zip`.
+
+Two checks worth keeping:
+
+- **Compare every stop with the map's own marker.** The lesson's coordinates
+  are the real city positions, so each was compared with the map's marker
+  position; Manama was off by 780 km until it was corrected to Bahrain
+  island. The map's positions are the reference.
+- **Let the camera settle before clicking.** A click projected at one instant
+  lands elsewhere if the camera is still moving, so `gesture` now waits well
+  past the 1400 ms animation before the next click.
+
+## Completed Europe capitals edition: six capital lessons
+
+A fourth edition follows the countries: the capitals. It uses GeoClick's native
+`europe-capitals` map, a point map with 44 capital targets and full facts for
+every one of them — name origin, a researched fact, population and region.
+All 44 are demonstrated exactly once, by real clicks; no supplemental maps
+were needed.
+
+`src/lessons/europe-capitals-content.mjs` holds the researched narration and
+`src/lessons/europe-capitals-coverage.json` is the independent ledger. The
+groups are teaching routes: the North Atlantic and the Nordics; the Baltic and
+the East; the West and the Centre; the Alps and Italy; the Balkans; and Iberia
+and the Mediterranean.
+
+| Episode | Stops | Duration | Output under `rendered/europe-capitals-20261102/` |
+|---|---:|---:|---|
+| North Atlantic and the Nordics | 7 | 5:12 | `01-north-atlantic-nordics/geoclick/` |
+| The Baltic and the East | 8 | 5:28 | `02-baltic-and-the-east/geoclick/` |
+| The West and the Centre | 9 | 6:15 | `03-west-and-centre/geoclick/` |
+| The Alps and Italy | 8 | 5:49 | `04-alps-and-italy/geoclick/` |
+| The Balkans | 8 | 5:45 | `05-the-balkans/geoclick/` |
+| Iberia and the Mediterranean | 4 | 3:00 | `06-iberia-and-mediterranean/geoclick/` |
+
+Clean 1600×900 H.264/AAC masters have no burned-in narration captions;
+optional English SRT and top-positioned WebVTT are separate. Audio peaks
+range from -3.8 to -3.5 dB, with 32, 36, 40, 36, 36 and 20 caption cues. The
+contact sheets and the caption-on/off previews of every episode were
+inspected. The collection ZIP is
+`rendered/europe-capitals-20261102/all-six-europe-capitals-videos.zip`.
+
+Two things a point map needs:
+
+- **English display names.** Five capitals carry a local map name with an
+  English display name — København, Warszawa, Wien, Roma and Lisboa. The fact
+  card shows the English name, so the lessons teach Copenhagen, Warsaw,
+  Vienna, Rome and Lisbon and name the local form in the narration.
+  `statePoint` in `src/core/geoclick-lesson-ui.mjs` resolves a target by
+  either form.
+- **Camera boxes from the map's own coordinates.** A capital is a point, not
+  an area, so each stop's box is computed from its coordinates (1.4° wide,
+  0.8° for Monaco, San Marino, Vaduz and Andorra la Vella) rather than
+  written by hand.
 
 ## Completed Europe edition: six country lessons
 

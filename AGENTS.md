@@ -4,14 +4,25 @@ For GeoClick YouTube publishing, read [docs/YOUTUBE_PUBLISHING.md](docs/YOUTUBE_
 Use `bin/geoclick-youtube.ps1` and installed youtube3 **2.10.0**. OAuth,
 uploads, captions and uncertain-write recovery belong to youtube3; do not
 reimplement them or modify its repository. The profile/channel/playlist,
-eleven known video IDs and original queue locations are pinned in
+all 26 known video IDs and original queue locations are pinned in
 `config/geoclick-youtube.json`. Preserve all native checkpoints and the shared
 upload ledger. Never reupload known videos. The old operational scripts now
 delegate here; their originals are backed up. Stop calls using an exhausted quota bucket; private uploads have a separate
 quota bucket and may continue through the upload-only runner. Stop on upload quota
-errors; do not create a scheduled task. The 1 November 2026 resume hit quota
-again at the final Europe captions, with no accepted account changes. Seven
-canonical Asia videos are prepared offline only; their uploads are not authorized.
+errors; do not create a scheduled task.
+
+**All 32 GeoClick videos are published** (2 November 2026): US 5, Europe 6,
+Asia 7, Africa 8, North America 3 and South America 3 are public with the
+playlist link in every description. Thirteen more went out the same day as
+**unlisted** members at the end of the same public playlist: the Europe
+capitals and Asia capitals lessons. The playlist `PLNl_MybP55PE` is public
+with all 45 members in order. The owner postponed subtitles, so no caption
+track was installed for Europe 6, the seven Asia videos, the eight Africa
+videos or the twenty North America, South America and capitals videos; the
+ten US and Europe captions already accepted remain. Add the deferred captions
+later per video with youtube3's own caption upload. **Do not resume the Africa
+or Europe 6 native queues**: their queued publication target is still private
+or unlisted and would un-publish those videos.
 
 The completed Africa edition has **eight regional lessons** with John.
 Use `src/lessons/africa-coverage.json`: 54 countries once each, plus Western
@@ -22,9 +33,9 @@ All media checks and visual reviews passed; the collection ZIP is
 `all-eight-africa-videos.zip` under that output root. Exact optional English
 SRT/WebVTT backups are in tracked `subtitles/africa/`. Eight entries are
 prepared in the separate publishing batch. All eight uploads were authorized
-and accepted privately. IDs are in the Africa production ledger and subtitle
-manifest. Thumbnails, captions and playlist membership remain pending because
-the general API quota is exhausted. `videos.insert` has its own quota bucket:
+and accepted privately, then published with their screenshot thumbnails and
+playlist seats. IDs are in the Africa production ledger and subtitle
+manifest. `videos.insert` has its own quota bucket:
 `bin/upload-africa-private.py` uses native youtube3 callbacks to pause immediately
 after upload, retaining the same queue, jobs and shared ledger. Never recreate
 the queue or reupload known IDs. See the runbook for finishing-stage recovery.
@@ -42,7 +53,68 @@ Asian Russia is briefly oriented, since its full stop was in Europe. Output:
 `rendered/asia-seven-20261101/`. All 49 stops appear exactly once. The collection
 ZIP is `rendered/asia-seven-20261101/all-seven-asia-videos.zip`. Episode 1 uses
 the reviewed `01-turkiye-cyprus-caucasus-refined/geoclick/` export; its initial
-export is archived. Read the latest GeoClick notes before further work.
+export is archived. The owner authorized the seven uploads on 2 November 2026:
+they went out through youtube3's own plan/run/queue flow and the shared ledger
+with a caption-free derived batch (`bin/upload-asia.py`), and their captions
+are still deferred. Read the latest GeoClick notes before further work.
+
+The completed North America edition has **three country lessons**, with John,
+interesting facts/location hooks and separate optional English captions. It
+uses GeoClick's native `north-america-countries` map, whose 16 country targets
+are all demonstrated once each: Canada, the United States, Mexico, seven
+Central American countries and six Caribbean countries. Greenland is not a
+target of that map. Use `src/lessons/north-america-coverage.json` and
+`src/lessons/north-america-content.mjs`. Output: `rendered/north-america-three-20261102/`;
+the collection ZIP is `all-three-north-america-videos.zip` under that root.
+Durations are 2:47, 6:52 and 5:25. Exact optional English SRT/WebVTT backups
+are in tracked `subtitles/north-america/`. The owner authorized the upload:
+the three videos are **unlisted** in playlist `PLNl_MybP55PE` as
+`mEvKC8wtS44`, `CktKmkqtw8g` and `Fm2Y-M0-Btw`, with the playlist link and
+their screenshot thumbnails; their captions are deferred. See the GeoClick
+notes for the two things a new map needs: on-land click points per stop, and
+a restore list so the real Clear button exists.
+
+The completed South America edition has **three country lessons**, with John,
+interesting facts/location hooks and separate optional English captions. It
+uses GeoClick's native `south-america-countries` map, whose 12 country targets
+are all demonstrated once each: Colombia, Venezuela, Guyana, Suriname,
+Ecuador, Peru, Bolivia, Chile, Brazil, Paraguay, Uruguay and Argentina.
+French Guiana is not a target of that map. Use
+`src/lessons/south-america-coverage.json` and
+`src/lessons/south-america-content.mjs`. Output:
+`rendered/south-america-three-20261102/`; the collection ZIP is
+`all-three-south-america-videos.zip` under that root. Durations are 4:01, 4:12
+and 4:03. Exact optional English SRT/WebVTT backups are in tracked
+`subtitles/south-america/`. The three videos are public in the same playlist
+as `m_s2tya9grM`, `-Wi_pE_Nwx0` and `_q2YJDRGgpg`, with their captions
+deferred.
+
+The completed Europe capitals edition has **six capital lessons**, with John,
+interesting facts/location hooks and separate optional English captions. It
+uses GeoClick's native `europe-capitals` point map, whose 44 capital targets
+are all demonstrated once each. Use
+`src/lessons/europe-capitals-coverage.json` and
+`src/lessons/europe-capitals-content.mjs`. Output:
+`rendered/europe-capitals-20261102/`; the collection ZIP is
+`all-six-europe-capitals-videos.zip` under that root. Durations are 5:12,
+5:28, 6:15, 5:49, 5:45 and 3:00. Exact optional English SRT/WebVTT backups
+are in tracked `subtitles/europe-capitals/`. The six videos went out
+**unlisted** in the same playlist as `L_fCNufSRMM`, `mZ6S5pXin7E`,
+`dmuhY0J50I0`, `2GOYTfxBX4A`, `ZHbvY3GAGwg` and `285b_NcXI5Y`, with their
+captions deferred.
+
+The completed Asia capitals edition has **seven capital lessons**, with John,
+interesting facts/location hooks and separate optional English captions. It
+uses GeoClick's native `asia-capitals` point map, whose 47 capital targets are
+all demonstrated once each. Use `src/lessons/asia-capitals-coverage.json` and
+`src/lessons/asia-capitals-content.mjs`. Output:
+`rendered/asia-capitals-20261102/`; the collection ZIP is
+`all-seven-asia-capitals-videos.zip` under that root. Durations are 6:30,
+4:01, 5:14, 6:02, 5:14, 4:45 and 4:07. Exact optional English SRT/WebVTT
+backups are in tracked `subtitles/asia-capitals/`. The seven videos went out
+**unlisted** in the same playlist as `zSO15iqpqjQ`, `eZjfTqr5gLU`,
+`JgDnVRBCXck`, `JkfAdRz4VKk`, `xi7PSSQea20`, `jqr0M9ifQJY` and `guDkbWfob2w`,
+with their captions deferred.
 
 The completed Europe edition has **six country lessons**, with John and separate
 optional English captions. Follow `src/lessons/europe-coverage.json`: all 39

@@ -1,8 +1,10 @@
 # GeoClick subtitles
 
 English subtitles for the current November 2026 editions are preserved here:
-five US episodes, six Europe episodes, seven Asia episodes and eight Africa
-episodes, 52 files in total. Each episode
+five US episodes, six Europe episodes, seven Asia episodes, eight Africa
+episodes, three North America episodes, three South America episodes, six
+Europe capitals episodes and seven Asia capitals episodes, 90 files in total.
+Each episode
 has optional SRT and WebVTT tracks. WebVTT retains the original top positioning.
 Use the numbered episode folders to find the matching track.
 
@@ -10,11 +12,17 @@ Use the numbered episode folders to find the matching track.
 path, known YouTube video ID, original subtitle paths, byte sizes and SHA-256
 hashes. These are exact copies from the approved exports, including the refined
 Europe episodes 2 and 4 and Asia episode 1. Superseded exports and historical
-prototypes are excluded. Known video IDs do not establish visibility or whether
-YouTube has accepted captions. Asia remains prepared offline. Africa uploads
-are authorized: all eight have accepted upload IDs. Thumbnails, captions and playlist
-membership are pending after a general API quota refusal. Follow the publishing
-runbook and native queue for current progress.
+prototypes are excluded. Known video IDs do not establish whether YouTube has
+accepted a caption. All 26 videos were published on 2 November 2026 with
+subtitles deliberately postponed: ten US and Europe videos keep the captions
+they already had, and sixteen have none yet. Add the deferred captions later,
+per video, with installed youtube3's own caption upload; the runbook lists the
+video IDs and warns against resuming the native Africa and Europe 6 queues.
+The three North America episodes were uploaded unlisted on 2 November 2026
+and their video IDs are recorded here; their captions are deferred too. The
+three South America episodes went out the same way, unlisted, with their video
+IDs recorded here. The six Europe capitals episodes and the seven Asia
+capitals episodes went out unlisted too, with their video IDs recorded here.
 
 These text files travel with Git. Media and publishing checkpoints remain in
 ignored `rendered/` folders and must be backed up separately. Keep original
