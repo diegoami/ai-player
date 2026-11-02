@@ -1,0 +1,280 @@
+{
+  "title": "South America two of three · Along the Andes",
+  "edition": "South America countries · Three regional lessons · John · November 2026",
+  "mapId": "south-america-countries",
+  "area": "South America",
+  "unit": "places",
+  "url": "http://localhost:5187/map/south-america-countries",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -92,
+      -19
+    ],
+    [
+      -66,
+      2
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Ecuador",
+      "location": [
+        -80.7077,
+        -2.1293
+      ],
+      "bounds": [
+        [
+          -91.9,
+          -5.2
+        ],
+        [
+          -75,
+          1.6
+        ]
+      ]
+    },
+    {
+      "name": "Peru",
+      "location": [
+        -79.9317,
+        -6.1342
+      ],
+      "bounds": [
+        [
+          -81.6,
+          -18.6
+        ],
+        [
+          -68.4,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "Bolivia",
+      "location": [
+        -63.6088,
+        -16.2869
+      ],
+      "bounds": [
+        [
+          -69.9,
+          -23.1
+        ],
+        [
+          -57.3,
+          -9.4
+        ]
+      ]
+    },
+    {
+      "name": "Chile",
+      "location": [
+        -71.0639,
+        -36.5897
+      ],
+      "bounds": [
+        [
+          -76,
+          -56
+        ],
+        [
+          -66,
+          -17.2
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to South America episode two of three. First, I clear the chosen names for a fresh regional lesson.",
+    "Four countries run down the Andean west of the continent: Ecuador on the equator, Peru below it, Bolivia inland, and Chile the long thin strip along the Pacific."
+  ],
+  "states": [
+    {
+      "name": "Ecuador",
+      "location": [
+        -80.7077,
+        -2.1293
+      ],
+      "lines": [
+        "Ecuador straddles the equator on the Pacific coast, with Colombia to its north and Peru to its south. The Galápagos Islands lie far out in the ocean to its west.",
+        "Its name comes from the equator, which crosses it just north of Quito. Darwin visited the Galápagos in 1835 and the islands helped him to his theory of evolution. Because the earth bulges at the equator, the summit of Chimborazo is the point on its surface farthest from the earth's centre.",
+        "Remember Ecuador as the country named for the line that crosses it, with the Galápagos far offshore and Chimborazo the highest point from the centre of the earth."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Ecuador",
+        "https://whc.unesco.org/en/list/1/"
+      ],
+      "cameraBounds": [
+        [
+          -91.9,
+          -5.2
+        ],
+        [
+          -75,
+          1.6
+        ]
+      ],
+      "transition": "Let's bring Ecuador and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -91.9,
+              -5.2
+            ],
+            [
+              -75,
+              1.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peru",
+      "location": [
+        -79.9317,
+        -6.1342
+      ],
+      "lines": [
+        "Peru runs down the Pacific coast below Ecuador, with Colombia to its north, Brazil to its east and Bolivia and Chile inland to its south. Its western shore holds a coastal desert, and the Andes rise behind it.",
+        "Its name perhaps comes from Birú, the name of a chief or a river the Spanish came across on the coast further north. Machu Picchu, the Inca city of the 15th century, was hardly known outside the region until 1911. The potato was first grown in these Andes, and thousands of varieties are still grown here.",
+        "Remember Peru as the Andean country of the potato: coastal desert in front, high mountains behind, and Machu Picchu above the cloud line."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Peru",
+        "https://whc.unesco.org/en/list/274/"
+      ],
+      "cameraBounds": [
+        [
+          -81.6,
+          -18.6
+        ],
+        [
+          -68.4,
+          0.2
+        ]
+      ],
+      "transition": "Let's bring Peru and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -81.6,
+              -18.6
+            ],
+            [
+              -68.4,
+              0.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bolivia",
+      "location": [
+        -63.6088,
+        -16.2869
+      ],
+      "lines": [
+        "Bolivia is landlocked, in the middle of the continent, with Peru to its north, Brazil to its east, Paraguay and Argentina to its south and Chile to its west.",
+        "It is named for Simón Bolívar, who led its independence from Spain. La Paz, the seat of government, is the highest capital in the world; Sucre is the constitutional one. The Salar de Uyuni is the largest salt flat in the world.",
+        "Remember Bolivia as the landlocked middle of the continent, named for its liberator, with the world's largest salt flat and the world's highest capital."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Bolivia"
+      ],
+      "cameraBounds": [
+        [
+          -69.9,
+          -23.1
+        ],
+        [
+          -57.3,
+          -9.4
+        ]
+      ],
+      "transition": "Let's bring Bolivia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -69.9,
+              -23.1
+            ],
+            [
+              -57.3,
+              -9.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chile",
+      "location": [
+        -71.0639,
+        -36.5897
+      ],
+      "lines": [
+        "Chile is a long thin country on the Pacific, about 4,300 kilometres long and on average less than 200 wide, with the Andes along its eastern edge and Argentina to its east.",
+        "Where its name comes from is uncertain; one reading, from a native language, is \"where the land ends\". The Atacama, in its north, is the driest desert in the world outside the poles.",
+        "Remember Chile as the ribbon of a country down the Pacific, with the driest desert on Earth in its north and the Andes along its back."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Chile",
+        "https://www.britannica.com/place/Atacama-Desert"
+      ],
+      "cameraBounds": [
+        [
+          -76,
+          -56
+        ],
+        [
+          -66,
+          -17.2
+        ]
+      ],
+      "transition": "Let's bring Chile and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -76,
+              -56
+            ],
+            [
+              -66,
+              -17.2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -92,
+          -19
+        ],
+        [
+          -66,
+          2
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Ecuador is on the equator, Peru below it with Chile along the coast and Bolivia inland. Chile runs the whole western edge down to the far south.",
+    "Remember the Galápagos and Chimborazo, the potato and Machu Picchu, the world's largest salt flat and highest capital, and the driest desert outside the poles."
+  ]
+}

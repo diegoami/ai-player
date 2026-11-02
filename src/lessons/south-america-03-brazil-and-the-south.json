@@ -1,0 +1,278 @@
+{
+  "title": "South America three of three · Brazil and the Southern Countries",
+  "edition": "South America countries · Three regional lessons · John · November 2026",
+  "mapId": "south-america-countries",
+  "area": "South America",
+  "unit": "places",
+  "url": "http://localhost:5187/map/south-america-countries",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -75,
+      -56
+    ],
+    [
+      -34,
+      6
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Brazil",
+      "location": [
+        -54.3884,
+        -14.2367
+      ],
+      "bounds": [
+        [
+          -74.2,
+          -34
+        ],
+        [
+          -34.5,
+          5.5
+        ]
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "location": [
+        -58.4479,
+        -23.4337
+      ],
+      "bounds": [
+        [
+          -62.9,
+          -27.8
+        ],
+        [
+          -54,
+          -19
+        ]
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "location": [
+        -55.7807,
+        -32.5359
+      ],
+      "bounds": [
+        [
+          -58.7,
+          -35.2
+        ],
+        [
+          -52.8,
+          -29.8
+        ]
+      ]
+    },
+    {
+      "name": "Argentina",
+      "location": [
+        -63.6197,
+        -38.4217
+      ],
+      "bounds": [
+        [
+          -74,
+          -55.4
+        ],
+        [
+          -53.3,
+          -21.5
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to South America episode three of three. First, I clear the chosen names for a fresh regional lesson.",
+    "Finally the east and the south: Brazil filling the eastern half of the continent, with Paraguay, Uruguay and Argentina below it."
+  ],
+  "states": [
+    {
+      "name": "Brazil",
+      "location": [
+        -54.3884,
+        -14.2367
+      ],
+      "lines": [
+        "Brazil occupies the east of the continent, with the Atlantic along its coast, and every other South American country except Chile and Ecuador touching it. The Amazon crosses its north.",
+        "Its name comes from brazilwood, a tree whose red dye the Portuguese traded, and the tree's own name comes from brasa, \"ember\". It is the only country in the Americas whose main language is Portuguese, and the Amazon carries about a fifth of all the river water that reaches the oceans.",
+        "Remember Brazil as the giant on the east: the only Portuguese-speaking country in the Americas, with the Amazon across its north."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Brazil",
+        "https://www.britannica.com/place/Amazon-River"
+      ],
+      "cameraBounds": [
+        [
+          -74.2,
+          -34
+        ],
+        [
+          -34.5,
+          5.5
+        ]
+      ],
+      "transition": "Let's bring Brazil and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -74.2,
+              -34
+            ],
+            [
+              -34.5,
+              5.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "location": [
+        -58.4479,
+        -23.4337
+      ],
+      "lines": [
+        "Paraguay is landlocked between Bolivia to the north, Brazil to the east and Argentina to the south and west. The Paraguay river runs through its middle.",
+        "It is named for the Paraguay river, a Guaraní name whose meaning is disputed. Most of its people speak Guaraní as well as Spanish, and both are official. The Itaipú dam on its border with Brazil is one of the largest hydroelectric plants in the world.",
+        "Remember Paraguay as the country between the river and the great neighbours, with two official languages, one of them Guaraní."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Paraguay"
+      ],
+      "cameraBounds": [
+        [
+          -62.9,
+          -27.8
+        ],
+        [
+          -54,
+          -19
+        ]
+      ],
+      "transition": "Let's bring Paraguay and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -62.9,
+              -27.8
+            ],
+            [
+              -54,
+              -19
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "location": [
+        -55.7807,
+        -32.5359
+      ],
+      "lines": [
+        "Uruguay is the smallest country of the southern group, on the Atlantic between Argentina to its west and Brazil to its north, across the wide mouth of the Uruguay river.",
+        "It is named for that river, a Guaraní name whose meaning is disputed. It hosted and won the first football World Cup, in 1930. In 2013 it became the first country to make cannabis fully legal.",
+        "Remember Uruguay as the small Atlantic country that hosted the first World Cup, in 1930, and changed its cannabis law in 2013."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Uruguay"
+      ],
+      "cameraBounds": [
+        [
+          -58.7,
+          -35.2
+        ],
+        [
+          -52.8,
+          -29.8
+        ]
+      ],
+      "transition": "Let's bring Uruguay and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -58.7,
+              -35.2
+            ],
+            [
+              -52.8,
+              -29.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Argentina",
+      "location": [
+        -63.6197,
+        -38.4217
+      ],
+      "lines": [
+        "Argentina fills the southern part of the continent, with Chile to its west, Paraguay and Bolivia to the north, Brazil to the north-east and Uruguay to the east. Tierra del Fuego lies at its far south.",
+        "Its name comes from Latin argentum, \"silver\", for the silver the Spanish hoped to find up the Río de la Plata. Ushuaia, on Tierra del Fuego, calls itself the southernmost city in the world. The tango was born in the port districts of Buenos Aires and Montevideo in the late 19th century.",
+        "Remember Argentina as the great southern country named for silver that was never found, with Aconcagua, the tango and the southernmost city at its end."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Argentina"
+      ],
+      "cameraBounds": [
+        [
+          -74,
+          -55.4
+        ],
+        [
+          -53.3,
+          -21.5
+        ]
+      ],
+      "transition": "Let's bring Argentina and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -74,
+              -55.4
+            ],
+            [
+              -53.3,
+              -21.5
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -75,
+          -56
+        ],
+        [
+          -34,
+          6
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Brazil touches every other South American country except Chile and Ecuador. Paraguay is landlocked between Brazil and Argentina, Uruguay is on the Atlantic, and Argentina fills the far south.",
+    "Remember brazilwood and Portuguese and the Amazon, two official languages and Itaipú, the first World Cup in 1930, and the silver that gave Argentina its name."
+  ]
+}

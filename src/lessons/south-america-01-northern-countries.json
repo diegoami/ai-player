@@ -1,0 +1,277 @@
+{
+  "title": "South America one of three · The Northern Countries",
+  "edition": "South America countries · Three regional lessons · John · November 2026",
+  "mapId": "south-america-countries",
+  "area": "South America",
+  "unit": "places",
+  "url": "http://localhost:5187/map/south-america-countries",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -80,
+      -5
+    ],
+    [
+      -53,
+      13
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Colombia",
+      "location": [
+        -72.9366,
+        4.1144
+      ],
+      "bounds": [
+        [
+          -79,
+          -4.4
+        ],
+        [
+          -66.8,
+          12.6
+        ]
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "location": [
+        -66.5967,
+        6.4275
+      ],
+      "bounds": [
+        [
+          -73.6,
+          0.4
+        ],
+        [
+          -59.6,
+          12.4
+        ]
+      ]
+    },
+    {
+      "name": "Guyana",
+      "location": [
+        -58.9307,
+        4.8796
+      ],
+      "bounds": [
+        [
+          -61.6,
+          1
+        ],
+        [
+          -56.2,
+          8.8
+        ]
+      ]
+    },
+    {
+      "name": "Suriname",
+      "location": [
+        -56.0271,
+        3.9225
+      ],
+      "bounds": [
+        [
+          -58.3,
+          1.6
+        ],
+        [
+          -53.7,
+          6.3
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to South America episode one of three. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin in the north of South America: Colombia on the Caribbean, Venezuela beside it, and the two small Guianas on the Atlantic, Guyana and Suriname."
+  ],
+  "states": [
+    {
+      "name": "Colombia",
+      "location": [
+        -72.9366,
+        4.1144
+      ],
+      "lines": [
+        "Colombia sits in the north-west of South America on the Caribbean coast, with Panama to its north, Venezuela to its east and Ecuador to its south.",
+        "It is named for Christopher Columbus, who never set foot there. It has more species of birds than any other country, and Gabriel García Márquez set One Hundred Years of Solitude in a town modelled on his native Aracataca.",
+        "Remember Colombia as the north-west corner of the continent: named for a navigator who never visited it, and home to more bird species than anywhere else on Earth."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Colombia"
+      ],
+      "cameraBounds": [
+        [
+          -79,
+          -4.4
+        ],
+        [
+          -66.8,
+          12.6
+        ]
+      ],
+      "transition": "Let's bring Colombia and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -79,
+              -4.4
+            ],
+            [
+              -66.8,
+              12.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "location": [
+        -66.5967,
+        6.4275
+      ],
+      "lines": [
+        "Venezuela faces the Caribbean to the north, with Colombia to its west, Brazil to its south and Guyana to its east. The Orinoco river sweeps across the south of the country.",
+        "Its name means \"Little Venice\", for the houses on stilts the first explorers saw on Lake Maracaibo. Angel Falls, the highest waterfall in the world, drops 979 metres, and the country holds the largest proven oil reserves in the world.",
+        "Remember Venezuela as the country whose name means Little Venice, with the world's highest waterfall dropping out of the jungle in its south."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Venezuela"
+      ],
+      "cameraBounds": [
+        [
+          -73.6,
+          0.4
+        ],
+        [
+          -59.6,
+          12.4
+        ]
+      ],
+      "transition": "Let's bring Venezuela and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -73.6,
+              0.4
+            ],
+            [
+              -59.6,
+              12.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guyana",
+      "location": [
+        -58.9307,
+        4.8796
+      ],
+      "lines": [
+        "Guyana lies on the Atlantic between Venezuela to its west and Suriname to its east, with Brazil inland to the south.",
+        "Its name comes from an Amerindian word often read as \"land of many waters\". It is the only country in South America whose official language is English, and Kaieteur Falls drops more than four times as far as Niagara in a single fall.",
+        "Remember Guyana as the English-speaking country on the Atlantic, named for its many waters, with one of the world's great single-drop waterfalls."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Guyana"
+      ],
+      "cameraBounds": [
+        [
+          -61.6,
+          1
+        ],
+        [
+          -56.2,
+          8.8
+        ]
+      ],
+      "transition": "Let's bring Guyana and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -61.6,
+              1
+            ],
+            [
+              -56.2,
+              8.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Suriname",
+      "location": [
+        -56.0271,
+        3.9225
+      ],
+      "lines": [
+        "Suriname is the smallest country in South America, on the Atlantic between Guyana to its west and French Guiana to its east, with Brazil inland to the south.",
+        "It is named for the Suriname river, perhaps after the Surinen, its early inhabitants. In 1667 the Dutch kept it in a peace with England that left England New Amsterdam, now New York. Forest covers more than nine tenths of the country, one of the highest shares in the world.",
+        "Remember Suriname as the smallest country of South America and one of the most forested, tied to the 1667 swap that gave England New York."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Suriname"
+      ],
+      "cameraBounds": [
+        [
+          -58.3,
+          1.6
+        ],
+        [
+          -53.7,
+          6.3
+        ]
+      ],
+      "transition": "Let's bring Suriname and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -58.3,
+              1.6
+            ],
+            [
+              -53.7,
+              6.3
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -80,
+          -5
+        ],
+        [
+          -53,
+          13
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Colombia sits in the north-west with Venezuela to its east. Guyana and Suriname follow along the Atlantic, with Brazil inland behind them.",
+    "Remember a navigator who never visited his namesake country, Little Venice, the land of many waters, and the 1667 peace that gave England New York."
+  ]
+}
