@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--series', choices=['usa', 'europe', 'asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals'], required=True)
+    parser.add_argument('--series', choices=['usa', 'europe', 'asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals'], required=True)
     args = parser.parse_args()
     config = json.loads((ROOT / 'config/geoclick-youtube.json').read_text(encoding='utf-8'))
     candidates = [*config['series'], config['offline_series'], *config.get('additional_offline_series', [])]

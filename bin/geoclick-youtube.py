@@ -400,7 +400,8 @@ def prepare(config, batch_module, captions, series_id=None):
              'south-america': 'South America', 'europe-capitals': 'Europe Capitals',
              'asia-capitals': 'Asia Capitals',
              'south-america-capitals': 'South America Capitals',
-             'north-america-capitals': 'North America Capitals'}.get(identity, identity.title())
+             'north-america-capitals': 'North America Capitals',
+             'oceania-capitals': 'Oceania Capitals'}.get(identity, identity.title())
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
         raise ValueError('Offline series is not complete')
@@ -436,10 +437,15 @@ def prepare(config, batch_module, captions, series_id=None):
                    'The fact card shows the English display name, so Mexico City is taught as Mexico City. Episode groups are '
                    'teaching routes, not an official classification, and map targets do not settle political status or boundaries.'
                    if identity == 'north-america-capitals' else
-                   'This three-part edition covers all 13 capital targets of GeoClick\'s native South America capitals map exactly '
-                   'once: the capitals of the twelve countries the map names, with Bolivia\'s two capitals, La Paz and Sucre, both '
-                   'taught. Episode groups are teaching routes, not an official classification, and map targets do not settle '
-                   'political status or boundaries.')))))))
+                   ('This four-part edition covers all 11 capital targets of GeoClick\'s native Oceania capitals map exactly '
+                    'once: the capitals of the Pacific island states and of Australia and New Zealand that the map names. '
+                    'Episode groups are teaching routes, not an official classification, and map targets do not settle political '
+                    'status or boundaries.'
+                    if identity == 'oceania-capitals' else
+                    'This three-part edition covers all 13 capital targets of GeoClick\'s native South America capitals map exactly '
+                    'once: the capitals of the twelve countries the map names, with Bolivia\'s two capitals, La Paz and Sucre, both '
+                    'taught. Episode groups are teaching routes, not an official classification, and map targets do not settle '
+                    'political status or boundaries.'))))))))
     folder = ROOT / series['publishing_dir']
     folder.mkdir(parents=True, exist_ok=True)
     entries, manifest = [], []
@@ -489,7 +495,7 @@ def prepare(config, batch_module, captions, series_id=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
-    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals'], help='Offline prepare only; defaults to Asia')
+    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()

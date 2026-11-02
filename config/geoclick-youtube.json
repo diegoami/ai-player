@@ -86,6 +86,13 @@
       "published": "unlisted 2026-11-02",
       "captions": "deferred",
       "video_ids": ["JDlnPz-Rsl4", "-5npYYzoZ3I", "JAi68d3yfrA", "lNI6UGU06ys", "m9A2bJ8kt0M"]
+    },
+    {
+      "id": "oceania-capitals",
+      "ledger": "src/lessons/oceania-capitals-coverage.json",
+      "publishing_dir": "rendered/oceania-capitals-20261102/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred"
     }
   ],
   "links": {

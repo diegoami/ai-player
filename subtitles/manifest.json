@@ -1221,6 +1221,98 @@
           "sha256": "e77232d970c3fb8914390fc4c6565589210f29a97216516dfd18d830ae5b2d5b"
         }
       ]
+    },
+    {
+      "series": "oceania-capitals",
+      "episode": 1,
+      "id": "palau-pohnpei-and-the-marshalls",
+      "ledger": "src/lessons/oceania-capitals-coverage.json",
+      "master": "rendered/oceania-capitals-20261102/01-palau-pohnpei-and-the-marshalls/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/oceania-capitals/01-palau-pohnpei-and-the-marshalls/subtitles.en.srt",
+          "source": "rendered/oceania-capitals-20261102/01-palau-pohnpei-and-the-marshalls/geoclick/subtitles.en.srt",
+          "bytes": 2222,
+          "sha256": "2c93e5c727321ac9c13df13abb104bef37780c489c13bf384bed0bc6ce027272"
+        },
+        {
+          "path": "subtitles/oceania-capitals/01-palau-pohnpei-and-the-marshalls/subtitles.en.vtt",
+          "source": "rendered/oceania-capitals-20261102/01-palau-pohnpei-and-the-marshalls/geoclick/subtitles.en.vtt",
+          "bytes": 3030,
+          "sha256": "f08fa79edb5455c0c904920b59035a8238799b30372512b7bdd01c5af05e63f0"
+        }
+      ]
+    },
+    {
+      "series": "oceania-capitals",
+      "episode": 2,
+      "id": "kiribati-and-tuvalu",
+      "ledger": "src/lessons/oceania-capitals-coverage.json",
+      "master": "rendered/oceania-capitals-20261102/02-kiribati-and-tuvalu/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/oceania-capitals/02-kiribati-and-tuvalu/subtitles.en.srt",
+          "source": "rendered/oceania-capitals-20261102/02-kiribati-and-tuvalu/geoclick/subtitles.en.srt",
+          "bytes": 1762,
+          "sha256": "023ab2490896a051bab552a0adff4888a3647db7170ac768aea9709d4c5708e9"
+        },
+        {
+          "path": "subtitles/oceania-capitals/02-kiribati-and-tuvalu/subtitles.en.vtt",
+          "source": "rendered/oceania-capitals-20261102/02-kiribati-and-tuvalu/geoclick/subtitles.en.vtt",
+          "bytes": 2370,
+          "sha256": "2c1f67530489df9de59c0eba304059c9fa59af6fb6a1c26fff8f00c14edc302f"
+        }
+      ]
+    },
+    {
+      "series": "oceania-capitals",
+      "episode": 3,
+      "id": "the-melanesian-capitals",
+      "ledger": "src/lessons/oceania-capitals-coverage.json",
+      "master": "rendered/oceania-capitals-20261102/03-the-melanesian-capitals/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/oceania-capitals/03-the-melanesian-capitals/subtitles.en.srt",
+          "source": "rendered/oceania-capitals-20261102/03-the-melanesian-capitals/geoclick/subtitles.en.srt",
+          "bytes": 2180,
+          "sha256": "17ba94d4ce80445492557b7b1e28c06cf135b53dc8260f8e83bcec35180ea69c"
+        },
+        {
+          "path": "subtitles/oceania-capitals/03-the-melanesian-capitals/subtitles.en.vtt",
+          "source": "rendered/oceania-capitals-20261102/03-the-melanesian-capitals/geoclick/subtitles.en.vtt",
+          "bytes": 2988,
+          "sha256": "1fab36719f01bad1b5d553aeee19bcb69a53922c535af0562256c2b23ebcabe9"
+        }
+      ]
+    },
+    {
+      "series": "oceania-capitals",
+      "episode": 4,
+      "id": "fiji-australia-and-new-zealand",
+      "ledger": "src/lessons/oceania-capitals-coverage.json",
+      "master": "rendered/oceania-capitals-20261102/04-fiji-australia-and-new-zealand/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/oceania-capitals/04-fiji-australia-and-new-zealand/subtitles.en.srt",
+          "source": "rendered/oceania-capitals-20261102/04-fiji-australia-and-new-zealand/geoclick/subtitles.en.srt",
+          "bytes": 2388,
+          "sha256": "c45ad3b66614f5a37a5c435bffb04fa073d497bd9db19becf85587f0ed3ee0a5"
+        },
+        {
+          "path": "subtitles/oceania-capitals/04-fiji-australia-and-new-zealand/subtitles.en.vtt",
+          "source": "rendered/oceania-capitals-20261102/04-fiji-australia-and-new-zealand/geoclick/subtitles.en.vtt",
+          "bytes": 3196,
+          "sha256": "7c00cf08783fb7eaf9ea2c8cd3403c4479eebae3b3a2ece0e42ef94b56d3fe9b"
+        }
+      ]
     }
   ]
 }
