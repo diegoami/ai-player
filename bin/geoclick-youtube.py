@@ -398,7 +398,8 @@ def prepare(config, batch_module, captions, series_id=None):
     identity = series['id']
     label = {'asia': 'Asia', 'africa': 'Africa', 'north-america': 'North America',
              'south-america': 'South America', 'europe-capitals': 'Europe Capitals',
-             'asia-capitals': 'Asia Capitals'}.get(identity, identity.title())
+             'asia-capitals': 'Asia Capitals',
+             'south-america-capitals': 'South America Capitals'}.get(identity, identity.title())
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
         raise ValueError('Offline series is not complete')
@@ -425,9 +426,14 @@ def prepare(config, batch_module, captions, series_id=None):
                  'the capital of every European country the map names. Episode groups are teaching routes, not an official '
                  'classification, and map targets do not settle political status or boundaries.'
                  if identity == 'europe-capitals' else
-                 'This seven-part edition covers all 47 capital targets of GeoClick\'s native Asia capitals map exactly once: '
-                 'the capital of every Asian country the map names. Episode groups are teaching routes, not an official '
-                 'classification, and map targets do not settle political status or boundaries.')))))
+                 ('This seven-part edition covers all 47 capital targets of GeoClick\'s native Asia capitals map exactly once: '
+                  'the capital of every Asian country the map names. Episode groups are teaching routes, not an official '
+                  'classification, and map targets do not settle political status or boundaries.'
+                  if identity == 'asia-capitals' else
+                  'This three-part edition covers all 13 capital targets of GeoClick\'s native South America capitals map exactly '
+                  'once: the capitals of the twelve countries the map names, with Bolivia\'s two capitals, La Paz and Sucre, both '
+                  'taught. Episode groups are teaching routes, not an official classification, and map targets do not settle '
+                  'political status or boundaries.'))))))
     folder = ROOT / series['publishing_dir']
     folder.mkdir(parents=True, exist_ok=True)
     entries, manifest = [], []
@@ -477,7 +483,7 @@ def prepare(config, batch_module, captions, series_id=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
-    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals'], help='Offline prepare only; defaults to Asia')
+    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()

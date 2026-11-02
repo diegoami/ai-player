@@ -1037,6 +1037,75 @@
           "sha256": "4fa957fb2f63bd6ded3eb41ef95f38af869ada01c1ec5e5897d4e6dd617335cd"
         }
       ]
+    },
+    {
+      "series": "south-america-capitals",
+      "episode": 1,
+      "id": "north-and-the-caribbean-coast",
+      "ledger": "src/lessons/south-america-capitals-coverage.json",
+      "master": "rendered/south-america-capitals-20261102/01-north-and-the-caribbean-coast/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "5oSNj262L9s",
+      "files": [
+        {
+          "path": "subtitles/south-america-capitals/01-north-and-the-caribbean-coast/subtitles.en.srt",
+          "source": "rendered/south-america-capitals-20261102/01-north-and-the-caribbean-coast/geoclick/subtitles.en.srt",
+          "bytes": 3538,
+          "sha256": "4fcfaf295ad28e9ed56e28f3fefa0f211a4e1923ba0936ac27e09de92fdd5bdc"
+        },
+        {
+          "path": "subtitles/south-america-capitals/01-north-and-the-caribbean-coast/subtitles.en.vtt",
+          "source": "rendered/south-america-capitals-20261102/01-north-and-the-caribbean-coast/geoclick/subtitles.en.vtt",
+          "bytes": 4746,
+          "sha256": "47ee76e97ab8904e16d5cccedcc9144ea6785841dc53bddaf7f9b04d4ac3027c"
+        }
+      ]
+    },
+    {
+      "series": "south-america-capitals",
+      "episode": 2,
+      "id": "the-andes-and-the-gran-chaco",
+      "ledger": "src/lessons/south-america-capitals-coverage.json",
+      "master": "rendered/south-america-capitals-20261102/02-the-andes-and-the-gran-chaco/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "NpgKeTiG6lc",
+      "files": [
+        {
+          "path": "subtitles/south-america-capitals/02-the-andes-and-the-gran-chaco/subtitles.en.srt",
+          "source": "rendered/south-america-capitals-20261102/02-the-andes-and-the-gran-chaco/geoclick/subtitles.en.srt",
+          "bytes": 3023,
+          "sha256": "94c4b660f43ad8f68c87e443af4941b84734332252b79a169e51990e57895b10"
+        },
+        {
+          "path": "subtitles/south-america-capitals/02-the-andes-and-the-gran-chaco/subtitles.en.vtt",
+          "source": "rendered/south-america-capitals-20261102/02-the-andes-and-the-gran-chaco/geoclick/subtitles.en.vtt",
+          "bytes": 4031,
+          "sha256": "b5aca78056122ca56b2fd29cc761276dea04b3a4c91170110f30ef6547b291df"
+        }
+      ]
+    },
+    {
+      "series": "south-america-capitals",
+      "episode": 3,
+      "id": "the-south-and-brasilia",
+      "ledger": "src/lessons/south-america-capitals-coverage.json",
+      "master": "rendered/south-america-capitals-20261102/03-the-south-and-brasilia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "5VpzfSO_SWU",
+      "files": [
+        {
+          "path": "subtitles/south-america-capitals/03-the-south-and-brasilia/subtitles.en.srt",
+          "source": "rendered/south-america-capitals-20261102/03-the-south-and-brasilia/geoclick/subtitles.en.srt",
+          "bytes": 3237,
+          "sha256": "4a84518801bf5c1bbd6211c63347739d277e5c4873b19e1c789045e7a9ec0080"
+        },
+        {
+          "path": "subtitles/south-america-capitals/03-the-south-and-brasilia/subtitles.en.vtt",
+          "source": "rendered/south-america-capitals-20261102/03-the-south-and-brasilia/geoclick/subtitles.en.vtt",
+          "bytes": 4245,
+          "sha256": "0ec129b8fbcb77cd90c423905085b20a05c2971e32c46ae2c7561ca27edc3d2f"
+        }
+      ]
     }
   ]
 }

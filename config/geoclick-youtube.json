@@ -70,6 +70,14 @@
       "published": "unlisted 2026-11-02",
       "captions": "deferred",
       "video_ids": ["zSO15iqpqjQ", "eZjfTqr5gLU", "JgDnVRBCXck", "JkfAdRz4VKk", "xi7PSSQea20", "jqr0M9ifQJY", "guDkbWfob2w"]
+    },
+    {
+      "id": "south-america-capitals",
+      "ledger": "src/lessons/south-america-capitals-coverage.json",
+      "publishing_dir": "rendered/south-america-capitals-20261102/youtube-publishing",
+      "published": "unlisted 2026-11-02",
+      "captions": "deferred",
+      "video_ids": ["5oSNj262L9s", "NpgKeTiG6lc", "5VpzfSO_SWU"]
     }
   ],
   "links": {
