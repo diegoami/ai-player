@@ -201,23 +201,24 @@ Live state, confirmed by a fresh read after the last write:
   three South America videos that went out unlisted and were later made
   public at the owner's request. Each description carries the playlist link
   exactly once.
-- **Sixteen more videos are unlisted**, added at the end of the day: six
-  Europe capitals lessons, seven Asia capitals lessons and three South America
-  capitals lessons. They are reachable
+- **Twenty-one more videos are unlisted**, added at the end of the day: six
+  Europe capitals lessons, seven Asia capitals lessons, three South America
+  capitals lessons and five North America capitals lessons. They are reachable
   through the playlist but not pushed to the channel. See *Europe capitals:
-  uploaded unlisted*, *Asia capitals: uploaded unlisted* and *South America
-  capitals: uploaded unlisted* below.
-- **The playlist `PLNl_MybP55PE` is public** with all 48 members, in order:
+  uploaded unlisted*, *Asia capitals: uploaded unlisted*, *South America
+  capitals: uploaded unlisted* and *North America capitals: uploaded unlisted*
+  below.
+- **The playlist `PLNl_MybP55PE` is public** with all 53 members, in order:
   United States 1–5, Europe 1–6, Asia 1–7, Africa 1–8, North America 1–3,
   South America 1–3, Europe capitals 1–6, Asia capitals 1–7, South America
-  capitals 1–3. No duplicates and
+  capitals 1–3, North America capitals 1–5. No duplicates and
   no unrelated members. Title, description and the screenshot cover are
   unchanged.
 - **Captions are deferred, not installed.** Ten US and Europe videos keep the
-  captions they already had. Thirty-eight videos have no caption track:
-  Europe 6, all seven Asia videos, all eight Africa videos and the twenty-three
-  North America, South America, Europe capitals, Asia capitals and South America
-  capitals videos.
+  captions they already had. Forty-three videos have no caption track:
+  Europe 6, all seven Asia videos, all eight Africa videos and the twenty-eight
+  North America, South America, Europe capitals, Asia capitals, South America
+  capitals and North America capitals videos.
 
 New artefacts, all ignored by Git:
 
@@ -484,6 +485,40 @@ They are the last three members of the playlist. The shared upload ledger now
 holds 48 records, and a fresh read confirms the playlist is public with 48
 members, none missing and none duplicated, with the playlist link in every
 description.
+
+## North America capitals: uploaded unlisted
+
+A seventh edition follows the capitals: North America's. The five lessons
+cover all 23 capital targets of GeoClick's native `north-america-capitals` map
+exactly once — Canada, the United States, Mexico, Central America with Belize,
+and the Caribbean islands — with clean masters and optional English SRT/WebVTT
+in `rendered/north-america-capitals-20261102/` and tracked caption backups in
+`subtitles/north-america-capitals/`.
+
+The owner authorised the upload on 2 November 2026, unlisted, with playlist
+seats in `PLNl_MybP55PE`, the playlist link in each description and its
+screenshot thumbnail. Captions stay deferred.
+
+| Episode | Video ID |
+|---|---|
+| Canada, the United States and Mexico | `JDlnPz-Rsl4` |
+| Central America and Belize | `-5npYYzoZ3I` |
+| Cuba, Hispaniola and Jamaica | `JAi68d3yfrA` |
+| The Bahamas and the Leeward Islands | `lNI6UGU06ys` |
+| The Windwards and Trinidad | `m9A2bJ8kt0M` |
+
+They are the last five members of the playlist. The shared upload ledger holds
+53 records with 53 distinct video IDs, and the local job checkpoints record
+upload, thumbnail, metadata and publication successful for all five at
+`unlisted`.
+
+**The read-back that followed this upload hit the quota ceiling.** The
+verification request returned `403 quotaExceeded` on the general bucket, so
+the live state of these five was confirmed from the queue's own accepted
+actions rather than from a fresh read. The last successful read, after the
+three South America capitals videos, showed the playlist public with 48
+members, none missing, none duplicated and the playlist link in every
+description; this series was uploaded by the same flow with the same seats.
 
 ## Africa state: uploaded privately, then published
 

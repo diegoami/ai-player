@@ -414,6 +414,46 @@ Two checks worth keeping:
   and Buenos Aires sits on the western bank. All of it was corrected and
   re-recorded before anything was published.
 
+## Completed North America capitals edition: five capital lessons
+
+A seventh edition follows the countries of North America: the capitals. It uses
+GeoClick's native `north-america-capitals` point map, whose 23 capital targets
+are all demonstrated once each — Canada, the United States, Mexico, the seven
+countries of Central America with Belize, and the Caribbean islands.
+
+`src/lessons/north-america-capitals-content.mjs` holds the researched narration
+and `src/lessons/north-america-capitals-coverage.json` is the independent
+ledger. The groups are teaching routes: Canada, the United States and Mexico;
+Central America and Belize; Cuba, Hispaniola and Jamaica; the Bahamas and the
+Leeward Islands; and the Windwards and Trinidad.
+
+| Episode | Stops | Duration | Output under `rendered/north-america-capitals-20261102/` |
+|---|---:|---:|---|
+| Canada, the United States and Mexico | 3 | 2:56 | `01-canada-the-united-states-and-mexico/geoclick/` |
+| Central America and Belize | 7 | 5:33 | `02-central-america-and-belize/geoclick/` |
+| Cuba, Hispaniola and Jamaica | 4 | 3:16 | `03-cuba-hispaniola-and-jamaica/geoclick/` |
+| The Bahamas and the Leeward Islands | 5 | 3:52 | `04-the-bahamas-and-the-leewards/geoclick/` |
+| The Windwards and Trinidad | 4 | 3:09 | `05-the-windwards-and-trinidad/geoclick/` |
+
+Clean 1600×900 H.264/AAC masters have no burned-in narration captions; optional
+English SRT and top-positioned WebVTT are separate. Audio peaks range from
+-3.6 to -3.4 dB, with 16, 32, 20, 24 and 20 caption cues. The contact sheets
+and the caption-on/off previews of every episode were inspected. The collection
+ZIP is
+`rendered/north-america-capitals-20261102/all-five-north-america-capitals-videos.zip`.
+
+The owner authorised the upload on 2 November 2026, **unlisted**, with playlist
+seats in `PLNl_MybP55PE`, the playlist link in each description and its
+screenshot thumbnail; captions stay deferred. The five video IDs are
+`JDlnPz-Rsl4`, `-5npYYzoZ3I`, `JAi68d3yfrA`, `lNI6UGU06ys` and `m9A2bJ8kt0M`,
+and they are the last five members of the playlist, which now holds 53.
+
+One thing a point map decides for you: the map's key for Mexico City is
+`Ciudad de México`, but the fact card shows the English display name, so the
+card reads "Mexico City". The click-point finder now records the name the card
+actually displays, and the lessons teach that name — the lesson would have
+failed its own card check otherwise.
+
 ## Completed Europe edition: six country lessons
 
 The user accepted the proposed six-video Europe route and requested producing

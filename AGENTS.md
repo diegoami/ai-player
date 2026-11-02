@@ -13,10 +13,11 @@ errors; do not create a scheduled task.
 
 **All 32 GeoClick videos are published** (2 November 2026): US 5, Europe 6,
 Asia 7, Africa 8, North America 3 and South America 3 are public with the
-playlist link in every description. Sixteen more went out the same day as
+playlist link in every description. Twenty-one more went out the same day as
 **unlisted** members at the end of the same public playlist: the Europe
-capitals, Asia capitals and South America capitals lessons. The playlist
-`PLNl_MybP55PE` is public with all 48 members in order. The owner postponed
+capitals, Asia capitals, South America capitals and North America capitals
+lessons. The playlist `PLNl_MybP55PE` is public with all 53 members in order.
+The owner postponed
 subtitles, so no caption
 track was installed for Europe 6, the seven Asia videos, the eight Africa
 videos or the twenty North America, South America and capitals videos; the
@@ -74,6 +75,21 @@ the three videos are **unlisted** in playlist `PLNl_MybP55PE` as
 their screenshot thumbnails; their captions are deferred. See the GeoClick
 notes for the two things a new map needs: on-land click points per stop, and
 a restore list so the real Clear button exists.
+
+The completed North America capitals edition has **five capital lessons**, with
+John, interesting facts/location hooks and separate optional English captions.
+It uses GeoClick's native `north-america-capitals` point map, whose 23 capital
+targets are all demonstrated once each: Canada, the United States, Mexico, the
+seven Central American countries with Belize, and the Caribbean islands. The
+fact card shows the English display name, so Mexico City is taught as Mexico
+City. Use `src/lessons/north-america-capitals-coverage.json` and
+`src/lessons/north-america-capitals-content.mjs`. Output:
+`rendered/north-america-capitals-20261102/`; the collection ZIP is
+`all-five-north-america-capitals-videos.zip`. Durations are 2:56, 5:33, 3:16,
+3:52 and 3:09. Exact optional English SRT/WebVTT backups are in tracked
+`subtitles/north-america-capitals/`. The five videos went out **unlisted** in
+the same playlist as `JDlnPz-Rsl4`, `-5npYYzoZ3I`, `JAi68d3yfrA`, `lNI6UGU06ys`
+and `m9A2bJ8kt0M`, with their captions deferred.
 
 The completed South America edition has **three country lessons**, with John,
 interesting facts/location hooks and separate optional English captions. It
