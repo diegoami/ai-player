@@ -1,0 +1,130 @@
+{
+  "edition": "Oceania capitals · Four regional lessons · November 2026",
+  "status": "complete",
+  "scope": "All 11 capital targets of GeoClick's native oceania-capitals map, each exactly once: the capitals of the Pacific island states and of Australia and New Zealand that the map names. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 11,
+  "countryCount": 11,
+  "nativeTargetCount": 11,
+  "nativeTeachingStopCount": 11,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 11,
+  "episodes": [
+    {
+      "id": "palau-pohnpei-and-the-marshalls",
+      "title": "Palau, Pohnpei and the Marshalls",
+      "status": "complete",
+      "lesson": "src/lessons/oceania-capitals-01-palau-pohnpei-and-the-marshalls.json",
+      "places": [
+        "Ngerulmud",
+        "Palikir",
+        "Majuro"
+      ],
+      "countries": [
+        "Ngerulmud",
+        "Palikir",
+        "Majuro"
+      ],
+      "nativeTargets": [
+        "Ngerulmud",
+        "Palikir",
+        "Majuro"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/oceania-capitals-20261102/01-palau-pohnpei-and-the-marshalls/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 152.88,
+      "covered": [
+        "Ngerulmud",
+        "Palikir",
+        "Majuro"
+      ]
+    },
+    {
+      "id": "kiribati-and-tuvalu",
+      "title": "Kiribati and Tuvalu",
+      "status": "complete",
+      "lesson": "src/lessons/oceania-capitals-02-kiribati-and-tuvalu.json",
+      "places": [
+        "Tarawa",
+        "Funafuti"
+      ],
+      "countries": [
+        "Tarawa",
+        "Funafuti"
+      ],
+      "nativeTargets": [
+        "Tarawa",
+        "Funafuti"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/oceania-capitals-20261102/02-kiribati-and-tuvalu/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 120.16,
+      "covered": [
+        "Tarawa",
+        "Funafuti"
+      ]
+    },
+    {
+      "id": "the-melanesian-capitals",
+      "title": "The Melanesian capitals",
+      "status": "complete",
+      "lesson": "src/lessons/oceania-capitals-03-the-melanesian-capitals.json",
+      "places": [
+        "Honiara",
+        "Port Moresby",
+        "Port Vila"
+      ],
+      "countries": [
+        "Honiara",
+        "Port Moresby",
+        "Port Vila"
+      ],
+      "nativeTargets": [
+        "Honiara",
+        "Port Moresby",
+        "Port Vila"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/oceania-capitals-20261102/03-the-melanesian-capitals/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 148.6,
+      "covered": [
+        "Honiara",
+        "Port Moresby",
+        "Port Vila"
+      ]
+    },
+    {
+      "id": "fiji-australia-and-new-zealand",
+      "title": "Fiji, Australia and New Zealand",
+      "status": "complete",
+      "lesson": "src/lessons/oceania-capitals-04-fiji-australia-and-new-zealand.json",
+      "places": [
+        "Suva",
+        "Canberra",
+        "Wellington"
+      ],
+      "countries": [
+        "Suva",
+        "Canberra",
+        "Wellington"
+      ],
+      "nativeTargets": [
+        "Suva",
+        "Canberra",
+        "Wellington"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/oceania-capitals-20261102/04-fiji-australia-and-new-zealand/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 159.44,
+      "covered": [
+        "Suva",
+        "Canberra",
+        "Wellington"
+      ]
+    }
+  ],
+  "coveredCountryCount": 11
+}

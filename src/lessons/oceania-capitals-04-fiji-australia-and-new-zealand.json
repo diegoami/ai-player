@@ -1,0 +1,223 @@
+{
+  "title": "Oceania capitals four of four · Fiji, Australia and New Zealand",
+  "edition": "Oceania capitals · Four regional lessons · John · November 2026",
+  "mapId": "oceania-capitals",
+  "area": "Oceania",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/oceania-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      147,
+      -42.5
+    ],
+    [
+      179.9,
+      -17
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Suva",
+      "location": [
+        178.4417,
+        -18.133
+      ],
+      "bounds": [
+        [
+          177.04,
+          -19.53
+        ],
+        [
+          179.84,
+          -16.73
+        ]
+      ]
+    },
+    {
+      "name": "Canberra",
+      "location": [
+        149.129,
+        -35.283
+      ],
+      "bounds": [
+        [
+          147.73,
+          -36.68
+        ],
+        [
+          150.53,
+          -33.88
+        ]
+      ]
+    },
+    {
+      "name": "Wellington",
+      "location": [
+        174.7772,
+        -41.2921
+      ],
+      "bounds": [
+        [
+          173.38,
+          -42.69
+        ],
+        [
+          176.18,
+          -39.89
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Oceania capitals, episode four of four. First, I clear the chosen names for a fresh regional lesson.",
+    "And three close the series: Fiji, and the two great southern states of Australia and New Zealand."
+  ],
+  "states": [
+    {
+      "name": "Suva",
+      "location": [
+        178.4417,
+        -18.133
+      ],
+      "lines": [
+        "Suva stands on a peninsula on the south-east coast of Viti Levu, the largest island of Fiji.",
+        "The capital since 1882, it is one of the largest towns of the South Pacific islands, and the University of the South Pacific, founded here in 1968, serves twelve countries.",
+        "Remember Suva as the university that serves a twelfth of the Pacific, on the peninsula of Viti Levu."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suva",
+        "https://en.wikipedia.org/wiki/University_of_the_South_Pacific"
+      ],
+      "cameraBounds": [
+        [
+          177.04,
+          -19.53
+        ],
+        [
+          179.84,
+          -16.73
+        ]
+      ],
+      "transition": "Let's bring Suva into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              177.04,
+              -19.53
+            ],
+            [
+              179.84,
+              -16.73
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Canberra",
+      "location": [
+        149.129,
+        -35.283
+      ],
+      "lines": [
+        "Canberra stands inland in the south-east of Australia, between Sydney and Melbourne, in the Australian Capital Territory.",
+        "From a Ngunnawal word, probably \"meeting place\"; built as a compromise capital because Sydney and Melbourne could not agree, and designed by an American who won a competition, its street plan is a set of geometric axes aligned to the surrounding hills.",
+        "Remember Canberra as the compromise capital between two rival cities, laid out in geometric axes for the hills."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Canberra",
+        "https://en.wikipedia.org/wiki/Walter_Burley_Griffin"
+      ],
+      "cameraBounds": [
+        [
+          147.73,
+          -36.68
+        ],
+        [
+          150.53,
+          -33.88
+        ]
+      ],
+      "transition": "Let's bring Canberra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              147.73,
+              -36.68
+            ],
+            [
+              150.53,
+              -33.88
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wellington",
+      "location": [
+        174.7772,
+        -41.2921
+      ],
+      "lines": [
+        "Wellington stands on the southern tip of the North Island of New Zealand, on the harbour of Cook Strait.",
+        "Named for the Duke of Wellington, it is the southernmost capital of a sovereign state, and it is known as Windy Wellington for the gales that come through the Strait.",
+        "Remember Wellington as the windiest of the capitals, and the southernmost of them all."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wellington",
+        "https://en.wikipedia.org/wiki/New_Zealand"
+      ],
+      "cameraBounds": [
+        [
+          173.38,
+          -42.69
+        ],
+        [
+          176.18,
+          -39.89
+        ]
+      ],
+      "transition": "Let's bring Wellington into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              173.38,
+              -42.69
+            ],
+            [
+              176.18,
+              -39.89
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          147,
+          -42.5
+        ],
+        [
+          179.9,
+          -17
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Suva stands on a peninsula of Viti Levu in the north of the group, Canberra inland between Sydney and Melbourne, and Wellington at the southern tip of the North Island.",
+    "Remember the university that serves a twelfth of the Pacific, the compromise capital laid out in geometric axes, and the windiest and southernmost of the capitals."
+  ]
+}

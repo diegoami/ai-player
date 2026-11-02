@@ -1,0 +1,165 @@
+{
+  "title": "Oceania capitals two of four · Kiribati and Tuvalu",
+  "edition": "Oceania capitals · Four regional lessons · John · November 2026",
+  "mapId": "oceania-capitals",
+  "area": "Oceania",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/oceania-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      171,
+      -10.5
+    ],
+    [
+      179.9,
+      3
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Tarawa",
+      "location": [
+        173.0176,
+        1.3382
+      ],
+      "bounds": [
+        [
+          171.62,
+          -0.06
+        ],
+        [
+          174.42,
+          2.74
+        ]
+      ]
+    },
+    {
+      "name": "Funafuti",
+      "location": [
+        179.2166,
+        -8.5167
+      ],
+      "bounds": [
+        [
+          177.82,
+          -9.92
+        ],
+        [
+          179.92,
+          -7.12
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Oceania capitals, episode two of four. First, I clear the chosen names for a fresh regional lesson.",
+    "Two atoll capitals in the middle of the Pacific, each a ring of land a few metres above the sea."
+  ],
+  "states": [
+    {
+      "name": "Tarawa",
+      "location": [
+        173.0176,
+        1.3382
+      ],
+      "lines": [
+        "Tarawa lies on an atoll just north of the equator in the middle of the Pacific, in the country of Kiribati.",
+        "The battle of Tarawa in 1943 was one of the bloodiest of the Pacific War, and South Tarawa holds about half of Kiribati's people. Kiribati is the only country that lies in all four hemispheres.",
+        "Remember Tarawa as the only country in all four hemispheres, and the atoll that cost so much in 1943."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tarawa",
+        "https://en.wikipedia.org/wiki/Kiribati"
+      ],
+      "cameraBounds": [
+        [
+          171.62,
+          -0.06
+        ],
+        [
+          174.42,
+          2.74
+        ]
+      ],
+      "transition": "Let's bring Tarawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              171.62,
+              -0.06
+            ],
+            [
+              174.42,
+              2.74
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funafuti",
+      "location": [
+        179.2166,
+        -8.5167
+      ],
+      "lines": [
+        "Funafuti stands on an atoll in Tuvalu, south of the equator in the central Pacific, close to the date line.",
+        "The atoll's highest point is only about 4.5 metres above the sea, and its airstrip doubles as the football pitch and as the place where people sleep on hot nights. Tuvalu's internet domain, .tv, earns the country a large part of its income.",
+        "Remember Funafuti as the airstrip that is also the football pitch, four and a half metres above the sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Funafuti",
+        "https://en.wikipedia.org/wiki/Tuvalu"
+      ],
+      "cameraBounds": [
+        [
+          177.82,
+          -9.92
+        ],
+        [
+          179.92,
+          -7.12
+        ]
+      ],
+      "transition": "Let's bring Funafuti into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              177.82,
+              -9.92
+            ],
+            [
+              179.92,
+              -7.12
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          171,
+          -10.5
+        ],
+        [
+          179.9,
+          3
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Tarawa lies just north of the equator and Funafuti just south of it, each the seat of a country spread over a huge area of ocean.",
+    "Remember the only country in all four hemispheres, and the airstrip that doubles as a football pitch."
+  ]
+}

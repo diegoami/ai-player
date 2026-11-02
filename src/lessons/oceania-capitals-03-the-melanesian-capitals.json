@@ -1,0 +1,223 @@
+{
+  "title": "Oceania capitals three of four · The Melanesian capitals",
+  "edition": "Oceania capitals · Four regional lessons · John · November 2026",
+  "mapId": "oceania-capitals",
+  "area": "Oceania",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/oceania-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      145,
+      -19.5
+    ],
+    [
+      170,
+      -8
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Honiara",
+      "location": [
+        159.9498,
+        -9.438
+      ],
+      "bounds": [
+        [
+          158.55,
+          -10.84
+        ],
+        [
+          161.35,
+          -8.04
+        ]
+      ]
+    },
+    {
+      "name": "Port Moresby",
+      "location": [
+        147.1925,
+        -9.4647
+      ],
+      "bounds": [
+        [
+          145.79,
+          -10.86
+        ],
+        [
+          148.59,
+          -8.06
+        ]
+      ]
+    },
+    {
+      "name": "Port Vila",
+      "location": [
+        168.3166,
+        -17.7334
+      ],
+      "bounds": [
+        [
+          166.92,
+          -19.13
+        ],
+        [
+          169.72,
+          -16.33
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Oceania capitals, episode three of four. First, I clear the chosen names for a fresh regional lesson.",
+    "Three capitals of the larger Melanesian states: the Solomon Islands, Papua New Guinea and Vanuatu."
+  ],
+  "states": [
+    {
+      "name": "Honiara",
+      "location": [
+        159.9498,
+        -9.438
+      ],
+      "lines": [
+        "Honiara stands on the north coast of Guadalcanal, in the Solomon Islands.",
+        "It grew out of an American base after the Second World War, and Henderson Field, the airstrip fought over in 1942, is now its airport.",
+        "Remember Honiara as a wartime airstrip that became a capital, on the island where the Guadalcanal campaign was fought."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Honiara",
+        "https://en.wikipedia.org/wiki/Guadalcanal"
+      ],
+      "cameraBounds": [
+        [
+          158.55,
+          -10.84
+        ],
+        [
+          161.35,
+          -8.04
+        ]
+      ],
+      "transition": "Let's bring Honiara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              158.55,
+              -10.84
+            ],
+            [
+              161.35,
+              -8.04
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Port Moresby",
+      "location": [
+        147.1925,
+        -9.4647
+      ],
+      "lines": [
+        "Port Moresby stands on the shore of the Coral Sea, on the south coast of New Guinea, in the country of Papua New Guinea.",
+        "Named in 1873 by Captain John Moresby for his father, Admiral Fairfax Moresby, it is one of the largest cities in the Pacific islands outside Australia and New Zealand.",
+        "Remember Port Moresby as the Coral Sea city named by an admiral's son, and the gateway to the highlands behind it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Port_Moresby",
+        "https://en.wikipedia.org/wiki/Papua_New_Guinea"
+      ],
+      "cameraBounds": [
+        [
+          145.79,
+          -10.86
+        ],
+        [
+          148.59,
+          -8.06
+        ]
+      ],
+      "transition": "Let's bring Port Moresby into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              145.79,
+              -10.86
+            ],
+            [
+              148.59,
+              -8.06
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Port Vila",
+      "location": [
+        168.3166,
+        -17.7334
+      ],
+      "lines": [
+        "Port Vila lies on a harbour on the island of Efate, in the centre of the New Hebrides, now Vanuatu.",
+        "Until 1980 it was the capital of a colony ruled jointly by Britain and France, and Cyclone Pam badly damaged it in 2015.",
+        "Remember Port Vila as the shared Anglo-French capital, and the town Cyclone Pam broke in 2015."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Port_Vila",
+        "https://en.wikipedia.org/wiki/Vanuatu"
+      ],
+      "cameraBounds": [
+        [
+          166.92,
+          -19.13
+        ],
+        [
+          169.72,
+          -16.33
+        ]
+      ],
+      "transition": "Let's bring Port Vila into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              166.92,
+              -19.13
+            ],
+            [
+              169.72,
+              -16.33
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          145,
+          -19.5
+        ],
+        [
+          170,
+          -8
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Honiara stands on Guadalcanal in the north, Port Moresby on the Coral Sea in the west, and Port Vila on Efate in the south-east.",
+    "Remember the wartime airstrip that became a capital, the Coral Sea city named by an admiral's son, and the Anglo-French capital that Cyclone Pam broke."
+  ]
+}
