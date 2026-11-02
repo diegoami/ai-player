@@ -1,0 +1,279 @@
+{
+  "title": "North America capitals five of five · The Windwards and Trinidad",
+  "edition": "North America capitals · Five regional lessons · John · November 2026",
+  "mapId": "north-america-capitals",
+  "area": "North America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/north-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -63,
+      9
+    ],
+    [
+      -58,
+      15
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Saint George's",
+      "location": [
+        -61.7416,
+        12.0526
+      ],
+      "bounds": [
+        [
+          -63.14,
+          10.65
+        ],
+        [
+          -60.34,
+          13.45
+        ]
+      ]
+    },
+    {
+      "name": "Kingstown",
+      "location": [
+        -61.2202,
+        13.1558
+      ],
+      "bounds": [
+        [
+          -62.62,
+          11.76
+        ],
+        [
+          -59.82,
+          14.56
+        ]
+      ]
+    },
+    {
+      "name": "Bridgetown",
+      "location": [
+        -59.6165,
+        13.102
+      ],
+      "bounds": [
+        [
+          -61.02,
+          11.7
+        ],
+        [
+          -58.22,
+          14.5
+        ]
+      ]
+    },
+    {
+      "name": "Port-of-Spain",
+      "location": [
+        -61.517,
+        10.652
+      ],
+      "bounds": [
+        [
+          -62.92,
+          9.25
+        ],
+        [
+          -60.12,
+          12.05
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the North America capitals, episode five of five. First, I clear the chosen names for a fresh regional lesson.",
+    "And four close the series: the Windward islands and Barbados, and the great island of Trinidad at their foot."
+  ],
+  "states": [
+    {
+      "name": "Saint George's",
+      "location": [
+        -61.7416,
+        12.0526
+      ],
+      "lines": [
+        "Saint George's stands on the Carenage, a horseshoe harbour, on the west coast of Grenada, with the houses climbing the hills around it.",
+        "The French founded it in 1650, and American troops landed here in 1983.",
+        "Remember Saint George's as the horseshoe harbour, founded by the French and landed on by Americans in 1983."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saint_George%27s,_Grenada"
+      ],
+      "cameraBounds": [
+        [
+          -63.14,
+          10.65
+        ],
+        [
+          -60.34,
+          13.45
+        ]
+      ],
+      "transition": "Let's bring Saint George's into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -63.14,
+              10.65
+            ],
+            [
+              -60.34,
+              13.45
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kingstown",
+      "location": [
+        -61.2202,
+        13.1558
+      ],
+      "lines": [
+        "Kingstown stands on the windward shore of Saint Vincent, below the green slopes of the central mountains.",
+        "Its botanic garden, of 1765, is the oldest in the Americas, and Captain Bligh brought breadfruit trees to it. It is called the city of arches, for its stone arcades.",
+        "Remember Kingstown as the city of arches, with the oldest botanic garden in the Americas."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingstown",
+        "https://en.wikipedia.org/wiki/Saint_Vincent_Botanic_Garden"
+      ],
+      "cameraBounds": [
+        [
+          -62.62,
+          11.76
+        ],
+        [
+          -59.82,
+          14.56
+        ]
+      ],
+      "transition": "Let's bring Kingstown into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -62.62,
+              11.76
+            ],
+            [
+              -59.82,
+              14.56
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridgetown",
+      "location": [
+        -59.6165,
+        13.102
+      ],
+      "lines": [
+        "Bridgetown stands on Carlisle Bay in the west of Barbados, an island of coral limestone in the Atlantic.",
+        "Its old town and British garrison are a UNESCO site, and its Parliament, meeting since 1639, is one of the oldest in the Commonwealth. George Washington stayed here in 1751, on the only journey he ever made abroad.",
+        "Remember Bridgetown as the Parliament that has met since 1639, and the only country George Washington ever visited abroad."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bridgetown",
+        "https://en.wikipedia.org/wiki/History_of_Barbados"
+      ],
+      "cameraBounds": [
+        [
+          -61.02,
+          11.7
+        ],
+        [
+          -58.22,
+          14.5
+        ]
+      ],
+      "transition": "Let's bring Bridgetown into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -61.02,
+              11.7
+            ],
+            [
+              -58.22,
+              14.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Port-of-Spain",
+      "location": [
+        -61.517,
+        10.652
+      ],
+      "lines": [
+        "Port-of-Spain stands on the Gulf of Paria, on the north-west coast of Trinidad, facing Venezuela across the water.",
+        "Its carnival is the largest in the Caribbean, and its Queen's Park Savannah is often called one of the largest roundabouts in the world.",
+        "Remember Port-of-Spain as the carnival capital, with a savannah that counts as a roundabout."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Port_of_Spain"
+      ],
+      "cameraBounds": [
+        [
+          -62.92,
+          9.25
+        ],
+        [
+          -60.12,
+          12.05
+        ]
+      ],
+      "transition": "Let's bring Port-of-Spain into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -62.92,
+              9.25
+            ],
+            [
+              -60.12,
+              12.05
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -63,
+          9
+        ],
+        [
+          -58,
+          15
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Saint George's and Kingstown stand on the Grenadines and Saint Vincent, Bridgetown on the Atlantic side of Barbados, and Port-of-Spain on the Gulf of Paria.",
+    "Remember the horseshoe harbour, the city of arches with the oldest botanic garden in the Americas, the Parliament that has met since 1639, and the carnival capital with a savannah roundabout."
+  ]
+}

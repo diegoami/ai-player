@@ -1,0 +1,223 @@
+{
+  "title": "North America capitals one of five · Canada, the United States and Mexico",
+  "edition": "North America capitals · Five regional lessons · John · November 2026",
+  "mapId": "north-america-capitals",
+  "area": "North America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/north-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -100,
+      18
+    ],
+    [
+      -70,
+      47
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Ottawa",
+      "location": [
+        -75.702,
+        45.4186
+      ],
+      "bounds": [
+        [
+          -77.1,
+          44.02
+        ],
+        [
+          -74.3,
+          46.82
+        ]
+      ]
+    },
+    {
+      "name": "Washington, D.C.",
+      "location": [
+        -77.0114,
+        38.9015
+      ],
+      "bounds": [
+        [
+          -78.41,
+          37.5
+        ],
+        [
+          -75.61,
+          40.3
+        ]
+      ]
+    },
+    {
+      "name": "Mexico City",
+      "location": [
+        -99.1329,
+        19.4444
+      ],
+      "bounds": [
+        [
+          -100.53,
+          18.04
+        ],
+        [
+          -97.73,
+          20.84
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the North America capitals, episode one of five. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin with the three great capitals of the north: Ottawa and Washington, and then Mexico City, far to the south of them."
+  ],
+  "states": [
+    {
+      "name": "Ottawa",
+      "location": [
+        -75.702,
+        45.4186
+      ],
+      "lines": [
+        "Ottawa stands on the Ottawa river in eastern Ontario, right at the border with Quebec, where the river meets the Rideau canal and the hills beyond.",
+        "From the Algonquin adawe, \"to trade\", for the river that was a trading route: Queen Victoria chose it as capital in 1857, partly because it was far from the American border.",
+        "Remember Ottawa as the trade-route capital, picked to sit far from the American border, whose frozen Rideau canal becomes the world's largest skating rink."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottawa",
+        "https://en.wikipedia.org/wiki/Rideau_Canal"
+      ],
+      "cameraBounds": [
+        [
+          -77.1,
+          44.02
+        ],
+        [
+          -74.3,
+          46.82
+        ]
+      ],
+      "transition": "Let's bring Ottawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -77.1,
+              44.02
+            ],
+            [
+              -74.3,
+              46.82
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Washington, D.C.",
+      "location": [
+        -77.0114,
+        38.9015
+      ],
+      "lines": [
+        "Washington stands on the Potomac river, on the Atlantic side of the Appalachian mountains, between Maryland and Virginia.",
+        "George Washington chose the site but never named it after himself; the commissioners laying it out did, in 1791, and the District of Columbia is a Latin flourish for the same Columbus. It is in no state on purpose, so the capital would never be beholden to one.",
+        "Remember Washington as the capital that belongs to no state, and the city that stays low because no building may rise above the limit set in 1910."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Washington,_D.C.",
+        "https://en.wikipedia.org/wiki/District_of_Columbia"
+      ],
+      "cameraBounds": [
+        [
+          -78.41,
+          37.5
+        ],
+        [
+          -75.61,
+          40.3
+        ]
+      ],
+      "transition": "Let's bring Washington, D.C. into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -78.41,
+              37.5
+            ],
+            [
+              -75.61,
+              40.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mexico City",
+      "location": [
+        -99.1329,
+        19.4444
+      ],
+      "lines": [
+        "Mexico City stands in the Valley of Mexico, ringed by volcanoes, at about 2,240 metres above the sea.",
+        "From Mexica, the Aztecs' own name for themselves, so the city and the country share it. It is built on the drained lake bed of Tenochtitlán and sinks up to 50 cm a year in places.",
+        "Remember Mexico City as the city that sinks, built on a drained lake, with its Zócalo over the Aztec ceremonial precinct."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexico_City",
+        "https://en.wikipedia.org/wiki/Tenochtitlan"
+      ],
+      "cameraBounds": [
+        [
+          -100.53,
+          18.04
+        ],
+        [
+          -97.73,
+          20.84
+        ]
+      ],
+      "transition": "Let's bring Mexico City into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -100.53,
+              18.04
+            ],
+            [
+              -97.73,
+              20.84
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -100,
+          18
+        ],
+        [
+          -70,
+          47
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Ottawa sits on the Ottawa river in Ontario, Washington on the Potomac, and Mexico City in its high valley of volcanoes, two thousand kilometres to the south.",
+    "Remember the trade-route capital chosen for its distance from the American border, the capital that belongs to no state, and the sinking city built on a drained lake."
+  ]
+}

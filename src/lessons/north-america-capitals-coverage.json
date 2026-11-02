@@ -1,0 +1,196 @@
+{
+  "edition": "North America capitals · Five regional lessons · November 2026",
+  "status": "complete",
+  "scope": "All 23 capital targets of GeoClick's native north-america-capitals map, each exactly once: the capitals of the countries of Canada, the United States, Mexico, Central America and the Caribbean that the map names. The fact card shows the English display name, so Mexico City is taught as Mexico City. Episode groups are teaching routes, not an official classification.",
+  "targetCount": 23,
+  "countryCount": 23,
+  "nativeTargetCount": 23,
+  "nativeTeachingStopCount": 23,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 23,
+  "episodes": [
+    {
+      "id": "canada-the-united-states-and-mexico",
+      "title": "Canada, the United States and Mexico",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-capitals-01-canada-the-united-states-and-mexico.json",
+      "places": [
+        "Ottawa",
+        "Washington, D.C.",
+        "Mexico City"
+      ],
+      "countries": [
+        "Ottawa",
+        "Washington, D.C.",
+        "Mexico City"
+      ],
+      "nativeTargets": [
+        "Ottawa",
+        "Washington, D.C.",
+        "Mexico City"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-capitals-20261102/01-canada-the-united-states-and-mexico/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 176.08,
+      "covered": [
+        "Ottawa",
+        "Washington, D.C.",
+        "Mexico City"
+      ]
+    },
+    {
+      "id": "central-america-and-belize",
+      "title": "Central America and Belize",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-capitals-02-central-america-and-belize.json",
+      "places": [
+        "Belmopan",
+        "Guatemala City",
+        "Tegucigalpa",
+        "San Salvador",
+        "Managua",
+        "San José",
+        "Panama City"
+      ],
+      "countries": [
+        "Belmopan",
+        "Guatemala City",
+        "Tegucigalpa",
+        "San Salvador",
+        "Managua",
+        "San José",
+        "Panama City"
+      ],
+      "nativeTargets": [
+        "Belmopan",
+        "Guatemala City",
+        "Tegucigalpa",
+        "San Salvador",
+        "Managua",
+        "San José",
+        "Panama City"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-capitals-20261102/02-central-america-and-belize/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 332.96,
+      "covered": [
+        "Belmopan",
+        "Guatemala City",
+        "Tegucigalpa",
+        "San Salvador",
+        "Managua",
+        "San José",
+        "Panama City"
+      ]
+    },
+    {
+      "id": "cuba-hispaniola-and-jamaica",
+      "title": "Cuba, Hispaniola and Jamaica",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-capitals-03-cuba-hispaniola-and-jamaica.json",
+      "places": [
+        "Havana",
+        "Kingston",
+        "Port-au-Prince",
+        "Santo Domingo"
+      ],
+      "countries": [
+        "Havana",
+        "Kingston",
+        "Port-au-Prince",
+        "Santo Domingo"
+      ],
+      "nativeTargets": [
+        "Havana",
+        "Kingston",
+        "Port-au-Prince",
+        "Santo Domingo"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-capitals-20261102/03-cuba-hispaniola-and-jamaica/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 196.36,
+      "covered": [
+        "Havana",
+        "Kingston",
+        "Port-au-Prince",
+        "Santo Domingo"
+      ]
+    },
+    {
+      "id": "the-bahamas-and-the-leewards",
+      "title": "The Bahamas and the Leeward Islands",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-capitals-04-the-bahamas-and-the-leewards.json",
+      "places": [
+        "Nassau",
+        "Basseterre",
+        "Saint John's",
+        "Roseau",
+        "Castries"
+      ],
+      "countries": [
+        "Nassau",
+        "Basseterre",
+        "Saint John's",
+        "Roseau",
+        "Castries"
+      ],
+      "nativeTargets": [
+        "Nassau",
+        "Basseterre",
+        "Saint John's",
+        "Roseau",
+        "Castries"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-capitals-20261102/04-the-bahamas-and-the-leewards/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 231.92,
+      "covered": [
+        "Nassau",
+        "Basseterre",
+        "Saint John's",
+        "Roseau",
+        "Castries"
+      ]
+    },
+    {
+      "id": "the-windwards-and-trinidad",
+      "title": "The Windwards and Trinidad",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-capitals-05-the-windwards-and-trinidad.json",
+      "places": [
+        "Saint George's",
+        "Kingstown",
+        "Bridgetown",
+        "Port-of-Spain"
+      ],
+      "countries": [
+        "Saint George's",
+        "Kingstown",
+        "Bridgetown",
+        "Port-of-Spain"
+      ],
+      "nativeTargets": [
+        "Saint George's",
+        "Kingstown",
+        "Bridgetown",
+        "Port-of-Spain"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-capitals-20261102/05-the-windwards-and-trinidad/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 188.8,
+      "covered": [
+        "Saint George's",
+        "Kingstown",
+        "Bridgetown",
+        "Port-of-Spain"
+      ]
+    }
+  ],
+  "coveredCountryCount": 23
+}

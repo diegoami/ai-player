@@ -1,0 +1,339 @@
+{
+  "title": "North America capitals four of five · The Bahamas and the Leeward Islands",
+  "edition": "North America capitals · Five regional lessons · John · November 2026",
+  "mapId": "north-america-capitals",
+  "area": "North America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/north-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -79,
+      13
+    ],
+    [
+      -59,
+      27
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Nassau",
+      "location": [
+        -77.35,
+        25.0834
+      ],
+      "bounds": [
+        [
+          -78.75,
+          23.68
+        ],
+        [
+          -75.95,
+          26.48
+        ]
+      ]
+    },
+    {
+      "name": "Basseterre",
+      "location": [
+        -62.717,
+        17.302
+      ],
+      "bounds": [
+        [
+          -64.12,
+          15.9
+        ],
+        [
+          -61.32,
+          18.7
+        ]
+      ]
+    },
+    {
+      "name": "Saint John's",
+      "location": [
+        -61.85,
+        17.118
+      ],
+      "bounds": [
+        [
+          -63.25,
+          15.72
+        ],
+        [
+          -60.45,
+          18.52
+        ]
+      ]
+    },
+    {
+      "name": "Roseau",
+      "location": [
+        -61.387,
+        15.301
+      ],
+      "bounds": [
+        [
+          -62.79,
+          13.9
+        ],
+        [
+          -59.99,
+          16.7
+        ]
+      ]
+    },
+    {
+      "name": "Castries",
+      "location": [
+        -60.9929,
+        14.0079
+      ],
+      "bounds": [
+        [
+          -62.39,
+          12.61
+        ],
+        [
+          -59.59,
+          15.41
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the North America capitals, episode four of five. First, I clear the chosen names for a fresh regional lesson.",
+    "Five capitals of the smaller islands: the Bahamas, then the Leeward chain of Saint Kitts, Antigua, Dominica and Saint Lucia."
+  ],
+  "states": [
+    {
+      "name": "Nassau",
+      "location": [
+        -77.35,
+        25.0834
+      ],
+      "lines": [
+        "Nassau stands on the harbour of New Providence, the small island where most of the Bahamas' people live.",
+        "Named in 1695 for William III, of the house of Orange-Nassau, it was a pirates' republic early in the eighteenth century, and Blackbeard lived here.",
+        "Remember Nassau as the pirates' republic of New Providence, named for William of Orange."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nassau",
+        "https://en.wikipedia.org/wiki/New_Providence"
+      ],
+      "cameraBounds": [
+        [
+          -78.75,
+          23.68
+        ],
+        [
+          -75.95,
+          26.48
+        ]
+      ],
+      "transition": "Let's bring Nassau into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -78.75,
+              23.68
+            ],
+            [
+              -75.95,
+              26.48
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Basseterre",
+      "location": [
+        -62.717,
+        17.302
+      ],
+      "lines": [
+        "Basseterre stands on the Caribbean side of Saint Kitts, in a lowland ringed by the island's volcanic hills.",
+        "French for \"low land\", and founded by the French in 1627; it is one of the oldest towns of the eastern Caribbean. Its Circus, a small roundabout with a clock, was modelled on Piccadilly Circus in London.",
+        "Remember Basseterre as the low land, with a roundabout copied from Piccadilly."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basseterre",
+        "https://en.wikipedia.org/wiki/Saint_Kitts"
+      ],
+      "cameraBounds": [
+        [
+          -64.12,
+          15.9
+        ],
+        [
+          -61.32,
+          18.7
+        ]
+      ],
+      "transition": "Let's bring Basseterre into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -64.12,
+              15.9
+            ],
+            [
+              -61.32,
+              18.7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saint John's",
+      "location": [
+        -61.85,
+        17.118
+      ],
+      "lines": [
+        "Saint John's stands on the harbour of Antigua, the island Columbus named for a church in Seville.",
+        "The twin towers of its cathedral, rebuilt in stone after an earthquake in 1843, stand above the harbour, and Nelson's Dockyard, on the other side of the island, is a UNESCO site.",
+        "Remember Saint John's as the harbour above Nelson's Dockyard, with a cathedral rebuilt in stone after the earthquake of 1843."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saint_John%27s,_Antigua_and_Barbuda",
+        "https://en.wikipedia.org/wiki/Nelson%27s_Dockyard"
+      ],
+      "cameraBounds": [
+        [
+          -63.25,
+          15.72
+        ],
+        [
+          -60.45,
+          18.52
+        ]
+      ],
+      "transition": "Let's bring Saint John's into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -63.25,
+              15.72
+            ],
+            [
+              -60.45,
+              18.52
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roseau",
+      "location": [
+        -61.387,
+        15.301
+      ],
+      "lines": [
+        "Roseau lies at the mouth of the Roseau river on the west coast of Dominica, below the mountains behind it.",
+        "French for \"reed\", for the reeds along its river; the Boiling Lake, a flooded fumarole, lies in the mountains behind the town.",
+        "Remember Roseau as the town of reeds, below the mountains and the Boiling Lake."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roseau",
+        "https://en.wikipedia.org/wiki/Boiling_Lake"
+      ],
+      "cameraBounds": [
+        [
+          -62.79,
+          13.9
+        ],
+        [
+          -59.99,
+          16.7
+        ]
+      ],
+      "transition": "Let's bring Roseau into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -62.79,
+              13.9
+            ],
+            [
+              -59.99,
+              16.7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Castries",
+      "location": [
+        -60.9929,
+        14.0079
+      ],
+      "lines": [
+        "Castries stands on a harbour on the west coast of Saint Lucia, with the hills of the island rising behind it.",
+        "Named for a French minister of the navy, the Marquis de Castries, it was burned several times and a blaze in 1948 took its old wooden centre. The poet Derek Walcott, a Nobel laureate, was born here in 1930.",
+        "Remember Castries as the harbour named for a French minister, and the birthplace of the Nobel poet Derek Walcott."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Castries",
+        "https://en.wikipedia.org/wiki/Derek_Walcott"
+      ],
+      "cameraBounds": [
+        [
+          -62.39,
+          12.61
+        ],
+        [
+          -59.59,
+          15.41
+        ]
+      ],
+      "transition": "Let's bring Castries into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -62.39,
+              12.61
+            ],
+            [
+              -59.59,
+              15.41
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -79,
+          13
+        ],
+        [
+          -59,
+          27
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Nassau stands alone on New Providence in the north, and the four island capitals step south along the Leewards: Basseterre, Saint John's, Roseau and Castries.",
+    "Remember the pirates' republic, the low land with its Piccadilly roundabout, the harbour above Nelson's Dockyard, the town of reeds and the harbour of the Nobel poet."
+  ]
+}

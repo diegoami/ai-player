@@ -1,0 +1,455 @@
+{
+  "title": "North America capitals two of five · Central America and Belize",
+  "edition": "North America capitals · Five regional lessons · John · November 2026",
+  "mapId": "north-america-capitals",
+  "area": "North America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/north-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -93,
+      7
+    ],
+    [
+      -78,
+      19
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Belmopan",
+      "location": [
+        -88.7671,
+        17.252
+      ],
+      "bounds": [
+        [
+          -90.17,
+          15.85
+        ],
+        [
+          -87.37,
+          18.65
+        ]
+      ]
+    },
+    {
+      "name": "Guatemala City",
+      "location": [
+        -90.5289,
+        14.6231
+      ],
+      "bounds": [
+        [
+          -91.93,
+          13.22
+        ],
+        [
+          -89.13,
+          16.02
+        ]
+      ]
+    },
+    {
+      "name": "Tegucigalpa",
+      "location": [
+        -87.2195,
+        14.104
+      ],
+      "bounds": [
+        [
+          -88.62,
+          12.7
+        ],
+        [
+          -85.82,
+          15.5
+        ]
+      ]
+    },
+    {
+      "name": "San Salvador",
+      "location": [
+        -89.2156,
+        13.7033
+      ],
+      "bounds": [
+        [
+          -90.62,
+          12.3
+        ],
+        [
+          -87.82,
+          15.1
+        ]
+      ]
+    },
+    {
+      "name": "Managua",
+      "location": [
+        -86.2704,
+        12.155
+      ],
+      "bounds": [
+        [
+          -87.67,
+          10.76
+        ],
+        [
+          -84.87,
+          13.56
+        ]
+      ]
+    },
+    {
+      "name": "San José",
+      "location": [
+        -84.0788,
+        9.9304
+      ],
+      "bounds": [
+        [
+          -85.48,
+          8.53
+        ],
+        [
+          -82.68,
+          11.33
+        ]
+      ]
+    },
+    {
+      "name": "Panama City",
+      "location": [
+        -79.535,
+        8.97
+      ],
+      "bounds": [
+        [
+          -80.94,
+          7.57
+        ],
+        [
+          -78.14,
+          10.37
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the North America capitals, episode two of five. First, I clear the chosen names for a fresh regional lesson.",
+    "Seven capitals run down the narrow land between Mexico and Colombia, with Belize on its Caribbean shore."
+  ],
+  "states": [
+    {
+      "name": "Belmopan",
+      "location": [
+        -88.7671,
+        17.252
+      ],
+      "lines": [
+        "Belmopan stands inland in the Cayo district of northern Belize, where the foothills of the Maya Mountains rise behind it.",
+        "Built inland after Hurricane Hattie wrecked Belize City in 1961, it is one of the smallest capitals in the world: only a few tens of thousands of people live there, and its National Assembly building was designed to look like a Maya temple.",
+        "Remember Belmopan as the hurricane-proof capital, rebuilt inland and shaped like a Maya temple."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Belmopan",
+        "https://en.wikipedia.org/wiki/Belize_City"
+      ],
+      "cameraBounds": [
+        [
+          -90.17,
+          15.85
+        ],
+        [
+          -87.37,
+          18.65
+        ]
+      ],
+      "transition": "Let's bring Belmopan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -90.17,
+              15.85
+            ],
+            [
+              -87.37,
+              18.65
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guatemala City",
+      "location": [
+        -90.5289,
+        14.6231
+      ],
+      "lines": [
+        "Guatemala City lies in a highland valley at about 1,500 metres, on the chain of volcanoes that runs through Guatemala.",
+        "The capital moved here after earthquakes destroyed Antigua Guatemala in 1773, and it is the largest city in Central America.",
+        "Remember Guatemala City as the capital that replaced a ruined Antigua, and the largest city in Central America."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guatemala_City",
+        "https://en.wikipedia.org/wiki/Antigua_Guatemala"
+      ],
+      "cameraBounds": [
+        [
+          -91.93,
+          13.22
+        ],
+        [
+          -89.13,
+          16.02
+        ]
+      ],
+      "transition": "Let's bring Guatemala City into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -91.93,
+              13.22
+            ],
+            [
+              -89.13,
+              16.02
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tegucigalpa",
+      "location": [
+        -87.2195,
+        14.104
+      ],
+      "lines": [
+        "Tegucigalpa lies in a valley of the Honduran highlands, on the Choluteca river, in the centre of the country.",
+        "A name from Nahuatl whose meaning is disputed; it shares its role as capital with Comayagüela, across the river, and its airport, Toncontín, is known as one of the hardest in the world to land at.",
+        "Remember Tegucigalpa as the two-city capital, with Comayagüela across the river and the world's hardest landing at Toncontín."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tegucigalpa",
+        "https://en.wikipedia.org/wiki/Comayag%C3%BCela"
+      ],
+      "cameraBounds": [
+        [
+          -88.62,
+          12.7
+        ],
+        [
+          -85.82,
+          15.5
+        ]
+      ],
+      "transition": "Let's bring Tegucigalpa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -88.62,
+              12.7
+            ],
+            [
+              -85.82,
+              15.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "San Salvador",
+      "location": [
+        -89.2156,
+        13.7033
+      ],
+      "lines": [
+        "San Salvador lies in the Valley of the Hammocks, below the San Salvador volcano, on the Pacific side of El Salvador.",
+        "Rebuilt many times after earthquakes, it lost its archbishop Óscar Romero, who was shot while saying Mass in 1980 and was made a saint in 2018.",
+        "Remember San Salvador as the city in the Valley of the Hammocks, rebuilt after earthquakes and the home of Saint Óscar Romero."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Salvador",
+        "https://en.wikipedia.org/wiki/%C3%93scar_Romero"
+      ],
+      "cameraBounds": [
+        [
+          -90.62,
+          12.3
+        ],
+        [
+          -87.82,
+          15.1
+        ]
+      ],
+      "transition": "Let's bring San Salvador into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -90.62,
+              12.3
+            ],
+            [
+              -87.82,
+              15.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Managua",
+      "location": [
+        -86.2704,
+        12.155
+      ],
+      "lines": [
+        "Managua lies on the southern shore of Lake Managua, in the lowlands of central Nicaragua.",
+        "Made the capital in 1852 as a compromise between the rival cities of León and Granada; an earthquake in 1972 destroyed its centre.",
+        "Remember Managua as the compromise capital, chosen to settle the old rivalry between León and Granada."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Managua",
+        "https://en.wikipedia.org/wiki/History_of_Nicaragua"
+      ],
+      "cameraBounds": [
+        [
+          -87.67,
+          10.76
+        ],
+        [
+          -84.87,
+          13.56
+        ]
+      ],
+      "transition": "Let's bring Managua into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -87.67,
+              10.76
+            ],
+            [
+              -84.87,
+              13.56
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "San José",
+      "location": [
+        -84.0788,
+        9.9304
+      ],
+      "lines": [
+        "San José lies in the central valley of Costa Rica, between the mountains and the Pacific, at about 1,170 metres above the sea.",
+        "The capital since 1823, in 1884 it was among the first cities in the world with electric street lighting, and its National Theatre, of 1897, was paid for by a tax on coffee exports.",
+        "Remember San José as the coffee-tax theatre of 1897, and one of the first cities on earth lit by electricity."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Jos%C3%A9,_Costa_Rica",
+        "https://en.wikipedia.org/wiki/National_Theatre_of_Costa_Rica"
+      ],
+      "cameraBounds": [
+        [
+          -85.48,
+          8.53
+        ],
+        [
+          -82.68,
+          11.33
+        ]
+      ],
+      "transition": "Let's bring San José into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -85.48,
+              8.53
+            ],
+            [
+              -82.68,
+              11.33
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panama City",
+      "location": [
+        -79.535,
+        8.97
+      ],
+      "lines": [
+        "Panama City stands on the Pacific side of the isthmus, where the canal cuts through the narrow land between the two oceans.",
+        "Founded in 1519, the first European city on the Pacific coast of the Americas; the pirate Henry Morgan sacked the old city in 1671, and it was rebuilt a few kilometres away. It is often said to be the only capital with a rainforest inside its limits.",
+        "Remember Panama City as the first Pacific city of the Americas, rebuilt after Henry Morgan's sack, with rainforest inside its limits."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Panama_City",
+        "https://en.wikipedia.org/wiki/History_of_Panama_City"
+      ],
+      "cameraBounds": [
+        [
+          -80.94,
+          7.57
+        ],
+        [
+          -78.14,
+          10.37
+        ]
+      ],
+      "transition": "Let's bring Panama City into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -80.94,
+              7.57
+            ],
+            [
+              -78.14,
+              10.37
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -93,
+          7
+        ],
+        [
+          -78,
+          19
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Belmopan and Guatemala City sit in the north of the isthmus, Tegucigalpa, San Salvador and Managua in the middle, and San José and Panama City at the narrow southern end.",
+    "Remember the hurricane-proof capital shaped like a Maya temple, the capital that replaced a ruined Antigua, the two-city capital with Comayagüela, the Valley of the Hammocks, the compromise between León and Granada, the coffee-tax theatre and the first Pacific city of the Americas."
+  ]
+}

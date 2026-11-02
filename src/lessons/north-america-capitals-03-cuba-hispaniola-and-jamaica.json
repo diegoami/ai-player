@@ -1,0 +1,280 @@
+{
+  "title": "North America capitals three of five · Cuba, Hispaniola and Jamaica",
+  "edition": "North America capitals · Five regional lessons · John · November 2026",
+  "mapId": "north-america-capitals",
+  "area": "North America",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/north-america-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -84,
+      17
+    ],
+    [
+      -68,
+      25
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Havana",
+      "location": [
+        -82.3661,
+        23.1339
+      ],
+      "bounds": [
+        [
+          -83.77,
+          21.73
+        ],
+        [
+          -80.97,
+          24.53
+        ]
+      ]
+    },
+    {
+      "name": "Kingston",
+      "location": [
+        -76.7674,
+        17.9771
+      ],
+      "bounds": [
+        [
+          -78.17,
+          16.58
+        ],
+        [
+          -75.37,
+          19.38
+        ]
+      ]
+    },
+    {
+      "name": "Port-au-Prince",
+      "location": [
+        -72.338,
+        18.543
+      ],
+      "bounds": [
+        [
+          -73.74,
+          17.14
+        ],
+        [
+          -70.94,
+          19.94
+        ]
+      ]
+    },
+    {
+      "name": "Santo Domingo",
+      "location": [
+        -69.9297,
+        18.4707
+      ],
+      "bounds": [
+        [
+          -71.33,
+          17.07
+        ],
+        [
+          -68.53,
+          19.87
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the North America capitals, episode three of five. First, I clear the chosen names for a fresh regional lesson.",
+    "Four capitals of the great Caribbean islands: Cuba, Jamaica and the two halves of Hispaniola."
+  ],
+  "states": [
+    {
+      "name": "Havana",
+      "location": [
+        -82.3661,
+        23.1339
+      ],
+      "lines": [
+        "Havana stands on the north coast of Cuba, on a bay that opens towards the Florida Straits.",
+        "Founded on its present site in 1519, it kept a walled Spanish city behind its ramparts for four centuries. Old Havana and its fortifications are a UNESCO site, and its Malecón, a seawall promenade of about eight kilometres, runs along the sea.",
+        "Remember Havana as the walled city on the bay, with the Malecón running along the sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Havana",
+        "https://en.wikipedia.org/wiki/Malec%C3%B3n_(Havana)"
+      ],
+      "cameraBounds": [
+        [
+          -83.77,
+          21.73
+        ],
+        [
+          -80.97,
+          24.53
+        ]
+      ],
+      "transition": "Let's bring Havana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -83.77,
+              21.73
+            ],
+            [
+              -80.97,
+              24.53
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kingston",
+      "location": [
+        -76.7674,
+        17.9771
+      ],
+      "lines": [
+        "Kingston stands on the south coast of Jamaica, across the harbour from the old pirate town of Port Royal.",
+        "Founded in 1692, after an earthquake sank Port Royal, it has one of the largest natural harbours in the world, and Bob Marley's home is now a museum here.",
+        "Remember Kingston as the harbour city that rose when the earthquake sank Port Royal."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingston",
+        "https://en.wikipedia.org/wiki/Port_Royal"
+      ],
+      "cameraBounds": [
+        [
+          -78.17,
+          16.58
+        ],
+        [
+          -75.37,
+          19.38
+        ]
+      ],
+      "transition": "Let's bring Kingston into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -78.17,
+              16.58
+            ],
+            [
+              -75.37,
+              19.38
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Port-au-Prince",
+      "location": [
+        -72.338,
+        18.543
+      ],
+      "lines": [
+        "Port-au-Prince stands on the bay of the same name, on the southern coast of Haiti.",
+        "Named for a French ship, Le Prince, that anchored in its bay, it was founded by the French in 1749; an earthquake in 2010 destroyed much of it.",
+        "Remember Port-au-Prince as the ship-named capital, founded in 1749 and largely rebuilt after the earthquake of 2010."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Port-au-Prince"
+      ],
+      "cameraBounds": [
+        [
+          -73.74,
+          17.14
+        ],
+        [
+          -70.94,
+          19.94
+        ]
+      ],
+      "transition": "Let's bring Port-au-Prince into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -73.74,
+              17.14
+            ],
+            [
+              -70.94,
+              19.94
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Santo Domingo",
+      "location": [
+        -69.9297,
+        18.4707
+      ],
+      "lines": [
+        "Santo Domingo stands on the south coast of Hispaniola, on the island the Columbus family claimed first.",
+        "Its cathedral, finished in 1540, is the oldest in the Americas, and its Alcázar de Colón was the home of Diego Columbus, Christopher's son.",
+        "Remember Santo Domingo as the oldest cathedral in the Americas, and the house of Columbus's son."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Santo_Domingo",
+        "https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_Col%C3%B3n"
+      ],
+      "cameraBounds": [
+        [
+          -71.33,
+          17.07
+        ],
+        [
+          -68.53,
+          19.87
+        ]
+      ],
+      "transition": "Let's bring Santo Domingo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -71.33,
+              17.07
+            ],
+            [
+              -68.53,
+              19.87
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -84,
+          17
+        ],
+        [
+          -68,
+          25
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Havana stands on the bay in the west, Kingston on the south coast of Jamaica, and Port-au-Prince and Santo Domingo share Hispaniola between them.",
+    "Remember the walled city and the Malecón, the harbour that rose when the earthquake sank Port Royal, the ship-named capital rebuilt after 2010, and the oldest cathedral in the Americas."
+  ]
+}
