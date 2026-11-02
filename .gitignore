@@ -4,3 +4,4 @@ rendered/
 *.log
 __pycache__/
 *.pyc
+.claude/
