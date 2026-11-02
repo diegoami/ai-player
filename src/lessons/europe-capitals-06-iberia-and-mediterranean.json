@@ -1,0 +1,281 @@
+{
+  "title": "Europe capitals six of six · Iberia and the Mediterranean",
+  "edition": "Europe capitals · Six regional lessons · John · November 2026",
+  "mapId": "europe-capitals",
+  "area": "Europe",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/europe-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -12,
+      34
+    ],
+    [
+      28,
+      42
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.7,
+        40.42
+      ],
+      "bounds": [
+        [
+          -5.09,
+          39
+        ],
+        [
+          -2.29,
+          41.8
+        ]
+      ]
+    },
+    {
+      "name": "Lisbon",
+      "location": [
+        -9.14,
+        38.72
+      ],
+      "bounds": [
+        [
+          -10.55,
+          37.32
+        ],
+        [
+          -7.75,
+          40.12
+        ]
+      ]
+    },
+    {
+      "name": "Athens",
+      "location": [
+        23.73,
+        37.98
+      ],
+      "bounds": [
+        [
+          22.33,
+          36.59
+        ],
+        [
+          25.13,
+          39.39
+        ]
+      ]
+    },
+    {
+      "name": "Valletta",
+      "location": [
+        14.51,
+        35.9
+      ],
+      "bounds": [
+        [
+          13.11,
+          34.5
+        ],
+        [
+          15.91,
+          37.3
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Europe capitals, episode six of six. First, I clear the chosen names for a fresh regional lesson.",
+    "Four capitals close the series: the two of the Iberian peninsula, the old capital of the Mediterranean, and the smallest of the island capitals."
+  ],
+  "states": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.7,
+        40.42
+      ],
+      "lines": [
+        "Madrid stands on the Manzanares river in the centre of Spain, on a plateau about 650 metres above the sea.",
+        "From Arabic al-Majrit, \"source of water\": the Moorish fortress was named for its streams, and the Christians kept the name.",
+        "Remember Madrid as the source of water and the highest capital in Europe at 650 metres, with the Prado holding Spain's finest painting."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Madrid",
+        "https://en.wikipedia.org/wiki/Spain"
+      ],
+      "cameraBounds": [
+        [
+          -5.09,
+          39
+        ],
+        [
+          -2.29,
+          41.8
+        ]
+      ],
+      "transition": "Let's bring Madrid into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.09,
+              39
+            ],
+            [
+              -2.29,
+              41.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lisbon",
+      "location": [
+        -9.14,
+        38.72
+      ],
+      "lines": [
+        "Lisbon, called Lisboa in Portuguese, stands on the Tagus river on Portugal's west coast, where the river meets the Atlantic.",
+        "Probably Phoenician Alis Ubbo, \"safe harbour\", though the Romans preferred a legend about Ulysses founding it.",
+        "Remember Lisbon as the safe harbour, and the city whose 1755 earthquake led to the first scientific study of an earthquake anywhere."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lisbon",
+        "https://en.wikipedia.org/wiki/Portugal"
+      ],
+      "cameraBounds": [
+        [
+          -10.55,
+          37.32
+        ],
+        [
+          -7.75,
+          40.12
+        ]
+      ],
+      "transition": "Let's bring Lisbon into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -10.55,
+              37.32
+            ],
+            [
+              -7.75,
+              40.12
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Athens",
+      "location": [
+        23.73,
+        37.98
+      ],
+      "lines": [
+        "Athens stands in the south of Greece, in the Attic plain, close to the Saronic Gulf.",
+        "Named for the goddess Athena, who in the myth won the city from Poseidon with the gift of an olive tree.",
+        "Remember Athens as the olive tree won from Poseidon, the Parthenon above the city, and the first modern Olympic Games in 1896."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Athens",
+        "https://en.wikipedia.org/wiki/Greece"
+      ],
+      "cameraBounds": [
+        [
+          22.33,
+          36.59
+        ],
+        [
+          25.13,
+          39.39
+        ]
+      ],
+      "transition": "Let's bring Athens into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.33,
+              36.59
+            ],
+            [
+              25.13,
+              39.39
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valletta",
+      "location": [
+        14.51,
+        35.9
+      ],
+      "lines": [
+        "Valletta stands on a peninsula on Malta's north-east coast, in the middle of the Mediterranean.",
+        "Named for Jean de Valette, grand master of the Knights of Saint John, who held Malta against the Ottomans in 1565.",
+        "Remember Valletta as the city of the grand master who held Malta in 1565, and one of the smallest capitals in the European Union."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Valletta",
+        "https://en.wikipedia.org/wiki/Malta"
+      ],
+      "cameraBounds": [
+        [
+          13.11,
+          34.5
+        ],
+        [
+          15.91,
+          37.3
+        ]
+      ],
+      "transition": "Let's bring Valletta into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              13.11,
+              34.5
+            ],
+            [
+              15.91,
+              37.3
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -12,
+          34
+        ],
+        [
+          28,
+          42
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Madrid and Lisbon are the two Iberian capitals, Athens the old one of the Mediterranean, and Valletta the island capital off Sicily.",
+    "Remember the source of water, the safe harbour, the olive tree of Athena, and the grand master who held Malta in 1565."
+  ]
+}

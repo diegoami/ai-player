@@ -1,0 +1,513 @@
+{
+  "title": "Europe capitals five of six · The Balkans",
+  "edition": "Europe capitals · Six regional lessons · John · November 2026",
+  "mapId": "europe-capitals",
+  "area": "Europe",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/europe-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      17,
+      39
+    ],
+    [
+      30,
+      47
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Tirana",
+      "location": [
+        19.82,
+        41.33
+      ],
+      "bounds": [
+        [
+          18.42,
+          39.93
+        ],
+        [
+          21.22,
+          42.73
+        ]
+      ]
+    },
+    {
+      "name": "Pristina",
+      "location": [
+        21.17,
+        42.67
+      ],
+      "bounds": [
+        [
+          19.77,
+          41.27
+        ],
+        [
+          22.57,
+          44.07
+        ]
+      ]
+    },
+    {
+      "name": "Belgrade",
+      "location": [
+        20.46,
+        44.79
+      ],
+      "bounds": [
+        [
+          19.07,
+          43.42
+        ],
+        [
+          21.87,
+          46.22
+        ]
+      ]
+    },
+    {
+      "name": "Podgorica",
+      "location": [
+        19.26,
+        42.43
+      ],
+      "bounds": [
+        [
+          17.87,
+          41.07
+        ],
+        [
+          20.67,
+          43.87
+        ]
+      ]
+    },
+    {
+      "name": "Skopje",
+      "location": [
+        21.43,
+        41.99
+      ],
+      "bounds": [
+        [
+          20.03,
+          40.6
+        ],
+        [
+          22.83,
+          43.4
+        ]
+      ]
+    },
+    {
+      "name": "Sarajevo",
+      "location": [
+        18.41,
+        43.86
+      ],
+      "bounds": [
+        [
+          16.98,
+          42.45
+        ],
+        [
+          19.78,
+          45.25
+        ]
+      ]
+    },
+    {
+      "name": "Sofia",
+      "location": [
+        23.32,
+        42.7
+      ],
+      "bounds": [
+        [
+          21.91,
+          41.29
+        ],
+        [
+          24.71,
+          44.09
+        ]
+      ]
+    },
+    {
+      "name": "Bucharest",
+      "location": [
+        26.1,
+        44.43
+      ],
+      "bounds": [
+        [
+          24.7,
+          43.04
+        ],
+        [
+          27.5,
+          45.84
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Europe capitals, episode five of six. First, I clear the chosen names for a fresh regional lesson.",
+    "Eight capitals of the Balkans, from Albania and Kosovo in the south-west to Serbia, Montenegro, North Macedonia, Bosnia and Herzegovina, Bulgaria and Romania."
+  ],
+  "states": [
+    {
+      "name": "Tirana",
+      "location": [
+        19.82,
+        41.33
+      ],
+      "lines": [
+        "Tirana stands on the Erzen river in the centre of Albania, in the valley of a chain of hills.",
+        "Where the name comes from is uncertain; it grew into a town after an Ottoman general, Sulejman Pasha, built a mosque and a bazaar here in 1614.",
+        "Remember Tirana as the town that grew around a mosque and a bazaar of 1614, and whose grey communist blocks were painted in bright colours from 2000."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tirana",
+        "https://en.wikipedia.org/wiki/Albania"
+      ],
+      "cameraBounds": [
+        [
+          18.42,
+          39.93
+        ],
+        [
+          21.22,
+          42.73
+        ]
+      ],
+      "transition": "Let's bring Tirana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              18.42,
+              39.93
+            ],
+            [
+              21.22,
+              42.73
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pristina",
+      "location": [
+        21.17,
+        42.67
+      ],
+      "lines": [
+        "Pristina lies in the centre of Kosovo, on the Prishtevka river, in the middle of the Balkans.",
+        "Where the name comes from is disputed; one reading ties it to a Slavic word for a stream.",
+        "Remember Pristina for the NEWBORN monument, repainted every year, and the National Library of 1982 covered in 99 domes and a metal mesh."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pristina",
+        "https://en.wikipedia.org/wiki/Kosovo"
+      ],
+      "cameraBounds": [
+        [
+          19.77,
+          41.27
+        ],
+        [
+          22.57,
+          44.07
+        ]
+      ],
+      "transition": "Let's bring Pristina into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19.77,
+              41.27
+            ],
+            [
+              22.57,
+              44.07
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Belgrade",
+      "location": [
+        20.46,
+        44.79
+      ],
+      "lines": [
+        "Belgrade stands where the Sava meets the Danube in north-central Serbia, at the meeting of two great rivers.",
+        "Beograd, \"white city\". It was the capital of Yugoslavia for most of the 20th century.",
+        "Remember Belgrade as the white city at the meeting of the Sava and the Danube, with the Kalemegdan fortress above the confluence."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Belgrade",
+        "https://en.wikipedia.org/wiki/Serbia"
+      ],
+      "cameraBounds": [
+        [
+          19.07,
+          43.42
+        ],
+        [
+          21.87,
+          46.22
+        ]
+      ],
+      "transition": "Let's bring Belgrade into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19.07,
+              43.42
+            ],
+            [
+              21.87,
+              46.22
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Podgorica",
+      "location": [
+        19.26,
+        42.43
+      ],
+      "lines": [
+        "Podgorica lies on the Morača river in central Montenegro, on the Zeta plain below the Dinaric mountains.",
+        "\"Under Gorica\", the small hill above it. From 1946 to 1992 it was called Titograd.",
+        "Remember Podgorica as the town under the little hill, renamed Titograd from 1946 to 1992, and crossed since 2005 by a cable-stayed Millennium Bridge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Podgorica",
+        "https://en.wikipedia.org/wiki/Montenegro"
+      ],
+      "cameraBounds": [
+        [
+          17.87,
+          41.07
+        ],
+        [
+          20.67,
+          43.87
+        ]
+      ],
+      "transition": "Let's bring Podgorica into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              17.87,
+              41.07
+            ],
+            [
+              20.67,
+              43.87
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skopje",
+      "location": [
+        21.43,
+        41.99
+      ],
+      "lines": [
+        "Skopje stands on the Vardar river in the north of North Macedonia, in the middle of the Balkans.",
+        "Roman Scupi. An earthquake destroyed most of it in 1963, and the Japanese architect Kenzo Tange drew the plan for the new city.",
+        "Remember Skopje as Roman Scupi, rebuilt after the 1963 earthquake to a plan by Kenzo Tange, and the birthplace of Mother Teresa."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Skopje",
+        "https://en.wikipedia.org/wiki/North_Macedonia"
+      ],
+      "cameraBounds": [
+        [
+          20.03,
+          40.6
+        ],
+        [
+          22.83,
+          43.4
+        ]
+      ],
+      "transition": "Let's bring Skopje into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              20.03,
+              40.6
+            ],
+            [
+              22.83,
+              43.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sarajevo",
+      "location": [
+        18.41,
+        43.86
+      ],
+      "lines": [
+        "Sarajevo lies in a valley in central Bosnia and Herzegovina, on the Miljacka river, ringed by the Dinaric mountains.",
+        "From Turkish saray, \"palace\", and ova, \"field\": the plain in front of the governor's palace. It hosted the Winter Olympics in 1984.",
+        "Remember Sarajevo as the palace field that hosted the 1984 Winter Olympics, and whose siege from 1992 to 1996 was the longest of a capital city in modern war."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sarajevo",
+        "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"
+      ],
+      "cameraBounds": [
+        [
+          16.98,
+          42.45
+        ],
+        [
+          19.78,
+          45.25
+        ]
+      ],
+      "transition": "Let's bring Sarajevo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              16.98,
+              42.45
+            ],
+            [
+              19.78,
+              45.25
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sofia",
+      "location": [
+        23.32,
+        42.7
+      ],
+      "lines": [
+        "Sofia lies in the west of Bulgaria, in a bowl of mountains with the Vitosha ridge rising at its edge.",
+        "Named for its church of Saint Sophia, \"wisdom\". The Romans called it Serdica, and it has been the capital since 1879.",
+        "Remember Sofia as the wisdom of Saint Sophia and the old Roman Serdica, with the mountain of Vitosha standing at the city's edge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sofia",
+        "https://en.wikipedia.org/wiki/Bulgaria"
+      ],
+      "cameraBounds": [
+        [
+          21.91,
+          41.29
+        ],
+        [
+          24.71,
+          44.09
+        ]
+      ],
+      "transition": "Let's bring Sofia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.91,
+              41.29
+            ],
+            [
+              24.71,
+              44.09
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bucharest",
+      "location": [
+        26.1,
+        44.43
+      ],
+      "lines": [
+        "Bucharest lies in the south-east of Romania, in the Wallachian plain, about sixty kilometres north of the Danube.",
+        "By legend named for a shepherd called Bucur. Between the wars it was called Little Paris.",
+        "Remember Bucharest as the shepherd's town that became Little Paris, with the Romanian Athenaeum of 1888 paid for largely by public subscription."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bucharest",
+        "https://en.wikipedia.org/wiki/Romania"
+      ],
+      "cameraBounds": [
+        [
+          24.7,
+          43.04
+        ],
+        [
+          27.5,
+          45.84
+        ]
+      ],
+      "transition": "Let's bring Bucharest into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.7,
+              43.04
+            ],
+            [
+              27.5,
+              45.84
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          17,
+          39
+        ],
+        [
+          30,
+          47
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Tirana and Pristina are the southern pair, Belgrade the great river capital in the north, with Podgorica, Skopje and Sarajevo around it, and Sofia and Bucharest to the east.",
+    "Remember the mosque and bazaar of Tirana, the NEWBORN monument of Pristina, the white city at two rivers, the little hill of Podgorica, Kenzo Tange's Skopje, the palace field of Sarajevo, the wisdom of Saint Sophia, and the shepherd's Little Paris."
+  ]
+}

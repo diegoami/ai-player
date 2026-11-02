@@ -1,0 +1,298 @@
+{
+  "edition": "Europe capitals · Six regional lessons · November 2026",
+  "status": "complete",
+  "scope": "All 44 capital targets of GeoClick's native europe-capitals map, each exactly once: the capitals of every European country the map names. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 44,
+  "countryCount": 44,
+  "nativeTargetCount": 44,
+  "nativeTeachingStopCount": 44,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 44,
+  "episodes": [
+    {
+      "id": "north-atlantic-nordics",
+      "title": "North Atlantic and the Nordics",
+      "status": "complete",
+      "lesson": "src/lessons/europe-capitals-01-north-atlantic-nordics.json",
+      "places": [
+        "Reykjavík",
+        "Helsinki",
+        "Oslo",
+        "Stockholm",
+        "Copenhagen",
+        "Dublin",
+        "London"
+      ],
+      "countries": [
+        "Reykjavík",
+        "Helsinki",
+        "Oslo",
+        "Stockholm",
+        "Copenhagen",
+        "Dublin",
+        "London"
+      ],
+      "nativeTargets": [
+        "Reykjavík",
+        "Helsinki",
+        "Oslo",
+        "Stockholm",
+        "Copenhagen",
+        "Dublin",
+        "London"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/europe-capitals-20261102/01-north-atlantic-nordics/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 311.52,
+      "covered": [
+        "Reykjavík",
+        "Helsinki",
+        "Oslo",
+        "Stockholm",
+        "Copenhagen",
+        "Dublin",
+        "London"
+      ]
+    },
+    {
+      "id": "baltic-and-the-east",
+      "title": "The Baltic and the East",
+      "status": "complete",
+      "lesson": "src/lessons/europe-capitals-02-baltic-and-the-east.json",
+      "places": [
+        "Tallinn",
+        "Riga",
+        "Vilnius",
+        "Minsk",
+        "Warsaw",
+        "Kyiv",
+        "Moscow",
+        "Chișinău"
+      ],
+      "countries": [
+        "Tallinn",
+        "Riga",
+        "Vilnius",
+        "Minsk",
+        "Warsaw",
+        "Kyiv",
+        "Moscow",
+        "Chișinău"
+      ],
+      "nativeTargets": [
+        "Tallinn",
+        "Riga",
+        "Vilnius",
+        "Minsk",
+        "Warsaw",
+        "Kyiv",
+        "Moscow",
+        "Chișinău"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/europe-capitals-20261102/02-baltic-and-the-east/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 327.8,
+      "covered": [
+        "Tallinn",
+        "Riga",
+        "Vilnius",
+        "Minsk",
+        "Warsaw",
+        "Kyiv",
+        "Moscow",
+        "Chișinău"
+      ]
+    },
+    {
+      "id": "west-and-centre",
+      "title": "The West and the Centre",
+      "status": "complete",
+      "lesson": "src/lessons/europe-capitals-03-west-and-centre.json",
+      "places": [
+        "Amsterdam",
+        "Brussels",
+        "Luxembourg",
+        "Paris",
+        "Berlin",
+        "Prague",
+        "Vienna",
+        "Bratislava",
+        "Budapest"
+      ],
+      "countries": [
+        "Amsterdam",
+        "Brussels",
+        "Luxembourg",
+        "Paris",
+        "Berlin",
+        "Prague",
+        "Vienna",
+        "Bratislava",
+        "Budapest"
+      ],
+      "nativeTargets": [
+        "Amsterdam",
+        "Brussels",
+        "Luxembourg",
+        "Paris",
+        "Berlin",
+        "Prague",
+        "Vienna",
+        "Bratislava",
+        "Budapest"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/europe-capitals-20261102/03-west-and-centre/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 374.76,
+      "covered": [
+        "Amsterdam",
+        "Brussels",
+        "Luxembourg",
+        "Paris",
+        "Berlin",
+        "Prague",
+        "Vienna",
+        "Bratislava",
+        "Budapest"
+      ]
+    },
+    {
+      "id": "alps-and-italy",
+      "title": "The Alps and Italy",
+      "status": "complete",
+      "lesson": "src/lessons/europe-capitals-04-alps-and-italy.json",
+      "places": [
+        "Vaduz",
+        "Bern",
+        "Ljubljana",
+        "Zagreb",
+        "San Marino",
+        "Rome",
+        "Monaco",
+        "Andorra la Vella"
+      ],
+      "countries": [
+        "Vaduz",
+        "Bern",
+        "Ljubljana",
+        "Zagreb",
+        "San Marino",
+        "Rome",
+        "Monaco",
+        "Andorra la Vella"
+      ],
+      "nativeTargets": [
+        "Vaduz",
+        "Bern",
+        "Ljubljana",
+        "Zagreb",
+        "San Marino",
+        "Rome",
+        "Monaco",
+        "Andorra la Vella"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/europe-capitals-20261102/04-alps-and-italy/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 348.52,
+      "covered": [
+        "Vaduz",
+        "Bern",
+        "Ljubljana",
+        "Zagreb",
+        "San Marino",
+        "Rome",
+        "Monaco",
+        "Andorra la Vella"
+      ]
+    },
+    {
+      "id": "the-balkans",
+      "title": "The Balkans",
+      "status": "complete",
+      "lesson": "src/lessons/europe-capitals-05-the-balkans.json",
+      "places": [
+        "Tirana",
+        "Pristina",
+        "Belgrade",
+        "Podgorica",
+        "Skopje",
+        "Sarajevo",
+        "Sofia",
+        "Bucharest"
+      ],
+      "countries": [
+        "Tirana",
+        "Pristina",
+        "Belgrade",
+        "Podgorica",
+        "Skopje",
+        "Sarajevo",
+        "Sofia",
+        "Bucharest"
+      ],
+      "nativeTargets": [
+        "Tirana",
+        "Pristina",
+        "Belgrade",
+        "Podgorica",
+        "Skopje",
+        "Sarajevo",
+        "Sofia",
+        "Bucharest"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/europe-capitals-20261102/05-the-balkans/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 344.96,
+      "covered": [
+        "Tirana",
+        "Pristina",
+        "Belgrade",
+        "Podgorica",
+        "Skopje",
+        "Sarajevo",
+        "Sofia",
+        "Bucharest"
+      ]
+    },
+    {
+      "id": "iberia-and-mediterranean",
+      "title": "Iberia and the Mediterranean",
+      "status": "complete",
+      "lesson": "src/lessons/europe-capitals-06-iberia-and-mediterranean.json",
+      "places": [
+        "Madrid",
+        "Lisbon",
+        "Athens",
+        "Valletta"
+      ],
+      "countries": [
+        "Madrid",
+        "Lisbon",
+        "Athens",
+        "Valletta"
+      ],
+      "nativeTargets": [
+        "Madrid",
+        "Lisbon",
+        "Athens",
+        "Valletta"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/europe-capitals-20261102/06-iberia-and-mediterranean/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 180.36,
+      "covered": [
+        "Madrid",
+        "Lisbon",
+        "Athens",
+        "Valletta"
+      ]
+    }
+  ],
+  "coveredCountryCount": 44
+}

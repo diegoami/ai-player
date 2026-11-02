@@ -49,7 +49,9 @@ export async function attachCamera(page, mapId = 'usa-states') {
 
 export async function statePoint(page,name,location) {
   return page.evaluate(({name,location})=>{
-    const t=[...window.__lessonTargets,...(window.__lessonSupplementTargets??[])].find(t=>t.name===name);if(!t)throw Error(`Unknown state ${name}`);
+    // A map target may carry local names with an English display name, which is
+    // what the fact card shows; accept either form.
+    const t=[...window.__lessonTargets,...(window.__lessonSupplementTargets??[])].find(t=>t.name===name||t.names?.en===name);if(!t)throw Error(`Unknown state ${name}`);
     const map=window.__lessonActiveMap??window.__lessonMap;
     const p=map.project(location ?? t.centroid);const r=map.getCanvas().getBoundingClientRect();
     return [p.x+r.left,p.y+r.top];

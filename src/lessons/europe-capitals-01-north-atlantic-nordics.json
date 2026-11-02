@@ -1,0 +1,455 @@
+{
+  "title": "Europe capitals one of six · North Atlantic and the Nordics",
+  "edition": "Europe capitals · Six regional lessons · John · November 2026",
+  "mapId": "europe-capitals",
+  "area": "Europe",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/europe-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -22,
+      50
+    ],
+    [
+      20,
+      66
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Reykjavík",
+      "location": [
+        -21.94,
+        64.14
+      ],
+      "bounds": [
+        [
+          -23.34,
+          62.74
+        ],
+        [
+          -20.54,
+          65.54
+        ]
+      ]
+    },
+    {
+      "name": "Helsinki",
+      "location": [
+        24.93,
+        60.16
+      ],
+      "bounds": [
+        [
+          23.53,
+          58.76
+        ],
+        [
+          26.33,
+          61.56
+        ]
+      ]
+    },
+    {
+      "name": "Oslo",
+      "location": [
+        10.75,
+        59.92
+      ],
+      "bounds": [
+        [
+          9.35,
+          58.52
+        ],
+        [
+          12.15,
+          61.32
+        ]
+      ]
+    },
+    {
+      "name": "Stockholm",
+      "location": [
+        18.07,
+        59.32
+      ],
+      "bounds": [
+        [
+          16.67,
+          57.92
+        ],
+        [
+          19.47,
+          60.72
+        ]
+      ]
+    },
+    {
+      "name": "Copenhagen",
+      "location": [
+        12.56,
+        55.68
+      ],
+      "bounds": [
+        [
+          11.16,
+          54.28
+        ],
+        [
+          13.96,
+          57.08
+        ]
+      ]
+    },
+    {
+      "name": "Dublin",
+      "location": [
+        -6.26,
+        53.35
+      ],
+      "bounds": [
+        [
+          -7.66,
+          51.95
+        ],
+        [
+          -4.86,
+          54.75
+        ]
+      ]
+    },
+    {
+      "name": "London",
+      "location": [
+        -0.12,
+        51.5
+      ],
+      "bounds": [
+        [
+          -1.52,
+          50.1
+        ],
+        [
+          1.28,
+          52.9
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Europe capitals, episode one of six. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin in the north: the North Atlantic capitals of Reykjavík, Dublin and London, and the Nordic cluster of Helsinki, Oslo, Stockholm and Copenhagen."
+  ],
+  "states": [
+    {
+      "name": "Reykjavík",
+      "location": [
+        -21.94,
+        64.14
+      ],
+      "lines": [
+        "Reykjavík stands on the south-west coast of Iceland, facing the Atlantic across Faxaflói bay, the northernmost capital of a sovereign state.",
+        "Its name means \"smoky bay\", for the steam of its hot springs, and nearly all its houses are heated with water from under the ground.",
+        "Remember Reykjavík as the world's northernmost capital: a smoky bay of hot springs under a roof of lava."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+        "https://en.wikipedia.org/wiki/Iceland"
+      ],
+      "cameraBounds": [
+        [
+          -23.34,
+          62.74
+        ],
+        [
+          -20.54,
+          65.54
+        ]
+      ],
+      "transition": "Let's bring Reykjavík into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -23.34,
+              62.74
+            ],
+            [
+              -20.54,
+              65.54
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helsinki",
+      "location": [
+        24.93,
+        60.16
+      ],
+      "lines": [
+        "Helsinki sits on the coast of the Gulf of Finland in the south of Finland, facing Estonia across the water.",
+        "From Helsinge, a parish name probably brought by settlers from Hälsingland in Sweden, it was founded in 1550 to rival Tallinn and stayed a small town for 250 years.",
+        "Remember Helsinki as the small town Russia made a capital in 1812, whose neoclassical centre doubled for Moscow in Cold War films."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Helsinki",
+        "https://en.wikipedia.org/wiki/Finland"
+      ],
+      "cameraBounds": [
+        [
+          23.53,
+          58.76
+        ],
+        [
+          26.33,
+          61.56
+        ]
+      ],
+      "transition": "Let's bring Helsinki into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.53,
+              58.76
+            ],
+            [
+              26.33,
+              61.56
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oslo",
+      "location": [
+        10.75,
+        59.92
+      ],
+      "lines": [
+        "Oslo lies at the head of the Oslofjord in the south of Norway, with Sweden just across the water to the east.",
+        "From 1624 to 1925 it was called Christiania, for the Danish king Christian IV. The Nobel Peace Prize is awarded here.",
+        "Remember Oslo as the city that was Christiania for three centuries, and where the Nobel Peace Prize is handed out."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oslo",
+        "https://en.wikipedia.org/wiki/Norway"
+      ],
+      "cameraBounds": [
+        [
+          9.35,
+          58.52
+        ],
+        [
+          12.15,
+          61.32
+        ]
+      ],
+      "transition": "Let's bring Oslo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              9.35,
+              58.52
+            ],
+            [
+              12.15,
+              61.32
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stockholm",
+      "location": [
+        18.07,
+        59.32
+      ],
+      "lines": [
+        "Stockholm spreads across fourteen islands where Lake Mälaren meets the Baltic Sea, in the east of Sweden.",
+        "\"Log islet\" — stock, a log, plus holme, an islet: the city began on a fortified island in 1252, and its archipelago holds about 30,000 more.",
+        "Remember Stockholm as the city built on log islands, and the Vasa, a warship raised again in 1961 that is still 98% original timber."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stockholm",
+        "https://en.wikipedia.org/wiki/Sweden"
+      ],
+      "cameraBounds": [
+        [
+          16.67,
+          57.92
+        ],
+        [
+          19.47,
+          60.72
+        ]
+      ],
+      "transition": "Let's bring Stockholm into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              16.67,
+              57.92
+            ],
+            [
+              19.47,
+              60.72
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Copenhagen",
+      "location": [
+        12.56,
+        55.68
+      ],
+      "lines": [
+        "Copenhagen lies on the eastern coast of Zealand in Denmark, facing Sweden across the Øresund.",
+        "Its Danish name København means merchants' harbour, and Tivoli Gardens opened here in 1843.",
+        "Remember Copenhagen as the merchants' harbour, home of Tivoli Gardens and the Little Mermaid of 1913."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Copenhagen",
+        "https://en.wikipedia.org/wiki/Denmark"
+      ],
+      "cameraBounds": [
+        [
+          11.16,
+          54.28
+        ],
+        [
+          13.96,
+          57.08
+        ]
+      ],
+      "transition": "Let's bring Copenhagen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.16,
+              54.28
+            ],
+            [
+              13.96,
+              57.08
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dublin",
+      "location": [
+        -6.26,
+        53.35
+      ],
+      "lines": [
+        "Dublin sits at the mouth of the River Liffey on the east coast of Ireland, facing the Irish Sea.",
+        "From Irish Dubh Linn, \"black pool\", it began as a Viking settlement in 841, and in Irish today it is mostly Baile Átha Cliath.",
+        "Remember Dublin as the black pool that began as a Viking settlement, and the home of the Book of Kells."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dublin",
+        "https://en.wikipedia.org/wiki/Ireland"
+      ],
+      "cameraBounds": [
+        [
+          -7.66,
+          51.95
+        ],
+        [
+          -4.86,
+          54.75
+        ]
+      ],
+      "transition": "Let's bring Dublin into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -7.66,
+              51.95
+            ],
+            [
+              -4.86,
+              54.75
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "location": [
+        -0.12,
+        51.5
+      ],
+      "lines": [
+        "London stands on the Thames in the south-east of England, with its estuary opening to the North Sea.",
+        "Londinium is pre-Roman and unexplained; the best guess is a Brittonic name about the unfordable river.",
+        "Remember London as the largest city in the world for a hundred years, with about 300 languages spoken in it and the world's first Underground beneath it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/London",
+        "https://en.wikipedia.org/wiki/United_Kingdom"
+      ],
+      "cameraBounds": [
+        [
+          -1.52,
+          50.1
+        ],
+        [
+          1.28,
+          52.9
+        ]
+      ],
+      "transition": "Let's bring London into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -1.52,
+              50.1
+            ],
+            [
+              1.28,
+              52.9
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -22,
+          50
+        ],
+        [
+          20,
+          66
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Reykjavík is the far north-west, above the Atlantic. Dublin and London face the Irish Sea, and Copenhagen, Stockholm, Oslo and Helsinki line the Baltic side.",
+    "Remember smoky bay and hot springs, the Danes' merchant harbour, the log islands of Stockholm, the Peace Prize of Oslo, and the tunnel under London that was the world's first Underground."
+  ]
+}

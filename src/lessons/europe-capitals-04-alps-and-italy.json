@@ -1,0 +1,513 @@
+{
+  "title": "Europe capitals four of six · The Alps and Italy",
+  "edition": "Europe capitals · Six regional lessons · John · November 2026",
+  "mapId": "europe-capitals",
+  "area": "Europe",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/europe-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -1,
+      41
+    ],
+    [
+      17,
+      50
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Vaduz",
+      "location": [
+        9.52,
+        47.13
+      ],
+      "bounds": [
+        [
+          8.72,
+          46.33
+        ],
+        [
+          10.32,
+          47.93
+        ]
+      ]
+    },
+    {
+      "name": "Bern",
+      "location": [
+        7.45,
+        46.95
+      ],
+      "bounds": [
+        [
+          6.07,
+          45.52
+        ],
+        [
+          8.87,
+          48.32
+        ]
+      ]
+    },
+    {
+      "name": "Ljubljana",
+      "location": [
+        14.51,
+        46.05
+      ],
+      "bounds": [
+        [
+          13.11,
+          44.66
+        ],
+        [
+          15.91,
+          47.46
+        ]
+      ]
+    },
+    {
+      "name": "Zagreb",
+      "location": [
+        15.98,
+        45.81
+      ],
+      "bounds": [
+        [
+          14.6,
+          44.4
+        ],
+        [
+          17.4,
+          47.2
+        ]
+      ]
+    },
+    {
+      "name": "San Marino",
+      "location": [
+        12.42,
+        43.94
+      ],
+      "bounds": [
+        [
+          11.64,
+          43.14
+        ],
+        [
+          13.24,
+          44.74
+        ]
+      ]
+    },
+    {
+      "name": "Rome",
+      "location": [
+        12.5,
+        41.9
+      ],
+      "bounds": [
+        [
+          11.08,
+          40.5
+        ],
+        [
+          13.88,
+          43.3
+        ]
+      ]
+    },
+    {
+      "name": "Monaco",
+      "location": [
+        7.42,
+        43.73
+      ],
+      "bounds": [
+        [
+          6.61,
+          42.94
+        ],
+        [
+          8.21,
+          44.54
+        ]
+      ]
+    },
+    {
+      "name": "Andorra la Vella",
+      "location": [
+        1.52,
+        42.51
+      ],
+      "bounds": [
+        [
+          0.73,
+          41.71
+        ],
+        [
+          2.33,
+          43.31
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Europe capitals, episode four of six. First, I clear the chosen names for a fresh regional lesson.",
+    "Eight capitals lie along the Alpine arc: Liechtenstein and Switzerland, then Slovenia and Croatia, and the Italian peninsula with its two tiny states."
+  ],
+  "states": [
+    {
+      "name": "Vaduz",
+      "location": [
+        9.52,
+        47.13
+      ],
+      "lines": [
+        "Vaduz lies in the Rhine valley in the west of Liechtenstein, between the Alps and the river.",
+        "The prince of Liechtenstein lives in the castle above the town, and it is the capital of one of only two countries surrounded entirely by landlocked countries.",
+        "Remember Vaduz as the town under a prince's castle, in one of the only two countries with no coast at all."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vaduz",
+        "https://en.wikipedia.org/wiki/Liechtenstein"
+      ],
+      "cameraBounds": [
+        [
+          8.72,
+          46.33
+        ],
+        [
+          10.32,
+          47.93
+        ]
+      ],
+      "transition": "Let's bring Vaduz into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.72,
+              46.33
+            ],
+            [
+              10.32,
+              47.93
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bern",
+      "location": [
+        7.45,
+        46.95
+      ],
+      "lines": [
+        "Bern lies in the Swiss plateau on the Aare river, in the west of Switzerland.",
+        "By legend its founder named it for the first animal he killed in the woods, a bear, and bears are still kept in the town.",
+        "Remember Bern as the bear city that is officially not the capital but the \"federal city\", where Einstein wrote his papers of 1905."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bern",
+        "https://en.wikipedia.org/wiki/Switzerland"
+      ],
+      "cameraBounds": [
+        [
+          6.07,
+          45.52
+        ],
+        [
+          8.87,
+          48.32
+        ]
+      ],
+      "transition": "Let's bring Bern into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.07,
+              45.52
+            ],
+            [
+              8.87,
+              48.32
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ljubljana",
+      "location": [
+        14.51,
+        46.05
+      ],
+      "lines": [
+        "Ljubljana stands on the Ljubljanica river in central Slovenia, where the Alps rise to the north.",
+        "Where the name comes from is disputed; a legend puts Jason and the Argonauts here, killing the dragon now on its arms.",
+        "Remember Ljubljana as the city of the dragon, reshaped between the wars by Jože Plečnik and named European Green Capital in 2016."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ljubljana",
+        "https://en.wikipedia.org/wiki/Slovenia"
+      ],
+      "cameraBounds": [
+        [
+          13.11,
+          44.66
+        ],
+        [
+          15.91,
+          47.46
+        ]
+      ],
+      "transition": "Let's bring Ljubljana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              13.11,
+              44.66
+            ],
+            [
+              15.91,
+              47.46
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zagreb",
+      "location": [
+        15.98,
+        45.81
+      ],
+      "lines": [
+        "Zagreb lies in the north-west of Croatia, on the Sava river, at the foot of the Medvednica hills.",
+        "Where the name comes from is uncertain; a folk story reads it as \"behind the hill\". It grew from two hill towns, Gradec and Kaptol, joined in 1850.",
+        "Remember Zagreb as the city behind the hill, grown from two towns joined in 1850, and home of the Museum of Broken Relationships."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zagreb",
+        "https://en.wikipedia.org/wiki/Croatia"
+      ],
+      "cameraBounds": [
+        [
+          14.6,
+          44.4
+        ],
+        [
+          17.4,
+          47.2
+        ]
+      ],
+      "transition": "Let's bring Zagreb into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.6,
+              44.4
+            ],
+            [
+              17.4,
+              47.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "San Marino",
+      "location": [
+        12.42,
+        43.94
+      ],
+      "lines": [
+        "San Marino stands on a steep hill in central Italy, in the Emilia-Romagna region of the peninsula.",
+        "Named for Saint Marinus, a stonemason who by tradition founded it in 301, and it claims to be the oldest surviving republic in the world.",
+        "Remember San Marino as the republic founded by a stonemason in 301, with its three towers along the ridge of Monte Titano."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Marino",
+        "https://en.wikipedia.org/wiki/San_Marino"
+      ],
+      "cameraBounds": [
+        [
+          11.64,
+          43.14
+        ],
+        [
+          13.24,
+          44.74
+        ]
+      ],
+      "transition": "Let's bring San Marino into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.64,
+              43.14
+            ],
+            [
+              13.24,
+              44.74
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rome",
+      "location": [
+        12.5,
+        41.9
+      ],
+      "lines": [
+        "Rome, called Roma in Italian, stands on the Tiber river in central Italy, in the middle of the Italian peninsula.",
+        "Legend says Romulus; more likely from Etruscan Ruma, a family name, or from an old word for the river.",
+        "Remember Rome as the largest city in the world for five centuries, the first to reach a million people, and the home of the Pantheon's unreinforced concrete dome."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rome",
+        "https://en.wikipedia.org/wiki/Italy"
+      ],
+      "cameraBounds": [
+        [
+          11.08,
+          40.5
+        ],
+        [
+          13.88,
+          43.3
+        ]
+      ],
+      "transition": "Let's bring Rome into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.08,
+              40.5
+            ],
+            [
+              13.88,
+              43.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monaco",
+      "location": [
+        7.42,
+        43.73
+      ],
+      "lines": [
+        "Monaco-Ville stands on a steep headland on the Mediterranean coast, at the border of France.",
+        "From Greek Monoikos, \"dwelling alone\", a title of Heracles, who had a temple here. The Grimaldi family has held it since 1297.",
+        "Remember Monaco as the dwelling alone of Heracles, taken by the Grimaldis in 1297 and raced through its streets since 1929."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Monaco",
+        "https://en.wikipedia.org/wiki/Monaco"
+      ],
+      "cameraBounds": [
+        [
+          6.61,
+          42.94
+        ],
+        [
+          8.21,
+          44.54
+        ]
+      ],
+      "transition": "Let's bring Monaco into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.61,
+              42.94
+            ],
+            [
+              8.21,
+              44.54
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Andorra la Vella",
+      "location": [
+        1.52,
+        42.51
+      ],
+      "lines": [
+        "Andorra la Vella stands in a high valley in the Pyrenees, in the centre of Andorra, where the Valira river runs.",
+        "\"Andorra the Old\", the oldest settlement of the valleys. At about 1,023 metres it is the highest capital city in Europe.",
+        "Remember Andorra la Vella as the highest capital in Europe, and the Casa de la Vall, a 16th-century house that was its parliament for three centuries."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Andorra_la_Vella",
+        "https://en.wikipedia.org/wiki/Andorra"
+      ],
+      "cameraBounds": [
+        [
+          0.73,
+          41.71
+        ],
+        [
+          2.33,
+          43.31
+        ]
+      ],
+      "transition": "Let's bring Andorra la Vella into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              0.73,
+              41.71
+            ],
+            [
+              2.33,
+              43.31
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -1,
+          41
+        ],
+        [
+          17,
+          50
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Vaduz and Bern sit in the Alps; Ljubljana and Zagreb are just south of them. San Marino, Rome and Monaco run down the Italian peninsula, with Andorra la Vella across the mountains to the west.",
+    "Remember the prince's castle and the landlocked Liechtenstein, the bear city of Bern and Einstein's year of 1905, the dragon of Ljubljana, the hill behind Zagreb, the stonemason of San Marino, the twins of Rome, the dwelling alone of Heracles, and the highest capital in Europe."
+  ]
+}

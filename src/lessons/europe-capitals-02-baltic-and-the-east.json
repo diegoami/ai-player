@@ -1,0 +1,513 @@
+{
+  "title": "Europe capitals two of six · The Baltic and the East",
+  "edition": "Europe capitals · Six regional lessons · John · November 2026",
+  "mapId": "europe-capitals",
+  "area": "Europe",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/europe-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      20,
+      46
+    ],
+    [
+      42,
+      61
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Tallinn",
+      "location": [
+        24.73,
+        59.43
+      ],
+      "bounds": [
+        [
+          23.33,
+          58.03
+        ],
+        [
+          26.13,
+          60.83
+        ]
+      ]
+    },
+    {
+      "name": "Riga",
+      "location": [
+        24.1,
+        56.95
+      ],
+      "bounds": [
+        [
+          22.7,
+          55.55
+        ],
+        [
+          25.5,
+          58.35
+        ]
+      ]
+    },
+    {
+      "name": "Vilnius",
+      "location": [
+        25.32,
+        54.68
+      ],
+      "bounds": [
+        [
+          23.92,
+          53.28
+        ],
+        [
+          26.72,
+          56.08
+        ]
+      ]
+    },
+    {
+      "name": "Minsk",
+      "location": [
+        27.56,
+        53.9
+      ],
+      "bounds": [
+        [
+          26.16,
+          52.5
+        ],
+        [
+          28.96,
+          55.3
+        ]
+      ]
+    },
+    {
+      "name": "Warsaw",
+      "location": [
+        21.01,
+        52.23
+      ],
+      "bounds": [
+        [
+          19.61,
+          50.83
+        ],
+        [
+          22.41,
+          53.63
+        ]
+      ]
+    },
+    {
+      "name": "Kyiv",
+      "location": [
+        30.51,
+        50.44
+      ],
+      "bounds": [
+        [
+          29.11,
+          49.04
+        ],
+        [
+          31.91,
+          51.84
+        ]
+      ]
+    },
+    {
+      "name": "Moscow",
+      "location": [
+        37.61,
+        55.75
+      ],
+      "bounds": [
+        [
+          36.21,
+          54.35
+        ],
+        [
+          39.01,
+          57.15
+        ]
+      ]
+    },
+    {
+      "name": "Chișinău",
+      "location": [
+        28.86,
+        47.01
+      ],
+      "bounds": [
+        [
+          27.46,
+          45.61
+        ],
+        [
+          30.26,
+          48.41
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Europe capitals, episode two of six. First, I clear the chosen names for a fresh regional lesson.",
+    "Eight capitals run from the Baltic states in the north to Moscow and Chișinău in the east."
+  ],
+  "states": [
+    {
+      "name": "Tallinn",
+      "location": [
+        24.73,
+        59.43
+      ],
+      "lines": [
+        "Tallinn stands on the Gulf of Finland in the north of Estonia, across the water from Helsinki.",
+        "Probably from taani linn, \"Danish town\", after the Danish conquest of 1219, its medieval old town is a UNESCO site.",
+        "Remember Tallinn as the \"Danish town\" on the Gulf of Finland, whose old town is listed by UNESCO and where Skype was built."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tallinn",
+        "https://en.wikipedia.org/wiki/Estonia"
+      ],
+      "cameraBounds": [
+        [
+          23.33,
+          58.03
+        ],
+        [
+          26.13,
+          60.83
+        ]
+      ],
+      "transition": "Let's bring Tallinn into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.33,
+              58.03
+            ],
+            [
+              26.13,
+              60.83
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riga",
+      "location": [
+        24.1,
+        56.95
+      ],
+      "lines": [
+        "Riga stands on the Daugava river by the Baltic Sea, in the middle of Latvia.",
+        "Founded in 1201 by Bishop Albert of Buxhoeveden, it was one of the great towns of the Hanseatic League.",
+        "Remember Riga as a Hanseatic trading town, and the place where, by local tradition, the first decorated Christmas tree stood in 1510."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Riga",
+        "https://en.wikipedia.org/wiki/Latvia"
+      ],
+      "cameraBounds": [
+        [
+          22.7,
+          55.55
+        ],
+        [
+          25.5,
+          58.35
+        ]
+      ],
+      "transition": "Let's bring Riga into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.7,
+              55.55
+            ],
+            [
+              25.5,
+              58.35
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vilnius",
+      "location": [
+        25.32,
+        54.68
+      ],
+      "lines": [
+        "Vilnius stands on the Neris river in the south-east of Lithuania, inland from the Baltic coast.",
+        "Named for the Vilnia river, its baroque old town is one of the largest in Europe and a UNESCO site.",
+        "Remember Vilnius for its baroque old town and for Užupis, the district that declared itself a republic in 1997 with its own constitution."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vilnius",
+        "https://en.wikipedia.org/wiki/Lithuania"
+      ],
+      "cameraBounds": [
+        [
+          23.92,
+          53.28
+        ],
+        [
+          26.72,
+          56.08
+        ]
+      ],
+      "transition": "Let's bring Vilnius into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.92,
+              53.28
+            ],
+            [
+              26.72,
+              56.08
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minsk",
+      "location": [
+        27.56,
+        53.9
+      ],
+      "lines": [
+        "Minsk lies on the Svislach river in the centre of Belarus, inland from the Baltic Sea.",
+        "First mentioned in 1067 and almost destroyed in the Second World War, it was rebuilt in the grand Soviet style of the 1950s.",
+        "Remember Minsk as a city rebuilt after the war, and the headquarters of the Commonwealth of Independent States."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minsk",
+        "https://en.wikipedia.org/wiki/Belarus"
+      ],
+      "cameraBounds": [
+        [
+          26.16,
+          52.5
+        ],
+        [
+          28.96,
+          55.3
+        ]
+      ],
+      "transition": "Let's bring Minsk into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.16,
+              52.5
+            ],
+            [
+              28.96,
+              55.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warsaw",
+      "location": [
+        21.01,
+        52.23
+      ],
+      "lines": [
+        "Warsaw, called Warszawa in Polish, stands on the Vistula river in the middle of Poland, east of the country's centre of population.",
+        "From a personal name, Warsz. The mermaid legend of Wars and Sawa is a later folk invention.",
+        "Remember Warsaw as the city rebuilt from paintings and photographs after 85% of it was destroyed, and the rebuilding itself listed by UNESCO."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Warsaw",
+        "https://en.wikipedia.org/wiki/Poland"
+      ],
+      "cameraBounds": [
+        [
+          19.61,
+          50.83
+        ],
+        [
+          22.41,
+          53.63
+        ]
+      ],
+      "transition": "Let's bring Warsaw into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19.61,
+              50.83
+            ],
+            [
+              22.41,
+              53.63
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kyiv",
+      "location": [
+        30.51,
+        50.44
+      ],
+      "lines": [
+        "Kyiv stands on the Dnipro river in north-central Ukraine, where the forest and steppe zones meet.",
+        "Named for Kyi, the eldest of three brothers who legend says founded the city with their sister Lybid. The Kyivan Rus state here was the origin of both Ukraine and Russia.",
+        "Remember Kyiv as the city of the three brothers, and the home of the Arsenalna metro station, one of the deepest in the world at 105 metres."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kyiv",
+        "https://en.wikipedia.org/wiki/Ukraine"
+      ],
+      "cameraBounds": [
+        [
+          29.11,
+          49.04
+        ],
+        [
+          31.91,
+          51.84
+        ]
+      ],
+      "transition": "Let's bring Kyiv into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              29.11,
+              49.04
+            ],
+            [
+              31.91,
+              51.84
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moscow",
+      "location": [
+        37.61,
+        55.75
+      ],
+      "lines": [
+        "Moscow sits inland in western Russia, on the Moskva river, in the middle of the European part of the country.",
+        "Named for the river, whose own name is probably Finno-Ugric or Baltic, perhaps meaning wet or marshy, it has been the capital since 1480 except for the two centuries when St Petersburg was.",
+        "Remember Moscow as the capital that gave St Petersburg two hundred years of leave, and whose metro stations were built as palaces for the people."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Moscow",
+        "https://en.wikipedia.org/wiki/Russia"
+      ],
+      "cameraBounds": [
+        [
+          36.21,
+          54.35
+        ],
+        [
+          39.01,
+          57.15
+        ]
+      ],
+      "transition": "Let's bring Moscow into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              36.21,
+              54.35
+            ],
+            [
+              39.01,
+              57.15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chișinău",
+      "location": [
+        28.86,
+        47.01
+      ],
+      "lines": [
+        "Chișinău stands on the Bîc river in the centre of Moldova, inland from the Black Sea.",
+        "The name is often read as \"new spring\", from old Romanian words, though that is uncertain. Most of the city was rebuilt after an earthquake in 1940 and the Second World War.",
+        "Remember Chișinău as the city whose name may mean new spring, and where Pushkin lived in exile from 1820 to 1823."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chi%C8%99in%C4%83u",
+        "https://en.wikipedia.org/wiki/Moldova"
+      ],
+      "cameraBounds": [
+        [
+          27.46,
+          45.61
+        ],
+        [
+          30.26,
+          48.41
+        ]
+      ],
+      "transition": "Let's bring Chișinău into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              27.46,
+              45.61
+            ],
+            [
+              30.26,
+              48.41
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          20,
+          46
+        ],
+        [
+          42,
+          61
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Tallinn, Riga and Vilnius are the three Baltic states. Minsk, Warsaw and Kyiv lie further south and east, and Moscow and Chișinău close the group.",
+    "Remember the Danish town of Tallinn, the Hanseatic Riga, the Vilnia and the republic of Užupis, the rebuilt Minsk, the mermaid legend of Warsaw, the three brothers of Kyiv, and the Moscow that swapped with St Petersburg."
+  ]
+}

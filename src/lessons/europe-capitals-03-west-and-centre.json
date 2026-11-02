@@ -1,0 +1,571 @@
+{
+  "title": "Europe capitals three of six · The West and the Centre",
+  "edition": "Europe capitals · Six regional lessons · John · November 2026",
+  "mapId": "europe-capitals",
+  "area": "Europe",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/europe-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -1,
+      45
+    ],
+    [
+      24,
+      55
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Amsterdam",
+      "location": [
+        4.91,
+        52.35
+      ],
+      "bounds": [
+        [
+          3.51,
+          50.95
+        ],
+        [
+          6.31,
+          53.75
+        ]
+      ]
+    },
+    {
+      "name": "Brussels",
+      "location": [
+        4.33,
+        50.84
+      ],
+      "bounds": [
+        [
+          2.93,
+          49.44
+        ],
+        [
+          5.73,
+          52.24
+        ]
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "location": [
+        6.13,
+        49.61
+      ],
+      "bounds": [
+        [
+          4.73,
+          48.21
+        ],
+        [
+          7.53,
+          51.01
+        ]
+      ]
+    },
+    {
+      "name": "Paris",
+      "location": [
+        2.35,
+        48.86
+      ],
+      "bounds": [
+        [
+          0.95,
+          47.46
+        ],
+        [
+          3.75,
+          50.26
+        ]
+      ]
+    },
+    {
+      "name": "Berlin",
+      "location": [
+        13.4,
+        52.52
+      ],
+      "bounds": [
+        [
+          12,
+          51.12
+        ],
+        [
+          14.8,
+          53.92
+        ]
+      ]
+    },
+    {
+      "name": "Prague",
+      "location": [
+        14.42,
+        50.09
+      ],
+      "bounds": [
+        [
+          13.02,
+          48.69
+        ],
+        [
+          15.82,
+          51.49
+        ]
+      ]
+    },
+    {
+      "name": "Vienna",
+      "location": [
+        16.36,
+        48.2
+      ],
+      "bounds": [
+        [
+          14.96,
+          46.8
+        ],
+        [
+          17.76,
+          49.6
+        ]
+      ]
+    },
+    {
+      "name": "Bratislava",
+      "location": [
+        17.12,
+        48.15
+      ],
+      "bounds": [
+        [
+          15.72,
+          46.75
+        ],
+        [
+          18.52,
+          49.55
+        ]
+      ]
+    },
+    {
+      "name": "Budapest",
+      "location": [
+        19.08,
+        47.5
+      ],
+      "bounds": [
+        [
+          17.68,
+          46.1
+        ],
+        [
+          20.48,
+          48.9
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Europe capitals, episode three of six. First, I clear the chosen names for a fresh regional lesson.",
+    "Nine capitals fill the crowded middle of Europe: the three of the Low Countries and France, then Germany, the Czech Republic, Austria, Slovakia and Hungary."
+  ],
+  "states": [
+    {
+      "name": "Amsterdam",
+      "location": [
+        4.91,
+        52.35
+      ],
+      "lines": [
+        "Amsterdam lies in the north-west of the Netherlands, on the Amstel river where it reaches the IJ.",
+        "\"Dam on the Amstel\" — a dam built about 1270, which is literally where the city and its name began.",
+        "Remember Amsterdam as a city built on millions of wooden piles, with 165 canals dug in the 1600s and the first company to issue tradable shares founded there in 1602."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amsterdam",
+        "https://en.wikipedia.org/wiki/Netherlands"
+      ],
+      "cameraBounds": [
+        [
+          3.51,
+          50.95
+        ],
+        [
+          6.31,
+          53.75
+        ]
+      ],
+      "transition": "Let's bring Amsterdam into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.51,
+              50.95
+            ],
+            [
+              6.31,
+              53.75
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brussels",
+      "location": [
+        4.33,
+        50.84
+      ],
+      "lines": [
+        "Brussels lies in the middle of Belgium, in the Flemish Brabant on the Senne river.",
+        "From Bruocsella, \"settlement in the marsh\", the main institutions of the European Union and the headquarters of NATO are here.",
+        "Remember Brussels as the settlement in the marsh that became the seat of the European Union, with a fountain boy in more than a thousand costumes."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brussels",
+        "https://en.wikipedia.org/wiki/Belgium"
+      ],
+      "cameraBounds": [
+        [
+          2.93,
+          49.44
+        ],
+        [
+          5.73,
+          52.24
+        ]
+      ],
+      "transition": "Let's bring Brussels into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2.93,
+              49.44
+            ],
+            [
+              5.73,
+              52.24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "location": [
+        6.13,
+        49.61
+      ],
+      "lines": [
+        "Luxembourg stands on the Alzette river in the south-east of the country, where it folds into Germany and France.",
+        "Its fortress made it the \"Gibraltar of the North\", and its old town is a UNESCO site.",
+        "Remember Luxembourg as the Gibraltar of the North, with about 17 kilometres of casemate tunnels cut into the rock and one of the three official seats of the European Union."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Luxembourg_City",
+        "https://en.wikipedia.org/wiki/Luxembourg"
+      ],
+      "cameraBounds": [
+        [
+          4.73,
+          48.21
+        ],
+        [
+          7.53,
+          51.01
+        ]
+      ],
+      "transition": "Let's bring Luxembourg into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.73,
+              48.21
+            ],
+            [
+              7.53,
+              51.01
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "location": [
+        2.35,
+        48.86
+      ],
+      "lines": [
+        "Paris stands on the Seine in the north of France, on the plain of the Paris basin some three hundred kilometres from the sea.",
+        "From the Parisii, the Gaulish tribe on the Île de la Cité. The Romans called it Lutetia.",
+        "Remember Paris as the city of the Parisii and of Lutetia, whose catacombs hold about six million people moved underground in 1786."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paris",
+        "https://en.wikipedia.org/wiki/France"
+      ],
+      "cameraBounds": [
+        [
+          0.95,
+          47.46
+        ],
+        [
+          3.75,
+          50.26
+        ]
+      ],
+      "transition": "Let's bring Paris into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              0.95,
+              47.46
+            ],
+            [
+              3.75,
+              50.26
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "location": [
+        13.4,
+        52.52
+      ],
+      "lines": [
+        "Berlin lies in the north-east of Germany, on the Spree river, in the middle of the great European plain.",
+        "Not the bear: it is most likely Slavic berl-, a swamp. The bear on the coat of arms is a pun that came later and stuck.",
+        "Remember Berlin as the old swamp behind the bear, and the city the Wall ran through for twenty-eight years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Berlin",
+        "https://en.wikipedia.org/wiki/Germany"
+      ],
+      "cameraBounds": [
+        [
+          12,
+          51.12
+        ],
+        [
+          14.8,
+          53.92
+        ]
+      ],
+      "transition": "Let's bring Berlin into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12,
+              51.12
+            ],
+            [
+              14.8,
+              53.92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prague",
+      "location": [
+        14.42,
+        50.09
+      ],
+      "lines": [
+        "Prague stands on the Vltava river in the centre of the Czech Republic, in the landlocked heart of Europe.",
+        "Praha probably comes from an old word for a threshold, or a ford across the Vltava.",
+        "Remember Prague as the castle complex often called the largest in the world, and the astronomical clock of 1410 that still works."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prague",
+        "https://en.wikipedia.org/wiki/Czech_Republic"
+      ],
+      "cameraBounds": [
+        [
+          13.02,
+          48.69
+        ],
+        [
+          15.82,
+          51.49
+        ]
+      ],
+      "transition": "Let's bring Prague into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              13.02,
+              48.69
+            ],
+            [
+              15.82,
+              51.49
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "location": [
+        16.36,
+        48.2
+      ],
+      "lines": [
+        "Vienna, called Wien in German, lies on the Danube in the east of Austria, at the foot of the Alps.",
+        "Named for the Wien river. The Romans had a camp here called Vindobona, and the Congress of Vienna in 1814 and 1815 redrew the map of Europe after Napoleon.",
+        "Remember Vienna as the camp of Vindobona, the city whose congress redrew Europe, and whose coffee houses are on UNESCO's list of intangible heritage."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna",
+        "https://en.wikipedia.org/wiki/Austria"
+      ],
+      "cameraBounds": [
+        [
+          14.96,
+          46.8
+        ],
+        [
+          17.76,
+          49.6
+        ]
+      ],
+      "transition": "Let's bring Vienna into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.96,
+              46.8
+            ],
+            [
+              17.76,
+              49.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bratislava",
+      "location": [
+        17.12,
+        48.15
+      ],
+      "lines": [
+        "Bratislava stands on the Danube in the south-west of Slovakia, where three countries meet.",
+        "It took its present name only in 1919; before, it was Pressburg in German and Pozsony in Hungarian.",
+        "Remember Bratislava as the only capital that borders two other countries, Austria and Hungary, with its white castle over the Danube."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bratislava",
+        "https://en.wikipedia.org/wiki/Slovakia"
+      ],
+      "cameraBounds": [
+        [
+          15.72,
+          46.75
+        ],
+        [
+          18.52,
+          49.55
+        ]
+      ],
+      "transition": "Let's bring Bratislava into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.72,
+              46.75
+            ],
+            [
+              18.52,
+              49.55
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Budapest",
+      "location": [
+        19.08,
+        47.5
+      ],
+      "lines": [
+        "Budapest straddles the Danube in central Hungary, on the Pannonian plain.",
+        "Buda, Pest and Óbuda united in 1873, and its 1896 metro is continental Europe's oldest electric underground.",
+        "Remember Budapest as three towns joined in 1873, with thermal springs feeding its historic baths and the continent's first electric underground beneath it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Budapest",
+        "https://en.wikipedia.org/wiki/Hungary"
+      ],
+      "cameraBounds": [
+        [
+          17.68,
+          46.1
+        ],
+        [
+          20.48,
+          48.9
+        ]
+      ],
+      "transition": "Let's bring Budapest into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              17.68,
+              46.1
+            ],
+            [
+              20.48,
+              48.9
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -1,
+          45
+        ],
+        [
+          24,
+          55
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Amsterdam, Brussels and Luxembourg are the three Low Countries, with Paris to their south. Berlin is east of them, and Prague, Vienna, Bratislava and Budapest run along the Danube basin.",
+    "Remember the dam on the Amstel, the settlement in the marsh, the Gibraltar of the North, the Parisii and their catacombs, the swamp behind the bear, the threshold of Prague, and the three towns of Budapest joined in 1873."
+  ]
+}
