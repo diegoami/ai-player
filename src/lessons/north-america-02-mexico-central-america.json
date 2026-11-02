@@ -1,0 +1,506 @@
+{
+  "title": "North America two of three · Mexico and Central America",
+  "edition": "North America countries · Three regional lessons · John · November 2026",
+  "mapId": "north-america-countries",
+  "area": "North America",
+  "unit": "places",
+  "url": "http://localhost:5187/map/north-america-countries",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -118,
+      7
+    ],
+    [
+      -76,
+      33
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Mexico",
+      "location": [
+        -99.1,
+        19.4
+      ],
+      "bounds": [
+        [
+          -118,
+          14
+        ],
+        [
+          -87,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "Belize",
+      "location": [
+        -88.6601,
+        17.1892
+      ],
+      "bounds": [
+        [
+          -89.6,
+          15.4
+        ],
+        [
+          -87.4,
+          18.9
+        ]
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "location": [
+        -90.2336,
+        15.7737
+      ],
+      "bounds": [
+        [
+          -92.6,
+          13.4
+        ],
+        [
+          -87.8,
+          18.1
+        ]
+      ]
+    },
+    {
+      "name": "Honduras",
+      "location": [
+        -86.246,
+        14.4926
+      ],
+      "bounds": [
+        [
+          -89.9,
+          12.4
+        ],
+        [
+          -82.7,
+          16.6
+        ]
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "location": [
+        -88.9058,
+        13.8
+      ],
+      "bounds": [
+        [
+          -90.6,
+          12.7
+        ],
+        [
+          -87.2,
+          15
+        ]
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "location": [
+        -85.4081,
+        12.8745
+      ],
+      "bounds": [
+        [
+          -88.1,
+          10.2
+        ],
+        [
+          -82.6,
+          15.6
+        ]
+      ]
+    },
+    {
+      "name": "Costa Rica",
+      "location": [
+        -84.2412,
+        9.6223
+      ],
+      "bounds": [
+        [
+          -86.4,
+          7.7
+        ],
+        [
+          -82.1,
+          11.7
+        ]
+      ]
+    },
+    {
+      "name": "Panama",
+      "location": [
+        -80.1272,
+        8.421
+      ],
+      "bounds": [
+        [
+          -83.7,
+          6.7
+        ],
+        [
+          -76.7,
+          10.1
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to North America episode two of three. First, I clear the chosen names for a fresh regional lesson.",
+    "Eight countries run down the southern neck of the continent: Mexico first, then the Central American chain from Belize on the Caribbean to Panama on the Pacific."
+  ],
+  "states": [
+    {
+      "name": "Mexico",
+      "location": [
+        -99.1,
+        19.4
+      ],
+      "lines": [
+        "Mexico fills the southern part of the continent, between the United States to the north and Guatemala and Belize to the south. Its long Pacific coast and the Gulf of Mexico face each other across the narrow waist of Tehuantepec.",
+        "Its name comes from the Mexica, the people we call the Aztecs, whose city Tenochtitlan lies under Mexico City today. Maize, chillies and tomatoes were first grown here, and chocolate was first made here. Mexico City, built on a drained lake, is sinking, in places by tens of centimetres a year.",
+        "Remember Mexico as the maize and chocolate homeland, narrowing to a waist at Tehuantepec with the Pacific on one side and the Gulf on the other."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/412/",
+        "https://www.britannica.com/place/Mexico"
+      ],
+      "cameraBounds": [
+        [
+          -118,
+          14
+        ],
+        [
+          -87,
+          33
+        ]
+      ],
+      "transition": "Let's bring Mexico and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -118,
+              14
+            ],
+            [
+              -87,
+              33
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Belize",
+      "location": [
+        -88.6601,
+        17.1892
+      ],
+      "lines": [
+        "Belize sits on the Caribbean coast between Mexico and Guatemala, a small English-speaking country on the narrowest part of the Central American isthmus.",
+        "It is the only country in Central America whose official language is English. Its barrier reef runs along the coast, and the Great Blue Hole, a sinkhole more than three hundred metres across, drops away inside it.",
+        "Remember Belize as the English-speaking exception on the Caribbean shore, with the largest blue hole on Earth punched through its reef."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/764/"
+      ],
+      "cameraBounds": [
+        [
+          -89.6,
+          15.4
+        ],
+        [
+          -87.4,
+          18.9
+        ]
+      ],
+      "transition": "Let's bring Belize and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -89.6,
+              15.4
+            ],
+            [
+              -87.4,
+              18.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "location": [
+        -90.2336,
+        15.7737
+      ],
+      "lines": [
+        "Guatemala lies west of Honduras and north of El Salvador, reaching from the Pacific to the highlands and the Caribbean lowlands, with Belize and Mexico along its northern border.",
+        "Tikal, in its northern jungle, was one of the greatest cities of the Maya. More than twenty Mayan languages are still spoken here.",
+        "Hold Guatemala as the Maya heartland: jungle ruins in the north, volcanoes along the Pacific, and more than twenty Mayan languages still alive."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/64/"
+      ],
+      "cameraBounds": [
+        [
+          -92.6,
+          13.4
+        ],
+        [
+          -87.8,
+          18.1
+        ]
+      ],
+      "transition": "Let's bring Guatemala and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -92.6,
+              13.4
+            ],
+            [
+              -87.8,
+              18.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Honduras",
+      "location": [
+        -86.246,
+        14.4926
+      ],
+      "lines": [
+        "Honduras is the largest country on the Central American isthmus, with a long Caribbean coast to the north and a narrow Pacific outlet to the south, ringed by Guatemala, El Salvador and Nicaragua.",
+        "Copán, in its west, was a Maya city famous for its carved stone stelae. The writer O. Henry coined \"banana republic\" about it in 1904.",
+        "Remember Honduras as the long coast-to-coast isthmus country: Maya stelae in the west, and the phrase \"banana republic\" born there."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/129/"
+      ],
+      "cameraBounds": [
+        [
+          -89.9,
+          12.4
+        ],
+        [
+          -82.7,
+          16.6
+        ]
+      ],
+      "transition": "Let's bring Honduras and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -89.9,
+              12.4
+            ],
+            [
+              -82.7,
+              16.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "location": [
+        -88.9058,
+        13.8
+      ],
+      "lines": [
+        "El Salvador is the smallest country in Central America, on the Pacific coast between Guatemala and Honduras. It is the only one of the seven without a Caribbean coast.",
+        "Its name means \"The Saviour\", named for Christ. In 2021 it became the first country to make bitcoin legal tender.",
+        "Picture El Salvador as the narrow Pacific sliver: the smallest of the Central American countries, and the only one with no Caribbean shore."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/El-Salvador"
+      ],
+      "cameraBounds": [
+        [
+          -90.6,
+          12.7
+        ],
+        [
+          -87.2,
+          15
+        ]
+      ],
+      "transition": "Let's bring El Salvador and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -90.6,
+              12.7
+            ],
+            [
+              -87.2,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "location": [
+        -85.4081,
+        12.8745
+      ],
+      "lines": [
+        "Nicaragua sits on the Caribbean coast with the Pacific on its southwest side, between Honduras and Costa Rica. Its large Lake Nicaragua lies in the west of the country.",
+        "Lake Nicaragua is one of the few freshwater lakes with sharks, which swim up the river from the sea. Rubén Darío, the poet who founded Spanish-language modernism, was born here.",
+        "Remember Nicaragua as the country with a Caribbean lake and a Pacific shore at once, and with bull sharks swimming inland."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Nicaragua"
+      ],
+      "cameraBounds": [
+        [
+          -88.1,
+          10.2
+        ],
+        [
+          -82.6,
+          15.6
+        ]
+      ],
+      "transition": "Let's bring Nicaragua and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -88.1,
+              10.2
+            ],
+            [
+              -82.6,
+              15.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Costa Rica",
+      "location": [
+        -84.2412,
+        9.6223
+      ],
+      "lines": [
+        "Costa Rica lies on the Central American isthmus between Nicaragua and Panama, with both the Caribbean and the Pacific inside a country only a hundred kilometres wide.",
+        "It abolished its army in 1948. About a quarter of its land is protected in parks and reserves.",
+        "Hold Costa Rica as the green country: two coasts, no standing army since 1948, and a quarter of the land in protected reserves."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Costa-Rica"
+      ],
+      "cameraBounds": [
+        [
+          -86.4,
+          7.7
+        ],
+        [
+          -82.1,
+          11.7
+        ]
+      ],
+      "transition": "Let's bring Costa Rica and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -86.4,
+              7.7
+            ],
+            [
+              -82.1,
+              11.7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panama",
+      "location": [
+        -80.1272,
+        8.421
+      ],
+      "lines": [
+        "Panama forms the narrowest link between North and South America, with Colombia just past its southeastern border. Its canal joins the Atlantic and the Pacific.",
+        "The canal, opened in 1914, lets ships pass between the two oceans without sailing around South America. Because the isthmus bends, there are places where you can watch the sun rise over the Pacific.",
+        "Remember Panama as the waist of the Americas: the canal crossing it, and a sunrise on one sea while the evening is still on the other."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Panama"
+      ],
+      "cameraBounds": [
+        [
+          -83.7,
+          6.7
+        ],
+        [
+          -76.7,
+          10.1
+        ]
+      ],
+      "transition": "Let's bring Panama and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -83.7,
+              6.7
+            ],
+            [
+              -76.7,
+              10.1
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -118,
+          7
+        ],
+        [
+          -76,
+          33
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Mexico is the large country at the north of the chain. Belize, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica and Panama follow southward, most of them narrow and touching both seas.",
+    "Remember maize and chocolate, a language that came from a village, a blue hole, Tikal, Copán, the Pacific sliver, bull sharks, a country without an army, and the canal that joins two oceans."
+  ]
+}

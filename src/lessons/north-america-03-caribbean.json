@@ -1,0 +1,391 @@
+{
+  "title": "North America three of three · The Caribbean",
+  "edition": "North America countries · Three regional lessons · John · November 2026",
+  "mapId": "north-america-countries",
+  "area": "North America",
+  "unit": "places",
+  "url": "http://localhost:5187/map/north-america-countries",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -85,
+      9
+    ],
+    [
+      -60,
+      28
+    ]
+  ],
+  "restore": [
+    {
+      "name": "The Bahamas",
+      "location": [
+        -78.0634,
+        24.9263
+      ],
+      "bounds": [
+        [
+          -79.6,
+          20.4
+        ],
+        [
+          -72.2,
+          27.6
+        ]
+      ]
+    },
+    {
+      "name": "Cuba",
+      "location": [
+        -82.5456,
+        22.8259
+      ],
+      "bounds": [
+        [
+          -85.6,
+          19.4
+        ],
+        [
+          -73.5,
+          23.7
+        ]
+      ]
+    },
+    {
+      "name": "Haiti",
+      "location": [
+        -74.1725,
+        18.4845
+      ],
+      "bounds": [
+        [
+          -75,
+          17.5
+        ],
+        [
+          -71.1,
+          20.6
+        ]
+      ]
+    },
+    {
+      "name": "Dominican Republic",
+      "location": [
+        -70.1675,
+        18.7713
+      ],
+      "bounds": [
+        [
+          -72.6,
+          17.1
+        ],
+        [
+          -67.8,
+          20.4
+        ]
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "location": [
+        -76.8,
+        18.05
+      ],
+      "bounds": [
+        [
+          -79.1,
+          17.2
+        ],
+        [
+          -75.6,
+          19.1
+        ]
+      ]
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "location": [
+        -61.1701,
+        10.7007
+      ],
+      "bounds": [
+        [
+          -62.6,
+          9.4
+        ],
+        [
+          -59.8,
+          12.1
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to North America episode three of three. First, I clear the chosen names for a fresh regional lesson.",
+    "Six island countries finish our North America route, across the Bahamas, Cuba, the two halves of Hispaniola, Jamaica and the islands off Venezuela."
+  ],
+  "states": [
+    {
+      "name": "The Bahamas",
+      "location": [
+        -78.0634,
+        24.9263
+      ],
+      "lines": [
+        "The Bahamas are an archipelago in the Atlantic, southeast of Florida and north of Cuba, spread over hundreds of islands and cays.",
+        "The name probably comes from the Spanish baja mar, \"shallow sea\". Columbus's first landfall in 1492 was on one of its islands, probably the one now called San Salvador. On the islet of Big Major Cay, pigs swim out to meet the boats.",
+        "Picture the Bahamas as a scatter of shallow banks north of Cuba, with swimming pigs on one of the smallest cays."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Bahamas"
+      ],
+      "cameraBounds": [
+        [
+          -79.6,
+          20.4
+        ],
+        [
+          -72.2,
+          27.6
+        ]
+      ],
+      "transition": "Let's bring The Bahamas and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -79.6,
+              20.4
+            ],
+            [
+              -72.2,
+              27.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cuba",
+      "location": [
+        -82.5456,
+        22.8259
+      ],
+      "lines": [
+        "Cuba is the largest island in the Caribbean, a long country west of Hispaniola with Florida to its north and Jamaica to its south.",
+        "Columbus landed here in 1492 and believed it was part of Asia, a belief the island kept for four hundred years. The American cars of the 1950s still on its streets date from before the trade embargo of the early 1960s.",
+        "Remember Cuba as the long island where Columbus thought he had reached Asia, and where 1950s American cars still drive."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/204/"
+      ],
+      "cameraBounds": [
+        [
+          -85.6,
+          19.4
+        ],
+        [
+          -73.5,
+          23.7
+        ]
+      ],
+      "transition": "Let's bring Cuba and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -85.6,
+              19.4
+            ],
+            [
+              -73.5,
+              23.7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haiti",
+      "location": [
+        -74.1725,
+        18.4845
+      ],
+      "lines": [
+        "Haiti occupies the western third of the island of Hispaniola, with the Dominican Republic to its east, Cuba to the west, and the Atlantic and the Caribbean around it.",
+        "In 1804, after a revolt of enslaved people, it became the first independent state founded by former slaves. The Citadelle Laferrière, on a mountaintop in its north, is the largest fortress in the Americas.",
+        "Remember Haiti as the first state founded by former slaves in 1804, with the largest fortress in the Americas on its northern mountain."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/180/"
+      ],
+      "cameraBounds": [
+        [
+          -75,
+          17.5
+        ],
+        [
+          -71.1,
+          20.6
+        ]
+      ],
+      "transition": "Let's bring Haiti and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -75,
+              17.5
+            ],
+            [
+              -71.1,
+              20.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dominican Republic",
+      "location": [
+        -70.1675,
+        18.7713
+      ],
+      "lines": [
+        "The Dominican Republic fills the eastern two thirds of Hispaniola, facing Haiti across the border, with the Atlantic to the north and the Caribbean to the south.",
+        "It is named for its capital, Santo Domingo, and so for Saint Dominic. Santo Domingo, founded in 1496, is the oldest city built by Europeans still standing in the Americas.",
+        "Hold the Dominican Republic as the eastern side of Hispaniola, home of the oldest European city still standing in the Americas."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/526/"
+      ],
+      "cameraBounds": [
+        [
+          -72.6,
+          17.1
+        ],
+        [
+          -67.8,
+          20.4
+        ]
+      ],
+      "transition": "Let's bring Dominican Republic and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -72.6,
+              17.1
+            ],
+            [
+              -67.8,
+              20.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "location": [
+        -76.8,
+        18.05
+      ],
+      "lines": [
+        "Jamaica is an island in the Caribbean Sea, south of Cuba and west of Hispaniola.",
+        "From the Taíno Xaymaca, often read as \"land of wood and water\", came its name. Reggae was born here in the 1960s, and Bob Marley took it around the world. Blue Mountain coffee is grown on the mountains of its east.",
+        "Remember Jamaica as the small island that gave the world reggae and Blue Mountain coffee, its mountains rising on the eastern side."
+      ],
+      "sources": [
+        "https://whc.unesco.org/en/list/1356/"
+      ],
+      "cameraBounds": [
+        [
+          -79.1,
+          17.2
+        ],
+        [
+          -75.6,
+          19.1
+        ]
+      ],
+      "transition": "Let's bring Jamaica and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -79.1,
+              17.2
+            ],
+            [
+              -75.6,
+              19.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "location": [
+        -61.1701,
+        10.7007
+      ],
+      "lines": [
+        "Trinidad and Tobago lies at the south-eastern edge of the Caribbean, off the north coast of Venezuela, with Trinidad the larger island and Tobago the smaller one to its north.",
+        "Trinidad, \"Trinity\", was named by Columbus in 1498, it is said for three hills he saw from the sea. The steelpan, made from oil drums, was invented here in the 20th century, and its Pitch Lake is the largest natural deposit of asphalt in the world.",
+        "Remember Trinidad and Tobago as the steelpan islands at the Caribbean's southern corner, with the asphalt lake on Trinidad."
+      ],
+      "sources": [
+        "https://www.britannica.com/place/Trinidad-and-Tobago"
+      ],
+      "cameraBounds": [
+        [
+          -62.6,
+          9.4
+        ],
+        [
+          -59.8,
+          12.1
+        ]
+      ],
+      "transition": "Let's bring Trinidad and Tobago and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -62.6,
+              9.4
+            ],
+            [
+              -59.8,
+              12.1
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -85,
+          9
+        ],
+        [
+          -60,
+          28
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "The Bahamas lie north of Cuba. Cuba is the long big island; Haiti and the Dominican Republic share Hispaniola to its east; Jamaica sits south of Cuba; Trinidad and Tobago lie off the coast of Venezuela.",
+    "Remember shallow banks and swimming pigs, an island Columbus thought was Asia, the first state founded by former slaves, the oldest European city still standing in the Americas, reggae, and steelpan drums."
+  ]
+}

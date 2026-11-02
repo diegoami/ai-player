@@ -1,0 +1,163 @@
+{
+  "title": "North America one of three · Canada and the United States",
+  "edition": "North America countries · Three regional lessons · John · November 2026",
+  "mapId": "north-america-countries",
+  "area": "North America",
+  "unit": "places",
+  "url": "http://localhost:5187/map/north-america-countries",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -141,
+      25
+    ],
+    [
+      -53,
+      84
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Canada",
+      "location": [
+        -105,
+        52
+      ],
+      "bounds": [
+        [
+          -141,
+          41
+        ],
+        [
+          -53,
+          84
+        ]
+      ]
+    },
+    {
+      "name": "United States",
+      "location": [
+        -98,
+        39
+      ],
+      "bounds": [
+        [
+          -125,
+          25
+        ],
+        [
+          -67,
+          49
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to North America episode one of three. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin with the two countries that fill the north and the middle of the continent: Canada above, and the United States below it."
+  ],
+  "states": [
+    {
+      "name": "Canada",
+      "location": [
+        -105,
+        52
+      ],
+      "lines": [
+        "Canada occupies the northern half of the continent, from the Pacific coast to the Atlantic and Arctic Ocean. Its only land border is with the United States, along the 49th parallel, and its islands continue far north of the mainland.",
+        "Its name comes from kanata, \"village\" in an Iroquoian language, which Jacques Cartier recorded in 1535 and which was later applied to the whole land. It has the longest coastline of any country in the world, and by one count it holds more lakes than all the rest of the world together.",
+        "Picture Canada as the great northern shield: an enormous coastline and an enormous number of lakes, with the United States along its southern edge."
+      ],
+      "sources": [
+        "https://www.thecanadianencyclopedia.ca/en/article/canada"
+      ],
+      "cameraBounds": [
+        [
+          -141,
+          41
+        ],
+        [
+          -53,
+          84
+        ]
+      ],
+      "transition": "Let's bring Canada and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -141,
+              41
+            ],
+            [
+              -53,
+              84
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "United States",
+      "location": [
+        -98,
+        39
+      ],
+      "lines": [
+        "The United States spans the middle of the continent, with Canada along its northern border and Mexico along its southern one. Alaska reaches far to the northwest across the Pacific, and Hawaii lies beyond the mainland in the Pacific.",
+        "America comes from Amerigo Vespucci, the Florentine navigator whose name a German mapmaker put on the New World in 1507. Yellowstone, set aside in 1872, was the first national park in the world, and Alaska and Hawaii joined as states only in 1959.",
+        "Hold the United States as the middle band of the continent: one country touching Canada above and Mexico below, with two far-flung states added in the same year, 1959."
+      ],
+      "sources": [
+        "https://www.nps.gov/yell/learn/historyculture/yellowstoneestablishment.htm"
+      ],
+      "cameraBounds": [
+        [
+          -125,
+          25
+        ],
+        [
+          -67,
+          49
+        ]
+      ],
+      "transition": "Let's bring United States and its neighbours into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -125,
+              25
+            ],
+            [
+              -67,
+              49
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -141,
+          25
+        ],
+        [
+          -53,
+          84
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Canada lies north of the United States and shares its only land border with it. Canada is the northern shield with the longest coastline in the world; the United States is the middle band between Canada and Mexico.",
+    "Remember a village name that became a whole country, and more lakes than the rest of the world, in the north. Remember Vespucci, Yellowstone and two states added in 1959, in the middle."
+  ]
+}

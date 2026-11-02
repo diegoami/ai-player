@@ -1,0 +1,76 @@
+{
+  "title": "North America pilot · Four countries",
+  "edition": "North America countries · Pilot · John · November 2026",
+  "mapId": "north-america-countries",
+  "area": "North America",
+  "unit": "places",
+  "url": "http://localhost:5187",
+  "manual": "http://localhost:5187/manual",
+  "viewport": { "width": 1600, "height": 900 },
+  "initialBounds": [[-170, 5], [-52, 84]],
+  "restore": [
+    { "name": "Canada", "location": [-105, 52], "bounds": [[-141, 42], [-53, 84]] },
+    { "name": "United States", "location": [-98, 39], "bounds": [[-125, 25], [-67, 49]] },
+    { "name": "Mexico", "location": [-99.1, 19.4], "bounds": [[-118, 14], [-87, 33]] },
+    { "name": "Jamaica", "location": [-76.8, 18.05], "bounds": [[-78.5, 17.4], [-75.8, 18.9]] }
+  ],
+  "intro": [
+    "This is a North America pilot. First I clear the chosen names for a fresh regional lesson.",
+    "We begin in the north with Canada and the United States, move down to Mexico, and finish on the small island of Jamaica."
+  ],
+  "states": [
+    {
+      "name": "Canada",
+      "location": [-105, 52],
+      "lines": [
+        "Canada occupies the northern half of the continent. From kanata, village in an Iroquoian language, Jacques Cartier took the name of the whole land in 1535.",
+        "It has the longest coastline of any country in the world, and Mount Logan in the Yukon is its highest peak at 5,959 metres."
+      ],
+      "sources": ["https://www.nrcan.gc.ca/", "https://natural-resources.canada.ca/"],
+      "cameraBounds": [[-141, 42], [-53, 84]],
+      "transition": "Let's bring the northern half of the continent into view.",
+      "gestures": [{ "bounds": [[-141, 42], [-53, 84]] }]
+    },
+    {
+      "name": "United States",
+      "location": [-98, 39],
+      "lines": [
+        "The United States shares its northern border with Canada and its southern one with Mexico. America comes from Amerigo Vespucci, whose name a German mapmaker put on the New World in 1507.",
+        "Its largest city is New York, and Denali in Alaska is the highest point in the country."
+      ],
+      "sources": ["https://www.census.gov/"],
+      "cameraBounds": [[-125, 25], [-67, 49]],
+      "transition": "Now the country in the middle of the continent.",
+      "gestures": [{ "bounds": [[-125, 25], [-67, 49]] }]
+    },
+    {
+      "name": "Mexico",
+      "location": [-99.1, 19.4],
+      "lines": [
+        "Mexico is the southern neighbour of the United States and the largest country in Central America. Its name comes from the Mexica, the people we call the Aztecs.",
+        "Maize was domesticated here, and the capital city still carries the name of the Mexica, Mexico City."
+      ],
+      "sources": ["https://www.inegi.org.mx/"],
+      "cameraBounds": [[-118, 14], [-87, 33]],
+      "transition": "Down into Mexico, from the border to the central highlands.",
+      "gestures": [{ "bounds": [[-118, 14], [-87, 33]] }]
+    },
+    {
+      "name": "Jamaica",
+      "location": [-76.8, 18.05],
+      "lines": [
+        "Jamaica is a small island in the Caribbean. From the Taino Xaymaca, often read as land of wood and water, came its name.",
+        "Reggae was born here in the 1960s and Bob Marley took it around the world, and Blue Mountain coffee is grown in the mountains behind Kingston."
+      ],
+      "sources": ["https://www.jis.gov.jm/", "https://www.visitjamaica.com/"],
+      "cameraBounds": [[-78.5, 17.4], [-75.8, 18.9]],
+      "transition": "Finally, a close view of a small island in the Caribbean.",
+      "gestures": [{ "bounds": [[-78.5, 17.4], [-75.8, 18.9]] }]
+    }
+  ],
+  "recapGestures": [{ "bounds": [[-170, 5], [-52, 84]] }],
+  "recap": [
+    "We covered four countries of North America: Canada in the north, the United States and Mexico across the middle and south, and Jamaica on an island in the Caribbean.",
+    "Canada is the second largest country in the world, the United States spans the continent, Mexico is the largest in Central America, and Jamaica shows how small a country can be and still have its own place."
+  ]
+}
