@@ -497,6 +497,26 @@ runbook's rule is to stop on a quota error. The batch is prepared under
 `rendered/oceania-capitals-20261102/youtube-publishing/` and the upload needs
 the owner's visibility choice.
 
+## Open work: Africa capitals
+
+`africa-capitals` is the last capital map GeoClick ships, and the last hole in
+the capitals series: 54 targets, by far the biggest edition. It was identified
+on 3 November 2026 but **not started**, because one framing question is the
+owner's to answer first.
+
+The map carries **Hargeisa as a capital target in its own right**, for
+Somaliland. The Africa *countries* edition taught Somaliland within Somalia,
+so the capitals map treats it differently, and the two have to be reconciled
+in one narration. The precedent is the Europe capitals edition, where Kosovo
+was taught with a short status note rather than silently as an ordinary
+national capital. The intended approach is one neutral sentence in the
+narration, on the same pattern, but the wording is the owner's decision and
+should be settled before any script is written.
+
+Planned grouping, for discussion: North Africa and the Sahara; the Sahel and
+the Gulf; West Africa; the Horn and the Great Lakes; Central and Southern
+Africa; and the Atlantic and Indian Ocean islands with the Cape.
+
 ## Completed Europe edition: six country lessons
 
 The user accepted the proposed six-video Europe route and requested producing

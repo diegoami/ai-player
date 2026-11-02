@@ -95,11 +95,13 @@ uploads, and the eleven-video release workflow never uploads either series.
 
 ## Authority and retained files
 
-Versioned English subtitle backups for all 26 current US, Europe, Asia and Africa
-episodes are in [subtitles/](../subtitles/README.md). Its manifest maps exact
-caption bytes to canonical masters and known YouTube IDs. These
-backups do not replace the original queue caption inputs or checkpoints;
-Asia remains an offline preparation.
+Versioned English subtitle backups for all 57 current episodes — US, Europe,
+Asia, Africa, North America, South America and the four capitals editions —
+are in [subtitles/](../subtitles/README.md). Its manifest maps exact caption
+bytes to canonical masters and known YouTube IDs. These backups do not replace
+the original queue caption inputs or checkpoints. Every one of these series has
+since been uploaded except the Oceania capitals edition, which is produced and
+waiting for the quota reset; the captions remain deferred throughout.
 
 These remain the original operational authorities; do not move or regenerate them:
 
@@ -132,6 +134,22 @@ These generated operational files and media are ignored by Git. Transfer them
 separately, preserving the queue/job relationships and original shared ledger.
 Credentials travel only through the owner's normal youtube3 setup. Git contains
 the policy, operating code, tests and these instructions, not credentials.
+
+### How an upload is authorised
+
+An upload is an outward-facing publication, so it needs the owner's explicit
+approval naming **what is uploaded, to where, and with what visibility** — for
+example "upload the five North America capitals videos unlisted to playlist
+PLNl_MybP55PE". A bare "upload" is not enough, and neither is a single word
+such as "unlisted": both were refused by the harness's permission gate as
+inferred consent, and the run then had to ask again. Ask for the whole
+sentence at once, in the options themselves, and record the answer with the
+operation it authorises.
+
+Everything else about the release stays as it is: captions deferred, playlist
+link in every description, screenshot thumbnail from the approved master,
+playlist seat through youtube3's own `ensure_playlist_member`, and the shared
+ledger carrying the upload. A video ID is never re-uploaded once it is known.
 
 ## Approved release and recovery
 

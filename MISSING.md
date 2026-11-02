@@ -32,6 +32,20 @@ Code changes are on `setup/leopard-runtime`. New setup proofs remain ignored
 under `rendered/leopard-runtime-checks/`; no old media was restored or regenerated.
 This file preserves the earlier missing-setup audit below as historical context.
 
+- The GeoClick checkout at `H:/projects/Geoclick2027` is read-only for this
+  pipeline: every recording script reads its map catalogue and writes only into
+  `ai-player`. The Claude Code permission for that directory is therefore
+  optional. If a task ever needs to *edit* the GeoClick app, run
+  `claude --add-dir H:/projects/Geoclick2027` first — the permission cannot be
+  added from inside a session, and the harness refuses writes to its own
+  settings file.
+- The dev server must be started with the physical path
+  (`Set-Location H:\projects\Geoclick2027`), not the `C:` junction, or Vite
+  answers generated-module requests with 403. It binds on IPv6, so
+  `http://localhost:5187` works while `127.0.0.1:5187` does not answer.
+- Windows `tar.exe` is bsdtar and rejects `--force-local`; run the packaging
+  scripts from Git Bash, where `tar` is GNU tar 1.35.
+
 
 Checked on 2026-11-01. The source code and documented project context are
 available, but this checkout is not yet ready to record or rebuild videos.
