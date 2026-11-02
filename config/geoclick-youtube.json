@@ -25,13 +25,51 @@
   "offline_series": {
     "id": "asia",
     "ledger": "src/lessons/asia-coverage.json",
-    "publishing_dir": "rendered/asia-seven-20261101/youtube-publishing"
+    "publishing_dir": "rendered/asia-seven-20261101/youtube-publishing",
+    "published": "2026-11-02",
+    "captions": "deferred",
+    "video_ids": ["ZWDk7zrMGVI", "uNAcGGGhEsA", "L4UhrpAyu4M", "YOThLJvmFzs", "fQWA6FnkaCI", "kGCh1nB_J-Q", "GEBsFJ0db3k"]
   },
   "additional_offline_series": [
     {
       "id": "africa",
       "ledger": "src/lessons/africa-coverage.json",
-      "publishing_dir": "rendered/africa-eight-20261102/youtube-publishing"
+      "publishing_dir": "rendered/africa-eight-20261102/youtube-publishing",
+      "published": "2026-11-02",
+      "captions": "deferred",
+      "video_ids": ["pT0TDuGl2e4", "s0vsG7yVHlY", "Xy_DXMAmwA0", "hLO1bU245W0", "Y76NzmtwcmY", "b86GIVPIUwk", "s8dLsVaWWHs", "iFDob_qsXiE"]
+    },
+    {
+      "id": "north-america",
+      "ledger": "src/lessons/north-america-coverage.json",
+      "publishing_dir": "rendered/north-america-three-20261102/youtube-publishing",
+      "published": "unlisted 2026-11-02",
+      "captions": "deferred",
+      "video_ids": ["mEvKC8wtS44", "CktKmkqtw8g", "Fm2Y-M0-Btw"]
+    },
+    {
+      "id": "south-america",
+      "ledger": "src/lessons/south-america-coverage.json",
+      "publishing_dir": "rendered/south-america-three-20261102/youtube-publishing",
+      "published": "unlisted 2026-11-02",
+      "captions": "deferred",
+      "video_ids": ["m_s2tya9grM", "-Wi_pE_Nwx0", "_q2YJDRGgpg"]
+    },
+    {
+      "id": "europe-capitals",
+      "ledger": "src/lessons/europe-capitals-coverage.json",
+      "publishing_dir": "rendered/europe-capitals-20261102/youtube-publishing",
+      "published": "unlisted 2026-11-02",
+      "captions": "deferred",
+      "video_ids": ["L_fCNufSRMM", "mZ6S5pXin7E", "dmuhY0J50I0", "2GOYTfxBX4A", "ZHbvY3GAGwg", "285b_NcXI5Y"]
+    },
+    {
+      "id": "asia-capitals",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "publishing_dir": "rendered/asia-capitals-20261102/youtube-publishing",
+      "published": "unlisted 2026-11-02",
+      "captions": "deferred",
+      "video_ids": ["zSO15iqpqjQ", "eZjfTqr5gLU", "JgDnVRBCXck", "JkfAdRz4VKk", "xi7PSSQea20", "jqr0M9ifQJY", "guDkbWfob2w"]
     }
   ],
   "links": {

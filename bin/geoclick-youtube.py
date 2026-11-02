@@ -395,7 +395,10 @@ def prepare(config, batch_module, captions, series_id=None):
     if len(selected) != 1:
         raise ValueError('Unknown offline series')
     series = selected[0]
-    identity, label = series['id'], series['id'].title()
+    identity = series['id']
+    label = {'asia': 'Asia', 'africa': 'Africa', 'north-america': 'North America',
+             'south-america': 'South America', 'europe-capitals': 'Europe Capitals',
+             'asia-capitals': 'Asia Capitals'}.get(identity, identity.title())
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
         raise ValueError('Offline series is not complete')
@@ -404,9 +407,27 @@ def prepare(config, batch_module, captions, series_id=None):
              'Bahrain, Maldives and Singapore use labelled supplemental geographic views. Asian Russia is briefly '
              'oriented because its full country stop was in the Europe series. Map targets do not settle disputed political status or boundaries.'
              if identity == 'asia' else
-             'This eight-part edition covers 54 countries once each, plus Western Sahara as a disputed-territory stop. '
-             'Somaliland is demonstrated within Somalia. Sao Tome and Principe, Comoros, Mauritius and Seychelles use labelled '
-             'supplemental geographic views. Teaching groups and map targets do not settle political status, boundaries or control.')
+             ('This eight-part edition covers 54 countries once each, plus Western Sahara as a disputed-territory stop. '
+              'Somaliland is demonstrated within Somalia. Sao Tome and Principe, Comoros, Mauritius and Seychelles use labelled '
+              'supplemental geographic views. Teaching groups and map targets do not settle political status, boundaries or control.'
+              if identity == 'africa' else
+              ('This three-part edition covers all 16 country targets of GeoClick\'s native North America map exactly once: '
+               'Canada, the United States, Mexico, seven Central American countries and six Caribbean countries. Greenland is not a '
+               'target of that map. Episode groups are teaching routes, not an official regional classification, and map outlines '
+               'do not settle political status or boundaries.'
+               if identity == 'north-america' else
+               ('This three-part edition covers all 12 country targets of GeoClick\'s native South America map exactly once: '
+                'the four northern countries, the four Andean western countries and the four eastern and southern countries. '
+                'French Guiana is not a target of that map. Episode groups are teaching routes, not an official regional '
+                'classification, and map outlines do not settle political status or boundaries.'
+                if identity == 'south-america' else
+                ('This six-part edition covers all 44 capital targets of GeoClick\'s native Europe capitals map exactly once: '
+                 'the capital of every European country the map names. Episode groups are teaching routes, not an official '
+                 'classification, and map targets do not settle political status or boundaries.'
+                 if identity == 'europe-capitals' else
+                 'This seven-part edition covers all 47 capital targets of GeoClick\'s native Asia capitals map exactly once: '
+                 'the capital of every Asian country the map names. Episode groups are teaching routes, not an official '
+                 'classification, and map targets do not settle political status or boundaries.')))))
     folder = ROOT / series['publishing_dir']
     folder.mkdir(parents=True, exist_ok=True)
     entries, manifest = [], []
@@ -429,7 +450,8 @@ def prepare(config, batch_module, captions, series_id=None):
                 f'{scope}\n\n'
                 'Prepared geography lesson, not a scored quiz. English narration by John (synthetic voice); optional English captions.\n\n'
                 f'Full playlist: {config["links"]["playlist"]}\nPlay GeoClick: {config["links"]["game"]}\n'
-                f'GeoClick source code: {config["links"]["geoclick_repository"]}\nVideo production tools: {config["links"]["ai_player_repository"]}\n\n#GeoClick #LearnGeography #{label}')
+                f'GeoClick source code: {config["links"]["geoclick_repository"]}\nVideo production tools: {config["links"]["ai_player_repository"]}\n\n'
+                f'#GeoClick #LearnGeography #{label.replace(" ", "")}')
         entries.append({'id': f'{identity}-{i:02d}-{episode["id"]}', 'file': str(master), 'episode': i,
                         'settings': {'title': f'Learn {label}: {episode["title"]} | GeoClick Geography {i}/{total}',
                                      'description': text, 'thumbnail': str(thumbnail),
@@ -455,7 +477,7 @@ def prepare(config, batch_module, captions, series_id=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
-    parser.add_argument('--series', choices=['asia', 'africa'], help='Offline prepare only; defaults to Asia')
+    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()

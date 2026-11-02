@@ -263,7 +263,7 @@
       "ledger": "src/lessons/asia-coverage.json",
       "master": "rendered/asia-seven-20261101/01-turkiye-cyprus-caucasus-refined/geoclick/play-no-subtitles.mp4",
       "language": "en",
-      "youtube_video_id": null,
+      "youtube_video_id": "ZWDk7zrMGVI",
       "files": [
         {
           "path": "subtitles/asia/01-turkiye-cyprus-caucasus/subtitles.en.srt",
@@ -286,7 +286,7 @@
       "ledger": "src/lessons/asia-coverage.json",
       "master": "rendered/asia-seven-20261101/02-levant-mesopotamia/geoclick/play-no-subtitles.mp4",
       "language": "en",
-      "youtube_video_id": null,
+      "youtube_video_id": "uNAcGGGhEsA",
       "files": [
         {
           "path": "subtitles/asia/02-levant-mesopotamia/subtitles.en.srt",
@@ -309,7 +309,7 @@
       "ledger": "src/lessons/asia-coverage.json",
       "master": "rendered/asia-seven-20261101/03-arabian-peninsula/geoclick/play-no-subtitles.mp4",
       "language": "en",
-      "youtube_video_id": null,
+      "youtube_video_id": "L4UhrpAyu4M",
       "files": [
         {
           "path": "subtitles/asia/03-arabian-peninsula/subtitles.en.srt",
@@ -332,7 +332,7 @@
       "ledger": "src/lessons/asia-coverage.json",
       "master": "rendered/asia-seven-20261101/04-central-asia-afghanistan/geoclick/play-no-subtitles.mp4",
       "language": "en",
-      "youtube_video_id": null,
+      "youtube_video_id": "YOThLJvmFzs",
       "files": [
         {
           "path": "subtitles/asia/04-central-asia-afghanistan/subtitles.en.srt",
@@ -355,7 +355,7 @@
       "ledger": "src/lessons/asia-coverage.json",
       "master": "rendered/asia-seven-20261101/05-south-asia/geoclick/play-no-subtitles.mp4",
       "language": "en",
-      "youtube_video_id": null,
+      "youtube_video_id": "fQWA6FnkaCI",
       "files": [
         {
           "path": "subtitles/asia/05-south-asia/subtitles.en.srt",
@@ -378,7 +378,7 @@
       "ledger": "src/lessons/asia-coverage.json",
       "master": "rendered/asia-seven-20261101/06-east-asia/geoclick/play-no-subtitles.mp4",
       "language": "en",
-      "youtube_video_id": null,
+      "youtube_video_id": "kGCh1nB_J-Q",
       "files": [
         {
           "path": "subtitles/asia/06-east-asia/subtitles.en.srt",
@@ -401,7 +401,7 @@
       "ledger": "src/lessons/asia-coverage.json",
       "master": "rendered/asia-seven-20261101/07-southeast-asia/geoclick/play-no-subtitles.mp4",
       "language": "en",
-      "youtube_video_id": null,
+      "youtube_video_id": "GEBsFJ0db3k",
       "files": [
         {
           "path": "subtitles/asia/07-southeast-asia/subtitles.en.srt",
@@ -598,6 +598,443 @@
           "source": "rendered/africa-eight-20261102/08-indian-ocean-islands/geoclick/subtitles.en.vtt",
           "bytes": 5176,
           "sha256": "0aaf5d9cdbdddffe70539b1c48bb131fbd90d7f5bd8c0ca857a7f4f29508552e"
+        }
+      ]
+    },
+    {
+      "series": "north-america",
+      "episode": 1,
+      "id": "canada-united-states",
+      "ledger": "src/lessons/north-america-coverage.json",
+      "master": "rendered/north-america-three-20261102/01-canada-united-states/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "mEvKC8wtS44",
+      "files": [
+        {
+          "path": "subtitles/north-america/01-canada-united-states/subtitles.en.srt",
+          "source": "rendered/north-america-three-20261102/01-canada-united-states/geoclick/subtitles.en.srt",
+          "bytes": 2461,
+          "sha256": "37187fbedc7c94b05b5f36203976a954eb3b27210c7d3413a445af8e34e2c267"
+        },
+        {
+          "path": "subtitles/north-america/01-canada-united-states/subtitles.en.vtt",
+          "source": "rendered/north-america-three-20261102/01-canada-united-states/geoclick/subtitles.en.vtt",
+          "bytes": 3069,
+          "sha256": "61ab1aa8041762ad3d95f85437a6fcbe7a16d895dc30fbca0c91ebf97aaa40d3"
+        }
+      ]
+    },
+    {
+      "series": "north-america",
+      "episode": 2,
+      "id": "mexico-central-america",
+      "ledger": "src/lessons/north-america-coverage.json",
+      "master": "rendered/north-america-three-20261102/02-mexico-central-america/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "CktKmkqtw8g",
+      "files": [
+        {
+          "path": "subtitles/north-america/02-mexico-central-america/subtitles.en.srt",
+          "source": "rendered/north-america-three-20261102/02-mexico-central-america/geoclick/subtitles.en.srt",
+          "bytes": 6145,
+          "sha256": "a8032457e1019ca5a1456603473368eba563866402a2a9220adaef9e6ae0a95e"
+        },
+        {
+          "path": "subtitles/north-america/02-mexico-central-america/subtitles.en.vtt",
+          "source": "rendered/north-america-three-20261102/02-mexico-central-america/geoclick/subtitles.en.vtt",
+          "bytes": 7953,
+          "sha256": "ee9c062fd74efd2092be4cf1ca74d5f955255205bd8c4103d5bae41a23095e5d"
+        }
+      ]
+    },
+    {
+      "series": "north-america",
+      "episode": 3,
+      "id": "caribbean",
+      "ledger": "src/lessons/north-america-coverage.json",
+      "master": "rendered/north-america-three-20261102/03-caribbean/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "Fm2Y-M0-Btw",
+      "files": [
+        {
+          "path": "subtitles/north-america/03-caribbean/subtitles.en.srt",
+          "source": "rendered/north-america-three-20261102/03-caribbean/geoclick/subtitles.en.srt",
+          "bytes": 4827,
+          "sha256": "c67b09f0786011ba3b29e77d27dcb2ceaead72956c5bd09ccadf8279767c5a61"
+        },
+        {
+          "path": "subtitles/north-america/03-caribbean/subtitles.en.vtt",
+          "source": "rendered/north-america-three-20261102/03-caribbean/geoclick/subtitles.en.vtt",
+          "bytes": 6235,
+          "sha256": "a92ee445247f1d355c106df65c08d8a35ebb7ad32fbbc4f50adde6fe260c8905"
+        }
+      ]
+    },
+    {
+      "series": "south-america",
+      "episode": 1,
+      "id": "northern-countries",
+      "ledger": "src/lessons/south-america-coverage.json",
+      "master": "rendered/south-america-three-20261102/01-northern-countries/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "m_s2tya9grM",
+      "files": [
+        {
+          "path": "subtitles/south-america/01-northern-countries/subtitles.en.srt",
+          "source": "rendered/south-america-three-20261102/01-northern-countries/geoclick/subtitles.en.srt",
+          "bytes": 3574,
+          "sha256": "64b8af91c79a514de9a257bb33fd53afc88fbf71a19a3a2db6e9ce071e61efa5"
+        },
+        {
+          "path": "subtitles/south-america/01-northern-countries/subtitles.en.vtt",
+          "source": "rendered/south-america-three-20261102/01-northern-countries/geoclick/subtitles.en.vtt",
+          "bytes": 4582,
+          "sha256": "261988d623a18d128a6199331a540d3c73d0517a4d1bc21e2825e068d4ee1b92"
+        }
+      ]
+    },
+    {
+      "series": "south-america",
+      "episode": 2,
+      "id": "along-the-andes",
+      "ledger": "src/lessons/south-america-coverage.json",
+      "master": "rendered/south-america-three-20261102/02-along-the-andes/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "-Wi_pE_Nwx0",
+      "files": [
+        {
+          "path": "subtitles/south-america/02-along-the-andes/subtitles.en.srt",
+          "source": "rendered/south-america-three-20261102/02-along-the-andes/geoclick/subtitles.en.srt",
+          "bytes": 3747,
+          "sha256": "d5342759229894073b5aed395e6df613541c04ac706dacee8d537ea55421205b"
+        },
+        {
+          "path": "subtitles/south-america/02-along-the-andes/subtitles.en.vtt",
+          "source": "rendered/south-america-three-20261102/02-along-the-andes/geoclick/subtitles.en.vtt",
+          "bytes": 4755,
+          "sha256": "ceaebbacc7b0e43c55e05ca2816b4727b0d640f47d199155c1aa41b2014c529c"
+        }
+      ]
+    },
+    {
+      "series": "south-america",
+      "episode": 3,
+      "id": "brazil-and-the-south",
+      "ledger": "src/lessons/south-america-coverage.json",
+      "master": "rendered/south-america-three-20261102/03-brazil-and-the-south/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "_q2YJDRGgpg",
+      "files": [
+        {
+          "path": "subtitles/south-america/03-brazil-and-the-south/subtitles.en.srt",
+          "source": "rendered/south-america-three-20261102/03-brazil-and-the-south/geoclick/subtitles.en.srt",
+          "bytes": 3734,
+          "sha256": "142143d976b881d41f4b9773656aaa5a259ae350f787d06b5d99b09ffc19405a"
+        },
+        {
+          "path": "subtitles/south-america/03-brazil-and-the-south/subtitles.en.vtt",
+          "source": "rendered/south-america-three-20261102/03-brazil-and-the-south/geoclick/subtitles.en.vtt",
+          "bytes": 4742,
+          "sha256": "052ae767328b1b5f3a536a7447efd4d06b20af91b7844540984ee37b7daa0d5b"
+        }
+      ]
+    },
+    {
+      "series": "europe-capitals",
+      "episode": 1,
+      "id": "north-atlantic-nordics",
+      "ledger": "src/lessons/europe-capitals-coverage.json",
+      "master": "rendered/europe-capitals-20261102/01-north-atlantic-nordics/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "L_fCNufSRMM",
+      "files": [
+        {
+          "path": "subtitles/europe-capitals/01-north-atlantic-nordics/subtitles.en.srt",
+          "source": "rendered/europe-capitals-20261102/01-north-atlantic-nordics/geoclick/subtitles.en.srt",
+          "bytes": 4402,
+          "sha256": "3e2a8d53e9f82624646a430b45e332230118a94c7bc7c032035ee1a3582d7a2e"
+        },
+        {
+          "path": "subtitles/europe-capitals/01-north-atlantic-nordics/subtitles.en.vtt",
+          "source": "rendered/europe-capitals-20261102/01-north-atlantic-nordics/geoclick/subtitles.en.vtt",
+          "bytes": 6010,
+          "sha256": "25a005ade27233c900b9cc7522b192ed167fe136600b50f866abec7a9e1f8dbb"
+        }
+      ]
+    },
+    {
+      "series": "europe-capitals",
+      "episode": 2,
+      "id": "baltic-and-the-east",
+      "ledger": "src/lessons/europe-capitals-coverage.json",
+      "master": "rendered/europe-capitals-20261102/02-baltic-and-the-east/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "mZ6S5pXin7E",
+      "files": [
+        {
+          "path": "subtitles/europe-capitals/02-baltic-and-the-east/subtitles.en.srt",
+          "source": "rendered/europe-capitals-20261102/02-baltic-and-the-east/geoclick/subtitles.en.srt",
+          "bytes": 4942,
+          "sha256": "f052180f74c6f1672ab48b76b36d09f00bdb9b3d88202b3107b1ee116fafa1e5"
+        },
+        {
+          "path": "subtitles/europe-capitals/02-baltic-and-the-east/subtitles.en.vtt",
+          "source": "rendered/europe-capitals-20261102/02-baltic-and-the-east/geoclick/subtitles.en.vtt",
+          "bytes": 6750,
+          "sha256": "4ae662481cfc4bcbf39e59eb74a5137ebc8d1e8353a3e4896f405773095b0b6a"
+        }
+      ]
+    },
+    {
+      "series": "europe-capitals",
+      "episode": 3,
+      "id": "west-and-centre",
+      "ledger": "src/lessons/europe-capitals-coverage.json",
+      "master": "rendered/europe-capitals-20261102/03-west-and-centre/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "dmuhY0J50I0",
+      "files": [
+        {
+          "path": "subtitles/europe-capitals/03-west-and-centre/subtitles.en.srt",
+          "source": "rendered/europe-capitals-20261102/03-west-and-centre/geoclick/subtitles.en.srt",
+          "bytes": 5482,
+          "sha256": "d9885468f7c859ed39884167a5a98dc353baf385ca6c5fe7270baa8d04b89789"
+        },
+        {
+          "path": "subtitles/europe-capitals/03-west-and-centre/subtitles.en.vtt",
+          "source": "rendered/europe-capitals-20261102/03-west-and-centre/geoclick/subtitles.en.vtt",
+          "bytes": 7490,
+          "sha256": "a0cc74a86a97aad7c583d1d89c4392c01af550fb4ece38da374f3041f446f56e"
+        }
+      ]
+    },
+    {
+      "series": "europe-capitals",
+      "episode": 4,
+      "id": "alps-and-italy",
+      "ledger": "src/lessons/europe-capitals-coverage.json",
+      "master": "rendered/europe-capitals-20261102/04-alps-and-italy/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "2GOYTfxBX4A",
+      "files": [
+        {
+          "path": "subtitles/europe-capitals/04-alps-and-italy/subtitles.en.srt",
+          "source": "rendered/europe-capitals-20261102/04-alps-and-italy/geoclick/subtitles.en.srt",
+          "bytes": 5087,
+          "sha256": "3d6ebe3fb7231e87d879001b4fd0b422df843ceea2b4b838edc2aad2c73476b3"
+        },
+        {
+          "path": "subtitles/europe-capitals/04-alps-and-italy/subtitles.en.vtt",
+          "source": "rendered/europe-capitals-20261102/04-alps-and-italy/geoclick/subtitles.en.vtt",
+          "bytes": 6895,
+          "sha256": "3d099241992f51c290a92dbb3be09e2c331eff51f3ebbdf77d86291398bd64ef"
+        }
+      ]
+    },
+    {
+      "series": "europe-capitals",
+      "episode": 5,
+      "id": "the-balkans",
+      "ledger": "src/lessons/europe-capitals-coverage.json",
+      "master": "rendered/europe-capitals-20261102/05-the-balkans/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "ZHbvY3GAGwg",
+      "files": [
+        {
+          "path": "subtitles/europe-capitals/05-the-balkans/subtitles.en.srt",
+          "source": "rendered/europe-capitals-20261102/05-the-balkans/geoclick/subtitles.en.srt",
+          "bytes": 4995,
+          "sha256": "542ecf444c89215ce9083f684fa3e96c262777ffec7f2393a503167399835619"
+        },
+        {
+          "path": "subtitles/europe-capitals/05-the-balkans/subtitles.en.vtt",
+          "source": "rendered/europe-capitals-20261102/05-the-balkans/geoclick/subtitles.en.vtt",
+          "bytes": 6803,
+          "sha256": "b091838486181ac2e2cea693c079a8bc5e5d4bd34b33ed15bee17c87e7d77a76"
+        }
+      ]
+    },
+    {
+      "series": "europe-capitals",
+      "episode": 6,
+      "id": "iberia-and-mediterranean",
+      "ledger": "src/lessons/europe-capitals-coverage.json",
+      "master": "rendered/europe-capitals-20261102/06-iberia-and-mediterranean/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "285b_NcXI5Y",
+      "files": [
+        {
+          "path": "subtitles/europe-capitals/06-iberia-and-mediterranean/subtitles.en.srt",
+          "source": "rendered/europe-capitals-20261102/06-iberia-and-mediterranean/geoclick/subtitles.en.srt",
+          "bytes": 2696,
+          "sha256": "9a59025ae21f4a177f577c75c8c8a59a76dd54dde2b4d7b1d81711fad3e03dad"
+        },
+        {
+          "path": "subtitles/europe-capitals/06-iberia-and-mediterranean/subtitles.en.vtt",
+          "source": "rendered/europe-capitals-20261102/06-iberia-and-mediterranean/geoclick/subtitles.en.vtt",
+          "bytes": 3704,
+          "sha256": "551a196e1cd04b760a23cba832cfa5153c6f5888387d6cc89fae8d204f7155a5"
+        }
+      ]
+    },
+    {
+      "series": "asia-capitals",
+      "episode": 1,
+      "id": "central-asia-and-caucasus",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "master": "rendered/asia-capitals-20261102/01-central-asia-and-caucasus/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "zSO15iqpqjQ",
+      "files": [
+        {
+          "path": "subtitles/asia-capitals/01-central-asia-and-caucasus/subtitles.en.srt",
+          "source": "rendered/asia-capitals-20261102/01-central-asia-and-caucasus/geoclick/subtitles.en.srt",
+          "bytes": 5560,
+          "sha256": "99ac83684574c3872c385a447f8424057f7afeb9db1aca415102f1417e5e5689"
+        },
+        {
+          "path": "subtitles/asia-capitals/01-central-asia-and-caucasus/subtitles.en.vtt",
+          "source": "rendered/asia-capitals-20261102/01-central-asia-and-caucasus/geoclick/subtitles.en.vtt",
+          "bytes": 7568,
+          "sha256": "85aaef5de3f15d89025555d627a1a1a4eb21f097774ec80f67044da8911bd705"
+        }
+      ]
+    },
+    {
+      "series": "asia-capitals",
+      "episode": 2,
+      "id": "east-asia",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "master": "rendered/asia-capitals-20261102/02-east-asia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "eZjfTqr5gLU",
+      "files": [
+        {
+          "path": "subtitles/asia-capitals/02-east-asia/subtitles.en.srt",
+          "source": "rendered/asia-capitals-20261102/02-east-asia/geoclick/subtitles.en.srt",
+          "bytes": 3606,
+          "sha256": "20b06ae319168c1229ff051c9477afcfb2d1342dfeb0ac559ef6985a0833526e"
+        },
+        {
+          "path": "subtitles/asia-capitals/02-east-asia/subtitles.en.vtt",
+          "source": "rendered/asia-capitals-20261102/02-east-asia/geoclick/subtitles.en.vtt",
+          "bytes": 4814,
+          "sha256": "5168d6367e0592fc8bdcdaf70edeccc839865f12d7a9513d0e616667e6a8fe10"
+        }
+      ]
+    },
+    {
+      "series": "asia-capitals",
+      "episode": 3,
+      "id": "south-asia",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "master": "rendered/asia-capitals-20261102/03-south-asia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "JgDnVRBCXck",
+      "files": [
+        {
+          "path": "subtitles/asia-capitals/03-south-asia/subtitles.en.srt",
+          "source": "rendered/asia-capitals-20261102/03-south-asia/geoclick/subtitles.en.srt",
+          "bytes": 4428,
+          "sha256": "b4f8b9ac2f9d2818a86b0c89eb3781f7c0dd9c99118d44c9b39d3651da125920"
+        },
+        {
+          "path": "subtitles/asia-capitals/03-south-asia/subtitles.en.vtt",
+          "source": "rendered/asia-capitals-20261102/03-south-asia/geoclick/subtitles.en.vtt",
+          "bytes": 6036,
+          "sha256": "65041f6d23001cfd33a234c892ccf78ceaaa02a8a02be1a96b05d1427b23f821"
+        }
+      ]
+    },
+    {
+      "series": "asia-capitals",
+      "episode": 4,
+      "id": "levant-iraq-turkey-iran",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "master": "rendered/asia-capitals-20261102/04-levant-iraq-turkey-iran/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "JkfAdRz4VKk",
+      "files": [
+        {
+          "path": "subtitles/asia-capitals/04-levant-iraq-turkey-iran/subtitles.en.srt",
+          "source": "rendered/asia-capitals-20261102/04-levant-iraq-turkey-iran/geoclick/subtitles.en.srt",
+          "bytes": 5205,
+          "sha256": "e43c82048215deb7c7ef3c61d084f0246b75deca6e13f5c6b14bcb1a99ac4933"
+        },
+        {
+          "path": "subtitles/asia-capitals/04-levant-iraq-turkey-iran/subtitles.en.vtt",
+          "source": "rendered/asia-capitals-20261102/04-levant-iraq-turkey-iran/geoclick/subtitles.en.vtt",
+          "bytes": 7013,
+          "sha256": "3ca252bf3dfe0b4012659211eaf8c906d8de89cf7e59eee6f87521c3a94d1005"
+        }
+      ]
+    },
+    {
+      "series": "asia-capitals",
+      "episode": 5,
+      "id": "gulf-and-peninsula",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "master": "rendered/asia-capitals-20261102/05-gulf-and-peninsula/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "xi7PSSQea20",
+      "files": [
+        {
+          "path": "subtitles/asia-capitals/05-gulf-and-peninsula/subtitles.en.srt",
+          "source": "rendered/asia-capitals-20261102/05-gulf-and-peninsula/geoclick/subtitles.en.srt",
+          "bytes": 4475,
+          "sha256": "3068a3e674ee056e40328f09fd784c382a64c89a96c4f2bb1287fd333c84ee92"
+        },
+        {
+          "path": "subtitles/asia-capitals/05-gulf-and-peninsula/subtitles.en.vtt",
+          "source": "rendered/asia-capitals-20261102/05-gulf-and-peninsula/geoclick/subtitles.en.vtt",
+          "bytes": 6083,
+          "sha256": "c7cbc986cd8ccfd7680455c6d2e6a6f2cdb1d09c136e2340eda0a8b0a35dad2c"
+        }
+      ]
+    },
+    {
+      "series": "asia-capitals",
+      "episode": 6,
+      "id": "mainland-southeast-asia",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "master": "rendered/asia-capitals-20261102/06-mainland-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "jqr0M9ifQJY",
+      "files": [
+        {
+          "path": "subtitles/asia-capitals/06-mainland-southeast-asia/subtitles.en.srt",
+          "source": "rendered/asia-capitals-20261102/06-mainland-southeast-asia/geoclick/subtitles.en.srt",
+          "bytes": 3921,
+          "sha256": "d817c229a271befb4d8a9e8606b3f67de4efae7807f7a318f5f873dfc6e807a4"
+        },
+        {
+          "path": "subtitles/asia-capitals/06-mainland-southeast-asia/subtitles.en.vtt",
+          "source": "rendered/asia-capitals-20261102/06-mainland-southeast-asia/geoclick/subtitles.en.vtt",
+          "bytes": 5329,
+          "sha256": "6b81253be70ba671858bb9ce25bd5cd80c155d210eff8dec6abaf4496a37c72b"
+        }
+      ]
+    },
+    {
+      "series": "asia-capitals",
+      "episode": 7,
+      "id": "maritime-southeast-asia",
+      "ledger": "src/lessons/asia-capitals-coverage.json",
+      "master": "rendered/asia-capitals-20261102/07-maritime-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "guDkbWfob2w",
+      "files": [
+        {
+          "path": "subtitles/asia-capitals/07-maritime-southeast-asia/subtitles.en.srt",
+          "source": "rendered/asia-capitals-20261102/07-maritime-southeast-asia/geoclick/subtitles.en.srt",
+          "bytes": 3362,
+          "sha256": "580d0718d279c2c67af04127298f63000afeb423398fc9f285b8df4f0b34b535"
+        },
+        {
+          "path": "subtitles/asia-capitals/07-maritime-southeast-asia/subtitles.en.vtt",
+          "source": "rendered/asia-capitals-20261102/07-maritime-southeast-asia/geoclick/subtitles.en.vtt",
+          "bytes": 4570,
+          "sha256": "4fa957fb2f63bd6ded3eb41ef95f38af869ada01c1ec5e5897d4e6dd617335cd"
         }
       ]
     }
