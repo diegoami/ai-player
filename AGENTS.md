@@ -7,7 +7,8 @@ reimplement them or modify its repository. The profile/channel/playlist,
 eleven known video IDs and original queue locations are pinned in
 `config/geoclick-youtube.json`. Preserve all native checkpoints and the shared
 upload ledger. Never reupload known videos. The old operational scripts now
-delegate here; their originals are backed up. Stop every account call on quota
+delegate here; their originals are backed up. Stop calls using an exhausted quota bucket; private uploads have a separate
+quota bucket and may continue through the upload-only runner. Stop on upload quota
 errors; do not create a scheduled task. The 1 November 2026 resume hit quota
 again at the final Europe captions, with no accepted account changes. Seven
 canonical Asia videos are prepared offline only; their uploads are not authorized.
@@ -20,12 +21,13 @@ island countries must be demonstrated. Outputs: `rendered/africa-eight-20261102/
 All media checks and visual reviews passed; the collection ZIP is
 `all-eight-africa-videos.zip` under that output root. Exact optional English
 SRT/WebVTT backups are in tracked `subtitles/africa/`. Eight entries are
-prepared in the separate publishing batch. The owner then authorized uploading
-all eight. North Africa uploaded privately as `pT0TDuGl2e4`; quota stopped its
-thumbnail stage, before captions/membership. Seven uploads remain pending.
-Preserve `rendered/africa-eight-20261102/youtube-publishing/queue.json`, its jobs,
-immutable plan and shared ledger. Retry that existing thumbnail stage through
-youtube3 when quota permits; never reupload the accepted video. See the runbook.
+prepared in the separate publishing batch. All eight uploads were authorized
+and accepted privately. IDs are in the Africa production ledger and subtitle
+manifest. Thumbnails, captions and playlist membership remain pending because
+the general API quota is exhausted. `videos.insert` has its own quota bucket:
+`bin/upload-africa-private.py` uses native youtube3 callbacks to pause immediately
+after upload, retaining the same queue, jobs and shared ledger. Never recreate
+the queue or reupload known IDs. See the runbook for finishing-stage recovery.
 
 For GeoClick work, read [docs/GEOCLICK.md](docs/GEOCLICK.md) before operating or
 recording the game. It contains the manual digest, controls, teaching workflow,

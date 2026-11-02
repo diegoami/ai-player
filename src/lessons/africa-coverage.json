@@ -99,7 +99,8 @@
         "Guinea",
         "Sierra Leone",
         "Liberia"
-      ]
+      ],
+      "youtubeVideoId": "s0vsG7yVHlY"
     },
     {
       "id": "sahel-gulf-guinea",
@@ -149,7 +150,8 @@
         "Togo",
         "Benin",
         "Nigeria"
-      ]
+      ],
+      "youtubeVideoId": "Xy_DXMAmwA0"
     },
     {
       "id": "central-africa",
@@ -200,7 +202,8 @@
         "Republic of the Congo",
         "Democratic Republic of the Congo",
         "São Tomé and Príncipe"
-      ]
+      ],
+      "youtubeVideoId": "hLO1bU245W0"
     },
     {
       "id": "nile-horn",
@@ -244,7 +247,8 @@
         "Djibouti",
         "Ethiopia",
         "Somalia"
-      ]
+      ],
+      "youtubeVideoId": "Y76NzmtwcmY"
     },
     {
       "id": "east-africa-great-lakes",
@@ -282,7 +286,8 @@
         "Rwanda",
         "Burundi",
         "Tanzania"
-      ]
+      ],
+      "youtubeVideoId": "b86GIVPIUwk"
     },
     {
       "id": "southern-africa",
@@ -340,7 +345,8 @@
         "South Africa",
         "Lesotho",
         "Eswatini"
-      ]
+      ],
+      "youtubeVideoId": "s8dLsVaWWHs"
     },
     {
       "id": "indian-ocean-islands",
@@ -375,19 +381,20 @@
         "Comoros",
         "Mauritius",
         "Seychelles"
-      ]
+      ],
+      "youtubeVideoId": "iFDob_qsXiE"
     }
   ],
   "coveredCountryCount": 54,
   "publishing": {
-    "status": "quota-blocked",
+    "status": "uploaded-private-finishing-deferred",
     "authorized": "Eight Africa uploads with captions and existing playlist; private batch visibility retained",
     "queue": "rendered/africa-eight-20261102/youtube-publishing/queue.json",
-    "uploadedCount": 1,
+    "uploadedCount": 8,
     "completedCount": 0,
-    "pendingUploadCount": 7,
+    "pendingUploadCount": 0,
     "blockedStage": "thumbnail",
     "lastError": "quotaExceeded",
-    "note": "No account calls after refusal. Resume native queue; never reupload known video."
+    "note": "All uploads accepted privately. First thumbnail exhausted the general API quota; other jobs paused immediately after upload. Captions, thumbnails and playlist membership remain pending. videos.insert has a separate quota bucket."
   }
 }

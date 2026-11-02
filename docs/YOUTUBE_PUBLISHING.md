@@ -45,7 +45,9 @@ the installed youtube3 launcher for SSH sessions, then delegates authentication
 entirely to `YoutubeClient`.
 
 `plan` and `verify` consume quota. Do not run them as repeated quota probes.
-After a quota refusal, stop all account calls. Once quota/access is known to
+After a quota refusal, stop calls against that exhausted bucket. Uploads use
+a separate bucket; the upload-only policy below can defer finishing stages.
+Once quota/access for finishing work is known to
 permit work, run `resume` once. No retry loop or scheduled task is installed.
 The workflow lock prevents concurrent invocations of the migrated entrypoint.
 
@@ -228,6 +230,33 @@ Use native status/checkpoints for progress and accepted caption IDs. Once all
 eight complete without a quota stop, batch-read the eight video descriptions/
 visibility and playlist membership/order. Preserve the existing playlist cover.
 No scheduled retry is installed.
+
+## Current Africa state: all eight uploaded privately
+
+The owner correctly pointed out that uploads can continue despite finishing
+quota exhaustion. Google's rules updated 15 October 2026 give `videos.insert`
+its own bucket (100 calls/day by default), separate from the 10,000-unit bucket
+for other endpoints. See [the official quota table](https://developers.google.com/youtube/data/determine_quota_cost).
+The earlier decision to stop all uploads after thumbnail quota was too broad.
+
+`bin/upload-africa-private.py` continues the existing native queue. It delegates
+all upload, duplicate protection, checkpoint and shared-ledger logic to installed
+youtube3 2.10.0. Native before/after-stage callbacks permit only uploads and
+request a durable pause immediately after each accepted ID is checkpointed.
+It skips existing IDs and stops on upload errors. No plan, job or ledger is
+replaced. No thumbnail/caption/publication/membership requests are attempted.
+
+All eight private uploads are accepted, in episode order:
+`pT0TDuGl2e4`, `s0vsG7yVHlY`, `Xy_DXMAmwA0`, `hLO1bU245W0`,
+`Y76NzmtwcmY`, `b86GIVPIUwk`, `s8dLsVaWWHs`, `iFDob_qsXiE`.
+All original eleven shared-ledger records are unchanged; it now has nineteen.
+`private-upload-run.json` records the seven newly accepted IDs. Local native
+jobs confirm successful uploads, pending captions and pending membership for
+all eight. First thumbnail is failed; the other seven thumbnails are pending.
+Remote readback is deferred along with other calls using the general bucket.
+
+The retry/resume commands above remain the recovery route for finishing work
+once general quota permits. Uploads will be skipped using their accepted IDs.
 
 ## Previous release attempt: 1 November 2026, 22:08 UTC
 

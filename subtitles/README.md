@@ -12,8 +12,8 @@ hashes. These are exact copies from the approved exports, including the refined
 Europe episodes 2 and 4 and Asia episode 1. Superseded exports and historical
 prototypes are excluded. Known video IDs do not establish visibility or whether
 YouTube has accepted captions. Asia remains prepared offline. Africa uploads
-are authorized: episode 1 has an accepted upload ID, with remaining publishing
-stages and seven uploads pending after a quota refusal. Follow the publishing
+are authorized: all eight have accepted upload IDs. Thumbnails, captions and playlist
+membership are pending after a general API quota refusal. Follow the publishing
 runbook and native queue for current progress.
 
 These text files travel with Git. Media and publishing checkpoints remain in

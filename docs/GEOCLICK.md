@@ -81,6 +81,13 @@ selection. Every native map target and all four supplemental countries were
 selected successfully. All Known-notice, Clear, eye-control, card-fit and
 sidebar non-overlap checks passed.
 
+Publishing update: after the initial thumbnail refusal, the owner clarified
+that uploads have a separate quota bucket. All eight Africa videos are now
+uploaded privately through the same native queue and shared ledger. Their IDs
+are in the production ledger and subtitle manifest. Thumbnails, captions and
+playlist membership remain pending against the exhausted general API bucket.
+See the publishing runbook's current Africa state and upload-only runner.
+
 Visual review inspected each export's first/middle/final/recap contact sheet
 and caption on/off previews, plus extracted frames for all four supplements
 and the Somaliland selection. Clean-master streams, audio decoding and peaks,
