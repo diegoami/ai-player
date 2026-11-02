@@ -372,6 +372,48 @@ Two things a point map needs:
   0.8° for Monaco, San Marino, Vaduz and Andorra la Vella) rather than
   written by hand.
 
+## Completed South America capitals edition: three capital lessons
+
+A sixth edition completes the capitals for South America, on GeoClick's native
+`south-america-capitals` map: a point map with 13 capital targets and full
+facts for every one of them. All 13 are demonstrated exactly once, by real
+clicks. Bolivia has two of them, La Paz and Sucre, and both are taught.
+
+`src/lessons/south-america-capitals-content.mjs` holds the researched narration
+and `src/lessons/south-america-capitals-coverage.json` is the independent
+ledger. The groups are teaching routes: the North and the Caribbean Coast; the
+Andes and the Gran Chaco; the South and Brasília.
+
+| Episode | Stops | Duration | Output under `rendered/south-america-capitals-20261102/` |
+|---|---:|---:|---|
+| The North and the Caribbean Coast | 5 | 4:07 | `01-north-and-the-caribbean-coast/geoclick/` |
+| The Andes and the Gran Chaco | 4 | 3:33 | `02-the-andes-and-the-gran-chaco/geoclick/` |
+| The South and Brasília | 4 | 3:37 | `03-the-south-and-brasilia/geoclick/` |
+
+Clean 1600×900 H.264/AAC masters have no burned-in narration captions; optional
+English SRT and top-positioned WebVTT are separate. Audio peaks range from
+-3.7 to -3.5 dB, with 24, 20 and 20 caption cues. The contact sheets and the
+caption-on/off previews of every episode were inspected. The collection ZIP is
+`rendered/south-america-capitals-20261102/all-three-south-america-capitals-videos.zip`.
+
+The owner authorised the upload on 2 November 2026, **unlisted**, with playlist
+seats in `PLNl_MybP55PE`, the playlist link in each description and its
+screenshot thumbnail; captions stay deferred. The three video IDs are
+`5oSNj262L9s`, `NpgKeTiG6lc` and `5VpzfSO_SWU`, and they are the last three
+members of the playlist, which now holds 48.
+
+Two checks worth keeping:
+
+- **A recap must not run ahead of its own lesson.** The first episode's recap
+  named Sucre, which is taught two episodes later, and was corrected before the
+  final recording rather than left for a viewer to puzzle over.
+- **Check every stated distance against the map.** The first draft called
+  Caracas and Lima "a few kilometres" from the sea: both are about a dozen
+  kilometres inland. Quito is a capital *on* the equator rather than on the
+  line, Asunción stands on the terrace above the river and not below the bluffs,
+  and Buenos Aires sits on the western bank. All of it was corrected and
+  re-recorded before anything was published.
+
 ## Completed Europe edition: six country lessons
 
 The user accepted the proposed six-video Europe route and requested producing

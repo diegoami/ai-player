@@ -201,19 +201,23 @@ Live state, confirmed by a fresh read after the last write:
   three South America videos that went out unlisted and were later made
   public at the owner's request. Each description carries the playlist link
   exactly once.
-- **Thirteen more videos are unlisted**, added at the end of the day: six
-  Europe capitals lessons and seven Asia capitals lessons. They are reachable
+- **Sixteen more videos are unlisted**, added at the end of the day: six
+  Europe capitals lessons, seven Asia capitals lessons and three South America
+  capitals lessons. They are reachable
   through the playlist but not pushed to the channel. See *Europe capitals:
-  uploaded unlisted* and *Asia capitals: uploaded unlisted* below.
-- **The playlist `PLNl_MybP55PE` is public** with all 45 members, in order:
+  uploaded unlisted*, *Asia capitals: uploaded unlisted* and *South America
+  capitals: uploaded unlisted* below.
+- **The playlist `PLNl_MybP55PE` is public** with all 48 members, in order:
   United States 1–5, Europe 1–6, Asia 1–7, Africa 1–8, North America 1–3,
-  South America 1–3, Europe capitals 1–6, Asia capitals 1–7. No duplicates and
+  South America 1–3, Europe capitals 1–6, Asia capitals 1–7, South America
+  capitals 1–3. No duplicates and
   no unrelated members. Title, description and the screenshot cover are
   unchanged.
 - **Captions are deferred, not installed.** Ten US and Europe videos keep the
-  captions they already had. Thirty-five videos have no caption track:
-  Europe 6, all seven Asia videos, all eight Africa videos and the twenty
-  North America, South America, Europe capitals and Asia capitals videos.
+  captions they already had. Thirty-eight videos have no caption track:
+  Europe 6, all seven Asia videos, all eight Africa videos and the twenty-three
+  North America, South America, Europe capitals, Asia capitals and South America
+  capitals videos.
 
 New artefacts, all ignored by Git:
 
@@ -456,6 +460,30 @@ screenshot thumbnail. Captions stay deferred.
 
 They are the last seven members of the playlist. The shared upload ledger now
 holds 45 records.
+
+## South America capitals: uploaded unlisted
+
+A sixth edition completes the capitals: South America's. The three lessons
+cover all 13 capital targets of GeoClick's native `south-america-capitals` map
+exactly once — the capitals of the twelve countries the map names, with
+Bolivia's two capitals, La Paz and Sucre, both taught — with clean masters and
+optional English SRT/WebVTT in `rendered/south-america-capitals-20261102/` and
+tracked caption backups in `subtitles/south-america-capitals/`.
+
+The owner authorised the upload on 2 November 2026, unlisted, with playlist
+seats in `PLNl_MybP55PE`, the playlist link in each description and its
+screenshot thumbnail. Captions stay deferred.
+
+| Episode | Video ID |
+|---|---|
+| The North and the Caribbean Coast | `5oSNj262L9s` |
+| The Andes and the Gran Chaco | `NpgKeTiG6lc` |
+| The South and Brasília | `5VpzfSO_SWU` |
+
+They are the last three members of the playlist. The shared upload ledger now
+holds 48 records, and a fresh read confirms the playlist is public with 48
+members, none missing and none duplicated, with the playlist link in every
+description.
 
 ## Africa state: uploaded privately, then published
 

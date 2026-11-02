@@ -13,10 +13,11 @@ errors; do not create a scheduled task.
 
 **All 32 GeoClick videos are published** (2 November 2026): US 5, Europe 6,
 Asia 7, Africa 8, North America 3 and South America 3 are public with the
-playlist link in every description. Thirteen more went out the same day as
+playlist link in every description. Sixteen more went out the same day as
 **unlisted** members at the end of the same public playlist: the Europe
-capitals and Asia capitals lessons. The playlist `PLNl_MybP55PE` is public
-with all 45 members in order. The owner postponed subtitles, so no caption
+capitals, Asia capitals and South America capitals lessons. The playlist
+`PLNl_MybP55PE` is public with all 48 members in order. The owner postponed
+subtitles, so no caption
 track was installed for Europe 6, the seven Asia videos, the eight Africa
 videos or the twenty North America, South America and capitals videos; the
 ten US and Europe captions already accepted remain. Add the deferred captions
@@ -88,6 +89,20 @@ and 4:03. Exact optional English SRT/WebVTT backups are in tracked
 `subtitles/south-america/`. The three videos are public in the same playlist
 as `m_s2tya9grM`, `-Wi_pE_Nwx0` and `_q2YJDRGgpg`, with their captions
 deferred.
+
+The completed South America capitals edition has **three capital lessons**,
+with John, interesting facts/location hooks and separate optional English
+captions. It uses GeoClick's native `south-america-capitals` point map, whose
+13 capital targets are all demonstrated once each: the capitals of the twelve
+countries the map names, with Bolivia's two capitals, La Paz and Sucre, both
+taught. Use `src/lessons/south-america-capitals-coverage.json` and
+`src/lessons/south-america-capitals-content.mjs`. Output:
+`rendered/south-america-capitals-20261102/`; the collection ZIP is
+`all-three-south-america-capitals-videos.zip`. Durations are 4:07, 3:33 and
+3:37. Exact optional English SRT/WebVTT backups are in tracked
+`subtitles/south-america-capitals/`. The three videos went out **unlisted**
+in the same playlist as `5oSNj262L9s`, `NpgKeTiG6lc` and `5VpzfSO_SWU`, with
+their captions deferred.
 
 The completed Europe capitals edition has **six capital lessons**, with John,
 interesting facts/location hooks and separate optional English captions. It
