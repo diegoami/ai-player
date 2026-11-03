@@ -4,27 +4,32 @@ For GeoClick YouTube publishing, read [docs/YOUTUBE_PUBLISHING.md](docs/YOUTUBE_
 Use `bin/geoclick-youtube.ps1` and installed youtube3 **2.10.0**. OAuth,
 uploads, captions and uncertain-write recovery belong to youtube3; do not
 reimplement them or modify its repository. The profile/channel/playlist,
-all 26 known video IDs and original queue locations are pinned in
+all 57 known video IDs and original queue locations are pinned in
 `config/geoclick-youtube.json`. Preserve all native checkpoints and the shared
 upload ledger. Never reupload known videos. The old operational scripts now
 delegate here; their originals are backed up. Stop calls using an exhausted quota bucket; private uploads have a separate
 quota bucket and may continue through the upload-only runner. Stop on upload quota
 errors; do not create a scheduled task.
 
-**All 32 GeoClick videos are published** (2 November 2026): US 5, Europe 6,
-Asia 7, Africa 8, North America 3 and South America 3 are public with the
-playlist link in every description. Twenty-one more went out the same day as
-**unlisted** members at the end of the same public playlist: the Europe
-capitals, Asia capitals, South America capitals and North America capitals
-lessons. The playlist `PLNl_MybP55PE` is public with all 53 members in order.
+**All 57 GeoClick videos are published.** Thirty-two are public (2 November
+2026): US 5, Europe 6, Asia 7, Africa 8, North America 3 and South America 3,
+each with the playlist link in every description. Twenty-one more went out the
+same day as **unlisted** members at the end of the same public playlist: the
+Europe capitals, Asia capitals, South America capitals and North America
+capitals lessons. Four more, the Oceania capitals lessons, went out unlisted
+on 3 November 2026. The playlist `PLNl_MybP55PE` is public with all 57
+members in order, confirmed by a fresh read on 3 November 2026: none
+missing, none duplicated, the playlist link in every description.
 The owner postponed
 subtitles, so no caption
 track was installed for Europe 6, the seven Asia videos, the eight Africa
-videos or the twenty North America, South America and capitals videos; the
-ten US and Europe captions already accepted remain. Add the deferred captions
-later per video with youtube3's own caption upload. **Do not resume the Africa
-or Europe 6 native queues**: their queued publication target is still private
-or unlisted and would un-publish those videos.
+videos, the twenty North America, South America and capitals videos or the
+four Oceania capitals videos; the ten US and Europe captions already
+accepted remain. Add the deferred captions later per video with
+`bin/install-captions.py`, which uses youtube3's own caption upload, keeps a
+ledger of accepted caption IDs and stops on a quota refusal. **Do not resume
+the Africa or Europe 6 native queues**: their queued publication target is
+still private or unlisted and would un-publish those videos.
 
 The completed Africa edition has **eight regional lessons** with John.
 Use `src/lessons/africa-coverage.json`: 54 countries once each, plus Western
@@ -100,11 +105,11 @@ Zealand. Use `src/lessons/oceania-capitals-coverage.json` and
 `rendered/oceania-capitals-20261102/`; the collection ZIP is
 `all-four-oceania-capitals-videos.zip`. Durations are 2:33, 2:00, 2:29 and
 2:39. Exact optional English SRT/WebVTT backups are in tracked
-`subtitles/oceania-capitals/`. **It is produced but not uploaded**: the general
-quota bucket was exhausted by the earlier releases, so the runbook's rule to
-stop on a quota error applies. The batch is prepared under
-`rendered/oceania-capitals-20261102/youtube-publishing/` and still needs the
-owner's visibility choice; nothing may be re-uploaded after it goes out.
+`subtitles/oceania-capitals/`. The owner authorized the upload on
+3 November 2026: the four videos went out **unlisted** in the same playlist as
+`XmFxYzfASDo`, `bKY4cwBbMMk`, `7ph0YuAWbVs` and `d39c1RJeC4Y`, with their
+screenshot thumbnails and the playlist link; their captions are deferred.
+Nothing may be re-uploaded after it goes out.
 
 The completed South America edition has **three country lessons**, with John,
 interesting facts/location hooks and separate optional English captions. It

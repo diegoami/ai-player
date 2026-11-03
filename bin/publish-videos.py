@@ -132,7 +132,11 @@ def queued_targets(video_ids):
 
 
 def read_videos(client, config, ids):
-    videos = client.youtube.videos().list(part='snippet,status', id=','.join(ids)).execute(num_retries=0).get('items', [])
+    """The videos' own snippet and status. The API accepts at most 50 IDs per call."""
+    videos = []
+    for start in range(0, len(ids), 50):
+        chunk = ids[start:start + 50]
+        videos.extend(client.youtube.videos().list(part='snippet,status', id=','.join(chunk)).execute(num_retries=0).get('items', []))
     if {v['id'] for v in videos} != set(ids):
         raise ValueError('Video count mismatch')
     for video in videos:

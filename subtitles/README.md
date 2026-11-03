@@ -15,19 +15,22 @@ path, known YouTube video ID, original subtitle paths, byte sizes and SHA-256
 hashes. These are exact copies from the approved exports, including the refined
 Europe episodes 2 and 4 and Asia episode 1. Superseded exports and historical
 prototypes are excluded. Known video IDs do not establish whether YouTube has
-accepted a caption. All 26 videos were published on 2 November 2026 with
-subtitles deliberately postponed: ten US and Europe videos keep the captions
-they already had, and sixteen have none yet. Add the deferred captions later,
-per video, with installed youtube3's own caption upload; the runbook lists the
-video IDs and warns against resuming the native Africa and Europe 6 queues.
+accepted a caption. All 57 videos were published with subtitles deliberately
+postponed: ten US and Europe videos keep the captions they already had, and
+the other 47 have none yet. Add the deferred captions later, per video, with
+installed youtube3's own caption upload; the runbook lists the video IDs and
+warns against resuming the native Africa and Europe 6 queues.
+`bin/install-captions.py` does that work and keeps its own ledger of
+accepted caption IDs; each insert costs 400 quota units, so the run is paced
+across the daily resets.
 The three North America episodes were uploaded unlisted on 2 November 2026
 and their video IDs are recorded here; their captions are deferred too. The
 three South America episodes went out the same way, unlisted, with their video
 IDs recorded here. The six Europe capitals episodes and the seven Asia
 capitals episodes went out unlisted too, with their video IDs recorded here,
 and the three South America capitals episodes and five North America capitals
-episodes followed them, also unlisted. The four Oceania capitals episodes are
-produced and backed up here but not yet uploaded, so they have no video IDs.
+episodes followed them, also unlisted. The four Oceania capitals episodes went
+out unlisted on 3 November 2026, with their video IDs recorded here too.
 
 These text files travel with Git. Media and publishing checkpoints remain in
 ignored `rendered/` folders and must be backed up separately. Keep original

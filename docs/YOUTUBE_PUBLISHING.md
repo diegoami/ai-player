@@ -10,11 +10,14 @@ playlist [`PLNl_MybP55PE`](https://www.youtube.com/playlist?list=PLNl_MybP55PE),
 **Learning Geography with Geoclick**. Policy and known IDs are in
 [config/geoclick-youtube.json](../config/geoclick-youtube.json).
 
-**Current state: all 26 videos are public and the playlist is public.** The
+**Current state: 57 videos are published and the playlist is public.** Thirty-two
+are public and twenty-five are unlisted, all reachable through the public
+playlist `PLNl_MybP55PE`, which has all 57 of them in order. The last release
+was the four Oceania capitals lessons on 3 November 2026, unlisted. The first
 release happened on 2 November 2026 with subtitles deliberately postponed; see
 *Published release: 2 November 2026* below. The older sections are kept as the
 history of how the eleven US and Europe videos and the eight Africa uploads
-got there.
+got there. Captions remain deferred on 47 of the 57 videos.
 
 ## Commands from ai-player
 
@@ -99,9 +102,8 @@ Versioned English subtitle backups for all 57 current episodes — US, Europe,
 Asia, Africa, North America, South America and the four capitals editions —
 are in [subtitles/](../subtitles/README.md). Its manifest maps exact caption
 bytes to canonical masters and known YouTube IDs. These backups do not replace
-the original queue caption inputs or checkpoints. Every one of these series has
-since been uploaded except the Oceania capitals edition, which is produced and
-waiting for the quota reset; the captions remain deferred throughout.
+the original queue caption inputs or checkpoints. Every one of these series is
+now uploaded; the captions remain deferred throughout.
 
 These remain the original operational authorities; do not move or regenerate them:
 
@@ -271,7 +273,10 @@ in those jobs at all.
 
 Captions are optional tracks, not part of publication. When the owner decides
 to add them, use installed youtube3's own per-video caption upload for each of
-the sixteen videos below, one at a time, and stop on any quota refusal:
+the 47 videos below, one at a time, and stop on any quota refusal.
+`bin/install-captions.py` does exactly this and keeps its own ledger of
+accepted caption IDs; see *Deferred captions: the installer and the quota
+arithmetic* above.
 
 | Series | Video IDs without a caption track |
 |---|---|
@@ -282,6 +287,9 @@ the sixteen videos below, one at a time, and stop on any quota refusal:
 | South America | `m_s2tya9grM`, `-Wi_pE_Nwx0`, `_q2YJDRGgpg` |
 | Europe capitals | `L_fCNufSRMM`, `mZ6S5pXin7E`, `dmuhY0J50I0`, `2GOYTfxBX4A`, `ZHbvY3GAGwg`, `285b_NcXI5Y` |
 | Asia capitals | `zSO15iqpqjQ`, `eZjfTqr5gLU`, `JgDnVRBCXck`, `JkfAdRz4VKk`, `xi7PSSQea20`, `jqr0M9ifQJY`, `guDkbWfob2w` |
+| South America capitals | `5oSNj262L9s`, `NpgKeTiG6lc`, `5VpzfSO_SWU` |
+| North America capitals | `JDlnPz-Rsl4`, `-5npYYzoZ3I`, `JAi68d3yfrA`, `lNI6UGU06ys`, `m9A2bJ8kt0M` |
+| Oceania capitals | `XmFxYzfASDo`, `bKY4cwBbMMk`, `7ph0YuAWbVs`, `d39c1RJeC4Y` |
 
 The exact approved English SRT/WebVTT bytes are backed up in
 [subtitles/](../subtitles/README.md) and mapped to those video IDs in
@@ -538,22 +546,90 @@ three South America capitals videos, showed the playlist public with 48
 members, none missing, none duplicated and the playlist link in every
 description; this series was uploaded by the same flow with the same seats.
 
-## Prepared and waiting: Oceania capitals
+## Oceania capitals: uploaded unlisted
 
 The eighth edition, Oceania capitals, is produced, reviewed and packaged, with
 clean masters in `rendered/oceania-capitals-20261102/`, optional English
 SRT/WebVTT in tracked `subtitles/oceania-capitals/` and the offline batch
 prepared under `rendered/oceania-capitals-20261102/youtube-publishing/`.
 
-It is **not uploaded**. The general quota bucket was exhausted by the releases
-above, and the runbook's rule is to stop on a quota error rather than work
-around it. The bucket resets at midnight Pacific; the upload then needs the
-owner's visibility choice, and the same rule as always applies afterwards:
-never reupload a known video ID.
+The offline batch is genuinely there: `prepare --series oceania-capitals`
+wrote `batch.json`, `offline-manifest.json` and four screenshot thumbnails on
+3 November 2026. An earlier version of this runbook said the batch was
+prepared; the folder did not exist until that command ran, so do not trust
+that sentence without checking the folder.
 
-While that waits, the one live check still outstanding is a fresh read of the
-five North America capitals videos, to replace the queue's own record with an
-independent confirmation.
+The owner chose **unlisted** visibility and authorized the upload to the same
+playlist on 3 November 2026. It went out through the same native flow as the
+other seven series — the caption-free derived batch, youtube3's own plan,
+queue and checkpoints, and the same shared per-channel upload ledger — with
+screenshot thumbnails, the playlist link in every description and a playlist
+seat each. Captions stay deferred like every other series.
+
+| Episode | Video ID |
+|---|---|
+| Palau, Pohnpei and the Marshalls | `XmFxYzfASDo` |
+| Kiribati and Tuvalu | `bKY4cwBbMMk` |
+| The Melanesian capitals | `7ph0YuAWbVs` |
+| Fiji, Australia and New Zealand | `d39c1RJeC4Y` |
+
+The command was blocked twice by the harness's publication gate, which wants
+the owner to review it outside auto mode rather than have the agent talk its
+way past it. That review is the owner's to give; the command must not be
+reworded to slip past it. Never reupload a known video ID.
+
+## Fresh read-back: 3 November 2026
+
+The one live check outstanding since the North America capitals upload — an
+independent read of those five videos — is now done, and it confirms the whole
+release rather than only those five.
+
+`bin/publish-videos.py --step verify` read the channel and the playlist in one
+pass. After the Oceania upload the playlist `PLNl_MybP55PE` is **public** with
+**57 members**, none missing, none duplicated, and the playlist link is present
+in every one of the 57 descriptions. Thirty-two videos are public and
+twenty-five are unlisted — the four capitals editions and Oceania. The step's
+own `complete` flag reads false because it assumes every video is public;
+that does not describe a fault.
+
+That step failed with HTTP 400 on its first run because it asked
+`videos.list` for all 53 IDs at once. The API accepts at most 50 IDs per
+call, so `read_videos` in `bin/publish-videos.py` now asks in chunks of 50.
+Any read that outgrows a page needs the same treatment.
+
+## Deferred captions: the installer and the quota arithmetic
+
+The 43 videos without a caption track now have a dedicated tool.
+`bin/install-captions.py` owns scope, order and a local ledger of accepted
+caption IDs; installed youtube3 2.10.0 owns every account write through its
+own caption plan and per-video upload. The tool never reads or rewrites a
+native checkpoint or queue, and it never touches visibility, descriptions,
+thumbnails or playlist seats.
+
+```powershell
+# Offline: list the pending tracks and check their bytes. No account calls.
+& $py -I bin/install-captions.py --dry-run
+
+# Account writes: install the pending English tracks, one video at a time.
+& $py -I bin/install-captions.py
+```
+
+The tracks are the exact approved SRT bytes tracked in `subtitles/`, checked
+against the SHA-256 values in `subtitles/manifest.json` before anything is
+sent, and validated with youtube3's own `captions.check_caption`. The order
+is playlist order: Europe 6, the seven Asia, the eight Africa, the three
+North America, the three South America, then the four capitals editions. A
+run that hits a quota refusal stops on the spot and records where it stopped;
+the next run continues from there. An uncertain write is inspected with
+`captions.list` rather than retried blindly.
+
+**A caption insert costs 400 quota units**, plus a `captions.list` and an
+ownership lookup. The general bucket holds 10,000 units a day and resets at
+midnight Pacific, so the 47 tracks need roughly 21,000 units: at least three
+days, and the run stops at whatever the day's bucket allows. On 3 November 2026
+the owner chose to hold the captions and keep the day's quota for the release
+work, so no caption has been installed beyond the ten the US and Europe videos
+already had.
 
 ## Africa state: uploaded privately, then published
 
