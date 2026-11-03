@@ -1,0 +1,571 @@
+{
+  "title": "Africa capitals three of six · The Sahel interior and the Gulf states",
+  "edition": "Africa capitals · Six regional lessons · John · November 2026",
+  "mapId": "africa-capitals",
+  "area": "Africa",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/africa-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -10,
+      -1
+    ],
+    [
+      17,
+      15
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Porto-Novo",
+      "location": [
+        2.6166255,
+        6.483311
+      ],
+      "bounds": [
+        [
+          1.9,
+          5.8
+        ],
+        [
+          3.4,
+          7.1
+        ]
+      ]
+    },
+    {
+      "name": "Abuja",
+      "location": [
+        7.489505042885861,
+        9.054620406360845
+      ],
+      "bounds": [
+        [
+          6.1,
+          7.6
+        ],
+        [
+          8.9,
+          10.5
+        ]
+      ]
+    },
+    {
+      "name": "Niamey",
+      "location": [
+        2.1147102,
+        13.5186518
+      ],
+      "bounds": [
+        [
+          0.7,
+          12
+        ],
+        [
+          3.6,
+          15
+        ]
+      ]
+    },
+    {
+      "name": "Ouagadougou",
+      "location": [
+        -1.5266696,
+        12.3722618
+      ],
+      "bounds": [
+        [
+          -3,
+          10.9
+        ],
+        [
+          -0.1,
+          13.9
+        ]
+      ]
+    },
+    {
+      "name": "Bamako",
+      "location": [
+        -8.001985,
+        12.6519605
+      ],
+      "bounds": [
+        [
+          -9.5,
+          11.2
+        ],
+        [
+          -6.5,
+          14
+        ]
+      ]
+    },
+    {
+      "name": "N'Djamena",
+      "location": [
+        15.0472025,
+        12.1150424
+      ],
+      "bounds": [
+        [
+          13.5,
+          10.5
+        ],
+        [
+          16.6,
+          13.7
+        ]
+      ]
+    },
+    {
+      "name": "Yaoundé",
+      "location": [
+        11.5147049,
+        3.8686465
+      ],
+      "bounds": [
+        [
+          10.1,
+          2.4
+        ],
+        [
+          13,
+          5.3
+        ]
+      ]
+    },
+    {
+      "name": "Malabo",
+      "location": [
+        8.7832775,
+        3.7500153
+      ],
+      "bounds": [
+        [
+          7.4,
+          1
+        ],
+        [
+          9.7,
+          4.6
+        ]
+      ]
+    },
+    {
+      "name": "Libreville",
+      "location": [
+        9.457965,
+        0.3853886
+      ],
+      "bounds": [
+        [
+          8.1,
+          -1.5
+        ],
+        [
+          10.8,
+          2.1
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Africa capitals, episode three of six. First, I clear the chosen names for a fresh regional lesson.",
+    "This episode runs inland from the Gulf of Guinea across the Sahel, and then out again to the island and the equatorial coast."
+  ],
+  "states": [
+    {
+      "name": "Porto-Novo",
+      "location": [
+        2.6166255,
+        6.483311
+      ],
+      "lines": [
+        "Porto-Novo stands on the lagoon side of Benin, a few kilometres from Cotonou, the country’s seat of government and largest port.",
+        "It was the royal capital of the precolonial Kingdom of Porto-Novo, and the palace of its king survives beside the lagoon.",
+        "Remember the old royal capital of Dahomey, kept beside the working port of Cotonou."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Porto-Novo",
+        "https://whc.unesco.org/en/list/323/"
+      ],
+      "cameraBounds": [
+        [
+          1.9,
+          5.8
+        ],
+        [
+          3.4,
+          7.1
+        ]
+      ],
+      "transition": "Let's bring Porto-Novo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              1.9,
+              5.8
+            ],
+            [
+              3.4,
+              7.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abuja",
+      "location": [
+        7.489505042885861,
+        9.054620406360845
+      ],
+      "lines": [
+        "Abuja stands in central Nigeria, inland from the Gulf of Guinea coast, north of the Niger Delta.",
+        "It became the capital in 1991, chosen because it belonged to no single region; the Aso Rock rises behind the city and a great mosque dome stands on the skyline.",
+        "Remember the planned capital on the rock, chosen precisely because it belonged to nobody’s region."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abuja",
+        "https://en.wikipedia.org/wiki/Aso_Rock"
+      ],
+      "cameraBounds": [
+        [
+          6.1,
+          7.6
+        ],
+        [
+          8.9,
+          10.5
+        ]
+      ],
+      "transition": "Let's bring Abuja into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.1,
+              7.6
+            ],
+            [
+              8.9,
+              10.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Niamey",
+      "location": [
+        2.1147102,
+        13.5186518
+      ],
+      "lines": [
+        "Niamey stands on the Niger River, in the south-west of Niger, where the country reaches its river.",
+        "Its national museum shows the dinosaur skeletons found in the desert of the Ténéré, and the city was a village on the river before the French made it the capital in 1926.",
+        "Remember the capital on the Niger River, west of the gold country and below the Sahara."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Niamey",
+        "https://en.wikipedia.org/wiki/Grand_Mosquee_of_Niamey"
+      ],
+      "cameraBounds": [
+        [
+          0.7,
+          12
+        ],
+        [
+          3.6,
+          15
+        ]
+      ],
+      "transition": "Let's bring Niamey into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              0.7,
+              12
+            ],
+            [
+              3.6,
+              15
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ouagadougou",
+      "location": [
+        -1.5266696,
+        12.3722618
+      ],
+      "lines": [
+        "Ouagadougou stands in the centre of Burkina Faso, the landlocked country north of Ghana.",
+        "The name means “where people are given honour”, and the city grew as a royal capital of the Mossi kingdoms; the monument to the heroes still stands beside the central square.",
+        "Remember the kings’ capital in the middle of Burkina Faso, with the heroes’ statue beside the square."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ouagadougou",
+        "https://en.wikipedia.org/wiki/Mossi_people"
+      ],
+      "cameraBounds": [
+        [
+          -3,
+          10.9
+        ],
+        [
+          -0.1,
+          13.9
+        ]
+      ],
+      "transition": "Let's bring Ouagadougou into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -3,
+              10.9
+            ],
+            [
+              -0.1,
+              13.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bamako",
+      "location": [
+        -8.001985,
+        12.6519605
+      ],
+      "lines": [
+        "Bamako stands on the Niger River, in the southwest of Mali, below the Sahara and above the coastal countries.",
+        "The old city above the river keeps the necropolis of the Askia dynasty, and the tomb of Askia Mohammed there is a UNESCO World Heritage site.",
+        "Remember the riverside capital with the Askia king’s tomb above the old town."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bamako",
+        "https://whc.unesco.org/en/list/119/"
+      ],
+      "cameraBounds": [
+        [
+          -9.5,
+          11.2
+        ],
+        [
+          -6.5,
+          14
+        ]
+      ],
+      "transition": "Let's bring Bamako into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -9.5,
+              11.2
+            ],
+            [
+              -6.5,
+              14
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "N'Djamena",
+      "location": [
+        15.0472025,
+        12.1150424
+      ],
+      "lines": [
+        "N'Djamena stands where the Logone flows into the Chari, in the south of Chad, facing Cameroon across the water, between Libya and the Central African Republic.",
+        "It was called Fort-Lamy until 1973, and its new name is Arabic for “the place of rest”; it began as a village of fishing weavers.",
+        "Remember the resting place by the Chari, the capital of the tall inland country below Libya."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/N'Djamena",
+        "https://en.wikipedia.org/wiki/Chad"
+      ],
+      "cameraBounds": [
+        [
+          13.5,
+          10.5
+        ],
+        [
+          16.6,
+          13.7
+        ]
+      ],
+      "transition": "Let's bring N'Djamena into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              13.5,
+              10.5
+            ],
+            [
+              16.6,
+              13.7
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yaoundé",
+      "location": [
+        11.5147049,
+        3.8686465
+      ],
+      "lines": [
+        "Yaoundé stands in the forested hills inland from the Gulf of Guinea, in the south of Cameroon.",
+        "A spiral monument in the city celebrates the reunification of French and British Cameroon in 1961, and the national museum holds the country’s forest and wildlife exhibits.",
+        "Remember the forest capital of Cameroon, with the two-halves monument in the town."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yaoundé",
+        "https://en.wikipedia.org/wiki/Reunification_Monument"
+      ],
+      "cameraBounds": [
+        [
+          10.1,
+          2.4
+        ],
+        [
+          13,
+          5.3
+        ]
+      ],
+      "transition": "Let's bring Yaoundé into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.1,
+              2.4
+            ],
+            [
+              13,
+              5.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Malabo",
+      "location": [
+        8.7832775,
+        3.7500153
+      ],
+      "lines": [
+        "Malabo stands on Bioko island in the Gulf of Guinea, in the small country of Equatorial Guinea, with the mainland strip across the water to the east.",
+        "Its bay is a flooded volcanic crater, and behind the town rises Pico Basilé on an island that sits only a few degrees north of the equator.",
+        "Remember the island capital, across the water from its own mainland strip, under a volcano."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Malabo",
+        "https://en.wikipedia.org/wiki/Pico_Basilé"
+      ],
+      "cameraBounds": [
+        [
+          7.4,
+          1
+        ],
+        [
+          9.7,
+          4.6
+        ]
+      ],
+      "transition": "Let's bring Malabo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.4,
+              1
+            ],
+            [
+              9.7,
+              4.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Libreville",
+      "location": [
+        9.457965,
+        0.3853886
+      ],
+      "lines": [
+        "Libreville stands on the estuary of the Ogooué River, on the equatorial Atlantic coast of Gabon.",
+        "It was founded in 1849 for Africans freed from a captured slave ship, and its name is the French word for liberty.",
+        "Remember “liberty” at the mouth of the Ogooué, on the Atlantic just below the equator."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libreville",
+        "https://en.wikipedia.org/wiki/Gabon"
+      ],
+      "cameraBounds": [
+        [
+          8.1,
+          -1.5
+        ],
+        [
+          10.8,
+          2.1
+        ]
+      ],
+      "transition": "Let's bring Libreville into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.1,
+              -1.5
+            ],
+            [
+              10.8,
+              2.1
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -10,
+          -1
+        ],
+        [
+          17,
+          15
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Porto-Novo keeps the old royal capital of Dahomey, Abuja sits on its rock in the middle of Nigeria, Niamey on the Niger River, Ouagadougou in the middle of Burkina Faso and Bamako on the river below it.",
+    "Remember the resting place by the Chari at N'Djamena, the forest capital with the reunification monument at Yaoundé, the island capital under a volcano at Malabo, and “liberty” at the Ogooué mouth in Libreville."
+  ]
+}

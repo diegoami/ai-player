@@ -1,0 +1,629 @@
+{
+  "title": "Africa capitals six of six · Southern Africa and the Indian Ocean islands",
+  "edition": "Africa capitals · Six regional lessons · John · November 2026",
+  "mapId": "africa-capitals",
+  "area": "Africa",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/africa-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      4,
+      -35
+    ],
+    [
+      49,
+      2
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Windhoek",
+      "location": [
+        17.0835461,
+        -22.5700061
+      ],
+      "bounds": [
+        [
+          15.6,
+          -24.3
+        ],
+        [
+          18.6,
+          -20.8
+        ]
+      ]
+    },
+    {
+      "name": "Gaborone",
+      "location": [
+        25.9119478,
+        -24.6463135
+      ],
+      "bounds": [
+        [
+          24.4,
+          -26.4
+        ],
+        [
+          27.4,
+          -22.9
+        ]
+      ]
+    },
+    {
+      "name": "Pretoria",
+      "location": [
+        28.2274832,
+        -25.7049747
+      ],
+      "bounds": [
+        [
+          26.7,
+          -27.4
+        ],
+        [
+          29.7,
+          -24
+        ]
+      ]
+    },
+    {
+      "name": "Bloemfontein",
+      "location": [
+        26.2299129,
+        -29.1199939
+      ],
+      "bounds": [
+        [
+          24.7,
+          -30.9
+        ],
+        [
+          27.7,
+          -27.3
+        ]
+      ]
+    },
+    {
+      "name": "Cape Town",
+      "location": [
+        18.4330423,
+        -33.9180651
+      ],
+      "bounds": [
+        [
+          16.9,
+          -35.6
+        ],
+        [
+          20,
+          -32.2
+        ]
+      ]
+    },
+    {
+      "name": "Mbabane",
+      "location": [
+        31.1333345,
+        -26.3166508
+      ],
+      "bounds": [
+        [
+          29.6,
+          -27.9
+        ],
+        [
+          32.7,
+          -24.6
+        ]
+      ]
+    },
+    {
+      "name": "Maseru",
+      "location": [
+        27.4832731,
+        -29.3166744
+      ],
+      "bounds": [
+        [
+          25.9,
+          -31.1
+        ],
+        [
+          29.1,
+          -27.5
+        ]
+      ]
+    },
+    {
+      "name": "Antananarivo",
+      "location": [
+        47.514678,
+        -18.9146915
+      ],
+      "bounds": [
+        [
+          45.9,
+          -20.7
+        ],
+        [
+          49.2,
+          -17.1
+        ]
+      ]
+    },
+    {
+      "name": "Moroni",
+      "location": [
+        43.2402441,
+        -11.7041577
+      ],
+      "bounds": [
+        [
+          41.8,
+          -13.4
+        ],
+        [
+          44.7,
+          -10
+        ]
+      ]
+    },
+    {
+      "name": "São Tomé",
+      "location": [
+        6.729649806269851,
+        0.337466406982624
+      ],
+      "bounds": [
+        [
+          5.3,
+          -1.4
+        ],
+        [
+          8.2,
+          2.1
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Africa capitals, episode six of six. First, I clear the chosen names for a fresh regional lesson.",
+    "The last episode closes the series in the far south, with the three South African capitals, the two small inland countries, and the islands of the western Indian Ocean."
+  ],
+  "states": [
+    {
+      "name": "Windhoek",
+      "location": [
+        17.0835461,
+        -22.5700061
+      ],
+      "lines": [
+        "Windhoek stands in a highland basin in the middle of Namibia, with the Namib Desert to the west and the Atlantic beyond it.",
+        "Its name is usually read as Afrikaans for “windy corner”, though other readings exist, and it lies on a plateau at about 1,650 metres, well inland from the cold Atlantic coast.",
+        "Remember the “windy corner” on its plateau, with the desert and the cold sea to its west."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Windhoek",
+        "https://whc.unesco.org/en/list/1430/"
+      ],
+      "cameraBounds": [
+        [
+          15.6,
+          -24.3
+        ],
+        [
+          18.6,
+          -20.8
+        ]
+      ],
+      "transition": "Let's bring Windhoek into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.6,
+              -24.3
+            ],
+            [
+              18.6,
+              -20.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gaborone",
+      "location": [
+        25.9119478,
+        -24.6463135
+      ],
+      "lines": [
+        "Gaborone stands in southeastern Botswana, the landlocked country between Namibia, Zimbabwe and South Africa.",
+        "It was a small village when it was built as the capital just before independence in 1966, chosen so that the seat of government would lie inside the country instead of across the border in South Africa.",
+        "Remember the capital chosen because it was the one place inside the country that was not on its border."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gaborone",
+        "https://en.wikipedia.org/wiki/Gaborone"
+      ],
+      "cameraBounds": [
+        [
+          24.4,
+          -26.4
+        ],
+        [
+          27.4,
+          -22.9
+        ]
+      ],
+      "transition": "Let's bring Gaborone into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.4,
+              -26.4
+            ],
+            [
+              27.4,
+              -22.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pretoria",
+      "location": [
+        28.2274832,
+        -25.7049747
+      ],
+      "lines": [
+        "Pretoria stands in the interior of South Africa, north of Johannesburg, in the Gauteng highveld.",
+        "It is the country’s administrative capital, and the Union Buildings behind it were where Nelson Mandela was inaugurated as president in 1994.",
+        "Remember the administrative capital and the Union Buildings where Mandela was inaugurated."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pretoria",
+        "https://en.wikipedia.org/wiki/Union_Buildings"
+      ],
+      "cameraBounds": [
+        [
+          26.7,
+          -27.4
+        ],
+        [
+          29.7,
+          -24
+        ]
+      ],
+      "transition": "Let's bring Pretoria into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.7,
+              -27.4
+            ],
+            [
+              29.7,
+              -24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bloemfontein",
+      "location": [
+        26.2299129,
+        -29.1199939
+      ],
+      "lines": [
+        "Bloemfontein stands in the centre of South Africa, and it is the country’s judicial capital.",
+        "The country’s Supreme Court of Appeal sits here, and the National Women’s Memorial records the Afrikaner families who took refuge in the city during the Boer War.",
+        "Remember the judicial capital whose name means fountain of flowers, where Tolkien was born in 1892."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bloemfontein",
+        "https://en.wikipedia.org/wiki/National_Women's_Memorial"
+      ],
+      "cameraBounds": [
+        [
+          24.7,
+          -30.9
+        ],
+        [
+          27.7,
+          -27.3
+        ]
+      ],
+      "transition": "Let's bring Bloemfontein into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.7,
+              -30.9
+            ],
+            [
+              27.7,
+              -27.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cape Town",
+      "location": [
+        18.4330423,
+        -33.9180651
+      ],
+      "lines": [
+        "Cape Town stands on the Atlantic coast at the south-western corner of Africa, with Table Mountain rising directly behind it.",
+        "It is South Africa’s legislative capital and the seat of the national Parliament, and the mountain behind it is one of the oldest on the continent.",
+        "Remember the legislative capital under Table Mountain, at the far south-western corner."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cape_Town",
+        "https://whc.unesco.org/en/list/1007/"
+      ],
+      "cameraBounds": [
+        [
+          16.9,
+          -35.6
+        ],
+        [
+          20,
+          -32.2
+        ]
+      ],
+      "transition": "Let's bring Cape Town into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              16.9,
+              -35.6
+            ],
+            [
+              20,
+              -32.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mbabane",
+      "location": [
+        31.1333345,
+        -26.3166508
+      ],
+      "lines": [
+        "Mbabane stands in the western highveld of Eswatini, the small country the map labels eSwatini, between South Africa and Mozambique.",
+        "The country took the name eSwatini in 2018, and the capital stands in its own western uplands, with the royal centre at Lobamba to the west.",
+        "Remember the highveld capital of eSwatini, the renamed country the map labels for you."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mbabane",
+        "https://www.un.org/en/about-us/member-states/eswatini"
+      ],
+      "cameraBounds": [
+        [
+          29.6,
+          -27.9
+        ],
+        [
+          32.7,
+          -24.6
+        ]
+      ],
+      "transition": "Let's bring Mbabane into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              29.6,
+              -27.9
+            ],
+            [
+              32.7,
+              -24.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maseru",
+      "location": [
+        27.4832731,
+        -29.3166744
+      ],
+      "lines": [
+        "Maseru stands on the Caledon River, in the west of Lesotho, the country entirely surrounded by South Africa.",
+        "Lesotho is the only country in the world with no border to any other country except one, and its capital is the gateway from the South African plateau into the mountains.",
+        "Remember the only country completely inside another one, with its capital on the Caledon River."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maseru",
+        "https://whc.unesco.org/en/list/985/"
+      ],
+      "cameraBounds": [
+        [
+          25.9,
+          -31.1
+        ],
+        [
+          29.1,
+          -27.5
+        ]
+      ],
+      "transition": "Let's bring Maseru into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.9,
+              -31.1
+            ],
+            [
+              29.1,
+              -27.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Antananarivo",
+      "location": [
+        47.514678,
+        -18.9146915
+      ],
+      "lines": [
+        "Antananarivo stands in the highlands of Madagascar, on the central plateau above the rice paddies, with the Indian Ocean far to the east.",
+        "Its name is read as “city of the thousand”, for the thousand soldiers said to have guarded it, and the Rova, the palace of its kings and queens, stands on its highest hill.",
+        "Remember the city of a thousand on the hills of Madagascar, with the kings’ palace on the highest of them."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Antananarivo",
+        "https://whc.unesco.org/en/list/1257/"
+      ],
+      "cameraBounds": [
+        [
+          45.9,
+          -20.7
+        ],
+        [
+          49.2,
+          -17.1
+        ]
+      ],
+      "transition": "Let's bring Antananarivo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              45.9,
+              -20.7
+            ],
+            [
+              49.2,
+              -17.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moroni",
+      "location": [
+        43.2402441,
+        -11.7041577
+      ],
+      "lines": [
+        "Moroni stands on Grande Comore, the largest island of the Comoros, in the Mozambique Channel between Mozambique and Madagascar.",
+        "It stands at the foot of the Karthala, one of the world’s largest active volcanoes, which fills about half of the island.",
+        "Remember the capital beside a volcano that fills half its island, north of Madagascar."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Moroni",
+        "https://volcano.si.edu/volcano.cfm?vn=233010"
+      ],
+      "cameraBounds": [
+        [
+          41.8,
+          -13.4
+        ],
+        [
+          44.7,
+          -10
+        ]
+      ],
+      "transition": "Let's bring Moroni into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              41.8,
+              -13.4
+            ],
+            [
+              44.7,
+              -10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "São Tomé",
+      "location": [
+        6.729649806269851,
+        0.337466406982624
+      ],
+      "lines": [
+        "São Tomé stands on the island of the same name, on the equator in the Gulf of Guinea, off the coast of Gabon.",
+        "The fort of São Sebastião, of 1575, now serves as the national museum, and early in the twentieth century these islands were the largest cocoa producer in the world.",
+        "Remember the equatorial island capital in the Gulf of Guinea, whose cocoa islands once led the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/São_Tomé",
+        "https://www.unesco.org/en/mab/island-principe"
+      ],
+      "cameraBounds": [
+        [
+          5.3,
+          -1.4
+        ],
+        [
+          8.2,
+          2.1
+        ]
+      ],
+      "transition": "Let's bring São Tomé into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.3,
+              -1.4
+            ],
+            [
+              8.2,
+              2.1
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          4,
+          -35
+        ],
+        [
+          49,
+          2
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Windhoek keeps the hot springs in its highland basin, Gaborone was chosen because it lay inside Botswana rather than on its border, and South Africa shows three capitals at once: Pretoria to administer, Bloemfontein to judge, Cape Town to legislate under Table Mountain.",
+    "Remember the highveld capital of eSwatini at Mbabane, the country inside a country at Maseru, the highland capital of Madagascar at Antananarivo, the volcano island at Moroni, and the equatorial island capital at São Tomé."
+  ]
+}

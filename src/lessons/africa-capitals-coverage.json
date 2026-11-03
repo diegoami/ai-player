@@ -1,0 +1,265 @@
+{
+  "edition": "Africa capitals · Six regional lessons · November 2026",
+  "status": "in-production",
+  "scope": "All 54 capital targets of GeoClick's native africa-capitals map, each exactly once: the capitals of the African countries the map names, with South Africa's three capitals all taught and Hargeisa taught as the capital of Somaliland alongside Mogadishu as the capital of Somalia. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 54,
+  "countryCount": 54,
+  "nativeTargetCount": 54,
+  "nativeTeachingStopCount": 54,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 0,
+  "episodes": [
+    {
+      "id": "north-africa-and-the-sahara",
+      "title": "North Africa and the Sahara",
+      "status": "preflight-passed",
+      "lesson": "src/lessons/africa-capitals-01-north-africa-and-the-sahara.json",
+      "places": [
+        "Tunis",
+        "Algiers",
+        "Rabat",
+        "Tripoli",
+        "Cairo",
+        "Nouakchott",
+        "Khartoum",
+        "Praia"
+      ],
+      "countries": [
+        "Tunis",
+        "Algiers",
+        "Rabat",
+        "Tripoli",
+        "Cairo",
+        "Nouakchott",
+        "Khartoum",
+        "Praia"
+      ],
+      "nativeTargets": [
+        "Tunis",
+        "Algiers",
+        "Rabat",
+        "Tripoli",
+        "Cairo",
+        "Nouakchott",
+        "Khartoum",
+        "Praia"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-capitals-20261103/01-north-africa-and-the-sahara/geoclick/play-no-subtitles.mp4"
+    },
+    {
+      "id": "the-sahel-and-the-gulf-of-guinea",
+      "title": "The Sahel and the Gulf of Guinea",
+      "status": "preflight-passed",
+      "lesson": "src/lessons/africa-capitals-02-the-sahel-and-the-gulf-of-guinea.json",
+      "places": [
+        "Dakar",
+        "Banjul",
+        "Bissau",
+        "Conakry",
+        "Freetown",
+        "Monrovia",
+        "Yamoussoukro",
+        "Accra",
+        "Lomé"
+      ],
+      "countries": [
+        "Dakar",
+        "Banjul",
+        "Bissau",
+        "Conakry",
+        "Freetown",
+        "Monrovia",
+        "Yamoussoukro",
+        "Accra",
+        "Lomé"
+      ],
+      "nativeTargets": [
+        "Dakar",
+        "Banjul",
+        "Bissau",
+        "Conakry",
+        "Freetown",
+        "Monrovia",
+        "Yamoussoukro",
+        "Accra",
+        "Lomé"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-capitals-20261103/02-the-sahel-and-the-gulf-of-guinea/geoclick/play-no-subtitles.mp4"
+    },
+    {
+      "id": "the-sahel-interior-and-the-gulf-states",
+      "title": "The Sahel interior and the Gulf states",
+      "status": "prepared",
+      "lesson": "src/lessons/africa-capitals-03-the-sahel-interior-and-the-gulf-states.json",
+      "places": [
+        "Porto-Novo",
+        "Abuja",
+        "Niamey",
+        "Ouagadougou",
+        "Bamako",
+        "N'Djamena",
+        "Yaoundé",
+        "Malabo",
+        "Libreville"
+      ],
+      "countries": [
+        "Porto-Novo",
+        "Abuja",
+        "Niamey",
+        "Ouagadougou",
+        "Bamako",
+        "N'Djamena",
+        "Yaoundé",
+        "Malabo",
+        "Libreville"
+      ],
+      "nativeTargets": [
+        "Porto-Novo",
+        "Abuja",
+        "Niamey",
+        "Ouagadougou",
+        "Bamako",
+        "N'Djamena",
+        "Yaoundé",
+        "Malabo",
+        "Libreville"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-capitals-20261103/03-the-sahel-interior-and-the-gulf-states/geoclick/play-no-subtitles.mp4"
+    },
+    {
+      "id": "the-horn-and-the-great-lakes",
+      "title": "The Horn and the Great Lakes",
+      "status": "prepared",
+      "lesson": "src/lessons/africa-capitals-04-the-horn-and-the-great-lakes.json",
+      "places": [
+        "Djibouti",
+        "Asmara",
+        "Addis Ababa",
+        "Mogadishu",
+        "Hargeisa",
+        "Kampala",
+        "Nairobi",
+        "Kigali",
+        "Gitega",
+        "Dodoma"
+      ],
+      "countries": [
+        "Djibouti",
+        "Asmara",
+        "Addis Ababa",
+        "Mogadishu",
+        "Hargeisa",
+        "Kampala",
+        "Nairobi",
+        "Kigali",
+        "Gitega",
+        "Dodoma"
+      ],
+      "nativeTargets": [
+        "Djibouti",
+        "Asmara",
+        "Addis Ababa",
+        "Mogadishu",
+        "Hargeisa",
+        "Kampala",
+        "Nairobi",
+        "Kigali",
+        "Gitega",
+        "Dodoma"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-capitals-20261103/04-the-horn-and-the-great-lakes/geoclick/play-no-subtitles.mp4"
+    },
+    {
+      "id": "central-africa-and-the-zambezi",
+      "title": "Central Africa and the Zambezi",
+      "status": "prepared",
+      "lesson": "src/lessons/africa-capitals-05-central-africa-and-the-zambezi.json",
+      "places": [
+        "Bangui",
+        "Brazzaville",
+        "Kinshasa",
+        "Luanda",
+        "Lilongwe",
+        "Lusaka",
+        "Harare",
+        "Maputo"
+      ],
+      "countries": [
+        "Bangui",
+        "Brazzaville",
+        "Kinshasa",
+        "Luanda",
+        "Lilongwe",
+        "Lusaka",
+        "Harare",
+        "Maputo"
+      ],
+      "nativeTargets": [
+        "Bangui",
+        "Brazzaville",
+        "Kinshasa",
+        "Luanda",
+        "Lilongwe",
+        "Lusaka",
+        "Harare",
+        "Maputo"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-capitals-20261103/05-central-africa-and-the-zambezi/geoclick/play-no-subtitles.mp4"
+    },
+    {
+      "id": "southern-africa-and-the-indian-ocean-islands",
+      "title": "Southern Africa and the Indian Ocean islands",
+      "status": "prepared",
+      "lesson": "src/lessons/africa-capitals-06-southern-africa-and-the-indian-ocean-islands.json",
+      "places": [
+        "Windhoek",
+        "Gaborone",
+        "Pretoria",
+        "Bloemfontein",
+        "Cape Town",
+        "Mbabane",
+        "Maseru",
+        "Antananarivo",
+        "Moroni",
+        "São Tomé"
+      ],
+      "countries": [
+        "Windhoek",
+        "Gaborone",
+        "Pretoria",
+        "Bloemfontein",
+        "Cape Town",
+        "Mbabane",
+        "Maseru",
+        "Antananarivo",
+        "Moroni",
+        "São Tomé"
+      ],
+      "nativeTargets": [
+        "Windhoek",
+        "Gaborone",
+        "Pretoria",
+        "Bloemfontein",
+        "Cape Town",
+        "Mbabane",
+        "Maseru",
+        "Antananarivo",
+        "Moroni",
+        "São Tomé"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-capitals-20261103/06-southern-africa-and-the-indian-ocean-islands/geoclick/play-no-subtitles.mp4"
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "title": "Africa capitals five of six · Central Africa and the Zambezi",
+  "edition": "Africa capitals · Six regional lessons · John · November 2026",
+  "mapId": "africa-capitals",
+  "area": "Africa",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/africa-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      11,
+      -28
+    ],
+    [
+      36,
+      7
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Bangui",
+      "location": [
+        18.5582881,
+        4.3666443
+      ],
+      "bounds": [
+        [
+          17.1,
+          2.8
+        ],
+        [
+          20.1,
+          5.9
+        ]
+      ]
+    },
+    {
+      "name": "Brazzaville",
+      "location": [
+        15.2827436,
+        -4.2572399
+      ],
+      "bounds": [
+        [
+          13.8,
+          -6.1
+        ],
+        [
+          16.9,
+          -2.5
+        ]
+      ]
+    },
+    {
+      "name": "Kinshasa",
+      "location": [
+        15.313026,
+        -4.3277782
+      ],
+      "bounds": [
+        [
+          13.8,
+          -6.1
+        ],
+        [
+          16.9,
+          -2.5
+        ]
+      ]
+    },
+    {
+      "name": "Luanda",
+      "location": [
+        13.2324812,
+        -8.8363403
+      ],
+      "bounds": [
+        [
+          11.7,
+          -10.5
+        ],
+        [
+          14.7,
+          -7.1
+        ]
+      ]
+    },
+    {
+      "name": "Lilongwe",
+      "location": [
+        33.783302,
+        -13.9832951
+      ],
+      "bounds": [
+        [
+          32.3,
+          -15.7
+        ],
+        [
+          35.3,
+          -12.2
+        ]
+      ]
+    },
+    {
+      "name": "Lusaka",
+      "location": [
+        28.2813817,
+        -15.4146984
+      ],
+      "bounds": [
+        [
+          26.8,
+          -17.2
+        ],
+        [
+          29.8,
+          -13.6
+        ]
+      ]
+    },
+    {
+      "name": "Harare",
+      "location": [
+        31.0427636,
+        -17.8158438
+      ],
+      "bounds": [
+        [
+          29.5,
+          -19.6
+        ],
+        [
+          32.6,
+          -16
+        ]
+      ]
+    },
+    {
+      "name": "Maputo",
+      "location": [
+        32.5872171,
+        -25.9533316
+      ],
+      "bounds": [
+        [
+          31.1,
+          -27.7
+        ],
+        [
+          34.1,
+          -24.2
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Africa capitals, episode five of six. First, I clear the chosen names for a fresh regional lesson.",
+    "From the middle of the continent we follow the Congo down to the Atlantic, and then the Zambezi basin to the Indian Ocean."
+  ],
+  "states": [
+    {
+      "name": "Bangui",
+      "location": [
+        18.5582881,
+        4.3666443
+      ],
+      "lines": [
+        "Bangui stands on the Ubangi River in the Central African Republic, in the very middle of the continent.",
+        "It takes its name from the rapids of the Ubangi at its edge, and the French founded it as a post in 1889; the country sits at the hub of the Congo Basin, with the rivers running outward in every direction.",
+        "Remember the river post at the top of the Congo Basin, where the continent meets itself."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bangui",
+        "https://en.wikipedia.org/wiki/Central_African_Republic"
+      ],
+      "cameraBounds": [
+        [
+          17.1,
+          2.8
+        ],
+        [
+          20.1,
+          5.9
+        ]
+      ],
+      "transition": "Let's bring Bangui into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              17.1,
+              2.8
+            ],
+            [
+              20.1,
+              5.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brazzaville",
+      "location": [
+        15.2827436,
+        -4.2572399
+      ],
+      "lines": [
+        "Brazzaville stands on the right bank of the Congo River, in the Republic of the Congo, west of the larger Congo across the water.",
+        "Its Basilica of Saint Anne, of 1949, is roofed in green tiles, and across the river Kinshasa is closer to it than any other two capitals in the world are to each other, apart from Rome and the Vatican.",
+        "Remember Brazzaville on the right bank and Kinshasa on the left: the closest pair of capitals on earth, across one river."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brazzaville",
+        "https://whc.unesco.org/en/list/1380/"
+      ],
+      "cameraBounds": [
+        [
+          13.8,
+          -6.1
+        ],
+        [
+          16.9,
+          -2.5
+        ]
+      ],
+      "transition": "Let's bring Brazzaville into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              13.8,
+              -6.1
+            ],
+            [
+              16.9,
+              -2.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kinshasa",
+      "location": [
+        15.313026,
+        -4.3277782
+      ],
+      "lines": [
+        "Kinshasa stands on the north bank of the Congo River, directly opposite Brazzaville, in the far larger Democratic Republic of the Congo.",
+        "It was called Léopoldville until 1966, and with well over ten million people it is one of the largest French-speaking cities in the world.",
+        "Remember the capital named after the country’s own river, on the north bank opposite Brazzaville."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kinshasa",
+        "https://whc.unesco.org/en/list/63/"
+      ],
+      "cameraBounds": [
+        [
+          13.8,
+          -6.1
+        ],
+        [
+          16.9,
+          -2.5
+        ]
+      ]
+    },
+    {
+      "name": "Luanda",
+      "location": [
+        13.2324812,
+        -8.8363403
+      ],
+      "lines": [
+        "Luanda stands on the Atlantic coast of Angola, north of Namibia and south of the Congo basin.",
+        "The fortress of São Miguel, of 1576, looks down over the harbour, which was the main embarkation point for enslaved people carried to the Americas.",
+        "Remember the Atlantic harbour founded in the sixteenth century, with the fort above it and the ships that left from below."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Luanda",
+        "https://en.wikipedia.org/wiki/São_Miguel_Fort,_Luanda"
+      ],
+      "cameraBounds": [
+        [
+          11.7,
+          -10.5
+        ],
+        [
+          14.7,
+          -7.1
+        ]
+      ],
+      "transition": "Let's bring Luanda into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.7,
+              -10.5
+            ],
+            [
+              14.7,
+              -7.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lilongwe",
+      "location": [
+        33.783302,
+        -13.9832951
+      ],
+      "lines": [
+        "Lilongwe stands in the interior of Malawi, a narrow inland country between Zambia and Mozambique.",
+        "It was planned as a garden city in the 1970s and took over from Zomba, the old colonial capital; Four Freedoms Park nearby marks where Malawi’s independence flag was raised in 1964.",
+        "Remember the planned inland capital of Malawi, with the independence flag-pole park."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lilongwe",
+        "https://en.wikipedia.org/wiki/Four_Freedoms_Park"
+      ],
+      "cameraBounds": [
+        [
+          32.3,
+          -15.7
+        ],
+        [
+          35.3,
+          -12.2
+        ]
+      ],
+      "transition": "Let's bring Lilongwe into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              32.3,
+              -15.7
+            ],
+            [
+              35.3,
+              -12.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lusaka",
+      "location": [
+        28.2813817,
+        -15.4146984
+      ],
+      "lines": [
+        "Lusaka stands in the middle of Zambia, north of the Zambezi and west of Malawi.",
+        "It became the capital of the British protectorate of Northern Rhodesia in 1935, and the capital of independent Zambia in 1964.",
+        "Remember the capital in the middle of Zambia, north of the falls and far from any coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lusaka",
+        "https://whc.unesco.org/en/list/509/"
+      ],
+      "cameraBounds": [
+        [
+          26.8,
+          -17.2
+        ],
+        [
+          29.8,
+          -13.6
+        ]
+      ],
+      "transition": "Let's bring Lusaka into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.8,
+              -17.2
+            ],
+            [
+              29.8,
+              -13.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harare",
+      "location": [
+        31.0427636,
+        -17.8158438
+      ],
+      "lines": [
+        "Harare stands on the highveld of Zimbabwe, north of South Africa and west of Mozambique.",
+        "It was called Salisbury until 1982 and then took the name of a Shona chief; its avenues are lined with jacarandas that turn the city purple each October.",
+        "Remember the renamed highveld capital of jacaranda trees, with the stone city of Great Zimbabwe to its south-west."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Harare",
+        "https://whc.unesco.org/en/list/364/"
+      ],
+      "cameraBounds": [
+        [
+          29.5,
+          -19.6
+        ],
+        [
+          32.6,
+          -16
+        ]
+      ],
+      "transition": "Let's bring Harare into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              29.5,
+              -19.6
+            ],
+            [
+              32.6,
+              -16
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maputo",
+      "location": [
+        32.5872171,
+        -25.9533316
+      ],
+      "lines": [
+        "Maputo stands on Maputo Bay on the Indian Ocean, in the south of Mozambique, where the country curves around the southern end of Africa.",
+        "It was called Lourenço Marques until 1976, and its railway station of 1910 is often wrongly credited to Gustave Eiffel.",
+        "Remember the station on Maputo Bay that is often wrongly credited to Eiffel, on the Indian Ocean side."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maputo",
+        "https://en.wikipedia.org/wiki/Maputo_Lighthouse"
+      ],
+      "cameraBounds": [
+        [
+          31.1,
+          -27.7
+        ],
+        [
+          34.1,
+          -24.2
+        ]
+      ],
+      "transition": "Let's bring Maputo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              31.1,
+              -27.7
+            ],
+            [
+              34.1,
+              -24.2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          11,
+          -28
+        ],
+        [
+          36,
+          7
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Bangui stands at the top of the Congo Basin, Brazzaville on the right bank of the Congo River and Kinshasa opposite it on the left.",
+    "Remember the Portuguese harbour at Luanda with its fort above, the planned inland capital at Lilongwe, the middle of Zambia at Lusaka, the renamed highveld capital at Harare, and the natural harbour with the only natural lighthouse in the world at Maputo."
+  ]
+}

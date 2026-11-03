@@ -1,0 +1,571 @@
+{
+  "title": "Africa capitals two of six · The Sahel and the Gulf of Guinea",
+  "edition": "Africa capitals · Six regional lessons · John · November 2026",
+  "mapId": "africa-capitals",
+  "area": "Africa",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/africa-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -19,
+      4
+    ],
+    [
+      3,
+      16
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Dakar",
+      "location": [
+        -17.475076,
+        14.7177776
+      ],
+      "bounds": [
+        [
+          -18.8,
+          14
+        ],
+        [
+          -16.2,
+          15.5
+        ]
+      ]
+    },
+    {
+      "name": "Banjul",
+      "location": [
+        -16.5917015,
+        13.4538765
+      ],
+      "bounds": [
+        [
+          -17.2,
+          12.9
+        ],
+        [
+          -15.9,
+          14
+        ]
+      ]
+    },
+    {
+      "name": "Bissau",
+      "location": [
+        -15.5983608,
+        11.8650238
+      ],
+      "bounds": [
+        [
+          -16.2,
+          11.4
+        ],
+        [
+          -14.9,
+          12.4
+        ]
+      ]
+    },
+    {
+      "name": "Conakry",
+      "location": [
+        -13.6821809,
+        9.5334687
+      ],
+      "bounds": [
+        [
+          -14.6,
+          8.8
+        ],
+        [
+          -12.8,
+          10.2
+        ]
+      ]
+    },
+    {
+      "name": "Freetown",
+      "location": [
+        -13.2361616,
+        8.4719573
+      ],
+      "bounds": [
+        [
+          -13.9,
+          7.8
+        ],
+        [
+          -12.6,
+          9.1
+        ]
+      ]
+    },
+    {
+      "name": "Monrovia",
+      "location": [
+        -10.7996604,
+        6.3145816
+      ],
+      "bounds": [
+        [
+          -11.5,
+          5.6
+        ],
+        [
+          -10.1,
+          6.9
+        ]
+      ]
+    },
+    {
+      "name": "Yamoussoukro",
+      "location": [
+        -5.2755026,
+        6.818381
+      ],
+      "bounds": [
+        [
+          -6.3,
+          6.1
+        ],
+        [
+          -4.3,
+          7.6
+        ]
+      ]
+    },
+    {
+      "name": "Accra",
+      "location": [
+        -0.2186616,
+        5.5519805
+      ],
+      "bounds": [
+        [
+          -1.4,
+          4.9
+        ],
+        [
+          1,
+          6.2
+        ]
+      ]
+    },
+    {
+      "name": "Lomé",
+      "location": [
+        1.2208113,
+        6.1338829
+      ],
+      "bounds": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          2,
+          6.7
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Africa capitals, episode two of six. First, I clear the chosen names for a fresh regional lesson.",
+    "Now the western coast, where the Sahel meets the Gulf of Guinea and the Atlantic trade has left its marks."
+  ],
+  "states": [
+    {
+      "name": "Dakar",
+      "location": [
+        -17.475076,
+        14.7177776
+      ],
+      "lines": [
+        "Dakar stands on the Cap-Vert peninsula, the westernmost point of the African mainland, on the Atlantic.",
+        "The city grew from a harbour on that peninsula, and nearby Gorée Island carries a memorial house that remembers the island’s role in the Atlantic slave trade.",
+        "Remember the peninsula city at the far west, with Gorée in the bay and the mainland running east."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dakar",
+        "https://en.wikipedia.org/wiki/Gorée"
+      ],
+      "cameraBounds": [
+        [
+          -18.8,
+          14
+        ],
+        [
+          -16.2,
+          15.5
+        ]
+      ],
+      "transition": "Let's bring Dakar into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -18.8,
+              14
+            ],
+            [
+              -16.2,
+              15.5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Banjul",
+      "location": [
+        -16.5917015,
+        13.4538765
+      ],
+      "lines": [
+        "Banjul stands on an island in the mouth of the River Gambia, on the Atlantic coast of The Gambia.",
+        "The country takes its name from the river that reaches the sea here; the British founded the capital in 1816 as Bathurst, and it took the name Banjul in 1973.",
+        "Remember the capital on an island in the river mouth, one of the smallest capitals in Africa, inside the narrow country inside Senegal."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Banjul",
+        "https://en.wikipedia.org/wiki/The_Gambia"
+      ],
+      "cameraBounds": [
+        [
+          -17.2,
+          12.9
+        ],
+        [
+          -15.9,
+          14
+        ]
+      ],
+      "transition": "Let's bring Banjul into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -17.2,
+              12.9
+            ],
+            [
+              -15.9,
+              14
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bissau",
+      "location": [
+        -15.5983608,
+        11.8650238
+      ],
+      "lines": [
+        "Bissau lies on the Rio Geba, on the small Atlantic coast of Guinea-Bissau, south of Senegal.",
+        "The Bijagós archipelago lies just offshore, an island world of mangrove channels and sea-turtle nesting beaches.",
+        "Remember the turtle islands off the small coast below Senegal; Guinea-Bissau and Guinea are two different countries."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bissau",
+        "https://whc.unesco.org/en/list/1431/"
+      ],
+      "cameraBounds": [
+        [
+          -16.2,
+          11.4
+        ],
+        [
+          -14.9,
+          12.4
+        ]
+      ],
+      "transition": "Let's bring Bissau into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -16.2,
+              11.4
+            ],
+            [
+              -14.9,
+              12.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conakry",
+      "location": [
+        -13.6821809,
+        9.5334687
+      ],
+      "lines": [
+        "Conakry stands on the Kaloum peninsula, on the Atlantic coast of Guinea, at the mouth of the Niger River.",
+        "Its name comes from the Susu word for “beyond the waters”, describing the crossing from the islands at the river mouth; the city began on the island of Tombo.",
+        "Remember “beyond the waters” on the Kaloum peninsula, with more than 3,500 mm of rain a year, one of the wettest capitals in the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Conakry",
+        "https://en.wikipedia.org/wiki/Kaloum_Peninsula"
+      ],
+      "cameraBounds": [
+        [
+          -14.6,
+          8.8
+        ],
+        [
+          -12.8,
+          10.2
+        ]
+      ],
+      "transition": "Let's bring Conakry into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -14.6,
+              8.8
+            ],
+            [
+              -12.8,
+              10.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Freetown",
+      "location": [
+        -13.2361616,
+        8.4719573
+      ],
+      "lines": [
+        "Freetown stands where the Sierra Leone River meets the Atlantic, on the coast of Sierra Leone.",
+        "It was founded in the 1790s for people freed from slavery, and the great cotton tree where the first freed settlers are said to have given thanks in 1792 stood until a storm brought it down in 2023.",
+        "Remember the freed-people settlement at the river mouth, in the small country between Guinea and Liberia."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Freetown",
+        "https://en.wikipedia.org/wiki/Sierra_Leone"
+      ],
+      "cameraBounds": [
+        [
+          -13.9,
+          7.8
+        ],
+        [
+          -12.6,
+          9.1
+        ]
+      ],
+      "transition": "Let's bring Freetown into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -13.9,
+              7.8
+            ],
+            [
+              -12.6,
+              9.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monrovia",
+      "location": [
+        -10.7996604,
+        6.3145816
+      ],
+      "lines": [
+        "Monrovia stands on a cape on the Atlantic coast of Liberia, the country between Sierra Leone and Côte d’Ivoire.",
+        "It was founded in 1822 by American colonists and named after President James Monroe; the iron pier it exported from still stands in the harbour.",
+        "Remember the American colony capital on its cape, with the iron pier in the harbour."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Monrovia",
+        "https://en.wikipedia.org/wiki/Monrovia_Mesurado_Cape"
+      ],
+      "cameraBounds": [
+        [
+          -11.5,
+          5.6
+        ],
+        [
+          -10.1,
+          6.9
+        ]
+      ],
+      "transition": "Let's bring Monrovia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -11.5,
+              5.6
+            ],
+            [
+              -10.1,
+              6.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamoussoukro",
+      "location": [
+        -5.2755026,
+        6.818381
+      ],
+      "lines": [
+        "Yamoussoukro stands inland in the forested heart of Côte d’Ivoire, north of the coast where Abidjan carries the country’s trade.",
+        "It became the national capital in 1983, and its Basilica of Our Lady of Peace, modelled on St Peter’s in Rome, is among the largest churches in the world.",
+        "Remember the inland capital with the huge basilica, well north of the lagoon coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yamoussoukro",
+        "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Peace"
+      ],
+      "cameraBounds": [
+        [
+          -6.3,
+          6.1
+        ],
+        [
+          -4.3,
+          7.6
+        ]
+      ],
+      "transition": "Let's bring Yamoussoukro into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -6.3,
+              6.1
+            ],
+            [
+              -4.3,
+              7.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accra",
+      "location": [
+        -0.2186616,
+        5.5519805
+      ],
+      "lines": [
+        "Accra stands on the Gulf of Guinea, on the coast of Ghana between Côte d’Ivoire and small Togo.",
+        "Kwame Nkrumah declared Ghana’s independence here in 1957, and three European forts — Dutch, Danish and British — still stand on the old shoreline.",
+        "Remember the fort coast capital, where independence was declared and where Nkrumah’s mausoleum now stands above the square."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Accra",
+        "https://en.wikipedia.org/wiki/Kwame_Nkrumah_Memorial_Park"
+      ],
+      "cameraBounds": [
+        [
+          -1.4,
+          4.9
+        ],
+        [
+          1,
+          6.2
+        ]
+      ],
+      "transition": "Let's bring Accra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -1.4,
+              4.9
+            ],
+            [
+              1,
+              6.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lomé",
+      "location": [
+        1.2208113,
+        6.1338829
+      ],
+      "lines": [
+        "Lomé stands on the Gulf of Guinea, behind a narrow strip of beach, in the southern part of Togo.",
+        "Its Grand Marché was ruled by the “Nana Benz”, women cloth traders rich enough to be driven in Mercedes cars.",
+        "Remember the cloth-trading queens of the Grand Marché, on the beachfront capital at the Ghana border."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lomé",
+        "https://en.wikipedia.org/wiki/Independence_Monument_(Lomé)"
+      ],
+      "cameraBounds": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          2,
+          6.7
+        ]
+      ],
+      "transition": "Let's bring Lomé into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              0.5,
+              5.5
+            ],
+            [
+              2,
+              6.7
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -19,
+          4
+        ],
+        [
+          3,
+          16
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Dakar stands on the far western peninsula, Banjul on an island in the river mouth, and Bissau below Senegal on the turtle islands.",
+    "Remember “beyond the waters” at Conakry, the freed-people settlement at Freetown, the American cape at Monrovia, the inland basilica at Yamoussoukro, the fort coast at Accra and the beachfront arch at Lomé."
+  ]
+}

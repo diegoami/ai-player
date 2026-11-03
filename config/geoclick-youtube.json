@@ -94,6 +94,13 @@
       "published": "unlisted 2026-11-03",
       "captions": "deferred",
       "video_ids": ["XmFxYzfASDo", "bKY4cwBbMMk", "7ph0YuAWbVs", "d39c1RJeC4Y"]
+    },
+    {
+      "id": "africa-capitals",
+      "ledger": "src/lessons/africa-capitals-coverage.json",
+      "publishing_dir": "rendered/africa-capitals-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred"
     }
   ],
   "links": {

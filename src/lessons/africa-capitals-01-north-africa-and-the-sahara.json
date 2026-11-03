@@ -1,0 +1,513 @@
+{
+  "title": "Africa capitals one of six · North Africa and the Sahara",
+  "edition": "Africa capitals · Six regional lessons · John · November 2026",
+  "mapId": "africa-capitals",
+  "area": "Africa",
+  "unit": "capitals",
+  "url": "http://localhost:5187/map/africa-capitals",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -25,
+      13
+    ],
+    [
+      35,
+      38
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Tunis",
+      "location": [
+        10.1796781,
+        36.8027781
+      ],
+      "bounds": [
+        [
+          8.9,
+          35.6
+        ],
+        [
+          11.5,
+          37.9
+        ]
+      ]
+    },
+    {
+      "name": "Algiers",
+      "location": [
+        3.0486067,
+        36.7650107
+      ],
+      "bounds": [
+        [
+          1.8,
+          35.5
+        ],
+        [
+          4.3,
+          37.9
+        ]
+      ]
+    },
+    {
+      "name": "Rabat",
+      "location": [
+        -6.8364082,
+        34.0253073
+      ],
+      "bounds": [
+        [
+          -8,
+          32.9
+        ],
+        [
+          -5.7,
+          35.2
+        ]
+      ]
+    },
+    {
+      "name": "Tripoli",
+      "location": [
+        13.1800118,
+        32.8925
+      ],
+      "bounds": [
+        [
+          11.9,
+          31.6
+        ],
+        [
+          14.5,
+          34.1
+        ]
+      ]
+    },
+    {
+      "name": "Cairo",
+      "location": [
+        31.2480224,
+        30.0519062
+      ],
+      "bounds": [
+        [
+          30,
+          28.8
+        ],
+        [
+          32.5,
+          31.3
+        ]
+      ]
+    },
+    {
+      "name": "Nouakchott",
+      "location": [
+        -15.9753404,
+        18.086427
+      ],
+      "bounds": [
+        [
+          -17.3,
+          16.8
+        ],
+        [
+          -14.6,
+          19.3
+        ]
+      ]
+    },
+    {
+      "name": "Khartoum",
+      "location": [
+        32.5322334,
+        15.5900241
+      ],
+      "bounds": [
+        [
+          31.3,
+          14.3
+        ],
+        [
+          33.8,
+          16.9
+        ]
+      ]
+    },
+    {
+      "name": "Praia",
+      "location": [
+        -23.5166889,
+        14.916698
+      ],
+      "bounds": [
+        [
+          -24.9,
+          13.5
+        ],
+        [
+          -22.1,
+          16.3
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to the Africa capitals, episode one of six. First, I clear the chosen names for a fresh regional lesson.",
+    "We begin along the northern shore of Africa, where the Mediterranean meets the Sahara, and we end out in the Atlantic islands."
+  ],
+  "states": [
+    {
+      "name": "Tunis",
+      "location": [
+        10.1796781,
+        36.8027781
+      ],
+      "lines": [
+        "Tunis stands on the Gulf of Tunis, on the Mediterranean coast of the country the map calls Tunisia, in the north of Africa.",
+        "The old city of Tunis, the medina, is a UNESCO World Heritage site, and the ancient city of Carthage stands on the far side of the lake to the north-east.",
+        "Remember Tunis as the modern capital facing Carthage across the same lake, with Sicily out in the Mediterranean."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tunis",
+        "https://whc.unesco.org/en/list/37/"
+      ],
+      "cameraBounds": [
+        [
+          8.9,
+          35.6
+        ],
+        [
+          11.5,
+          37.9
+        ]
+      ],
+      "transition": "Let's bring Tunis into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.9,
+              35.6
+            ],
+            [
+              11.5,
+              37.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algiers",
+      "location": [
+        3.0486067,
+        36.7650107
+      ],
+      "lines": [
+        "Algiers lies on the Bay of Algiers, the Mediterranean coast of Algeria, west of Tunisia and east of the Sahara.",
+        "The Casbah, the densely built citadel quarter that steps down toward the harbour, was inscribed as a UNESCO World Heritage site in 1992.",
+        "Remember the white city climbing down to the water: the Casbah above, the harbour below."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Algiers",
+        "https://whc.unesco.org/en/list/118/"
+      ],
+      "cameraBounds": [
+        [
+          1.8,
+          35.5
+        ],
+        [
+          4.3,
+          37.9
+        ]
+      ],
+      "transition": "Let's bring Algiers into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              1.8,
+              35.5
+            ],
+            [
+              4.3,
+              37.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rabat",
+      "location": [
+        -6.8364082,
+        34.0253073
+      ],
+      "lines": [
+        "Rabat sits on the Atlantic coast of Morocco, at the mouth of the Bou Regreg river, across the Strait of Gibraltar from Spain.",
+        "The Kasbah of the Udayas stands at the river mouth, and the historic city of Rabat, with that kasbah and the Mohammed V Mausoleum, is a UNESCO World Heritage site.",
+        "Remember the kasbah at the river mouth, on the African side of the strait, opposite Europe."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rabat",
+        "https://whc.unesco.org/en/list/1405/"
+      ],
+      "cameraBounds": [
+        [
+          -8,
+          32.9
+        ],
+        [
+          -5.7,
+          35.2
+        ]
+      ],
+      "transition": "Let's bring Rabat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -8,
+              32.9
+            ],
+            [
+              -5.7,
+              35.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tripoli",
+      "location": [
+        13.1800118,
+        32.8925
+      ],
+      "lines": [
+        "Tripoli stands on the Mediterranean coast of Libya, west of Egypt, with the Sahara stretching south behind it.",
+        "The city grew from the ancient Phoenician settlement of Oea, later a Roman city of three quarters called Tripolis, and the Red Castle still stands in the old town.",
+        "Remember the red castle of Tripoli, the Roman three-quarter city above the Libyan shore."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tripoli",
+        "https://whc.unesco.org/en/list/299/"
+      ],
+      "cameraBounds": [
+        [
+          11.9,
+          31.6
+        ],
+        [
+          14.5,
+          34.1
+        ]
+      ],
+      "transition": "Let's bring Tripoli into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.9,
+              31.6
+            ],
+            [
+              14.5,
+              34.1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cairo",
+      "location": [
+        31.2480224,
+        30.0519062
+      ],
+      "lines": [
+        "Cairo stands on the Nile in Egypt, where the river reaches its delta and the Mediterranean, with the Sinai Peninsula across the canal to the east.",
+        "The city was founded in 969 beside the Nile and is among the largest cities in the world; its historic area, with the Citadel and the old mosques, is a UNESCO World Heritage site.",
+        "Remember the city of a thousand minarets at the head of the delta, with Giza across the river."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cairo",
+        "https://whc.unesco.org/en/list/89/"
+      ],
+      "cameraBounds": [
+        [
+          30,
+          28.8
+        ],
+        [
+          32.5,
+          31.3
+        ]
+      ],
+      "transition": "Let's bring Cairo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              30,
+              28.8
+            ],
+            [
+              32.5,
+              31.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nouakchott",
+      "location": [
+        -15.9753404,
+        18.086427
+      ],
+      "lines": [
+        "Nouakchott lies on the Atlantic coast of Mauritania, in the dry belt between the Sahara and the Senegal River.",
+        "It was a small village until 1958, when it was chosen to be built up as the capital of the new country; the country’s real harbour, Nouadhibou, lies 400 kilometres up the coast to the north.",
+        "Remember the capital of the sandy shore, with the working port far to the north."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nouakchott",
+        "https://en.wikipedia.org/wiki/Nouadhibou"
+      ],
+      "cameraBounds": [
+        [
+          -17.3,
+          16.8
+        ],
+        [
+          -14.6,
+          19.3
+        ]
+      ],
+      "transition": "Let's bring Nouakchott into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -17.3,
+              16.8
+            ],
+            [
+              -14.6,
+              19.3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Khartoum",
+      "location": [
+        32.5322334,
+        15.5900241
+      ],
+      "lines": [
+        "Khartoum stands in Sudan, where the Blue Nile from the Ethiopian highlands meets the White Nile coming up from the swamps.",
+        "The confluence monument in the city marks that meeting of the two rivers, and the capital itself stands on an island formed by them.",
+        "Remember the capital on the island between two Niles, the point where the river is finally assembled."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Khartoum",
+        "https://en.wikipedia.org/wiki/Confluence_of_the_Blue_and_White_Nile"
+      ],
+      "cameraBounds": [
+        [
+          31.3,
+          14.3
+        ],
+        [
+          33.8,
+          16.9
+        ]
+      ],
+      "transition": "Let's bring Khartoum into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              31.3,
+              14.3
+            ],
+            [
+              33.8,
+              16.9
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Praia",
+      "location": [
+        -23.5166889,
+        14.916698
+      ],
+      "lines": [
+        "Praia sits on the southern coast of Santiago, the largest island of Cape Verde, out in the Atlantic west of Senegal.",
+        "Nearby Cidade Velha on the same island was the first colonial town Europeans built in the tropics, and the fortress of São Lourenço do Monte still watches the coast above Praia.",
+        "Remember the Atlantic island capital on Santiago, whose name simply means beach, and whose oldest town lies just over the hill."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Praia",
+        "https://en.wikipedia.org/wiki/Fortaleza_Real_de_São_Lourenço_do_Monte"
+      ],
+      "cameraBounds": [
+        [
+          -24.9,
+          13.5
+        ],
+        [
+          -22.1,
+          16.3
+        ]
+      ],
+      "transition": "Let's bring Praia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -24.9,
+              13.5
+            ],
+            [
+              -22.1,
+              16.3
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -25,
+          13
+        ],
+        [
+          35,
+          38
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "Tunis faces Carthage across its lake, Algiers steps down to its harbour, Rabat keeps the kasbah at the strait, and Tripoli holds the red castle above the Libyan shore.",
+    "Remember Cairo at the head of the Nile delta, the shore capital of the Sahara at Nouakchott, the capital between two Niles at Khartoum, and the island capital of Praia on Santiago."
+  ]
+}
