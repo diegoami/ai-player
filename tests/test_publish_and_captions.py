@@ -74,8 +74,12 @@ class CaptionTargetTests(unittest.TestCase):
     def test_every_published_video_is_listed_once(self):
         manifest = installer.w.read(installer.MANIFEST)
         published = [episode['youtube_video_id'] for episode in manifest['episodes'] if episode.get('youtube_video_id')]
-        self.assertEqual(len(published), 57)
-        self.assertEqual(len(set(published)), 57)
+        config = installer.w.read(installer.w.CONFIG)
+        known = [video_id
+                 for series in [*config['series'], config['offline_series'], *config.get('additional_offline_series', [])]
+                 for video_id in (series.get('video_ids') or [])]
+        self.assertEqual(sorted(published), sorted(known))
+        self.assertEqual(len(set(published)), len(published))
         rows = installer.targets()
         self.assertEqual(len(rows), len(published) - len(installer.captioned_already()))
         self.assertEqual(len({row['video_id'] for row in rows}), len(rows))
