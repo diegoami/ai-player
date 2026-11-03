@@ -1,0 +1,83 @@
+{
+  "edition": "Canada · Regions of Europe · one lesson per country · November 2026",
+  "status": "complete",
+  "scope": "All 13 region targets of GeoClick's native canada-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 13,
+  "countryCount": 1,
+  "nativeTargetCount": 13,
+  "nativeTeachingStopCount": 13,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 13,
+  "episodes": [
+    {
+      "id": "canada-regions-regions",
+      "title": "Canada's provinces",
+      "status": "complete",
+      "lesson": "src/lessons/canada-regions-lesson.json",
+      "places": [
+        "Northwest Territories",
+        "Nunavut",
+        "Yukon",
+        "Manitoba",
+        "Saskatchewan",
+        "Alberta",
+        "British Columbia",
+        "Québec",
+        "Newfoundland and Labrador",
+        "Ontario",
+        "Prince Edward Island",
+        "New Brunswick",
+        "Nova Scotia"
+      ],
+      "countries": [
+        "Northwest Territories",
+        "Nunavut",
+        "Yukon",
+        "Manitoba",
+        "Saskatchewan",
+        "Alberta",
+        "British Columbia",
+        "Québec",
+        "Newfoundland and Labrador",
+        "Ontario",
+        "Prince Edward Island",
+        "New Brunswick",
+        "Nova Scotia"
+      ],
+      "nativeTargets": [
+        "Northwest Territories",
+        "Nunavut",
+        "Yukon",
+        "Manitoba",
+        "Saskatchewan",
+        "Alberta",
+        "British Columbia",
+        "Québec",
+        "Newfoundland and Labrador",
+        "Ontario",
+        "Prince Edward Island",
+        "New Brunswick",
+        "Nova Scotia"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/canada-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 731.64,
+      "covered": [
+        "Northwest Territories",
+        "Nunavut",
+        "Yukon",
+        "Manitoba",
+        "Saskatchewan",
+        "Alberta",
+        "British Columbia",
+        "Québec",
+        "Newfoundland and Labrador",
+        "Ontario",
+        "Prince Edward Island",
+        "New Brunswick",
+        "Nova Scotia"
+      ]
+    }
+  ]
+}

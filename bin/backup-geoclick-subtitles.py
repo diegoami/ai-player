@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--series', choices=['usa', 'europe', 'asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions', 'italy-regions', 'france-regions', 'germany-states', 'great-britain-regions', 'poland-regions', 'ukraine-regions'], required=True)
+    parser.add_argument('--series', choices=['usa', 'europe', 'asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions', 'italy-regions', 'france-regions', 'germany-states', 'great-britain-regions', 'poland-regions', 'ukraine-regions', 'australia-regions', 'canada-regions', 'south-africa-provinces', 'morocco-regions', 'egypt-regions', 'sweden-regions', 'brazil-regions', 'mexico-regions', 'nigeria-regions', 'iran-provinces', 'japan-regions', 'new-zealand-regions'], required=True)
     args = parser.parse_args()
     config = json.loads((ROOT / 'config/geoclick-youtube.json').read_text(encoding='utf-8'))
     candidates = [*config['series'], config['offline_series'], *config.get('additional_offline_series', [])]

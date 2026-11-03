@@ -409,7 +409,20 @@ def prepare(config, batch_module, captions, series_id=None):
              'germany-states': 'Germany States',
              'great-britain-regions': 'Great Britain Regions',
              'poland-regions': 'Poland Regions',
-             'ukraine-regions': 'Ukraine Regions'}.get(identity, identity.title())
+             'ukraine-regions': 'Ukraine Regions',
+             'australia-regions': 'Australia Regions',
+             'canada-regions': 'Canada Regions',
+             'south-africa-provinces': 'South Africa Provinces',
+             'morocco-regions': 'Morocco Regions',
+             'egypt-regions': 'Egypt Regions',
+             'sweden-regions': 'Sweden Regions',
+             'brazil-regions': 'Brazil Regions',
+             'mexico-regions': 'Mexico Regions',
+             'nigeria-regions': 'Nigeria Regions',
+             'iran-provinces': 'Iran Provinces',
+             'japan-regions': 'Japan Regions',
+             'new-zealand-regions': 'New Zealand Regions',
+             }.get(identity, identity.title())
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
         raise ValueError('Offline series is not complete')
@@ -502,7 +515,7 @@ def prepare(config, batch_module, captions, series_id=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
-    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions', 'italy-regions', 'france-regions', 'germany-states', 'great-britain-regions', 'poland-regions', 'ukraine-regions'], help='Offline prepare only; defaults to Asia')
+    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions', 'italy-regions', 'france-regions', 'germany-states', 'great-britain-regions', 'poland-regions', 'ukraine-regions', 'australia-regions', 'canada-regions', 'south-africa-provinces', 'morocco-regions', 'egypt-regions', 'sweden-regions', 'brazil-regions', 'mexico-regions', 'nigeria-regions', 'iran-provinces', 'japan-regions', 'new-zealand-regions'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()

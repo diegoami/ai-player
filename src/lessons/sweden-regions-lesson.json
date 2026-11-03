@@ -1,0 +1,1288 @@
+{
+  "title": "Sweden's regions · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "sweden-regions",
+  "area": "Sweden",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/sweden-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      11.6,
+      54.94
+    ],
+    [
+      20.99,
+      68.05
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Norrbotten",
+      "location": [
+        19.7949,
+        67.0521
+      ],
+      "bounds": [
+        [
+          17.545,
+          65.302
+        ],
+        [
+          22.045,
+          68.802
+        ]
+      ]
+    },
+    {
+      "name": "Västerbotten",
+      "location": [
+        17.9697,
+        64.9063
+      ],
+      "bounds": [
+        [
+          15.72,
+          63.156
+        ],
+        [
+          20.22,
+          66.656
+        ]
+      ]
+    },
+    {
+      "name": "Jämtland",
+      "location": [
+        14.4808,
+        63.3533
+      ],
+      "bounds": [
+        [
+          12.231,
+          61.603
+        ],
+        [
+          16.731,
+          65.103
+        ]
+      ]
+    },
+    {
+      "name": "Västernorrland",
+      "location": [
+        17.0702,
+        63.0825
+      ],
+      "bounds": [
+        [
+          14.82,
+          61.914
+        ],
+        [
+          19.32,
+          64.251
+        ]
+      ]
+    },
+    {
+      "name": "Gävleborg",
+      "location": [
+        15.9901,
+        61.2828
+      ],
+      "bounds": [
+        [
+          14.104,
+          59.943
+        ],
+        [
+          17.876,
+          62.623
+        ]
+      ]
+    },
+    {
+      "name": "Dalarna",
+      "location": [
+        14.4396,
+        61.0775
+      ],
+      "bounds": [
+        [
+          12.19,
+          59.585
+        ],
+        [
+          16.69,
+          62.57
+        ]
+      ]
+    },
+    {
+      "name": "Uppsala",
+      "location": [
+        17.6757,
+        60.0166
+      ],
+      "bounds": [
+        [
+          16.577,
+          59.227
+        ],
+        [
+          18.774,
+          60.806
+        ]
+      ]
+    },
+    {
+      "name": "Värmland",
+      "location": [
+        13.0731,
+        59.8996
+      ],
+      "bounds": [
+        [
+          11.328,
+          58.453
+        ],
+        [
+          14.818,
+          61.346
+        ]
+      ]
+    },
+    {
+      "name": "Västmanland",
+      "location": [
+        16.4202,
+        59.7579
+      ],
+      "bounds": [
+        [
+          15.213,
+          59.068
+        ],
+        [
+          17.627,
+          60.448
+        ]
+      ]
+    },
+    {
+      "name": "Stockholm",
+      "location": [
+        18.1852,
+        59.5292
+      ],
+      "bounds": [
+        [
+          17.06,
+          58.755
+        ],
+        [
+          19.31,
+          60.303
+        ]
+      ]
+    },
+    {
+      "name": "Örebro",
+      "location": [
+        15.0584,
+        59.372
+      ],
+      "bounds": [
+        [
+          14.126,
+          58.464
+        ],
+        [
+          15.991,
+          60.28
+        ]
+      ]
+    },
+    {
+      "name": "Södermanland",
+      "location": [
+        16.6333,
+        59.0787
+      ],
+      "bounds": [
+        [
+          15.392,
+          58.479
+        ],
+        [
+          17.875,
+          59.679
+        ]
+      ]
+    },
+    {
+      "name": "Östergötland",
+      "location": [
+        15.6472,
+        58.3607
+      ],
+      "bounds": [
+        [
+          14.124,
+          57.549
+        ],
+        [
+          17.171,
+          59.172
+        ]
+      ]
+    },
+    {
+      "name": "Västra Götaland",
+      "location": [
+        12.9598,
+        58.206
+      ],
+      "bounds": [
+        [
+          10.71,
+          56.895
+        ],
+        [
+          15.21,
+          59.517
+        ]
+      ]
+    },
+    {
+      "name": "Jönköping",
+      "location": [
+        14.3898,
+        57.5588
+      ],
+      "bounds": [
+        [
+          12.798,
+          56.727
+        ],
+        [
+          15.981,
+          58.391
+        ]
+      ]
+    },
+    {
+      "name": "Gotland",
+      "location": [
+        18.5698,
+        57.4085
+      ],
+      "bounds": [
+        [
+          17.77,
+          56.792
+        ],
+        [
+          19.37,
+          58.025
+        ]
+      ]
+    },
+    {
+      "name": "Kalmar",
+      "location": [
+        16.2437,
+        57.1774
+      ],
+      "bounds": [
+        [
+          15.143,
+          55.992
+        ],
+        [
+          17.345,
+          58.362
+        ]
+      ]
+    },
+    {
+      "name": "Halland",
+      "location": [
+        12.8033,
+        56.9796
+      ],
+      "bounds": [
+        [
+          11.69,
+          56.184
+        ],
+        [
+          13.916,
+          57.776
+        ]
+      ]
+    },
+    {
+      "name": "Kronoberg",
+      "location": [
+        14.5773,
+        56.8088
+      ],
+      "bounds": [
+        [
+          12.991,
+          56.209
+        ],
+        [
+          16.164,
+          57.409
+        ]
+      ]
+    },
+    {
+      "name": "Blekinge",
+      "location": [
+        15.2399,
+        56.2564
+      ],
+      "bounds": [
+        [
+          14.207,
+          55.656
+        ],
+        [
+          16.273,
+          56.856
+        ]
+      ]
+    },
+    {
+      "name": "Skåne",
+      "location": [
+        13.5458,
+        55.9433
+      ],
+      "bounds": [
+        [
+          12.244,
+          55.196
+        ],
+        [
+          14.847,
+          56.691
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Sweden's regions, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 21 of the Sweden regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Norrbotten",
+      "location": [
+        19.7949,
+        67.0521
+      ],
+      "lines": [
+        "Norrbotten fills the far north of Sweden, running from the mountains in the west down to the head of the Gulf of Bothnia in the east, with Luleå on the coast and only Västerbotten below it in the south.",
+        "The iron mine at Kiruna is the largest underground mine in the world, and because the mining is hollowing out the ground beneath the town, Kiruna is being moved building by building to the east.",
+        "Remember the northern bottom, the head of the gulf of Bothnia, where the whole town is being shifted sideways so the mine can keep digging."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Norrbotten_County",
+        "https://en.wikipedia.org/wiki/Kiruna",
+        "https://en.wikipedia.org/wiki/Kiruna_mine"
+      ],
+      "cameraBounds": [
+        [
+          17.545,
+          65.302
+        ],
+        [
+          22.045,
+          68.802
+        ]
+      ],
+      "transition": "Let's bring Norrbotten into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              17.545,
+              65.302
+            ],
+            [
+              22.045,
+              68.802
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Västerbotten",
+      "location": [
+        17.9697,
+        64.9063
+      ],
+      "lines": [
+        "Västerbotten is the coastal county below Norrbotten on the Gulf of Bothnia, with Umeå on the shore and the mountains rising inland to the west, towards Jämtland and the Norwegian border.",
+        "Its Västerbottensost cheese is made to a recipe the dairy keeps secret, and it is what Swedes eat with cured roe at the August crayfish parties.",
+        "Remember the western side of that bottom, the county of the secret cheese and the town where every street has birch trees planted after the fire of 1888."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/V%C3%A4sterbotten_County",
+        "https://en.wikipedia.org/wiki/V%C3%A4sterbotten_cheese",
+        "https://en.wikipedia.org/wiki/Ume%C3%A5"
+      ],
+      "cameraBounds": [
+        [
+          15.72,
+          63.156
+        ],
+        [
+          20.22,
+          66.656
+        ]
+      ],
+      "transition": "Let's bring Västerbotten into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.72,
+              63.156
+            ],
+            [
+              20.22,
+              66.656
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jämtland",
+      "location": [
+        14.4808,
+        63.3533
+      ],
+      "lines": [
+        "Jämtland is the wide inland county in the west of the country, landlocked and long, with a long border on Norway to the north-west and Östersund on the great lake Storsjön in the middle.",
+        "It was Norwegian until 1645, and at Midsummer every year the county still proclaims a symbolic republic of Jämtland, with a president and a border post of its own.",
+        "Remember the little republic in the western mountains, with Åre’s ski slopes above Storsjön and a monster in the lake that was protected until 2005."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/J%C3%A4mtland_County",
+        "https://en.wikipedia.org/wiki/Republic_of_Jamtland",
+        "https://en.wikipedia.org/wiki/%C3%85re"
+      ],
+      "cameraBounds": [
+        [
+          12.231,
+          61.603
+        ],
+        [
+          16.731,
+          65.103
+        ]
+      ],
+      "transition": "Let's bring Jämtland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.231,
+              61.603
+            ],
+            [
+              16.731,
+              65.103
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Västernorrland",
+      "location": [
+        17.0702,
+        63.0825
+      ],
+      "lines": [
+        "Västernorrland sits on the Gulf of Bothnia between Västerbotten in the north and Gävleborg in the south, with Sundsvall on the coast and Jämtland inland to the west.",
+        "Its High Coast has risen about 286 metres since the ice melted and still lifts about eight millimetres a year, the greatest such uplift measured anywhere.",
+        "Remember the western Norrland coast that is still rising, and Sundsvall, the stone city rebuilt from scratch after the fire of 1888."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/V%C3%A4sternorrland_County",
+        "https://en.wikipedia.org/wiki/High_Coast",
+        "https://en.wikipedia.org/wiki/Sundsvall"
+      ],
+      "cameraBounds": [
+        [
+          14.82,
+          61.914
+        ],
+        [
+          19.32,
+          64.251
+        ]
+      ],
+      "transition": "Let's bring Västernorrland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.82,
+              61.914
+            ],
+            [
+              19.32,
+              64.251
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gävleborg",
+      "location": [
+        15.9901,
+        61.2828
+      ],
+      "lines": [
+        "Gävleborg faces the Gulf of Bothnia in the middle of Sweden’s long east coast, with Gävle on the shore, Västernorrland above it and Uppsala below it.",
+        "Seven of its Hälsingland farmhouses are a UNESCO world heritage site, and their rooms are painted from floor to ceiling by travelling artists.",
+        "Remember the coast of the painted farmhouses, and the giant straw goat in Gävle that arsonists have burned down more often than not."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/G%C3%A4vleborg_County",
+        "https://en.wikipedia.org/wiki/Decorated_Farmhouses_of_H%C3%A4lsingland",
+        "https://en.wikipedia.org/wiki/G%C3%A4vle"
+      ],
+      "cameraBounds": [
+        [
+          14.104,
+          59.943
+        ],
+        [
+          17.876,
+          62.623
+        ]
+      ],
+      "transition": "Let's bring Gävleborg into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.104,
+              59.943
+            ],
+            [
+              17.876,
+              62.623
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dalarna",
+      "location": [
+        14.4396,
+        61.0775
+      ],
+      "lines": [
+        "Dalarna lies inland in the middle-west of Sweden, a long county of lake and forest around the valley of the Dalälven, with Borlänge in its southern half and no sea at all.",
+        "The painted wooden Dala horse from Nusnäs is the unofficial symbol of Sweden, carved since the 1600s to pass the long winter evenings.",
+        "Remember the dales of the Dalälven, the little red and white horse from Nusnäs, and the mine waste that still paints Swedish houses red."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dalarna_County",
+        "https://en.wikipedia.org/wiki/Dala_horse",
+        "https://en.wikipedia.org/wiki/Falun"
+      ],
+      "cameraBounds": [
+        [
+          12.19,
+          59.585
+        ],
+        [
+          16.69,
+          62.57
+        ]
+      ],
+      "transition": "Let's bring Dalarna into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.19,
+              59.585
+            ],
+            [
+              16.69,
+              62.57
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uppsala",
+      "location": [
+        17.6757,
+        60.0166
+      ],
+      "lines": [
+        "Uppsala lies just north of Stockholm on the Baltic, with its largest city, Uppsala, on the Fyris river between Lake Mälaren and the sea, and Stockholm county to the south.",
+        "Its university, founded in 1477, is the oldest in Scandinavia, and Linnaeus taught there, his garden still planted to his own plan.",
+        "Remember the upper halls of the old kings, the pagan burial mounds of Gamla Uppsala and the garden of the great doctor of plants."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uppsala_County",
+        "https://en.wikipedia.org/wiki/Uppsala_University",
+        "https://en.wikipedia.org/wiki/Gamla_Uppsala"
+      ],
+      "cameraBounds": [
+        [
+          16.577,
+          59.227
+        ],
+        [
+          18.774,
+          60.806
+        ]
+      ],
+      "transition": "Let's bring Uppsala into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              16.577,
+              59.227
+            ],
+            [
+              18.774,
+              60.806
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Värmland",
+      "location": [
+        13.0731,
+        59.8996
+      ],
+      "lines": [
+        "Värmland is the inland county in the west of the country, north of Lake Vänern, with Karlstad where the Klarälven runs into the lake, and Norway on its western edge.",
+        "Selma Lagerlöf, the first woman to win the Nobel Prize in Literature, was born here and set her novels among these lakes and forests.",
+        "Remember the mild warm land of the Klarälven, where the last floating log was released in 1991 and the old timber float came to an end."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/V%C3%A4rmland_County",
+        "https://en.wikipedia.org/wiki/Karlstad",
+        "https://en.wikipedia.org/wiki/Selma_Lagerl%C3%B6f"
+      ],
+      "cameraBounds": [
+        [
+          11.328,
+          58.453
+        ],
+        [
+          14.818,
+          61.346
+        ]
+      ],
+      "transition": "Let's bring Värmland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.328,
+              58.453
+            ],
+            [
+              14.818,
+              61.346
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Västmanland",
+      "location": [
+        16.4202,
+        59.7579
+      ],
+      "lines": [
+        "Västmanland is inland on the western shore of Lake Mälaren, west of Stockholm, with Västerås on the lake and Uppsala just to the north-east.",
+        "The silver mine at Sala funded the Swedish crown for two centuries and goes 155 metres down, with guided tours and a hotel room at the bottom.",
+        "Remember the western men’s land, the silver mine with a hotel at the bottom of the shaft, and Västerås, a lake port a hundred kilometres from the sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/V%C3%A4stmanland_County",
+        "https://en.wikipedia.org/wiki/Sala_Silver_Mine",
+        "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s"
+      ],
+      "cameraBounds": [
+        [
+          15.213,
+          59.068
+        ],
+        [
+          17.627,
+          60.448
+        ]
+      ],
+      "transition": "Let's bring Västmanland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.213,
+              59.068
+            ],
+            [
+              17.627,
+              60.448
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stockholm",
+      "location": [
+        18.1852,
+        59.5292
+      ],
+      "lines": [
+        "Stockholm is the small coastal county around the capital, built where Lake Mälaren meets the Baltic, and it touches only two other counties, Uppsala to the north and Södermanland to the south.",
+        "The warship Vasa sank on her maiden voyage in 1628 and was lifted out of the harbour in 1961, and 98 per cent of her timber is original.",
+        "Remember the log islet, the capital on fourteen islands with thirty thousand more in its archipelago, and the ship that sank on her first voyage."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stockholm_County",
+        "https://en.wikipedia.org/wiki/Vasa_(ship)",
+        "https://en.wikipedia.org/wiki/Stockholm"
+      ],
+      "cameraBounds": [
+        [
+          17.06,
+          58.755
+        ],
+        [
+          19.31,
+          60.303
+        ]
+      ],
+      "transition": "Let's bring Stockholm into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              17.06,
+              58.755
+            ],
+            [
+              19.31,
+              60.303
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Örebro",
+      "location": [
+        15.0584,
+        59.372
+      ],
+      "lines": [
+        "Örebro sits in the centre of the country, landlocked, with its largest city of the same name where the Svartån river runs, and Värmland, Dalarna and Västmanland around it to the north.",
+        "In 1810 the Riksdag meeting here chose Bernadotte as crown prince, and that choice founded the royal house that still reigns in Sweden.",
+        "Remember the gravel bridge in the middle of the country, the castle on its island in the town, and the place where most of Sweden’s shoes were made until the 1960s."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C3%96rebro_County",
+        "https://en.wikipedia.org/wiki/%C3%96rebro",
+        "https://en.wikipedia.org/wiki/%C3%96rebro_Castle"
+      ],
+      "cameraBounds": [
+        [
+          14.126,
+          58.464
+        ],
+        [
+          15.991,
+          60.28
+        ]
+      ],
+      "transition": "Let's bring Örebro into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.126,
+              58.464
+            ],
+            [
+              15.991,
+              60.28
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Södermanland",
+      "location": [
+        16.6333,
+        59.0787
+      ],
+      "lines": [
+        "Södermanland wraps around the southern end of Lake Mälaren and reaches the Baltic coast south of Stockholm, with Nyköping on the coast and Uppsala to the north-east.",
+        "Nyköping castle here saw the banquet of 1317, when King Birger shut his brothers in the dungeon and starved them to death.",
+        "Remember the southern men’s land, often called Sörmland, with the castle where a king killed his brothers and the densest runestones in the country after Uppland."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C3%B6dermanland_County",
+        "https://en.wikipedia.org/wiki/Nyk%C3%B6ping_Castle",
+        "https://en.wikipedia.org/wiki/Nyk%C3%B6ping"
+      ],
+      "cameraBounds": [
+        [
+          15.392,
+          58.479
+        ],
+        [
+          17.875,
+          59.679
+        ]
+      ],
+      "transition": "Let's bring Södermanland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.392,
+              58.479
+            ],
+            [
+              17.875,
+              59.679
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Östergötland",
+      "location": [
+        15.6472,
+        58.3607
+      ],
+      "lines": [
+        "Östergötland is the coastal county on Sweden’s east side below Södermanland, with the Baltic to the east and Linköping, its largest city, a little way inland.",
+        "The Göta canal crosses the county, 190 kilometres dug by hand between 1810 and 1832, with 58 locks on its way from lake to lake.",
+        "Remember the east land of the Geats, crossed by the hand-dug canal, and Vadstena, where St Bridget founded the order that spread across Europe."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C3%96sterg%C3%B6tland_County",
+        "https://en.wikipedia.org/wiki/G%C3%B6ta_Canal",
+        "https://en.wikipedia.org/wiki/Link%C3%B6ping"
+      ],
+      "cameraBounds": [
+        [
+          14.124,
+          57.549
+        ],
+        [
+          17.171,
+          59.172
+        ]
+      ],
+      "transition": "Let's bring Östergötland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.124,
+              57.549
+            ],
+            [
+              17.171,
+              59.172
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Västra Götaland",
+      "location": [
+        12.9598,
+        58.206
+      ],
+      "lines": [
+        "Västra Götaland fills the south-west of Sweden on the Kattegat coast, with Gothenburg in the west, Lake Vänern in the east and Jönköping and Örebro along its inland edge.",
+        "Gothenburg in it was laid out by Dutch engineers in 1621, which is why it has canals, and Volvo was founded there in 1927.",
+        "Remember the western land of the Geats, the canal city on the Kattegat and Lake Vänern, the biggest lake in the European Union."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/V%C3%A4stra_G%C3%B6taland_County",
+        "https://en.wikipedia.org/wiki/Gothenburg",
+        "https://en.wikipedia.org/wiki/V%C3%A4nern"
+      ],
+      "cameraBounds": [
+        [
+          10.71,
+          56.895
+        ],
+        [
+          15.21,
+          59.517
+        ]
+      ],
+      "transition": "Let's bring Västra Götaland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.71,
+              56.895
+            ],
+            [
+              15.21,
+              59.517
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jönköping",
+      "location": [
+        14.3898,
+        57.5588
+      ],
+      "lines": [
+        "Jönköping lies inland in the south-west of Sweden, on the southern tip of Lake Vättern, with its largest city of the same name on the shore, Kalmar to the east and Kronoberg to the south.",
+        "Lake Vättern, Sweden’s second lake, is so clean that the water drawn from it needs almost no treatment before it can be drunk.",
+        "Remember the town of the safety match at the tip of the clean lake, with the great inland Vänern lying away to the west."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6ping_County",
+        "https://en.wikipedia.org/wiki/V%C3%A4ttern",
+        "https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6ping"
+      ],
+      "cameraBounds": [
+        [
+          12.798,
+          56.727
+        ],
+        [
+          15.981,
+          58.391
+        ]
+      ],
+      "transition": "Let's bring Jönköping into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.798,
+              56.727
+            ],
+            [
+              15.981,
+              58.391
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gotland",
+      "location": [
+        18.5698,
+        57.4085
+      ],
+      "lines": [
+        "Gotland is an island county in the Baltic, lying east of Öland and south of Stockholm, with Visby on its shore and no land border at all.",
+        "Visby’s ring wall, 3.4 kilometres of it from the 1200s, is the best-preserved medieval town wall in northern Europe.",
+        "Remember the land of the Gutes, the limestone island where orchids and truffles grow on bare rock and sea stacks stand in the Baltic."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gotland_County",
+        "https://en.wikipedia.org/wiki/Visby",
+        "https://en.wikipedia.org/wiki/Rauk"
+      ],
+      "cameraBounds": [
+        [
+          17.77,
+          56.792
+        ],
+        [
+          19.37,
+          58.025
+        ]
+      ],
+      "transition": "Let's bring Gotland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              17.77,
+              56.792
+            ],
+            [
+              19.37,
+              58.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kalmar",
+      "location": [
+        16.2437,
+        57.1774
+      ],
+      "lines": [
+        "Kalmar runs along the Baltic coast in the south-east of Sweden, with Kalmar itself at the strait facing the island of Öland, which belongs to this county too, and Blekinge and Kronoberg to the south.",
+        "The Kalmar Union of 1397 put Denmark, Norway and Sweden under one crown for more than a century, and it was agreed at the castle here.",
+        "Remember the harbour by the stony ground, the union of three kingdoms signed in Kalmar castle, and the great limestone plain of Öland across the water."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kalmar_County",
+        "https://en.wikipedia.org/wiki/Kalmar_Castle",
+        "https://en.wikipedia.org/wiki/Stora_Alvaret"
+      ],
+      "cameraBounds": [
+        [
+          15.143,
+          55.992
+        ],
+        [
+          17.345,
+          58.362
+        ]
+      ],
+      "transition": "Let's bring Kalmar into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.143,
+              55.992
+            ],
+            [
+              17.345,
+              58.362
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Halland",
+      "location": [
+        12.8033,
+        56.9796
+      ],
+      "lines": [
+        "Halland is the narrow coastal county in the south-west, facing the Kattegat between Västra Götaland and Skåne, with Halmstad as its largest city.",
+        "It was Danish until 1658, and the painters who worked in Halmstad in the 1920s made this corner of the country its surrealist outpost.",
+        "Remember Sweden’s summer coast with its long sand beaches, and the painters’ colony that made Halmstad the strangest corner of the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Halland_County",
+        "https://en.wikipedia.org/wiki/Halmstad",
+        "https://en.wikipedia.org/wiki/Halland"
+      ],
+      "cameraBounds": [
+        [
+          11.69,
+          56.184
+        ],
+        [
+          13.916,
+          57.776
+        ]
+      ],
+      "transition": "Let's bring Halland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.69,
+              56.184
+            ],
+            [
+              13.916,
+              57.776
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kronoberg",
+      "location": [
+        14.5773,
+        56.8088
+      ],
+      "lines": [
+        "Kronoberg lies inland in the south of Sweden, with Växjö in its middle, between Halland on the west and Kalmar on the east, and no sea.",
+        "IKEA was founded here in Älmhult in 1943 by a seventeen-year-old, and the first store is now the company’s own museum.",
+        "Remember the crown’s hill, the most forested county in the country, where a seventeen-year-old started a flat-pack furniture empire in a small shop."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kronoberg_County",
+        "https://en.wikipedia.org/wiki/IKEA",
+        "https://en.wikipedia.org/wiki/V%C3%A4xj%C3%B6"
+      ],
+      "cameraBounds": [
+        [
+          12.991,
+          56.209
+        ],
+        [
+          16.164,
+          57.409
+        ]
+      ],
+      "transition": "Let's bring Kronoberg into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.991,
+              56.209
+            ],
+            [
+              16.164,
+              57.409
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blekinge",
+      "location": [
+        15.2399,
+        56.2564
+      ],
+      "lines": [
+        "Blekinge is the smallest county on Sweden’s mainland, on the Baltic in the far south-east between Skåne and Kalmar, with Karlskrona in its southern half.",
+        "Karlskrona was founded in 1680 as a naval base for the king, and the harbour is now a UNESCO world heritage site.",
+        "Remember Sweden’s garden, the mild coast whose oaks were reserved for the warships of the navy, and the baroque harbour town built for the fleet."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blekinge_County",
+        "https://en.wikipedia.org/wiki/Karlskrona",
+        "https://en.wikipedia.org/wiki/Blekinge"
+      ],
+      "cameraBounds": [
+        [
+          14.207,
+          55.656
+        ],
+        [
+          16.273,
+          56.856
+        ]
+      ],
+      "transition": "Let's bring Blekinge into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.207,
+              55.656
+            ],
+            [
+              16.273,
+              56.856
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skåne",
+      "location": [
+        13.5458,
+        55.9433
+      ],
+      "lines": [
+        "Skåne is the southern tip of Sweden, across the Øresund from Denmark, with Malmö on its west coast, Halland to the north-west and Blekinge to the east.",
+        "It is the flattest and most fertile part of the country, about two per cent of Sweden’s area, and it grows a large share of its food.",
+        "Remember the flat green tip of the country, Danish until 1658 and still keeping a Danish-sounding r that other Swedes tease."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sk%C3%A5ne_County",
+        "https://en.wikipedia.org/wiki/Malm%C3%B6",
+        "https://en.wikipedia.org/wiki/Scania"
+      ],
+      "cameraBounds": [
+        [
+          12.244,
+          55.196
+        ],
+        [
+          14.847,
+          56.691
+        ]
+      ],
+      "transition": "Let's bring Skåne into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.244,
+              55.196
+            ],
+            [
+              14.847,
+              56.691
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          11.6,
+          54.94
+        ],
+        [
+          20.99,
+          68.05
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "21 regions of Sweden, one for each target of the map: Norrbotten, Västerbotten, Jämtland, Västernorrland, Gävleborg, Dalarna, Uppsala, Värmland, Västmanland, Stockholm, Örebro, Södermanland, Östergötland, Västra Götaland, Jönköping, Gotland, Kalmar, Halland, Kronoberg, Blekinge and Skåne.",
+    "Remember the shape of Sweden from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

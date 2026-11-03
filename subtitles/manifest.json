@@ -1635,6 +1635,144 @@
           "sha256": "210b2265e98fb1b555e814bb6d7cb531f69b5ded2ab26d58fdb100a9533bfd96"
         }
       ]
+    },
+    {
+      "series": "australia-regions",
+      "episode": 1,
+      "id": "australia-regions-regions",
+      "ledger": "src/lessons/australia-regions-coverage.json",
+      "master": "rendered/australia-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "i1y0HpL7AT0",
+      "files": [
+        {
+          "path": "subtitles/australia-regions/01-australia-regions-regions/subtitles.en.srt",
+          "source": "rendered/australia-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 6186,
+          "sha256": "dea49e35860f6e7cd8154b4bc4dba1326247a86f521ce6ca486ccb4872efabba"
+        },
+        {
+          "path": "subtitles/australia-regions/01-australia-regions-regions/subtitles.en.vtt",
+          "source": "rendered/australia-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 7994,
+          "sha256": "349de2e8c8de19f0bfb43df681bd77628d35037161c88291986c364c2bbeede1"
+        }
+      ]
+    },
+    {
+      "series": "canada-regions",
+      "episode": 1,
+      "id": "canada-regions-regions",
+      "ledger": "src/lessons/canada-regions-coverage.json",
+      "master": "rendered/canada-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "kbvMYoH0bDY",
+      "files": [
+        {
+          "path": "subtitles/canada-regions/01-canada-regions-regions/subtitles.en.srt",
+          "source": "rendered/canada-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 10422,
+          "sha256": "cc72e141ad49968f8cfb389f862dde39039edfcc04499e21382df986a909d2ec"
+        },
+        {
+          "path": "subtitles/canada-regions/01-canada-regions-regions/subtitles.en.vtt",
+          "source": "rendered/canada-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 13230,
+          "sha256": "eb3c68167f9c078d4d87af1dae37b1929edf89ad69b4feabef5815e4883d68f4"
+        }
+      ]
+    },
+    {
+      "series": "south-africa-provinces",
+      "episode": 1,
+      "id": "south-africa-provinces-regions",
+      "ledger": "src/lessons/south-africa-provinces-coverage.json",
+      "master": "rendered/south-africa-provinces-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "IfKuFofmhKY",
+      "files": [
+        {
+          "path": "subtitles/south-africa-provinces/01-south-africa-provinces-regions/subtitles.en.srt",
+          "source": "rendered/south-africa-provinces-20261103/geoclick/subtitles.en.srt",
+          "bytes": 6410,
+          "sha256": "860ec03baaa17a9e6bdddfbb5692fe6c0ce4d55a14a88989b22b51a9009344c2"
+        },
+        {
+          "path": "subtitles/south-africa-provinces/01-south-africa-provinces-regions/subtitles.en.vtt",
+          "source": "rendered/south-africa-provinces-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 8418,
+          "sha256": "eeb06436c64594cd555f33bc7b0ba567b316ff89265c618df6d0ed5b8a74b086"
+        }
+      ]
+    },
+    {
+      "series": "morocco-regions",
+      "episode": 1,
+      "id": "morocco-regions-regions",
+      "ledger": "src/lessons/morocco-regions-coverage.json",
+      "master": "rendered/morocco-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "o2jXgTKKJRo",
+      "files": [
+        {
+          "path": "subtitles/morocco-regions/01-morocco-regions-regions/subtitles.en.srt",
+          "source": "rendered/morocco-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 8346,
+          "sha256": "c5cfd56f866727d3f39fb8556fc7f80590f2ddd772a7b615b49d0c3e68479197"
+        },
+        {
+          "path": "subtitles/morocco-regions/01-morocco-regions-regions/subtitles.en.vtt",
+          "source": "rendered/morocco-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 10954,
+          "sha256": "5c6cc59a33ca8b2f73e492501abe2c8c67e6eb75e4073db813b9e602ab8c3b85"
+        }
+      ]
+    },
+    {
+      "series": "egypt-regions",
+      "episode": 1,
+      "id": "egypt-regions-regions",
+      "ledger": "src/lessons/egypt-regions-coverage.json",
+      "master": "rendered/egypt-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "I-4uyV_cjQI",
+      "files": [
+        {
+          "path": "subtitles/egypt-regions/01-egypt-regions-regions/subtitles.en.srt",
+          "source": "rendered/egypt-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 18206,
+          "sha256": "afaaffe2ec0f188823b2d23341a7464d7b33616841b9f529fedffd0e8b92a674"
+        },
+        {
+          "path": "subtitles/egypt-regions/01-egypt-regions-regions/subtitles.en.vtt",
+          "source": "rendered/egypt-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 23814,
+          "sha256": "e94669337f7ff4e1d5ce18574e146e7354bb3fe3e9cda90411b6f79d8d280af3"
+        }
+      ]
+    },
+    {
+      "series": "sweden-regions",
+      "episode": 1,
+      "id": "sweden-regions-regions",
+      "ledger": "src/lessons/sweden-regions-coverage.json",
+      "master": "rendered/sweden-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "eELcpw0Qycw",
+      "files": [
+        {
+          "path": "subtitles/sweden-regions/01-sweden-regions-regions/subtitles.en.srt",
+          "source": "rendered/sweden-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 13875,
+          "sha256": "f4f1a658e26fbbc264c32840bc8f8e56b48689b213adef4156d124e46af107b9"
+        },
+        {
+          "path": "subtitles/sweden-regions/01-sweden-regions-regions/subtitles.en.vtt",
+          "source": "rendered/sweden-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 18283,
+          "sha256": "4d00abfc524161edf0b3412a3105f5631484f394b0d89670e605900d1fd08776"
+        }
+      ]
     }
   ]
 }

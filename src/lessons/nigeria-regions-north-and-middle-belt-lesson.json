@@ -1,0 +1,1229 @@
+{
+  "title": "Nigeria's states · The north and the middle belt · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "nigeria-regions",
+  "area": "Nigeria",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/nigeria-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      2.41,
+      6.28
+    ],
+    [
+      14.38,
+      13.71
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Sokoto",
+      "location": [
+        5.4371,
+        12.7058
+      ],
+      "bounds": [
+        [
+          3.791,
+          11.246
+        ],
+        [
+          7.083,
+          14.165
+        ]
+      ]
+    },
+    {
+      "name": "Katsina",
+      "location": [
+        7.1147,
+        11.3583
+      ],
+      "bounds": [
+        [
+          6.62,
+          10.835
+        ],
+        [
+          9.24,
+          13.604
+        ]
+      ]
+    },
+    {
+      "name": "Zamfara",
+      "location": [
+        6.1227,
+        12.0188
+      ],
+      "bounds": [
+        [
+          4.749,
+          10.574
+        ],
+        [
+          7.497,
+          13.464
+        ]
+      ]
+    },
+    {
+      "name": "Yobe",
+      "location": [
+        11.0633,
+        11.9847
+      ],
+      "bounds": [
+        [
+          9.294,
+          10.247
+        ],
+        [
+          12.833,
+          13.723
+        ]
+      ]
+    },
+    {
+      "name": "Jigawa",
+      "location": [
+        9.3634,
+        11.9747
+      ],
+      "bounds": [
+        [
+          7.806,
+          10.713
+        ],
+        [
+          10.921,
+          13.236
+        ]
+      ]
+    },
+    {
+      "name": "Borno",
+      "location": [
+        13.1795,
+        11.8752
+      ],
+      "bounds": [
+        [
+          11.317,
+          10.125
+        ],
+        [
+          15.043,
+          13.625
+        ]
+      ]
+    },
+    {
+      "name": "Kebbi",
+      "location": [
+        3.7512,
+        11.2101
+      ],
+      "bounds": [
+        [
+          3.147,
+          9.965
+        ],
+        [
+          6.347,
+          13.465
+        ]
+      ]
+    },
+    {
+      "name": "Kano",
+      "location": [
+        7.9237,
+        11.447
+      ],
+      "bounds": [
+        [
+          7.547,
+          10.296
+        ],
+        [
+          9.541,
+          12.822
+        ]
+      ]
+    },
+    {
+      "name": "Bauchi",
+      "location": [
+        9.9013,
+        10.9995
+      ],
+      "bounds": [
+        [
+          8.442,
+          9.25
+        ],
+        [
+          11.36,
+          12.75
+        ]
+      ]
+    },
+    {
+      "name": "Gombe",
+      "location": [
+        11.2421,
+        10.4586
+      ],
+      "bounds": [
+        [
+          10.363,
+          9.368
+        ],
+        [
+          12.121,
+          11.549
+        ]
+      ]
+    },
+    {
+      "name": "Kaduna",
+      "location": [
+        6.3922,
+        10.6634
+      ],
+      "bounds": [
+        [
+          5.757,
+          8.687
+        ],
+        [
+          9.121,
+          11.808
+        ]
+      ]
+    },
+    {
+      "name": "Niger",
+      "location": [
+        5.4552,
+        9.78
+      ],
+      "bounds": [
+        [
+          3.205,
+          8.03
+        ],
+        [
+          7.705,
+          11.53
+        ]
+      ]
+    },
+    {
+      "name": "Plateau",
+      "location": [
+        9.6027,
+        9.3434
+      ],
+      "bounds": [
+        [
+          8.298,
+          8.103
+        ],
+        [
+          10.907,
+          10.584
+        ]
+      ]
+    },
+    {
+      "name": "Adamawa",
+      "location": [
+        12.577,
+        9.198
+      ],
+      "bounds": [
+        [
+          11.111,
+          7.448
+        ],
+        [
+          14.043,
+          10.948
+        ]
+      ]
+    },
+    {
+      "name": "Kwara",
+      "location": [
+        4.4694,
+        9.0515
+      ],
+      "bounds": [
+        [
+          2.286,
+          7.705
+        ],
+        [
+          6.653,
+          10.398
+        ]
+      ]
+    },
+    {
+      "name": "Federal Capital Territory",
+      "location": [
+        7.1877,
+        8.8588
+      ],
+      "bounds": [
+        [
+          6.388,
+          8.259
+        ],
+        [
+          7.988,
+          9.459
+        ]
+      ]
+    },
+    {
+      "name": "Nasarawa",
+      "location": [
+        8.293,
+        8.5862
+      ],
+      "bounds": [
+        [
+          6.64,
+          7.637
+        ],
+        [
+          9.946,
+          9.536
+        ]
+      ]
+    },
+    {
+      "name": "Oyo",
+      "location": [
+        3.6136,
+        8.1
+      ],
+      "bounds": [
+        [
+          2.436,
+          6.8
+        ],
+        [
+          4.791,
+          9.4
+        ]
+      ]
+    },
+    {
+      "name": "Taraba",
+      "location": [
+        10.5705,
+        8.0199
+      ],
+      "bounds": [
+        [
+          8.819,
+          6.27
+        ],
+        [
+          12.322,
+          9.77
+        ]
+      ]
+    },
+    {
+      "name": "Benue",
+      "location": [
+        8.6852,
+        7.2758
+      ],
+      "bounds": [
+        [
+          7.196,
+          6.204
+        ],
+        [
+          10.174,
+          8.348
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Nigeria's states, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 20 of the Nigeria regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Sokoto",
+      "location": [
+        5.4371,
+        12.7058
+      ],
+      "lines": [
+        "Sokoto sits in the far north-west of Nigeria, where the country runs up into the Sahel, with Kebbi to the west and Zamfara to the east and its capital Sokoto in the middle of the dry scrubland.",
+        "Its name comes from the Arabic word suq, a market, and it gave its name to the Sokoto Caliphate, founded in 1804 by Usman dan Fodio, which was the largest state in Africa in the nineteenth century.",
+        "Remember the market that became an empire, in the far north-west corner where the dry Sahel begins."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sokoto",
+        "https://en.wikipedia.org/wiki/Sokoto_Caliphate",
+        "https://en.wikipedia.org/wiki/Usman_dan_Fodio"
+      ],
+      "cameraBounds": [
+        [
+          3.791,
+          11.246
+        ],
+        [
+          7.083,
+          14.165
+        ]
+      ],
+      "transition": "Let's bring Sokoto into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.791,
+              11.246
+            ],
+            [
+              7.083,
+              14.165
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Katsina",
+      "location": [
+        7.1147,
+        11.3583
+      ],
+      "lines": [
+        "Katsina lies in the north of Nigeria, in the dry belt above the Niger river, touching Jigawa, Kano, Kaduna and Zamfara, with the city of Katsina at its heart.",
+        "It was one of the seven original Hausa city-states and a centre of Islamic learning that rivalled Timbuktu in the sixteenth century, and its mud-built Gobarau minaret is among the oldest surviving structures in West Africa.",
+        "Remember the mud minaret of the dry north, raised by a city-state that rivalled Timbuktu as a place of learning."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Katsina_State",
+        "https://en.wikipedia.org/wiki/Katsina",
+        "https://en.wikipedia.org/wiki/Gobarau_Minaret"
+      ],
+      "cameraBounds": [
+        [
+          6.62,
+          10.835
+        ],
+        [
+          9.24,
+          13.604
+        ]
+      ],
+      "transition": "Let's bring Katsina into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.62,
+              10.835
+            ],
+            [
+              9.24,
+              13.604
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zamfara",
+      "location": [
+        6.1227,
+        12.0188
+      ],
+      "lines": [
+        "Zamfara lies in the north-west of Nigeria, tucked between Kebbi, Sokoto, Katsina, Kaduna and Niger, with its capital Gusau in the middle of the dry northern plain.",
+        "In 1999 it became the first Nigerian state to adopt sharia criminal law, and eleven other states have followed since.",
+        "Remember the first state to bring sharia law into its courts, and the line between the Muslim north and the rest of the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zamfara_State",
+        "https://en.wikipedia.org/wiki/Zamfara",
+        "https://en.wikipedia.org/wiki/Sharia"
+      ],
+      "cameraBounds": [
+        [
+          4.749,
+          10.574
+        ],
+        [
+          7.497,
+          13.464
+        ]
+      ],
+      "transition": "Let's bring Zamfara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.749,
+              10.574
+            ],
+            [
+              7.497,
+              13.464
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yobe",
+      "location": [
+        11.0633,
+        11.9847
+      ],
+      "lines": [
+        "Yobe lies in the far north-east of Nigeria, on the edge of the Sahel, between Borno to the east and Bauchi to the south, with Damaturu in the middle of the scrub.",
+        "It was split from Borno in 1991 and takes its name from the Yobe river, which forms part of the border with the country of Niger.",
+        "Remember the far north-east corner, split away from Borno, where the wetlands on its edge are a vital stop for birds crossing the Sahara."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yobe_State",
+        "https://en.wikipedia.org/wiki/Damaturu",
+        "https://en.wikipedia.org/wiki/Hadejia"
+      ],
+      "cameraBounds": [
+        [
+          9.294,
+          10.247
+        ],
+        [
+          12.833,
+          13.723
+        ]
+      ],
+      "transition": "Let's bring Yobe into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              9.294,
+              10.247
+            ],
+            [
+              12.833,
+              13.723
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jigawa",
+      "location": [
+        9.3634,
+        11.9747
+      ],
+      "lines": [
+        "Jigawa lies in the north of Nigeria, between Kano and Yobe, with its capital Dutse, on the dry plains above the Hadejia river.",
+        "Its name comes from a Hausa word for sandy soil, which describes most of it, and split from Kano in 1991 it is one of the most rural states in the country.",
+        "Remember the sandy soil state, one of the most rural in Nigeria, where a single river waters rice and wheat in dry country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jigawa_State",
+        "https://en.wikipedia.org/wiki/Dutse",
+        "https://en.wikipedia.org/wiki/Hadejia"
+      ],
+      "cameraBounds": [
+        [
+          7.806,
+          10.713
+        ],
+        [
+          10.921,
+          13.236
+        ]
+      ],
+      "transition": "Let's bring Jigawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.806,
+              10.713
+            ],
+            [
+              10.921,
+              13.236
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Borno",
+      "location": [
+        13.1795,
+        11.8752
+      ],
+      "lines": [
+        "Borno occupies the far north-east of Nigeria, where the country runs up into the Sahel, with Yobe and Gombe along its western side and Maiduguri as its largest city.",
+        "Its history comes from the Kanem-Bornu empire, whose dynasty ruled for about a thousand years, and Lake Chad on its border has shrunk by about ninety per cent since the 1960s.",
+        "Remember the thousand-year empire in the far north-east, and the great lake on its border that has almost disappeared."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Borno_State",
+        "https://en.wikipedia.org/wiki/Kanem-Bornu_Empire",
+        "https://en.wikipedia.org/wiki/Lake_Chad"
+      ],
+      "cameraBounds": [
+        [
+          11.317,
+          10.125
+        ],
+        [
+          15.043,
+          13.625
+        ]
+      ],
+      "transition": "Let's bring Borno into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.317,
+              10.125
+            ],
+            [
+              15.043,
+              13.625
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kebbi",
+      "location": [
+        3.7512,
+        11.2101
+      ],
+      "lines": [
+        "Kebbi lies in the far north-west of Nigeria, west of Sokoto and Zamfara, with its capital Birnin Kebbi, in the dry land along the Niger river.",
+        "It is named for the old Kebbi kingdom, and the Argungu fishing festival there brings thousands of men into the river at once with hand nets and gourds, a truce tradition dating from 1934.",
+        "Remember the north-west rice state, where thousands of men fish the river together and the festival has held the peace since 1934."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kebbi_State",
+        "https://en.wikipedia.org/wiki/Argungu_Fishing_Festival",
+        "https://en.wikipedia.org/wiki/Birnin_Kebbi"
+      ],
+      "cameraBounds": [
+        [
+          3.147,
+          9.965
+        ],
+        [
+          6.347,
+          13.465
+        ]
+      ],
+      "transition": "Let's bring Kebbi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.147,
+              9.965
+            ],
+            [
+              6.347,
+              13.465
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kano",
+      "location": [
+        7.9237,
+        11.447
+      ],
+      "lines": [
+        "Kano sits in the north of Nigeria, between Katsina and Jigawa, with the city of Kano at its centre, above the Niger river and out on the edge of the Sahel.",
+        "It was the greatest trans-Saharan trade city in Hausaland, walled since the eleventh century, and its dye pits at Kofar Mata have been worked since 1498.",
+        "Remember the walled market city of the north, trading across the Sahara and dyeing cloth since 1498."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kano_State",
+        "https://en.wikipedia.org/wiki/Kano",
+        "https://en.wikipedia.org/wiki/Kofar_Mata_Dye_Pits"
+      ],
+      "cameraBounds": [
+        [
+          7.547,
+          10.296
+        ],
+        [
+          9.541,
+          12.822
+        ]
+      ],
+      "transition": "Let's bring Kano into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.547,
+              10.296
+            ],
+            [
+              9.541,
+              12.822
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bauchi",
+      "location": [
+        9.9013,
+        10.9995
+      ],
+      "lines": [
+        "Bauchi lies in the north of Nigeria, west of Gombe and Yobe and above the Benue, with its capital Bauchi in the middle of the uplands.",
+        "Yankari game reserve here holds Nigeria’s largest surviving population of elephants, and the state was the home of Sir Abubakar Tafawa Balewa, the country’s first prime minister.",
+        "Remember the elephants of Yankari and the first prime minister, in the north where the Benue river turns east."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bauchi_State",
+        "https://en.wikipedia.org/wiki/Yankari",
+        "https://en.wikipedia.org/wiki/Abubakar_Tafawa_Balewa"
+      ],
+      "cameraBounds": [
+        [
+          8.442,
+          9.25
+        ],
+        [
+          11.36,
+          12.75
+        ]
+      ],
+      "transition": "Let's bring Bauchi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.442,
+              9.25
+            ],
+            [
+              11.36,
+              12.75
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gombe",
+      "location": [
+        11.2421,
+        10.4586
+      ],
+      "lines": [
+        "Gombe is a small state in the north-east of Nigeria, between Bauchi and Borno, with the town of Gombe at its centre, on the edge of the Sahel.",
+        "It was founded by a Fulani leader during the jihad of the early 1800s and split from Bauchi in 1996, one of the last states to be created.",
+        "Remember the young state in the north-east, split from Bauchi in 1996, whose hills give it more relief than the plains around it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gombe_State",
+        "https://en.wikipedia.org/wiki/Gombe,_Nigeria",
+        "https://en.wikipedia.org/wiki/Fulani_people"
+      ],
+      "cameraBounds": [
+        [
+          10.363,
+          9.368
+        ],
+        [
+          12.121,
+          11.549
+        ]
+      ],
+      "transition": "Let's bring Gombe into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.363,
+              9.368
+            ],
+            [
+              12.121,
+              11.549
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kaduna",
+      "location": [
+        6.3922,
+        10.6634
+      ],
+      "lines": [
+        "Kaduna lies in the middle-north of Nigeria, a long state running north from the Niger river, touching Zamfara, Kano, Katsina and the Federal Capital Territory.",
+        "The British made it the capital of the Northern Region in 1917, and its name comes from the Hausa kadduna, the plural of kada, a crocodile, because the river was full of them.",
+        "Remember the crocodile river, the colonial capital of the north, sitting on the fault line between the Muslim north and the Christian south."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kaduna_State",
+        "https://en.wikipedia.org/wiki/Kaduna",
+        "https://en.wikipedia.org/wiki/Hausa_language"
+      ],
+      "cameraBounds": [
+        [
+          5.757,
+          8.687
+        ],
+        [
+          9.121,
+          11.808
+        ]
+      ],
+      "transition": "Let's bring Kaduna into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.757,
+              8.687
+            ],
+            [
+              9.121,
+              11.808
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Niger",
+      "location": [
+        5.4552,
+        9.78
+      ],
+      "lines": [
+        "Niger state lies in the west of central Nigeria, the largest state in the country by area, reaching north to Kebbi and south to Kwara, with Minna in the middle.",
+        "It is named for the Niger river, whose own name probably comes from a Tuareg phrase meaning river of rivers, and it holds both the Kainji and Shiroro dams.",
+        "Remember the biggest state on the map, named after the river that gives the country its name, with two great dams holding the water back."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Niger_State",
+        "https://en.wikipedia.org/wiki/Niger_River",
+        "https://en.wikipedia.org/wiki/Kainji_Dam"
+      ],
+      "cameraBounds": [
+        [
+          3.205,
+          8.03
+        ],
+        [
+          7.705,
+          11.53
+        ]
+      ],
+      "transition": "Let's bring Niger into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.205,
+              8.03
+            ],
+            [
+              7.705,
+              11.53
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plateau",
+      "location": [
+        9.6027,
+        9.3434
+      ],
+      "lines": [
+        "Plateau state lies in the middle of Nigeria, between the Benue and the Niger rivers, bordered by Bauchi, Kaduna, Nasarawa and Taraba, with Jos as its capital.",
+        "It is named for the Jos Plateau, which rises to about 1,200 metres, and the Nok culture nearby produced terracotta sculpture from around 500 BC, the oldest figurative art in West Africa.",
+        "Remember the cool highland in the middle of the hot country, where the British built a hill station and the oldest clay figures in West Africa came out of the ground."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Plateau_State",
+        "https://en.wikipedia.org/wiki/Jos",
+        "https://en.wikipedia.org/wiki/Nok_culture"
+      ],
+      "cameraBounds": [
+        [
+          8.298,
+          8.103
+        ],
+        [
+          10.907,
+          10.584
+        ]
+      ],
+      "transition": "Let's bring Plateau into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.298,
+              8.103
+            ],
+            [
+              10.907,
+              10.584
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adamawa",
+      "location": [
+        12.577,
+        9.198
+      ],
+      "lines": [
+        "Adamawa lies in the east of Nigeria, above the Benue and up against the mountains of Cameroon, bordered by Borno, Gombe and Taraba, with Mubi as its largest city.",
+        "It is named for Modibbo Adama, the Fulani leader who founded an emirate here in the early 1800s, and its terraced Sukur cultural landscape of fields and stone paths is a UNESCO world heritage site.",
+        "Remember the terraced hills of Sukur in the east, where mountain communities held out against both the jihad and the colonists."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Adamawa_State",
+        "https://en.wikipedia.org/wiki/Modibo_Adama",
+        "https://en.wikipedia.org/wiki/Sukur"
+      ],
+      "cameraBounds": [
+        [
+          11.111,
+          7.448
+        ],
+        [
+          14.043,
+          10.948
+        ]
+      ],
+      "transition": "Let's bring Adamawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.111,
+              7.448
+            ],
+            [
+              14.043,
+              10.948
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kwara",
+      "location": [
+        4.4694,
+        9.0515
+      ],
+      "lines": [
+        "Kwara lies in the west of Nigeria, in the middle belt, bordered by Ekiti, Kogi, Niger, Osun and Oyo, with Ilorin in the middle.",
+        "Its name comes from a Nupe word for the Niger river, and Ilorin was a Yoruba town taken into the Sokoto Caliphate, which is why it is Muslim and Yoruba-speaking at once.",
+        "Remember the meeting point of north and south, a Yoruba city under a caliphate, standing on the seam between the two halves of Nigeria."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kwara_State",
+        "https://en.wikipedia.org/wiki/Ilorin",
+        "https://en.wikipedia.org/wiki/Sokoto_Caliphate"
+      ],
+      "cameraBounds": [
+        [
+          2.286,
+          7.705
+        ],
+        [
+          6.653,
+          10.398
+        ]
+      ],
+      "transition": "Let's bring Kwara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2.286,
+              7.705
+            ],
+            [
+              6.653,
+              10.398
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Federal Capital Territory",
+      "location": [
+        7.1877,
+        8.8588
+      ],
+      "lines": [
+        "The Federal Capital Territory is the federal district in the middle of Nigeria, carved out in 1976 and ringed by Kaduna, Kogi, Nasarawa and Niger, with Abuja inside it.",
+        "It is not a state in the ordinary sense but the seat of the federal government, which moved there from Lagos in 1991, and Aso Rock, a 400 metre monolith, stands behind the presidential complex.",
+        "Remember the federal district that is not a state, the neutral capital chosen for the middle of the country, with the great rock behind the presidential offices."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Federal_Capital_Territory",
+        "https://en.wikipedia.org/wiki/Abuja",
+        "https://en.wikipedia.org/wiki/Aso_Rock"
+      ],
+      "cameraBounds": [
+        [
+          6.388,
+          8.259
+        ],
+        [
+          7.988,
+          9.459
+        ]
+      ],
+      "transition": "Let's bring Federal Capital Territory into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.388,
+              8.259
+            ],
+            [
+              7.988,
+              9.459
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nasarawa",
+      "location": [
+        8.293,
+        8.5862
+      ],
+      "lines": [
+        "Nasarawa lies in the middle of Nigeria, south of Kaduna and east of the Federal Capital Territory, bordered by Benue, Kogi, Plateau and Taraba, with Lafia in the middle.",
+        "Its name comes from the Arabic nasara, meaning victory or help, given by a nineteenth-century emir, and split from Plateau in 1996 it holds a large share of Nigeria’s solid minerals, including barite and lithium.",
+        "Remember the state of victory, split from the Plateau in 1996, with high waterfalls and a great share of the country’s minerals."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nasarawa_State",
+        "https://en.wikipedia.org/wiki/Lafia",
+        "https://en.wikipedia.org/wiki/Farin_Ruwa_Falls"
+      ],
+      "cameraBounds": [
+        [
+          6.64,
+          7.637
+        ],
+        [
+          9.946,
+          9.536
+        ]
+      ],
+      "transition": "Let's bring Nasarawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.64,
+              7.637
+            ],
+            [
+              9.946,
+              9.536
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oyo",
+      "location": [
+        3.6136,
+        8.1
+      ],
+      "lines": [
+        "Oyo lies in the south-west of Nigeria, inland from the coast, bordered by Kwara, Ogun and Osun, with Ibadan in the middle of the farmland.",
+        "It is named for the Oyo Empire, the dominant Yoruba power from the 1600s to the 1830s, and Ibadan was the largest city in tropical Africa for much of the twentieth century.",
+        "Remember the old Yoruba empire, and the great inland city that grew so fast it outgrew everything around it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oyo_State",
+        "https://en.wikipedia.org/wiki/Ibadan",
+        "https://en.wikipedia.org/wiki/Oyo_Empire"
+      ],
+      "cameraBounds": [
+        [
+          2.436,
+          6.8
+        ],
+        [
+          4.791,
+          9.4
+        ]
+      ],
+      "transition": "Let's bring Oyo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2.436,
+              6.8
+            ],
+            [
+              4.791,
+              9.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taraba",
+      "location": [
+        10.5705,
+        8.0199
+      ],
+      "lines": [
+        "Taraba lies in the east of Nigeria, running up from the Benue to the border with Cameroon, bordered by Adamawa, Bauchi, Benue, Gombe, Nasarawa and Plateau, with Jalingo in the middle.",
+        "The Mambilla Plateau inside it is the highest land in Nigeria, above 1,800 metres, with tea plantations and a temperate climate, and it is one of the most ethnically diverse states in the country.",
+        "Remember the high tea country in the east, where the mountains are cool and the peoples are many."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Taraba_State",
+        "https://en.wikipedia.org/wiki/Jalingo",
+        "https://en.wikipedia.org/wiki/Mambilla_Plateau"
+      ],
+      "cameraBounds": [
+        [
+          8.819,
+          6.27
+        ],
+        [
+          12.322,
+          9.77
+        ]
+      ],
+      "transition": "Let's bring Taraba into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.819,
+              6.27
+            ],
+            [
+              12.322,
+              9.77
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Benue",
+      "location": [
+        8.6852,
+        7.2758
+      ],
+      "lines": [
+        "Benue lies in the middle-south of Nigeria, a long valley following the river of the same name east towards Cameroon, bordered by Cross River, Ebonyi, Enugu, Kogi, Nasarawa and Taraba, with Makurdi in the middle.",
+        "It is called the food basket of the nation because it grows a large share of Nigeria’s yams, and the Tiv people who live here were traditionally organised without chiefs.",
+        "Remember the food basket in the river valley, the yams of Benue, and the Tiv people who had no chiefs."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Benue_State",
+        "https://en.wikipedia.org/wiki/Makurdi",
+        "https://en.wikipedia.org/wiki/Yam_(vegetable)"
+      ],
+      "cameraBounds": [
+        [
+          7.196,
+          6.204
+        ],
+        [
+          10.174,
+          8.348
+        ]
+      ],
+      "transition": "Let's bring Benue into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.196,
+              6.204
+            ],
+            [
+              10.174,
+              8.348
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          2.41,
+          6.28
+        ],
+        [
+          14.38,
+          13.71
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "20 regions of Nigeria, one for each target of the map: Sokoto, Katsina, Zamfara, Yobe, Jigawa, Borno, Kebbi, Kano, Bauchi, Gombe, Kaduna, Niger, Plateau, Adamawa, Kwara, Federal Capital Territory, Nasarawa, Oyo, Taraba and Benue.",
+    "Remember the shape of Nigeria from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

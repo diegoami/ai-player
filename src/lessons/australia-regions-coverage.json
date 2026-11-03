@@ -1,0 +1,63 @@
+{
+  "edition": "Australia · Regions of Europe · one lesson per country · November 2026",
+  "status": "complete",
+  "scope": "All 8 region targets of GeoClick's native australia-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 8,
+  "countryCount": 1,
+  "nativeTargetCount": 8,
+  "nativeTeachingStopCount": 8,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 8,
+  "episodes": [
+    {
+      "id": "australia-regions-regions",
+      "title": "Australia's states",
+      "status": "complete",
+      "lesson": "src/lessons/australia-regions-lesson.json",
+      "places": [
+        "Northern Territory",
+        "Queensland",
+        "Western Australia",
+        "South Australia",
+        "New South Wales",
+        "Australian Capital Territory",
+        "Victoria",
+        "Tasmania"
+      ],
+      "countries": [
+        "Northern Territory",
+        "Queensland",
+        "Western Australia",
+        "South Australia",
+        "New South Wales",
+        "Australian Capital Territory",
+        "Victoria",
+        "Tasmania"
+      ],
+      "nativeTargets": [
+        "Northern Territory",
+        "Queensland",
+        "Western Australia",
+        "South Australia",
+        "New South Wales",
+        "Australian Capital Territory",
+        "Victoria",
+        "Tasmania"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/australia-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 420.32,
+      "covered": [
+        "Northern Territory",
+        "Queensland",
+        "Western Australia",
+        "South Australia",
+        "New South Wales",
+        "Australian Capital Territory",
+        "Victoria",
+        "Tasmania"
+      ]
+    }
+  ]
+}

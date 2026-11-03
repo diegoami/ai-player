@@ -1,0 +1,993 @@
+{
+  "title": "Iran's provinces · The north and the west · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "iran-provinces",
+  "area": "Iran",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/iran-provinces",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      43.22,
+      33.58
+    ],
+    [
+      58.25,
+      39.44
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Ardabil",
+      "location": [
+        47.7639,
+        38.4441
+      ],
+      "bounds": [
+        [
+          46.366,
+          36.892
+        ],
+        [
+          49.162,
+          39.996
+        ]
+      ]
+    },
+    {
+      "name": "East Azerbaijan",
+      "location": [
+        46.8059,
+        37.9719
+      ],
+      "bounds": [
+        [
+          44.744,
+          36.453
+        ],
+        [
+          48.868,
+          39.491
+        ]
+      ]
+    },
+    {
+      "name": "West Azerbaijan",
+      "location": [
+        44.4248,
+        38.0946
+      ],
+      "bounds": [
+        [
+          43.653,
+          36.136
+        ],
+        [
+          47.741,
+          39.636
+        ]
+      ]
+    },
+    {
+      "name": "Gilan",
+      "location": [
+        48.6917,
+        37.6021
+      ],
+      "bounds": [
+        [
+          48.191,
+          36.328
+        ],
+        [
+          50.841,
+          38.668
+        ]
+      ]
+    },
+    {
+      "name": "North Khorasan",
+      "location": [
+        57.0475,
+        37.4561
+      ],
+      "bounds": [
+        [
+          55.572,
+          36.439
+        ],
+        [
+          58.523,
+          38.473
+        ]
+      ]
+    },
+    {
+      "name": "Golestan",
+      "location": [
+        54.9767,
+        37.3017
+      ],
+      "bounds": [
+        [
+          53.388,
+          36.281
+        ],
+        [
+          56.566,
+          38.323
+        ]
+      ]
+    },
+    {
+      "name": "Zanjan",
+      "location": [
+        47.4368,
+        36.6679
+      ],
+      "bounds": [
+        [
+          46.92,
+          35.347
+        ],
+        [
+          49.655,
+          37.432
+        ]
+      ]
+    },
+    {
+      "name": "Mazandaran",
+      "location": [
+        52.2124,
+        36.3896
+      ],
+      "bounds": [
+        [
+          49.962,
+          35.64
+        ],
+        [
+          54.462,
+          37.139
+        ]
+      ]
+    },
+    {
+      "name": "Qazvin",
+      "location": [
+        49.7011,
+        36.1253
+      ],
+      "bounds": [
+        [
+          48.326,
+          35.266
+        ],
+        [
+          51.076,
+          36.985
+        ]
+      ]
+    },
+    {
+      "name": "Alborz",
+      "location": [
+        50.8212,
+        35.9617
+      ],
+      "bounds": [
+        [
+          50.021,
+          35.362
+        ],
+        [
+          51.621,
+          36.562
+        ]
+      ]
+    },
+    {
+      "name": "Semnan",
+      "location": [
+        54.4381,
+        35.8397
+      ],
+      "bounds": [
+        [
+          52.188,
+          34.09
+        ],
+        [
+          56.688,
+          37.59
+        ]
+      ]
+    },
+    {
+      "name": "Kurdistan",
+      "location": [
+        45.8041,
+        35.9193
+      ],
+      "bounds": [
+        [
+          45.161,
+          34.522
+        ],
+        [
+          48.566,
+          36.728
+        ]
+      ]
+    },
+    {
+      "name": "Tehran",
+      "location": [
+        51.0397,
+        35.2891
+      ],
+      "bounds": [
+        [
+          50.498,
+          34.72
+        ],
+        [
+          53.366,
+          36.271
+        ]
+      ]
+    },
+    {
+      "name": "Hamadan",
+      "location": [
+        48.5408,
+        34.8396
+      ],
+      "bounds": [
+        [
+          47.416,
+          33.776
+        ],
+        [
+          49.665,
+          35.903
+        ]
+      ]
+    },
+    {
+      "name": "Qom",
+      "location": [
+        50.9712,
+        34.6621
+      ],
+      "bounds": [
+        [
+          49.832,
+          33.967
+        ],
+        [
+          52.11,
+          35.357
+        ]
+      ]
+    },
+    {
+      "name": "Markazi",
+      "location": [
+        49.9783,
+        34.5823
+      ],
+      "bounds": [
+        [
+          48.66,
+          33.228
+        ],
+        [
+          51.297,
+          35.937
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Iran's provinces, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 16 of the Iran regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Ardabil",
+      "location": [
+        47.7639,
+        38.4441
+      ],
+      "lines": [
+        "Ardabil lies in the far north-west of Iran, just inland from the Caspian shore and tucked under the Caucasus, with the city of Ardabil as its largest city.",
+        "Its name appears as Ardavil in the medieval geography Hudud al-Alam, and the shrine ensemble at Ardabil was placed on the UNESCO World Heritage List in 2010.",
+        "Remember the north-western corner, where the great shrine of Ardabil and the hot spa waters of Sareyn share the same high valleys."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ardabil_Province",
+        "https://en.wikipedia.org/wiki/Sheikh_Safi_al-Din_Kh%C4%81neg%C4%81h_and_Shrine_Ensemble",
+        "https://en.wikipedia.org/wiki/Sareyn"
+      ],
+      "cameraBounds": [
+        [
+          46.366,
+          36.892
+        ],
+        [
+          49.162,
+          39.996
+        ]
+      ],
+      "transition": "Let's bring Ardabil into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              46.366,
+              36.892
+            ],
+            [
+              49.162,
+              39.996
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East Azerbaijan",
+      "location": [
+        46.8059,
+        37.9719
+      ],
+      "lines": [
+        "East Azerbaijan fills the north-west of Iran around Tabriz, its largest city, on the high plain that steps down to the Caspian Sea in the north.",
+        "The name Azerbaijan comes from Atropates, the Persian governor who held this land after Alexander’s conquest, and at Kandovan people still live in homes carved into the cones of volcanic rock.",
+        "Remember the province of Tabriz, the cone houses dug into volcanic rock and the name that came from Alexander’s own governor."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/East_Azerbaijan_Province",
+        "https://en.wikipedia.org/wiki/Kandovan",
+        "https://en.wikipedia.org/wiki/Tabriz"
+      ],
+      "cameraBounds": [
+        [
+          44.744,
+          36.453
+        ],
+        [
+          48.868,
+          39.491
+        ]
+      ],
+      "transition": "Let's bring East Azerbaijan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              44.744,
+              36.453
+            ],
+            [
+              48.868,
+              39.491
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Azerbaijan",
+      "location": [
+        44.4248,
+        38.0946
+      ],
+      "lines": [
+        "West Azerbaijan is the western half of Iranian Azerbaijan, with Urmia as its largest city beside the great salt lake of the same name, and Kurdistan along its southern border.",
+        "Lake Urmia was once the largest lake in the Middle East and has shrunk drastically since the 1990s, while the Sasanian sanctuary of Takht-e Soleyman, with one of the great fire temples of Zoroastrianism, stands near its southern shore.",
+        "Remember the shrinking salt lake that was once the biggest in the Middle East, with the Zoroastrian fire temple on its southern rim."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Azerbaijan_Province",
+        "https://en.wikipedia.org/wiki/Lake_Urmia",
+        "https://en.wikipedia.org/wiki/Takht-e_Soleyman"
+      ],
+      "cameraBounds": [
+        [
+          43.653,
+          36.136
+        ],
+        [
+          47.741,
+          39.636
+        ]
+      ],
+      "transition": "Let's bring West Azerbaijan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              43.653,
+              36.136
+            ],
+            [
+              47.741,
+              39.636
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gilan",
+      "location": [
+        48.6917,
+        37.6021
+      ],
+      "lines": [
+        "Gilan runs along the Caspian shore in the north-west, a green strip of forest and rice between the mountains and the sea, with Rasht as its largest city.",
+        "The province is named for the Gelae, a people who lived here in antiquity, and tea was first planted here around 1900 by Kashef al-Saltaneh, who brought the plants from India.",
+        "Remember the green tea coast of the Caspian, where the houses of Masuleh are stacked up the hillside so that one roof is the next yard."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gilan_Province",
+        "https://en.wikipedia.org/wiki/Masuleh",
+        "https://en.wikipedia.org/wiki/Rasht"
+      ],
+      "cameraBounds": [
+        [
+          48.191,
+          36.328
+        ],
+        [
+          50.841,
+          38.668
+        ]
+      ],
+      "transition": "Let's bring Gilan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              48.191,
+              36.328
+            ],
+            [
+              50.841,
+              38.668
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North Khorasan",
+      "location": [
+        57.0475,
+        37.4561
+      ],
+      "lines": [
+        "North Khorasan sits in the north-east of Iran, with Bojnurd as its largest city, between the Turkmen plain of Golestan in the west and the old heartland of Khorasan to the south.",
+        "It was created in 2004 from the historical Khorasan, whose name refers to the rising sun or the east, and the Kurdish communities around Bojnurd and Shirvan descend from tribes the Safavids moved here.",
+        "Remember the new province in the old sunrise land, where the wrestlers of Esfarayen fight in heavy jackets called chukha."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Khorasan_Province",
+        "https://en.wikipedia.org/wiki/Khorasan",
+        "https://en.wikipedia.org/wiki/Bojnurd"
+      ],
+      "cameraBounds": [
+        [
+          55.572,
+          36.439
+        ],
+        [
+          58.523,
+          38.473
+        ]
+      ],
+      "transition": "Let's bring North Khorasan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              55.572,
+              36.439
+            ],
+            [
+              58.523,
+              38.473
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Golestan",
+      "location": [
+        54.9767,
+        37.3017
+      ],
+      "lines": [
+        "Golestan lies on the Caspian shore in the north of Iran, with its largest city Gorgan set back from the water, between Mazandaran in the west and North Khorasan in the east.",
+        "Its name means the rose garden and it was split from Mazandaran in 1997, while the Turkmen of its northern plain still breed horses and weave carpets of their own style.",
+        "Remember the rose garden on the Caspian, with the brick wall of Gorgan running for two hundred kilometres behind the Turkmen plain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Golestan_Province",
+        "https://en.wikipedia.org/wiki/Great_Wall_of_Gorgan",
+        "https://en.wikipedia.org/wiki/Gorgan"
+      ],
+      "cameraBounds": [
+        [
+          53.388,
+          36.281
+        ],
+        [
+          56.566,
+          38.323
+        ]
+      ],
+      "transition": "Let's bring Golestan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              53.388,
+              36.281
+            ],
+            [
+              56.566,
+              38.323
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zanjan",
+      "location": [
+        47.4368,
+        36.6679
+      ],
+      "lines": [
+        "Zanjan sits in the north-west of Iran, a small province between the Caspian plain and the Zagros, touching seven neighbours, with the city of Zanjan in the middle.",
+        "Its name is of uncertain origin, and the dome of Soltaniyeh, built for the Mongol ruler Oljeitu around 1310, is one of the largest brick domes in the world.",
+        "Remember the province with seven neighbours, whose salt mine has kept the bodies of miners in its walls for centuries."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zanjan_Province",
+        "https://en.wikipedia.org/wiki/Soltaniyeh",
+        "https://en.wikipedia.org/wiki/Zanjan"
+      ],
+      "cameraBounds": [
+        [
+          46.92,
+          35.347
+        ],
+        [
+          49.655,
+          37.432
+        ]
+      ],
+      "transition": "Let's bring Zanjan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              46.92,
+              35.347
+            ],
+            [
+              49.655,
+              37.432
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mazandaran",
+      "location": [
+        52.2124,
+        36.3896
+      ],
+      "lines": [
+        "Mazandaran runs along the Caspian shore south of Gilan, a narrow strip of forest and rice between the sea and the Elburz mountains, with Sari as its largest city.",
+        "It was historically known as Tabaristan, the Veresk Bridge carries the Trans-Iranian Railway high through its mountains, and parts of its ancient Hyrcanian forest are on the UNESCO World Heritage List.",
+        "Remember the narrow green rice coast under the Elburz, where the railway crosses the Veresk bridge above the valley floor."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mazandaran_Province",
+        "https://en.wikipedia.org/wiki/Hyrcanian_forests",
+        "https://en.wikipedia.org/wiki/Veresk_Bridge"
+      ],
+      "cameraBounds": [
+        [
+          49.962,
+          35.64
+        ],
+        [
+          54.462,
+          37.139
+        ]
+      ],
+      "transition": "Let's bring Mazandaran into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              49.962,
+              35.64
+            ],
+            [
+              54.462,
+              37.139
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qazvin",
+      "location": [
+        49.7011,
+        36.1253
+      ],
+      "lines": [
+        "Qazvin lies in the north-west of Iran, just south of the Caspian Sea and west of the Elburz mountains, between Mazandaran and Markazi, with the city of Qazvin in its middle.",
+        "It became a separate province in 1997, and in 1090 Hasan Sabbah took control of Alamut Castle in present-day Qazvin and made it the base of the Nizari Ismailis.",
+        "Remember the province that was split off in 1997, with the mountain fortress of Alamut where Hasan Sabbah built his stronghold in 1090."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qazvin_Province",
+        "https://en.wikipedia.org/wiki/Alamut_Castle",
+        "https://en.wikipedia.org/wiki/Chehel_Sotoun"
+      ],
+      "cameraBounds": [
+        [
+          48.326,
+          35.266
+        ],
+        [
+          51.076,
+          36.985
+        ]
+      ],
+      "transition": "Let's bring Qazvin into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              48.326,
+              35.266
+            ],
+            [
+              51.076,
+              36.985
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alborz",
+      "location": [
+        50.8212,
+        35.9617
+      ],
+      "lines": [
+        "Alborz is the small province immediately south of the Caspian, wrapped around the Elburz mountains, with Karaj as its largest city right below Tehran.",
+        "It takes its name from the Alborz mountains and was separated from Tehran Province in 2010, and the Shah Abbasi caravanserai at Karaj was built under the Safavid shah Soleiman and later served as a military base and an agricultural school.",
+        "Remember the youngest province around Tehran, with the Safavid caravanserai at Karaj that later became a farm school."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alborz_Province",
+        "https://en.wikipedia.org/wiki/Karaj",
+        "https://en.wikipedia.org/wiki/Alborz_Mountains"
+      ],
+      "cameraBounds": [
+        [
+          50.021,
+          35.362
+        ],
+        [
+          51.621,
+          36.562
+        ]
+      ],
+      "transition": "Let's bring Alborz into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              50.021,
+              35.362
+            ],
+            [
+              51.621,
+              36.562
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Semnan",
+      "location": [
+        54.4381,
+        35.8397
+      ],
+      "lines": [
+        "Semnan lies in north-central Iran, running from the mountains below the Caspian down to the edge of the salt desert, with Shahrud as its largest city in the north.",
+        "The Tarikhaneh mosque at Damghan, of the eighth century, is one of the oldest in Iran, and the country launches its rockets from a spaceport in the desert here.",
+        "Remember the long narrow province between the mountains and the salt desert, with the oldest mosque in Iran and a spaceport in the sand."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Semnan_Province",
+        "https://en.wikipedia.org/wiki/Tarikhaneh_Mosque",
+        "https://en.wikipedia.org/wiki/Semnan_Space_Center"
+      ],
+      "cameraBounds": [
+        [
+          52.188,
+          34.09
+        ],
+        [
+          56.688,
+          37.59
+        ]
+      ],
+      "transition": "Let's bring Semnan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              52.188,
+              34.09
+            ],
+            [
+              56.688,
+              37.59
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kurdistan",
+      "location": [
+        45.8041,
+        35.9193
+      ],
+      "lines": [
+        "Kurdistan sits in the north-west of Iran in the Zagros foothills, with Sanandaj as its largest city, between West Azerbaijan in the north and Kermanshah to the south-west.",
+        "Its name simply means land of the Kurds, and the stepped villages and agricultural terraces of Hawraman here form part of a UNESCO World Heritage cultural landscape shared with Kermanshah.",
+        "Remember the north-western province of the Kurds, where the terraced villages of Hawraman step down the mountainsides."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kurdistan_Province",
+        "https://en.wikipedia.org/wiki/Hawraman",
+        "https://en.wikipedia.org/wiki/Sanandaj"
+      ],
+      "cameraBounds": [
+        [
+          45.161,
+          34.522
+        ],
+        [
+          48.566,
+          36.728
+        ]
+      ],
+      "transition": "Let's bring Kurdistan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              45.161,
+              34.522
+            ],
+            [
+              48.566,
+              36.728
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tehran",
+      "location": [
+        51.0397,
+        35.2891
+      ],
+      "lines": [
+        "Tehran province is the heart of the north of the country, south of the Elburz mountains and the Caspian Sea, with the capital of the same name on the plain below the peaks.",
+        "The capital grew from a settlement near the older city of Rey, and Golestan Palace there became a Qajar royal residence whose nineteenth-century decoration mixes Persian craft with European influence.",
+        "Remember the mountain-backed capital, where the green north of Iran meets the dry central plain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tehran_Province",
+        "https://en.wikipedia.org/wiki/Rey,_Iran",
+        "https://en.wikipedia.org/wiki/Golestan_Palace"
+      ],
+      "cameraBounds": [
+        [
+          50.498,
+          34.72
+        ],
+        [
+          53.366,
+          36.271
+        ]
+      ],
+      "transition": "Let's bring Tehran into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              50.498,
+              34.72
+            ],
+            [
+              53.366,
+              36.271
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hamadan",
+      "location": [
+        48.5408,
+        34.8396
+      ],
+      "lines": [
+        "Hamadan sits in the west of Iran at the eastern foot of the Zagros, with the city of Hamadan in its middle, between Markazi in the east and Kurdistan in the west.",
+        "Hamadan was the Ecbatana of the Greeks, capital of the Medes, and at Ganjnameh the inscriptions of Darius and Xerxes are carved into the rock in three languages.",
+        "Remember the old Median capital, where two Achaemenid kings wrote their names on the cliff in three scripts."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hamadan_Province",
+        "https://en.wikipedia.org/wiki/Ecbatana",
+        "https://en.wikipedia.org/wiki/Ganjnameh"
+      ],
+      "cameraBounds": [
+        [
+          47.416,
+          33.776
+        ],
+        [
+          49.665,
+          35.903
+        ]
+      ],
+      "transition": "Let's bring Hamadan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              47.416,
+              33.776
+            ],
+            [
+              49.665,
+              35.903
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qom",
+      "location": [
+        50.9712,
+        34.6621
+      ],
+      "lines": [
+        "Qom lies just south of Tehran in the centre of the country, at the northern edge of the central desert, with the holy city of Qom as its largest city.",
+        "The law approving its separation from Tehran Province was passed in 1996, and the shrine of Fatima Masumeh there honours the sister of Imam Reza and has shaped the city’s pilgrimage traditions.",
+        "Remember the small province on the northern edge of the desert, whose city fills with pilgrims at the shrine of the imam’s sister."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qom_Province",
+        "https://en.wikipedia.org/wiki/Fatima_Masumeh",
+        "https://en.wikipedia.org/wiki/Sohan"
+      ],
+      "cameraBounds": [
+        [
+          49.832,
+          33.967
+        ],
+        [
+          52.11,
+          35.357
+        ]
+      ],
+      "transition": "Let's bring Qom into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              49.832,
+              33.967
+            ],
+            [
+              52.11,
+              35.357
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Markazi",
+      "location": [
+        49.9783,
+        34.5823
+      ],
+      "lines": [
+        "Markazi lies in the centre-west of Iran, the heartland between the Zagros and the central desert, with Arak as its largest city, to the south-west of Tehran.",
+        "Its name means central in Persian, and the village of Farahan here is associated with carpets bearing the Sarouk design, which takes its name from another village in the same province.",
+        "Remember the province whose name simply means the middle, and the carpet pattern that carries another village’s name."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Markazi_Province",
+        "https://en.wikipedia.org/wiki/Arak,_Iran",
+        "https://en.wikipedia.org/wiki/Sarouk_rug"
+      ],
+      "cameraBounds": [
+        [
+          48.66,
+          33.228
+        ],
+        [
+          51.297,
+          35.937
+        ]
+      ],
+      "transition": "Let's bring Markazi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              48.66,
+              33.228
+            ],
+            [
+              51.297,
+              35.937
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          43.22,
+          33.58
+        ],
+        [
+          58.25,
+          39.44
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "16 regions of Iran, one for each target of the map: Ardabil, East Azerbaijan, West Azerbaijan, Gilan, North Khorasan, Golestan, Zanjan, Mazandaran, Qazvin, Alborz, Semnan, Kurdistan, Tehran, Hamadan, Qom and Markazi.",
+    "Remember the shape of Iran from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "title": "Japan's prefectures · The central mountains and the north coast · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "japan-regions",
+  "area": "Japan",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/japan-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      134.92,
+      34.81
+    ],
+    [
+      141.46,
+      37.93
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Niigata",
+      "location": [
+        137.8643,
+        36.9323
+      ],
+      "bounds": [
+        [
+          137.334,
+          36.504
+        ],
+        [
+          140.143,
+          38.772
+        ]
+      ]
+    },
+    {
+      "name": "Ishikawa",
+      "location": [
+        136.7889,
+        36.803
+      ],
+      "bounds": [
+        [
+          135.989,
+          35.892
+        ],
+        [
+          137.589,
+          37.714
+        ]
+      ]
+    },
+    {
+      "name": "Tochigi",
+      "location": [
+        139.7894,
+        36.6713
+      ],
+      "bounds": [
+        [
+          138.989,
+          36.071
+        ],
+        [
+          140.589,
+          37.271
+        ]
+      ]
+    },
+    {
+      "name": "Toyama",
+      "location": [
+        137.2451,
+        36.6242
+      ],
+      "bounds": [
+        [
+          136.445,
+          36.024
+        ],
+        [
+          138.045,
+          37.224
+        ]
+      ]
+    },
+    {
+      "name": "Gunma",
+      "location": [
+        139.0254,
+        36.5025
+      ],
+      "bounds": [
+        [
+          138.215,
+          35.836
+        ],
+        [
+          139.836,
+          37.169
+        ]
+      ]
+    },
+    {
+      "name": "Ibaraki",
+      "location": [
+        140.2566,
+        36.3301
+      ],
+      "bounds": [
+        [
+          139.457,
+          35.587
+        ],
+        [
+          141.057,
+          37.073
+        ]
+      ]
+    },
+    {
+      "name": "Nagano",
+      "location": [
+        138.0195,
+        36.0944
+      ],
+      "bounds": [
+        [
+          137.149,
+          34.962
+        ],
+        [
+          138.89,
+          37.227
+        ]
+      ]
+    },
+    {
+      "name": "Fukui",
+      "location": [
+        136.1161,
+        35.8116
+      ],
+      "bounds": [
+        [
+          135.287,
+          35.212
+        ],
+        [
+          136.945,
+          36.412
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Japan's prefectures, part 2 of 4. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 8 of the Japan regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Niigata",
+      "location": [
+        137.8643,
+        36.9323
+      ],
+      "lines": [
+        "Niigata faces the Sea of Japan on the west of central Honshū, below Yamagata and Fukushima and above Toyama, with the city of Niigata on the shore.",
+        "The Shinano, which runs the length of the prefecture, is Japan’s longest river at 367 kilometres, and the Koshihikari rice grown on its plains is the standard by which Japanese rice is judged.",
+        "Remember the new lagoon where the Shinano changed course, with more sake breweries than any prefecture in the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Niigata_Prefecture",
+        "https://en.wikipedia.org/wiki/Shinano_River",
+        "https://en.wikipedia.org/wiki/Koshihikari"
+      ],
+      "cameraBounds": [
+        [
+          137.334,
+          36.504
+        ],
+        [
+          140.143,
+          38.772
+        ]
+      ],
+      "transition": "Let's bring Niigata into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              137.334,
+              36.504
+            ],
+            [
+              140.143,
+              38.772
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ishikawa",
+      "location": [
+        136.7889,
+        36.803
+      ],
+      "lines": [
+        "Ishikawa faces the Sea of Japan on the west of central Honshū, with Toyama above and Fukui and Gifu below, and the city of Kanazawa on the shore.",
+        "Its gold leaf is 99% of Japan’s supply, beaten thin enough to lay on lacquerware and temples, and, occasionally, ice cream.",
+        "Remember the stone river, the great garden of Kenrokuen, and the sheets of gold thin enough to wrap a sweet."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ishikawa_Prefecture",
+        "https://en.wikipedia.org/wiki/Kenroku-en",
+        "https://en.wikipedia.org/wiki/Kanazawa"
+      ],
+      "cameraBounds": [
+        [
+          135.989,
+          35.892
+        ],
+        [
+          137.589,
+          37.714
+        ]
+      ],
+      "transition": "Let's bring Ishikawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              135.989,
+              35.892
+            ],
+            [
+              137.589,
+              37.714
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tochigi",
+      "location": [
+        139.7894,
+        36.6713
+      ],
+      "lines": [
+        "Tochigi is inland in the north of the Kantō plain, north of Tokyo, between Gunma and Ibaraki, with the city of Utsunomiya in its middle and Fukushima above.",
+        "Nikko in it holds the mausoleum of Tokugawa Ieyasu, the most ornate building complex in Japan and a UNESCO world heritage site.",
+        "Remember the horse chestnut tree that gave the name, and the gilded mausoleum of the shogun in the mountains."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tochigi_Prefecture",
+        "https://en.wikipedia.org/wiki/Nikko",
+        "https://en.wikipedia.org/wiki/T%C5%8Dsh%C5%8D-g%C5%AB"
+      ],
+      "cameraBounds": [
+        [
+          138.989,
+          36.071
+        ],
+        [
+          140.589,
+          37.271
+        ]
+      ],
+      "transition": "Let's bring Tochigi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              138.989,
+              36.071
+            ],
+            [
+              140.589,
+              37.271
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toyama",
+      "location": [
+        137.2451,
+        36.6242
+      ],
+      "lines": [
+        "Toyama faces the Sea of Japan on the west of central Honshū, with Niigata above and Ishikawa below, and the city of Toyama on the bay.",
+        "The Tateyama range rises 3,000 metres almost straight out of that bay, and the snow corridor at Murodō is dug through drifts up to 20 metres high every spring.",
+        "Remember the wall of mountains coming straight out of the sea, and the travelling medicine sellers who left a box on the doorstep."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Toyama_Prefecture",
+        "https://en.wikipedia.org/wiki/Tateyama",
+        "https://en.wikipedia.org/wiki/Murod%C5%8D"
+      ],
+      "cameraBounds": [
+        [
+          136.445,
+          36.024
+        ],
+        [
+          138.045,
+          37.224
+        ]
+      ],
+      "transition": "Let's bring Toyama into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              136.445,
+              36.024
+            ],
+            [
+              138.045,
+              37.224
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gunma",
+      "location": [
+        139.0254,
+        36.5025
+      ],
+      "lines": [
+        "Gunma is inland in the north-west of the Kantō plain, with the city of Maebashi at the foot of Mount Haruna and Tochigi above it and Saitama below.",
+        "The Tomioka silk mill here, opened in 1872 with French machinery, industrialised Japanese silk and is now a UNESCO world heritage site.",
+        "Remember the old name meant a cart, and the hot spring at Kusatsu whose water is strong enough to dissolve a nail."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gunma_Prefecture",
+        "https://en.wikipedia.org/wiki/Tomioka_Silk_Mill",
+        "https://en.wikipedia.org/wiki/Kusatsu,_Gunma"
+      ],
+      "cameraBounds": [
+        [
+          138.215,
+          35.836
+        ],
+        [
+          139.836,
+          37.169
+        ]
+      ],
+      "transition": "Let's bring Gunma into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              138.215,
+              35.836
+            ],
+            [
+              139.836,
+              37.169
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ibaraki",
+      "location": [
+        140.2566,
+        36.3301
+      ],
+      "lines": [
+        "Ibaraki faces the Pacific on the north-east of the Kantō plain, north of Chiba, with the city of Mito near the shore and Gunma and Tochigi inland behind it.",
+        "It makes most of Japan’s nattō, and Tsukuba in it is a science city built from nothing in the 1960s.",
+        "Remember the thorn castle of the old legend, and the garden of three thousand plum trees above the bay."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ibaraki_Prefecture",
+        "https://en.wikipedia.org/wiki/Kairaku-en",
+        "https://en.wikipedia.org/wiki/Tsukuba,_Ibaraki"
+      ],
+      "cameraBounds": [
+        [
+          139.457,
+          35.587
+        ],
+        [
+          141.057,
+          37.073
+        ]
+      ],
+      "transition": "Let's bring Ibaraki into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              139.457,
+              35.587
+            ],
+            [
+              141.057,
+              37.073
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nagano",
+      "location": [
+        138.0195,
+        36.0944
+      ],
+      "lines": [
+        "Nagano is inland in the middle of Honshū, a long valley ringed by the mountains of the Japanese Alps, with the city of Nagano in its northern half.",
+        "The Zenkōji temple here is older than the split of Japanese Buddhism into sects, so it belongs to none and is run jointly by two schools, Tendai and Jōdo.",
+        "Remember the monkeys that soak in a hot spring in the snow, and the temple that belongs to no sect at all."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nagano_Prefecture",
+        "https://en.wikipedia.org/wiki/Zenk%C5%8D-ji",
+        "https://en.wikipedia.org/wiki/Snow_monkey"
+      ],
+      "cameraBounds": [
+        [
+          137.149,
+          34.962
+        ],
+        [
+          138.89,
+          37.227
+        ]
+      ],
+      "transition": "Let's bring Nagano into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              137.149,
+              34.962
+            ],
+            [
+              138.89,
+              37.227
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fukui",
+      "location": [
+        136.1161,
+        35.8116
+      ],
+      "lines": [
+        "Fukui faces the Sea of Japan on the west of central Honshū, with Ishikawa above and Shiga and Kyōto below, and the city of Fukui a little way inland.",
+        "More dinosaur fossils have been found here than anywhere else in Japan, and several of the new species carry the name Fukui.",
+        "Remember the province of dinosaurs, and the spectacle frames that nearly every pair of glasses in the country is made from."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fukui_Prefecture",
+        "https://en.wikipedia.org/wiki/Dinosaur",
+        "https://en.wikipedia.org/wiki/Awara,_Fukui"
+      ],
+      "cameraBounds": [
+        [
+          135.287,
+          35.212
+        ],
+        [
+          136.945,
+          36.412
+        ]
+      ],
+      "transition": "Let's bring Fukui into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              135.287,
+              35.212
+            ],
+            [
+              136.945,
+              36.412
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          134.92,
+          34.81
+        ],
+        [
+          141.46,
+          37.93
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "8 regions of Japan, one for each target of the map: Niigata, Ishikawa, Tochigi, Toyama, Gunma, Ibaraki, Nagano and Fukui.",
+    "Remember the shape of Japan from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

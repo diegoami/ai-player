@@ -1,0 +1,757 @@
+{
+  "title": "Morocco's regions · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "morocco-regions",
+  "area": "Morocco",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/morocco-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -15.73,
+      21.88
+    ],
+    [
+      -1.36,
+      36.22
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Tangier-Tetouan-Al Hoceima",
+      "location": [
+        -5.0248,
+        35.2152
+      ],
+      "bounds": [
+        [
+          -6.548,
+          34.341
+        ],
+        [
+          -3.502,
+          36.089
+        ]
+      ]
+    },
+    {
+      "name": "Rabat-Salé-Kénitra",
+      "location": [
+        -6.2206,
+        34.0862
+      ],
+      "bounds": [
+        [
+          -7.352,
+          32.925
+        ],
+        [
+          -5.089,
+          35.248
+        ]
+      ]
+    },
+    {
+      "name": "Fès-Meknès",
+      "location": [
+        -4.395,
+        33.748
+      ],
+      "bounds": [
+        [
+          -6.255,
+          32.324
+        ],
+        [
+          -2.535,
+          35.172
+        ]
+      ]
+    },
+    {
+      "name": "Oriental",
+      "location": [
+        -2.555,
+        33.5452
+      ],
+      "bounds": [
+        [
+          -4.498,
+          31.795
+        ],
+        [
+          -0.612,
+          35.295
+        ]
+      ]
+    },
+    {
+      "name": "Casablanca-Settat",
+      "location": [
+        -7.9081,
+        33.0755
+      ],
+      "bounds": [
+        [
+          -9.347,
+          32.13
+        ],
+        [
+          -6.469,
+          34.021
+        ]
+      ]
+    },
+    {
+      "name": "Béni Mellal-Khénifra",
+      "location": [
+        -6.2799,
+        32.4117
+      ],
+      "bounds": [
+        [
+          -7.578,
+          31.076
+        ],
+        [
+          -4.982,
+          33.747
+        ]
+      ]
+    },
+    {
+      "name": "Marrakech-Safi",
+      "location": [
+        -8.4274,
+        31.796
+      ],
+      "bounds": [
+        [
+          -10.196,
+          30.54
+        ],
+        [
+          -6.659,
+          33.052
+        ]
+      ]
+    },
+    {
+      "name": "Drâa-Tafilalet",
+      "location": [
+        -5.4544,
+        31.2799
+      ],
+      "bounds": [
+        [
+          -7.704,
+          29.53
+        ],
+        [
+          -3.204,
+          33.03
+        ]
+      ]
+    },
+    {
+      "name": "Souss-Massa",
+      "location": [
+        -8.2001,
+        29.7369
+      ],
+      "bounds": [
+        [
+          -10.45,
+          27.987
+        ],
+        [
+          -5.95,
+          31.487
+        ]
+      ]
+    },
+    {
+      "name": "Guelmim-Oued Noun",
+      "location": [
+        -10.2247,
+        28.3834
+      ],
+      "bounds": [
+        [
+          -12.171,
+          26.824
+        ],
+        [
+          -8.278,
+          29.942
+        ]
+      ]
+    },
+    {
+      "name": "Laâyoune-Sakia El Hamra",
+      "location": [
+        -11.7858,
+        26.2965
+      ],
+      "bounds": [
+        [
+          -14.036,
+          24.546
+        ],
+        [
+          -9.536,
+          28.046
+        ]
+      ]
+    },
+    {
+      "name": "Dakhla-Oued Ed-Dahab",
+      "location": [
+        -14.5325,
+        22.8811
+      ],
+      "bounds": [
+        [
+          -16.782,
+          21.131
+        ],
+        [
+          -12.282,
+          24.631
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Morocco's regions, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 12 of the Morocco regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Tangier-Tetouan-Al Hoceima",
+      "location": [
+        -5.0248,
+        35.2152
+      ],
+      "lines": [
+        "Tangier-Tetouan-Al Hoceima is one of the twelve regions Morocco divided itself into in 2015, and it sits in the north, reaching from Tangier on the Strait of Gibraltar along the Mediterranean coast to the Algerian border, with the Rif mountains inland.",
+        "The strait is only about 14 kilometres wide here, so Spain can be seen across the water on a clear day, and inland the Rif mountains hold Chefchaouen, whose houses are washed in blue.",
+        "Remember the narrow gap of water with Spain just across it, and the blue town waiting in the hills behind the strait."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tangier-T%C3%A9touan-Al_Hoce%C3%AFma",
+        "https://en.wikipedia.org/wiki/Strait_of_Gibraltar",
+        "https://en.wikipedia.org/wiki/Chefchaouen"
+      ],
+      "cameraBounds": [
+        [
+          -6.548,
+          34.341
+        ],
+        [
+          -3.502,
+          36.089
+        ]
+      ],
+      "transition": "Let's bring Tangier-Tetouan-Al Hoceima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -6.548,
+              34.341
+            ],
+            [
+              -3.502,
+              36.089
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rabat-Salé-Kénitra",
+      "location": [
+        -6.2206,
+        34.0862
+      ],
+      "lines": [
+        "Rabat-Salé-Kénitra is the north-western region on the Atlantic coast, where the Bou Regreg river meets the sea below Rabat, with Tangier-Tetouan-Al Hoceima to the north and Casablanca-Settat to the south.",
+        "Rabat takes its name from the Arabic ribat, a fortified monastery or camp, and the Hassan Tower above the river is the unfinished minaret of a mosque begun in 1195.",
+        "Remember the tower that was never finished, rising over the river mouth with the Atlantic just below it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rabat-Sal%C3%A9-K%C3%A9nitra",
+        "https://en.wikipedia.org/wiki/Hassan_Tower",
+        "https://en.wikipedia.org/wiki/Rabat"
+      ],
+      "cameraBounds": [
+        [
+          -7.352,
+          32.925
+        ],
+        [
+          -5.089,
+          35.248
+        ]
+      ],
+      "transition": "Let's bring Rabat-Salé-Kénitra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -7.352,
+              32.925
+            ],
+            [
+              -5.089,
+              35.248
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fès-Meknès",
+      "location": [
+        -4.395,
+        33.748
+      ],
+      "lines": [
+        "Fès-Meknès is the interior region of the north, between the Rif mountains and the Middle Atlas, touching five other regions, with the walled cities of Fez and Meknes at its heart.",
+        "Fez holds the University of al-Qarawiyyin, founded in 859 and claimed to be the oldest still working in the world, and Roman Volubilis with its mosaics lies to the west of the city.",
+        "Remember the oldest university in the world, in the walled city that sits between the Rif and the Middle Atlas."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/F%C3%A8s-Mekn%C3%A8s",
+        "https://en.wikipedia.org/wiki/University_of_al-Qarawiyyin",
+        "https://en.wikipedia.org/wiki/Volubilis"
+      ],
+      "cameraBounds": [
+        [
+          -6.255,
+          32.324
+        ],
+        [
+          -2.535,
+          35.172
+        ]
+      ],
+      "transition": "Let's bring Fès-Meknès into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -6.255,
+              32.324
+            ],
+            [
+              -2.535,
+              35.172
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oriental",
+      "location": [
+        -2.555,
+        33.5452
+      ],
+      "lines": [
+        "Oriental is the north-eastern region, sitting along the Algerian border with the Moulouya river running north through it and out to the Mediterranean.",
+        "Its name simply means the eastern region, and the land border with Algeria has been closed to crossings since 1994.",
+        "Remember the eastern region with a sealed border on one side and a river running out to the Mediterranean on the other."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oriental_Region_(Morocco)",
+        "https://en.wikipedia.org/wiki/Moulouya_River",
+        "https://en.wikipedia.org/wiki/Oujda"
+      ],
+      "cameraBounds": [
+        [
+          -4.498,
+          31.795
+        ],
+        [
+          -0.612,
+          35.295
+        ]
+      ],
+      "transition": "Let's bring Oriental into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -4.498,
+              31.795
+            ],
+            [
+              -0.612,
+              35.295
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Casablanca-Settat",
+      "location": [
+        -7.9081,
+        33.0755
+      ],
+      "lines": [
+        "Casablanca-Settat is the north-western region on the Atlantic coast, with Casablanca on the shore and Settat inland to the south, between Rabat-Salé-Kénitra and Marrakech-Safi.",
+        "Casablanca means “white house”, from the Portuguese Casa Branca, and the Hassan II Mosque stands partly out over the sea with a minaret of about 210 metres.",
+        "Remember the white house on the Atlantic and the mosque built out over the water with a very tall tower."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Casablanca-Settat",
+        "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+        "https://en.wikipedia.org/wiki/Casablanca"
+      ],
+      "cameraBounds": [
+        [
+          -9.347,
+          32.13
+        ],
+        [
+          -6.469,
+          34.021
+        ]
+      ],
+      "transition": "Let's bring Casablanca-Settat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -9.347,
+              32.13
+            ],
+            [
+              -6.469,
+              34.021
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Béni Mellal-Khénifra",
+      "location": [
+        -6.2799,
+        32.4117
+      ],
+      "lines": [
+        "Béni Mellal-Khénifra is an inland region of the north-central country, lying between Casablanca-Settat, Fès-Meknès and Marrakech-Safi across the Middle Atlas.",
+        "Khouribga here is the centre of Morocco’s phosphate mining, and the country holds most of the world’s known phosphate reserves.",
+        "Remember the sons of Mellal and the waterfall of Ouzoud dropping into a Middle Atlas gorge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/B%C3%A9ni_Mellal-Kh%C3%A9nifra",
+        "https://en.wikipedia.org/wiki/Ouzoud_Waterfalls",
+        "https://en.wikipedia.org/wiki/Khouribga"
+      ],
+      "cameraBounds": [
+        [
+          -7.578,
+          31.076
+        ],
+        [
+          -4.982,
+          33.747
+        ]
+      ],
+      "transition": "Let's bring Béni Mellal-Khénifra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -7.578,
+              31.076
+            ],
+            [
+              -4.982,
+              33.747
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marrakech-Safi",
+      "location": [
+        -8.4274,
+        31.796
+      ],
+      "lines": [
+        "Marrakech-Safi is the western region, running from the Atlantic coast at Safi up to Marrakech at the foot of the High Atlas, with Drâa-Tafilalet to the east.",
+        "Marrakech probably gave the country its name, from a Berber phrase usually explained as “land of God”, and its Jemaa el-Fna square of storytellers and musicians is on the UNESCO list.",
+        "Remember the square that fills with storytellers and musicians at dusk, in the city that gave Morocco its name."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Marrakech-Safi",
+        "https://en.wikipedia.org/wiki/Jemaa_el-Fnaa",
+        "https://en.wikipedia.org/wiki/Marrakesh"
+      ],
+      "cameraBounds": [
+        [
+          -10.196,
+          30.54
+        ],
+        [
+          -6.659,
+          33.052
+        ]
+      ],
+      "transition": "Let's bring Marrakech-Safi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -10.196,
+              30.54
+            ],
+            [
+              -6.659,
+              33.052
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drâa-Tafilalet",
+      "location": [
+        -5.4544,
+        31.2799
+      ],
+      "lines": [
+        "Drâa-Tafilalet is the south-eastern interior region, running down from the Atlas into the Sahara, with Oriental to the north and Souss-Massa to the south-west.",
+        "The Aït Benhaddou village of red clay stands here, a World Heritage Site that has doubled for many films, and the Alaouite dynasty comes from the Tafilalet oasis.",
+        "Remember the red clay fortress village that fills film sets, in the valley and oasis that give the region its name."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dr%C3%A2a-Tafilalet",
+        "https://en.wikipedia.org/wiki/A%C3%AFt_Benhaddou",
+        "https://en.wikipedia.org/wiki/Tafilalet"
+      ],
+      "cameraBounds": [
+        [
+          -7.704,
+          29.53
+        ],
+        [
+          -3.204,
+          33.03
+        ]
+      ],
+      "transition": "Let's bring Drâa-Tafilalet into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -7.704,
+              29.53
+            ],
+            [
+              -3.204,
+              33.03
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Souss-Massa",
+      "location": [
+        -8.2001,
+        29.7369
+      ],
+      "lines": [
+        "Souss-Massa is the south-western region facing the Atlantic, with Agadir on the shore and the Souss and Massa rivers running down to it, next to Guelmim-Oued Noun in the south.",
+        "Argan trees grow almost nowhere else on earth and their oil is the region’s speciality, while Agadir was rebuilt after an earthquake flattened it in 1960.",
+        "Remember the argan trees that grow nowhere else, and the coast town that was rebuilt after the 1960 earthquake."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Souss-Massa",
+        "https://en.wikipedia.org/wiki/Argan_oil",
+        "https://en.wikipedia.org/wiki/Agadir"
+      ],
+      "cameraBounds": [
+        [
+          -10.45,
+          27.987
+        ],
+        [
+          -5.95,
+          31.487
+        ]
+      ],
+      "transition": "Let's bring Souss-Massa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -10.45,
+              27.987
+            ],
+            [
+              -5.95,
+              31.487
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guelmim-Oued Noun",
+      "location": [
+        -10.2247,
+        28.3834
+      ],
+      "lines": [
+        "Guelmim-Oued Noun is the southern Atlantic region below Souss-Massa, a strip of coast and desert between the mountains and the Sahara, with Sidi Ifni on the shore.",
+        "Guelmim is known as the gateway to the desert, and the Tan-Tan Moussem, a gathering of nomadic peoples, is on the UNESCO list of intangible heritage.",
+        "Remember the gateway to the desert, and the fair at Tan-Tan where nomadic peoples gather."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guelmim-Oued_Noun",
+        "https://en.wikipedia.org/wiki/Tan-Tan",
+        "https://en.wikipedia.org/wiki/Guelmim"
+      ],
+      "cameraBounds": [
+        [
+          -12.171,
+          26.824
+        ],
+        [
+          -8.278,
+          29.942
+        ]
+      ],
+      "transition": "Let's bring Guelmim-Oued Noun into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -12.171,
+              26.824
+            ],
+            [
+              -8.278,
+              29.942
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Laâyoune-Sakia El Hamra",
+      "location": [
+        -11.7858,
+        26.2965
+      ],
+      "lines": [
+        "Laâyoune-Sakia El Hamra is the northern part of Western Sahara, the Atlantic territory south of Morocco that the map draws as part of the country, reaching inland from the coast to the Algerian border.",
+        "Tarfaya in this region is where the pilot and writer Antoine de Saint-Exupéry ran a mail airfield in 1927 and 1928, on the desert shore.",
+        "Remember the springs that give Laâyoune its name and the red channel of a dry river valley, with the mail airfield on the coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/La%C3%A2youne-Sakia_El_Hamra",
+        "https://en.wikipedia.org/wiki/Tarfaya",
+        "https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry"
+      ],
+      "cameraBounds": [
+        [
+          -14.036,
+          24.546
+        ],
+        [
+          -9.536,
+          28.046
+        ]
+      ],
+      "transition": "Let's bring Laâyoune-Sakia El Hamra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -14.036,
+              24.546
+            ],
+            [
+              -9.536,
+              28.046
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dakhla-Oued Ed-Dahab",
+      "location": [
+        -14.5325,
+        22.8811
+      ],
+      "lines": [
+        "Dakhla-Oued Ed-Dahab is the southern part of Western Sahara, the Atlantic territory south of Morocco, a long strip down the coast below Laâyoune-Sakia El Hamra reaching the Mauritanian border.",
+        "Its name means “river of gold” in Arabic, the Spanish called the area Rio de Oro, and Dakhla on its long peninsula was called Villa Cisneros under Spain.",
+        "Remember the river of gold that the Spanish called Rio de Oro, with the kite-surfing peninsula of Dakhla at the tip."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dakhla-Oued_Ed-Dahab",
+        "https://en.wikipedia.org/wiki/Dakhla,_Western_Sahara",
+        "https://en.wikipedia.org/wiki/Oued_Ed-Dahab"
+      ],
+      "cameraBounds": [
+        [
+          -16.782,
+          21.131
+        ],
+        [
+          -12.282,
+          24.631
+        ]
+      ],
+      "transition": "Let's bring Dakhla-Oued Ed-Dahab into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -16.782,
+              21.131
+            ],
+            [
+              -12.282,
+              24.631
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -15.73,
+          21.88
+        ],
+        [
+          -1.36,
+          36.22
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "12 regions of Morocco, one for each target of the map: Tangier-Tetouan-Al Hoceima, Rabat-Salé-Kénitra, Fès-Meknès, Oriental, Casablanca-Settat, Béni Mellal-Khénifra, Marrakech-Safi, Drâa-Tafilalet, Souss-Massa, Guelmim-Oued Noun, Laâyoune-Sakia El Hamra and Dakhla-Oued Ed-Dahab.",
+    "Remember the shape of Morocco from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

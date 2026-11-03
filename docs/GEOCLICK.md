@@ -534,12 +534,14 @@ Two things the first country taught:
   tighter frame, exactly as Brazzaville and Kinshasa did in the capitals
   series.
 
-### The seven completed regions lessons
+### The regions lessons
 
-The wave the owner asked for on 3 November 2026 is out: one video per
-country, teaching that country's own first-level regions, in the map's own
-tour order. All seven went out **unlisted** in the same playlist, with their
-screenshot thumbnails and the playlist link, and their captions deferred.
+The series the owner asked for on 3 November 2026: one video per country,
+teaching that country's own first-level regions, in the map's own tour order.
+A country with more than about twenty-five regions is cut into parts, and each
+part keeps the map's own tour order within itself. Every lesson went out
+**unlisted** in the same playlist, with its screenshot thumbnail and the
+playlist link, and its captions deferred.
 
 | Country | Lesson | Regions | Duration | Video ID |
 |---|---|---|---|---|
@@ -551,6 +553,14 @@ screenshot thumbnails and the playlist link, and their captions deferred.
 | Poland | Poland's regions | 16 | 12:29 | `8ekHRnJEBSk` |
 | Ukraine | Western and northern Ukraine | 12 | 10:41 | `sURTlO3p-GU` |
 | Ukraine | Eastern and southern Ukraine | 15 | 11:46 | `gJuGUEOPU3U` |
+
+Thirteen countries are out so far: Spain, Italy, France, Germany, Great
+Britain, Poland and Ukraine in Europe, Australia and New Zealand in Oceania,
+Canada in North America, Brazil, Mexico, Argentina, Colombia, Peru, Venezuela
+and Chile in the Americas, and Morocco, Egypt, Nigeria, South Africa, Kenya
+and Tanzania in Africa, with South Korea, India, Japan, Indonesia, Vietnam,
+Thailand, Turkey, Iran and the Philippines in Asia. Brazil, Mexico, Nigeria,
+Iran, Japan and New Zealand are in production.
 
 Each country keeps its own content file, coverage ledger, output root and
 collection ZIP under `rendered/<country>-regions-20261103/`, and its exact
@@ -574,6 +584,12 @@ Three things the seven taught, all now in the tooling:
 - **The youtube3 batch entry id has a 64-character limit.** The ledger's
   episode id is part of it, so a country id repeated in the group id pushes
   Great Britain over the limit and the offline batch refuses to resolve.
+- **The frame has to hold the click point.** A region whose bounding box is
+  far wider than its marker, such as the Northwest Territories or Yukon, put
+  the verified point outside a frame centred on the box, and the click then
+  fell off the map. The frame now follows the point when that happens, which
+  leaves the earlier countries untouched because their points were already
+  inside.
 
 The maps name the regions by their own names, and the lessons use those names
 on screen. Ceuta and Melilla are not targets of the Spain map and are not

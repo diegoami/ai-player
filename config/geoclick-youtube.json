@@ -276,6 +276,156 @@
         "sURTlO3p-GU",
         "gJuGUEOPU3U"
       ]
+    },
+    {
+      "id": "australia-regions",
+      "ledger": "src/lessons/australia-regions-coverage.json",
+      "publishing_dir": "rendered/australia-regions-20261103/youtube-publishing",
+      "published": "unlisted 2026-11-03",
+      "captions": "deferred",
+      "mapId": "australia-regions",
+      "country": "Australia",
+      "targetCount": 8,
+      "scope": "This one-part edition covers all 8 region targets of GeoClick's native australia-regions map exactly once: the first-level regions of Australia that the map names. Map targets do not settle political status or boundaries.",
+      "video_ids": [
+        "i1y0HpL7AT0"
+      ]
+    },
+    {
+      "id": "canada-regions",
+      "ledger": "src/lessons/canada-regions-coverage.json",
+      "publishing_dir": "rendered/canada-regions-20261103/youtube-publishing",
+      "published": "unlisted 2026-11-03",
+      "captions": "deferred",
+      "mapId": "canada-regions",
+      "country": "Canada",
+      "targetCount": 13,
+      "scope": "This one-part edition covers all 13 region targets of GeoClick's native canada-regions map exactly once: the first-level regions of Canada that the map names. Map targets do not settle political status or boundaries.",
+      "video_ids": [
+        "kbvMYoH0bDY"
+      ]
+    },
+    {
+      "id": "south-africa-provinces",
+      "ledger": "src/lessons/south-africa-provinces-coverage.json",
+      "publishing_dir": "rendered/south-africa-provinces-20261103/youtube-publishing",
+      "published": "unlisted 2026-11-03",
+      "captions": "deferred",
+      "mapId": "south-africa-provinces",
+      "country": "South Africa",
+      "targetCount": 9,
+      "scope": "This one-part edition covers all 9 region targets of GeoClick's native south-africa-provinces map exactly once: the first-level regions of South Africa that the map names. Map targets do not settle political status or boundaries.",
+      "video_ids": [
+        "IfKuFofmhKY"
+      ]
+    },
+    {
+      "id": "morocco-regions",
+      "ledger": "src/lessons/morocco-regions-coverage.json",
+      "publishing_dir": "rendered/morocco-regions-20261103/youtube-publishing",
+      "published": "unlisted 2026-11-03",
+      "captions": "deferred",
+      "mapId": "morocco-regions",
+      "country": "Morocco",
+      "targetCount": 12,
+      "scope": "This one-part edition covers all 12 region targets of GeoClick's native morocco-regions map exactly once: the first-level regions of Morocco that the map names. Map targets do not settle political status or boundaries.",
+      "video_ids": [
+        "o2jXgTKKJRo"
+      ]
+    },
+    {
+      "id": "egypt-regions",
+      "ledger": "src/lessons/egypt-regions-coverage.json",
+      "publishing_dir": "rendered/egypt-regions-20261103/youtube-publishing",
+      "published": "unlisted 2026-11-03",
+      "captions": "deferred",
+      "mapId": "egypt-regions",
+      "country": "Egypt",
+      "targetCount": 27,
+      "scope": "This one-part edition covers all 27 region targets of GeoClick's native egypt-regions map exactly once: the first-level regions of Egypt that the map names. Map targets do not settle political status or boundaries.",
+      "video_ids": [
+        "I-4uyV_cjQI"
+      ]
+    },
+    {
+      "id": "sweden-regions",
+      "ledger": "src/lessons/sweden-regions-coverage.json",
+      "publishing_dir": "rendered/sweden-regions-20261103/youtube-publishing",
+      "published": "unlisted 2026-11-03",
+      "captions": "deferred",
+      "mapId": "sweden-regions",
+      "country": "Sweden",
+      "targetCount": 21,
+      "scope": "This one-part edition covers all 21 region targets of GeoClick's native sweden-regions map exactly once: the first-level regions of Sweden that the map names. Map targets do not settle political status or boundaries.",
+      "video_ids": [
+        "eELcpw0Qycw"
+      ]
+    },
+    {
+      "id": "brazil-regions",
+      "ledger": "src/lessons/brazil-regions-coverage.json",
+      "publishing_dir": "rendered/brazil-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "brazil-regions",
+      "country": "Brazil",
+      "targetCount": 27,
+      "scope": "This 2-part edition covers all 27 region targets of GeoClick's native brazil-regions map exactly once: the first-level regions of Brazil that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "mexico-regions",
+      "ledger": "src/lessons/mexico-regions-coverage.json",
+      "publishing_dir": "rendered/mexico-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "mexico-regions",
+      "country": "Mexico",
+      "targetCount": 32,
+      "scope": "This 2-part edition covers all 32 region targets of GeoClick's native mexico-regions map exactly once: the first-level regions of Mexico that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "nigeria-regions",
+      "ledger": "src/lessons/nigeria-regions-coverage.json",
+      "publishing_dir": "rendered/nigeria-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "nigeria-regions",
+      "country": "Nigeria",
+      "targetCount": 37,
+      "scope": "This 2-part edition covers all 37 region targets of GeoClick's native nigeria-regions map exactly once: the first-level regions of Nigeria that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "iran-provinces",
+      "ledger": "src/lessons/iran-provinces-coverage.json",
+      "publishing_dir": "rendered/iran-provinces-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "iran-provinces",
+      "country": "Iran",
+      "targetCount": 31,
+      "scope": "This 2-part edition covers all 31 region targets of GeoClick's native iran-provinces map exactly once: the first-level regions of Iran that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "japan-regions",
+      "ledger": "src/lessons/japan-regions-coverage.json",
+      "publishing_dir": "rendered/japan-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "japan-regions",
+      "country": "Japan",
+      "targetCount": 47,
+      "scope": "This 4-part edition covers all 47 region targets of GeoClick's native japan-regions map exactly once: the first-level regions of Japan that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "new-zealand-regions",
+      "ledger": "src/lessons/new-zealand-regions-coverage.json",
+      "publishing_dir": "rendered/new-zealand-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "new-zealand-regions",
+      "country": "New Zealand",
+      "targetCount": 16,
+      "scope": "This 1-part edition covers all 16 region targets of GeoClick's native new-zealand-regions map exactly once: the first-level regions of New Zealand that the map names. Map targets do not settle political status or boundaries."
     }
   ],
   "links": {

@@ -1,0 +1,79 @@
+{
+  "edition": "Morocco · Regions of Europe · one lesson per country · November 2026",
+  "status": "complete",
+  "scope": "All 12 region targets of GeoClick's native morocco-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 12,
+  "countryCount": 1,
+  "nativeTargetCount": 12,
+  "nativeTeachingStopCount": 12,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 12,
+  "episodes": [
+    {
+      "id": "morocco-regions-regions",
+      "title": "Morocco's regions",
+      "status": "complete",
+      "lesson": "src/lessons/morocco-regions-lesson.json",
+      "places": [
+        "Tangier-Tetouan-Al Hoceima",
+        "Rabat-Salé-Kénitra",
+        "Fès-Meknès",
+        "Oriental",
+        "Casablanca-Settat",
+        "Béni Mellal-Khénifra",
+        "Marrakech-Safi",
+        "Drâa-Tafilalet",
+        "Souss-Massa",
+        "Guelmim-Oued Noun",
+        "Laâyoune-Sakia El Hamra",
+        "Dakhla-Oued Ed-Dahab"
+      ],
+      "countries": [
+        "Tangier-Tetouan-Al Hoceima",
+        "Rabat-Salé-Kénitra",
+        "Fès-Meknès",
+        "Oriental",
+        "Casablanca-Settat",
+        "Béni Mellal-Khénifra",
+        "Marrakech-Safi",
+        "Drâa-Tafilalet",
+        "Souss-Massa",
+        "Guelmim-Oued Noun",
+        "Laâyoune-Sakia El Hamra",
+        "Dakhla-Oued Ed-Dahab"
+      ],
+      "nativeTargets": [
+        "Tangier-Tetouan-Al Hoceima",
+        "Rabat-Salé-Kénitra",
+        "Fès-Meknès",
+        "Oriental",
+        "Casablanca-Settat",
+        "Béni Mellal-Khénifra",
+        "Marrakech-Safi",
+        "Drâa-Tafilalet",
+        "Souss-Massa",
+        "Guelmim-Oued Noun",
+        "Laâyoune-Sakia El Hamra",
+        "Dakhla-Oued Ed-Dahab"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/morocco-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 569.52,
+      "covered": [
+        "Tangier-Tetouan-Al Hoceima",
+        "Rabat-Salé-Kénitra",
+        "Fès-Meknès",
+        "Oriental",
+        "Casablanca-Settat",
+        "Béni Mellal-Khénifra",
+        "Marrakech-Safi",
+        "Drâa-Tafilalet",
+        "Souss-Massa",
+        "Guelmim-Oued Noun",
+        "Laâyoune-Sakia El Hamra",
+        "Dakhla-Oued Ed-Dahab"
+      ]
+    }
+  ]
+}

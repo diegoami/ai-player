@@ -1,0 +1,993 @@
+{
+  "title": "Mexico's states · The north and the west · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "mexico-regions",
+  "area": "Mexico",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/mexico-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -116.76,
+      19.78
+    ],
+    [
+      -97.4,
+      31.36
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Baja California",
+      "location": [
+        -115.5596,
+        30.3561
+      ],
+      "bounds": [
+        [
+          -117.81,
+          28.606
+        ],
+        [
+          -113.31,
+          32.106
+        ]
+      ]
+    },
+    {
+      "name": "Sonora",
+      "location": [
+        -111.7531,
+        29.4156
+      ],
+      "bounds": [
+        [
+          -114.003,
+          27.666
+        ],
+        [
+          -109.503,
+          31.166
+        ]
+      ]
+    },
+    {
+      "name": "Chihuahua",
+      "location": [
+        -106.2285,
+        28.7055
+      ],
+      "bounds": [
+        [
+          -108.479,
+          26.956
+        ],
+        [
+          -103.979,
+          30.456
+        ]
+      ]
+    },
+    {
+      "name": "Coahuila",
+      "location": [
+        -101.8852,
+        27.2272
+      ],
+      "bounds": [
+        [
+          -104.135,
+          25.477
+        ],
+        [
+          -99.635,
+          28.977
+        ]
+      ]
+    },
+    {
+      "name": "Nuevo León",
+      "location": [
+        -99.8307,
+        25.5113
+      ],
+      "bounds": [
+        [
+          -101.562,
+          23.761
+        ],
+        [
+          -98.099,
+          27.261
+        ]
+      ]
+    },
+    {
+      "name": "Baja California Sur",
+      "location": [
+        -114.4276,
+        27.4307
+      ],
+      "bounds": [
+        [
+          -116.678,
+          25.681
+        ],
+        [
+          -112.178,
+          29.181
+        ]
+      ]
+    },
+    {
+      "name": "Tamaulipas",
+      "location": [
+        -98.5983,
+        24.9449
+      ],
+      "bounds": [
+        [
+          -100.422,
+          23.195
+        ],
+        [
+          -96.775,
+          26.695
+        ]
+      ]
+    },
+    {
+      "name": "Sinaloa",
+      "location": [
+        -107.4145,
+        24.7861
+      ],
+      "bounds": [
+        [
+          -109.665,
+          23.036
+        ],
+        [
+          -105.165,
+          26.536
+        ]
+      ]
+    },
+    {
+      "name": "Durango",
+      "location": [
+        -104.8083,
+        24.5788
+      ],
+      "bounds": [
+        [
+          -107.058,
+          22.829
+        ],
+        [
+          -102.558,
+          26.329
+        ]
+      ]
+    },
+    {
+      "name": "Zacatecas",
+      "location": [
+        -102.5791,
+        23.1185
+      ],
+      "bounds": [
+        [
+          -104.767,
+          21.369
+        ],
+        [
+          -100.391,
+          24.869
+        ]
+      ]
+    },
+    {
+      "name": "San Luis Potosí",
+      "location": [
+        -100.3072,
+        22.871
+      ],
+      "bounds": [
+        [
+          -102.557,
+          21.121
+        ],
+        [
+          -98.057,
+          24.621
+        ]
+      ]
+    },
+    {
+      "name": "Aguascalientes",
+      "location": [
+        -102.3509,
+        22.0712
+      ],
+      "bounds": [
+        [
+          -103.151,
+          21.471
+        ],
+        [
+          -101.551,
+          22.671
+        ]
+      ]
+    },
+    {
+      "name": "Nayarit",
+      "location": [
+        -104.8344,
+        21.8592
+      ],
+      "bounds": [
+        [
+          -105.947,
+          20.392
+        ],
+        [
+          -103.722,
+          23.327
+        ]
+      ]
+    },
+    {
+      "name": "Guanajuato",
+      "location": [
+        -100.9126,
+        20.8991
+      ],
+      "bounds": [
+        [
+          -102.396,
+          19.682
+        ],
+        [
+          -99.429,
+          22.116
+        ]
+      ]
+    },
+    {
+      "name": "Jalisco",
+      "location": [
+        -103.6096,
+        20.869
+      ],
+      "bounds": [
+        [
+          -105.86,
+          19.119
+        ],
+        [
+          -101.36,
+          22.619
+        ]
+      ]
+    },
+    {
+      "name": "Querétaro",
+      "location": [
+        -99.8038,
+        20.7805
+      ],
+      "bounds": [
+        [
+          -100.756,
+          19.727
+        ],
+        [
+          -98.852,
+          21.834
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Mexico's states, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 16 of the Mexico regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Baja California",
+      "location": [
+        -115.5596,
+        30.3561
+      ],
+      "lines": [
+        "Baja California is the northern half of the long Baja peninsula at Mexico’s far west, with the Pacific Ocean on one side and the Gulf of California on the other, and Tijuana on the border with the United States.",
+        "The name California comes from a Spanish romance of 1510 in which it was a fictional island ruled by a queen called Calafia, because the first explorers believed this peninsula really was an island.",
+        "Remember the peninsula that was once thought to be an island, named after an imaginary queen, with the wine country of Valle de Guadalupe just inland from Tijuana."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baja_California",
+        "https://en.wikipedia.org/wiki/Calafia",
+        "https://en.wikipedia.org/wiki/Tijuana"
+      ],
+      "cameraBounds": [
+        [
+          -117.81,
+          28.606
+        ],
+        [
+          -113.31,
+          32.106
+        ]
+      ],
+      "transition": "Let's bring Baja California into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -117.81,
+              28.606
+            ],
+            [
+              -113.31,
+              32.106
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sonora",
+      "location": [
+        -111.7531,
+        29.4156
+      ],
+      "lines": [
+        "Sonora fills the north-western mainland of Mexico, running from the Arizona border in the north down to the Gulf of California in the west, with Hermosillo in the middle of the desert.",
+        "It raises a large share of Mexico’s beef, and the Seri people on its coast speak a language that is related to no other language on earth.",
+        "Remember the desert state on the Gulf of California, where the tall ribbed saguaro cactus stands in the sand and the Seri language stands alone."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sonora",
+        "https://en.wikipedia.org/wiki/Seri_people",
+        "https://en.wikipedia.org/wiki/Sonoran_Desert"
+      ],
+      "cameraBounds": [
+        [
+          -114.003,
+          27.666
+        ],
+        [
+          -109.503,
+          31.166
+        ]
+      ],
+      "transition": "Let's bring Sonora into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -114.003,
+              27.666
+            ],
+            [
+              -109.503,
+              31.166
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chihuahua",
+      "location": [
+        -106.2285,
+        28.7055
+      ],
+      "lines": [
+        "Chihuahua is the great inland state of the north of Mexico, running south from the border with Texas and New Mexico, with Ciudad Juárez on the Rio Grande in the far north.",
+        "It is the largest state in the country, bigger than the United Kingdom, and Copper Canyon in it is deeper and larger than the Grand Canyon.",
+        "Remember the biggest state, with a canyon deeper than the Grand Canyon and a dog named after the place rather than the other way round."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chihuahua",
+        "https://en.wikipedia.org/wiki/Copper_Canyon",
+        "https://en.wikipedia.org/wiki/Ciudad_Ju%C3%A1rez"
+      ],
+      "cameraBounds": [
+        [
+          -108.479,
+          26.956
+        ],
+        [
+          -103.979,
+          30.456
+        ]
+      ],
+      "transition": "Let's bring Chihuahua into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -108.479,
+              26.956
+            ],
+            [
+              -103.979,
+              30.456
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coahuila",
+      "location": [
+        -101.8852,
+        27.2272
+      ],
+      "lines": [
+        "Coahuila sits in the north of Mexico along the Texas border, east of Chihuahua and west of Nuevo León, with Torreón in the south-west corner by the salt lagoon of Laguna Salada.",
+        "Its Cuatro Ciénegas basin holds pools with species found nowhere else on earth, which scientists study as an analogue for the earliest life on Earth.",
+        "Remember the desert state with a fossil-filled pool where scientists look for the beginning of life, and one of the longest stretches of the United States border."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Coahuila",
+        "https://en.wikipedia.org/wiki/Cuatro_Ci%C3%A9negas",
+        "https://en.wikipedia.org/wiki/Torre%C3%B3n"
+      ],
+      "cameraBounds": [
+        [
+          -104.135,
+          25.477
+        ],
+        [
+          -99.635,
+          28.977
+        ]
+      ],
+      "transition": "Let's bring Coahuila into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -104.135,
+              25.477
+            ],
+            [
+              -99.635,
+              28.977
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nuevo León",
+      "location": [
+        -99.8307,
+        25.5113
+      ],
+      "lines": [
+        "Nuevo León lies in the interior of northern Mexico, between Coahuila to the north and Tamaulipas to the east, with Monterrey in the south of the state below the Sierra Madre.",
+        "The state was named in 1582 after the kingdom of León in Spain, and Monterrey in it is Mexico’s industrial capital, with the highest income per head of any large Mexican city.",
+        "Remember the saddle-shaped Cerro de la Silla over the industrial capital of the north."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nuevo_Le%C3%B3n",
+        "https://en.wikipedia.org/wiki/Monterrey",
+        "https://en.wikipedia.org/wiki/Cerro_de_la_Silla"
+      ],
+      "cameraBounds": [
+        [
+          -101.562,
+          23.761
+        ],
+        [
+          -98.099,
+          27.261
+        ]
+      ],
+      "transition": "Let's bring Nuevo León into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -101.562,
+              23.761
+            ],
+            [
+              -98.099,
+              27.261
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baja California Sur",
+      "location": [
+        -114.4276,
+        27.4307
+      ],
+      "lines": [
+        "Baja California Sur is the southern half of the Baja peninsula at Mexico’s far west, with La Paz on its bay and the Gulf of California along the whole eastern shore.",
+        "It was split off from Baja California as a state of its own in 1974, and the whole Gulf of California along its coast is a UNESCO World Heritage Site.",
+        "Remember the long thin southern half of the peninsula, the world’s aquarium on its eastern shore and the grey whales that come there to calf in its lagoons."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baja_California_Sur",
+        "https://en.wikipedia.org/wiki/Gulf_of_California",
+        "https://en.wikipedia.org/wiki/La_Paz,_Baja_California_Sur"
+      ],
+      "cameraBounds": [
+        [
+          -116.678,
+          25.681
+        ],
+        [
+          -112.178,
+          29.181
+        ]
+      ],
+      "transition": "Let's bring Baja California Sur into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -116.678,
+              25.681
+            ],
+            [
+              -112.178,
+              29.181
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tamaulipas",
+      "location": [
+        -98.5983,
+        24.9449
+      ],
+      "lines": [
+        "Tamaulipas is the north-eastern state on the Gulf of Mexico, running from the Rio Grande delta in the north down to the marshes of Veracruz in the south, with Tampico on the coast.",
+        "Its name comes from the Huastec word tamaholipa, roughly place where people pray, and its Sierra de Tamaulipas reserve is where tropical, desert and temperate country meet.",
+        "Remember the place where people pray, the Gulf state whose whole border with the United States is the Rio Grande."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tamaulipas",
+        "https://en.wikipedia.org/wiki/Huastec_people",
+        "https://en.wikipedia.org/wiki/Sierra_de_Tamaulipas"
+      ],
+      "cameraBounds": [
+        [
+          -100.422,
+          23.195
+        ],
+        [
+          -96.775,
+          26.695
+        ]
+      ],
+      "transition": "Let's bring Tamaulipas into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -100.422,
+              23.195
+            ],
+            [
+              -96.775,
+              26.695
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sinaloa",
+      "location": [
+        -107.4145,
+        24.7861
+      ],
+      "lines": [
+        "Sinaloa runs down the Pacific coast of north-western Mexico, between Sonora in the north and Nayarit in the south, with Culiacán inland in the northern half of the state.",
+        "It is Mexico’s vegetable garden, and most of the tomatoes the United States eats in the winter months come from this coast.",
+        "Remember the winter tomato coast, where the loud brass bands and the carnival of Mazatlán both began."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sinaloa",
+        "https://en.wikipedia.org/wiki/Mazatl%C3%A1n",
+        "https://en.wikipedia.org/wiki/Culiac%C3%A1n"
+      ],
+      "cameraBounds": [
+        [
+          -109.665,
+          23.036
+        ],
+        [
+          -105.165,
+          26.536
+        ]
+      ],
+      "transition": "Let's bring Sinaloa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -109.665,
+              23.036
+            ],
+            [
+              -105.165,
+              26.536
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Durango",
+      "location": [
+        -104.8083,
+        24.5788
+      ],
+      "lines": [
+        "Durango lies in the north-west interior of Mexico, south of Chihuahua and west of Zacatecas, with its capital of the same name in the middle of the state.",
+        "It was named in 1563 by a Basque founder after Durango in the Basque Country, whose own name means beyond the water, and its dry canyons have doubled for the American West in dozens of films.",
+        "Remember the state named after a Basque town, whose canyons stood in for the Wild West and whose road runs along a knife-edge ridge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Durango_(state)",
+        "https://en.wikipedia.org/wiki/Durango_City",
+        "https://en.wikipedia.org/wiki/Espinazo_del_Diablo"
+      ],
+      "cameraBounds": [
+        [
+          -107.058,
+          22.829
+        ],
+        [
+          -102.558,
+          26.329
+        ]
+      ],
+      "transition": "Let's bring Durango into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -107.058,
+              22.829
+            ],
+            [
+              -102.558,
+              26.329
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zacatecas",
+      "location": [
+        -102.5791,
+        23.1185
+      ],
+      "lines": [
+        "Zacatecas is a small dry state in the middle of northern Mexico, with eight neighbours crowding around it and its silver city in the middle.",
+        "Silver was found here in 1546, and for two centuries this one district was among the largest silver producers in the world; the name comes from Nahuatl words for the people of the grasslands.",
+        "Remember the grassland people of the silver state, whose pink stone centre is a UNESCO site with a cable car up the hill."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zacatecas",
+        "https://en.wikipedia.org/wiki/Zacatecas,_Zacatecas",
+        "https://en.wikipedia.org/wiki/Silver_mining"
+      ],
+      "cameraBounds": [
+        [
+          -104.767,
+          21.369
+        ],
+        [
+          -100.391,
+          24.869
+        ]
+      ],
+      "transition": "Let's bring Zacatecas into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -104.767,
+              21.369
+            ],
+            [
+              -100.391,
+              24.869
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "San Luis Potosí",
+      "location": [
+        -100.3072,
+        22.871
+      ],
+      "lines": [
+        "San Luis Potosí lies in the centre of Mexico, running from the Gulf plain in the east up into the Sierra Madre in the west, with its capital of the same name in the middle.",
+        "The name is St Louis plus Potosí, borrowing the Bolivian silver mountain as a boast that this state would be as rich, and the abandoned silver town of Real de Catorce is reached through a tunnel of 2.3 kilometres.",
+        "Remember the state that borrowed a Bolivian silver mountain for its name, with the ghost silver town behind a long tunnel."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Luis_Potos%C3%AD",
+        "https://en.wikipedia.org/wiki/Real_de_Catorce",
+        "https://en.wikipedia.org/wiki/Huasteca_Potosina"
+      ],
+      "cameraBounds": [
+        [
+          -102.557,
+          21.121
+        ],
+        [
+          -98.057,
+          24.621
+        ]
+      ],
+      "transition": "Let's bring San Luis Potosí into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -102.557,
+              21.121
+            ],
+            [
+              -98.057,
+              24.621
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aguascalientes",
+      "location": [
+        -102.3509,
+        22.0712
+      ],
+      "lines": [
+        "Aguascalientes is one of the smallest states in Mexico, wedged between Zacatecas and Jalisco in the centre of the country, with its city of hot springs in the middle.",
+        "The state takes its name from the thermal springs the city was founded on in 1575, and much of the old centre is undermined by tunnels that nobody has fully mapped.",
+        "Remember the hot waters, the small state in the middle of the country, with its underground tunnels and a fair that has run since 1828."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aguascalientes",
+        "https://en.wikipedia.org/wiki/Aguascalientes_City",
+        "https://en.wikipedia.org/wiki/Feria_Nacional_de_San_Marcos"
+      ],
+      "cameraBounds": [
+        [
+          -103.151,
+          21.471
+        ],
+        [
+          -101.551,
+          22.671
+        ]
+      ],
+      "transition": "Let's bring Aguascalientes into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -103.151,
+              21.471
+            ],
+            [
+              -101.551,
+              22.671
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nayarit",
+      "location": [
+        -104.8344,
+        21.8592
+      ],
+      "lines": [
+        "Nayarit is a narrow state on the Pacific, south of Sinaloa and north of Jalisco, with Tepic in its northern half and the Sierra Madre running down its spine.",
+        "It is named for Nayar, a Cora chief and later a god, and the Cora resisted Spanish rule here until 1722; the Wixárika, known as the Huichol, still live in its sierra and are famous for their yarn paintings.",
+        "Remember the narrow coastal state of the people who resisted Spain, where yarn paintings show visions of peyote."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nayarit",
+        "https://en.wikipedia.org/wiki/Huichol",
+        "https://en.wikipedia.org/wiki/Tepic"
+      ],
+      "cameraBounds": [
+        [
+          -105.947,
+          20.392
+        ],
+        [
+          -103.722,
+          23.327
+        ]
+      ],
+      "transition": "Let's bring Nayarit into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -105.947,
+              20.392
+            ],
+            [
+              -103.722,
+              23.327
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guanajuato",
+      "location": [
+        -100.9126,
+        20.8991
+      ],
+      "lines": [
+        "Guanajuato is a compact state in the centre of Mexico, north of Michoacán and west of Querétaro, with León out on its western plain.",
+        "Its silver mine La Valenciana produced perhaps two thirds of the world’s silver in its best years, and Mexico’s war of independence began here at Dolores Hidalgo in 1810.",
+        "Remember the place of the frogs, where the independence war began with a priest’s call to arms in the church at Dolores Hidalgo."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guanajuato",
+        "https://en.wikipedia.org/wiki/Valenciana_Mine",
+        "https://en.wikipedia.org/wiki/Dolores_Hidalgo,_Guanajuato"
+      ],
+      "cameraBounds": [
+        [
+          -102.396,
+          19.682
+        ],
+        [
+          -99.429,
+          22.116
+        ]
+      ],
+      "transition": "Let's bring Guanajuato into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -102.396,
+              19.682
+            ],
+            [
+              -99.429,
+              22.116
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jalisco",
+      "location": [
+        -103.6096,
+        20.869
+      ],
+      "lines": [
+        "Jalisco lies on the Pacific in the centre-west of Mexico, between Nayarit and Colima, with Guadalajara on the inland plain east of the coast.",
+        "Tequila is made by law only from blue agave grown in this state and four others nearby, and the region also gave the world mariachi, the charreada rodeo and the wide sombrero.",
+        "Remember the state the whole world pictures as Mexico, with tequila, mariachi and the sombrero all coming from here."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jalisco",
+        "https://en.wikipedia.org/wiki/Tequila",
+        "https://en.wikipedia.org/wiki/Mariachi"
+      ],
+      "cameraBounds": [
+        [
+          -105.86,
+          19.119
+        ],
+        [
+          -101.36,
+          22.619
+        ]
+      ],
+      "transition": "Let's bring Jalisco into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -105.86,
+              19.119
+            ],
+            [
+              -101.36,
+              22.619
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Querétaro",
+      "location": [
+        -99.8038,
+        20.7805
+      ],
+      "lines": [
+        "Querétaro is a small state in the centre of Mexico, north of Michoacán and west of Hidalgo, with its capital of the same name near the middle.",
+        "Its aqueduct of 74 arches, built in the 1720s, still frames the city, and Mexico’s constitution of 1917 was written here; Maximilian was shot on a hill just outside in 1867.",
+        "Remember the arches over the town, where the country wrote its constitution and shot an emperor on the hill outside."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Quer%C3%A9taro",
+        "https://en.wikipedia.org/wiki/Quer%C3%A9taro_City",
+        "https://en.wikipedia.org/wiki/Aqueduct_of_Quer%C3%A9taro"
+      ],
+      "cameraBounds": [
+        [
+          -100.756,
+          19.727
+        ],
+        [
+          -98.852,
+          21.834
+        ]
+      ],
+      "transition": "Let's bring Querétaro into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -100.756,
+              19.727
+            ],
+            [
+              -98.852,
+              21.834
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -116.76,
+          19.78
+        ],
+        [
+          -97.4,
+          31.36
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "16 regions of Mexico, one for each target of the map: Baja California, Sonora, Chihuahua, Coahuila, Nuevo León, Baja California Sur, Tamaulipas, Sinaloa, Durango, Zacatecas, San Luis Potosí, Aguascalientes, Nayarit, Guanajuato, Jalisco and Querétaro.",
+    "Remember the shape of Mexico from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

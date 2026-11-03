@@ -1,0 +1,816 @@
+{
+  "title": "Brazil's states · The centre and the south · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "brazil-regions",
+  "area": "Brazil",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/brazil-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -64.53,
+      -31.41
+    ],
+    [
+      -39.57,
+      -9.83
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Rondônia",
+      "location": [
+        -63.3273,
+        -10.8316
+      ],
+      "bounds": [
+        [
+          -65.577,
+          -12.582
+        ],
+        [
+          -61.077,
+          -9.082
+        ]
+      ]
+    },
+    {
+      "name": "Mato Grosso",
+      "location": [
+        -55.9235,
+        -12.6853
+      ],
+      "bounds": [
+        [
+          -58.174,
+          -14.435
+        ],
+        [
+          -53.674,
+          -10.935
+        ]
+      ]
+    },
+    {
+      "name": "Bahia",
+      "location": [
+        -42.0027,
+        -13.4287
+      ],
+      "bounds": [
+        [
+          -44.253,
+          -15.179
+        ],
+        [
+          -39.753,
+          -11.679
+        ]
+      ]
+    },
+    {
+      "name": "Distrito Federal",
+      "location": [
+        -47.7902,
+        -15.765
+      ],
+      "bounds": [
+        [
+          -48.59,
+          -16.365
+        ],
+        [
+          -46.99,
+          -15.165
+        ]
+      ]
+    },
+    {
+      "name": "Goiás",
+      "location": [
+        -49.5779,
+        -15.9367
+      ],
+      "bounds": [
+        [
+          -51.828,
+          -17.687
+        ],
+        [
+          -47.328,
+          -14.187
+        ]
+      ]
+    },
+    {
+      "name": "Minas Gerais",
+      "location": [
+        -45.4466,
+        -18.5693
+      ],
+      "bounds": [
+        [
+          -47.697,
+          -20.319
+        ],
+        [
+          -43.197,
+          -16.819
+        ]
+      ]
+    },
+    {
+      "name": "Espírito Santo",
+      "location": [
+        -40.7685,
+        -19.584
+      ],
+      "bounds": [
+        [
+          -42.138,
+          -21.334
+        ],
+        [
+          -39.399,
+          -17.834
+        ]
+      ]
+    },
+    {
+      "name": "Mato Grosso do Sul",
+      "location": [
+        -54.56,
+        -20.6189
+      ],
+      "bounds": [
+        [
+          -56.81,
+          -22.369
+        ],
+        [
+          -52.31,
+          -18.869
+        ]
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "location": [
+        -42.9129,
+        -22.065
+      ],
+      "bounds": [
+        [
+          -45.163,
+          -23.675
+        ],
+        [
+          -40.663,
+          -20.455
+        ]
+      ]
+    },
+    {
+      "name": "São Paulo",
+      "location": [
+        -48.6671,
+        -22.5496
+      ],
+      "bounds": [
+        [
+          -50.917,
+          -24.3
+        ],
+        [
+          -46.417,
+          -20.8
+        ]
+      ]
+    },
+    {
+      "name": "Paraná",
+      "location": [
+        -51.346,
+        -24.6011
+      ],
+      "bounds": [
+        [
+          -53.596,
+          -26.351
+        ],
+        [
+          -49.096,
+          -22.851
+        ]
+      ]
+    },
+    {
+      "name": "Santa Catarina",
+      "location": [
+        -51.1097,
+        -27.6515
+      ],
+      "bounds": [
+        [
+          -53.36,
+          -29.401
+        ],
+        [
+          -48.86,
+          -25.901
+        ]
+      ]
+    },
+    {
+      "name": "Rio Grande do Sul",
+      "location": [
+        -53.6501,
+        -30.4063
+      ],
+      "bounds": [
+        [
+          -55.9,
+          -32.156
+        ],
+        [
+          -51.4,
+          -28.656
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Brazil's states, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 13 of the Brazil regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Rondônia",
+      "location": [
+        -63.3273,
+        -10.8316
+      ],
+      "lines": [
+        "Rondônia sits in the far west, inland along the Madeira and Guaporé rivers, with Porto Velho, its largest city, on the Madeira and Acre, Amazonas and Mato Grosso to its north and east.",
+        "The Madeira-Mamoré railway built here cost thousands of lives to malaria and was abandoned, and the state later became a front line of Amazon deforestation.",
+        "Remember the railway that was abandoned to malaria, and the western state that became a front line of clearing the Amazon."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rond%C3%B4nia",
+        "https://en.wikipedia.org/wiki/Madeira%E2%80%93Mamor%C3%A9_Railway",
+        "https://en.wikipedia.org/wiki/Porto_Velho"
+      ],
+      "cameraBounds": [
+        [
+          -65.577,
+          -12.582
+        ],
+        [
+          -61.077,
+          -9.082
+        ]
+      ],
+      "transition": "Let's bring Rondônia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -65.577,
+              -12.582
+            ],
+            [
+              -61.077,
+              -9.082
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mato Grosso",
+      "location": [
+        -55.9235,
+        -12.6853
+      ],
+      "lines": [
+        "Mato Grosso fills the centre of Brazil, from the Amazon forest down to the Pantanal, with Cuiabá, its largest city, in its southern half and Pará, Tocantins and Rondônia to its north.",
+        "Its southern half holds the Pantanal, the largest tropical wetland in the world and the best place on earth to see a wild jaguar.",
+        "Remember the wetland where jaguars swim in its south and the soy frontier racing into the forest in its north."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mato_Grosso",
+        "https://en.wikipedia.org/wiki/Pantanal",
+        "https://en.wikipedia.org/wiki/Cuiab%C3%A1"
+      ],
+      "cameraBounds": [
+        [
+          -58.174,
+          -14.435
+        ],
+        [
+          -53.674,
+          -10.935
+        ]
+      ],
+      "transition": "Let's bring Mato Grosso into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -58.174,
+              -14.435
+            ],
+            [
+              -53.674,
+              -10.935
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bahia",
+      "location": [
+        -42.0027,
+        -13.4287
+      ],
+      "lines": [
+        "Bahia occupies the east coast around the great bay of All Saints, with Salvador, its largest city, on the shore and its land reaching inland to Goiás and Tocantins.",
+        "Salvador was the capital of Brazil until 1763 and received more enslaved Africans than any other port in the Americas.",
+        "Remember the bay of All Saints and the old capital, where the berimbau, capoeira and candomblé all belong."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bahia",
+        "https://en.wikipedia.org/wiki/Salvador,_Bahia",
+        "https://en.wikipedia.org/wiki/Ba%C3%ADa_de_Todos_os_Santos"
+      ],
+      "cameraBounds": [
+        [
+          -44.253,
+          -15.179
+        ],
+        [
+          -39.753,
+          -11.679
+        ]
+      ],
+      "transition": "Let's bring Bahia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -44.253,
+              -15.179
+            ],
+            [
+              -39.753,
+              -11.679
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Distrito Federal",
+      "location": [
+        -47.7902,
+        -15.765
+      ],
+      "lines": [
+        "The Distrito Federal is the federal district, not a state in the ordinary sense, cut out of the middle of the country, with Brasília inside it and Goiás and Minas Gerais around it.",
+        "Brasília was built in 41 months and inaugurated in 1960, designed by Lúcio Costa and Oscar Niemeyer in the shape of an aeroplane or a bird, and it is the only city built in the twentieth century to be a UNESCO World Heritage site.",
+        "Remember the district that is not a state, holding the capital built from scratch in forty-one months in the middle of the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Federal_District_(Brazil)",
+        "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+        "https://en.wikipedia.org/wiki/UNESCO_World_Heritage_Site"
+      ],
+      "cameraBounds": [
+        [
+          -48.59,
+          -16.365
+        ],
+        [
+          -46.99,
+          -15.165
+        ]
+      ],
+      "transition": "Let's bring Distrito Federal into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -48.59,
+              -16.365
+            ],
+            [
+              -46.99,
+              -15.165
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goiás",
+      "location": [
+        -49.5779,
+        -15.9367
+      ],
+      "lines": [
+        "Goiás lies in the centre of Brazil, with Goiânia, its largest city, in the middle, the Distrito Federal cut into its eastern heart and Minas Gerais, Mato Grosso, Tocantins and Bahia around it.",
+        "Gold was found here in 1722, and the colonial centre of Goiás Velho survives from that rush as a UNESCO site.",
+        "Remember the gold rush that made the state, and the high plateau of quartz and waterfalls in its north-east."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Goi%C3%A1s",
+        "https://en.wikipedia.org/wiki/Goi%C3%A1s_Velho",
+        "https://en.wikipedia.org/wiki/Chapada_dos_Veadeiros_National_Park"
+      ],
+      "cameraBounds": [
+        [
+          -51.828,
+          -17.687
+        ],
+        [
+          -47.328,
+          -14.187
+        ]
+      ],
+      "transition": "Let's bring Goiás into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -51.828,
+              -17.687
+            ],
+            [
+              -47.328,
+              -14.187
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minas Gerais",
+      "location": [
+        -45.4466,
+        -18.5693
+      ],
+      "lines": [
+        "Minas Gerais lies inland in the south-east, between Bahia and São Paulo, with Belo Horizonte, its largest city, in its middle and the Atlantic coast of Rio de Janeiro and Espírito Santo beyond it.",
+        "So much gold was dug here that the crown took a fifth, and the tax revolt against it in 1789, the Inconfidência Mineira, is the founding story of Brazilian independence.",
+        "Remember the general mines of gold and diamonds, and Ouro Preto’s churches carved by a sculptor whose hands were strapped to his tools."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minas_Gerais",
+        "https://en.wikipedia.org/wiki/Inconfid%C3%AAncia_Mineira",
+        "https://en.wikipedia.org/wiki/Ouro_Preto"
+      ],
+      "cameraBounds": [
+        [
+          -47.697,
+          -20.319
+        ],
+        [
+          -43.197,
+          -16.819
+        ]
+      ],
+      "transition": "Let's bring Minas Gerais into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -47.697,
+              -20.319
+            ],
+            [
+              -43.197,
+              -16.819
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espírito Santo",
+      "location": [
+        -40.7685,
+        -19.584
+      ],
+      "lines": [
+        "Espírito Santo is a narrow coastal state in the south-east, with Vitória, its largest city, on the shore and Bahia, Minas Gerais and Rio de Janeiro around it.",
+        "It was named Holy Spirit on Pentecost in 1535, and it is Brazil’s largest producer of robusta coffee.",
+        "Remember the Atlantic coffee state, with its Italian-descended rural families and the granite dome at Pedra Azul that changes colour through the day."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Esp%C3%ADrito_Santo",
+        "https://en.wikipedia.org/wiki/Vit%C3%B3ria,_Esp%C3%ADrito_Santo",
+        "https://en.wikipedia.org/wiki/Pedra_Azul_(Esp%C3%ADrito_Santo)"
+      ],
+      "cameraBounds": [
+        [
+          -42.138,
+          -21.334
+        ],
+        [
+          -39.399,
+          -17.834
+        ]
+      ],
+      "transition": "Let's bring Espírito Santo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -42.138,
+              -21.334
+            ],
+            [
+              -39.399,
+              -17.834
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mato Grosso do Sul",
+      "location": [
+        -54.56,
+        -20.6189
+      ],
+      "lines": [
+        "Mato Grosso do Sul is the southern half of Mato Grosso in the centre-west, with Campo Grande, its largest city, inside it and Paraguay and Bolivia along its western side.",
+        "Bonito in it has rivers so clear you can snorkel them and see forty metres to the bottom, kept that way by limestone filtering the water.",
+        "Remember the rivers at Bonito clear enough to snorkel, and the southern Pantanal that is flooded for half the year and grazed for the other half."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mato_Grosso_do_Sul",
+        "https://en.wikipedia.org/wiki/Bonito,_Mato_Grosso_do_Sul",
+        "https://en.wikipedia.org/wiki/Pantanal"
+      ],
+      "cameraBounds": [
+        [
+          -56.81,
+          -22.369
+        ],
+        [
+          -52.31,
+          -18.869
+        ]
+      ],
+      "transition": "Let's bring Mato Grosso do Sul into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -56.81,
+              -22.369
+            ],
+            [
+              -52.31,
+              -18.869
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "location": [
+        -42.9129,
+        -22.065
+      ],
+      "lines": [
+        "Rio de Janeiro lies on the south-east coast, with its capital city of the same name on Guanabara Bay, Minas Gerais behind it and Espírito Santo and São Paulo beside it.",
+        "Portuguese sailors entered Guanabara Bay on the first of January 1502 and took it for a river mouth, which is where the state gets its name.",
+        "Remember the January river that is really a bay, with Christ the Redeemer above it and the biggest carnival on earth below."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rio_de_Janeiro_(state)",
+        "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "https://en.wikipedia.org/wiki/Guanabara_Bay"
+      ],
+      "cameraBounds": [
+        [
+          -45.163,
+          -23.675
+        ],
+        [
+          -40.663,
+          -20.455
+        ]
+      ],
+      "transition": "Let's bring Rio de Janeiro into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -45.163,
+              -23.675
+            ],
+            [
+              -40.663,
+              -20.455
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "São Paulo",
+      "location": [
+        -48.6671,
+        -22.5496
+      ],
+      "lines": [
+        "São Paulo fills the south-east of Brazil, touching the Atlantic to the east, with the city of São Paulo, the largest in the southern hemisphere, in its eastern half and Paraná to the south.",
+        "It has the largest Japanese population outside Japan, and the coffee wealth of the 1800s built its railways first and its industry later.",
+        "Remember the coffee lines that became factories, and the state that holds the biggest city in the southern hemisphere."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_(state)",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+        "https://en.wikipedia.org/wiki/Coffee_production_in_Brazil"
+      ],
+      "cameraBounds": [
+        [
+          -50.917,
+          -24.3
+        ],
+        [
+          -46.417,
+          -20.8
+        ]
+      ],
+      "transition": "Let's bring São Paulo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -50.917,
+              -24.3
+            ],
+            [
+              -46.417,
+              -20.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paraná",
+      "location": [
+        -51.346,
+        -24.6011
+      ],
+      "lines": [
+        "Paraná lies in the south, on the Atlantic below São Paulo, with Curitiba, its largest city, in the middle and Santa Catarina to its south and Mato Grosso do Sul to its west.",
+        "The Iguaçu falls are on its border with Argentina, and the Itaipu dam just upstream was the largest hydroelectric plant in the world until Three Gorges.",
+        "Remember the great falls on the border with the giant dam above them, and the capital that gave the world the bus lane."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paran%C3%A1",
+        "https://en.wikipedia.org/wiki/Igua%C3%A7u_Falls",
+        "https://en.wikipedia.org/wiki/Curitiba"
+      ],
+      "cameraBounds": [
+        [
+          -53.596,
+          -26.351
+        ],
+        [
+          -49.096,
+          -22.851
+        ]
+      ],
+      "transition": "Let's bring Paraná into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -53.596,
+              -26.351
+            ],
+            [
+              -49.096,
+              -22.851
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Santa Catarina",
+      "location": [
+        -51.1097,
+        -27.6515
+      ],
+      "lines": [
+        "Santa Catarina sits on the south coast between Paraná and Rio Grande do Sul, with Florianópolis, its largest city, on an island just off the mainland and the Atlantic along its shore.",
+        "It was settled heavily by Germans and Italians in the 1800s, and Blumenau holds the second-largest Oktoberfest in the world.",
+        "Remember the state of German and Italian settlers, with snow falling in its highlands most winters and the highest life expectancy in Brazil."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Santa_Catarina_(state)",
+        "https://en.wikipedia.org/wiki/Blumenau",
+        "https://en.wikipedia.org/wiki/Florian%C3%B3polis"
+      ],
+      "cameraBounds": [
+        [
+          -53.36,
+          -29.401
+        ],
+        [
+          -48.86,
+          -25.901
+        ]
+      ],
+      "transition": "Let's bring Santa Catarina into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -53.36,
+              -29.401
+            ],
+            [
+              -48.86,
+              -25.901
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rio Grande do Sul",
+      "location": [
+        -53.6501,
+        -30.4063
+      ],
+      "lines": [
+        "Rio Grande do Sul is the southernmost state, below Santa Catarina, with Porto Alegre, its largest city, on the lagoon and the Atlantic coast beyond, facing Uruguay and Argentina.",
+        "It declared itself an independent republic in the 1835 Ragamuffin War and held out against Brazil for ten years.",
+        "Remember the southern republic that fought Brazil for ten years, with the gaúcho culture of the pampas shared with Uruguay and Argentina."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rio_Grande_do_Sul",
+        "https://en.wikipedia.org/wiki/Ragamuffin_War",
+        "https://en.wikipedia.org/wiki/Ga%C3%BAcho"
+      ],
+      "cameraBounds": [
+        [
+          -55.9,
+          -32.156
+        ],
+        [
+          -51.4,
+          -28.656
+        ]
+      ],
+      "transition": "Let's bring Rio Grande do Sul into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -55.9,
+              -32.156
+            ],
+            [
+              -51.4,
+              -28.656
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -64.53,
+          -31.41
+        ],
+        [
+          -39.57,
+          -9.83
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "13 regions of Brazil, one for each target of the map: Rondônia, Mato Grosso, Bahia, Distrito Federal, Goiás, Minas Gerais, Espírito Santo, Mato Grosso do Sul, Rio de Janeiro, São Paulo, Paraná, Santa Catarina and Rio Grande do Sul.",
+    "Remember the shape of Brazil from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

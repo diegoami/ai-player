@@ -17,20 +17,29 @@ const order = tour.steps.map(s => nameById.get(s.targetId)).filter(Boolean);
 const ordered = order.length === catalog.targets.length ? order : catalog.targets.map(t => t.name);
 
 // A region is framed on its own extent, expanded by a quarter and capped, so
-// the video shows the whole region in its surroundings.
+// the video shows the whole region in its surroundings. When the verified
+// click point falls outside that frame - which happens for a region whose
+// bounding box is far wider than its marker, such as the Northwest
+// Territories - the frame follows the point instead, so the click always
+// lands on the map.
 const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
-const frameFor = bbox => {
+const frameFor = (bbox, point) => {
   const [w, s, e, n] = bbox, bw = e - w, bh = n - s;
   const fw = clamp(bw * 1.25, 1.6, 4.5), fh = clamp(bh * 1.25, 1.2, 3.5);
-  const cx = (w + e) / 2, cy = (s + n) / 2;
+  let cx = (w + e) / 2, cy = (s + n) / 2;
+  if (point && (point[0] < cx - fw / 2 || point[0] > cx + fw / 2 || point[1] < cy - fh / 2 || point[1] > cy + fh / 2)) {
+    cx = point[0]; cy = point[1];
+  }
   return [[Number((cx - fw / 2).toFixed(3)), Number((cy - fh / 2).toFixed(3))],
           [Number((cx + fw / 2).toFixed(3)), Number((cy + fh / 2).toFixed(3))]];
 };
 
+const verified = JSON.parse(readFileSync(`rendered/map-points/${args.map}.json`, 'utf8')).points;
 const targets = ordered.map(name => {
   const t = catalog.targets.find(x => x.name === name);
   const card = facts[t.id] ?? {};
-  const frame = frameFor(t.bbox);
+  const point = verified[name]?.point;
+  const frame = frameFor(t.bbox, point);
   return {
     name,
     id: t.id,

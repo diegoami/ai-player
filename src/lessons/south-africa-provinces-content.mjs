@@ -1,0 +1,53 @@
+// Original narration for the provinces of South Africa: location, sourced fact, and a memory hook.
+// The map's own curated cards for south-africa-provinces were checked against each entry, and the
+// click points are verified in a real browser.
+const c=(name,location,frame,where,fact,hook,sources)=>({name,location,frame,lines:[where,fact,hook],sources:Array.isArray(sources)?sources:[sources]});
+const W=name=>`https://en.wikipedia.org/wiki/${name}`;
+
+export const regions=[
+ c('Limpopo',[29.1303,-23.7673],[[26.88,-25.517],[31.38,-22.017]],
+  'Limpopo lies in the far north-east of South Africa, inland, next to Gauteng, Mpumalanga and the North West, with Thohoyandou as its largest town.',
+  'Mapungubwe was the centre of a kingdom here in the thirteenth century, and archaeologists found a small golden rhinoceros in one of its royal graves.',
+  'Remember the province named for the Limpopo river in the far north-east, with a golden rhinoceros buried in its mountain kingdom.',
+  [W('Limpopo'),W('Kingdom_of_Mapungubwe'),W('Thohoyandou')]),
+ c('Mpumalanga',[30.1237,-25.7324],[[27.874,-27.482],[32.374,-23.982]],
+  'Mpumalanga lies in the north-east of the interior, landlocked between Limpopo, Gauteng, the Free State and KwaZulu-Natal, with Mbombela as its largest city.',
+  'Its name means the place where the sun rises, and the southern half of the Kruger National Park, opened in 1926, lies inside it.',
+  'Remember the rising sun in the east, with half of the Kruger and some of the oldest rocks on earth around Barberton.',
+  [W('Mpumalanga'),W('Kruger_National_Park'),W('Barberton')]),
+ c('Gauteng',[28.0836,-26.0042],[[26.968,-27.116],[29.199,-24.893]],
+  'Gauteng is the smallest province by area but the most crowded, in the north-east of the interior, with Johannesburg as its largest city and Pretoria, the administrative capital, beside it.',
+  'Its Sesotho name means place of gold, for the gold reef on the Witwatersrand, and the Cradle of Humankind lies here, where the Sterkfontein caves gave up Mrs Ples, a fossil about two and a half million years old.',
+  'Remember the crowded little province of gold, with some of the oldest human ancestor fossils in its caves.',
+  [W('Gauteng'),W('Cradle_of_Humankind'),W('Sterkfontein')]),
+ c('North West',[25.4573,-26.364],[[23.207,-28.114],[27.707,-24.614]],
+  'The North West lies in the centre of the country, inland, next to the Free State, Gauteng, Limpopo and the Northern Cape, with Klerksdorp as its largest town.',
+  'Much of it was once Bophuthatswana, a homeland declared independent under apartheid that no other country recognised, and the Pilanesberg reserve lies inside the ring of an ancient extinct volcano.',
+  'Remember the north-western province with a game reserve ringed by an ancient volcano.',
+  [W('North_West_(South_African_province)'),W('Bophuthatswana'),W('Pilanesberg_National_Park')]),
+ c('Free State',[27.056,-28.7024],[[24.806,-30.452],[29.306,-26.952]],
+  'The Free State sits in the middle of South Africa, landlocked, touching six other provinces including the Northern Cape and the Eastern Cape, with Bloemfontein as its largest city.',
+  'Its name comes from the Orange Free State, the Boer republic of 1854 to 1902, and the Vredefort crater inside it is about two billion years old, the largest impact structure known on earth.',
+  'Remember the flat central province of the old Boer republic, with the biggest meteorite scar on the planet inside it.',
+  [W('Free_State_(province)'),W('Vredefort_impact_structure'),W('Bloemfontein')]),
+ c('Northern Cape',[21.0046,-28.851],[[18.755,-30.601],[23.255,-27.101]],
+  'The Northern Cape is the biggest province in the country and the one with the fewest people, filling the north-west and reaching the Atlantic coast, with Kimberley as its largest town.',
+  'After the winter rains the semi-desert of Namaqualand is covered in wild flowers, and the town of Kimberley grew rich on the diamonds dug from the mine beneath it.',
+  'Remember the huge, thinly peopled province in the west, a land of diamonds and spring flowers.',
+  [W('Northern_Cape'),W('Namaqualand'),W('Kimberley,_South_Africa')]),
+ c('KwaZulu-Natal',[30.876,-28.9581],[[28.626,-30.708],[33.126,-27.208]],
+  'KwaZulu-Natal runs down the east coast on the Indian Ocean, with Durban as its largest city, and it touches the Eastern Cape, the Free State and Mpumalanga inland.',
+  'Natal is the name Vasco da Gama gave this coast when he sailed past it on Christmas Day in 1497, and the Drakensberg mountains along its western edge hold thousands of San rock paintings in a UNESCO park.',
+  'Remember the Zulu coast on the Indian Ocean, with the high wall of the Drakensberg rising behind it.',
+  [W('KwaZulu-Natal'),W('Vasco_da_Gama'),W('Drakensberg')]),
+ c('Eastern Cape',[26.4706,-32.0785],[[24.221,-33.828],[28.721,-30.328]],
+  'The Eastern Cape curves round the south-east of the country along the Indian Ocean, with Gqeberha as its largest city, and it borders the Northern Cape, the Free State, KwaZulu-Natal and the Western Cape.',
+  'Nelson Mandela was born in the small village of Mvezo here in 1918, and from 1779 the Xhosa people fought nine frontier wars against the colonists over about a century.',
+  'Remember the south-eastern coast where Mandela was born and the Xhosa fought nine wars for their land.',
+  [W('Eastern_Cape'),W('Nelson_Mandela'),W('Mvezo')]),
+ c('Western Cape',[18.4798,-33.8447],[[16.23,-35.595],[20.73,-32.095]],
+  'The Western Cape fills the south-west corner of the country, where the Atlantic coast meets False Bay, with Cape Town as its largest city, and it borders the Northern Cape and the Eastern Cape.',
+  'The province is named for the Cape of Good Hope, which Bartolomeu Dias rounded in 1488 and the king of Portugal so called. Its fynbos is the heart of the Cape Floral Kingdom, the smallest of the world’s six plant kingdoms.',
+  'Remember the Cape of Good Hope at the south-west tip, with its own tiny kingdom of plants.',
+  [W('Western_Cape'),W('Cape_of_Good_Hope'),W('Cape_Floristic_Region')])
+];

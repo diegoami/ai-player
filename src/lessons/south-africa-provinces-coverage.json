@@ -1,0 +1,67 @@
+{
+  "edition": "South Africa · Regions of Europe · one lesson per country · November 2026",
+  "status": "complete",
+  "scope": "All 9 region targets of GeoClick's native south-africa-provinces map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 9,
+  "countryCount": 1,
+  "nativeTargetCount": 9,
+  "nativeTeachingStopCount": 9,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 9,
+  "episodes": [
+    {
+      "id": "south-africa-provinces-regions",
+      "title": "South Africa's provinces",
+      "status": "complete",
+      "lesson": "src/lessons/south-africa-provinces-lesson.json",
+      "places": [
+        "Limpopo",
+        "Mpumalanga",
+        "Gauteng",
+        "North West",
+        "Free State",
+        "Northern Cape",
+        "KwaZulu-Natal",
+        "Eastern Cape",
+        "Western Cape"
+      ],
+      "countries": [
+        "Limpopo",
+        "Mpumalanga",
+        "Gauteng",
+        "North West",
+        "Free State",
+        "Northern Cape",
+        "KwaZulu-Natal",
+        "Eastern Cape",
+        "Western Cape"
+      ],
+      "nativeTargets": [
+        "Limpopo",
+        "Mpumalanga",
+        "Gauteng",
+        "North West",
+        "Free State",
+        "Northern Cape",
+        "KwaZulu-Natal",
+        "Eastern Cape",
+        "Western Cape"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/south-africa-provinces-20261103/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 449.6,
+      "covered": [
+        "Limpopo",
+        "Mpumalanga",
+        "Gauteng",
+        "North West",
+        "Free State",
+        "Northern Cape",
+        "KwaZulu-Natal",
+        "Eastern Cape",
+        "Western Cape"
+      ]
+    }
+  ]
+}

@@ -5,8 +5,8 @@ five US episodes, six Europe episodes, seven Asia episodes, eight Africa
 episodes, three North America episodes, three South America episodes, six
 Europe capitals episodes, seven Asia capitals episodes, three South America
 capitals episodes, five North America capitals episodes, four Oceania
-capitals episodes, six Africa capitals episodes and the seven regions
-lessons, 142 files in total.
+capitals episodes, six Africa capitals episodes and the thirteen regions
+lessons, 154 files in total.
 Each episode
 has optional SRT and WebVTT tracks. WebVTT retains the original top positioning.
 Use the numbered episode folders to find the matching track.
@@ -32,8 +32,8 @@ capitals episodes went out unlisted too, with their video IDs recorded here,
 and the three South America capitals episodes and five North America capitals
 episodes followed them, also unlisted. The four Oceania capitals episodes went
 out unlisted on 3 November 2026, with their video IDs recorded here too. The
-six Africa capitals episodes and the seven regions lessons went out unlisted
-on 3 November 2026, with their video IDs recorded here too.
+six Africa capitals episodes and the thirteen regions lessons went out
+unlisted on 3 November 2026, with their video IDs recorded here too.
 
 These text files travel with Git. Media and publishing checkpoints remain in
 ignored `rendered/` folders and must be backed up separately. Keep original

@@ -1,0 +1,993 @@
+{
+  "title": "Mexico's states · The centre and the south · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "mexico-regions",
+  "area": "Mexico",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/mexico-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -105.52,
+      15.27
+    ],
+    [
+      -86.88,
+      21.7
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Yucatán",
+      "location": [
+        -88.9586,
+        20.6335
+      ],
+      "bounds": [
+        [
+          -90.75,
+          19.405
+        ],
+        [
+          -87.167,
+          21.862
+        ]
+      ]
+    },
+    {
+      "name": "Hidalgo",
+      "location": [
+        -98.9222,
+        20.4922
+      ],
+      "bounds": [
+        [
+          -100.075,
+          19.359
+        ],
+        [
+          -97.77,
+          21.625
+        ]
+      ]
+    },
+    {
+      "name": "Veracruz",
+      "location": [
+        -98.0809,
+        20.7037
+      ],
+      "bounds": [
+        [
+          -98.366,
+          18.065
+        ],
+        [
+          -93.866,
+          21.565
+        ]
+      ]
+    },
+    {
+      "name": "Quintana Roo",
+      "location": [
+        -88.0785,
+        19.754
+      ],
+      "bounds": [
+        [
+          -89.75,
+          18.004
+        ],
+        [
+          -86.407,
+          21.504
+        ]
+      ]
+    },
+    {
+      "name": "Tlaxcala",
+      "location": [
+        -98.5464,
+        19.5118
+      ],
+      "bounds": [
+        [
+          -98.95,
+          18.81
+        ],
+        [
+          -97.35,
+          20.011
+        ]
+      ]
+    },
+    {
+      "name": "Puebla",
+      "location": [
+        -98.7917,
+        18.2168
+      ],
+      "bounds": [
+        [
+          -99.34,
+          17.603
+        ],
+        [
+          -96.438,
+          21.103
+        ]
+      ]
+    },
+    {
+      "name": "México",
+      "location": [
+        -99.6144,
+        19.3505
+      ],
+      "bounds": [
+        [
+          -100.876,
+          18.152
+        ],
+        [
+          -98.353,
+          20.549
+        ]
+      ]
+    },
+    {
+      "name": "Distrito Federal",
+      "location": [
+        -99.1458,
+        19.3145
+      ],
+      "bounds": [
+        [
+          -99.946,
+          18.714
+        ],
+        [
+          -98.346,
+          19.914
+        ]
+      ]
+    },
+    {
+      "name": "Campeche",
+      "location": [
+        -90.7498,
+        19.313
+      ],
+      "bounds": [
+        [
+          -92.92,
+          17.563
+        ],
+        [
+          -88.579,
+          21.063
+        ]
+      ]
+    },
+    {
+      "name": "Michoacán",
+      "location": [
+        -101.9324,
+        19.154
+      ],
+      "bounds": [
+        [
+          -104.182,
+          17.613
+        ],
+        [
+          -99.682,
+          20.695
+        ]
+      ]
+    },
+    {
+      "name": "Colima",
+      "location": [
+        -104.3211,
+        19.0445
+      ],
+      "bounds": [
+        [
+          -106.571,
+          18.444
+        ],
+        [
+          -102.071,
+          19.645
+        ]
+      ]
+    },
+    {
+      "name": "Morelos",
+      "location": [
+        -99.071,
+        18.7462
+      ],
+      "bounds": [
+        [
+          -99.871,
+          18.146
+        ],
+        [
+          -98.271,
+          19.346
+        ]
+      ]
+    },
+    {
+      "name": "Tabasco",
+      "location": [
+        -92.564,
+        17.9502
+      ],
+      "bounds": [
+        [
+          -94.53,
+          17.077
+        ],
+        [
+          -90.598,
+          18.823
+        ]
+      ]
+    },
+    {
+      "name": "Guerrero",
+      "location": [
+        -100.0859,
+        17.5945
+      ],
+      "bounds": [
+        [
+          -102.336,
+          15.999
+        ],
+        [
+          -97.836,
+          19.19
+        ]
+      ]
+    },
+    {
+      "name": "Oaxaca",
+      "location": [
+        -98.0338,
+        16.3153
+      ],
+      "bounds": [
+        [
+          -98.461,
+          15.386
+        ],
+        [
+          -93.961,
+          18.886
+        ]
+      ]
+    },
+    {
+      "name": "Chiapas",
+      "location": [
+        -92.2619,
+        16.2747
+      ],
+      "bounds": [
+        [
+          -94.512,
+          14.525
+        ],
+        [
+          -90.012,
+          18.025
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Mexico's states, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 16 of the Mexico regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Yucatán",
+      "location": [
+        -88.9586,
+        20.6335
+      ],
+      "lines": [
+        "Yucatán is the western half of the Yucatán peninsula in the east of the country, jutting north between the Gulf of Mexico and the Caribbean Sea, with Mérida in the middle of the state.",
+        "Its name is a Spanish mishearing of the reply the Maya gave when they were asked, something like I do not understand you, and the story of how it happened is probably too neat.",
+        "Remember the peninsula of the shadow serpent at Chichén Itzá, where a ring of cenotes marks the crater of the asteroid that ended the dinosaurs."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yucat%C3%A1n",
+        "https://en.wikipedia.org/wiki/Chich%C3%A9n_Itz%C3%A1",
+        "https://en.wikipedia.org/wiki/M%C3%A9rida,_Yucat%C3%A1n"
+      ],
+      "cameraBounds": [
+        [
+          -90.75,
+          19.405
+        ],
+        [
+          -87.167,
+          21.862
+        ]
+      ],
+      "transition": "Let's bring Yucatán into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -90.75,
+              19.405
+            ],
+            [
+              -87.167,
+              21.862
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hidalgo",
+      "location": [
+        -98.9222,
+        20.4922
+      ],
+      "lines": [
+        "Hidalgo lies in the middle of the country, east of Querétaro and north of Puebla, with Pachuca up on its high eastern plateau.",
+        "Cornish miners worked Real del Monte from 1824 and left behind pasties, still sold in the town as pastes, and the first football pitch in Mexico.",
+        "Remember the state named for the priest who called for independence, with the Cornish pasties of the silver mine and the Toltec stone warriors standing on the pyramid at Tula."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hidalgo_(state)",
+        "https://en.wikipedia.org/wiki/Mineral_del_Monte",
+        "https://en.wikipedia.org/wiki/Tula_(Mesoamerican_site)"
+      ],
+      "cameraBounds": [
+        [
+          -100.075,
+          19.359
+        ],
+        [
+          -97.77,
+          21.625
+        ]
+      ],
+      "transition": "Let's bring Hidalgo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -100.075,
+              19.359
+            ],
+            [
+              -97.77,
+              21.625
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veracruz",
+      "location": [
+        -98.0809,
+        20.7037
+      ],
+      "lines": [
+        "Veracruz is the long state that curves along the Gulf of Mexico, running from Tamaulipas in the north down towards the Isthmus of Tehuantepec in the south, with the port of Veracruz at the top of the curve.",
+        "Cortés landed on Good Friday in 1519 and named the first Spanish town in Mexico for the True Cross, and everything Spain took out of Mexico left through this port for three hundred years.",
+        "Remember the curve of the Gulf coast, the true cross where Cortés landed and the port that carried Mexico’s silver out to Spain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Veracruz",
+        "https://en.wikipedia.org/wiki/Veracruz_(city)",
+        "https://en.wikipedia.org/wiki/Hercules_Cort%C3%A9s"
+      ],
+      "cameraBounds": [
+        [
+          -98.366,
+          18.065
+        ],
+        [
+          -93.866,
+          21.565
+        ]
+      ],
+      "transition": "Let's bring Veracruz into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -98.366,
+              18.065
+            ],
+            [
+              -93.866,
+              21.565
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quintana Roo",
+      "location": [
+        -88.0785,
+        19.754
+      ],
+      "lines": [
+        "Quintana Roo is the narrow strip of the Caribbean coast in the far north-east, between Yucatán and the border of Belize, with Cancún on its shore.",
+        "Cancún was an uninhabited sandbar until 1970, when a computer model picked it as the best site for a resort, and the Mesoamerican reef offshore is the second-longest barrier reef in the world.",
+        "Remember the resort that grew on a sandbar in a single generation, with the second-longest reef in the world lying off the beach."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Quintana_Roo",
+        "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+        "https://en.wikipedia.org/wiki/Mesoamerican_Barrier_Reef"
+      ],
+      "cameraBounds": [
+        [
+          -89.75,
+          18.004
+        ],
+        [
+          -86.407,
+          21.504
+        ]
+      ],
+      "transition": "Let's bring Quintana Roo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -89.75,
+              18.004
+            ],
+            [
+              -86.407,
+              21.504
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tlaxcala",
+      "location": [
+        -98.5464,
+        19.5118
+      ],
+      "lines": [
+        "Tlaxcala is the smallest state in Mexico, a small patch in the centre of the country, ringed by Puebla, the state of México and Hidalgo, with its capital inside it.",
+        "It allied with Cortés against the Aztecs, which is why its people were never conquered and were given privileges the rest of Mexico did not receive.",
+        "Remember the smallest state, the one that sided with Cortés and was never conquered, with the painted battle walls at Cacaxtla."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tlaxcala",
+        "https://en.wikipedia.org/wiki/Tlaxcala_(city)",
+        "https://en.wikipedia.org/wiki/Cacaxtla"
+      ],
+      "cameraBounds": [
+        [
+          -98.95,
+          18.81
+        ],
+        [
+          -97.35,
+          20.011
+        ]
+      ],
+      "transition": "Let's bring Tlaxcala into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -98.95,
+              18.81
+            ],
+            [
+              -97.35,
+              20.011
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puebla",
+      "location": [
+        -98.7917,
+        18.2168
+      ],
+      "lines": [
+        "Puebla lies in the centre-south of Mexico, west of Veracruz and south of Tlaxcala, with its capital of the same name in the middle of the state.",
+        "It was founded in 1531 as Puebla de los Ángeles, a Spanish town with no indigenous settlement underneath it, and the name means town of the angels.",
+        "Remember the town of the angels, where a smaller Mexican force won at Cinco de Mayo and the biggest pyramid by volume has a church on top of it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Puebla_(state)",
+        "https://en.wikipedia.org/wiki/Puebla,_Puebla",
+        "https://en.wikipedia.org/wiki/Cholula"
+      ],
+      "cameraBounds": [
+        [
+          -99.34,
+          17.603
+        ],
+        [
+          -96.438,
+          21.103
+        ]
+      ],
+      "transition": "Let's bring Puebla into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -99.34,
+              17.603
+            ],
+            [
+              -96.438,
+              21.103
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "México",
+      "location": [
+        -99.6144,
+        19.3505
+      ],
+      "lines": [
+        "The state of México lies in the centre of the country, wrapping around the federal district on three sides, with Toluca in the north-east of it.",
+        "It is named after the Mexica, the Aztecs’ own name for themselves. Teotihuacán is here, a city of more than 100,000 people by the year 400, already abandoned and legendary when the Aztecs found it and gave it its name.",
+        "Remember the state that wraps the capital on three sides, with the huge pyramid city of Teotihuacán standing out in its fields."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/State_of_Mexico",
+        "https://en.wikipedia.org/wiki/Teotihuacan",
+        "https://en.wikipedia.org/wiki/Toluca"
+      ],
+      "cameraBounds": [
+        [
+          -100.876,
+          18.152
+        ],
+        [
+          -98.353,
+          20.549
+        ]
+      ],
+      "transition": "Let's bring México into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -100.876,
+              18.152
+            ],
+            [
+              -98.353,
+              20.549
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Distrito Federal",
+      "location": [
+        -99.1458,
+        19.3145
+      ],
+      "lines": [
+        "The Distrito Federal is the federal district in the middle of Mexico, not a state in the ordinary sense, and the state of México surrounds it on three sides.",
+        "It is built on the drained lake bed of Tenochtitlán and is sinking by up to 50 centimetres a year in places, so the cathedral leans visibly; the map keeps the old name, though it was officially renamed Ciudad de México in 2016.",
+        "Remember the capital that is not a state, a city sinking into its own old lake bed with a visibly leaning cathedral."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Federal_District_of_Mexico",
+        "https://en.wikipedia.org/wiki/Mexico_City",
+        "https://en.wikipedia.org/wiki/Mexico_City_Cathedral"
+      ],
+      "cameraBounds": [
+        [
+          -99.946,
+          18.714
+        ],
+        [
+          -98.346,
+          19.914
+        ]
+      ],
+      "transition": "Let's bring Distrito Federal into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -99.946,
+              18.714
+            ],
+            [
+              -98.346,
+              19.914
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Campeche",
+      "location": [
+        -90.7498,
+        19.313
+      ],
+      "lines": [
+        "Campeche is the western part of the Yucatán peninsula on the Gulf of Mexico, between Tabasco and Yucatán, with its capital on the coast in the south of the state.",
+        "Its walled city was fortified against pirates in the 1600s and is a UNESCO site, still ringed by bastions, and the name comes from the Maya words kaan peech, place of snakes and ticks.",
+        "Remember the walled port that kept the pirates out, and the rival Maya city of Calakmul whose pyramid rises above the jungle canopy."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Campeche",
+        "https://en.wikipedia.org/wiki/Campeche,_Campeche",
+        "https://en.wikipedia.org/wiki/Calakmul"
+      ],
+      "cameraBounds": [
+        [
+          -92.92,
+          17.563
+        ],
+        [
+          -88.579,
+          21.063
+        ]
+      ],
+      "transition": "Let's bring Campeche into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -92.92,
+              17.563
+            ],
+            [
+              -88.579,
+              21.063
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Michoacán",
+      "location": [
+        -101.9324,
+        19.154
+      ],
+      "lines": [
+        "Michoacán lies on the Pacific in the west of Mexico, with Colima to the west and Guerrero to the south-east, and Morelia up in its eastern highlands.",
+        "The Purépecha people who lived around its lakes were never conquered by the Aztecs, and their language is related to no other language on earth.",
+        "Remember the unvanquished Purépecha in the west, where tens of millions of monarch butterflies from Canada and the United States winter on a few hectares of fir forest."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Michoac%C3%A1n",
+        "https://en.wikipedia.org/wiki/Pur%C3%A9pecha",
+        "https://en.wikipedia.org/wiki/Monarch_butterfly_migration"
+      ],
+      "cameraBounds": [
+        [
+          -104.182,
+          17.613
+        ],
+        [
+          -99.682,
+          20.695
+        ]
+      ],
+      "transition": "Let's bring Michoacán into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -104.182,
+              17.613
+            ],
+            [
+              -99.682,
+              20.695
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colima",
+      "location": [
+        -104.3211,
+        19.0445
+      ],
+      "lines": [
+        "Colima is a very small state on the Pacific, hemmed in between Jalisco and Michoacán, with the volcano of the same name rising in the middle of it.",
+        "The Volcán de Colima is one of the most active in North America, and the state administers the Revillagigedo islands, a UNESCO site some 700 kilometres offshore that is Mexico’s largest marine reserve.",
+        "Remember the little state with the smoking volcano, and the island reserve far out in the Pacific that belongs to it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colima",
+        "https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Colima",
+        "https://en.wikipedia.org/wiki/Revillagigedo_Islands"
+      ],
+      "cameraBounds": [
+        [
+          -106.571,
+          18.444
+        ],
+        [
+          -102.071,
+          19.645
+        ]
+      ],
+      "transition": "Let's bring Colima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -106.571,
+              18.444
+            ],
+            [
+              -102.071,
+              19.645
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Morelos",
+      "location": [
+        -99.071,
+        18.7462
+      ],
+      "lines": [
+        "Morelos is a small state just south of the federal district, between the state of México and Guerrero, with Cuernavaca in the middle of it.",
+        "Cuernavaca’s mild weather made it the retreat of the Aztec emperors, then of Cortés, then of Maximilian, and it is called the city of eternal spring.",
+        "Remember the city of eternal spring, where emperors and generals went to retire and where Zapata was born."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Morelos",
+        "https://en.wikipedia.org/wiki/Cuernavaca",
+        "https://en.wikipedia.org/wiki/Emiliano_Zapata"
+      ],
+      "cameraBounds": [
+        [
+          -99.871,
+          18.146
+        ],
+        [
+          -98.271,
+          19.346
+        ]
+      ],
+      "transition": "Let's bring Morelos into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -99.871,
+              18.146
+            ],
+            [
+              -98.271,
+              19.346
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tabasco",
+      "location": [
+        -92.564,
+        17.9502
+      ],
+      "lines": [
+        "Tabasco is the narrow coastal plain on the Gulf of Mexico between Veracruz and Chiapas, with Villahermosa on the Grijalva river in the middle of the state.",
+        "The Olmecs, the first Mesoamerican civilisation, were here three thousand years ago and carved the colossal basalt heads, and about a third of all the water in Mexico’s rivers runs through this state.",
+        "Remember the wettest state, where the sauce comes from and the Olmec stone heads stand in the jungle."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tabasco",
+        "https://en.wikipedia.org/wiki/Olmecs",
+        "https://en.wikipedia.org/wiki/Villahermosa"
+      ],
+      "cameraBounds": [
+        [
+          -94.53,
+          17.077
+        ],
+        [
+          -90.598,
+          18.823
+        ]
+      ],
+      "transition": "Let's bring Tabasco into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -94.53,
+              17.077
+            ],
+            [
+              -90.598,
+              18.823
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guerrero",
+      "location": [
+        -100.0859,
+        17.5945
+      ],
+      "lines": [
+        "Guerrero lies on the Pacific in the south-west of Mexico, south of Michoacán and west of Oaxaca, with Acapulco on the coast.",
+        "Acapulco was the Pacific end of the Manila galleon route for 250 years, carrying Asian silk and porcelain to Spain across two oceans.",
+        "Remember the Pacific end of the galleons, and the white silver town of Taxco climbing the steep hill inland."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guerrero",
+        "https://en.wikipedia.org/wiki/Acapulco",
+        "https://en.wikipedia.org/wiki/Taxco"
+      ],
+      "cameraBounds": [
+        [
+          -102.336,
+          15.999
+        ],
+        [
+          -97.836,
+          19.19
+        ]
+      ],
+      "transition": "Let's bring Guerrero into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -102.336,
+              15.999
+            ],
+            [
+              -97.836,
+              19.19
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oaxaca",
+      "location": [
+        -98.0338,
+        16.3153
+      ],
+      "lines": [
+        "Oaxaca lies in the south of Mexico, with the long Sierra Madre and the Mixteca across its middle and a short stretch of Pacific coast in the south-west, and its capital of the same name near the centre.",
+        "It is the most linguistically diverse state in Mexico, with sixteen indigenous language groups, and many of its towns still govern by customary law rather than party politics.",
+        "Remember the state of sixteen languages and village councils, with Monte Albán above the city and the mole and mezcal the world pictures."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oaxaca",
+        "https://en.wikipedia.org/wiki/Monte_Alb%C3%A1n",
+        "https://en.wikipedia.org/wiki/Mixteca"
+      ],
+      "cameraBounds": [
+        [
+          -98.461,
+          15.386
+        ],
+        [
+          -93.961,
+          18.886
+        ]
+      ],
+      "transition": "Let's bring Oaxaca into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -98.461,
+              15.386
+            ],
+            [
+              -93.961,
+              18.886
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chiapas",
+      "location": [
+        -92.2619,
+        16.2747
+      ],
+      "lines": [
+        "Chiapas is the southernmost state of Mexico, touching the Pacific in the south and the Gulf of Mexico in the north, with Tuxtla Gutiérrez in the middle of the highlands.",
+        "Palenque here holds the tomb of Pakal, whose carved jade sarcophagus lid is among the most famous objects in the Maya world, and the state grows more of Mexico’s coffee than any other.",
+        "Remember the state where the Zapatista uprising began on New Year’s Day in 1994, with the coffee on the slopes and the Maya tomb at Palenque."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chiapas",
+        "https://en.wikipedia.org/wiki/Palenque",
+        "https://en.wikipedia.org/wiki/Zapatista_Army_of_National_Liberation"
+      ],
+      "cameraBounds": [
+        [
+          -94.512,
+          14.525
+        ],
+        [
+          -90.012,
+          18.025
+        ]
+      ],
+      "transition": "Let's bring Chiapas into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -94.512,
+              14.525
+            ],
+            [
+              -90.012,
+              18.025
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -105.52,
+          15.27
+        ],
+        [
+          -86.88,
+          21.7
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "16 regions of Mexico, one for each target of the map: Yucatán, Hidalgo, Veracruz, Quintana Roo, Tlaxcala, Puebla, México, Distrito Federal, Campeche, Michoacán, Colima, Morelos, Tabasco, Guerrero, Oaxaca and Chiapas.",
+    "Remember the shape of Mexico from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}
