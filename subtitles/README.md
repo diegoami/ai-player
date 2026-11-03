@@ -31,8 +31,8 @@ capitals episodes went out unlisted too, with their video IDs recorded here,
 and the three South America capitals episodes and five North America capitals
 episodes followed them, also unlisted. The four Oceania capitals episodes went
 out unlisted on 3 November 2026, with their video IDs recorded here too. The
-six Africa capitals episodes are produced, reviewed and backed up here, but
-they are not uploaded yet, so they have no video IDs.
+six Africa capitals episodes went out unlisted on 3 November 2026, with
+their video IDs recorded here too.
 
 These text files travel with Git. Media and publishing checkpoints remain in
 ignored `rendered/` folders and must be backed up separately. Keep original

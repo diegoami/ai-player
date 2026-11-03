@@ -4,28 +4,29 @@ For GeoClick YouTube publishing, read [docs/YOUTUBE_PUBLISHING.md](docs/YOUTUBE_
 Use `bin/geoclick-youtube.ps1` and installed youtube3 **2.10.0**. OAuth,
 uploads, captions and uncertain-write recovery belong to youtube3; do not
 reimplement them or modify its repository. The profile/channel/playlist,
-all 57 known video IDs and original queue locations are pinned in
+all 63 known video IDs and original queue locations are pinned in
 `config/geoclick-youtube.json`. Preserve all native checkpoints and the shared
 upload ledger. Never reupload known videos. The old operational scripts now
 delegate here; their originals are backed up. Stop calls using an exhausted quota bucket; private uploads have a separate
 quota bucket and may continue through the upload-only runner. Stop on upload quota
 errors; do not create a scheduled task.
 
-**All 57 GeoClick videos are published.** Thirty-two are public (2 November
+**All 63 GeoClick videos are published.** Thirty-two are public (2 November
 2026): US 5, Europe 6, Asia 7, Africa 8, North America 3 and South America 3,
 each with the playlist link in every description. Twenty-one more went out the
 same day as **unlisted** members at the end of the same public playlist: the
 Europe capitals, Asia capitals, South America capitals and North America
-capitals lessons. Four more, the Oceania capitals lessons, went out unlisted
-on 3 November 2026. The playlist `PLNl_MybP55PE` is public with all 57
-members in order, confirmed by a fresh read on 3 November 2026: none
-missing, none duplicated, the playlist link in every description.
+capitals lessons. Four more, the Oceania capitals lessons, and then the six
+Africa capitals lessons, went out unlisted on 3 November 2026. The playlist
+`PLNl_MybP55PE` is public with all 63 members in order, confirmed by a fresh
+read on 3 November 2026: none missing, none duplicated, the playlist link in
+every description.
 The owner postponed
 subtitles, so no caption
 track was installed for Europe 6, the seven Asia videos, the eight Africa
-videos, the twenty North America, South America and capitals videos or the
-four Oceania capitals videos; the ten US and Europe captions already
-accepted remain. Add the deferred captions later per video with
+videos, the twenty North America, South America and capitals videos, the
+four Oceania capitals videos or the six Africa capitals videos; the ten US
+and Europe captions already accepted remain. Add the deferred captions later per video with
 `bin/install-captions.py`, which uses youtube3's own caption upload, keeps a
 ledger of accepted caption IDs and stops on a quota refusal. **Do not resume
 the Africa or Europe 6 native queues**: their queued publication target is
@@ -107,10 +108,11 @@ the capital of Somaliland alongside Mogadishu as the capital of Somalia. Use
 `rendered/africa-capitals-20261103/`; the collection ZIP is
 `all-six-africa-capitals-videos.zip`. Durations are 5:59, 6:20, 6:08, 7:12,
 5:56 and 7:05. Exact optional English SRT/WebVTT backups are in tracked
-`subtitles/africa-capitals/`. It is **produced and packaged but not
-uploaded**: the offline publishing batch is prepared under
-`rendered/africa-capitals-20261103/youtube-publishing/` and the upload needs
-the owner's visibility choice. Nothing may be re-uploaded after it goes out.
+`subtitles/africa-capitals/`. The owner authorized the upload on
+3 November 2026: the six videos went out **unlisted** in the same playlist as
+`OIuDFN43_Fk`, `sYksvGMl4Do`, `MGpDV2baADw`, `2BT9vKBG43I`, `K9L_xDLywDA`
+and `33laD-nUU5I`, with their screenshot thumbnails and the playlist link;
+their captions are deferred. Nothing may be re-uploaded after it goes out.
 
 The completed Oceania capitals edition has **four capital lessons**, with John,
 interesting facts/location hooks and separate optional English captions. It

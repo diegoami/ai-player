@@ -515,8 +515,11 @@ Use `src/lessons/africa-capitals-coverage.json` and
 `rendered/africa-capitals-20261103/`; the collection ZIP is
 `all-six-africa-capitals-videos.zip`. Durations are 5:59, 6:20, 6:08, 7:12,
 5:56 and 7:05. Exact optional English SRT/WebVTT backups are in tracked
-`subtitles/africa-capitals/`. The offline publishing batch is prepared under
-`rendered/africa-capitals-20261103/youtube-publishing/`.
+`subtitles/africa-capitals/`. The owner authorized the upload on
+3 November 2026 and chose unlisted; the six videos went out in the same
+playlist as `OIuDFN43_Fk`, `sYksvGMl4Do`, `MGpDV2baADw`, `2BT9vKBG43I`,
+`K9L_xDLywDA` and `33laD-nUU5I`, with their screenshot thumbnails and the
+playlist link. Their captions are deferred.
 
 | Episode | Title | Targets |
 |---|---|---|

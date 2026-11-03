@@ -10,10 +10,10 @@ playlist [`PLNl_MybP55PE`](https://www.youtube.com/playlist?list=PLNl_MybP55PE),
 **Learning Geography with Geoclick**. Policy and known IDs are in
 [config/geoclick-youtube.json](../config/geoclick-youtube.json).
 
-**Current state: 57 videos are published and the playlist is public.** Thirty-two
-are public and twenty-five are unlisted, all reachable through the public
-playlist `PLNl_MybP55PE`, which has all 57 of them in order. The last release
-was the four Oceania capitals lessons on 3 November 2026, unlisted. The first
+**Current state: 63 videos are published and the playlist is public.** Thirty-two
+are public and thirty-one are unlisted, all reachable through the public
+playlist `PLNl_MybP55PE`, which has all 63 of them in order. The last release
+was the six Africa capitals lessons on 3 November 2026, unlisted. The first
 release happened on 2 November 2026 with subtitles deliberately postponed; see
 *Published release: 2 November 2026* below. The older sections are kept as the
 history of how the eleven US and Europe videos and the eight Africa uploads
@@ -98,8 +98,8 @@ uploads, and the eleven-video release workflow never uploads either series.
 
 ## Authority and retained files
 
-Versioned English subtitle backups for all 57 current episodes — US, Europe,
-Asia, Africa, North America, South America and the four capitals editions —
+Versioned English subtitle backups for all 63 current episodes — US, Europe,
+Asia, Africa, North America, South America and the capitals editions —
 are in [subtitles/](../subtitles/README.md). Its manifest maps exact caption
 bytes to canonical masters and known YouTube IDs. These backups do not replace
 the original queue caption inputs or checkpoints. Every one of these series is
@@ -273,7 +273,7 @@ in those jobs at all.
 
 Captions are optional tracks, not part of publication. When the owner decides
 to add them, use installed youtube3's own per-video caption upload for each of
-the 47 videos below, one at a time, and stop on any quota refusal.
+the 53 videos below, one at a time, and stop on any quota refusal.
 `bin/install-captions.py` does exactly this and keeps its own ledger of
 accepted caption IDs; see *Deferred captions: the installer and the quota
 arithmetic* above.
@@ -290,6 +290,7 @@ arithmetic* above.
 | South America capitals | `5oSNj262L9s`, `NpgKeTiG6lc`, `5VpzfSO_SWU` |
 | North America capitals | `JDlnPz-Rsl4`, `-5npYYzoZ3I`, `JAi68d3yfrA`, `lNI6UGU06ys`, `m9A2bJ8kt0M` |
 | Oceania capitals | `XmFxYzfASDo`, `bKY4cwBbMMk`, `7ph0YuAWbVs`, `d39c1RJeC4Y` |
+| Africa capitals | `OIuDFN43_Fk`, `sYksvGMl4Do`, `MGpDV2baADw`, `2BT9vKBG43I`, `K9L_xDLywDA`, `33laD-nUU5I` |
 
 The exact approved English SRT/WebVTT bytes are backed up in
 [subtitles/](../subtitles/README.md) and mapped to those video IDs in
@@ -578,7 +579,7 @@ the owner to review it outside auto mode rather than have the agent talk its
 way past it. That review is the owner's to give; the command must not be
 reworded to slip past it. Never reupload a known video ID.
 
-## Prepared and waiting: Africa capitals
+## Africa capitals: uploaded unlisted
 
 The ninth edition, Africa capitals, is produced, reviewed and packaged, with
 clean masters in `rendered/africa-capitals-20261103/`, optional English
@@ -587,18 +588,25 @@ prepared under `rendered/africa-capitals-20261103/youtube-publishing/`. It
 covers all 54 capital targets of GeoClick's native `africa-capitals` map
 exactly once, in six lessons, and it is the last capital map the game ships.
 
+The owner authorised the upload on 3 November 2026 and chose **unlisted**, the
+same visibility as the four capitals editions before it. It went out through
+the native flow — the caption-free derived batch, youtube3's own plan, queue
+and checkpoints, the shared per-channel ledger — with screenshot thumbnails,
+the playlist link in every description and a playlist seat each. Captions stay
+deferred.
+
+| Episode | Video ID |
+|---|---|
+| North Africa and the Sahara | `OIuDFN43_Fk` |
+| The Sahel and the Gulf of Guinea | `sYksvGMl4Do` |
+| The Sahel interior and the Gulf states | `MGpDV2baADw` |
+| The Horn and the Great Lakes | `2BT9vKBG43I` |
+| Central Africa and the Zambezi | `K9L_xDLywDA` |
+| Southern Africa and the Indian Ocean islands | `33laD-nUU5I` |
+
 The offline batch keeps its caption rows, exactly like the Africa and Asia
-batches. The upload uses a caption-free derived batch, so nothing caption-
-related happens on the account:
-
-```powershell
-& $py -I bin/upload-series.py --series africa-capitals --privacy <visibility>
-```
-
-The owner has not chosen the visibility yet, and the runbook's rule is that
-an upload needs an approval naming what is uploaded, to where and with what
-visibility. The four capitals editions before it went out unlisted, but the
-owner may decide differently for this one.
+batches; the derived upload batch omits them, so nothing caption-related
+happens on the account.
 
 ## Fresh read-back: 3 November 2026
 
@@ -621,7 +629,7 @@ Any read that outgrows a page needs the same treatment.
 
 ## Deferred captions: the installer and the quota arithmetic
 
-The 43 videos without a caption track now have a dedicated tool.
+The 53 videos without a caption track now have a dedicated tool.
 `bin/install-captions.py` owns scope, order and a local ledger of accepted
 caption IDs; installed youtube3 2.10.0 owns every account write through its
 own caption plan and per-video upload. The tool never reads or rewrites a
@@ -647,7 +655,7 @@ the next run continues from there. An uncertain write is inspected with
 
 **A caption insert costs 400 quota units**, plus a `captions.list` and an
 ownership lookup. The general bucket holds 10,000 units a day and resets at
-midnight Pacific, so the 47 tracks need roughly 21,000 units: at least three
+midnight Pacific, so the 53 tracks need roughly 24,000 units: at least three
 days, and the run stops at whatever the day's bucket allows. On 3 November 2026
 the owner chose to hold the captions and keep the day's quota for the release
 work, so no caption has been installed beyond the ten the US and Europe videos
