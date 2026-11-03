@@ -578,6 +578,28 @@ the owner to review it outside auto mode rather than have the agent talk its
 way past it. That review is the owner's to give; the command must not be
 reworded to slip past it. Never reupload a known video ID.
 
+## Prepared and waiting: Africa capitals
+
+The ninth edition, Africa capitals, is produced, reviewed and packaged, with
+clean masters in `rendered/africa-capitals-20261103/`, optional English
+SRT/WebVTT in tracked `subtitles/africa-capitals/` and the offline batch
+prepared under `rendered/africa-capitals-20261103/youtube-publishing/`. It
+covers all 54 capital targets of GeoClick's native `africa-capitals` map
+exactly once, in six lessons, and it is the last capital map the game ships.
+
+The offline batch keeps its caption rows, exactly like the Africa and Asia
+batches. The upload uses a caption-free derived batch, so nothing caption-
+related happens on the account:
+
+```powershell
+& $py -I bin/upload-series.py --series africa-capitals --privacy <visibility>
+```
+
+The owner has not chosen the visibility yet, and the runbook's rule is that
+an upload needs an approval naming what is uploaded, to where and with what
+visibility. The four capitals editions before it went out unlisted, but the
+owner may decide differently for this one.
+
 ## Fresh read-back: 3 November 2026
 
 The one live check outstanding since the North America capitals upload — an

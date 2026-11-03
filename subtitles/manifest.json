@@ -1313,6 +1313,144 @@
           "sha256": "7c00cf08783fb7eaf9ea2c8cd3403c4479eebae3b3a2ece0e42ef94b56d3fe9b"
         }
       ]
+    },
+    {
+      "series": "africa-capitals",
+      "episode": 1,
+      "id": "north-africa-and-the-sahara",
+      "ledger": "src/lessons/africa-capitals-coverage.json",
+      "master": "rendered/africa-capitals-20261103/01-north-africa-and-the-sahara/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa-capitals/01-north-africa-and-the-sahara/subtitles.en.srt",
+          "source": "rendered/africa-capitals-20261103/01-north-africa-and-the-sahara/geoclick/subtitles.en.srt",
+          "bytes": 5113,
+          "sha256": "7394feaf604c40652315ee45b4ab63e2ebbab2ede60620c6e569166f6f0b80f0"
+        },
+        {
+          "path": "subtitles/africa-capitals/01-north-africa-and-the-sahara/subtitles.en.vtt",
+          "source": "rendered/africa-capitals-20261103/01-north-africa-and-the-sahara/geoclick/subtitles.en.vtt",
+          "bytes": 6921,
+          "sha256": "41008cf57414115de25a57823f2f7dcdad41c1b8d8c3fdbb910dd8e5e4e1c3d9"
+        }
+      ]
+    },
+    {
+      "series": "africa-capitals",
+      "episode": 2,
+      "id": "the-sahel-and-the-gulf-of-guinea",
+      "ledger": "src/lessons/africa-capitals-coverage.json",
+      "master": "rendered/africa-capitals-20261103/02-the-sahel-and-the-gulf-of-guinea/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa-capitals/02-the-sahel-and-the-gulf-of-guinea/subtitles.en.srt",
+          "source": "rendered/africa-capitals-20261103/02-the-sahel-and-the-gulf-of-guinea/geoclick/subtitles.en.srt",
+          "bytes": 5496,
+          "sha256": "6573426b0f669508bbcdb6f369c79083820d1c83464a5edbc58e3fd147bdfc95"
+        },
+        {
+          "path": "subtitles/africa-capitals/02-the-sahel-and-the-gulf-of-guinea/subtitles.en.vtt",
+          "source": "rendered/africa-capitals-20261103/02-the-sahel-and-the-gulf-of-guinea/geoclick/subtitles.en.vtt",
+          "bytes": 7504,
+          "sha256": "574339ed68e21430cc6de4648f05d0d5d0fd75a5832bf5d86c8810575219b0e6"
+        }
+      ]
+    },
+    {
+      "series": "africa-capitals",
+      "episode": 3,
+      "id": "the-sahel-interior-and-the-gulf-states",
+      "ledger": "src/lessons/africa-capitals-coverage.json",
+      "master": "rendered/africa-capitals-20261103/03-the-sahel-interior-and-the-gulf-states/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa-capitals/03-the-sahel-interior-and-the-gulf-states/subtitles.en.srt",
+          "source": "rendered/africa-capitals-20261103/03-the-sahel-interior-and-the-gulf-states/geoclick/subtitles.en.srt",
+          "bytes": 5491,
+          "sha256": "736f39b354b7c07b2fba864305ad6c52870ee91b7e994d377fc6a3c8fa712052"
+        },
+        {
+          "path": "subtitles/africa-capitals/03-the-sahel-interior-and-the-gulf-states/subtitles.en.vtt",
+          "source": "rendered/africa-capitals-20261103/03-the-sahel-interior-and-the-gulf-states/geoclick/subtitles.en.vtt",
+          "bytes": 7499,
+          "sha256": "2fc852bdffeee9e821e7d617eb177d9f075bb4f38e626161b7aeacd55cde0afd"
+        }
+      ]
+    },
+    {
+      "series": "africa-capitals",
+      "episode": 4,
+      "id": "the-horn-and-the-great-lakes",
+      "ledger": "src/lessons/africa-capitals-coverage.json",
+      "master": "rendered/africa-capitals-20261103/04-the-horn-and-the-great-lakes/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa-capitals/04-the-horn-and-the-great-lakes/subtitles.en.srt",
+          "source": "rendered/africa-capitals-20261103/04-the-horn-and-the-great-lakes/geoclick/subtitles.en.srt",
+          "bytes": 5989,
+          "sha256": "0037dc9d9e20465ee32499e9eb7ec544f5538f98309728822305857df0c6567a"
+        },
+        {
+          "path": "subtitles/africa-capitals/04-the-horn-and-the-great-lakes/subtitles.en.vtt",
+          "source": "rendered/africa-capitals-20261103/04-the-horn-and-the-great-lakes/geoclick/subtitles.en.vtt",
+          "bytes": 8147,
+          "sha256": "005376219dd3486baeb19b40142149822241f2d39dc3ef5a35bc58ca9cf4c331"
+        }
+      ]
+    },
+    {
+      "series": "africa-capitals",
+      "episode": 5,
+      "id": "central-africa-and-the-zambezi",
+      "ledger": "src/lessons/africa-capitals-coverage.json",
+      "master": "rendered/africa-capitals-20261103/05-central-africa-and-the-zambezi/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa-capitals/05-central-africa-and-the-zambezi/subtitles.en.srt",
+          "source": "rendered/africa-capitals-20261103/05-central-africa-and-the-zambezi/geoclick/subtitles.en.srt",
+          "bytes": 5000,
+          "sha256": "93aa3e697dea4b20afc647f3068f2d16260d823b492f8279420d85afb010811f"
+        },
+        {
+          "path": "subtitles/africa-capitals/05-central-africa-and-the-zambezi/subtitles.en.vtt",
+          "source": "rendered/africa-capitals-20261103/05-central-africa-and-the-zambezi/geoclick/subtitles.en.vtt",
+          "bytes": 6758,
+          "sha256": "95668e2cc5b12cdcd41a3f8fb5b2e835063a1921a206939130e0f5f360d245e0"
+        }
+      ]
+    },
+    {
+      "series": "africa-capitals",
+      "episode": 6,
+      "id": "southern-africa-and-the-indian-ocean-islands",
+      "ledger": "src/lessons/africa-capitals-coverage.json",
+      "master": "rendered/africa-capitals-20261103/06-southern-africa-and-the-indian-ocean-islands/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": null,
+      "files": [
+        {
+          "path": "subtitles/africa-capitals/06-southern-africa-and-the-indian-ocean-islands/subtitles.en.srt",
+          "source": "rendered/africa-capitals-20261103/06-southern-africa-and-the-indian-ocean-islands/geoclick/subtitles.en.srt",
+          "bytes": 6343,
+          "sha256": "39d2a354d0b9b0a3568926dd33f12a2f7acc9707f21d297c153a17791719b597"
+        },
+        {
+          "path": "subtitles/africa-capitals/06-southern-africa-and-the-indian-ocean-islands/subtitles.en.vtt",
+          "source": "rendered/africa-capitals-20261103/06-southern-africa-and-the-indian-ocean-islands/geoclick/subtitles.en.vtt",
+          "bytes": 8551,
+          "sha256": "281a70f588852b19a2fc74522974606bba9ba3f82eeb9ffad28f502e4388d05f"
+        }
+      ]
     }
   ]
 }

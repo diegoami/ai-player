@@ -96,6 +96,22 @@ City. Use `src/lessons/north-america-capitals-coverage.json` and
 the same playlist as `JDlnPz-Rsl4`, `-5npYYzoZ3I`, `JAi68d3yfrA`, `lNI6UGU06ys`
 and `m9A2bJ8kt0M`, with their captions deferred.
 
+The completed Africa capitals edition has **six capital lessons**, with John,
+interesting facts/location hooks and separate optional English captions. It
+uses GeoClick's native `africa-capitals` point map, whose 54 capital targets
+are all demonstrated once each: the capital of every African country the map
+names, with South Africa's three capitals all taught and Hargeisa taught as
+the capital of Somaliland alongside Mogadishu as the capital of Somalia. Use
+`src/lessons/africa-capitals-coverage.json` and
+`src/lessons/africa-capitals-content.mjs`. Output:
+`rendered/africa-capitals-20261103/`; the collection ZIP is
+`all-six-africa-capitals-videos.zip`. Durations are 5:59, 6:20, 6:08, 7:12,
+5:56 and 7:05. Exact optional English SRT/WebVTT backups are in tracked
+`subtitles/africa-capitals/`. It is **produced and packaged but not
+uploaded**: the offline publishing batch is prepared under
+`rendered/africa-capitals-20261103/youtube-publishing/` and the upload needs
+the owner's visibility choice. Nothing may be re-uploaded after it goes out.
+
 The completed Oceania capitals edition has **four capital lessons**, with John,
 interesting facts/location hooks and separate optional English captions. It
 uses GeoClick's native `oceania-capitals` point map, whose 11 capital targets

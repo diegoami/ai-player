@@ -503,42 +503,20 @@ seat each, and captions deferred like every other series. The video IDs are
 after the release shows the playlist public with all 57 members, none missing
 and none duplicated. Never re-upload them.
 
-## Open work: Africa capitals
+## Completed Africa capitals edition: six country lessons
 
-`africa-capitals` is the last capital map GeoClick ships, and the last hole in
-the capitals series: 54 targets, by far the biggest edition. It was identified
-on 3 November 2026 and **not started**, because one framing question was the
-owner's to answer first.
+`africa-capitals` was the last capital map GeoClick ships, and the biggest
+edition: 54 targets, each demonstrated once. It was produced on 3 November
+2026 with John, interesting facts, location hooks and separate optional
+English captions.
 
-The map carries **Hargeisa as a capital target in its own right**, for
-Somaliland. The Africa *countries* edition taught Somaliland within Somalia,
-so the capitals map treats it differently, and the two have to be reconciled
-in one narration. The precedent is the Europe capitals edition, where Kosovo
-was taught with a short status note rather than silently as an ordinary
-national capital.
-
-**The owner settled that wording on 3 November 2026**: one neutral clause
-that names the status without taking a side —
-
-> Hargeisa is the capital of Somaliland, a self-declared state that the
-> United Nations treats as part of Somalia; Somalia's own capital is
-> Mogadishu.
-
-Use that sentence in the narration, at Hargeisa's stop. Do not repeat it
-elsewhere, and do not let the two Somali capitals be taught as one place.
-
-Two more map facts to carry into the script:
-
-- **South Africa has three capital targets**: Pretoria, Bloemfontein and Cape
-  Town. Teach them the way the South America capitals edition taught Bolivia's
-  La Paz and Sucre — three real capitals with three different jobs
-  (administrative, judicial, legislative) — not as three spellings of one
-  place.
-- The map names Mbabane's country **eSwatini**. Use the map's own name where
-  the lesson follows the map, and keep the international name in the narration
-  only if it can be done without contradicting the fact card.
-
-Proposed grouping, all 54 targets once, for the owner to accept or change:
+Use `src/lessons/africa-capitals-coverage.json` and
+`src/lessons/africa-capitals-content.mjs`. Output:
+`rendered/africa-capitals-20261103/`; the collection ZIP is
+`all-six-africa-capitals-videos.zip`. Durations are 5:59, 6:20, 6:08, 7:12,
+5:56 and 7:05. Exact optional English SRT/WebVTT backups are in tracked
+`subtitles/africa-capitals/`. The offline publishing batch is prepared under
+`rendered/africa-capitals-20261103/youtube-publishing/`.
 
 | Episode | Title | Targets |
 |---|---|---|
@@ -546,8 +524,46 @@ Proposed grouping, all 54 targets once, for the owner to accept or change:
 | 2 | The Sahel and the Gulf of Guinea | Dakar, Banjul, Bissau, Conakry, Freetown, Monrovia, Yamoussoukro, Accra, Lomé (9) |
 | 3 | The Sahel interior and the Gulf states | Porto-Novo, Abuja, Niamey, Ouagadougou, Bamako, N'Djamena, Yaoundé, Malabo, Libreville (9) |
 | 4 | The Horn and the Great Lakes | Djibouti, Asmara, Addis Ababa, Mogadishu, Hargeisa, Kampala, Nairobi, Kigali, Gitega, Dodoma (10) |
-| 5 | Central Africa and the Zambezi | Bangui, Brazzaville, Kinshasa, Lilongwe, Lusaka, Harare, Luanda, Maputo (8) |
+| 5 | Central Africa and the Zambezi | Bangui, Brazzaville, Kinshasa, Luanda, Lilongwe, Lusaka, Harare, Maputo (8) |
 | 6 | Southern Africa and the Indian Ocean islands | Windhoek, Gaborone, Pretoria, Bloemfontein, Cape Town, Mbabane, Maseru, Antananarivo, Moroni, São Tomé (10) |
+
+The map carried **Hargeisa as a capital target in its own right**, for
+Somaliland, while the Africa *countries* edition taught Somaliland within
+Somalia. The owner settled the wording before any script was written:
+
+> Hargeisa is the capital of Somaliland, a self-declared state that the
+> United Nations treats as part of Somalia; Somalia's own capital is
+> Mogadishu.
+
+That is the sentence in the narration, at Hargeisa's stop. It is not repeated
+elsewhere, and the two Somali capitals are never taught as one place.
+
+Two more map facts that shaped the script:
+
+- **South Africa has three capital targets**: Pretoria, Bloemfontein and Cape
+  Town, taught as three real capitals with three different jobs — to
+  administer, to judge and to legislate — the way the South America capitals
+  edition taught Bolivia's La Paz and Sucre.
+- The map names Mbabane's country **eSwatini**, and the narration says so.
+
+Three things the production taught, worth keeping for the next new map:
+
+- **The click point must be the map's own centroid.** Hand-written city
+  coordinates that were a few kilometres off were enough to miss the marker
+  and leave the previous capital's card on screen. `statePoint` projects the
+  lesson's `location`, so a lesson that carries the map's centroid cannot
+  miss.
+- **Two capitals can be too close for one frame.** Brazzaville and Kinshasa
+  are on opposite banks of the Congo, about eight kilometres apart, and at
+  the first frame's zoom the click for Brazzaville landed on Kinshasa. The
+  shared frame was tightened to 0.7° so both markers sit well apart and the
+  camera holds still for the pair.
+- **Every fact was checked against the map's own curated cards** in
+  `data/maps/africa-capitals/facts.json`, which is where the on-screen fact
+  card comes from. The narration now agrees with the card rather than
+  contradicting it, and where the card corrected the first draft —
+  Bloemfontein's court is the Supreme Court of Appeal, not the Constitutional
+  Court — the narration was corrected.
 
 ## Completed Europe edition: six country lessons
 
