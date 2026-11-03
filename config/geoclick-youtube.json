@@ -190,6 +190,72 @@
       "video_ids": [
         "Z8iZlY9Qzjw"
       ]
+    },
+    {
+      "id": "italy-regions",
+      "ledger": "src/lessons/italy-regions-coverage.json",
+      "publishing_dir": "rendered/italy-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "italy-regions",
+      "country": "Italy",
+      "targetCount": 20,
+      "scope": "This one-part edition covers all 20 region targets of GeoClick's native italy-regions map exactly once: the first-level regions of Italy that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "france-regions",
+      "ledger": "src/lessons/france-regions-coverage.json",
+      "publishing_dir": "rendered/france-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "france-regions",
+      "country": "France",
+      "targetCount": 13,
+      "scope": "This one-part edition covers all 13 region targets of GeoClick's native france-regions map exactly once: the first-level regions of France that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "germany-states",
+      "ledger": "src/lessons/germany-states-coverage.json",
+      "publishing_dir": "rendered/germany-states-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "germany-states",
+      "country": "Germany",
+      "targetCount": 16,
+      "scope": "This one-part edition covers all 16 state targets of GeoClick's native germany-states map exactly once: the states of Germany that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "great-britain-regions",
+      "ledger": "src/lessons/great-britain-regions-coverage.json",
+      "publishing_dir": "rendered/great-britain-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "great-britain-regions",
+      "country": "Great Britain",
+      "targetCount": 15,
+      "scope": "This one-part edition covers all 15 region targets of GeoClick's native great-britain-regions map exactly once: the regions of Great Britain that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "poland-regions",
+      "ledger": "src/lessons/poland-regions-coverage.json",
+      "publishing_dir": "rendered/poland-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "poland-regions",
+      "country": "Poland",
+      "targetCount": 16,
+      "scope": "This one-part edition covers all 16 region targets of GeoClick's native poland-regions map exactly once: the regions of Poland that the map names. Map targets do not settle political status or boundaries."
+    },
+    {
+      "id": "ukraine-regions",
+      "ledger": "src/lessons/ukraine-regions-coverage.json",
+      "publishing_dir": "rendered/ukraine-regions-20261103/youtube-publishing",
+      "published": "not published",
+      "captions": "deferred",
+      "mapId": "ukraine-regions",
+      "country": "Ukraine",
+      "targetCount": 27,
+      "scope": "This two-part edition covers all 27 region targets of GeoClick's native ukraine-regions map exactly once, in two lessons: the western and northern regions, then the eastern and southern ones. Map targets do not settle political status or boundaries."
     }
   ],
   "links": {

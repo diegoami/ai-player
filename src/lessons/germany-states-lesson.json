@@ -1,0 +1,993 @@
+{
+  "title": "Germany's states · Germany's states · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "germany-states",
+  "area": "Germany",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/germany-states",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      5.67,
+      47.66
+    ],
+    [
+      14.66,
+      55.16
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Schleswig-Holstein",
+      "location": [
+        9.8014,
+        54.16
+      ],
+      "bounds": [
+        [
+          7.91,
+          53.175
+        ],
+        [
+          11.692,
+          55.145
+        ]
+      ]
+    },
+    {
+      "name": "Mecklenburg-Vorpommern",
+      "location": [
+        12.4962,
+        53.8982
+      ],
+      "bounds": [
+        [
+          10.246,
+          52.911
+        ],
+        [
+          14.746,
+          54.886
+        ]
+      ]
+    },
+    {
+      "name": "Hamburg",
+      "location": [
+        10.0344,
+        53.5588
+      ],
+      "bounds": [
+        [
+          9.234,
+          52.959
+        ],
+        [
+          10.834,
+          54.159
+        ]
+      ]
+    },
+    {
+      "name": "Bremen",
+      "location": [
+        8.566,
+        53.5513
+      ],
+      "bounds": [
+        [
+          7.951,
+          52.721
+        ],
+        [
+          9.551,
+          53.921
+        ]
+      ]
+    },
+    {
+      "name": "Niedersachsen",
+      "location": [
+        9.1382,
+        52.6017
+      ],
+      "bounds": [
+        [
+          6.888,
+          50.993
+        ],
+        [
+          11.388,
+          54.21
+        ]
+      ]
+    },
+    {
+      "name": "Berlin",
+      "location": [
+        13.4215,
+        52.5196
+      ],
+      "bounds": [
+        [
+          12.621,
+          51.92
+        ],
+        [
+          14.222,
+          53.12
+        ]
+      ]
+    },
+    {
+      "name": "Brandenburg",
+      "location": [
+        13.0177,
+        52.428
+      ],
+      "bounds": [
+        [
+          10.838,
+          51.078
+        ],
+        [
+          15.197,
+          53.778
+        ]
+      ]
+    },
+    {
+      "name": "Sachsen-Anhalt",
+      "location": [
+        11.9085,
+        51.9854
+      ],
+      "bounds": [
+        [
+          10.248,
+          50.664
+        ],
+        [
+          13.569,
+          53.307
+        ]
+      ]
+    },
+    {
+      "name": "Nordrhein-Westfalen",
+      "location": [
+        7.6677,
+        51.4235
+      ],
+      "bounds": [
+        [
+          5.426,
+          50.048
+        ],
+        [
+          9.909,
+          52.799
+        ]
+      ]
+    },
+    {
+      "name": "Thüringen",
+      "location": [
+        11.2802,
+        50.9309
+      ],
+      "bounds": [
+        [
+          9.571,
+          50.048
+        ],
+        [
+          12.989,
+          51.814
+        ]
+      ]
+    },
+    {
+      "name": "Sachsen",
+      "location": [
+        13.4624,
+        50.9061
+      ],
+      "bounds": [
+        [
+          11.516,
+          49.976
+        ],
+        [
+          15.409,
+          51.836
+        ]
+      ]
+    },
+    {
+      "name": "Hessen",
+      "location": [
+        9.0008,
+        50.5256
+      ],
+      "bounds": [
+        [
+          7.464,
+          49.121
+        ],
+        [
+          10.538,
+          51.93
+        ]
+      ]
+    },
+    {
+      "name": "Rheinland-Pfalz",
+      "location": [
+        7.2951,
+        49.9348
+      ],
+      "bounds": [
+        [
+          5.797,
+          48.714
+        ],
+        [
+          8.794,
+          51.155
+        ]
+      ]
+    },
+    {
+      "name": "Saarland",
+      "location": [
+        6.867,
+        49.3664
+      ],
+      "bounds": [
+        [
+          6.067,
+          48.766
+        ],
+        [
+          7.667,
+          49.966
+        ]
+      ]
+    },
+    {
+      "name": "Bayern",
+      "location": [
+        11.413,
+        48.9166
+      ],
+      "bounds": [
+        [
+          9.163,
+          47.167
+        ],
+        [
+          13.663,
+          50.667
+        ]
+      ]
+    },
+    {
+      "name": "Baden-Württemberg",
+      "location": [
+        8.9946,
+        48.664
+      ],
+      "bounds": [
+        [
+          7.154,
+          47.25
+        ],
+        [
+          10.836,
+          50.078
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Germany's states, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 16 of the Germany regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Schleswig-Holstein",
+      "location": [
+        9.8014,
+        54.16
+      ],
+      "lines": [
+        "Schleswig-Holstein fills the far north of Germany between Denmark and Mecklenburg-Vorpommern, on both the Baltic and the North Sea, with Kiel on the canal.",
+        "Denmark ruled it until Prussia took it in 1864, and the border was only settled by a plebiscite in 1920, which is why Danish schools survive in the north.",
+        "Remember the very top of Germany, crossed by the Kiel Canal, the busiest artificial waterway in the world, with more ships than Suez and Panama together."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Schleswig-Holstein",
+        "https://en.wikipedia.org/wiki/Kiel_Canal",
+        "https://en.wikipedia.org/wiki/Kiel"
+      ],
+      "cameraBounds": [
+        [
+          7.91,
+          53.175
+        ],
+        [
+          11.692,
+          55.145
+        ]
+      ],
+      "transition": "Let's bring Schleswig-Holstein into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.91,
+              53.175
+            ],
+            [
+              11.692,
+              55.145
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mecklenburg-Vorpommern",
+      "location": [
+        12.4962,
+        53.8982
+      ],
+      "lines": [
+        "Mecklenburg-Vorpommern runs along the Baltic coast in the north-east, east of Schleswig-Holstein, with Rostock as its largest city.",
+        "It is the emptiest state in Germany, with fewer people to the square kilometre than any other, and it is full of lakes.",
+        "Remember the empty Land with its painted chalk cliffs, and with Rügen and Usedom, Germany’s two largest islands, off the coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mecklenburg-Vorpommern",
+        "https://en.wikipedia.org/wiki/Rostock",
+        "https://en.wikipedia.org/wiki/R%C3%BCgen"
+      ],
+      "cameraBounds": [
+        [
+          10.246,
+          52.911
+        ],
+        [
+          14.746,
+          54.886
+        ]
+      ],
+      "transition": "Let's bring Mecklenburg-Vorpommern into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.246,
+              52.911
+            ],
+            [
+              14.746,
+              54.886
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hamburg",
+      "location": [
+        10.0344,
+        53.5588
+      ],
+      "lines": [
+        "Hamburg is a small city-state on the Elbe in the north of Germany, far smaller than the Länder around it, with Schleswig-Holstein above it and Niedersachsen below.",
+        "Its name comes from Hammaburg, a ninth-century castle, and it is officially the Free and Hanseatic City, which still shows in its number plates, HH.",
+        "Remember the small port city-state with more bridges than Venice, Amsterdam and London put together."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hamburg",
+        "https://en.wikipedia.org/wiki/Free_and_Hanseatic_City_of_Hamburg",
+        "https://en.wikipedia.org/wiki/Hanseatic_League"
+      ],
+      "cameraBounds": [
+        [
+          9.234,
+          52.959
+        ],
+        [
+          10.834,
+          54.159
+        ]
+      ],
+      "transition": "Let's bring Hamburg into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              9.234,
+              52.959
+            ],
+            [
+              10.834,
+              54.159
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bremen",
+      "location": [
+        8.566,
+        53.5513
+      ],
+      "lines": [
+        "Bremen is a tiny city-state in the north-west, far smaller than Niedersachsen all around it, and it is really two towns, Bremen and Bremerhaven, with the mainland in between.",
+        "Its name comes from bremo, Old Saxon for the edge, because the town stood on the bank of the Weser where the ground rose above the marsh.",
+        "Remember the smallest Land, two separate towns with Lower Saxony in the gap, and the statue of the town musicians who never actually got there."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bremen",
+        "https://en.wikipedia.org/wiki/Free_and_Hanseatic_City_of_Bremen",
+        "https://en.wikipedia.org/wiki/Bremerhaven"
+      ],
+      "cameraBounds": [
+        [
+          7.951,
+          52.721
+        ],
+        [
+          9.551,
+          53.921
+        ]
+      ],
+      "transition": "Let's bring Bremen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.951,
+              52.721
+            ],
+            [
+              9.551,
+              53.921
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Niedersachsen",
+      "location": [
+        9.1382,
+        52.6017
+      ],
+      "lines": [
+        "Niedersachsen spreads across the whole north and north-west of Germany, from the Dutch border to the Elbe, with the Wadden Sea along the coast and Hanover in the middle.",
+        "Lower means downriver, towards the sea, not southern, and the Saxons who gave Sachsen its name started here before the name travelled south-east with a duke’s title.",
+        "Remember the biggest Land after Bayern and the flattest, where the tide empties the Wadden Sea twice a day."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lower_Saxony",
+        "https://en.wikipedia.org/wiki/Hanover",
+        "https://en.wikipedia.org/wiki/Saxons"
+      ],
+      "cameraBounds": [
+        [
+          6.888,
+          50.993
+        ],
+        [
+          11.388,
+          54.21
+        ]
+      ],
+      "transition": "Let's bring Niedersachsen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.888,
+              50.993
+            ],
+            [
+              11.388,
+              54.21
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Berlin",
+      "location": [
+        13.4215,
+        52.5196
+      ],
+      "lines": [
+        "Berlin is a small city-state in the north-east of Germany, completely ringed by Brandenburg and touching no other Land.",
+        "It is really an island inside Brandenburg, and the two voted on merging in 1996 and said no.",
+        "Remember the enclosed city-state that voted to stay on its own, with more museums than rainy days in the year."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Berlin",
+        "https://en.wikipedia.org/wiki/Brandenburg",
+        "https://en.wikipedia.org/wiki/Berlin_Wall"
+      ],
+      "cameraBounds": [
+        [
+          12.621,
+          51.92
+        ],
+        [
+          14.222,
+          53.12
+        ]
+      ],
+      "transition": "Let's bring Berlin into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.621,
+              51.92
+            ],
+            [
+              14.222,
+              53.12
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brandenburg",
+      "location": [
+        13.0177,
+        52.428
+      ],
+      "lines": [
+        "Brandenburg wraps all the way around Berlin in the north-east and reaches east to the Oder, with Potsdam as its largest city.",
+        "It is the cradle of Prussia, where the Margrave of Brandenburg became the King in Prussia and everything from there to Königsberg followed.",
+        "Remember the state that circles Berlin, with three thousand lakes that make it the weekend of the whole capital."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brandenburg",
+        "https://en.wikipedia.org/wiki/Potsdam",
+        "https://en.wikipedia.org/wiki/Prussia"
+      ],
+      "cameraBounds": [
+        [
+          10.838,
+          51.078
+        ],
+        [
+          15.197,
+          53.778
+        ]
+      ],
+      "transition": "Let's bring Brandenburg into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.838,
+              51.078
+            ],
+            [
+              15.197,
+              53.778
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sachsen-Anhalt",
+      "location": [
+        11.9085,
+        51.9854
+      ],
+      "lines": [
+        "Sachsen-Anhalt lies in the centre of Germany between Brandenburg and Thüringen, with Magdeburg on the Elbe.",
+        "The state was only invented in 1945, joining Prussian Saxony to the old principality of Anhalt, a name that sounds like the German for hold on.",
+        "Remember the post-war state, with Luther nailing his theses in Wittenberg and Bach born just over the border in Eisenach."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saxony-Anhalt",
+        "https://en.wikipedia.org/wiki/Magdeburg",
+        "https://en.wikipedia.org/wiki/Martin_Luther"
+      ],
+      "cameraBounds": [
+        [
+          10.248,
+          50.664
+        ],
+        [
+          13.569,
+          53.307
+        ]
+      ],
+      "transition": "Let's bring Sachsen-Anhalt into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.248,
+              50.664
+            ],
+            [
+              13.569,
+              53.307
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nordrhein-Westfalen",
+      "location": [
+        7.6677,
+        51.4235
+      ],
+      "lines": [
+        "Nordrhein-Westfalen fills the whole west of Germany, from the Netherlands and Belgium down to the southern Rhineland, with Essen as its largest city and the Ruhr around it.",
+        "It is by far the most populous state, with one German in five living here and a quarter of them in the Ruhr, whose coal and steel built modern Germany.",
+        "Remember the crowded western Land of the Ruhr, where the last pit closed in 2018 after two centuries of mining."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Rhine-Westphalia",
+        "https://en.wikipedia.org/wiki/Essen",
+        "https://en.wikipedia.org/wiki/Ruhr"
+      ],
+      "cameraBounds": [
+        [
+          5.426,
+          50.048
+        ],
+        [
+          9.909,
+          52.799
+        ]
+      ],
+      "transition": "Let's bring Nordrhein-Westfalen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.426,
+              50.048
+            ],
+            [
+              9.909,
+              52.799
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thüringen",
+      "location": [
+        11.2802,
+        50.9309
+      ],
+      "lines": [
+        "Thüringen is the wooded state in the centre of Germany, between Hessen to the west and Sachsen to the east, with Erfurt as its largest city.",
+        "It is called the green heart of Germany, and it is the geographic centre of the country as well as the wooded one.",
+        "Remember the green heart, where Weimar was the home of Goethe and Schiller and the birthplace of the Bauhaus."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thuringia",
+        "https://en.wikipedia.org/wiki/Erfurt",
+        "https://en.wikipedia.org/wiki/Weimar"
+      ],
+      "cameraBounds": [
+        [
+          9.571,
+          50.048
+        ],
+        [
+          12.989,
+          51.814
+        ]
+      ],
+      "transition": "Let's bring Thüringen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              9.571,
+              50.048
+            ],
+            [
+              12.989,
+              51.814
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sachsen",
+      "location": [
+        13.4624,
+        50.9061
+      ],
+      "lines": [
+        "Sachsen is the large state in the east of Germany, reaching the Polish and Czech borders, with Dresden as its largest city.",
+        "The Saxons never actually lived here; the name arrived in 1423 with the margraves of Meissen, six hundred kilometres away from where the Saxons really were.",
+        "Remember the Land where the first true porcelain outside China was fired at Meissen in 1708."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saxony",
+        "https://en.wikipedia.org/wiki/Dresden",
+        "https://en.wikipedia.org/wiki/Meissen_porcelain"
+      ],
+      "cameraBounds": [
+        [
+          11.516,
+          49.976
+        ],
+        [
+          15.409,
+          51.836
+        ]
+      ],
+      "transition": "Let's bring Sachsen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.516,
+              49.976
+            ],
+            [
+              15.409,
+              51.836
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hessen",
+      "location": [
+        9.0008,
+        50.5256
+      ],
+      "lines": [
+        "Hessen sits in the centre of Germany and touches six other Länder, including Rheinland-Pfalz to the west and Bayern to the south, with Frankfurt as its largest city.",
+        "Its name comes from the Chatti, a tribe Tacitus wrote about, and Chatti became Hessi and then Hessen.",
+        "Remember the middle state whose landgraves rented soldiers to Britain in the 1770s, so American schoolchildren learn the word Hessians."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hesse",
+        "https://en.wikipedia.org/wiki/Frankfurt_am_Main",
+        "https://en.wikipedia.org/wiki/Chatti"
+      ],
+      "cameraBounds": [
+        [
+          7.464,
+          49.121
+        ],
+        [
+          10.538,
+          51.93
+        ]
+      ],
+      "transition": "Let's bring Hessen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.464,
+              49.121
+            ],
+            [
+              10.538,
+              51.93
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rheinland-Pfalz",
+      "location": [
+        7.2951,
+        49.9348
+      ],
+      "lines": [
+        "Rheinland-Pfalz lies along the Rhine and the Moselle in the far west of Germany, with Koblenz as its largest city and Saarland tucked into its south-west.",
+        "The Pfalz is Latin palatium, a palace, because the Count Palatine was the emperor’s deputy and his lands kept the title.",
+        "Remember the wine state, which grows two thirds of German wine, and Mainz, where Gutenberg printed the first book with movable type around 1450."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rhineland-Palatinate",
+        "https://en.wikipedia.org/wiki/Koblenz",
+        "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+      ],
+      "cameraBounds": [
+        [
+          5.797,
+          48.714
+        ],
+        [
+          8.794,
+          51.155
+        ]
+      ],
+      "transition": "Let's bring Rheinland-Pfalz into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.797,
+              48.714
+            ],
+            [
+              8.794,
+              51.155
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saarland",
+      "location": [
+        6.867,
+        49.3664
+      ],
+      "lines": [
+        "Saarland is the small state in the far south-west of Germany, bounded by Rheinland-Pfalz on the north and east and by France and Luxembourg on the west and south, with Saarbrücken as its largest city.",
+        "It voted twice on its own future, in 1935 to rejoin Germany and in 1955 against independence, so it joined West Germany in 1957 as the very last piece.",
+        "Remember the last piece to arrive, the smallest Land apart from the city-states, where the Saar loops back on itself at Mettlach."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saarland",
+        "https://en.wikipedia.org/wiki/Saarbr%C3%BCcken",
+        "https://en.wikipedia.org/wiki/Saar_(river)"
+      ],
+      "cameraBounds": [
+        [
+          6.067,
+          48.766
+        ],
+        [
+          7.667,
+          49.966
+        ]
+      ],
+      "transition": "Let's bring Saarland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.067,
+              48.766
+            ],
+            [
+              7.667,
+              49.966
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bayern",
+      "location": [
+        11.413,
+        48.9166
+      ],
+      "lines": [
+        "Bayern is the biggest state by area, filling the south of Germany from the Alps up past Munich, which is its largest city.",
+        "It is the oldest state here, a duchy from 555 and a kingdom from 1806, and it joined the German Empire in 1871 while keeping its own army and postal service.",
+        "Remember the great southern Land, which holds half of all German ground above a thousand metres, and Neuschwanstein, the model for Disney’s castle."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bavaria",
+        "https://en.wikipedia.org/wiki/Munich",
+        "https://en.wikipedia.org/wiki/Neuschwanstein_castle"
+      ],
+      "cameraBounds": [
+        [
+          9.163,
+          47.167
+        ],
+        [
+          13.663,
+          50.667
+        ]
+      ],
+      "transition": "Let's bring Bayern into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              9.163,
+              47.167
+            ],
+            [
+              13.663,
+              50.667
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baden-Württemberg",
+      "location": [
+        8.9946,
+        48.664
+      ],
+      "lines": [
+        "Baden-Württemberg is the south-western state, running from the Black Forest in the west across the Swabian Jura, with Stuttgart as its largest city.",
+        "The two names were welded together in 1952, and Baden is Old High German for baths, after the Roman springs at Baden-Baden.",
+        "Remember the merged Land of 1952, where the Danube rises in the Black Forest and Mercedes and Porsche are both built around Stuttgart."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baden-W%C3%BCrttemberg",
+        "https://en.wikipedia.org/wiki/Stuttgart",
+        "https://en.wikipedia.org/wiki/Black_Forest"
+      ],
+      "cameraBounds": [
+        [
+          7.154,
+          47.25
+        ],
+        [
+          10.836,
+          50.078
+        ]
+      ],
+      "transition": "Let's bring Baden-Württemberg into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.154,
+              47.25
+            ],
+            [
+              10.836,
+              50.078
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          5.67,
+          47.66
+        ],
+        [
+          14.66,
+          55.16
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "16 regions of Germany, one for each target of the map: Schleswig-Holstein, Mecklenburg-Vorpommern, Hamburg, Bremen, Niedersachsen, Berlin, Brandenburg, Sachsen-Anhalt, Nordrhein-Westfalen, Thüringen, Sachsen, Hessen, Rheinland-Pfalz, Saarland, Bayern and Baden-Württemberg.",
+    "Remember the shape of Germany from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

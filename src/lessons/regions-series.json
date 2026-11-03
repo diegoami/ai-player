@@ -1,7 +1,7 @@
 {
   "schema": "ai-player.regions-series.v1",
   "edition": "Regions of Europe · one lesson per country · November 2026",
-  "note": "One lesson per country, teaching that country's own first-level regions from the map GeoClick ships. Each country keeps its own content file, coverage ledger and output root, so a new country is one config entry and one content file.",
+  "note": "One lesson per country, teaching that country's own first-level regions from the map GeoClick ships. Each country keeps its own content file, coverage ledger and output root, so a new country is one config entry and one content file. A country with a 'groups' list becomes one lesson per group, each group keeping the map's own tour order within itself.",
   "countries": [
     {
       "id": "spain-regions",
@@ -10,7 +10,87 @@
       "title": "Spain's regions",
       "content": "src/lessons/spain-regions-content.mjs",
       "root": "rendered/spain-regions-20261103",
-      "zip": "all-spain-regions-videos.zip"
+      "zip": "all-spain-regions-videos.zip",
+      "targetCount": 16,
+      "label": "Spain Regions"
+    },
+    {
+      "id": "italy-regions",
+      "country": "Italy",
+      "mapId": "italy-regions",
+      "title": "Italy's regions",
+      "content": "src/lessons/italy-regions-content.mjs",
+      "root": "rendered/italy-regions-20261103",
+      "zip": "all-italy-regions-videos.zip",
+      "targetCount": 20,
+      "label": "Italy Regions"
+    },
+    {
+      "id": "france-regions",
+      "country": "France",
+      "mapId": "france-regions",
+      "title": "France's regions",
+      "content": "src/lessons/france-regions-content.mjs",
+      "root": "rendered/france-regions-20261103",
+      "zip": "all-france-regions-videos.zip",
+      "targetCount": 13,
+      "label": "France Regions"
+    },
+    {
+      "id": "germany-states",
+      "country": "Germany",
+      "mapId": "germany-states",
+      "title": "Germany's states",
+      "content": "src/lessons/germany-states-content.mjs",
+      "root": "rendered/germany-states-20261103",
+      "zip": "all-germany-states-videos.zip",
+      "targetCount": 16,
+      "label": "Germany States"
+    },
+    {
+      "id": "great-britain-regions",
+      "country": "Great Britain",
+      "mapId": "great-britain-regions",
+      "title": "Great Britain's regions",
+      "content": "src/lessons/great-britain-regions-content.mjs",
+      "root": "rendered/great-britain-regions-20261103",
+      "zip": "all-great-britain-regions-videos.zip",
+      "targetCount": 15,
+      "label": "Great Britain Regions"
+    },
+    {
+      "id": "poland-regions",
+      "country": "Poland",
+      "mapId": "poland-regions",
+      "title": "Poland's regions",
+      "content": "src/lessons/poland-regions-content.mjs",
+      "root": "rendered/poland-regions-20261103",
+      "zip": "all-poland-regions-videos.zip",
+      "targetCount": 16,
+      "label": "Poland Regions"
+    },
+    {
+      "id": "ukraine-regions",
+      "country": "Ukraine",
+      "mapId": "ukraine-regions",
+      "title": "Ukraine's regions",
+      "content": "src/lessons/ukraine-regions-content.mjs",
+      "root": "rendered/ukraine-regions-20261103",
+      "zip": "all-ukraine-regions-videos.zip",
+      "targetCount": 27,
+      "label": "Ukraine Regions",
+      "groups": [
+        {
+          "id": "west-and-north",
+          "title": "Western and northern Ukraine",
+          "names": ["Volyn", "Rivne", "Zhytomyr", "Kyiv", "Kyiv Oblast", "Chernihiv", "Lviv", "Ternopil", "Khmelnytskyi", "Ivano-Frankivsk", "Zakarpattia", "Chernivtsi"]
+        },
+        {
+          "id": "east-and-south",
+          "title": "Eastern and southern Ukraine",
+          "names": ["Sumy", "Poltava", "Kharkiv", "Cherkasy", "Vinnytsya", "Kirovohrad", "Dnipropetrovsk", "Luhansk", "Donetsk", "Mykolayiv", "Zaporizhzhya", "Odesa", "Kherson", "Crimea", "Sevastopol"]
+        }
+      ]
     }
   ]
 }

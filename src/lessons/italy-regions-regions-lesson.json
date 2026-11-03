@@ -1,0 +1,1229 @@
+{
+  "title": "Italy's regions · Italy's regions · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "italy-regions",
+  "area": "Italy",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/italy-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      6.16,
+      36.48
+    ],
+    [
+      17.93,
+      47.39
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Trentino-Alto Adige",
+      "location": [
+        11.4194,
+        46.3924
+      ],
+      "bounds": [
+        [
+          10.107,
+          45.526
+        ],
+        [
+          12.732,
+          47.258
+        ]
+      ]
+    },
+    {
+      "name": "Friuli-Venezia Giulia",
+      "location": [
+        13.0971,
+        46.129
+      ],
+      "bounds": [
+        [
+          12.146,
+          45.489
+        ],
+        [
+          14.049,
+          46.769
+        ]
+      ]
+    },
+    {
+      "name": "Veneto",
+      "location": [
+        11.8699,
+        45.7347
+      ],
+      "bounds": [
+        [
+          10.338,
+          44.558
+        ],
+        [
+          13.402,
+          46.911
+        ]
+      ]
+    },
+    {
+      "name": "Valle d'Aosta",
+      "location": [
+        7.3561,
+        45.7252
+      ],
+      "bounds": [
+        [
+          6.556,
+          45.125
+        ],
+        [
+          8.156,
+          46.325
+        ]
+      ]
+    },
+    {
+      "name": "Lombardia",
+      "location": [
+        9.9671,
+        45.6544
+      ],
+      "bounds": [
+        [
+          8.149,
+          44.439
+        ],
+        [
+          11.785,
+          46.87
+        ]
+      ]
+    },
+    {
+      "name": "Piemonte",
+      "location": [
+        7.9029,
+        45.2629
+      ],
+      "bounds": [
+        [
+          6.278,
+          43.798
+        ],
+        [
+          9.528,
+          46.728
+        ]
+      ]
+    },
+    {
+      "name": "Emilia-Romagna",
+      "location": [
+        10.9776,
+        44.4466
+      ],
+      "bounds": [
+        [
+          8.757,
+          43.587
+        ],
+        [
+          13.198,
+          45.306
+        ]
+      ]
+    },
+    {
+      "name": "Liguria",
+      "location": [
+        7.7645,
+        43.8902
+      ],
+      "bounds": [
+        [
+          7.156,
+          43.637
+        ],
+        [
+          10.379,
+          44.837
+        ]
+      ]
+    },
+    {
+      "name": "Toscana",
+      "location": [
+        11.0237,
+        43.4254
+      ],
+      "bounds": [
+        [
+          9.356,
+          42.112
+        ],
+        [
+          12.691,
+          44.739
+        ]
+      ]
+    },
+    {
+      "name": "Marche",
+      "location": [
+        13.0507,
+        43.33
+      ],
+      "bounds": [
+        [
+          11.982,
+          42.527
+        ],
+        [
+          14.119,
+          44.133
+        ]
+      ]
+    },
+    {
+      "name": "Umbria",
+      "location": [
+        12.569,
+        42.9931
+      ],
+      "bounds": [
+        [
+          11.719,
+          42.214
+        ],
+        [
+          13.419,
+          43.773
+        ]
+      ]
+    },
+    {
+      "name": "Abruzzo",
+      "location": [
+        13.8959,
+        42.2949
+      ],
+      "bounds": [
+        [
+          12.812,
+          41.537
+        ],
+        [
+          14.98,
+          43.053
+        ]
+      ]
+    },
+    {
+      "name": "Lazio",
+      "location": [
+        12.7308,
+        42.0389
+      ],
+      "bounds": [
+        [
+          11.132,
+          41.025
+        ],
+        [
+          14.33,
+          43.053
+        ]
+      ]
+    },
+    {
+      "name": "Molise",
+      "location": [
+        14.5446,
+        41.7255
+      ],
+      "bounds": [
+        [
+          13.745,
+          41.125
+        ],
+        [
+          15.345,
+          42.325
+        ]
+      ]
+    },
+    {
+      "name": "Puglia",
+      "location": [
+        16.7256,
+        40.879
+      ],
+      "bounds": [
+        [
+          14.486,
+          39.548
+        ],
+        [
+          18.965,
+          42.21
+        ]
+      ]
+    },
+    {
+      "name": "Campania",
+      "location": [
+        14.7645,
+        40.7448
+      ],
+      "bounds": [
+        [
+          13.488,
+          39.806
+        ],
+        [
+          16.041,
+          41.683
+        ]
+      ]
+    },
+    {
+      "name": "Basilicata",
+      "location": [
+        16.1038,
+        40.5217
+      ],
+      "bounds": [
+        [
+          15.154,
+          39.753
+        ],
+        [
+          17.053,
+          41.291
+        ]
+      ]
+    },
+    {
+      "name": "Sardegna",
+      "location": [
+        8.9803,
+        40.0716
+      ],
+      "bounds": [
+        [
+          7.922,
+          38.583
+        ],
+        [
+          10.038,
+          41.56
+        ]
+      ]
+    },
+    {
+      "name": "Calabria",
+      "location": [
+        16.4,
+        39.0272
+      ],
+      "bounds": [
+        [
+          15.434,
+          37.65
+        ],
+        [
+          17.366,
+          40.405
+        ]
+      ]
+    },
+    {
+      "name": "Sicilia",
+      "location": [
+        14.0054,
+        37.4784
+      ],
+      "bounds": [
+        [
+          12.032,
+          36.454
+        ],
+        [
+          15.978,
+          38.502
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Italy's regions, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 20 of the Italy regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Trentino-Alto Adige",
+      "location": [
+        11.4194,
+        46.3924
+      ],
+      "lines": [
+        "Trentino-Alto Adige sits in the far north of Italy, a landlocked region between Lombardia and Veneto, with Trento as its largest city in the upper Adige valley.",
+        "The name holds two places at once, the city of Trento and the upper valley of the Adige river, and the Alto Adige half was Austrian until 1919, so most people there still speak German.",
+        "Remember the northern alpine corner that keeps most of its own taxes and half of its German, with the Dolomites rising along its northern edge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trentino-Alto_Adige",
+        "https://en.wikipedia.org/wiki/South_Tyrol",
+        "https://en.wikipedia.org/wiki/Dolomites"
+      ],
+      "cameraBounds": [
+        [
+          10.107,
+          45.526
+        ],
+        [
+          12.732,
+          47.258
+        ]
+      ],
+      "transition": "Let's bring Trentino-Alto Adige into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.107,
+              45.526
+            ],
+            [
+              12.732,
+              47.258
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Friuli-Venezia Giulia",
+      "location": [
+        13.0971,
+        46.129
+      ],
+      "lines": [
+        "Friuli-Venezia Giulia lies in the north-east of Italy on the Adriatic coast, with Veneto as its only Italian neighbour and Trieste as its largest city in the far corner.",
+        "The name uses Julius twice, because Friuli is the worn-down Latin Forum Iulii, the market town of Julius Caesar, and Venezia Giulia was coined for these lands in 1863.",
+        "Remember the corner where the market town of Julius Caesar grew into a region, with Trieste watching the Adriatic and the Alps at its back."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Friuli-Venezia_Giulia",
+        "https://en.wikipedia.org/wiki/Trieste",
+        "https://en.wikipedia.org/wiki/Forum_Iulii"
+      ],
+      "cameraBounds": [
+        [
+          12.146,
+          45.489
+        ],
+        [
+          14.049,
+          46.769
+        ]
+      ],
+      "transition": "Let's bring Friuli-Venezia Giulia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.146,
+              45.489
+            ],
+            [
+              14.049,
+              46.769
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veneto",
+      "location": [
+        11.8699,
+        45.7347
+      ],
+      "lines": [
+        "Veneto fills the north-east of Italy, from the Alps down to the Adriatic coast, with Verona as its largest city and Friuli-Venezia Giulia on its eastern side.",
+        "It is the mainland that Venice ruled for four centuries, and it takes its name from the Veneti, the people who were living here before Rome existed.",
+        "Remember the mainland behind Venice, where Prosecco and Amarone come from and the arena at Verona, standing since the year 30, still stages opera in the open air."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Veneto",
+        "https://en.wikipedia.org/wiki/Verona",
+        "https://en.wikipedia.org/wiki/Prosecco"
+      ],
+      "cameraBounds": [
+        [
+          10.338,
+          44.558
+        ],
+        [
+          13.402,
+          46.911
+        ]
+      ],
+      "transition": "Let's bring Veneto into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              10.338,
+              44.558
+            ],
+            [
+              13.402,
+              46.911
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valle d'Aosta",
+      "location": [
+        7.3561,
+        45.7252
+      ],
+      "lines": [
+        "Valle d'Aosta is Italy's smallest region in the far north-west, a landlocked valley with Piemonte as its only Italian neighbour and Aosta as its largest town.",
+        "It is the only region made of one valley, one river and one road with rock walls either side, and Aosta was founded by the Emperor Augustus in 25 BC.",
+        "Remember the tiniest region, a single road climbing a single valley towards Mont Blanc, where French is spoken beside Italian."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aosta_Valley",
+        "https://en.wikipedia.org/wiki/Aosta",
+        "https://en.wikipedia.org/wiki/Mont_Blanc"
+      ],
+      "cameraBounds": [
+        [
+          6.556,
+          45.125
+        ],
+        [
+          8.156,
+          46.325
+        ]
+      ],
+      "transition": "Let's bring Valle d'Aosta into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.556,
+              45.125
+            ],
+            [
+              8.156,
+              46.325
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lombardia",
+      "location": [
+        9.9671,
+        45.6544
+      ],
+      "lines": [
+        "Lombardia spreads across the north of Italy, a landlocked region reaching from the Alps down to the plain of the Po, with Milan as its largest city.",
+        "Its name comes from the Longobards, the long-beards, a Germanic people who took northern Italy in 568, and in the Middle Ages a Lombard was simply a moneylender.",
+        "Remember the region whose bankers lent their name to a street in London, and which still makes about a fifth of Italy's economy."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lombardy",
+        "https://en.wikipedia.org/wiki/Milan",
+        "https://en.wikipedia.org/wiki/Lombards"
+      ],
+      "cameraBounds": [
+        [
+          8.149,
+          44.439
+        ],
+        [
+          11.785,
+          46.87
+        ]
+      ],
+      "transition": "Let's bring Lombardia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.149,
+              44.439
+            ],
+            [
+              11.785,
+              46.87
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piemonte",
+      "location": [
+        7.9029,
+        45.2629
+      ],
+      "lines": [
+        "Piemonte lies in the north-west of Italy, a landlocked region with the Alps wrapping it on three sides, and Turin as its largest city in the north-east corner.",
+        "The name means at the foot of the mountains, and this was the kingdom that annexed the rest of Italy rather than joining it, with Turin as the first capital of the unified country in 1861.",
+        "Remember the kingdom that swallowed the rest of Italy, with vermouth, Nutella and the white truffles of Alba all coming from this one region."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Piedmont",
+        "https://en.wikipedia.org/wiki/Turin",
+        "https://en.wikipedia.org/wiki/White_truffle"
+      ],
+      "cameraBounds": [
+        [
+          6.278,
+          43.798
+        ],
+        [
+          9.528,
+          46.728
+        ]
+      ],
+      "transition": "Let's bring Piemonte into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.278,
+              43.798
+            ],
+            [
+              9.528,
+              46.728
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emilia-Romagna",
+      "location": [
+        10.9776,
+        44.4466
+      ],
+      "lines": [
+        "Emilia-Romagna runs across the north of Italy from the Alps to the Adriatic coast, with Bologna as its largest city in the middle of the plain.",
+        "The Via Aemilia, the road the Romans built in 187 BC, is still the straight line through the region, and it is why almost every town here sits in a row along it.",
+        "Remember the straight Roman road with the food towns lined up beside it, where Parmesan, Parma ham and balsamic vinegar all come from."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Emilia-Romagna",
+        "https://en.wikipedia.org/wiki/Bologna",
+        "https://en.wikipedia.org/wiki/Via_Emilia"
+      ],
+      "cameraBounds": [
+        [
+          8.757,
+          43.587
+        ],
+        [
+          13.198,
+          45.306
+        ]
+      ],
+      "transition": "Let's bring Emilia-Romagna into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.757,
+              43.587
+            ],
+            [
+              13.198,
+              45.306
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liguria",
+      "location": [
+        7.7645,
+        43.8902
+      ],
+      "lines": [
+        "Liguria is the narrow crescent of coast in the north-west of Italy, curving round the Gulf of Genoa between Piemonte and Toscana, with Genoa as its largest city.",
+        "The Ligurian Sea takes its name from the region rather than the other way round, and the people called the Ligures were here before the Romans and before the Celts.",
+        "Remember the crescent coast of stacked fishing villages, where pesto was invented in Genoa and the basil for it still grows in greenhouses."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Liguria",
+        "https://en.wikipedia.org/wiki/Genoa",
+        "https://en.wikipedia.org/wiki/Pesto"
+      ],
+      "cameraBounds": [
+        [
+          7.156,
+          43.637
+        ],
+        [
+          10.379,
+          44.837
+        ]
+      ],
+      "transition": "Let's bring Liguria into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.156,
+              43.637
+            ],
+            [
+              10.379,
+              44.837
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toscana",
+      "location": [
+        11.0237,
+        43.4254
+      ],
+      "lines": [
+        "Toscana fills the centre of Italy, reaching from the Ligurian coast to the Adriatic shore, with Florence as its largest city and Lazio to its south.",
+        "Its name comes from the Tusci, the Roman name for the Etruscans, whose country this was before Rome had one, and its dialect became the Italian language because Dante and Petrarch wrote in it.",
+        "Remember the region that gave Italy its own tongue, with the Leaning Tower of Pisa and the hill towns of Tuscany between Florence and Siena."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tuscany",
+        "https://en.wikipedia.org/wiki/Florence",
+        "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+      ],
+      "cameraBounds": [
+        [
+          9.356,
+          42.112
+        ],
+        [
+          12.691,
+          44.739
+        ]
+      ],
+      "transition": "Let's bring Toscana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              9.356,
+              42.112
+            ],
+            [
+              12.691,
+              44.739
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marche",
+      "location": [
+        13.0507,
+        43.33
+      ],
+      "lines": [
+        "Marche is the narrow strip of the Adriatic coast in the centre of Italy, between Emilia-Romagna and Abruzzo, with Ancona as its largest city.",
+        "The name is plural because a march was a frontier province of the Holy Roman Empire, and this coast held more than one of them at once.",
+        "Remember the Italian Marches, a shoreline of small white hill towns with more theatres per head than any other region."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Marche",
+        "https://en.wikipedia.org/wiki/Ancona",
+        "https://en.wikipedia.org/wiki/Sferisterio_di_Macerata"
+      ],
+      "cameraBounds": [
+        [
+          11.982,
+          42.527
+        ],
+        [
+          14.119,
+          44.133
+        ]
+      ],
+      "transition": "Let's bring Marche into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.982,
+              42.527
+            ],
+            [
+              14.119,
+              44.133
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Umbria",
+      "location": [
+        12.569,
+        42.9931
+      ],
+      "lines": [
+        "Umbria sits in the centre of Italy, a landlocked region bordered only by Toscana, Marche and Lazio, with Perugia as its largest city.",
+        "It is the only region on the mainland with no coast and no foreign border, touching nothing but other Italian regions, and St Francis was born at Assisi here.",
+        "Remember the green heart of Italy, the landlocked region of hill towns whose basilica at Assisi was painted by Giotto."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Umbria",
+        "https://en.wikipedia.org/wiki/Perugia",
+        "https://en.wikipedia.org/wiki/Assisi"
+      ],
+      "cameraBounds": [
+        [
+          11.719,
+          42.214
+        ],
+        [
+          13.419,
+          43.773
+        ]
+      ],
+      "transition": "Let's bring Umbria into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.719,
+              42.214
+            ],
+            [
+              13.419,
+              43.773
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abruzzo",
+      "location": [
+        13.8959,
+        42.2949
+      ],
+      "lines": [
+        "Abruzzo runs down the Adriatic side of central Italy, between Marche and Lazio and reaching south to Molise, with Pescara as its largest city.",
+        "A third of the region is national park, the highest and wildest stretch of the Apennines, and it is the last place in Italy where wild bears still live.",
+        "Remember the mountains that drop straight into the sea, with the Corno Grande above the park holding the southernmost glacier in Europe, now nearly gone."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abruzzo",
+        "https://en.wikipedia.org/wiki/Pescara",
+        "https://en.wikipedia.org/wiki/Gran_Sasso_National_Park"
+      ],
+      "cameraBounds": [
+        [
+          12.812,
+          41.537
+        ],
+        [
+          14.98,
+          43.053
+        ]
+      ],
+      "transition": "Let's bring Abruzzo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.812,
+              41.537
+            ],
+            [
+              14.98,
+              43.053
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lazio",
+      "location": [
+        12.7308,
+        42.0389
+      ],
+      "lines": [
+        "Lazio fills the centre of Italy, reaching from the Tyrrhenian coast inland to the Apennines, with Rome as its largest city on the Tiber.",
+        "Latium is the land of the Latins, whose village on the Tiber became Rome and whose language became Latin, and the region is still named after the tribe rather than the city.",
+        "Remember the land of the Latins, which holds two sovereign states inside Rome, the Vatican and the headquarters of the Order of Malta."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lazio",
+        "https://en.wikipedia.org/wiki/Rome",
+        "https://en.wikipedia.org/wiki/Vatican_City"
+      ],
+      "cameraBounds": [
+        [
+          11.132,
+          41.025
+        ],
+        [
+          14.33,
+          43.053
+        ]
+      ],
+      "transition": "Let's bring Lazio into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              11.132,
+              41.025
+            ],
+            [
+              14.33,
+              43.053
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Molise",
+      "location": [
+        14.5446,
+        41.7255
+      ],
+      "lines": [
+        "Molise is a tiny region on the Adriatic coast of central Italy, with Abruzzo above it and Puglia below, and Campobasso as its largest city.",
+        "It is Italy's youngest region, split away from Abruzzo in 1963, and the second smallest after Valle d'Aosta.",
+        "Remember the region so little known that Italians joke that Molise does not exist, with its own short stretch of Adriatic sand."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Molise",
+        "https://en.wikipedia.org/wiki/Campobasso",
+        "https://en.wikipedia.org/wiki/Termoli"
+      ],
+      "cameraBounds": [
+        [
+          13.745,
+          41.125
+        ],
+        [
+          15.345,
+          42.325
+        ]
+      ],
+      "transition": "Let's bring Molise into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              13.745,
+              41.125
+            ],
+            [
+              15.345,
+              42.325
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puglia",
+      "location": [
+        16.7256,
+        40.879
+      ],
+      "lines": [
+        "Puglia is the heel of the boot in the far south-east of Italy, facing the Adriatic Sea on one side and the Ionian Sea on the other, with Bari as its largest city.",
+        "Its name comes from Apulia, the Roman name for the land of the Apuli, and it grows about forty per cent of Italy's olive oil from trees that are often centuries old.",
+        "Remember the heel of the boot, with the white cone-roofed trulli of Alberobello and old olive trees on the plains behind Bari."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Apulia",
+        "https://en.wikipedia.org/wiki/Bari",
+        "https://en.wikipedia.org/wiki/Alberobello"
+      ],
+      "cameraBounds": [
+        [
+          14.486,
+          39.548
+        ],
+        [
+          18.965,
+          42.21
+        ]
+      ],
+      "transition": "Let's bring Puglia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              14.486,
+              39.548
+            ],
+            [
+              18.965,
+              42.21
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Campania",
+      "location": [
+        14.7645,
+        40.7448
+      ],
+      "lines": [
+        "Campania runs along the Tyrrhenian Sea in the south of Italy, from the border with Lazio round to Basilicata and Puglia, with Naples as its largest city.",
+        "The Romans named it for its plain, the most fertile in Italy, and called it the happy countryside, because Vesuvius keeps covering the fields in ash.",
+        "Remember the happy countryside of Naples, where the same volcano that made the soil rich buried Pompeii, and where pizza margherita was named for a queen in 1889."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Campania",
+        "https://en.wikipedia.org/wiki/Naples",
+        "https://en.wikipedia.org/wiki/Vesuvius"
+      ],
+      "cameraBounds": [
+        [
+          13.488,
+          39.806
+        ],
+        [
+          16.041,
+          41.683
+        ]
+      ],
+      "transition": "Let's bring Campania into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              13.488,
+              39.806
+            ],
+            [
+              16.041,
+              41.683
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Basilicata",
+      "location": [
+        16.1038,
+        40.5217
+      ],
+      "lines": [
+        "Basilicata is the mountainous region in the south-east of Italy, between Campania and Puglia with a short stretch of Ionian coast, and Potenza as its largest city.",
+        "The name comes from a Greek word meaning the emperor's man, the Byzantine governor who ran it from Constantinople, and it has also been called Lucania after the people who were there first.",
+        "Remember the mountains of the emperor's man, and the cave dwellings of Matera that people have lived in for nine thousand years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basilicata",
+        "https://en.wikipedia.org/wiki/Potenza",
+        "https://en.wikipedia.org/wiki/Matera"
+      ],
+      "cameraBounds": [
+        [
+          15.154,
+          39.753
+        ],
+        [
+          17.053,
+          41.291
+        ]
+      ],
+      "transition": "Let's bring Basilicata into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.154,
+              39.753
+            ],
+            [
+              17.053,
+              41.291
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sardegna",
+      "location": [
+        8.9803,
+        40.0716
+      ],
+      "lines": [
+        "Sardegna is the big island off the west of Italy, south of Corsica and separated from the mainland by the Tyrrhenian Sea, with Cagliari as its largest city.",
+        "Its nuraghi, some seven thousand dry-stone towers and some older than Rome itself, exist nowhere else on earth.",
+        "Remember the island of stone towers that ringed the Bronze Age villages, and the blue zone where islanders live past a hundred more often than anywhere else."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sardinia",
+        "https://en.wikipedia.org/wiki/Cagliari",
+        "https://en.wikipedia.org/wiki/Nuraghi"
+      ],
+      "cameraBounds": [
+        [
+          7.922,
+          38.583
+        ],
+        [
+          10.038,
+          41.56
+        ]
+      ],
+      "transition": "Let's bring Sardegna into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.922,
+              38.583
+            ],
+            [
+              10.038,
+              41.56
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calabria",
+      "location": [
+        16.4,
+        39.0272
+      ],
+      "lines": [
+        "Calabria is the toe of the boot in the far south-east of Italy, across the strait from Sicily, with Reggio di Calabria as its largest city and Basilicata to the north.",
+        "The name once belonged to the heel and not to the toe, because Roman Calabria was the Salento, and the name slid across the gulf in the Byzantine centuries.",
+        "Remember the toe that took the heel's name, with the Riace bronzes pulled from the sea off its coast by a snorkeller in 1972."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Calabria",
+        "https://en.wikipedia.org/wiki/Reggio_Calabria",
+        "https://en.wikipedia.org/wiki/Riace_Bronzes"
+      ],
+      "cameraBounds": [
+        [
+          15.434,
+          37.65
+        ],
+        [
+          17.366,
+          40.405
+        ]
+      ],
+      "transition": "Let's bring Calabria into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              15.434,
+              37.65
+            ],
+            [
+              17.366,
+              40.405
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sicilia",
+      "location": [
+        14.0054,
+        37.4784
+      ],
+      "lines": [
+        "Sicilia is the great island in the south of Italy, the largest island in the Mediterranean, with Palermo as its largest city on the north shore.",
+        "Its name comes from the Sicels, one of three peoples on the island when the Greeks arrived, the others being the Sicani and the Elymians.",
+        "Remember Etna, the tallest active volcano in Europe, whose ash keeps the slopes below it farmed and the vineyards alive."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sicily",
+        "https://en.wikipedia.org/wiki/Palermo",
+        "https://en.wikipedia.org/wiki/Mount_Etna"
+      ],
+      "cameraBounds": [
+        [
+          12.032,
+          36.454
+        ],
+        [
+          15.978,
+          38.502
+        ]
+      ],
+      "transition": "Let's bring Sicilia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              12.032,
+              36.454
+            ],
+            [
+              15.978,
+              38.502
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          6.16,
+          36.48
+        ],
+        [
+          17.93,
+          47.39
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "20 regions of Italy, one for each target of the map: Trentino-Alto Adige, Friuli-Venezia Giulia, Veneto, Valle d'Aosta, Lombardia, Piemonte, Emilia-Romagna, Liguria, Toscana, Marche, Umbria, Abruzzo, Lazio, Molise, Puglia, Campania, Basilicata, Sardegna, Calabria and Sicilia.",
+    "Remember the shape of Italy from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

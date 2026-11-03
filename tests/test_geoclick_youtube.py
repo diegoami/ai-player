@@ -51,6 +51,23 @@ class WorkflowTests(unittest.TestCase):
                 self.assertTrue(all(url in entry['settings']['description'] for url in config['links'].values()))
             self.assertFalse(workflow.read(root / 'offline/offline-manifest.json')['upload_authorized'])
 
+    def test_every_series_scope_resolves_to_its_own_text(self):
+        """Each known series has its own scope line; the regions series uses the policy's."""
+        import ast
+        tree = ast.parse(Path(workflow.__file__).read_text(encoding='utf-8'))
+        function = next(node for node in ast.walk(tree) if isinstance(node, ast.FunctionDef) and node.name == 'prepare')
+        scopes = ast.literal_eval(next(node for node in ast.walk(function)
+                                        if isinstance(node, ast.Assign) and any(getattr(t, 'id', '') == 'scopes' for t in node.targets)).value)
+        self.assertEqual(len(scopes), 10)
+        for identity, text in scopes.items():
+            self.assertTrue(text.strip(), identity)
+            self.assertNotIn('series[', text, identity)
+        config = json.loads(Path(workflow.CONFIG).read_text(encoding='utf-8'))
+        regions = [series['id'] for series in config.get('additional_offline_series', []) if series.get('scope')]
+        self.assertTrue(regions)
+        for identity in regions:
+            self.assertNotIn(identity, scopes, f'{identity} must use the policy scope')
+
     def test_link_is_inserted_among_links_once(self):
         original = 'Owner text\n\nPlay GeoClick: game\nSource: repo\n'
         desired = workflow.linked(original, 'playlist-url')

@@ -403,53 +403,56 @@ def prepare(config, batch_module, captions, series_id=None):
              'north-america-capitals': 'North America Capitals',
              'oceania-capitals': 'Oceania Capitals',
              'africa-capitals': 'Africa Capitals',
-             'spain-regions': 'Spain Regions'}.get(identity, identity.title())
+             'spain-regions': 'Spain Regions',
+             'italy-regions': 'Italy Regions',
+             'france-regions': 'France Regions',
+             'germany-states': 'Germany States',
+             'great-britain-regions': 'Great Britain Regions',
+             'poland-regions': 'Poland Regions',
+             'ukraine-regions': 'Ukraine Regions'}.get(identity, identity.title())
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
         raise ValueError('Offline series is not complete')
     total = len(production['episodes'])
-    scope = ('This seven-part edition has 49 teaching stops. Cyprus counts once, with its divided island explained; '
-             'Bahrain, Maldives and Singapore use labelled supplemental geographic views. Asian Russia is briefly '
-             'oriented because its full country stop was in the Europe series. Map targets do not settle disputed political status or boundaries.'
-             if identity == 'asia' else
-             ('This eight-part edition covers 54 countries once each, plus Western Sahara as a disputed-territory stop. '
-              'Somaliland is demonstrated within Somalia. Sao Tome and Principe, Comoros, Mauritius and Seychelles use labelled '
-              'supplemental geographic views. Teaching groups and map targets do not settle political status, boundaries or control.'
-              if identity == 'africa' else
-              ('This three-part edition covers all 16 country targets of GeoClick\'s native North America map exactly once: '
-               'Canada, the United States, Mexico, seven Central American countries and six Caribbean countries. Greenland is not a '
-               'target of that map. Episode groups are teaching routes, not an official regional classification, and map outlines '
-               'do not settle political status or boundaries.'
-               if identity == 'north-america' else
-               ('This three-part edition covers all 12 country targets of GeoClick\'s native South America map exactly once: '
-                'the four northern countries, the four Andean western countries and the four eastern and southern countries. '
-                'French Guiana is not a target of that map. Episode groups are teaching routes, not an official regional '
-                'classification, and map outlines do not settle political status or boundaries.'
-                if identity == 'south-america' else
-                ('This six-part edition covers all 44 capital targets of GeoClick\'s native Europe capitals map exactly once: '
-                 'the capital of every European country the map names. Episode groups are teaching routes, not an official '
-                 'classification, and map targets do not settle political status or boundaries.'
-                 if identity == 'europe-capitals' else
-                 ('This seven-part edition covers all 47 capital targets of GeoClick\'s native Asia capitals map exactly once: '
-                  'the capital of every Asian country the map names. Episode groups are teaching routes, not an official '
-                  'classification, and map targets do not settle political status or boundaries.'
-                  if identity == 'asia-capitals' else
-                  ('This five-part edition covers all 23 capital targets of GeoClick\'s native North America capitals map exactly '
-                   'once: the capitals of Canada, the United States, Mexico, Central America and the Caribbean that the map names. '
-                   'The fact card shows the English display name, so Mexico City is taught as Mexico City. Episode groups are '
-                   'teaching routes, not an official classification, and map targets do not settle political status or boundaries.'
-                   if identity == 'north-america-capitals' else
-                   ('This four-part edition covers all 11 capital targets of GeoClick\'s native Oceania capitals map exactly '
-                    'once: the capitals of the Pacific island states and of Australia and New Zealand that the map names. '
-                    'Episode groups are teaching routes, not an official classification, and map targets do not settle political '
-                    'status or boundaries.'
-                    if identity == 'oceania-capitals' else
-                    ('This six-part edition covers all 54 capital targets of GeoClick\'s native Africa capitals map exactly once: '
-                     'the capital of every African country the map names, with South Africa\'s three capitals all taught and '
-                     'Hargeisa taught as the capital of Somaliland alongside Mogadishu as the capital of Somalia. Episode groups '
-                     'are teaching routes, not an official classification, and map targets do not settle political status or boundaries.'
-                     if identity == 'africa-capitals' else
-                     ('This three-part edition covers all 13 capital targets of GeoClick\'s native South America capitals map exactly '                      'once: the capitals of the twelve countries the map names, with Bolivia\'s two capitals, La Paz and Sucre, both '                      'taught. Episode groups are teaching routes, not an official classification, and map targets do not settle '                      'political status or boundaries.'                      if identity == 'south-america-capitals' else                      (f'This one-part edition covers all {series["targetCount"]} region targets of GeoClick\'s native '                       f'{series["mapId"]} map exactly once: the first-level regions of {series["country"]} that the map names. '                       'Map targets do not settle political status or boundaries.')))))))))))
+    scopes = {
+        'asia': ('This seven-part edition has 49 teaching stops. Cyprus counts once, with its divided island explained; '
+                  'Bahrain, Maldives and Singapore use labelled supplemental geographic views. Asian Russia is briefly '
+                  'oriented because its full country stop was in the Europe series. Map targets do not settle disputed political status or boundaries.'),
+        'africa': ('This eight-part edition covers 54 countries once each, plus Western Sahara as a disputed-territory stop. '
+                   'Somaliland is demonstrated within Somalia. Sao Tome and Principe, Comoros, Mauritius and Seychelles use labelled '
+                   'supplemental geographic views. Teaching groups and map targets do not settle political status, boundaries or control.'),
+        'north-america': ('This three-part edition covers all 16 country targets of GeoClick\'s native North America map exactly once: '
+                          'Canada, the United States, Mexico, seven Central American countries and six Caribbean countries. Greenland is not a '
+                          'target of that map. Episode groups are teaching routes, not an official regional classification, and map outlines '
+                          'do not settle political status or boundaries.'),
+        'south-america': ('This three-part edition covers all 12 country targets of GeoClick\'s native South America map exactly once: '
+                           'the four northern countries, the four Andean western countries and the four eastern and southern countries. '
+                           'French Guiana is not a target of that map. Episode groups are teaching routes, not an official regional '
+                           'classification, and map outlines do not settle political status or boundaries.'),
+        'europe-capitals': ('This six-part edition covers all 44 capital targets of GeoClick\'s native Europe capitals map exactly once: '
+                            'the capital of every European country the map names. Episode groups are teaching routes, not an official '
+                            'classification, and map targets do not settle political status or boundaries.'),
+        'asia-capitals': ('This seven-part edition covers all 47 capital targets of GeoClick\'s native Asia capitals map exactly once: '
+                         'the capital of every Asian country the map names. Episode groups are teaching routes, not an official '
+                         'classification, and map targets do not settle political status or boundaries.'),
+        'north-america-capitals': ('This five-part edition covers all 23 capital targets of GeoClick\'s native North America capitals map exactly '
+                                   'once: the capitals of Canada, the United States, Mexico, Central America and the Caribbean that the map names. '
+                                   'The fact card shows the English display name, so Mexico City is taught as Mexico City. Episode groups are '
+                                   'teaching routes, not an official classification, and map targets do not settle political status or boundaries.'),
+        'oceania-capitals': ('This four-part edition covers all 11 capital targets of GeoClick\'s native Oceania capitals map exactly '
+                              'once: the capitals of the Pacific island states and of Australia and New Zealand that the map names. '
+                              'Episode groups are teaching routes, not an official classification, and map targets do not settle political '
+                              'status or boundaries.'),
+        'africa-capitals': ('This six-part edition covers all 54 capital targets of GeoClick\'s native Africa capitals map exactly once: '
+                            'the capital of every African country the map names, with South Africa\'s three capitals all taught and '
+                            'Hargeisa taught as the capital of Somaliland alongside Mogadishu as the capital of Somalia. Episode groups '
+                            'are teaching routes, not an official classification, and map targets do not settle political status or boundaries.'),
+        'south-america-capitals': ('This three-part edition covers all 13 capital targets of GeoClick\'s native South America capitals map exactly '
+                                   'once: the capitals of the twelve countries the map names, with Bolivia\'s two capitals, La Paz and Sucre, both '
+                                   'taught. Episode groups are teaching routes, not an official classification, and map targets do not settle '
+                                   'political status or boundaries.'),
+    }
+    scope = scopes.get(identity) or series['scope']
     folder = ROOT / series['publishing_dir']
     folder.mkdir(parents=True, exist_ok=True)
     entries, manifest = [], []
@@ -499,7 +502,7 @@ def prepare(config, batch_module, captions, series_id=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
-    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions'], help='Offline prepare only; defaults to Asia')
+    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions', 'italy-regions', 'france-regions', 'germany-states', 'great-britain-regions', 'poland-regions', 'ukraine-regions'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()
