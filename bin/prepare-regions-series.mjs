@@ -24,7 +24,7 @@ if(tourNames.length!==regions.length||new Set(tourNames).size!==tourNames.length
 // group is one lesson and the group keeps the tour order within itself.
 const groups=country.groups?.length
   ? country.groups.map(g=>({...g,names:tourNames.filter(n=>g.names.includes(n))}))
-  : [{id:country.id,title:country.title,names:tourNames}];
+  : [{id:'regions',title:country.title,names:tourNames}];
 for(const g of groups){
  const missing=g.names.length?[]:['(empty group)'];
  if(g.names.length!==g.requested?.length&&g.requested)missing.push(...g.requested.filter(n=>!g.names.includes(n)));
@@ -49,7 +49,7 @@ for(const g of groups){
  const initial=[[Number((west-1.2).toFixed(2)),Number((south-1.0).toFixed(2))],[Number((east+1.2).toFixed(2)),Number((north+1.0).toFixed(2))]];
  const number=groups.length>1?`${groups.indexOf(g)+1} of ${groups.length}`:'1 of 1';
  const lesson={
-  title:`${country.title} · ${g.title} · GeoClick Geography`,edition:config.edition,
+  title:groups.length>1?`${country.title} · ${g.title} · GeoClick Geography`:`${country.title} · GeoClick Geography`,edition:config.edition,
   mapId:country.mapId,area:country.country,unit:'regions',
   url:`http://localhost:5187/map/${country.mapId}`,manual:'http://localhost:5187/manual',
   viewport:{width:1600,height:900},initialBounds:initial,

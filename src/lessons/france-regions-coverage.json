@@ -1,18 +1,18 @@
 {
   "edition": "France · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 13 region targets of GeoClick's native france-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 13,
   "countryCount": 1,
   "nativeTargetCount": 13,
   "nativeTeachingStopCount": 13,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 13,
   "episodes": [
     {
       "id": "france-regions-regions",
       "title": "France's regions",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/france-regions-lesson.json",
       "places": [
         "Hauts-de-France",
@@ -61,7 +61,23 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/france-regions-20261103/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/france-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 675.68,
+      "covered": [
+        "Hauts-de-France",
+        "Normandie",
+        "Grand Est",
+        "Île-de-France",
+        "Bretagne",
+        "Centre-Val de Loire",
+        "Pays de la Loire",
+        "Bourgogne-Franche-Comté",
+        "Auvergne-Rhône-Alpes",
+        "Nouvelle-Aquitaine",
+        "Provence-Alpes-Côte-d'Azur",
+        "Occitanie",
+        "Corse"
+      ]
     }
   ]
 }

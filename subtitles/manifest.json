@@ -1474,6 +1474,167 @@
           "sha256": "2cfa8f75038cc52160875fac37ddde4dc1379f625204f54e2455e857b59a8478"
         }
       ]
+    },
+    {
+      "series": "italy-regions",
+      "episode": 1,
+      "id": "italy-regions-regions",
+      "ledger": "src/lessons/italy-regions-coverage.json",
+      "master": "rendered/italy-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "5i72VO8Wvuc",
+      "files": [
+        {
+          "path": "subtitles/italy-regions/01-italy-regions-regions/subtitles.en.srt",
+          "source": "rendered/italy-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 13134,
+          "sha256": "b20ef55007288727145066ac480ef748c388b2679ee59a35ce01c0ba41a8cef2"
+        },
+        {
+          "path": "subtitles/italy-regions/01-italy-regions-regions/subtitles.en.vtt",
+          "source": "rendered/italy-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 17342,
+          "sha256": "b2b7893829f595e48ef6f08b59707b60b3b4d381a84ccf919e7111c2158e90d0"
+        }
+      ]
+    },
+    {
+      "series": "france-regions",
+      "episode": 1,
+      "id": "france-regions-regions",
+      "ledger": "src/lessons/france-regions-coverage.json",
+      "master": "rendered/france-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "s9J0aijRe_s",
+      "files": [
+        {
+          "path": "subtitles/france-regions/01-france-regions-regions/subtitles.en.srt",
+          "source": "rendered/france-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 9119,
+          "sha256": "6a04aa1ae5b5774e95e48388e69c33a03046006366edf23c2a8444096760a668"
+        },
+        {
+          "path": "subtitles/france-regions/01-france-regions-regions/subtitles.en.vtt",
+          "source": "rendered/france-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 11927,
+          "sha256": "34d4fd31905fdff6731ff72c7334ba3893bb3297ca1f2a82505c4eecb5a712b5"
+        }
+      ]
+    },
+    {
+      "series": "germany-states",
+      "episode": 1,
+      "id": "germany-states-regions",
+      "ledger": "src/lessons/germany-states-coverage.json",
+      "master": "rendered/germany-states-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "7KuXcUTaqjI",
+      "files": [
+        {
+          "path": "subtitles/germany-states/01-germany-states-regions/subtitles.en.srt",
+          "source": "rendered/germany-states-20261103/geoclick/subtitles.en.srt",
+          "bytes": 10111,
+          "sha256": "4cf4fbc24e5305092669198bfb2f491f97694ecf2b9c54dffe19b5bc13da4078"
+        },
+        {
+          "path": "subtitles/germany-states/01-germany-states-regions/subtitles.en.vtt",
+          "source": "rendered/germany-states-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 13519,
+          "sha256": "ed57290a2310ba7a6e43bc2cf45a91e8d57eee5f7dcd9f689b22c8d336bdc5a9"
+        }
+      ]
+    },
+    {
+      "series": "great-britain-regions",
+      "episode": 1,
+      "id": "great-britain-regions-great-britain-regions",
+      "ledger": "src/lessons/great-britain-regions-coverage.json",
+      "master": "rendered/great-britain-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "vMJ_OlR3H_Q",
+      "files": [
+        {
+          "path": "subtitles/great-britain-regions/01-great-britain-regions-great-britain-regions/subtitles.en.srt",
+          "source": "rendered/great-britain-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 10276,
+          "sha256": "3a52304efab1eebef2ae9bcb3ece41320033d4e70938aeccc10f4bb8c869a612"
+        },
+        {
+          "path": "subtitles/great-britain-regions/01-great-britain-regions-great-britain-regions/subtitles.en.vtt",
+          "source": "rendered/great-britain-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 13484,
+          "sha256": "878b595915b70deff8af67d7e395933fc80becc42c6d4b28a99229cfa32c3c28"
+        }
+      ]
+    },
+    {
+      "series": "poland-regions",
+      "episode": 1,
+      "id": "poland-regions-poland-regions",
+      "ledger": "src/lessons/poland-regions-coverage.json",
+      "master": "rendered/poland-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "8ekHRnJEBSk",
+      "files": [
+        {
+          "path": "subtitles/poland-regions/01-poland-regions-poland-regions/subtitles.en.srt",
+          "source": "rendered/poland-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 10897,
+          "sha256": "564a4a20facd80818ab7c15eb10d1c8e290455759d62be1a30d04eaae60ce6c0"
+        },
+        {
+          "path": "subtitles/poland-regions/01-poland-regions-poland-regions/subtitles.en.vtt",
+          "source": "rendered/poland-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 14305,
+          "sha256": "7bc8e0748addab7194684be8a0acdfb55c4afe1b3c28517ba7612f01a37a3088"
+        }
+      ]
+    },
+    {
+      "series": "ukraine-regions",
+      "episode": 1,
+      "id": "ukraine-regions-west-and-north",
+      "ledger": "src/lessons/ukraine-regions-coverage.json",
+      "master": "rendered/ukraine-regions-20261103/01-west-and-north/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "sURTlO3p-GU",
+      "files": [
+        {
+          "path": "subtitles/ukraine-regions/01-ukraine-regions-west-and-north/subtitles.en.srt",
+          "source": "rendered/ukraine-regions-20261103/01-west-and-north/geoclick/subtitles.en.srt",
+          "bytes": 7886,
+          "sha256": "7c05b640d8bcfa03944472ac1a926b7c5036bbb83ee89f09726d89676347d205"
+        },
+        {
+          "path": "subtitles/ukraine-regions/01-ukraine-regions-west-and-north/subtitles.en.vtt",
+          "source": "rendered/ukraine-regions-20261103/01-west-and-north/geoclick/subtitles.en.vtt",
+          "bytes": 10494,
+          "sha256": "c2c8b35bf0c3268206765d9bf857b5964d9e5aeb63a8dcfabca5ef214e5349a0"
+        }
+      ]
+    },
+    {
+      "series": "ukraine-regions",
+      "episode": 2,
+      "id": "ukraine-regions-east-and-south",
+      "ledger": "src/lessons/ukraine-regions-coverage.json",
+      "master": "rendered/ukraine-regions-20261103/02-east-and-south/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "gJuGUEOPU3U",
+      "files": [
+        {
+          "path": "subtitles/ukraine-regions/02-ukraine-regions-east-and-south/subtitles.en.srt",
+          "source": "rendered/ukraine-regions-20261103/02-east-and-south/geoclick/subtitles.en.srt",
+          "bytes": 9565,
+          "sha256": "a3c96d3152d2f736e5b260ff90f4d6e7dfea77c6cc55e409cd8f0422f6edf980"
+        },
+        {
+          "path": "subtitles/ukraine-regions/02-ukraine-regions-east-and-south/subtitles.en.vtt",
+          "source": "rendered/ukraine-regions-20261103/02-east-and-south/geoclick/subtitles.en.vtt",
+          "bytes": 12773,
+          "sha256": "210b2265e98fb1b555e814bb6d7cb531f69b5ded2ab26d58fdb100a9533bfd96"
+        }
+      ]
     }
   ]
 }

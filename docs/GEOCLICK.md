@@ -534,25 +534,49 @@ Two things the first country taught:
   tighter frame, exactly as Brazzaville and Kinshasa did in the capitals
   series.
 
-### Completed Spain regions edition: one lesson
+### The seven completed regions lessons
 
-The first country is **Spain**, and it is the whole of GeoClick's
-`spain-regions` map: the 16 regions the map names, each once, in the map's
-tour order — Asturias, Cantabria, País Vasco, Galicia, Navarra, La Rioja,
-Cataluña, Castilla y León, Aragón, Madrid, Castilla-La Mancha, Islas
-Baleares, Comunidad Valenciana, Extremadura, Murcia and Andalucía.
+The wave the owner asked for on 3 November 2026 is out: one video per
+country, teaching that country's own first-level regions, in the map's own
+tour order. All seven went out **unlisted** in the same playlist, with their
+screenshot thumbnails and the playlist link, and their captions deferred.
 
-Use `src/lessons/spain-regions-content.mjs` and
-`src/lessons/spain-regions-coverage.json`. Output:
-`rendered/spain-regions-20261103/`; the collection ZIP is
-`all-spain-regions-videos.zip`. Duration 10:26. Exact optional English
-SRT/WebVTT backups are in tracked `subtitles/spain-regions/`. The owner
-authorized the upload on 3 November 2026 and chose unlisted: the video went
-out in the same playlist as `Z8iZlY9Qzjw`, with its screenshot thumbnail and
-the playlist link. Its caption is deferred.
+| Country | Lesson | Regions | Duration | Video ID |
+|---|---|---|---|---|
+| Spain | Spain's regions | 16 | 10:26 | `Z8iZlY9Qzjw` |
+| Italy | Italy's regions | 20 | 17:33 | `5i72VO8Wvuc` |
+| France | France's regions | 13 | 11:16 | `s9J0aijRe_s` |
+| Germany | Germany's states | 16 | 13:16 | `7KuXcUTaqjI` |
+| Great Britain | Great Britain's regions | 15 | 11:16 | `vMJ_OlR3H_Q` |
+| Poland | Poland's regions | 16 | 12:29 | `8ekHRnJEBSk` |
+| Ukraine | Western and northern Ukraine | 12 | 10:41 | `sURTlO3p-GU` |
+| Ukraine | Eastern and southern Ukraine | 15 | 11:46 | `gJuGUEOPU3U` |
 
-The map names the regions by their Spanish names, and the lesson uses those
-names on screen. Ceuta and Melilla are not targets of this map and are not
+Each country keeps its own content file, coverage ledger, output root and
+collection ZIP under `rendered/<country>-regions-20261103/`, and its exact
+optional English SRT/WebVTT backups in `subtitles/<country>-regions/`.
+
+**Ukraine is cut in two**, at the owner's request: the western and northern
+regions first, then the eastern and southern ones. The map names Crimea and
+Sevastopol as regions of Ukraine, and that is the framing the lesson uses:
+where each region is, what it is called, and one historical fact from the
+map's own card. The narration argues no status either way and hedges none.
+
+Three things the seven taught, all now in the tooling:
+
+- **The click point is verified in a real browser.** `bin/find-map-points.mjs`
+  clicks candidate points until the fact card shows that target. Seven
+  regions across the wave sit off their bounding-box centre: Liguria,
+  Bremen, East Wales, South East, and five Ukrainian ones. A lesson that
+  carried the centroid instead would have missed the marker.
+- **The frame comes from the region's own extent,** expanded by a quarter and
+  capped, so the video shows the whole region in its surroundings.
+- **The youtube3 batch entry id has a 64-character limit.** The ledger's
+  episode id is part of it, so a country id repeated in the group id pushes
+  Great Britain over the limit and the offline batch refuses to resolve.
+
+The maps name the regions by their own names, and the lessons use those names
+on screen. Ceuta and Melilla are not targets of the Spain map and are not
 counted anywhere in the series.
 
 ## Completed Africa capitals edition: six country lessons
