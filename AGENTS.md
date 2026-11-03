@@ -4,23 +4,23 @@ For GeoClick YouTube publishing, read [docs/YOUTUBE_PUBLISHING.md](docs/YOUTUBE_
 Use `bin/geoclick-youtube.ps1` and installed youtube3 **2.10.0**. OAuth,
 uploads, captions and uncertain-write recovery belong to youtube3; do not
 reimplement them or modify its repository. The profile/channel/playlist,
-all 63 known video IDs and original queue locations are pinned in
+all 64 known video IDs and original queue locations are pinned in
 `config/geoclick-youtube.json`. Preserve all native checkpoints and the shared
 upload ledger. Never reupload known videos. The old operational scripts now
 delegate here; their originals are backed up. Stop calls using an exhausted quota bucket; private uploads have a separate
 quota bucket and may continue through the upload-only runner. Stop on upload quota
 errors; do not create a scheduled task.
 
-**All 63 GeoClick videos are published.** Thirty-two are public (2 November
+**All 64 GeoClick videos are published.** Thirty-two are public (2 November
 2026): US 5, Europe 6, Asia 7, Africa 8, North America 3 and South America 3,
 each with the playlist link in every description. Twenty-one more went out the
 same day as **unlisted** members at the end of the same public playlist: the
 Europe capitals, Asia capitals, South America capitals and North America
-capitals lessons. Four more, the Oceania capitals lessons, and then the six
-Africa capitals lessons, went out unlisted on 3 November 2026. The playlist
-`PLNl_MybP55PE` is public with all 63 members in order, confirmed by a fresh
-read on 3 November 2026: none missing, none duplicated, the playlist link in
-every description.
+capitals lessons. Four more, the Oceania capitals lessons, the six Africa
+capitals lessons and the Spain regions lesson, went out unlisted on
+3 November 2026. The playlist `PLNl_MybP55PE` is public with all 64 members
+in order, confirmed by a fresh read on 3 November 2026: none missing, none
+duplicated, the playlist link in every description.
 The owner postponed
 subtitles, so no caption
 track was installed for Europe 6, the seven Asia videos, the eight Africa
@@ -96,6 +96,22 @@ City. Use `src/lessons/north-america-capitals-coverage.json` and
 `subtitles/north-america-capitals/`. The five videos went out **unlisted** in
 the same playlist as `JDlnPz-Rsl4`, `-5npYYzoZ3I`, `JAi68d3yfrA`, `lNI6UGU06ys`
 and `m9A2bJ8kt0M`, with their captions deferred.
+
+The **regions series** teaches one country's own first-level regions in one
+video. It is driven by `src/lessons/regions-series.json`, so a new country is
+one config entry plus one content file; the prepare, render and package
+scripts are shared (`bin/prepare-regions-series.mjs`,
+`bin/render-regions-series.mjs`, `bin/package-regions-series.mjs`). The first
+country is **Spain**: `src/lessons/spain-regions-content.mjs` and
+`src/lessons/spain-regions-coverage.json`, output
+`rendered/spain-regions-20261103/`, collection ZIP
+`all-spain-regions-videos.zip`, duration 10:26. Its 16 region targets of
+GeoClick's native `spain-regions` map are all demonstrated once, in the map's
+own tour order, and the click points are the map's own centroids, verified in
+a real browser with `bin/find-map-points.mjs`. The owner authorized the
+upload on 3 November 2026: it went out **unlisted** in the same playlist as
+`Z8iZlY9Qzjw`, with its screenshot thumbnail and the playlist link; its
+captions are deferred.
 
 The completed Africa capitals edition has **six capital lessons**, with John,
 interesting facts/location hooks and separate optional English captions. It

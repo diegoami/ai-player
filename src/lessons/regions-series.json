@@ -1,0 +1,16 @@
+{
+  "schema": "ai-player.regions-series.v1",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "note": "One lesson per country, teaching that country's own first-level regions from the map GeoClick ships. Each country keeps its own content file, coverage ledger and output root, so a new country is one config entry and one content file.",
+  "countries": [
+    {
+      "id": "spain-regions",
+      "country": "Spain",
+      "mapId": "spain-regions",
+      "title": "Spain's regions",
+      "content": "src/lessons/spain-regions-content.mjs",
+      "root": "rendered/spain-regions-20261103",
+      "zip": "all-spain-regions-videos.zip"
+    }
+  ]
+}

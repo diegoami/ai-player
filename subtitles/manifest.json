@@ -1451,6 +1451,29 @@
           "sha256": "281a70f588852b19a2fc74522974606bba9ba3f82eeb9ffad28f502e4388d05f"
         }
       ]
+    },
+    {
+      "series": "spain-regions",
+      "episode": 1,
+      "id": "spain-regions",
+      "ledger": "src/lessons/spain-regions-coverage.json",
+      "master": "rendered/spain-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "Z8iZlY9Qzjw",
+      "files": [
+        {
+          "path": "subtitles/spain-regions/01-spain-regions/subtitles.en.srt",
+          "source": "rendered/spain-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 9563,
+          "sha256": "2e0d2204703c40ee96259cebce6f790cf2393fa67b613ef35f43e750982b76db"
+        },
+        {
+          "path": "subtitles/spain-regions/01-spain-regions/subtitles.en.vtt",
+          "source": "rendered/spain-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 12971,
+          "sha256": "2cfa8f75038cc52160875fac37ddde4dc1379f625204f54e2455e857b59a8478"
+        }
+      ]
     }
   ]
 }

@@ -503,6 +503,58 @@ seat each, and captions deferred like every other series. The video IDs are
 after the release shows the playlist public with all 57 members, none missing
 and none duplicated. Never re-upload them.
 
+## The regions series: one video per country
+
+A new kind of edition, decided on 3 November 2026: instead of more capitals
+series, teach **one country's own first-level regions**, one video per
+country, with the regions of the major European countries first.
+
+The series is driven by `src/lessons/regions-series.json`. A new country is
+one config entry plus one content file; the prepare, render and package
+scripts are shared:
+
+- `bin/prepare-regions-series.mjs --country=<id>` writes the lesson and the
+  coverage ledger. It follows the map's own `tour.json` order, so the lesson
+  teaches the regions in the order the game itself tours them.
+- `bin/render-regions-series.mjs --country=<id>` runs the preflight, the
+  recording and the media verification.
+- `bin/package-regions-series.mjs --country=<id>` writes the collection ZIP,
+  the series manifest and the README, and marks the ledger complete.
+
+Two things the first country taught:
+
+- **The click point is verified in a real browser.** `bin/find-map-points.mjs
+  --map=<mapId>` opens the map, fits each target and clicks candidate points
+  until the fact card shows that target. Its output is the lesson's click
+  points, so a region whose centroid is off its polygon cannot slip through.
+- **The frame comes from the region's own extent.** Each region is framed on
+  its bounding box, expanded by a quarter and capped, so the video shows the
+  whole region in its surroundings rather than a generic zoom. Two regions
+  whose markers land within a few hundred pixels of each other need a
+  tighter frame, exactly as Brazzaville and Kinshasa did in the capitals
+  series.
+
+### Completed Spain regions edition: one lesson
+
+The first country is **Spain**, and it is the whole of GeoClick's
+`spain-regions` map: the 16 regions the map names, each once, in the map's
+tour order — Asturias, Cantabria, País Vasco, Galicia, Navarra, La Rioja,
+Cataluña, Castilla y León, Aragón, Madrid, Castilla-La Mancha, Islas
+Baleares, Comunidad Valenciana, Extremadura, Murcia and Andalucía.
+
+Use `src/lessons/spain-regions-content.mjs` and
+`src/lessons/spain-regions-coverage.json`. Output:
+`rendered/spain-regions-20261103/`; the collection ZIP is
+`all-spain-regions-videos.zip`. Duration 10:26. Exact optional English
+SRT/WebVTT backups are in tracked `subtitles/spain-regions/`. The owner
+authorized the upload on 3 November 2026 and chose unlisted: the video went
+out in the same playlist as `Z8iZlY9Qzjw`, with its screenshot thumbnail and
+the playlist link. Its caption is deferred.
+
+The map names the regions by their Spanish names, and the lesson uses those
+names on screen. Ceuta and Melilla are not targets of this map and are not
+counted anywhere in the series.
+
 ## Completed Africa capitals edition: six country lessons
 
 `africa-capitals` was the last capital map GeoClick ships, and the biggest

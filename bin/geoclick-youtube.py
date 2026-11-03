@@ -402,7 +402,8 @@ def prepare(config, batch_module, captions, series_id=None):
              'south-america-capitals': 'South America Capitals',
              'north-america-capitals': 'North America Capitals',
              'oceania-capitals': 'Oceania Capitals',
-             'africa-capitals': 'Africa Capitals'}.get(identity, identity.title())
+             'africa-capitals': 'Africa Capitals',
+             'spain-regions': 'Spain Regions'}.get(identity, identity.title())
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
         raise ValueError('Offline series is not complete')
@@ -448,10 +449,7 @@ def prepare(config, batch_module, captions, series_id=None):
                      'Hargeisa taught as the capital of Somaliland alongside Mogadishu as the capital of Somalia. Episode groups '
                      'are teaching routes, not an official classification, and map targets do not settle political status or boundaries.'
                      if identity == 'africa-capitals' else
-                     'This three-part edition covers all 13 capital targets of GeoClick\'s native South America capitals map exactly '
-                     'once: the capitals of the twelve countries the map names, with Bolivia\'s two capitals, La Paz and Sucre, both '
-                     'taught. Episode groups are teaching routes, not an official classification, and map targets do not settle '
-                     'political status or boundaries.')))))))))
+                     ('This three-part edition covers all 13 capital targets of GeoClick\'s native South America capitals map exactly '                      'once: the capitals of the twelve countries the map names, with Bolivia\'s two capitals, La Paz and Sucre, both '                      'taught. Episode groups are teaching routes, not an official classification, and map targets do not settle '                      'political status or boundaries.'                      if identity == 'south-america-capitals' else                      (f'This one-part edition covers all {series["targetCount"]} region targets of GeoClick\'s native '                       f'{series["mapId"]} map exactly once: the first-level regions of {series["country"]} that the map names. '                       'Map targets do not settle political status or boundaries.')))))))))))
     folder = ROOT / series['publishing_dir']
     folder.mkdir(parents=True, exist_ok=True)
     entries, manifest = [], []
@@ -501,7 +499,7 @@ def prepare(config, batch_module, captions, series_id=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
-    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals'], help='Offline prepare only; defaults to Asia')
+    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()

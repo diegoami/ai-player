@@ -10,10 +10,10 @@ playlist [`PLNl_MybP55PE`](https://www.youtube.com/playlist?list=PLNl_MybP55PE),
 **Learning Geography with Geoclick**. Policy and known IDs are in
 [config/geoclick-youtube.json](../config/geoclick-youtube.json).
 
-**Current state: 63 videos are published and the playlist is public.** Thirty-two
-are public and thirty-one are unlisted, all reachable through the public
-playlist `PLNl_MybP55PE`, which has all 63 of them in order. The last release
-was the six Africa capitals lessons on 3 November 2026, unlisted. The first
+**Current state: 64 videos are published and the playlist is public.** Thirty-two
+are public and thirty-two are unlisted, all reachable through the public
+playlist `PLNl_MybP55PE`, which has all 64 of them in order. The last release
+was the Spain regions lesson on 3 November 2026, unlisted. The first
 release happened on 2 November 2026 with subtitles deliberately postponed; see
 *Published release: 2 November 2026* below. The older sections are kept as the
 history of how the eleven US and Europe videos and the eight Africa uploads
@@ -98,8 +98,9 @@ uploads, and the eleven-video release workflow never uploads either series.
 
 ## Authority and retained files
 
-Versioned English subtitle backups for all 63 current episodes — US, Europe,
-Asia, Africa, North America, South America and the capitals editions —
+Versioned English subtitle backups for all 64 current episodes — US, Europe,
+Asia, Africa, North America, South America, the capitals editions and the
+regions edition —
 are in [subtitles/](../subtitles/README.md). Its manifest maps exact caption
 bytes to canonical masters and known YouTube IDs. These backups do not replace
 the original queue caption inputs or checkpoints. Every one of these series is
@@ -607,6 +608,25 @@ deferred.
 The offline batch keeps its caption rows, exactly like the Africa and Asia
 batches; the derived upload batch omits them, so nothing caption-related
 happens on the account.
+
+## Spain regions: uploaded unlisted
+
+A new kind of edition: one video that teaches one country's own first-level
+regions. Spain is the first, covering all 16 region targets of GeoClick's
+native `spain-regions` map exactly once in the map's own tour order.
+
+The owner authorized the upload on 3 November 2026 and chose **unlisted**, the
+same visibility as the capitals editions. It went out through the native flow
+with its screenshot thumbnail, the playlist link in the description and a
+playlist seat. Captions stay deferred.
+
+| Episode | Video ID |
+|---|---|
+| Spain's regions | `Z8iZlY9Qzjw` |
+
+```powershell
+& $py -I bin/upload-series.py --series spain-regions --privacy unlisted
+```
 
 ## Fresh read-back: 3 November 2026
 

@@ -177,6 +177,19 @@
         "K9L_xDLywDA",
         "33laD-nUU5I"
       ]
+    },
+    {
+      "id": "spain-regions",
+      "ledger": "src/lessons/spain-regions-coverage.json",
+      "publishing_dir": "rendered/spain-regions-20261103/youtube-publishing",
+      "published": "unlisted 2026-11-03",
+      "captions": "deferred",
+      "mapId": "spain-regions",
+      "country": "Spain",
+      "targetCount": 16,
+      "video_ids": [
+        "Z8iZlY9Qzjw"
+      ]
     }
   ],
   "links": {
