@@ -1,18 +1,18 @@
 {
   "edition": "Brazil · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 27 region targets of GeoClick's native brazil-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 27,
   "countryCount": 1,
   "nativeTargetCount": 27,
   "nativeTeachingStopCount": 27,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 27,
   "episodes": [
     {
       "id": "brazil-regions-north-and-northeast",
       "title": "The north and the northeast",
-      "status": "preflight-passed",
+      "status": "complete",
       "lesson": "src/lessons/brazil-regions-north-and-northeast-lesson.json",
       "places": [
         "Roraima",
@@ -64,12 +64,29 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/brazil-regions-20261103/01-north-and-northeast/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/brazil-regions-20261103/01-north-and-northeast/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 686.4,
+      "covered": [
+        "Roraima",
+        "Amapá",
+        "Pará",
+        "Amazonas",
+        "Ceará",
+        "Maranhão",
+        "Rio Grande do Norte",
+        "Piauí",
+        "Paraíba",
+        "Pernambuco",
+        "Acre",
+        "Tocantins",
+        "Alagoas",
+        "Sergipe"
+      ]
     },
     {
       "id": "brazil-regions-centre-and-south",
       "title": "The centre and the south",
-      "status": "preflight-passed",
+      "status": "complete",
       "lesson": "src/lessons/brazil-regions-centre-and-south-lesson.json",
       "places": [
         "Rondônia",
@@ -118,7 +135,23 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/brazil-regions-20261103/02-centre-and-south/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/brazil-regions-20261103/02-centre-and-south/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 614.64,
+      "covered": [
+        "Rondônia",
+        "Mato Grosso",
+        "Bahia",
+        "Distrito Federal",
+        "Goiás",
+        "Minas Gerais",
+        "Espírito Santo",
+        "Mato Grosso do Sul",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Paraná",
+        "Santa Catarina",
+        "Rio Grande do Sul"
+      ]
     }
   ]
 }

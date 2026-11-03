@@ -1,0 +1,934 @@
+{
+  "title": "China's provinces · The centre, the east and the south · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "china-regions",
+  "area": "China",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/china-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      97.28,
+      18.15
+    ],
+    [
+      122.63,
+      33.93
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Jiangsu",
+      "location": [
+        119.1497,
+        32.9348
+      ],
+      "bounds": [
+        [
+          116.9,
+          31.185
+        ],
+        [
+          121.4,
+          34.685
+        ]
+      ]
+    },
+    {
+      "name": "Anhui",
+      "location": [
+        117.2582,
+        32.0238
+      ],
+      "bounds": [
+        [
+          115.008,
+          30.274
+        ],
+        [
+          119.508,
+          33.774
+        ]
+      ]
+    },
+    {
+      "name": "Shanghai",
+      "location": [
+        121.4315,
+        31.2661
+      ],
+      "bounds": [
+        [
+          120.632,
+          30.547
+        ],
+        [
+          122.232,
+          31.985
+        ]
+      ]
+    },
+    {
+      "name": "Hubei",
+      "location": [
+        112.2639,
+        31.1664
+      ],
+      "bounds": [
+        [
+          110.014,
+          29.416
+        ],
+        [
+          114.514,
+          32.916
+        ]
+      ]
+    },
+    {
+      "name": "Chongqing",
+      "location": [
+        107.733,
+        30.1988
+      ],
+      "bounds": [
+        [
+          105.483,
+          28.449
+        ],
+        [
+          109.983,
+          31.949
+        ]
+      ]
+    },
+    {
+      "name": "Sichuan",
+      "location": [
+        98.6007,
+        32.4599
+      ],
+      "bounds": [
+        [
+          96.351,
+          30.71
+        ],
+        [
+          100.851,
+          34.21
+        ]
+      ]
+    },
+    {
+      "name": "Zhejiang",
+      "location": [
+        120.1642,
+        29.1891
+      ],
+      "bounds": [
+        [
+          117.914,
+          27.439
+        ],
+        [
+          122.414,
+          30.939
+        ]
+      ]
+    },
+    {
+      "name": "Hunan",
+      "location": [
+        111.5091,
+        27.3695
+      ],
+      "bounds": [
+        [
+          109.259,
+          25.619
+        ],
+        [
+          113.759,
+          29.119
+        ]
+      ]
+    },
+    {
+      "name": "Jiangxi",
+      "location": [
+        116.0192,
+        27.2752
+      ],
+      "bounds": [
+        [
+          113.769,
+          25.525
+        ],
+        [
+          118.269,
+          29.025
+        ]
+      ]
+    },
+    {
+      "name": "Guizhou",
+      "location": [
+        106.6012,
+        26.9091
+      ],
+      "bounds": [
+        [
+          104.351,
+          25.159
+        ],
+        [
+          108.851,
+          28.659
+        ]
+      ]
+    },
+    {
+      "name": "Fujian",
+      "location": [
+        118.1322,
+        25.9712
+      ],
+      "bounds": [
+        [
+          115.882,
+          24.221
+        ],
+        [
+          120.382,
+          27.721
+        ]
+      ]
+    },
+    {
+      "name": "Yunnan",
+      "location": [
+        98.4806,
+        24.7346
+      ],
+      "bounds": [
+        [
+          96.231,
+          22.985
+        ],
+        [
+          100.731,
+          26.485
+        ]
+      ]
+    },
+    {
+      "name": "Guangxi",
+      "location": [
+        108.2709,
+        23.9
+      ],
+      "bounds": [
+        [
+          106.021,
+          22.15
+        ],
+        [
+          110.521,
+          25.65
+        ]
+      ]
+    },
+    {
+      "name": "Guangdong",
+      "location": [
+        110.496,
+        21.4164
+      ],
+      "bounds": [
+        [
+          108.246,
+          19.666
+        ],
+        [
+          112.746,
+          23.166
+        ]
+      ]
+    },
+    {
+      "name": "Hainan",
+      "location": [
+        109.8128,
+        19.1508
+      ],
+      "bounds": [
+        [
+          108.316,
+          17.954
+        ],
+        [
+          111.31,
+          20.348
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to China's provinces, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 15 of the China regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Jiangsu",
+      "location": [
+        119.1497,
+        32.9348
+      ],
+      "lines": [
+        "Jiangsu is the flat coastal province on the crowded eastern side of China, on the lower Yangtze and the Yellow Sea, with Nanjing as its largest city and Shanghai and Zhejiang along its southern edge.",
+        "Its name joins Jiangning, the old Nanjing, and Suzhou, two prefectures that mattered, and the Grand Canal to Beijing runs the whole length of this wet, flat land.",
+        "Remember the watery eastern province of canals and Suzhou gardens, where the Grand Canal begins its long run north to Beijing."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jiangsu",
+        "https://en.wikipedia.org/wiki/Grand_Canal_(China)",
+        "https://en.wikipedia.org/wiki/Suzhou"
+      ],
+      "cameraBounds": [
+        [
+          116.9,
+          31.185
+        ],
+        [
+          121.4,
+          34.685
+        ]
+      ],
+      "transition": "Let's bring Jiangsu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              116.9,
+              31.185
+            ],
+            [
+              121.4,
+              34.685
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anhui",
+      "location": [
+        117.2582,
+        32.0238
+      ],
+      "lines": [
+        "Anhui is the inland province west of the crowded eastern coast, between Henan to the north and Jiangxi to the south, with Hefei as its largest city and the Huangshan mountains in its southern half.",
+        "Its name joins Anqing and Huizhou, two prefectures merged in 1667, and the granite spires and pines of Huangshan here are the landscape Chinese painting keeps returning to.",
+        "Remember the painted granite peaks of Huangshan in cloud, and the ink and paper from this province that calligraphy has used for over a thousand years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anhui",
+        "https://en.wikipedia.org/wiki/Huangshan",
+        "https://en.wikipedia.org/wiki/Xuan_paper"
+      ],
+      "cameraBounds": [
+        [
+          115.008,
+          30.274
+        ],
+        [
+          119.508,
+          33.774
+        ]
+      ],
+      "transition": "Let's bring Anhui into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              115.008,
+              30.274
+            ],
+            [
+              119.508,
+              33.774
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shanghai",
+      "location": [
+        121.4315,
+        31.2661
+      ],
+      "lines": [
+        "Shanghai is the coastal municipality at the mouth of the Yangtze, the busiest port on China’s crowded eastern coast, hemmed between Jiangsu and Zhejiang.",
+        "Its name means \"upon the sea\", the name of a fishing village, and Pudong opposite the Bund was farmland until 1990, when the towers went up.",
+        "Remember the fishing village that became the biggest city in the country, with farmland on one bank of the river and skyscrapers on the other."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shanghai",
+        "https://en.wikipedia.org/wiki/The_Bund",
+        "https://en.wikipedia.org/wiki/Pudong"
+      ],
+      "cameraBounds": [
+        [
+          120.632,
+          30.547
+        ],
+        [
+          122.232,
+          31.985
+        ]
+      ],
+      "transition": "Let's bring Shanghai into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              120.632,
+              30.547
+            ],
+            [
+              122.232,
+              31.985
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hubei",
+      "location": [
+        112.2639,
+        31.1664
+      ],
+      "lines": [
+        "Hubei lies in the inland centre of China on the middle Yangtze, north of Dongting Lake with Hunan across it and Chongqing to the west, with Wuhan as its largest city.",
+        "The Three Gorges Dam stands here, the largest power station in the world by output, and Wuhan is where the revolution of 1911 began that ended two thousand years of imperial rule.",
+        "Remember the middle Yangtze province with the great dam in its gorges, where the revolution that ended empire began."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hubei",
+        "https://en.wikipedia.org/wiki/Three_Gorges_Dam",
+        "https://en.wikipedia.org/wiki/Wuhan"
+      ],
+      "cameraBounds": [
+        [
+          110.014,
+          29.416
+        ],
+        [
+          114.514,
+          32.916
+        ]
+      ],
+      "transition": "Let's bring Hubei into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              110.014,
+              29.416
+            ],
+            [
+              114.514,
+              32.916
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chongqing",
+      "location": [
+        107.733,
+        30.1988
+      ],
+      "lines": [
+        "Chongqing is the inland municipality on the middle Yangtze, where the river comes out of its gorges, with Sichuan around it and Hubei and Hunan on its eastern side.",
+        "It was split from Sichuan in 1997 to become a municipality and manage the Three Gorges resettlement, and it is built on hills so steep that one street can be the ground floor of a building and the twentieth of the next.",
+        "Remember the city that stacks a single street across twenty floors of a building, cut out of Sichuan for the Three Gorges."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chongqing",
+        "https://en.wikipedia.org/wiki/Three_Gorges_Dam",
+        "https://en.wikipedia.org/wiki/Yangtze"
+      ],
+      "cameraBounds": [
+        [
+          105.483,
+          28.449
+        ],
+        [
+          109.983,
+          31.949
+        ]
+      ],
+      "transition": "Let's bring Chongqing into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              105.483,
+              28.449
+            ],
+            [
+              109.983,
+              31.949
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sichuan",
+      "location": [
+        98.6007,
+        32.4599
+      ],
+      "lines": [
+        "Sichuan is the inland province in the south-west of China, a fertile basin in the east ringed by high mountains in the west, with Chengdu as its largest city and the Tibetan plateau along its northern rim.",
+        "It is the home of the giant pandas, nearly all the wild ones living in its western hills, and the Dujiangyan irrigation system has watered the plain since 256 BC without a dam.",
+        "Remember the panda basin in the mountains of the south-west, watered for over two thousand years by a system with no dam at all."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sichuan",
+        "https://en.wikipedia.org/wiki/Giant_panda",
+        "https://en.wikipedia.org/wiki/Dujiangyan"
+      ],
+      "cameraBounds": [
+        [
+          96.351,
+          30.71
+        ],
+        [
+          100.851,
+          34.21
+        ]
+      ],
+      "transition": "Let's bring Sichuan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              96.351,
+              30.71
+            ],
+            [
+              100.851,
+              34.21
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zhejiang",
+      "location": [
+        120.1642,
+        29.1891
+      ],
+      "lines": [
+        "Zhejiang is the coastal province on China’s crowded eastern side, south of the Yangtze delta, with Hangzhou as its largest city and Shanghai and Jiangsu to the north.",
+        "It is named for the Zhe river, the old name of the Qiantang, whose tidal bore is the largest in the world, and Marco Polo called Hangzhou the finest and noblest city in the world.",
+        "Remember the tidal bore on the river that gave the province its name, and Hangzhou, the city Marco Polo called the noblest on earth."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zhejiang",
+        "https://en.wikipedia.org/wiki/Hangzhou",
+        "https://en.wikipedia.org/wiki/Qiantang_River"
+      ],
+      "cameraBounds": [
+        [
+          117.914,
+          27.439
+        ],
+        [
+          122.414,
+          30.939
+        ]
+      ],
+      "transition": "Let's bring Zhejiang into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              117.914,
+              27.439
+            ],
+            [
+              122.414,
+              30.939
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hunan",
+      "location": [
+        111.5091,
+        27.3695
+      ],
+      "lines": [
+        "Hunan is the inland province in the south of China, south of Dongting Lake with Hubei as its mirror to the north, and Guangdong and Guangxi to the south, with Changsha as its largest city.",
+        "Its name means \"south of the lake\", the far side of Dongting from Hubei, and Mao Zedong was born here, in the place whose chilli-hot cooking rivals Sichuan’s.",
+        "Remember the province south of the lake, with the sandstone pillars of Zhangjiajie that were the model for the floating mountains of Avatar."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hunan",
+        "https://en.wikipedia.org/wiki/Zhangjiajie",
+        "https://en.wikipedia.org/wiki/Mao_Zedong"
+      ],
+      "cameraBounds": [
+        [
+          109.259,
+          25.619
+        ],
+        [
+          113.759,
+          29.119
+        ]
+      ],
+      "transition": "Let's bring Hunan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              109.259,
+              25.619
+            ],
+            [
+              113.759,
+              29.119
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jiangxi",
+      "location": [
+        116.0192,
+        27.2752
+      ],
+      "lines": [
+        "Jiangxi is the inland province in the south-east of China, south of the Yangtze and west of Fujian, with Nanchang as its largest city and Hunan along its western edge.",
+        "It is short for the Tang circuit of Jiangnan West, the land west of the river, and Jingdezhen here has made porcelain for the imperial court for a thousand years, which is why fine china is called china.",
+        "Remember the province west of the river, where the porcelain that gave china its name has been fired in wood kilns for a millennium."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jiangxi",
+        "https://en.wikipedia.org/wiki/Jingdezhen",
+        "https://en.wikipedia.org/wiki/Porcelain"
+      ],
+      "cameraBounds": [
+        [
+          113.769,
+          25.525
+        ],
+        [
+          118.269,
+          29.025
+        ]
+      ],
+      "transition": "Let's bring Jiangxi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              113.769,
+              25.525
+            ],
+            [
+              118.269,
+              29.025
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guizhou",
+      "location": [
+        106.6012,
+        26.9091
+      ],
+      "lines": [
+        "Guizhou is the inland karst province in the south-west of China, a landscape of limestone towers and caves with Yunnan to the west and Guangxi to the south, and Guiyang as its largest city.",
+        "Its name means \"precious region\", a wish rather than a description, and the world’s largest radio telescope, FAST, sits in a limestone sinkhole here, five hundred metres across.",
+        "Remember the karst province of limestone towers and caves, with the giant radio telescope sleeping in one of its sinkholes."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guizhou",
+        "https://en.wikipedia.org/wiki/Five-hundred-meter_Aperture_Spherical_Telescope",
+        "https://en.wikipedia.org/wiki/Huangguoshu_Waterfall"
+      ],
+      "cameraBounds": [
+        [
+          104.351,
+          25.159
+        ],
+        [
+          108.851,
+          28.659
+        ]
+      ],
+      "transition": "Let's bring Guizhou into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              104.351,
+              25.159
+            ],
+            [
+              108.851,
+              28.659
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fujian",
+      "location": [
+        118.1322,
+        25.9712
+      ],
+      "lines": [
+        "Fujian is the mountainous coastal province on the crowded south-east coast, facing Taiwan across the strait, with Jiangxi and Zhejiang to the north and Guangdong to the south.",
+        "Its name joins Fuzhou and Jianzhou, two prefectures of the Tang, and the round tulou earth houses here, some built to hold eight hundred people, have stood since the twelfth century.",
+        "Remember the circular earth villages on the strait facing Taiwan, and the overseas families who sailed out from this coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fujian",
+        "https://en.wikipedia.org/wiki/Fujian_tulou",
+        "https://en.wikipedia.org/wiki/Xiamen"
+      ],
+      "cameraBounds": [
+        [
+          115.882,
+          24.221
+        ],
+        [
+          120.382,
+          27.721
+        ]
+      ],
+      "transition": "Let's bring Fujian into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              115.882,
+              24.221
+            ],
+            [
+              120.382,
+              27.721
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yunnan",
+      "location": [
+        98.4806,
+        24.7346
+      ],
+      "lines": [
+        "Yunnan is the mountainous province in the far south-west of China, climbing into the high ranges of the west above Myanmar, with Kunming as its largest city and Guangxi on its eastern side.",
+        "Its name means \"south of the clouds\", the land seen from beyond the cloud-covered mountains, and China’s wild elephants live here and nowhere else, on the tropical border with Laos.",
+        "Remember the land south of the clouds, where China’s elephants live, its coffee grows, and three rivers run side by side in gorges seventy kilometres apart."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yunnan",
+        "https://en.wikipedia.org/wiki/Asian_elephant",
+        "https://en.wikipedia.org/wiki/Three_Parallel_Rivers_of_Yunnan"
+      ],
+      "cameraBounds": [
+        [
+          96.231,
+          22.985
+        ],
+        [
+          100.731,
+          26.485
+        ]
+      ],
+      "transition": "Let's bring Yunnan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              96.231,
+              22.985
+            ],
+            [
+              100.731,
+              26.485
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guangxi",
+      "location": [
+        108.2709,
+        23.9
+      ],
+      "lines": [
+        "Guangxi is the southern coastal region on the gulf of Tonkin, the western half of the old Guang province with Guangdong to its east and Yunnan to the west, and Hechi as its largest city.",
+        "Its name means \"broad west\", and the limestone hills along the Li river at Guilin are the landscape printed on the back of the twenty-yuan note.",
+        "Remember the karst hills of Guilin on the twenty-yuan note, and the Zhuang people, the largest minority in China."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guangxi",
+        "https://en.wikipedia.org/wiki/Guilin",
+        "https://en.wikipedia.org/wiki/Zhuang_people"
+      ],
+      "cameraBounds": [
+        [
+          106.021,
+          22.15
+        ],
+        [
+          110.521,
+          25.65
+        ]
+      ],
+      "transition": "Let's bring Guangxi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              106.021,
+              22.15
+            ],
+            [
+              110.521,
+              25.65
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guangdong",
+      "location": [
+        110.496,
+        21.4164
+      ],
+      "lines": [
+        "Guangdong is the southern coastal province on the crowded east-facing shore of the South China Sea, its south coast facing Hainan across the strait, with Guangzhou as its largest city in the north.",
+        "Its name means \"broad east\", the eastern half of the old Guang province, and its cooking is what most of the world means by Chinese food, with more people here than in Germany.",
+        "Remember the fishing village of Shenzhen that became a city of seventeen million in fifty years, on the crowded southern coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guangdong",
+        "https://en.wikipedia.org/wiki/Shenzhen",
+        "https://en.wikipedia.org/wiki/Cantonese_language"
+      ],
+      "cameraBounds": [
+        [
+          108.246,
+          19.666
+        ],
+        [
+          112.746,
+          23.166
+        ]
+      ],
+      "transition": "Let's bring Guangdong into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              108.246,
+              19.666
+            ],
+            [
+              112.746,
+              23.166
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hainan",
+      "location": [
+        109.8128,
+        19.1508
+      ],
+      "lines": [
+        "Hainan is the tropical island province in the far south of China, lying off the coast across the strait from Guangdong, with Haikou as its largest city.",
+        "Its name means \"south of the sea\", the island beyond the strait, and it lies on the same latitude as Hawaii, the smallest province in China by land.",
+        "Remember the tropical island off the southern coast, the duty-free holiday island where coconuts, mangoes and rubber grow."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hainan",
+        "https://en.wikipedia.org/wiki/Haikou",
+        "https://en.wikipedia.org/wiki/South_China_Sea"
+      ],
+      "cameraBounds": [
+        [
+          108.316,
+          17.954
+        ],
+        [
+          111.31,
+          20.348
+        ]
+      ],
+      "transition": "Let's bring Hainan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              108.316,
+              17.954
+            ],
+            [
+              111.31,
+              20.348
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          97.28,
+          18.15
+        ],
+        [
+          122.63,
+          33.93
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "15 regions of China, one for each target of the map: Jiangsu, Anhui, Shanghai, Hubei, Chongqing, Sichuan, Zhejiang, Hunan, Jiangxi, Guizhou, Fujian, Yunnan, Guangxi, Guangdong and Hainan.",
+    "Remember the shape of China from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

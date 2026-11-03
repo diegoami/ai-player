@@ -1,0 +1,757 @@
+{
+  "title": "The Netherlands' provinces · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "netherlands-regions",
+  "area": "Netherlands",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/netherlands-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      2.62,
+      50.25
+    ],
+    [
+      7.88,
+      54.15
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Groningen",
+      "location": [
+        6.6819,
+        53.1509
+      ],
+      "bounds": [
+        [
+          5.882,
+          52.551
+        ],
+        [
+          7.482,
+          53.751
+        ]
+      ]
+    },
+    {
+      "name": "Friesland",
+      "location": [
+        5.8042,
+        53.1103
+      ],
+      "bounds": [
+        [
+          5.004,
+          52.51
+        ],
+        [
+          6.604,
+          53.71
+        ]
+      ]
+    },
+    {
+      "name": "Drenthe",
+      "location": [
+        6.6008,
+        52.9121
+      ],
+      "bounds": [
+        [
+          5.801,
+          52.312
+        ],
+        [
+          7.401,
+          53.512
+        ]
+      ]
+    },
+    {
+      "name": "Noord-Holland",
+      "location": [
+        4.9392,
+        52.6779
+      ],
+      "bounds": [
+        [
+          4.139,
+          52.041
+        ],
+        [
+          5.739,
+          53.315
+        ]
+      ]
+    },
+    {
+      "name": "Flevoland",
+      "location": [
+        5.5108,
+        52.5532
+      ],
+      "bounds": [
+        [
+          4.711,
+          51.953
+        ],
+        [
+          6.311,
+          53.153
+        ]
+      ]
+    },
+    {
+      "name": "Overijssel",
+      "location": [
+        6.4167,
+        52.4811
+      ],
+      "bounds": [
+        [
+          5.617,
+          51.881
+        ],
+        [
+          7.217,
+          53.081
+        ]
+      ]
+    },
+    {
+      "name": "Gelderland",
+      "location": [
+        5.9066,
+        52.1283
+      ],
+      "bounds": [
+        [
+          4.785,
+          51.528
+        ],
+        [
+          7.028,
+          52.728
+        ]
+      ]
+    },
+    {
+      "name": "Utrecht",
+      "location": [
+        5.1663,
+        52.1122
+      ],
+      "bounds": [
+        [
+          4.366,
+          51.512
+        ],
+        [
+          5.966,
+          52.712
+        ]
+      ]
+    },
+    {
+      "name": "Zuid-Holland",
+      "location": [
+        4.5963,
+        51.9871
+      ],
+      "bounds": [
+        [
+          3.796,
+          51.387
+        ],
+        [
+          5.396,
+          52.587
+        ]
+      ]
+    },
+    {
+      "name": "Noord-Brabant",
+      "location": [
+        5.1177,
+        51.521
+      ],
+      "bounds": [
+        [
+          3.953,
+          50.921
+        ],
+        [
+          6.282,
+          52.121
+        ]
+      ]
+    },
+    {
+      "name": "Zeeland",
+      "location": [
+        3.8153,
+        51.4737
+      ],
+      "bounds": [
+        [
+          3.015,
+          50.874
+        ],
+        [
+          4.615,
+          52.074
+        ]
+      ]
+    },
+    {
+      "name": "Limburg",
+      "location": [
+        5.8723,
+        51.2535
+      ],
+      "bounds": [
+        [
+          5.072,
+          50.621
+        ],
+        [
+          6.672,
+          51.886
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to The Netherlands' provinces, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 12 of the Netherlands regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Groningen",
+      "location": [
+        6.6819,
+        53.1509
+      ],
+      "lines": [
+        "Groningen sits in the far north-east of the Netherlands, on the Wadden Sea coast, with the city of Groningen as its largest, between Friesland in the west and Drenthe in the south.",
+        "A document from 1040 calls the city Cruoninga, and the university founded here in 1614 admitted Aletta Jacobs in 1871, the first woman to study in the Netherlands.",
+        "Remember the far north-east corner on the Wadden Sea, the name recorded in 1040, and the university that took in the first female student."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Groningen_(province)",
+        "https://en.wikipedia.org/wiki/University_of_Groningen",
+        "https://en.wikipedia.org/wiki/Aletta_Jacobs"
+      ],
+      "cameraBounds": [
+        [
+          5.882,
+          52.551
+        ],
+        [
+          7.482,
+          53.751
+        ]
+      ],
+      "transition": "Let's bring Groningen into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.882,
+              52.551
+            ],
+            [
+              7.482,
+              53.751
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Friesland",
+      "location": [
+        5.8042,
+        53.1103
+      ],
+      "lines": [
+        "Friesland is the northern province, reaching from the Wadden islands in the north down to the IJsselmeer in the south, with Leeuwarden as its capital and Noord-Holland on its south-western side.",
+        "Frisian is still an official language here and is closer to English than Dutch is, and the eleven-city skating tour has been possible only fifteen times since 1909.",
+        "Remember the province of skaters on natural ice, the black-and-white cow from these pastures, and the language that sounds more like English than Dutch."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Friesland",
+        "https://en.wikipedia.org/wiki/Frisian_language",
+        "https://en.wikipedia.org/wiki/Elfstedentocht"
+      ],
+      "cameraBounds": [
+        [
+          5.004,
+          52.51
+        ],
+        [
+          6.604,
+          53.71
+        ]
+      ],
+      "transition": "Let's bring Friesland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.004,
+              52.51
+            ],
+            [
+              6.604,
+              53.71
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drenthe",
+      "location": [
+        6.6008,
+        52.9121
+      ],
+      "lines": [
+        "Drenthe lies inland in the north-east with no sea coast at all, between Friesland in the west and Groningen in the east, and Assen as its small capital.",
+        "Its name probably means three lands, from an early division into three districts. Its hunebeds are megalithic tombs about five thousand years old, built from boulders the ice age left behind, and they are the oldest structures in the country.",
+        "Remember the empty inland province of three lands, with the dolmens the retreating ice left behind in its fields."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Drenthe",
+        "https://en.wikipedia.org/wiki/Dolmen",
+        "https://en.wikipedia.org/wiki/Assen"
+      ],
+      "cameraBounds": [
+        [
+          5.801,
+          52.312
+        ],
+        [
+          7.401,
+          53.512
+        ]
+      ],
+      "transition": "Let's bring Drenthe into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.801,
+              52.312
+            ],
+            [
+              7.401,
+              53.512
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Noord-Holland",
+      "location": [
+        4.9392,
+        52.6779
+      ],
+      "lines": [
+        "Noord-Holland holds the north-west of the country, on the North Sea and around the IJsselmeer, between Friesland in the north and Zuid-Holland in the south, with Amsterdam as its largest city. Much of this low western land lies below sea level, so without the dykes it would be under the sea.",
+        "Amsterdam stands on millions of wooden piles driven into the marsh, and the Beemster polder, drained in 1612, was the first large piece of land the Dutch took from a lake on purpose.",
+        "Remember Holland as wooded land rather than hollow land, only two of the twelve provinces, with the pile-built capital and the polder that was once a lake."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Holland",
+        "https://en.wikipedia.org/wiki/Amsterdam",
+        "https://en.wikipedia.org/wiki/Beemster"
+      ],
+      "cameraBounds": [
+        [
+          4.139,
+          52.041
+        ],
+        [
+          5.739,
+          53.315
+        ]
+      ],
+      "transition": "Let's bring Noord-Holland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.139,
+              52.041
+            ],
+            [
+              5.739,
+              53.315
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flevoland",
+      "location": [
+        5.5108,
+        52.5532
+      ],
+      "lines": [
+        "Flevoland sits in the centre of the country, between Noord-Holland, Utrecht and Overijssel, where the IJsselmeer used to be and where most of the land is now below sea level.",
+        "It is the newest province, created in 1986, and the largest artificial island in the world, because it was the bottom of the Zuiderzee. Its name comes from Lacus Flevo, the name Roman writers gave the lake, and Almere on it grew from nothing in 1976 to a city of over two hundred thousand people.",
+        "Remember the newest province, the Zuiderzee drained dry, and the town of Almere that grew from nothing to a city."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flevoland",
+        "https://en.wikipedia.org/wiki/Zuiderzee",
+        "https://en.wikipedia.org/wiki/Almere"
+      ],
+      "cameraBounds": [
+        [
+          4.711,
+          51.953
+        ],
+        [
+          6.311,
+          53.153
+        ]
+      ],
+      "transition": "Let's bring Flevoland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.711,
+              51.953
+            ],
+            [
+              6.311,
+              53.153
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Overijssel",
+      "location": [
+        6.4167,
+        52.4811
+      ],
+      "lines": [
+        "Overijssel lies in the east of the country, east of the IJsselmeer, with Zwolle as its largest city, between Drenthe in the north and Gelderland in the south.",
+        "Its name means over the IJssel, the land on the far side of the river as seen from the bishops of Utrecht who ruled it. Giethoorn in it has canals instead of streets, and no roads at all in its old centre.",
+        "Remember the land across the IJssel, with the village of canals and no roads, and the mills of Twente that once wove for the East Indies."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Overijssel",
+        "https://en.wikipedia.org/wiki/Giethoorn",
+        "https://en.wikipedia.org/wiki/Twente"
+      ],
+      "cameraBounds": [
+        [
+          5.617,
+          51.881
+        ],
+        [
+          7.217,
+          53.081
+        ]
+      ],
+      "transition": "Let's bring Overijssel into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.617,
+              51.881
+            ],
+            [
+              7.217,
+              53.081
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gelderland",
+      "location": [
+        5.9066,
+        52.1283
+      ],
+      "lines": [
+        "Gelderland fills the centre-east of the country, from the IJsselmeer in the west to the German border in the east, with Arnhem as its largest city and six provinces on its edges.",
+        "It is the largest province, and its Veluwe is the biggest continuous nature reserve in the country, with wild boar and red deer. It is named for the town of Geldern, which is today in Germany.",
+        "Remember the largest province, the wild deer and boar on the Veluwe, and the second-biggest Van Gogh collection in the museum near Arnhem."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gelderland",
+        "https://en.wikipedia.org/wiki/Veluwe",
+        "https://en.wikipedia.org/wiki/Kr%C3%B6ller-M%C3%BCller_Museum"
+      ],
+      "cameraBounds": [
+        [
+          4.785,
+          51.528
+        ],
+        [
+          7.028,
+          52.728
+        ]
+      ],
+      "transition": "Let's bring Gelderland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.785,
+              51.528
+            ],
+            [
+              7.028,
+              52.728
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Utrecht",
+      "location": [
+        5.1663,
+        52.1122
+      ],
+      "lines": [
+        "Utrecht sits in the centre of the country, just south of the IJsselmeer, with the city of Utrecht as its capital, ringed by four other provinces.",
+        "The city keeps the Roman place name Traiectum inside its own name, and a storm in 1674 destroyed the nave of its cathedral. Its Dom Tower still stands about 112 metres tall.",
+        "Remember the Roman name hidden inside the city name, the tall Dom Tower, and Rietveld’s modern house of 1924 a short walk away."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Utrecht_(province)",
+        "https://en.wikipedia.org/wiki/Dom_Tower_of_Utrecht",
+        "https://en.wikipedia.org/wiki/Rietveld_Schr%C3%B6der_House"
+      ],
+      "cameraBounds": [
+        [
+          4.366,
+          51.512
+        ],
+        [
+          5.966,
+          52.712
+        ]
+      ],
+      "transition": "Let's bring Utrecht into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.366,
+              51.512
+            ],
+            [
+              5.966,
+              52.712
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zuid-Holland",
+      "location": [
+        4.5963,
+        51.9871
+      ],
+      "lines": [
+        "Zuid-Holland is the western province, facing the North Sea and the mouth of the Rhine, with The Hague as its largest city and Rotterdam at its southern edge. Without its dykes, the low western half of the country would lie under water.",
+        "It is the most densely populated province in the country, and Rotterdam in it is Europe’s largest port. The Kinderdijk windmills here, nineteen of them from 1740, are the best-known image of the Dutch fight with water.",
+        "Remember the crowded western province of windmills and the biggest port in Europe, on the land the sea wants back."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_Holland",
+        "https://en.wikipedia.org/wiki/Kinderdijk",
+        "https://en.wikipedia.org/wiki/Rotterdam"
+      ],
+      "cameraBounds": [
+        [
+          3.796,
+          51.387
+        ],
+        [
+          5.396,
+          52.587
+        ]
+      ],
+      "transition": "Let's bring Zuid-Holland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.796,
+              51.387
+            ],
+            [
+              5.396,
+              52.587
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Noord-Brabant",
+      "location": [
+        5.1177,
+        51.521
+      ],
+      "lines": [
+        "Noord-Brabant fills the south of the country, from the North Sea in the west to Limburg in the east, with Eindhoven as its largest city and the capital Den Bosch near the middle.",
+        "It is the northern remnant of the Duchy of Brabant, whose southern half is in Belgium, and the name probably means newly broken land in a district. Philips was founded in Eindhoven here in 1891.",
+        "Remember the newly broken land in the south, the lamp company that made the region a technology cluster, and Bosch’s birthplace in the capital."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Brabant",
+        "https://en.wikipedia.org/wiki/Duchy_of_Brabant",
+        "https://en.wikipedia.org/wiki/Eindhoven"
+      ],
+      "cameraBounds": [
+        [
+          3.953,
+          50.921
+        ],
+        [
+          6.282,
+          52.121
+        ]
+      ],
+      "transition": "Let's bring Noord-Brabant into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.953,
+              50.921
+            ],
+            [
+              6.282,
+              52.121
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zeeland",
+      "location": [
+        3.8153,
+        51.4737
+      ],
+      "lines": [
+        "Zeeland is the south-western province, a scatter of islands and peninsulas in the delta where the Scheldt meets the North Sea, with Middelburg as its capital.",
+        "Its name means sea land, and New Zealand was named after it. The flood of 1953 killed 1,836 people, nearly half of them here, and led to the Delta Works, the largest flood barriers on earth.",
+        "Remember the islands in the delta, the flood that reshaped the country, and the mussels and oysters farmed in the same tidal waters."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zeeland",
+        "https://en.wikipedia.org/wiki/North_Sea_flood_of_1953",
+        "https://en.wikipedia.org/wiki/Delta_Works"
+      ],
+      "cameraBounds": [
+        [
+          3.015,
+          50.874
+        ],
+        [
+          4.615,
+          52.074
+        ]
+      ],
+      "transition": "Let's bring Zeeland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.015,
+              50.874
+            ],
+            [
+              4.615,
+              52.074
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Limburg",
+      "location": [
+        5.8723,
+        51.2535
+      ],
+      "lines": [
+        "Limburg is the southern province, wedged along the German border between Noord-Brabant and Gelderland, with Maastricht as its capital, and it is the only hilly part of the country.",
+        "It is the Dutch tail of the Duchy of Limburg, whose old capital town of Limbourg is now in Belgium. Maastricht here gave the European Union its founding treaty in 1992.",
+        "Remember the hilly southern corner where three borders meet on the Vaalserberg, and the marl caves quarried under Maastricht for two thousand years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Limburg_(Netherlands)",
+        "https://en.wikipedia.org/wiki/Maastricht",
+        "https://en.wikipedia.org/wiki/Treaty_on_European_Union"
+      ],
+      "cameraBounds": [
+        [
+          5.072,
+          50.621
+        ],
+        [
+          6.672,
+          51.886
+        ]
+      ],
+      "transition": "Let's bring Limburg into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.072,
+              50.621
+            ],
+            [
+              6.672,
+              51.886
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          2.62,
+          50.25
+        ],
+        [
+          7.88,
+          54.15
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "12 regions of Netherlands, one for each target of the map: Groningen, Friesland, Drenthe, Noord-Holland, Flevoland, Overijssel, Gelderland, Utrecht, Zuid-Holland, Noord-Brabant, Zeeland and Limburg.",
+    "Remember the shape of Netherlands from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

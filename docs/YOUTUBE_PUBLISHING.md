@@ -10,10 +10,10 @@ playlist [`PLNl_MybP55PE`](https://www.youtube.com/playlist?list=PLNl_MybP55PE),
 **Learning Geography with Geoclick**. Policy and known IDs are in
 [config/geoclick-youtube.json](../config/geoclick-youtube.json).
 
-**Current state: 77 videos are published and the playlist is public.** Thirty-two
-are public and forty-five are unlisted, all reachable through the public
-playlist `PLNl_MybP55PE`, which has all 77 of them in order. The last release
-was the first regions wave on 3 November 2026, unlisted. The first
+**Current state: 90 videos are published and the playlist is public.** Thirty-two
+are public and fifty-eight are unlisted, all reachable through the public
+playlist `PLNl_MybP55PE`, which has all 90 of them in order. The last release
+was the second regions wave on 3 November 2026, unlisted. The first
 release happened on 2 November 2026 with subtitles deliberately postponed; see
 *Published release: 2 November 2026* below. The older sections are kept as the
 history of how the eleven US and Europe videos and the eight Africa uploads
@@ -98,7 +98,7 @@ uploads, and the eleven-video release workflow never uploads either series.
 
 ## Authority and retained files
 
-Versioned English subtitle backups for all 77 current episodes — US, Europe,
+Versioned English subtitle backups for all 90 current episodes — US, Europe,
 Asia, Africa, North America, South America, the capitals editions and the
 regions editions —
 are in [subtitles/](../subtitles/README.md). Its manifest maps exact caption
@@ -274,7 +274,7 @@ in those jobs at all.
 
 Captions are optional tracks, not part of publication. When the owner decides
 to add them, use installed youtube3's own per-video caption upload for each of
-the 67 videos below, one at a time, and stop on any quota refusal.
+the 80 videos below, one at a time, and stop on any quota refusal.
 `bin/install-captions.py` does exactly this and keeps its own ledger of
 accepted caption IDs; see *Deferred captions: the installer and the quota
 arithmetic* above.
@@ -650,6 +650,19 @@ description and a playlist seat. Captions stay deferred.
 | morocco-regions | Morocco's regions | `o2jXgTKKJRo` |
 | egypt-regions | Egypt's regions | `I-4uyV_cjQI` |
 | sweden-regions | Sweden's regions | `eELcpw0Qycw` |
+| brazil-regions | The north and the northeast | `S2oYPMXLQz0` |
+| brazil-regions | The centre and the south | `7-cbif09wPk` |
+| mexico-regions | The north and the west | `-_YFonal76o` |
+| mexico-regions | The centre and the south | `gSXzTJizZmw` |
+| new-zealand-regions | New Zealand's regions | `VTGm-gcURNs` |
+| nigeria-regions | The north and the middle belt | `NPZVIMoh8FE` |
+| nigeria-regions | The south | `5NqrXcxxRhA` |
+| iran-provinces | The north and the west | `OF4V42HcSmM` |
+| iran-provinces | The south and the east | `80ktJdnbA_Q` |
+| japan-regions | Hokkaido and the northern mainland | `oWARR3JLO0s` |
+| japan-regions | The central mountains and the north coast | `N9HK4i6NDz0` |
+| japan-regions | The capital region and the western heartland | `wbJ1N6dVqMQ` |
+| japan-regions | The west and the south | `dKx962W9Ujg` |
 
 ```powershell
 & $py -I bin/upload-series.py --series spain-regions --privacy unlisted
@@ -680,7 +693,7 @@ Any read that outgrows a page needs the same treatment.
 
 ## Deferred captions: the installer and the quota arithmetic
 
-The 67 videos without a caption track now have a dedicated tool.
+The 80 videos without a caption track now have a dedicated tool.
 `bin/install-captions.py` owns scope, order and a local ledger of accepted
 caption IDs; installed youtube3 2.10.0 owns every account write through its
 own caption plan and per-video upload. The tool never reads or rewrites a
@@ -706,7 +719,7 @@ the next run continues from there. An uncertain write is inspected with
 
 **A caption insert costs 400 quota units**, plus a `captions.list` and an
 ownership lookup. The general bucket holds 10,000 units a day and resets at
-midnight Pacific, so the 67 tracks need roughly 30,000 units: at least three
+midnight Pacific, so the 80 tracks need roughly 36,000 units: at least four
 days, and the run stops at whatever the day's bucket allows. On 3 November 2026
 the owner chose to hold the captions and keep the day's quota for the release
 work, so no caption has been installed beyond the ten the US and Europe videos

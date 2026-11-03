@@ -1,0 +1,639 @@
+{
+  "title": "India's states · The mountains and the north · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "india-regions",
+  "area": "India",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/india-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      74.06,
+      26.6
+    ],
+    [
+      95.67,
+      34.92
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Ladakh",
+      "location": [
+        77.4844,
+        33.9209
+      ],
+      "bounds": [
+        [
+          75.234,
+          32.171
+        ],
+        [
+          79.734,
+          35.671
+        ]
+      ]
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "location": [
+        75.2574,
+        33.5348
+      ],
+      "bounds": [
+        [
+          73.404,
+          31.992
+        ],
+        [
+          77.11,
+          35.077
+        ]
+      ]
+    },
+    {
+      "name": "Himachal Pradesh",
+      "location": [
+        77.3081,
+        31.8072
+      ],
+      "bounds": [
+        [
+          75.202,
+          30.057
+        ],
+        [
+          79.415,
+          33.557
+        ]
+      ]
+    },
+    {
+      "name": "Punjab",
+      "location": [
+        75.3783,
+        31.0393
+      ],
+      "bounds": [
+        [
+          73.47,
+          29.289
+        ],
+        [
+          77.287,
+          32.789
+        ]
+      ]
+    },
+    {
+      "name": "Chandigarh",
+      "location": [
+        76.7655,
+        30.7332
+      ],
+      "bounds": [
+        [
+          75.966,
+          30.133
+        ],
+        [
+          77.566,
+          31.333
+        ]
+      ]
+    },
+    {
+      "name": "Uttarakhand",
+      "location": [
+        79.2806,
+        30.0994
+      ],
+      "bounds": [
+        [
+          77.161,
+          28.397
+        ],
+        [
+          81.4,
+          31.802
+        ]
+      ]
+    },
+    {
+      "name": "Haryana",
+      "location": [
+        76.0258,
+        29.2934
+      ],
+      "bounds": [
+        [
+          74.077,
+          27.543
+        ],
+        [
+          77.975,
+          31.043
+        ]
+      ]
+    },
+    {
+      "name": "Delhi",
+      "location": [
+        77.0821,
+        28.6574
+      ],
+      "bounds": [
+        [
+          76.282,
+          28.057
+        ],
+        [
+          77.882,
+          29.257
+        ]
+      ]
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "location": [
+        94.4675,
+        28.0087
+      ],
+      "bounds": [
+        [
+          92.218,
+          26.309
+        ],
+        [
+          96.718,
+          29.708
+        ]
+      ]
+    },
+    {
+      "name": "Sikkim",
+      "location": [
+        88.4485,
+        27.5954
+      ],
+      "bounds": [
+        [
+          87.648,
+          26.958
+        ],
+        [
+          89.248,
+          28.233
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to India's states, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 10 of the India regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Ladakh",
+      "location": [
+        77.4844,
+        33.9209
+      ],
+      "lines": [
+        "Ladakh lies in the far north-west of India, high on the Tibetan plateau above the Indus valley, with Leh as its largest town and the Himalaya closing it in on the south.",
+        "It became a separate union territory in 2019, split from Jammu and Kashmir, and its roads cross passes higher than five thousand metres.",
+        "Remember the roof of India, where the roads climb above the clouds and the nights are full of stars."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ladakh",
+        "https://en.wikipedia.org/wiki/Leh",
+        "https://en.wikipedia.org/wiki/Jammu_and_Kashmir"
+      ],
+      "cameraBounds": [
+        [
+          75.234,
+          32.171
+        ],
+        [
+          79.734,
+          35.671
+        ]
+      ],
+      "transition": "Let's bring Ladakh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              75.234,
+              32.171
+            ],
+            [
+              79.734,
+              35.671
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "location": [
+        75.2574,
+        33.5348
+      ],
+      "lines": [
+        "Jammu and Kashmir sits at the very top of India, where the Himalaya turns towards Pakistan, with Srinagar in the valley at its centre.",
+        "Cashmere wool takes its name from this valley, and the houseboats on Dal Lake are there because the Dogra rulers refused the British permission to buy land on the shore.",
+        "Remember the valley of houseboats and the wool that kept the goats warm."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jammu_and_Kashmir",
+        "https://en.wikipedia.org/wiki/Kashmir",
+        "https://en.wikipedia.org/wiki/Dal_Lake"
+      ],
+      "cameraBounds": [
+        [
+          73.404,
+          31.992
+        ],
+        [
+          77.11,
+          35.077
+        ]
+      ],
+      "transition": "Let's bring Jammu and Kashmir into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              73.404,
+              31.992
+            ],
+            [
+              77.11,
+              35.077
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Himachal Pradesh",
+      "location": [
+        77.3081,
+        31.8072
+      ],
+      "lines": [
+        "Himachal Pradesh runs along the Himalayan crest in the north-west, from the plains below up to the Tibetan border, with Pathankot as its largest town.",
+        "The Dalai Lama and the Tibetan government in exile have been based at Dharamshala here since 1960, and in British days the entire summer government of India moved up to Shimla.",
+        "Remember the province in the lap of the snows, where the Dalai Lama has lived since 1960."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Himachal_Pradesh",
+        "https://en.wikipedia.org/wiki/Shimla",
+        "https://en.wikipedia.org/wiki/Dharamshala"
+      ],
+      "cameraBounds": [
+        [
+          75.202,
+          30.057
+        ],
+        [
+          79.415,
+          33.557
+        ]
+      ],
+      "transition": "Let's bring Himachal Pradesh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              75.202,
+              30.057
+            ],
+            [
+              79.415,
+              33.557
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Punjab",
+      "location": [
+        75.3783,
+        31.0393
+      ],
+      "lines": [
+        "Punjab fills the north-west of India, its flat wheat plains running from the Himalayan foothills in the north down to the Rajasthan border in the south.",
+        "Lahore, the largest city of the wider Punjab, now lies in neighbouring Pakistan, and the name Punjab comes from the Persian for five waters, the five rivers of the Indus.",
+        "Remember the land of the five rivers, where the Golden Temple at Amritsar feeds a hundred thousand people every day."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Punjab,_India",
+        "https://en.wikipedia.org/wiki/Amritsar",
+        "https://en.wikipedia.org/wiki/Indus_River"
+      ],
+      "cameraBounds": [
+        [
+          73.47,
+          29.289
+        ],
+        [
+          77.287,
+          32.789
+        ]
+      ],
+      "transition": "Let's bring Punjab into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              73.47,
+              29.289
+            ],
+            [
+              77.287,
+              32.789
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chandigarh",
+      "location": [
+        76.7655,
+        30.7332
+      ],
+      "lines": [
+        "Chandigarh stands on the plain between Punjab and Haryana, north-west of Delhi, and it belongs to neither of them.",
+        "Designed by Le Corbusier on empty ground after Partition, it is the capital of both states at once, and its Capitol Complex is a UNESCO world heritage site.",
+        "Remember the city that belongs to two states and was built from nothing."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chandigarh",
+        "https://en.wikipedia.org/wiki/Le_Corbusier",
+        "https://en.wikipedia.org/wiki/UNESCO_World_Heritage_Site"
+      ],
+      "cameraBounds": [
+        [
+          75.966,
+          30.133
+        ],
+        [
+          77.566,
+          31.333
+        ]
+      ],
+      "transition": "Let's bring Chandigarh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              75.966,
+              30.133
+            ],
+            [
+              77.566,
+              31.333
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uttarakhand",
+      "location": [
+        79.2806,
+        30.0994
+      ],
+      "lines": [
+        "Uttarakhand rises in the north of India from the Gangetic plain up to the Himalayan crest, with Dehra Dun down in its lower valleys.",
+        "Both the Ganges and the Yamuna are born on its Himalayan slopes, and in the 1970s the women of its villages hugged trees to stop them being felled, which gave us the word tree hugger.",
+        "Remember the northern section where the two holy rivers are born and the women once hugged trees."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uttarakhand",
+        "https://en.wikipedia.org/wiki/Ganges",
+        "https://en.wikipedia.org/wiki/Chipko_movement"
+      ],
+      "cameraBounds": [
+        [
+          77.161,
+          28.397
+        ],
+        [
+          81.4,
+          31.802
+        ]
+      ],
+      "transition": "Let's bring Uttarakhand into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              77.161,
+              28.397
+            ],
+            [
+              81.4,
+              31.802
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haryana",
+      "location": [
+        76.0258,
+        29.2934
+      ],
+      "lines": [
+        "Haryana wraps around Delhi on three sides in the north-west, its flat plain running from the hills in the north to the Rajasthan border in the south, with Faridabad as its largest city.",
+        "At Kurukshetra in this state the war of the Mahabharata is set and the Bhagavad Gita spoken, and its dairy farms supply a large share of India’s milk.",
+        "Remember the green land that surrounds the capital and feeds the country with milk."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Haryana",
+        "https://en.wikipedia.org/wiki/Kurukshetra",
+        "https://en.wikipedia.org/wiki/Bhagavad_Gita"
+      ],
+      "cameraBounds": [
+        [
+          74.077,
+          27.543
+        ],
+        [
+          77.975,
+          31.043
+        ]
+      ],
+      "transition": "Let's bring Haryana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              74.077,
+              27.543
+            ],
+            [
+              77.975,
+              31.043
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Delhi",
+      "location": [
+        77.0821,
+        28.6574
+      ],
+      "lines": [
+        "Delhi stands on the threshold between the Indus plain and the Gangetic plain in the north of India, ringed by Haryana and Uttar Pradesh.",
+        "The Iron Pillar of Delhi has stood for sixteen hundred years without rusting, because the iron was mixed with phosphorus.",
+        "Remember the capital of seven cities, where a pillar of iron refuses to rust."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Delhi",
+        "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+        "https://en.wikipedia.org/wiki/Qutb_complex"
+      ],
+      "cameraBounds": [
+        [
+          76.282,
+          28.057
+        ],
+        [
+          77.882,
+          29.257
+        ]
+      ],
+      "transition": "Let's bring Delhi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              76.282,
+              28.057
+            ],
+            [
+              77.882,
+              29.257
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "location": [
+        94.4675,
+        28.0087
+      ],
+      "lines": [
+        "Arunachal Pradesh arcs along the north-eastern frontier of India, deep in the eastern Himalaya, with Itanagar as its capital and Assam along its southern edge.",
+        "The sun of India rises first over these hills, and the state holds more than a hundred languages, several of them spoken by only a few thousand people.",
+        "Remember the dawn-lit mountains where the sun of India first rises."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arunachal_Pradesh",
+        "https://en.wikipedia.org/wiki/Tawang_Monastery",
+        "https://en.wikipedia.org/wiki/Itanagar"
+      ],
+      "cameraBounds": [
+        [
+          92.218,
+          26.309
+        ],
+        [
+          96.718,
+          29.708
+        ]
+      ],
+      "transition": "Let's bring Arunachal Pradesh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              92.218,
+              26.309
+            ],
+            [
+              96.718,
+              29.708
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sikkim",
+      "location": [
+        88.4485,
+        27.5954
+      ],
+      "lines": [
+        "Sikkim is a small Himalayan state in the north-east, tucked between Nepal and Bhutan with West Bengal along its southern border and Gangtok as its capital.",
+        "Kangchenjunga, the third-highest mountain on earth, rises on its border, and climbers traditionally stop short of the summit out of respect for the people who live there.",
+        "Remember the little state under the third-highest mountain, the first fully organic state in the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sikkim",
+        "https://en.wikipedia.org/wiki/Kangchenjunga",
+        "https://en.wikipedia.org/wiki/Gangtok"
+      ],
+      "cameraBounds": [
+        [
+          87.648,
+          26.958
+        ],
+        [
+          89.248,
+          28.233
+        ]
+      ],
+      "transition": "Let's bring Sikkim into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              87.648,
+              26.958
+            ],
+            [
+              89.248,
+              28.233
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          74.06,
+          26.6
+        ],
+        [
+          95.67,
+          34.92
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "10 regions of India, one for each target of the map: Ladakh, Jammu and Kashmir, Himachal Pradesh, Punjab, Chandigarh, Uttarakhand, Haryana, Delhi, Arunachal Pradesh and Sikkim.",
+    "Remember the shape of India from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "title": "Indonesia's provinces · Sumatra and Borneo · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "indonesia-regions",
+  "area": "Indonesia",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/indonesia-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      95.54,
+      -4.85
+    ],
+    [
+      133.7,
+      4.92
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Aceh",
+      "location": [
+        96.7364,
+        3.9191
+      ],
+      "bounds": [
+        [
+          94.813,
+          2.169
+        ],
+        [
+          98.66,
+          5.669
+        ]
+      ]
+    },
+    {
+      "name": "Sumatera Utara",
+      "location": [
+        98.7606,
+        1.8554
+      ],
+      "bounds": [
+        [
+          96.66,
+          0.105
+        ],
+        [
+          100.861,
+          3.605
+        ]
+      ]
+    },
+    {
+      "name": "Kepulauan Riau",
+      "location": [
+        104.468,
+        0.9954
+      ],
+      "bounds": [
+        [
+          103.621,
+          0.041
+        ],
+        [
+          108.121,
+          3.541
+        ]
+      ]
+    },
+    {
+      "name": "Kalimantan Timur",
+      "location": [
+        116.391,
+        1.0102
+      ],
+      "bounds": [
+        [
+          114.141,
+          -0.74
+        ],
+        [
+          118.641,
+          2.76
+        ]
+      ]
+    },
+    {
+      "name": "Riau",
+      "location": [
+        101.9313,
+        0.7349
+      ],
+      "bounds": [
+        [
+          99.681,
+          -1.015
+        ],
+        [
+          104.181,
+          2.485
+        ]
+      ]
+    },
+    {
+      "name": "Kalimantan Barat",
+      "location": [
+        111.5072,
+        -0.5451
+      ],
+      "bounds": [
+        [
+          109.257,
+          -2.295
+        ],
+        [
+          113.757,
+          1.205
+        ]
+      ]
+    },
+    {
+      "name": "Sumatera Barat",
+      "location": [
+        98.9494,
+        -1.3827
+      ],
+      "bounds": [
+        [
+          98.194,
+          -2.908
+        ],
+        [
+          102.195,
+          0.592
+        ]
+      ]
+    },
+    {
+      "name": "Kalimantan Tengah",
+      "location": [
+        113.2803,
+        -1.4184
+      ],
+      "bounds": [
+        [
+          111.03,
+          -3.168
+        ],
+        [
+          115.53,
+          0.332
+        ]
+      ]
+    },
+    {
+      "name": "Jambi",
+      "location": [
+        102.8227,
+        -1.7643
+      ],
+      "bounds": [
+        [
+          100.687,
+          -3.037
+        ],
+        [
+          104.959,
+          -0.492
+        ]
+      ]
+    },
+    {
+      "name": "Papua Barat",
+      "location": [
+        132.5044,
+        -2.1292
+      ],
+      "bounds": [
+        [
+          130.254,
+          -3.879
+        ],
+        [
+          134.754,
+          -0.379
+        ]
+      ]
+    },
+    {
+      "name": "Bangka-Belitung",
+      "location": [
+        105.4971,
+        -2.0691
+      ],
+      "bounds": [
+        [
+          104.754,
+          -3.446
+        ],
+        [
+          108.687,
+          -1.272
+        ]
+      ]
+    },
+    {
+      "name": "Kalimantan Selatan",
+      "location": [
+        115.4418,
+        -2.7658
+      ],
+      "bounds": [
+        [
+          114.028,
+          -4.516
+        ],
+        [
+          116.856,
+          -1.016
+        ]
+      ]
+    },
+    {
+      "name": "Sumatera Selatan",
+      "location": [
+        104.065,
+        -3.3202
+      ],
+      "bounds": [
+        [
+          101.815,
+          -5.07
+        ],
+        [
+          106.315,
+          -1.57
+        ]
+      ]
+    },
+    {
+      "name": "Bengkulu",
+      "location": [
+        102.3959,
+        -3.8545
+      ],
+      "bounds": [
+        [
+          100.684,
+          -5.604
+        ],
+        [
+          104.108,
+          -2.105
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Indonesia's provinces, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 14 of the Indonesia regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Aceh",
+      "location": [
+        96.7364,
+        3.9191
+      ],
+      "lines": [
+        "Aceh sits at the far north-western tip of Sumatra, the westernmost great island of the chain, with its largest city, Banda Aceh, on the coast and Sumatera Utara as its only land neighbour.",
+        "It is called the veranda of Mecca because Islam reached the archipelago through its port, and it is the only province of Indonesia that still applies sharia law.",
+        "Remember the north-west tip of the chain, the first port of the new religion, and the one province under sharia rule."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aceh",
+        "https://en.wikipedia.org/wiki/Banda_Aceh",
+        "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake"
+      ],
+      "cameraBounds": [
+        [
+          94.813,
+          2.169
+        ],
+        [
+          98.66,
+          5.669
+        ]
+      ],
+      "transition": "Let's bring Aceh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              94.813,
+              2.169
+            ],
+            [
+              98.66,
+              5.669
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sumatera Utara",
+      "location": [
+        98.7606,
+        1.8554
+      ],
+      "lines": [
+        "Sumatera Utara takes the northern stretch of Sumatra above the equator, with its largest city, Medan, near the coast and Aceh to the north, Riau to the east and Sumatera Barat to the south.",
+        "Lake Toba here fills the crater of a supervolcano that erupted about 74,000 years ago, the largest eruption in two million years, and the Batak people around it kept their own script, and German missionaries converted them in the 1860s.",
+        "Remember the lake in a giant crater on the north coast of Sumatra, with its own written alphabet beside it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Sumatra",
+        "https://en.wikipedia.org/wiki/Lake_Toba",
+        "https://en.wikipedia.org/wiki/Medan"
+      ],
+      "cameraBounds": [
+        [
+          96.66,
+          0.105
+        ],
+        [
+          100.861,
+          3.605
+        ]
+      ],
+      "transition": "Let's bring Sumatera Utara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              96.66,
+              0.105
+            ],
+            [
+              100.861,
+              3.605
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kepulauan Riau",
+      "location": [
+        104.468,
+        0.9954
+      ],
+      "lines": [
+        "Kepulauan Riau is a scatter of islands off the east coast of Sumatra and around the mouth of the Malacca Strait, with its largest city, Tanjungpinang, on Bintan and no land neighbours at all.",
+        "The province is almost entirely sea, some 2,400 islands in all, and Batam sits just 20 kilometres from Singapore, developed by Singapore’s government as a free-trade rival.",
+        "Remember the ferry province of two thousand islands, with a rival trading town almost touching Singapore."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Riau_Islands",
+        "https://en.wikipedia.org/wiki/Batam",
+        "https://en.wikipedia.org/wiki/TanjungPinang"
+      ],
+      "cameraBounds": [
+        [
+          103.621,
+          0.041
+        ],
+        [
+          108.121,
+          3.541
+        ]
+      ],
+      "transition": "Let's bring Kepulauan Riau into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              103.621,
+              0.041
+            ],
+            [
+              108.121,
+              3.541
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Timur",
+      "location": [
+        116.391,
+        1.0102
+      ],
+      "lines": [
+        "Kalimantan Timur is the eastern end of Borneo, the great island between Sumatra and New Guinea, with its largest city, Samarinda, up the Mahakam river and Kalimantan Barat, Kalimantan Tengah and Kalimantan Selatan to the west and south.",
+        "Indonesia’s new capital, Nusantara, is being built here to take the pressure off a sinking Jakarta, and coal and gas have made it one of the richest provinces in the country per head.",
+        "Remember the eastern tip of Borneo, where the new capital is rising on empty coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/East_Kalimantan",
+        "https://en.wikipedia.org/wiki/Nusantara,_East_Kalimantan",
+        "https://en.wikipedia.org/wiki/Samarinda"
+      ],
+      "cameraBounds": [
+        [
+          114.141,
+          -0.74
+        ],
+        [
+          118.641,
+          2.76
+        ]
+      ],
+      "transition": "Let's bring Kalimantan Timur into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              114.141,
+              -0.74
+            ],
+            [
+              118.641,
+              2.76
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riau",
+      "location": [
+        101.9313,
+        0.7349
+      ],
+      "lines": [
+        "Riau is the mainland half of the Riau name, on the east coast of central Sumatra facing the Strait of Malacca, with its largest city, Pekanbaru, inland and Sumatera Utara, Sumatera Barat and Jambi around it.",
+        "It produces much of Indonesia’s oil and a large share of its palm oil, and the haze from peat fires in its forests regularly closes airports and schools in Singapore and Malaysia.",
+        "Remember the east coast of Sumatra that smokes in the dry season and fills the sky over Singapore."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Riau",
+        "https://en.wikipedia.org/wiki/Pekanbaru",
+        "https://en.wikipedia.org/wiki/Transboundary_haze_over_Southeast_Asia"
+      ],
+      "cameraBounds": [
+        [
+          99.681,
+          -1.015
+        ],
+        [
+          104.181,
+          2.485
+        ]
+      ],
+      "transition": "Let's bring Riau into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              99.681,
+              -1.015
+            ],
+            [
+              104.181,
+              2.485
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Barat",
+      "location": [
+        111.5072,
+        -0.5451
+      ],
+      "lines": [
+        "Kalimantan Barat is the western end of Borneo, on the South China Sea and the Strait of Malacca, with its largest city, Pontianak, right on the equator and Kalimantan Tengah and Kalimantan Timur inland.",
+        "The equator runs straight through Pontianak, which has a monument where the sun casts no shadow at all twice a year, and the province holds large wild orangutan populations along its rivers.",
+        "Remember the shadowless monument on the equator, and the longest river in the country running through the province."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Kalimantan",
+        "https://en.wikipedia.org/wiki/Pontianak",
+        "https://en.wikipedia.org/wiki/Kapuas_River"
+      ],
+      "cameraBounds": [
+        [
+          109.257,
+          -2.295
+        ],
+        [
+          113.757,
+          1.205
+        ]
+      ],
+      "transition": "Let's bring Kalimantan Barat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              109.257,
+              -2.295
+            ],
+            [
+              113.757,
+              1.205
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sumatera Barat",
+      "location": [
+        98.9494,
+        -1.3827
+      ],
+      "lines": [
+        "Sumatera Barat runs down the west side of central Sumatra on the Indian Ocean, with its largest city, Padang, on the coast and Bengkulu, Jambi, Riau and Sumatera Utara around it.",
+        "Its Minangkabau are the largest matrilineal society in the world, so property and the family name pass through the mother, and their houses have roofs curved like buffalo horns.",
+        "Remember the horn-shaped roofs on the Indian Ocean side, where the family name comes from the mother."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Sumatra",
+        "https://en.wikipedia.org/wiki/Minangkabau",
+        "https://en.wikipedia.org/wiki/Padang"
+      ],
+      "cameraBounds": [
+        [
+          98.194,
+          -2.908
+        ],
+        [
+          102.195,
+          0.592
+        ]
+      ],
+      "transition": "Let's bring Sumatera Barat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              98.194,
+              -2.908
+            ],
+            [
+              102.195,
+              0.592
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Tengah",
+      "location": [
+        113.2803,
+        -1.4184
+      ],
+      "lines": [
+        "Kalimantan Tengah fills the middle of Borneo, with its largest city, Palangkaraya, inland on the Kahayan river and Kalimantan Barat, Kalimantan Selatan and Kalimantan Timur around it.",
+        "It was created in 1957 after Dayak protests at being governed from the coast, and it is the largest province by area on the island, with wild orangutans best seen at Tanjung Puting by river boat.",
+        "Remember the biggest province on Borneo, born from a protest, and the orangutans reached by boat."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Central_Kalimantan",
+        "https://en.wikipedia.org/wiki/Palangkaraya",
+        "https://en.wikipedia.org/wiki/Tanjung_Puting_National_Park"
+      ],
+      "cameraBounds": [
+        [
+          111.03,
+          -3.168
+        ],
+        [
+          115.53,
+          0.332
+        ]
+      ],
+      "transition": "Let's bring Kalimantan Tengah into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              111.03,
+              -3.168
+            ],
+            [
+              115.53,
+              0.332
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jambi",
+      "location": [
+        102.8227,
+        -1.7643
+      ],
+      "lines": [
+        "Jambi is on the east coast of central Sumatra, facing the strait across from the islands of Riau, with its largest city, Jambi, inland and Sumatera Barat, Sumatera Selatan, Bengkulu and Riau around it.",
+        "The temple complex at Muaro Jambi is the largest ancient site in Indonesia, bigger than Borobudur by area, and Kerinci in its highlands is Sumatra’s highest volcano at 3,805 metres.",
+        "Remember the forest temple bigger than Borobudur and the island’s highest volcano above the trees."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jambi",
+        "https://en.wikipedia.org/wiki/Muaro_Jambi",
+        "https://en.wikipedia.org/wiki/Kerinci"
+      ],
+      "cameraBounds": [
+        [
+          100.687,
+          -3.037
+        ],
+        [
+          104.959,
+          -0.492
+        ]
+      ],
+      "transition": "Let's bring Jambi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              100.687,
+              -3.037
+            ],
+            [
+              104.959,
+              -0.492
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Papua Barat",
+      "location": [
+        132.5044,
+        -2.1292
+      ],
+      "lines": [
+        "Papua Barat is the western half of the island of New Guinea, in the far east of Indonesia across the Pacific, with its largest city, Sorong, on the coast and Papua to the east.",
+        "Raja Ampat off its coast has the highest recorded diversity of coral and reef fish anywhere on earth, and its interior holds peoples who were contacted for the first time only in the twentieth century.",
+        "Remember the reef with more kinds of fish than anywhere on earth, and the inland peoples met only in modern times."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Papua",
+        "https://en.wikipedia.org/wiki/Raja_Ampat",
+        "https://en.wikipedia.org/wiki/Sorong"
+      ],
+      "cameraBounds": [
+        [
+          130.254,
+          -3.879
+        ],
+        [
+          134.754,
+          -0.379
+        ]
+      ],
+      "transition": "Let's bring Papua Barat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              130.254,
+              -3.879
+            ],
+            [
+              134.754,
+              -0.379
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bangka-Belitung",
+      "location": [
+        105.4971,
+        -2.0691
+      ],
+      "lines": [
+        "Bangka-Belitung is two islands in the Java Sea off the east coast of Sumatra, with its largest city, Pangkalpinang, on Bangka and no land neighbours.",
+        "Bangka may take its name from a word for tin, which is exactly what these islands have shipped for more than two centuries, and much of the world’s solder has passed through them.",
+        "Remember the two tin islands in the Java Sea, and the granite boulders on Belitung’s white sand."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bangka_Belitung",
+        "https://en.wikipedia.org/wiki/Tin",
+        "https://en.wikipedia.org/wiki/Laskar_Pelangi"
+      ],
+      "cameraBounds": [
+        [
+          104.754,
+          -3.446
+        ],
+        [
+          108.687,
+          -1.272
+        ]
+      ],
+      "transition": "Let's bring Bangka-Belitung into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              104.754,
+              -3.446
+            ],
+            [
+              108.687,
+              -1.272
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kalimantan Selatan",
+      "location": [
+        115.4418,
+        -2.7658
+      ],
+      "lines": [
+        "Kalimantan Selatan is the southern part of Borneo, with its largest city, Banjarmasin, on the Martapura river and Kalimantan Tengah and Kalimantan Timur to the north.",
+        "Banjarmasin is built on water, with floating markets where traders sell from canoes at dawn, and the province mines a large share of Indonesia’s coal.",
+        "Remember the floating market on the southern coast of Borneo, where the traders row out to the boats at sunrise."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_Kalimantan",
+        "https://en.wikipedia.org/wiki/Banjarmasin",
+        "https://en.wikipedia.org/wiki/Meratus_Mountains"
+      ],
+      "cameraBounds": [
+        [
+          114.028,
+          -4.516
+        ],
+        [
+          116.856,
+          -1.016
+        ]
+      ],
+      "transition": "Let's bring Kalimantan Selatan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              114.028,
+              -4.516
+            ],
+            [
+              116.856,
+              -1.016
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sumatera Selatan",
+      "location": [
+        104.065,
+        -3.3202
+      ],
+      "lines": [
+        "Sumatera Selatan is the southern half of Sumatra on the Indian Ocean side, with its largest city, Palembang, inland on the Musi river and Bengkulu, Jambi and Lampung around it.",
+        "Palembang was the seat of Srivijaya, a maritime empire that dominated this region from the 600s to the 1200s, and its Ampera bridge once lifted in the middle to let ships pass underneath.",
+        "Remember the old sea empire on the Musi river, and the bridge that lifted its middle for passing ships."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_Sumatra",
+        "https://en.wikipedia.org/wiki/Palembang",
+        "https://en.wikipedia.org/wiki/Srivijaya"
+      ],
+      "cameraBounds": [
+        [
+          101.815,
+          -5.07
+        ],
+        [
+          106.315,
+          -1.57
+        ]
+      ],
+      "transition": "Let's bring Sumatera Selatan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              101.815,
+              -5.07
+            ],
+            [
+              106.315,
+              -1.57
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bengkulu",
+      "location": [
+        102.3959,
+        -3.8545
+      ],
+      "lines": [
+        "Bengkulu is the south-western corner of Sumatra on the Indian Ocean, with its largest city, Bengkulu, on the coast and Sumatera Barat, Sumatera Selatan, Jambi and Lampung around it.",
+        "The British held it as Bencoolen for 140 years and handed it to the Dutch in 1824 in the treaty that secured their hold on Singapore, and Rafflesia arnoldii, the largest single flower on earth, is its emblem.",
+        "Remember the British trading post on the Indian Ocean, and the one-metre flower that is the provincial emblem."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bengkulu",
+        "https://en.wikipedia.org/wiki/Bencoolen",
+        "https://en.wikipedia.org/wiki/Rafflesia_arnoldii"
+      ],
+      "cameraBounds": [
+        [
+          100.684,
+          -5.604
+        ],
+        [
+          104.108,
+          -2.105
+        ]
+      ],
+      "transition": "Let's bring Bengkulu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              100.684,
+              -5.604
+            ],
+            [
+              104.108,
+              -2.105
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          95.54,
+          -4.85
+        ],
+        [
+          133.7,
+          4.92
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "14 regions of Indonesia, one for each target of the map: Aceh, Sumatera Utara, Kepulauan Riau, Kalimantan Timur, Riau, Kalimantan Barat, Sumatera Barat, Kalimantan Tengah, Jambi, Papua Barat, Bangka-Belitung, Kalimantan Selatan, Sumatera Selatan and Bengkulu.",
+    "Remember the shape of Indonesia from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

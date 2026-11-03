@@ -1,18 +1,18 @@
 {
   "edition": "Japan · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 47 region targets of GeoClick's native japan-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 47,
   "countryCount": 1,
   "nativeTargetCount": 47,
   "nativeTeachingStopCount": 47,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 47,
   "episodes": [
     {
       "id": "japan-regions-hokkaido-and-tohoku",
       "title": "Hokkaido and the northern mainland",
-      "status": "preflight-passed",
+      "status": "complete",
       "lesson": "src/lessons/japan-regions-hokkaido-and-tohoku-lesson.json",
       "places": [
         "Hokkaidō",
@@ -43,12 +43,22 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/japan-regions-20261103/01-hokkaido-and-tohoku/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/japan-regions-20261103/01-hokkaido-and-tohoku/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 334.44,
+      "covered": [
+        "Hokkaidō",
+        "Aomori",
+        "Akita",
+        "Iwate",
+        "Yamagata",
+        "Miyagi",
+        "Fukushima"
+      ]
     },
     {
       "id": "japan-regions-central-mountains",
       "title": "The central mountains and the north coast",
-      "status": "preflight-passed",
+      "status": "complete",
       "lesson": "src/lessons/japan-regions-central-mountains-lesson.json",
       "places": [
         "Niigata",
@@ -82,12 +92,23 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/japan-regions-20261103/02-central-mountains/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/japan-regions-20261103/02-central-mountains/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 392.64,
+      "covered": [
+        "Niigata",
+        "Ishikawa",
+        "Tochigi",
+        "Toyama",
+        "Gunma",
+        "Ibaraki",
+        "Nagano",
+        "Fukui"
+      ]
     },
     {
       "id": "japan-regions-kanto-and-kansai",
       "title": "The capital region and the western heartland",
-      "status": "preflight-passed",
+      "status": "complete",
       "lesson": "src/lessons/japan-regions-kanto-and-kansai-lesson.json",
       "places": [
         "Saitama",
@@ -142,12 +163,30 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/japan-regions-20261103/03-kanto-and-kansai/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/japan-regions-20261103/03-kanto-and-kansai/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 673.52,
+      "covered": [
+        "Saitama",
+        "Gifu",
+        "Tokyo",
+        "Yamanashi",
+        "Chiba",
+        "Kanagawa",
+        "Kyōto",
+        "Shiga",
+        "Shizuoka",
+        "Aichi",
+        "Hyōgo",
+        "Ōsaka",
+        "Mie",
+        "Nara",
+        "Wakayama"
+      ]
     },
     {
       "id": "japan-regions-west-and-south",
       "title": "The west and the south",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/japan-regions-west-and-south-lesson.json",
       "places": [
         "Tottori",
@@ -208,7 +247,27 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/japan-regions-20261103/04-west-and-south/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/japan-regions-20261103/04-west-and-south/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 728.28,
+      "covered": [
+        "Tottori",
+        "Shimane",
+        "Okayama",
+        "Hiroshima",
+        "Yamaguchi",
+        "Kagawa",
+        "Tokushima",
+        "Nagasaki",
+        "Ehime",
+        "Fukuoka",
+        "Kōchi",
+        "Saga",
+        "Ōita",
+        "Kumamoto",
+        "Miyazaki",
+        "Kagoshima",
+        "Okinawa"
+      ]
     }
   ]
 }

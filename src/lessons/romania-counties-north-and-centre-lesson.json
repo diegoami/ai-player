@@ -1,0 +1,1288 @@
+{
+  "title": "Romania's counties · The north and the centre · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "romania-counties",
+  "area": "Romania",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/romania-counties",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      20.53,
+      44.77
+    ],
+    [
+      28.93,
+      48.85
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Botoșani",
+      "location": [
+        26.7669,
+        47.8504
+      ],
+      "bounds": [
+        [
+          25.936,
+          47.25
+        ],
+        [
+          27.597,
+          48.45
+        ]
+      ]
+    },
+    {
+      "name": "Satu Mare",
+      "location": [
+        22.8941,
+        47.7038
+      ],
+      "bounds": [
+        [
+          21.986,
+          47.104
+        ],
+        [
+          23.802,
+          48.304
+        ]
+      ]
+    },
+    {
+      "name": "Maramureș",
+      "location": [
+        23.9954,
+        47.6611
+      ],
+      "bounds": [
+        [
+          22.712,
+          47.061
+        ],
+        [
+          25.279,
+          48.261
+        ]
+      ]
+    },
+    {
+      "name": "Suceava",
+      "location": [
+        25.8004,
+        47.5128
+      ],
+      "bounds": [
+        [
+          24.728,
+          46.913
+        ],
+        [
+          26.873,
+          48.113
+        ]
+      ]
+    },
+    {
+      "name": "Iași",
+      "location": [
+        27.3025,
+        47.1949
+      ],
+      "bounds": [
+        [
+          26.277,
+          46.595
+        ],
+        [
+          28.328,
+          47.795
+        ]
+      ]
+    },
+    {
+      "name": "Bistrița-Năsăud",
+      "location": [
+        24.5134,
+        47.1645
+      ],
+      "bounds": [
+        [
+          23.713,
+          46.564
+        ],
+        [
+          25.313,
+          47.764
+        ]
+      ]
+    },
+    {
+      "name": "Sălaj",
+      "location": [
+        23.1536,
+        47.1472
+      ],
+      "bounds": [
+        [
+          22.329,
+          46.547
+        ],
+        [
+          23.978,
+          47.747
+        ]
+      ]
+    },
+    {
+      "name": "Bihor",
+      "location": [
+        22.1135,
+        46.9818
+      ],
+      "bounds": [
+        [
+          21.251,
+          46.215
+        ],
+        [
+          22.976,
+          47.748
+        ]
+      ]
+    },
+    {
+      "name": "Neamț",
+      "location": [
+        26.4554,
+        46.9631
+      ],
+      "bounds": [
+        [
+          25.475,
+          46.363
+        ],
+        [
+          27.436,
+          47.563
+        ]
+      ]
+    },
+    {
+      "name": "Cluj",
+      "location": [
+        23.4537,
+        46.8695
+      ],
+      "bounds": [
+        [
+          22.473,
+          46.269
+        ],
+        [
+          24.435,
+          47.469
+        ]
+      ]
+    },
+    {
+      "name": "Harghita",
+      "location": [
+        25.5847,
+        46.6204
+      ],
+      "bounds": [
+        [
+          24.7,
+          45.977
+        ],
+        [
+          26.47,
+          47.263
+        ]
+      ]
+    },
+    {
+      "name": "Mureș",
+      "location": [
+        24.6338,
+        46.5833
+      ],
+      "bounds": [
+        [
+          23.834,
+          45.934
+        ],
+        [
+          25.434,
+          47.233
+        ]
+      ]
+    },
+    {
+      "name": "Vaslui",
+      "location": [
+        27.7254,
+        46.5167
+      ],
+      "bounds": [
+        [
+          26.925,
+          45.917
+        ],
+        [
+          28.525,
+          47.117
+        ]
+      ]
+    },
+    {
+      "name": "Bacău",
+      "location": [
+        26.7644,
+        46.3946
+      ],
+      "bounds": [
+        [
+          25.82,
+          45.795
+        ],
+        [
+          27.709,
+          46.995
+        ]
+      ]
+    },
+    {
+      "name": "Arad",
+      "location": [
+        21.7298,
+        46.2755
+      ],
+      "bounds": [
+        [
+          20.448,
+          45.675
+        ],
+        [
+          23.012,
+          46.876
+        ]
+      ]
+    },
+    {
+      "name": "Alba",
+      "location": [
+        23.4472,
+        46.0021
+      ],
+      "bounds": [
+        [
+          22.516,
+          45.309
+        ],
+        [
+          24.378,
+          46.696
+        ]
+      ]
+    },
+    {
+      "name": "Covasna",
+      "location": [
+        25.9697,
+        45.9278
+      ],
+      "bounds": [
+        [
+          25.17,
+          45.328
+        ],
+        [
+          26.77,
+          46.528
+        ]
+      ]
+    },
+    {
+      "name": "Sibiu",
+      "location": [
+        24.2957,
+        45.8582
+      ],
+      "bounds": [
+        [
+          23.438,
+          45.258
+        ],
+        [
+          25.153,
+          46.458
+        ]
+      ]
+    },
+    {
+      "name": "Hunedoara",
+      "location": [
+        22.9703,
+        45.7871
+      ],
+      "bounds": [
+        [
+          22.17,
+          45.104
+        ],
+        [
+          23.77,
+          46.47
+        ]
+      ]
+    },
+    {
+      "name": "Brașov",
+      "location": [
+        25.3752,
+        45.7766
+      ],
+      "bounds": [
+        [
+          24.469,
+          45.177
+        ],
+        [
+          26.282,
+          46.377
+        ]
+      ]
+    },
+    {
+      "name": "Vrancea",
+      "location": [
+        26.9803,
+        45.7747
+      ],
+      "bounds": [
+        [
+          26.18,
+          45.175
+        ],
+        [
+          27.78,
+          46.375
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Romania's counties, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 21 of the Romania regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Botoșani",
+      "location": [
+        26.7669,
+        47.8504
+      ],
+      "lines": [
+        "Botoșani lies in the north-east of Romania, on the Moldavian plateau above the Prut, with Suceava to the north and Iași to the south.",
+        "Mihai Eminescu, Romania’s national poet, was born in the town of Botoșani in 1850, and the composer George Enescu was born in 1881 in a village of this county that now carries his name.",
+        "Remember the north-east corner where the national poet was born, above the Prut that runs down to the Danube."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boto%C8%99ani_County",
+        "https://en.wikipedia.org/wiki/Mihai_Eminescu",
+        "https://en.wikipedia.org/wiki/Boto%C8%99ani"
+      ],
+      "cameraBounds": [
+        [
+          25.936,
+          47.25
+        ],
+        [
+          27.597,
+          48.45
+        ]
+      ],
+      "transition": "Let's bring Botoșani into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.936,
+              47.25
+            ],
+            [
+              27.597,
+              48.45
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Satu Mare",
+      "location": [
+        22.8941,
+        47.7038
+      ],
+      "lines": [
+        "Satu Mare sits in the far north-west of the country, on the Someș river in the plain below the eastern Carpathians, with Bihor to the south and Maramureș to the east.",
+        "In the eighteenth century the Károlyi counts brought German Catholic settlers here, the Satu Mare Swabians, and the Károlyi residence at Carei began as a fortified house built in 1482.",
+        "Remember the north-west corner of Romania, the plain of the Swabian settlers between the mountains and the Hungarian border."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Satu_Mare_County",
+        "https://en.wikipedia.org/wiki/Satu_Mare",
+        "https://en.wikipedia.org/wiki/Some%C8%99"
+      ],
+      "cameraBounds": [
+        [
+          21.986,
+          47.104
+        ],
+        [
+          23.802,
+          48.304
+        ]
+      ],
+      "transition": "Let's bring Satu Mare into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.986,
+              47.104
+            ],
+            [
+              23.802,
+              48.304
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maramureș",
+      "location": [
+        23.9954,
+        47.6611
+      ],
+      "lines": [
+        "Maramureș fills the northern valley of the Carpathians, running down from the Ukrainian border past Baia Mare, with Satu Mare and Sălaj to the west and Suceava to the south-east.",
+        "Its wooden churches with their tall shingled spires are a UNESCO site, and at Săpânța the Merry Cemetery tells the lives of the dead in painted verses that rhyme and joke about them.",
+        "Remember the northern valley, the tall wooden spires, and the painted crosses that laugh about death."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maramure%C8%99_County",
+        "https://en.wikipedia.org/wiki/Wooden_churches_of_Maramure%C8%99",
+        "https://en.wikipedia.org/wiki/Merry_Cemetery"
+      ],
+      "cameraBounds": [
+        [
+          22.712,
+          47.061
+        ],
+        [
+          25.279,
+          48.261
+        ]
+      ],
+      "transition": "Let's bring Maramureș into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.712,
+              47.061
+            ],
+            [
+              25.279,
+              48.261
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Suceava",
+      "location": [
+        25.8004,
+        47.5128
+      ],
+      "lines": [
+        "Suceava lies along the Ukrainian border in the north of Romania, on the Moldavian plateau with the Carpathians rising on its eastern side, and Maramureș to the west.",
+        "The town was the capital of the princely Moldavia from 1388 until 1565, and the painted monasteries of Bucovina nearby are covered in frescoes outside as well as in.",
+        "Remember the northern border county, the old capital of Moldavia and the churches with frescoes on their outside walls."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suceava_County",
+        "https://en.wikipedia.org/wiki/Suceava",
+        "https://en.wikipedia.org/wiki/Churches_of_Moldavia"
+      ],
+      "cameraBounds": [
+        [
+          24.728,
+          46.913
+        ],
+        [
+          26.873,
+          48.113
+        ]
+      ],
+      "transition": "Let's bring Suceava into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.728,
+              46.913
+            ],
+            [
+              26.873,
+              48.113
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iași",
+      "location": [
+        27.3025,
+        47.1949
+      ],
+      "lines": [
+        "Iași sits in the north-east of the country, on the Moldavian plateau west of the Prut, which is the border with Moldova, with Neamț to the west and Vaslui to the south.",
+        "When Bucharest was occupied in the First World War, Iași served as the capital of Romania from 1916 to 1918, and the wines of Cotnari have been famous since the days of Stephen the Great.",
+        "Remember the north-east county whose city was the wartime capital, on the Prut facing Moldova."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ia%C8%99i_County",
+        "https://en.wikipedia.org/wiki/Ia%C8%99i",
+        "https://en.wikipedia.org/wiki/Prut"
+      ],
+      "cameraBounds": [
+        [
+          26.277,
+          46.595
+        ],
+        [
+          28.328,
+          47.795
+        ]
+      ],
+      "transition": "Let's bring Iași into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.277,
+              46.595
+            ],
+            [
+              28.328,
+              47.795
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bistrița-Năsăud",
+      "location": [
+        24.5134,
+        47.1645
+      ],
+      "lines": [
+        "Bistrița-Năsăud lies in the north of Transylvania, with Maramureș to the north and Cluj to the south, the town of Bistrița in the middle and the Carpathians on its eastern side.",
+        "Transylvanian Saxons settled the district in the twelfth century and called it Nösnerland, and Bram Stoker set Jonathan Harker’s journey to the Borgo Pass at Bistritz here.",
+        "Remember the county where the traveller in Dracula stopped, with the Saxon land of Nösnerland behind it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bistri%C8%9Ba-N%C4%83s%C4%83ud_County",
+        "https://en.wikipedia.org/wiki/Transylvanian_Saxons",
+        "https://en.wikipedia.org/wiki/Dracula"
+      ],
+      "cameraBounds": [
+        [
+          23.713,
+          46.564
+        ],
+        [
+          25.313,
+          47.764
+        ]
+      ],
+      "transition": "Let's bring Bistrița-Năsăud into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.713,
+              46.564
+            ],
+            [
+              25.313,
+              47.764
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sălaj",
+      "location": [
+        23.1536,
+        47.1472
+      ],
+      "lines": [
+        "Sălaj lies in north-western Transylvania, with Maramureș to the north and Cluj to the south, and the town of Zalău in the middle of it below the Carpathian ridge.",
+        "Near Zalău the Roman frontier town of Porolissum guarded the northern edge of the province of Dacia, and the Roman fort at Buciumi held the natural passage along the valley of the Râg.",
+        "Remember the Roman watchtower county on the northern frontier, with Zalău at its centre."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C4%83laj_County",
+        "https://en.wikipedia.org/wiki/Porolissum",
+        "https://en.wikipedia.org/wiki/Zal%C4%83u"
+      ],
+      "cameraBounds": [
+        [
+          22.329,
+          46.547
+        ],
+        [
+          23.978,
+          47.747
+        ]
+      ],
+      "transition": "Let's bring Sălaj into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.329,
+              46.547
+            ],
+            [
+              23.978,
+              47.747
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bihor",
+      "location": [
+        22.1135,
+        46.9818
+      ],
+      "lines": [
+        "Bihor spreads across the plain of the Crișul Repede in the north-west of the country, with Oradea in the north, Satu Mare above it and the Apuseni mountains along its southern edge.",
+        "Quarrymen found the Bear Cave in 1975, and it holds the bones of cave bears that died there thousands of years ago; a thermal lake near Băile Felix is the only home in Europe of a water lily left over from a warmer age.",
+        "Remember the north-west plain county with the cave full of bear bones and the old water lily in the thermal lake."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bihor_County",
+        "https://en.wikipedia.org/wiki/Oradea",
+        "https://en.wikipedia.org/wiki/Apuseni_Mountains"
+      ],
+      "cameraBounds": [
+        [
+          21.251,
+          46.215
+        ],
+        [
+          22.976,
+          47.748
+        ]
+      ],
+      "transition": "Let's bring Bihor into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.251,
+              46.215
+            ],
+            [
+              22.976,
+              47.748
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neamț",
+      "location": [
+        26.4554,
+        46.9631
+      ],
+      "lines": [
+        "Neamț lies on the Moldavian plateau in the north-central part of Romania, west of the Prut, with Harghita in the west and Iași to the east and the town of Piatra-Neamț in the middle.",
+        "The storyteller Ion Creangă was born at Humulești here in 1837 and wrote about his boyhood, and the dam at Bicaz, finished in 1960, made Lake Izvorul Muntelui, one of the largest artificial lakes in Romania.",
+        "Remember the storyteller’s village on the Moldavian plateau, beside the mountain lake made by a dam."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Neam%C8%9B_County",
+        "https://en.wikipedia.org/wiki/Ion_Creang%C4%83",
+        "https://en.wikipedia.org/wiki/Bicaz"
+      ],
+      "cameraBounds": [
+        [
+          25.475,
+          46.363
+        ],
+        [
+          27.436,
+          47.563
+        ]
+      ],
+      "transition": "Let's bring Neamț into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.475,
+              46.363
+            ],
+            [
+              27.436,
+              47.563
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cluj",
+      "location": [
+        23.4537,
+        46.8695
+      ],
+      "lines": [
+        "Cluj lies on the plain inside the Carpathian arc, in the north-west of Transylvania, with the city of Cluj-Napoca in the middle and Bistrița-Năsăud to the north.",
+        "The old salt mine at Turda below the town now has a Ferris wheel and a boating lake deep underground, and Bánffy Castle at Bonțida is called the Versailles of Transylvania.",
+        "Remember the county with the underground Ferris wheel in a salt mine, on the plain inside the arc of the Carpathians."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cluj_County",
+        "https://en.wikipedia.org/wiki/Turda_Salt_Mine",
+        "https://en.wikipedia.org/wiki/Cluj-Napoca"
+      ],
+      "cameraBounds": [
+        [
+          22.473,
+          46.269
+        ],
+        [
+          24.435,
+          47.469
+        ]
+      ],
+      "transition": "Let's bring Cluj into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.473,
+              46.269
+            ],
+            [
+              24.435,
+              47.469
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harghita",
+      "location": [
+        25.5847,
+        46.6204
+      ],
+      "lines": [
+        "Harghita stands in the eastern Carpathians, in the bend of the great arc that curls around the Transylvanian plateau, with Miercurea Cuic in the west and Covasna and Brașov to the south.",
+        "The county is named for the Harghita Mountains, a chain of extinct volcanoes, and Lake Saint Anne fills a volcanic crater, the only such lake in Romania.",
+        "Remember the county of extinct volcanoes, where the mountain lakes sit in craters and the Székely Hungarians are in the majority."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Harghita_County",
+        "https://en.wikipedia.org/wiki/Lake_Sf%C3%A2nta_Ana",
+        "https://en.wikipedia.org/wiki/Sz%C3%A9kely"
+      ],
+      "cameraBounds": [
+        [
+          24.7,
+          45.977
+        ],
+        [
+          26.47,
+          47.263
+        ]
+      ],
+      "transition": "Let's bring Harghita into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.7,
+              45.977
+            ],
+            [
+              26.47,
+              47.263
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mureș",
+      "location": [
+        24.6338,
+        46.5833
+      ],
+      "lines": [
+        "Mureș runs along the middle of Transylvania, following the river of the same name west towards the Hungarian border, with the city of Târgu Mureș in its centre and Sibiu and Brașov to the south.",
+        "The citadel of Sighișoara, a medieval town still lived in, is a UNESCO site, and by tradition Vlad the Impaler was born there around 1431.",
+        "Remember the county with the living medieval citadel, the supposed birthplace of the man whose name sells the castle on the hill."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mure%C8%99_County",
+        "https://en.wikipedia.org/wiki/Sighi%C8%99oara",
+        "https://en.wikipedia.org/wiki/Vlad_the_Impaler"
+      ],
+      "cameraBounds": [
+        [
+          23.834,
+          45.934
+        ],
+        [
+          25.434,
+          47.233
+        ]
+      ],
+      "transition": "Let's bring Mureș into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.834,
+              45.934
+            ],
+            [
+              25.434,
+              47.233
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vaslui",
+      "location": [
+        27.7254,
+        46.5167
+      ],
+      "lines": [
+        "Vaslui lies on the eastern plateau of Moldavia, with the Republic of Moldova close on its eastern side, Iași to the north and Galați and Bacău to the south and west.",
+        "At Podul Înalt in 1475, Stephen the Great of Moldavia defeated a much larger Ottoman army, and an equestrian statue at Băcăoani was unveiled in 1975 to mark that victory.",
+        "Remember the eastern county where a smaller army beat a bigger one on the slopes above the Bahlui."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vaslui_County",
+        "https://en.wikipedia.org/wiki/Stephen_the_Great",
+        "https://en.wikipedia.org/wiki/Vaslui"
+      ],
+      "cameraBounds": [
+        [
+          26.925,
+          45.917
+        ],
+        [
+          28.525,
+          47.117
+        ]
+      ],
+      "transition": "Let's bring Vaslui into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.925,
+              45.917
+            ],
+            [
+              28.525,
+              47.117
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bacău",
+      "location": [
+        26.7644,
+        46.3946
+      ],
+      "lines": [
+        "Bacău sits at the eastern end of the Carpathian arc, on the Bistrița river where the mountains come down to the Moldavian plain, with Vaslui to the east and Harghita to the west.",
+        "Catholic Csángó communities in the villages around Bacău preserve distinctive Hungarian dialects, and at Tescani George Enescu completed his opera Oedip in the family manor.",
+        "Remember the county at the eastern end of the Carpathian arc, where the mountain villages kept old Hungarian dialects alive."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bac%C4%83u_County",
+        "https://en.wikipedia.org/wiki/Cs%C3%A1ng%C3%B3s",
+        "https://en.wikipedia.org/wiki/Bac%C4%83u"
+      ],
+      "cameraBounds": [
+        [
+          25.82,
+          45.795
+        ],
+        [
+          27.709,
+          46.995
+        ]
+      ],
+      "transition": "Let's bring Bacău into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.82,
+              45.795
+            ],
+            [
+              27.709,
+              46.995
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arad",
+      "location": [
+        21.7298,
+        46.2755
+      ],
+      "lines": [
+        "Arad lies in the west of Romania, on the Mureș where the Carpathian basin opens out onto the plain facing Hungary, with Bihor to the north and Alba and Timiș to the south.",
+        "Thirteen commanders of the Hungarian revolutionary army were executed at Arad on 6 October 1849, and the name of the county has medieval antecedents in a county recorded beside the same river.",
+        "Remember the western county at the foot of the Carpathians, where the mountains open out into the Hungarian plain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arad_County",
+        "https://en.wikipedia.org/wiki/Arad,_Romania",
+        "https://en.wikipedia.org/wiki/Mure%C8%99"
+      ],
+      "cameraBounds": [
+        [
+          20.448,
+          45.675
+        ],
+        [
+          23.012,
+          46.876
+        ]
+      ],
+      "transition": "Let's bring Arad into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              20.448,
+              45.675
+            ],
+            [
+              23.012,
+              46.876
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alba",
+      "location": [
+        23.4472,
+        46.0021
+      ],
+      "lines": [
+        "Alba lies in the middle of Transylvania, where the western Carpathians close in on the plateau, with Alba Iulia in the north, Sibiu to the east and Hunedoara and Vâlcea to the south.",
+        "The union of Transylvania with Romania was proclaimed at Alba Iulia on 1 December 1918, a day kept as Romania’s national day, and the Roman gold mines of Roșia Montană became a UNESCO site in 2021.",
+        "Remember the white castle, the day the country was proclaimed, and the Roman gold mines cut by hand."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alba_County",
+        "https://en.wikipedia.org/wiki/Alba_Iulia",
+        "https://en.wikipedia.org/wiki/Ro%C8%99ia_Montan%C4%83"
+      ],
+      "cameraBounds": [
+        [
+          22.516,
+          45.309
+        ],
+        [
+          24.378,
+          46.696
+        ]
+      ],
+      "transition": "Let's bring Alba into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.516,
+              45.309
+            ],
+            [
+              24.378,
+              46.696
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Covasna",
+      "location": [
+        25.9697,
+        45.9278
+      ],
+      "lines": [
+        "Covasna is the small county inside the eastern Carpathian arc, with Sfântu Gheorghe in the north-west, Bacău to the west and Buzău and Brașov to the south.",
+        "The name comes from the Slavic word kvas, sour, for the mineral waters of the spa town, and the mofettes here, vents of natural carbon dioxide, are used in spa treatments.",
+        "Remember the small county of sour springs deep in the Carpathians, one of the three seats of the Székely people."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Covasna_County",
+        "https://en.wikipedia.org/wiki/Sf%C3%AEntu-Gheorghe",
+        "https://en.wikipedia.org/wiki/Sz%C3%A9kely"
+      ],
+      "cameraBounds": [
+        [
+          25.17,
+          45.328
+        ],
+        [
+          26.77,
+          46.528
+        ]
+      ],
+      "transition": "Let's bring Covasna into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.17,
+              45.328
+            ],
+            [
+              26.77,
+              46.528
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sibiu",
+      "location": [
+        24.2957,
+        45.8582
+      ],
+      "lines": [
+        "Sibiu lies in southern Transylvania, between the Apuseni mountains to the north-west and the Făgăraș range to the south-east, with the city of Sibiu in the middle of it.",
+        "The Brukenthal Museum in the city, opened in 1817, is one of the oldest museums in Europe, and in 2007 the town was a European Capital of Culture.",
+        "Remember the Transylvanian town with the 1817 museum of European renown, lying between the two ranges."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sibiu_County",
+        "https://en.wikipedia.org/wiki/Brukenthal_National_Museum",
+        "https://en.wikipedia.org/wiki/Sibiu"
+      ],
+      "cameraBounds": [
+        [
+          23.438,
+          45.258
+        ],
+        [
+          25.153,
+          46.458
+        ]
+      ],
+      "transition": "Let's bring Sibiu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.438,
+              45.258
+            ],
+            [
+              25.153,
+              46.458
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hunedoara",
+      "location": [
+        22.9703,
+        45.7871
+      ],
+      "lines": [
+        "Hunedoara lies in the western mountains, above the Mureș and the Poiana Ruscă ridge, with Deva in the north and Vâlcea and Gorj to the south and east.",
+        "Corvin Castle, rebuilt by John Hunyadi in the fifteenth century, is one of the largest Gothic castles in Europe, and Sarmizegetusa Regia in the Orăștie mountains was the capital of the Dacians before the Romans came.",
+        "Remember the castle on the rock in the western mountains, above the old Dacian capital."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hunedoara_County",
+        "https://en.wikipedia.org/wiki/Corvin_Castle",
+        "https://en.wikipedia.org/wiki/Sarmizegetusa_Regia"
+      ],
+      "cameraBounds": [
+        [
+          22.17,
+          45.104
+        ],
+        [
+          23.77,
+          46.47
+        ]
+      ],
+      "transition": "Let's bring Hunedoara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.17,
+              45.104
+            ],
+            [
+              23.77,
+              46.47
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brașov",
+      "location": [
+        25.3752,
+        45.7766
+      ],
+      "lines": [
+        "Brașov sits on the edge of the Transylvanian plateau, where the Carpathian arc comes closest to itself, with the city of Brașov in the middle and Prahova and Dâmbovița to the south.",
+        "Bran Castle is sold to visitors as Dracula’s castle, though there is no evidence that Vlad the Impaler ever lived there, and the fortified church at Viscri is a UNESCO site with a house belonging to King Charles III beside it.",
+        "Remember the county of the castle sold to tourists, and the fortified church with the king’s house beside it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bra%C8%99ov_County",
+        "https://en.wikipedia.org/wiki/Bran_Castle",
+        "https://en.wikipedia.org/wiki/Viscri_fortified_church"
+      ],
+      "cameraBounds": [
+        [
+          24.469,
+          45.177
+        ],
+        [
+          26.282,
+          46.377
+        ]
+      ],
+      "transition": "Let's bring Brașov into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.469,
+              45.177
+            ],
+            [
+              26.282,
+              46.377
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vrancea",
+      "location": [
+        26.9803,
+        45.7747
+      ],
+      "lines": [
+        "Vrancea lies in the eastern Carpathians, where the Siret and Putna rivers run down to the Moldavian plain, with Focșani in the south and Galați and Brăila to the south-east.",
+        "Deep beneath its mountains lies the source of Romania’s strongest earthquakes, including the one of 1977, and at Mărășești in 1917 the Romanian army stopped the German advance.",
+        "Remember the county that trembles, where the earthquakes are born under the mountains and the army stopped the Germans."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vrancea_County",
+        "https://en.wikipedia.org/wiki/Foc%C8%99ani",
+        "https://en.wikipedia.org/wiki/Siret"
+      ],
+      "cameraBounds": [
+        [
+          26.18,
+          45.175
+        ],
+        [
+          27.78,
+          46.375
+        ]
+      ],
+      "transition": "Let's bring Vrancea into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.18,
+              45.175
+            ],
+            [
+              27.78,
+              46.375
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          20.53,
+          44.77
+        ],
+        [
+          28.93,
+          48.85
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "21 regions of Romania, one for each target of the map: Botoșani, Satu Mare, Maramureș, Suceava, Iași, Bistrița-Năsăud, Sălaj, Bihor, Neamț, Cluj, Harghita, Mureș, Vaslui, Bacău, Arad, Alba, Covasna, Sibiu, Hunedoara, Brașov and Vrancea.",
+    "Remember the shape of Romania from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

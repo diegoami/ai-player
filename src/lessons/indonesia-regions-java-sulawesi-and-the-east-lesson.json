@@ -1,0 +1,1170 @@
+{
+  "title": "Indonesia's provinces · Java, Sulawesi and the eastern islands · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "indonesia-regions",
+  "area": "Indonesia",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/indonesia-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      103.56,
+      -10.65
+    ],
+    [
+      138.82,
+      1.74
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Sulawesi Utara",
+      "location": [
+        123.5222,
+        0.7421
+      ],
+      "bounds": [
+        [
+          122.76,
+          0.656
+        ],
+        [
+          127.26,
+          4.156
+        ]
+      ]
+    },
+    {
+      "name": "Gorontalo",
+      "location": [
+        122.3301,
+        0.6697
+      ],
+      "bounds": [
+        [
+          120.868,
+          0.07
+        ],
+        [
+          123.792,
+          1.27
+        ]
+      ]
+    },
+    {
+      "name": "Maluku Utara",
+      "location": [
+        124.8347,
+        -1.8454
+      ],
+      "bounds": [
+        [
+          122.585,
+          -3.595
+        ],
+        [
+          127.085,
+          -0.095
+        ]
+      ]
+    },
+    {
+      "name": "Sulawesi Tengah",
+      "location": [
+        121.5476,
+        -0.9457
+      ],
+      "bounds": [
+        [
+          119.298,
+          -2.696
+        ],
+        [
+          123.798,
+          0.804
+        ]
+      ]
+    },
+    {
+      "name": "Sulawesi Barat",
+      "location": [
+        119.3154,
+        -2.1999
+      ],
+      "bounds": [
+        [
+          118.515,
+          -3.908
+        ],
+        [
+          120.115,
+          -0.492
+        ]
+      ]
+    },
+    {
+      "name": "Sulawesi Selatan",
+      "location": [
+        119.6233,
+        -5.6653
+      ],
+      "bounds": [
+        [
+          119.048,
+          -5.751
+        ],
+        [
+          122.092,
+          -2.251
+        ]
+      ]
+    },
+    {
+      "name": "Sulawesi Tenggara",
+      "location": [
+        122.0618,
+        -4.2775
+      ],
+      "bounds": [
+        [
+          120.572,
+          -6.026
+        ],
+        [
+          123.551,
+          -2.529
+        ]
+      ]
+    },
+    {
+      "name": "Lampung",
+      "location": [
+        104.7589,
+        -4.843
+      ],
+      "bounds": [
+        [
+          103.321,
+          -6.202
+        ],
+        [
+          106.197,
+          -3.484
+        ]
+      ]
+    },
+    {
+      "name": "Papua",
+      "location": [
+        137.6159,
+        -4.8798
+      ],
+      "bounds": [
+        [
+          135.366,
+          -6.63
+        ],
+        [
+          139.866,
+          -3.13
+        ]
+      ]
+    },
+    {
+      "name": "Maluku",
+      "location": [
+        126.8036,
+        -3.3923
+      ],
+      "bounds": [
+        [
+          124.554,
+          -5.142
+        ],
+        [
+          129.054,
+          -1.642
+        ]
+      ]
+    },
+    {
+      "name": "Jakarta Raya",
+      "location": [
+        106.8451,
+        -6.2202
+      ],
+      "bounds": [
+        [
+          106.045,
+          -6.82
+        ],
+        [
+          107.645,
+          -5.62
+        ]
+      ]
+    },
+    {
+      "name": "Banten",
+      "location": [
+        106.0369,
+        -6.4361
+      ],
+      "bounds": [
+        [
+          105.129,
+          -7.13
+        ],
+        [
+          106.944,
+          -5.742
+        ]
+      ]
+    },
+    {
+      "name": "Jawa Barat",
+      "location": [
+        107.6352,
+        -6.8664
+      ],
+      "bounds": [
+        [
+          106.06,
+          -8.057
+        ],
+        [
+          109.21,
+          -5.676
+        ]
+      ]
+    },
+    {
+      "name": "Jawa Tengah",
+      "location": [
+        110.1098,
+        -7.315
+      ],
+      "bounds": [
+        [
+          108.156,
+          -8.454
+        ],
+        [
+          112.063,
+          -6.176
+        ]
+      ]
+    },
+    {
+      "name": "Jawa Timur",
+      "location": [
+        111.4584,
+        -8.095
+      ],
+      "bounds": [
+        [
+          111.007,
+          -9.031
+        ],
+        [
+          115.507,
+          -6.478
+        ]
+      ]
+    },
+    {
+      "name": "Yogyakarta",
+      "location": [
+        110.4432,
+        -7.8849
+      ],
+      "bounds": [
+        [
+          109.643,
+          -8.485
+        ],
+        [
+          111.243,
+          -7.285
+        ]
+      ]
+    },
+    {
+      "name": "Bali",
+      "location": [
+        115.0811,
+        -8.3871
+      ],
+      "bounds": [
+        [
+          114.281,
+          -8.987
+        ],
+        [
+          115.881,
+          -7.787
+        ]
+      ]
+    },
+    {
+      "name": "Nusa Tenggara Barat",
+      "location": [
+        117.5161,
+        -8.5986
+      ],
+      "bounds": [
+        [
+          115.407,
+          -9.234
+        ],
+        [
+          119.625,
+          -7.963
+        ]
+      ]
+    },
+    {
+      "name": "Nusa Tenggara Timur",
+      "location": [
+        119.6328,
+        -9.6539
+      ],
+      "bounds": [
+        [
+          117.383,
+          -11.404
+        ],
+        [
+          121.883,
+          -7.904
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Indonesia's provinces, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 19 of the Indonesia regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Sulawesi Utara",
+      "location": [
+        123.5222,
+        0.7421
+      ],
+      "lines": [
+        "Sulawesi Utara occupies the northern arm of Sulawesi, the strangely shaped island in the middle of Indonesia, with its largest city, Manado, on the tip and Gorontalo to the south.",
+        "Its name probably comes from sula besi, meaning iron island, and its Minahasan people are largely Christian, which is why the cooking here is the spiciest in the country.",
+        "Remember the pointed northern arm of the strange island, Christian in the middle of Muslim Indonesia, and the diving wall that drops just offshore at Bunaken."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Sulawesi",
+        "https://en.wikipedia.org/wiki/Manado",
+        "https://en.wikipedia.org/wiki/Bunaken"
+      ],
+      "cameraBounds": [
+        [
+          122.76,
+          0.656
+        ],
+        [
+          127.26,
+          4.156
+        ]
+      ],
+      "transition": "Let's bring Sulawesi Utara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              122.76,
+              0.656
+            ],
+            [
+              127.26,
+              4.156
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gorontalo",
+      "location": [
+        122.3301,
+        0.6697
+      ],
+      "lines": [
+        "Gorontalo sits on the northern arm of Sulawesi just south of Sulawesi Utara, with its largest city, Gorontalo, on the north coast and Sulawesi Tengah to the south and Sulawesi Utara to the north.",
+        "It was split from North Sulawesi in 2000 and is one of Indonesia’s newest provinces, and although it is Muslim-majority it lies in a largely Christian neighbourhood of the island.",
+        "Remember the province split off in 2000, where fishermen still feed whale sharks by hand at Botubarani."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gorontalo",
+        "https://en.wikipedia.org/wiki/Gorontalo_(city)",
+        "https://en.wikipedia.org/wiki/Whale_shark"
+      ],
+      "cameraBounds": [
+        [
+          120.868,
+          0.07
+        ],
+        [
+          123.792,
+          1.27
+        ]
+      ],
+      "transition": "Let's bring Gorontalo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              120.868,
+              0.07
+            ],
+            [
+              123.792,
+              1.27
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maluku Utara",
+      "location": [
+        124.8347,
+        -1.8454
+      ],
+      "lines": [
+        "Maluku Utara is the northern group of the Moluccas, the small spice islands between Sulawesi and New Guinea, with its largest city, Ternate, on a volcano cone and no land neighbours.",
+        "Its name comes from Arabic for the island of the kings, and cloves and nutmeg grew here and nowhere else, which is what brought Europe sailing all the way to Asia.",
+        "Remember the original spice islands, two rival sultanates on neighbouring volcanoes, and the world clove supply that lay between them."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Moluccas",
+        "https://en.wikipedia.org/wiki/Ternate",
+        "https://en.wikipedia.org/wiki/Spice_Islands"
+      ],
+      "cameraBounds": [
+        [
+          122.585,
+          -3.595
+        ],
+        [
+          127.085,
+          -0.095
+        ]
+      ],
+      "transition": "Let's bring Maluku Utara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              122.585,
+              -3.595
+            ],
+            [
+              127.085,
+              -0.095
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sulawesi Tengah",
+      "location": [
+        121.5476,
+        -0.9457
+      ],
+      "lines": [
+        "Sulawesi Tengah holds the waist and lower half of the strange island of Sulawesi, with its largest city, Palu, on the west coast and Gorontalo, Sulawesi Barat, Sulawesi Selatan and Sulawesi Tenggara around it.",
+        "Its Bada valley holds hundreds of megalithic stone figures whose carvers and purpose are unknown, and Palu was hit in 2018 by an earthquake, a tsunami and soil liquefaction all at once.",
+        "Remember the narrow waist of the strange island, the stone figures nobody can explain, and a city that sank in 2018."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Central_Sulawesi",
+        "https://en.wikipedia.org/wiki/Palu",
+        "https://en.wikipedia.org/wiki/Bada_Valley"
+      ],
+      "cameraBounds": [
+        [
+          119.298,
+          -2.696
+        ],
+        [
+          123.798,
+          0.804
+        ]
+      ],
+      "transition": "Let's bring Sulawesi Tengah into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              119.298,
+              -2.696
+            ],
+            [
+              123.798,
+              0.804
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sulawesi Barat",
+      "location": [
+        119.3154,
+        -2.1999
+      ],
+      "lines": [
+        "Sulawesi Barat is the narrow southern arm of Sulawesi, with its largest city, Majene, on the west coast and Sulawesi Selatan and Sulawesi Tengah to the north and east.",
+        "It was split off from the south in 2004, and the Mandar people who live there build sandeq sailing boats with outriggers, among the fastest traditional sailing craft in the world.",
+        "Remember the slender southern arm with its outrigger sailers, one of the least visited provinces on the island."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Sulawesi",
+        "https://en.wikipedia.org/wiki/Mandar_people",
+        "https://en.wikipedia.org/wiki/Majene"
+      ],
+      "cameraBounds": [
+        [
+          118.515,
+          -3.908
+        ],
+        [
+          120.115,
+          -0.492
+        ]
+      ],
+      "transition": "Let's bring Sulawesi Barat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              118.515,
+              -3.908
+            ],
+            [
+              120.115,
+              -0.492
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sulawesi Selatan",
+      "location": [
+        119.6233,
+        -5.6653
+      ],
+      "lines": [
+        "Sulawesi Selatan covers the southern peninsula of Sulawesi, with its largest city, Makassar, on the south-west coast and Sulawesi Barat, Sulawesi Tengah and Sulawesi Tenggara around it.",
+        "Its Bugis were the great sailors of the archipelago, and their pinisi ships, still built by hand on the beach, are listed as a world heritage site.",
+        "Remember the great seamen of the south, and the wooden sailing ships still launched from the beach."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_Sulawesi",
+        "https://en.wikipedia.org/wiki/Pinisi",
+        "https://en.wikipedia.org/wiki/Toraja"
+      ],
+      "cameraBounds": [
+        [
+          119.048,
+          -5.751
+        ],
+        [
+          122.092,
+          -2.251
+        ]
+      ],
+      "transition": "Let's bring Sulawesi Selatan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              119.048,
+              -5.751
+            ],
+            [
+              122.092,
+              -2.251
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sulawesi Tenggara",
+      "location": [
+        122.0618,
+        -4.2775
+      ],
+      "lines": [
+        "Sulawesi Tenggara is the far south-eastern arm of Sulawesi, with its largest city, Kendari, on the coast and Sulawesi Selatan and Sulawesi Tengah to the west and north.",
+        "The Wakatobi islands off its shore sit in the middle of the Coral Triangle and are a national marine park, and its nickel is a large share of the world supply, which the electric car industry has made suddenly strategic.",
+        "Remember the south-eastern arm with its coral islands in the middle of the triangle, and the nickel that electric cars need."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Southeast_Sulawesi",
+        "https://en.wikipedia.org/wiki/Wakatobi_National_Park",
+        "https://en.wikipedia.org/wiki/Kendari"
+      ],
+      "cameraBounds": [
+        [
+          120.572,
+          -6.026
+        ],
+        [
+          123.551,
+          -2.529
+        ]
+      ],
+      "transition": "Let's bring Sulawesi Tenggara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              120.572,
+              -6.026
+            ],
+            [
+              123.551,
+              -2.529
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lampung",
+      "location": [
+        104.7589,
+        -4.843
+      ],
+      "lines": [
+        "Lampung is the southern tip of Sumatra, where the island narrows and faces the Sunda Strait, with its largest city, Bandar Lampung, on the bay and Bengkulu and Sumatera Selatan on its sides.",
+        "Krakatoa lies in the strait just off it, and the eruption of 1883 was heard 4,800 kilometres away and cooled the world’s temperatures for years afterwards.",
+        "Remember the southern tip of Sumatra with the volcano in the strait that was heard around the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lampung",
+        "https://en.wikipedia.org/wiki/Krakatoa",
+        "https://en.wikipedia.org/wiki/Bandar_Lampung"
+      ],
+      "cameraBounds": [
+        [
+          103.321,
+          -6.202
+        ],
+        [
+          106.197,
+          -3.484
+        ]
+      ],
+      "transition": "Let's bring Lampung into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              103.321,
+              -6.202
+            ],
+            [
+              106.197,
+              -3.484
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Papua",
+      "location": [
+        137.6159,
+        -4.8798
+      ],
+      "lines": [
+        "Papua is the eastern half of Indonesian New Guinea, on the Pacific side of the world, with its largest city, Jayapura, on the north coast and Papua Barat to the west.",
+        "Puncak Jaya here is the highest peak between the Himalaya and the Andes at 4,884 metres and still carries glaciers on the equator, though they are now nearly gone.",
+        "Remember the equatorial snow peak between the Himalaya and the Andes, and the valley of terraces found from the air in 1938."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Papua_(province)",
+        "https://en.wikipedia.org/wiki/Puncak_Jaya",
+        "https://en.wikipedia.org/wiki/Jayapura"
+      ],
+      "cameraBounds": [
+        [
+          135.366,
+          -6.63
+        ],
+        [
+          139.866,
+          -3.13
+        ]
+      ],
+      "transition": "Let's bring Papua into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              135.366,
+              -6.63
+            ],
+            [
+              139.866,
+              -3.13
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maluku",
+      "location": [
+        126.8036,
+        -3.3923
+      ],
+      "lines": [
+        "Maluku is the southern half of the Moluccas, the spice islands between Sulawesi and New Guinea, with its largest city, Ambon, on a harbour island and no land neighbours.",
+        "Banda was once the only source of nutmeg in the world, and the Dutch massacred most of its people in 1621 to control the trade, while England swapped its claim on Run for Manhattan in 1667.",
+        "Remember the nutmeg islands and the island of Run that bought New York."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maluku",
+        "https://en.wikipedia.org/wiki/Banda_Islands",
+        "https://en.wikipedia.org/wiki/Run_(island)"
+      ],
+      "cameraBounds": [
+        [
+          124.554,
+          -5.142
+        ],
+        [
+          129.054,
+          -1.642
+        ]
+      ],
+      "transition": "Let's bring Maluku into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              124.554,
+              -5.142
+            ],
+            [
+              129.054,
+              -1.642
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jakarta Raya",
+      "location": [
+        106.8451,
+        -6.2202
+      ],
+      "lines": [
+        "Jakarta Raya is the capital district on the north coast of Java, the most crowded island of the chain, with Jakarta itself on the shore and Banten and Jawa Barat around it.",
+        "Its name means complete victory, given in 1527 as Jayakarta, renamed Batavia by the Dutch and restored under the Japanese in 1942, and the city is now sinking up to 25 centimetres a year in the north.",
+        "Remember the sinking capital that is being moved to Borneo, and the name complete victory that came back in 1942."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jakarta",
+        "https://en.wikipedia.org/wiki/Batavia",
+        "https://en.wikipedia.org/wiki/Nusantara,_East_Kalimantan"
+      ],
+      "cameraBounds": [
+        [
+          106.045,
+          -6.82
+        ],
+        [
+          107.645,
+          -5.62
+        ]
+      ],
+      "transition": "Let's bring Jakarta Raya into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              106.045,
+              -6.82
+            ],
+            [
+              107.645,
+              -5.62
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Banten",
+      "location": [
+        106.0369,
+        -6.4361
+      ],
+      "lines": [
+        "Banten is the western end of Java, between the Sunda Strait and the Java Sea, with its largest city, Serang, inland and Jakarta Raya and Jawa Barat to the east.",
+        "It is named for the sultanate of Banten, a pepper port rich enough that the first English and Dutch fleets to reach the East Indies came here before anywhere else.",
+        "Remember the old pepper sultanate at the far west end of Java, and the Baduy people who live in its hills by choice."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Banten",
+        "https://en.wikipedia.org/wiki/Sultanate_of_Banten",
+        "https://en.wikipedia.org/wiki/Baduy"
+      ],
+      "cameraBounds": [
+        [
+          105.129,
+          -7.13
+        ],
+        [
+          106.944,
+          -5.742
+        ]
+      ],
+      "transition": "Let's bring Banten into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              105.129,
+              -7.13
+            ],
+            [
+              106.944,
+              -5.742
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jawa Barat",
+      "location": [
+        107.6352,
+        -6.8664
+      ],
+      "lines": [
+        "Jawa Barat covers the western half of Java, wrapping round Jakarta to the south and east, with its largest city, Bandung, in the volcanic highlands and Banten, Jakarta Raya and Jawa Tengah around it.",
+        "It is the most populous province in Indonesia, with about fifty million people, and its Sundanese are the country’s second-largest ethnic group, with their own language and a gamelan quite unlike the Javanese one.",
+        "Remember the crowded province of fifty million, whose people speak a different tongue and play a different gamelan."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Java",
+        "https://en.wikipedia.org/wiki/Bandung",
+        "https://en.wikipedia.org/wiki/Sundanese_people"
+      ],
+      "cameraBounds": [
+        [
+          106.06,
+          -8.057
+        ],
+        [
+          109.21,
+          -5.676
+        ]
+      ],
+      "transition": "Let's bring Jawa Barat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              106.06,
+              -8.057
+            ],
+            [
+              109.21,
+              -5.676
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jawa Tengah",
+      "location": [
+        110.1098,
+        -7.315
+      ],
+      "lines": [
+        "Jawa Tengah is the middle of Java, between Jakarta and the eastern provinces, with its largest city, Semarang, on the north coast and Jawa Barat, Jawa Timur and Yogyakarta around it.",
+        "Borobudur here is the largest Buddhist temple in the world, built around the year 800 and abandoned within 150 years, and nearby Prambanan is its Hindu counterpart.",
+        "Remember the two great temples facing each other, the Buddhist one built in 800 and its Hindu partner."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Central_Java",
+        "https://en.wikipedia.org/wiki/Borobudur",
+        "https://en.wikipedia.org/wiki/Prambanan"
+      ],
+      "cameraBounds": [
+        [
+          108.156,
+          -8.454
+        ],
+        [
+          112.063,
+          -6.176
+        ]
+      ],
+      "transition": "Let's bring Jawa Tengah into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              108.156,
+              -8.454
+            ],
+            [
+              112.063,
+              -6.176
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jawa Timur",
+      "location": [
+        111.4584,
+        -8.095
+      ],
+      "lines": [
+        "Jawa Timur is the eastern end of Java, with its largest city, Surabaya, on the north coast and Jawa Tengah to the west and Bali across the strait to the east.",
+        "Mount Bromo in it stands inside a sea of volcanic sand, and the Tenggerese people of the highlands throw offerings into its crater each year, while Surabaya marks the independence fighting of November 1945, kept as Heroes’ Day.",
+        "Remember the smoking sea of sand on the east of Java, and the city where the fighting of Heroes’ Day began."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/East_Java",
+        "https://en.wikipedia.org/wiki/Mount_Bromo",
+        "https://en.wikipedia.org/wiki/Surabaya"
+      ],
+      "cameraBounds": [
+        [
+          111.007,
+          -9.031
+        ],
+        [
+          115.507,
+          -6.478
+        ]
+      ],
+      "transition": "Let's bring Jawa Timur into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              111.007,
+              -9.031
+            ],
+            [
+              115.507,
+              -6.478
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yogyakarta",
+      "location": [
+        110.4432,
+        -7.8849
+      ],
+      "lines": [
+        "Yogyakarta is a small special region in the middle of Java, with its largest city, Yogyakarta, and Jawa Tengah surrounding it on three sides.",
+        "It is the only Indonesian region still ruled by its own monarchy, with a sultan who is governor by right rather than by election, and its name means a fit and prosperous Ayodhya.",
+        "Remember the one province still ruled by a sultan, and the way its name begins with the city of the Ramayana."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yogyakarta",
+        "https://en.wikipedia.org/wiki/Sultanate_of_Yogyakarta",
+        "https://en.wikipedia.org/wiki/Ramayana"
+      ],
+      "cameraBounds": [
+        [
+          109.643,
+          -8.485
+        ],
+        [
+          111.243,
+          -7.285
+        ]
+      ],
+      "transition": "Let's bring Yogyakarta into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              109.643,
+              -8.485
+            ],
+            [
+              111.243,
+              -7.285
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bali",
+      "location": [
+        115.0811,
+        -8.3871
+      ],
+      "lines": [
+        "Bali is an island of its own just east of Java, separated from Jawa Timur by a narrow strait, with its largest city, Denpasar, on the south coast.",
+        "It is the only Hindu-majority province in Indonesia, because Javanese nobles and priests fled here when Islam spread across Java in the 1500s, and its temple-run subak irrigation system is a world heritage site.",
+        "Remember the Hindu island next door to Java, with its water temples a thousand years old."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bali",
+        "https://en.wikipedia.org/wiki/Subak",
+        "https://en.wikipedia.org/wiki/Denpasar"
+      ],
+      "cameraBounds": [
+        [
+          114.281,
+          -8.987
+        ],
+        [
+          115.881,
+          -7.787
+        ]
+      ],
+      "transition": "Let's bring Bali into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              114.281,
+              -8.987
+            ],
+            [
+              115.881,
+              -7.787
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nusa Tenggara Barat",
+      "location": [
+        117.5161,
+        -8.5986
+      ],
+      "lines": [
+        "Nusa Tenggara Barat is the island of Lombok with Sumbawa beside it, east of Bali and south of Sulawesi, with its largest city, Mataram, on Lombok and no land neighbours.",
+        "Rinjani on Lombok is Indonesia’s second-highest volcano, with a crater lake and a cone growing inside it, and nearby Sumbawa produced the Tambora eruption of 1815, the largest in recorded history.",
+        "Remember the islands east of Bali with the crater lake, and the eruption that gave Europe a year without a summer."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Nusa_Tenggara",
+        "https://en.wikipedia.org/wiki/Mount_Rinjani",
+        "https://en.wikipedia.org/wiki/Mount_Tambora"
+      ],
+      "cameraBounds": [
+        [
+          115.407,
+          -9.234
+        ],
+        [
+          119.625,
+          -7.963
+        ]
+      ],
+      "transition": "Let's bring Nusa Tenggara Barat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              115.407,
+              -9.234
+            ],
+            [
+              119.625,
+              -7.963
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nusa Tenggara Timur",
+      "location": [
+        119.6328,
+        -9.6539
+      ],
+      "lines": [
+        "Nusa Tenggara Timur is the far eastern stretch of the Lesser Sunda islands, holding Flores and Sumba and its share of the island of Timor, with its largest city, Kupang, on the south coast and no land neighbours.",
+        "Komodo dragons live here and nowhere else, up to three metres long, and were only described by science in 1910, and the province is one of Indonesia’s few Christian-majority regions.",
+        "Remember the islands at the far east where the Komodo dragon still lives, and where the people are mostly Christian."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/East_Nusa_Tenggara",
+        "https://en.wikipedia.org/wiki/Komodo_dragon",
+        "https://en.wikipedia.org/wiki/Kupang"
+      ],
+      "cameraBounds": [
+        [
+          117.383,
+          -11.404
+        ],
+        [
+          121.883,
+          -7.904
+        ]
+      ],
+      "transition": "Let's bring Nusa Tenggara Timur into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              117.383,
+              -11.404
+            ],
+            [
+              121.883,
+              -7.904
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          103.56,
+          -10.65
+        ],
+        [
+          138.82,
+          1.74
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "19 regions of Indonesia, one for each target of the map: Sulawesi Utara, Gorontalo, Maluku Utara, Sulawesi Tengah, Sulawesi Barat, Sulawesi Selatan, Sulawesi Tenggara, Lampung, Papua, Maluku, Jakarta Raya, Banten, Jawa Barat, Jawa Tengah, Jawa Timur, Yogyakarta, Bali, Nusa Tenggara Barat and Nusa Tenggara Timur.",
+    "Remember the shape of Indonesia from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

@@ -1,0 +1,1288 @@
+{
+  "title": "Romania's counties · The south and the east · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "romania-counties",
+  "area": "Romania",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/romania-counties",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      20.16,
+      43.09
+    ],
+    [
+      30.03,
+      46.76
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Galați",
+      "location": [
+        27.7371,
+        45.7601
+      ],
+      "bounds": [
+        [
+          26.937,
+          45.16
+        ],
+        [
+          28.537,
+          46.36
+        ]
+      ]
+    },
+    {
+      "name": "Timiș",
+      "location": [
+        21.3644,
+        45.6606
+      ],
+      "bounds": [
+        [
+          19.962,
+          45.026
+        ],
+        [
+          22.766,
+          46.295
+        ]
+      ]
+    },
+    {
+      "name": "Buzău",
+      "location": [
+        26.7347,
+        45.3027
+      ],
+      "bounds": [
+        [
+          25.874,
+          44.677
+        ],
+        [
+          27.596,
+          45.928
+        ]
+      ]
+    },
+    {
+      "name": "Brăila",
+      "location": [
+        27.649,
+        45.1343
+      ],
+      "bounds": [
+        [
+          26.849,
+          44.534
+        ],
+        [
+          28.449,
+          45.734
+        ]
+      ]
+    },
+    {
+      "name": "Caraș-Severin",
+      "location": [
+        22.0377,
+        45.1296
+      ],
+      "bounds": [
+        [
+          21.201,
+          44.463
+        ],
+        [
+          22.874,
+          45.796
+        ]
+      ]
+    },
+    {
+      "name": "Prahova",
+      "location": [
+        26.0168,
+        45.1242
+      ],
+      "bounds": [
+        [
+          25.217,
+          44.524
+        ],
+        [
+          26.817,
+          45.724
+        ]
+      ]
+    },
+    {
+      "name": "Tulcea",
+      "location": [
+        28.8316,
+        45.065
+      ],
+      "bounds": [
+        [
+          27.775,
+          44.465
+        ],
+        [
+          29.888,
+          45.665
+        ]
+      ]
+    },
+    {
+      "name": "Vâlcea",
+      "location": [
+        24.0608,
+        45.0418
+      ],
+      "bounds": [
+        [
+          23.261,
+          44.39
+        ],
+        [
+          24.861,
+          45.693
+        ]
+      ]
+    },
+    {
+      "name": "Argeș",
+      "location": [
+        24.8858,
+        44.9943
+      ],
+      "bounds": [
+        [
+          24.086,
+          44.239
+        ],
+        [
+          25.686,
+          45.75
+        ]
+      ]
+    },
+    {
+      "name": "Gorj",
+      "location": [
+        23.208,
+        44.9515
+      ],
+      "bounds": [
+        [
+          22.408,
+          44.351
+        ],
+        [
+          24.008,
+          45.551
+        ]
+      ]
+    },
+    {
+      "name": "Dâmbovița",
+      "location": [
+        25.6015,
+        44.9448
+      ],
+      "bounds": [
+        [
+          24.802,
+          44.31
+        ],
+        [
+          26.402,
+          45.579
+        ]
+      ]
+    },
+    {
+      "name": "Ialomița",
+      "location": [
+        27.1893,
+        44.6099
+      ],
+      "bounds": [
+        [
+          26.04,
+          44.01
+        ],
+        [
+          28.339,
+          45.21
+        ]
+      ]
+    },
+    {
+      "name": "Mehedinți",
+      "location": [
+        22.7618,
+        44.5964
+      ],
+      "bounds": [
+        [
+          21.852,
+          43.976
+        ],
+        [
+          23.671,
+          45.216
+        ]
+      ]
+    },
+    {
+      "name": "Ilfov",
+      "location": [
+        26.1717,
+        44.5115
+      ],
+      "bounds": [
+        [
+          25.372,
+          43.911
+        ],
+        [
+          26.972,
+          45.111
+        ]
+      ]
+    },
+    {
+      "name": "Bucharest",
+      "location": [
+        26.0857,
+        44.473
+      ],
+      "bounds": [
+        [
+          25.286,
+          43.873
+        ],
+        [
+          26.886,
+          45.073
+        ]
+      ]
+    },
+    {
+      "name": "Olt",
+      "location": [
+        24.3785,
+        44.3215
+      ],
+      "bounds": [
+        [
+          23.578,
+          43.613
+        ],
+        [
+          25.178,
+          45.03
+        ]
+      ]
+    },
+    {
+      "name": "Călărași",
+      "location": [
+        27.1514,
+        44.2951
+      ],
+      "bounds": [
+        [
+          26.062,
+          43.695
+        ],
+        [
+          28.241,
+          44.895
+        ]
+      ]
+    },
+    {
+      "name": "Constanța",
+      "location": [
+        28.0483,
+        44.2561
+      ],
+      "bounds": [
+        [
+          27.054,
+          43.605
+        ],
+        [
+          29.043,
+          44.907
+        ]
+      ]
+    },
+    {
+      "name": "Dolj",
+      "location": [
+        23.5612,
+        44.2386
+      ],
+      "bounds": [
+        [
+          22.673,
+          43.634
+        ],
+        [
+          24.45,
+          44.843
+        ]
+      ]
+    },
+    {
+      "name": "Giurgiu",
+      "location": [
+        25.9766,
+        44.1424
+      ],
+      "bounds": [
+        [
+          25.177,
+          43.542
+        ],
+        [
+          26.777,
+          44.742
+        ]
+      ]
+    },
+    {
+      "name": "Teleorman",
+      "location": [
+        25.1822,
+        44.0911
+      ],
+      "bounds": [
+        [
+          24.382,
+          43.491
+        ],
+        [
+          25.982,
+          44.691
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Romania's counties, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 21 of the Romania regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Galați",
+      "location": [
+        27.7371,
+        45.7601
+      ],
+      "lines": [
+        "Galați stands on the Danube in the east of the country, at the bend where the river turns north towards the delta, with Brăila to the south and Tulcea beyond the water.",
+        "From 1856 the European Commission of the Danube, which regulated navigation on the lower river, had its headquarters in the city, whose old German name was Galatz.",
+        "Remember the Danube port where Europe’s own river commission sat, at the bend before the delta."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gala%C8%9Bi_County",
+        "https://en.wikipedia.org/wiki/Gala%C8%9Bi",
+        "https://en.wikipedia.org/wiki/Danube"
+      ],
+      "cameraBounds": [
+        [
+          26.937,
+          45.16
+        ],
+        [
+          28.537,
+          46.36
+        ]
+      ],
+      "transition": "Let's bring Galați into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.937,
+              45.16
+            ],
+            [
+              28.537,
+              46.36
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Timiș",
+      "location": [
+        21.3644,
+        45.6606
+      ],
+      "lines": [
+        "Timiș fills the south-west of Romania, on the plain of the Banat west of the Carpathians, with Timișoara in the north and the Danube running along its southern edge.",
+        "Johnny Weissmuller, the Olympic swimmer who played Tarzan on film, was born in 1904 at Freidorf, now a part of Timișoara, and Herta Müller, who won the Nobel Prize for Literature in 2009, was born at Nițchidorf in 1953.",
+        "Remember the western plain county of the film Tarzan and the Nobel laureate, on the Banat where the Danube runs along the south."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Timi%C8%99_County",
+        "https://en.wikipedia.org/wiki/Timi%C8%99oara",
+        "https://en.wikipedia.org/wiki/Banat"
+      ],
+      "cameraBounds": [
+        [
+          19.962,
+          45.026
+        ],
+        [
+          22.766,
+          46.295
+        ]
+      ],
+      "transition": "Let's bring Timiș into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19.962,
+              45.026
+            ],
+            [
+              22.766,
+              46.295
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Buzău",
+      "location": [
+        26.7347,
+        45.3027
+      ],
+      "lines": [
+        "Buzău lies in the east of the country, on the river of the same name where the Carpathians come down to the Wallachian plain, with Prahova and Brașov to the west and Brăila to the east.",
+        "At Berca small mud volcanoes bubble out of a bare grey landscape, and amber is found around Colți, where a museum keeps it.",
+        "Remember the county where mud volcanoes bubble out of grey clay, and the amber waiting in the hills."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Buz%C4%83u_County",
+        "https://en.wikipedia.org/wiki/Muddy_Volcanoes,_Buz%C4%83u",
+        "https://en.wikipedia.org/wiki/Buz%C4%83u"
+      ],
+      "cameraBounds": [
+        [
+          25.874,
+          44.677
+        ],
+        [
+          27.596,
+          45.928
+        ]
+      ],
+      "transition": "Let's bring Buzău into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.874,
+              44.677
+            ],
+            [
+              27.596,
+              45.928
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brăila",
+      "location": [
+        27.649,
+        45.1343
+      ],
+      "lines": [
+        "Brăila lies on the Danube in the south-east, on the flat flood plain where the river runs north towards the delta, with Buzău to the west and Constanța and Tulcea to the east.",
+        "The Small Island of Brăila preserves Danube floodplain wetlands and is recognised as a Ramsar site, and Măxineni Monastery was founded by Matei Basarab in the 1630s as a carefully placed religious foundation.",
+        "Remember the flat Danube island that is a wetland of world importance, upstream of the delta."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Br%C4%83ila_County",
+        "https://en.wikipedia.org/wiki/Small_Island_of_Br%C4%83ila",
+        "https://en.wikipedia.org/wiki/Br%C4%83ila"
+      ],
+      "cameraBounds": [
+        [
+          26.849,
+          44.534
+        ],
+        [
+          28.449,
+          45.734
+        ]
+      ],
+      "transition": "Let's bring Brăila into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.849,
+              44.534
+            ],
+            [
+              28.449,
+              45.734
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caraș-Severin",
+      "location": [
+        22.0377,
+        45.1296
+      ],
+      "lines": [
+        "Caraș-Severin fills the south-west corner of Romania, where the Danube makes its great bend through the mountains before running east along the southern border, with Reșița in the north and Gorj and Mehedinți to the east.",
+        "The ironworks of Reșița date from 1771, and in 1872 built the first steam locomotive made in what is now Romania; the spa of Băile Herculane has been used since Roman times and is named for Hercules.",
+        "Remember the corner where the Danube bends through the mountains, with the first Romanian steam locomotive and the Roman spa."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cara%C8%99-Severin_County",
+        "https://en.wikipedia.org/wiki/Re%C8%99i%C8%9Ba",
+        "https://en.wikipedia.org/wiki/B%C4%83ile_Herculane"
+      ],
+      "cameraBounds": [
+        [
+          21.201,
+          44.463
+        ],
+        [
+          22.874,
+          45.796
+        ]
+      ],
+      "transition": "Let's bring Caraș-Severin into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.201,
+              44.463
+            ],
+            [
+              22.874,
+              45.796
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prahova",
+      "location": [
+        26.0168,
+        45.1242
+      ],
+      "lines": [
+        "Prahova lies north of Bucharest, on the outer slope of the Carpathians along the river of the same name, with Ploiești in the south and Buzău and Dâmbovița to the east and west.",
+        "Peleș Castle at Sinaia, built for King Carol I from 1873, was one of the first castles in Europe with electric light, and Sinaia took its name from a monastery founded in 1695 by a nobleman who had made the pilgrimage to Mount Sinai.",
+        "Remember the county of the royal castle with electric light, on the slopes just north of the capital."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prahova_County",
+        "https://en.wikipedia.org/wiki/Pele%C8%99_Castle",
+        "https://en.wikipedia.org/wiki/Sinaia"
+      ],
+      "cameraBounds": [
+        [
+          25.217,
+          44.524
+        ],
+        [
+          26.817,
+          45.724
+        ]
+      ],
+      "transition": "Let's bring Prahova into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.217,
+              44.524
+            ],
+            [
+              26.817,
+              45.724
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tulcea",
+      "location": [
+        28.8316,
+        45.065
+      ],
+      "lines": [
+        "Tulcea reaches the Black Sea in the far east of Romania, with the town of Tulcea at the head of the Danube Delta and the reed beds spreading out to the sea, Galați to the west and Constanța to the south.",
+        "Most of the Danube Delta, one of the largest reed beds in the world, lies here and is a UNESCO site, and the Lipovans, Russian Old Believers who fled persecution in the eighteenth century, still fish in it.",
+        "Remember the delta county, where the reeds run out to the Black Sea and the Russian Old Believers still fish."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tulcea_County",
+        "https://en.wikipedia.org/wiki/Danube_Delta",
+        "https://en.wikipedia.org/wiki/Tulcea"
+      ],
+      "cameraBounds": [
+        [
+          27.775,
+          44.465
+        ],
+        [
+          29.888,
+          45.665
+        ]
+      ],
+      "transition": "Let's bring Tulcea into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              27.775,
+              44.465
+            ],
+            [
+              29.888,
+              45.665
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vâlcea",
+      "location": [
+        24.0608,
+        45.0418
+      ],
+      "lines": [
+        "Vâlcea lies in the south of Transylvania, where the Olt cuts down through the mountains to the Wallachian plain, with Râmnicu Vâlcea in the north and Dolj and Gorj to the south.",
+        "Horezu Monastery is a UNESCO site and the pottery of Horezu is on UNESCO’s list of intangible heritage, and Mircea the Elder, prince of Wallachia, was buried in 1418 at Cozia Monastery, which he had founded.",
+        "Remember the county of the painted monastery and the handmade pots, on the Olt where it drops out of the mountains."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/V%C3%A2lcea_County",
+        "https://en.wikipedia.org/wiki/Horezu",
+        "https://en.wikipedia.org/wiki/Cozia_Monastery"
+      ],
+      "cameraBounds": [
+        [
+          23.261,
+          44.39
+        ],
+        [
+          24.861,
+          45.693
+        ]
+      ],
+      "transition": "Let's bring Vâlcea into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.261,
+              44.39
+            ],
+            [
+              24.861,
+              45.693
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Argeș",
+      "location": [
+        24.8858,
+        44.9943
+      ],
+      "lines": [
+        "Argeș runs down the centre of the country from the Carpathian ridge to the Danube plain, with the river of the same name crossing it, Pitești on the plain in the south and Vâlcea and Sibiu to the west.",
+        "By legend Master Manole, builder of the cathedral at Curtea de Argeș, walled his own wife into it so that it would stand, and at Poienari a fortress of Vlad the Impaler is reached by nearly one thousand five hundred steps.",
+        "Remember the county where a builder walled in his wife so the cathedral would stand, on the road over the Carpathians."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arge%C8%99_County",
+        "https://en.wikipedia.org/wiki/Curtea_de_Arge%C8%99_Cathedral",
+        "https://en.wikipedia.org/wiki/Pite%C8%99ti"
+      ],
+      "cameraBounds": [
+        [
+          24.086,
+          44.239
+        ],
+        [
+          25.686,
+          45.75
+        ]
+      ],
+      "transition": "Let's bring Argeș into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.086,
+              44.239
+            ],
+            [
+              25.686,
+              45.75
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gorj",
+      "location": [
+        23.208,
+        44.9515
+      ],
+      "lines": [
+        "Gorj lies in the south-west, on the Jiu river in the hills where it gathers itself before dropping to the Danube plain, with Târgu Jiu in the middle and Dolj to the south.",
+        "Brâncuși’s Endless Column, Table of Silence and Gate of the Kiss, finished in 1938, stand in the town of Târgu Jiu, and Tudor Vladimirescu, who led the rising of 1821 in Wallachia, was born in the village of Vladimir.",
+        "Remember the county of the endless white column, on the Jiu above the plain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gorj_County",
+        "https://en.wikipedia.org/wiki/T%C3%A2rgu_Jiu",
+        "https://en.wikipedia.org/wiki/Sculptural_Ensemble_of_Constantin_Br%C3%A2ncu%C8%99i_at_T%C3%A2rgu_Jiu"
+      ],
+      "cameraBounds": [
+        [
+          22.408,
+          44.351
+        ],
+        [
+          24.008,
+          45.551
+        ]
+      ],
+      "transition": "Let's bring Gorj into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.408,
+              44.351
+            ],
+            [
+              24.008,
+              45.551
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dâmbovița",
+      "location": [
+        25.6015,
+        44.9448
+      ],
+      "lines": [
+        "Dâmbovița lies between the Carpathians and the Wallachian plain, north of the Danube, with Târgoviște in the middle and Teleorman to the south and Prahova to the north-east.",
+        "Târgoviște was the capital of Wallachia for much of the fifteenth to seventeenth centuries, and Nicolae and Elena Ceaușescu were tried and shot in the town on 25 December 1989.",
+        "Remember the county of the old Wallachian capital, where the Ceaușescus were tried on Christmas Day 1989."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/D%C3%A2mbovi%C8%9Ba_County",
+        "https://en.wikipedia.org/wiki/T%C3%A2rgovi%C8%99te",
+        "https://en.wikipedia.org/wiki/Nicolae_Ceau%C8%99escu"
+      ],
+      "cameraBounds": [
+        [
+          24.802,
+          44.31
+        ],
+        [
+          26.402,
+          45.579
+        ]
+      ],
+      "transition": "Let's bring Dâmbovița into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.802,
+              44.31
+            ],
+            [
+              26.402,
+              45.579
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ialomița",
+      "location": [
+        27.1893,
+        44.6099
+      ],
+      "lines": [
+        "Ialomița lies in the south-east on the flat plain, along the river of the same name between the Carpathians to the west and the Danube to the east, with Slobozia in the middle.",
+        "In 1951 the communist regime deported tens of thousands of people from Romania’s western borderlands to the Bărăgan plain of this county, and the museum at Slobozia keeps the history of farming and rural life.",
+        "Remember the flat county that received the deportees, where new villages were planted from the west of the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ialomi%C8%9Ba_County",
+        "https://en.wikipedia.org/wiki/B%C4%83r%C4%83gan",
+        "https://en.wikipedia.org/wiki/Slobozia"
+      ],
+      "cameraBounds": [
+        [
+          26.04,
+          44.01
+        ],
+        [
+          28.339,
+          45.21
+        ]
+      ],
+      "transition": "Let's bring Ialomița into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.04,
+              44.01
+            ],
+            [
+              28.339,
+              45.21
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mehedinți",
+      "location": [
+        22.7618,
+        44.5964
+      ],
+      "lines": [
+        "Mehedinți lies in the south-west, where the Danube cuts its gorge through the mountains at the Iron Gates, with Drobeta-Turnu Severin at the northern end of the gorge and Dolj and Gorj to the east.",
+        "The Iron Gates dam, finished in 1972, drowned the island of Ada Kaleh and its Turkish town, and between 1994 and 2004 the face of Decebalus, the last Dacian king, was carved in the rock above the river.",
+        "Remember the gorge where the Danube squeezes through the mountains and a Dacian king stares down from the cliff."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mehedin%C8%9Bi_County",
+        "https://en.wikipedia.org/wiki/Ada_Kaleh",
+        "https://en.wikipedia.org/wiki/Drobeta-Turnu_Severin"
+      ],
+      "cameraBounds": [
+        [
+          21.852,
+          43.976
+        ],
+        [
+          23.671,
+          45.216
+        ]
+      ],
+      "transition": "Let's bring Mehedinți into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.852,
+              43.976
+            ],
+            [
+              23.671,
+              45.216
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ilfov",
+      "location": [
+        26.1717,
+        44.5115
+      ],
+      "lines": [
+        "Ilfov is the small county that wraps around Bucharest, the capital standing in the south of Romania just north of the Danube, with Prahova to the north and Călărași and Giurgiu to the south.",
+        "Mogoșoaia Palace, built in 1702 for Prince Constantin Brâncoveanu, is a model of the style named after him, and by tradition Vlad the Impaler is buried in the monastery on the island of Snagov.",
+        "Remember the ring county around the capital, with the palace style named after its prince and the island monastery on the lake."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ilfov_County",
+        "https://en.wikipedia.org/wiki/Mogo%C8%99oaia_Palace",
+        "https://en.wikipedia.org/wiki/Snagov_Monastery"
+      ],
+      "cameraBounds": [
+        [
+          25.372,
+          43.911
+        ],
+        [
+          26.972,
+          45.111
+        ]
+      ],
+      "transition": "Let's bring Ilfov into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.372,
+              43.911
+            ],
+            [
+              26.972,
+              45.111
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bucharest",
+      "location": [
+        26.0857,
+        44.473
+      ],
+      "lines": [
+        "Bucharest stands in the south of Romania, north of the Danube, and is the one target on this map that is a city rather than a county, ringed on every side by Ilfov.",
+        "The capital is a municipality with the rank of a county, divided into six numbered sectors, and the Palace of the Parliament, begun under Ceaușescu in 1984, is one of the largest buildings in the world.",
+        "Remember the capital in the south, a city with the rank of a county, built around the largest parliament in the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bucharest",
+        "https://en.wikipedia.org/wiki/Palace_of_the_Parliament",
+        "https://en.wikipedia.org/wiki/Sectors_of_Bucharest"
+      ],
+      "cameraBounds": [
+        [
+          25.286,
+          43.873
+        ],
+        [
+          26.886,
+          45.073
+        ]
+      ],
+      "transition": "Let's bring Bucharest into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.286,
+              43.873
+            ],
+            [
+              26.886,
+              45.073
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Olt",
+      "location": [
+        24.3785,
+        44.3215
+      ],
+      "lines": [
+        "Olt runs north and south along the Wallachian plain, from the Carpathian foothills down to the Danube, with Slatina in the middle and Argeș and Teleorman to the east.",
+        "The county is named for the Olt river, known in antiquity as Alutus, and the Roman town of Romula, the first Roman city founded north of the Danube, lies beneath the modern village of Reșca.",
+        "Remember the long plain county where the first Roman town north of the Danube lies buried under a village."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Olt_County",
+        "https://en.wikipedia.org/wiki/Romula",
+        "https://en.wikipedia.org/wiki/Slatina"
+      ],
+      "cameraBounds": [
+        [
+          23.578,
+          43.613
+        ],
+        [
+          25.178,
+          45.03
+        ]
+      ],
+      "transition": "Let's bring Olt into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.578,
+              43.613
+            ],
+            [
+              25.178,
+              45.03
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Călărași",
+      "location": [
+        27.1514,
+        44.2951
+      ],
+      "lines": [
+        "Călărași lies on the plain in the south-east, north of the Danube, with Ilfov to the west and Constanța and the Black Sea to the east, and the town of Călărași in the middle of it.",
+        "The county takes its name from the town, which was named after the mounted couriers once stationed there, and the Copper Age Gumelnița culture is named after a settlement mound near Oltenița.",
+        "Remember the county of the couriers on horseback, with a Copper Age mound beside the Danube."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/C%C4%83l%C4%83ra%C8%99i_County",
+        "https://en.wikipedia.org/wiki/C%C4%83l%C4%83ra%C8%99i",
+        "https://en.wikipedia.org/wiki/Gumelni%C8%9Ba_culture"
+      ],
+      "cameraBounds": [
+        [
+          26.062,
+          43.695
+        ],
+        [
+          28.241,
+          44.895
+        ]
+      ],
+      "transition": "Let's bring Călărași into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.062,
+              43.695
+            ],
+            [
+              28.241,
+              44.895
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Constanța",
+      "location": [
+        28.0483,
+        44.2561
+      ],
+      "lines": [
+        "Constanța reaches the Black Sea in the south-east, holding most of Romania’s share of the Dobruja plain between the Danube and the coast, with the city of Constanța in the north and Tulcea to the north-east.",
+        "Histria, founded by Greek settlers around 630 BC, is the oldest town in Romania, and the Tropaeum Traiani at Adamclisi celebrates Trajan’s victory over the Dacians in the year 109.",
+        "Remember the Black Sea county, with the oldest town in Romania and the Roman trophy that marks Trajan’s victory."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Constan%C8%9Ba_County",
+        "https://en.wikipedia.org/wiki/Histria_(ancient_city)",
+        "https://en.wikipedia.org/wiki/Tropaeum_Traiani"
+      ],
+      "cameraBounds": [
+        [
+          27.054,
+          43.605
+        ],
+        [
+          29.043,
+          44.907
+        ]
+      ],
+      "transition": "Let's bring Constanța into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              27.054,
+              43.605
+            ],
+            [
+              29.043,
+              44.907
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dolj",
+      "location": [
+        23.5612,
+        44.2386
+      ],
+      "lines": [
+        "Dolj fills the south-west on the lower Jiu, from the Carpathian hills down to the Danube, with Craiova in the middle and Olt and Gorj to the east and north.",
+        "Craiova was for centuries the seat of the Great Ban, who governed Oltenia for the princes of Wallachia, and the art museum in the Jean Mihail Palace there displays sculptures by Constantin Brâncuși.",
+        "Remember the lower Jiu, and the capital of the ban who ruled Oltenia from Craiova."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dolj_County",
+        "https://en.wikipedia.org/wiki/Craiova",
+        "https://en.wikipedia.org/wiki/Banat_of_Craiova"
+      ],
+      "cameraBounds": [
+        [
+          22.673,
+          43.634
+        ],
+        [
+          24.45,
+          44.843
+        ]
+      ],
+      "transition": "Let's bring Dolj into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.673,
+              43.634
+            ],
+            [
+              24.45,
+              44.843
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Giurgiu",
+      "location": [
+        25.9766,
+        44.1424
+      ],
+      "lines": [
+        "Giurgiu lies on the Danube in the south of the country, facing Bulgaria across the river, with Ilfov and the capital to the west and Dâmbovița to the north.",
+        "The first railway built within the Romanian state’s borders linked Bucharest with Giurgiu in 1869, and Comana Monastery was founded by Vlad the Impaler in 1461 on an island surrounded by marshes.",
+        "Remember the Danube county facing Bulgaria, where the first Romanian railway ran and a monastery stands on a marshy island."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Giurgiu_County",
+        "https://en.wikipedia.org/wiki/Giurgiu",
+        "https://en.wikipedia.org/wiki/Comana_Monastery"
+      ],
+      "cameraBounds": [
+        [
+          25.177,
+          43.542
+        ],
+        [
+          26.777,
+          44.742
+        ]
+      ],
+      "transition": "Let's bring Giurgiu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.177,
+              43.542
+            ],
+            [
+              26.777,
+              44.742
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teleorman",
+      "location": [
+        25.1822,
+        44.0911
+      ],
+      "lines": [
+        "Teleorman lies in the far south-west on the Wallachian plain, north of the Danube, with Alexandria in the middle and Olt to the west and Dâmbovița and Giurgiu to the east.",
+        "The name comes from the Turkic words deli orman, mad forest, for the dense woods that once covered the county, and its county town Alexandria was founded in 1834 and named for Prince Alexandru Ghica.",
+        "Remember the mad forest of the south-west, the dense woods that gave the county its name."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Teleorman_County",
+        "https://en.wikipedia.org/wiki/Alexandria,_Romania",
+        "https://en.wikipedia.org/wiki/Olt_(river)"
+      ],
+      "cameraBounds": [
+        [
+          24.382,
+          43.491
+        ],
+        [
+          25.982,
+          44.691
+        ]
+      ],
+      "transition": "Let's bring Teleorman into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.382,
+              43.491
+            ],
+            [
+              25.982,
+              44.691
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          20.16,
+          43.09
+        ],
+        [
+          30.03,
+          46.76
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "21 regions of Romania, one for each target of the map: Galați, Timiș, Buzău, Brăila, Caraș-Severin, Prahova, Tulcea, Vâlcea, Argeș, Gorj, Dâmbovița, Ialomița, Mehedinți, Ilfov, Bucharest, Olt, Călărași, Constanța, Dolj, Giurgiu and Teleorman.",
+    "Remember the shape of Romania from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

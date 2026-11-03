@@ -1773,6 +1773,305 @@
           "sha256": "4d00abfc524161edf0b3412a3105f5631484f394b0d89670e605900d1fd08776"
         }
       ]
+    },
+    {
+      "series": "brazil-regions",
+      "episode": 1,
+      "id": "brazil-regions-north-and-northeast",
+      "ledger": "src/lessons/brazil-regions-coverage.json",
+      "master": "rendered/brazil-regions-20261103/01-north-and-northeast/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "S2oYPMXLQz0",
+      "files": [
+        {
+          "path": "subtitles/brazil-regions/01-brazil-regions-north-and-northeast/subtitles.en.srt",
+          "source": "rendered/brazil-regions-20261103/01-north-and-northeast/geoclick/subtitles.en.srt",
+          "bytes": 9406,
+          "sha256": "88ac0ca23185b1fb677fdf8ed2717f1e1fa77f71bdd2297837647716cd87e9f6"
+        },
+        {
+          "path": "subtitles/brazil-regions/01-brazil-regions-north-and-northeast/subtitles.en.vtt",
+          "source": "rendered/brazil-regions-20261103/01-north-and-northeast/geoclick/subtitles.en.vtt",
+          "bytes": 12414,
+          "sha256": "e02f1c1716ef72156693efd3c8e21d43ab92b2caba206606b203780fe796aba0"
+        }
+      ]
+    },
+    {
+      "series": "brazil-regions",
+      "episode": 2,
+      "id": "brazil-regions-centre-and-south",
+      "ledger": "src/lessons/brazil-regions-coverage.json",
+      "master": "rendered/brazil-regions-20261103/02-centre-and-south/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "7-cbif09wPk",
+      "files": [
+        {
+          "path": "subtitles/brazil-regions/02-brazil-regions-centre-and-south/subtitles.en.srt",
+          "source": "rendered/brazil-regions-20261103/02-centre-and-south/geoclick/subtitles.en.srt",
+          "bytes": 8832,
+          "sha256": "b0e610332097bfab3e3bb3902b41f1e644d5b3031e05e924068ee30c9fe7b589"
+        },
+        {
+          "path": "subtitles/brazil-regions/02-brazil-regions-centre-and-south/subtitles.en.vtt",
+          "source": "rendered/brazil-regions-20261103/02-centre-and-south/geoclick/subtitles.en.vtt",
+          "bytes": 11640,
+          "sha256": "a531835c64417f209ef215df01b1d7979b4876806422784d6da804ebee915dc1"
+        }
+      ]
+    },
+    {
+      "series": "mexico-regions",
+      "episode": 1,
+      "id": "mexico-regions-north-and-west",
+      "ledger": "src/lessons/mexico-regions-coverage.json",
+      "master": "rendered/mexico-regions-20261103/01-north-and-west/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "-_YFonal76o",
+      "files": [
+        {
+          "path": "subtitles/mexico-regions/01-mexico-regions-north-and-west/subtitles.en.srt",
+          "source": "rendered/mexico-regions-20261103/01-north-and-west/geoclick/subtitles.en.srt",
+          "bytes": 10979,
+          "sha256": "6e60e314d2e9add8e392dd9b0e5d906dd66e20d9b9837e0963796cfcdd5533da"
+        },
+        {
+          "path": "subtitles/mexico-regions/01-mexico-regions-north-and-west/subtitles.en.vtt",
+          "source": "rendered/mexico-regions-20261103/01-north-and-west/geoclick/subtitles.en.vtt",
+          "bytes": 14387,
+          "sha256": "bc3f4c8c654cde1a7268abbbf5192a9b3e03cddbc0ff646385594cb7fde764a7"
+        }
+      ]
+    },
+    {
+      "series": "mexico-regions",
+      "episode": 2,
+      "id": "mexico-regions-centre-and-south",
+      "ledger": "src/lessons/mexico-regions-coverage.json",
+      "master": "rendered/mexico-regions-20261103/02-centre-and-south/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "gSXzTJizZmw",
+      "files": [
+        {
+          "path": "subtitles/mexico-regions/02-mexico-regions-centre-and-south/subtitles.en.srt",
+          "source": "rendered/mexico-regions-20261103/02-centre-and-south/geoclick/subtitles.en.srt",
+          "bytes": 10945,
+          "sha256": "d30c56dbc6e1c0db013049a76a045292abfb4b49e49f51059cc944d3d49d6be4"
+        },
+        {
+          "path": "subtitles/mexico-regions/02-mexico-regions-centre-and-south/subtitles.en.vtt",
+          "source": "rendered/mexico-regions-20261103/02-centre-and-south/geoclick/subtitles.en.vtt",
+          "bytes": 14353,
+          "sha256": "df1e3d2eb73305c9758c983adff34d1cc6f005554e77417ea6183174e7d277f5"
+        }
+      ]
+    },
+    {
+      "series": "nigeria-regions",
+      "episode": 1,
+      "id": "nigeria-regions-north-and-middle-belt",
+      "ledger": "src/lessons/nigeria-regions-coverage.json",
+      "master": "rendered/nigeria-regions-20261103/01-north-and-middle-belt/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "NPZVIMoh8FE",
+      "files": [
+        {
+          "path": "subtitles/nigeria-regions/01-nigeria-regions-north-and-middle-belt/subtitles.en.srt",
+          "source": "rendered/nigeria-regions-20261103/01-north-and-middle-belt/geoclick/subtitles.en.srt",
+          "bytes": 13285,
+          "sha256": "ce89afeb5a404dc2abb07e73fdfaef5b7069164f2d1bee5a29461e35e85b090d"
+        },
+        {
+          "path": "subtitles/nigeria-regions/01-nigeria-regions-north-and-middle-belt/subtitles.en.vtt",
+          "source": "rendered/nigeria-regions-20261103/01-north-and-middle-belt/geoclick/subtitles.en.vtt",
+          "bytes": 17493,
+          "sha256": "356b805a387ec3e64bbe53b122c64805833ae769385ab9f705021c8ca0e8fc51"
+        }
+      ]
+    },
+    {
+      "series": "nigeria-regions",
+      "episode": 2,
+      "id": "nigeria-regions-south",
+      "ledger": "src/lessons/nigeria-regions-coverage.json",
+      "master": "rendered/nigeria-regions-20261103/02-south/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "5NqrXcxxRhA",
+      "files": [
+        {
+          "path": "subtitles/nigeria-regions/02-nigeria-regions-south/subtitles.en.srt",
+          "source": "rendered/nigeria-regions-20261103/02-south/geoclick/subtitles.en.srt",
+          "bytes": 11103,
+          "sha256": "b345956472b2bac4a7aa73d1d252f8d329dea58146da9ecd9ccc102a27428437"
+        },
+        {
+          "path": "subtitles/nigeria-regions/02-nigeria-regions-south/subtitles.en.vtt",
+          "source": "rendered/nigeria-regions-20261103/02-south/geoclick/subtitles.en.vtt",
+          "bytes": 14711,
+          "sha256": "01d28a6b8b4b6c421ee909cab44eb02e82c564e4eb14fd6dd1c14cb941216870"
+        }
+      ]
+    },
+    {
+      "series": "iran-provinces",
+      "episode": 1,
+      "id": "iran-provinces-north-and-west",
+      "ledger": "src/lessons/iran-provinces-coverage.json",
+      "master": "rendered/iran-provinces-20261103/01-north-and-west/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "OF4V42HcSmM",
+      "files": [
+        {
+          "path": "subtitles/iran-provinces/01-iran-provinces-north-and-west/subtitles.en.srt",
+          "source": "rendered/iran-provinces-20261103/01-north-and-west/geoclick/subtitles.en.srt",
+          "bytes": 11016,
+          "sha256": "50d56407f8dac2876f72cf92f7b5f8ac523d4f0882f8b8b24b7e4160b6c78713"
+        },
+        {
+          "path": "subtitles/iran-provinces/01-iran-provinces-north-and-west/subtitles.en.vtt",
+          "source": "rendered/iran-provinces-20261103/01-north-and-west/geoclick/subtitles.en.vtt",
+          "bytes": 14424,
+          "sha256": "8197562b0bde834d4f5b009e18dcceb743f74286d109a48237e6a5c14c44aaf5"
+        }
+      ]
+    },
+    {
+      "series": "iran-provinces",
+      "episode": 2,
+      "id": "iran-provinces-south-and-east",
+      "ledger": "src/lessons/iran-provinces-coverage.json",
+      "master": "rendered/iran-provinces-20261103/02-south-and-east/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "80ktJdnbA_Q",
+      "files": [
+        {
+          "path": "subtitles/iran-provinces/02-iran-provinces-south-and-east/subtitles.en.srt",
+          "source": "rendered/iran-provinces-20261103/02-south-and-east/geoclick/subtitles.en.srt",
+          "bytes": 10354,
+          "sha256": "1dee22a01ac6fa28d375bdf764ff81cdc82fe316c41700cdb69a342c5eba7908"
+        },
+        {
+          "path": "subtitles/iran-provinces/02-iran-provinces-south-and-east/subtitles.en.vtt",
+          "source": "rendered/iran-provinces-20261103/02-south-and-east/geoclick/subtitles.en.vtt",
+          "bytes": 13562,
+          "sha256": "6a16b7a9cbf7883e193ef970debe9bd80c4c1aa8a760ff2fa83b6fb4ea49e5cd"
+        }
+      ]
+    },
+    {
+      "series": "japan-regions",
+      "episode": 1,
+      "id": "japan-regions-hokkaido-and-tohoku",
+      "ledger": "src/lessons/japan-regions-coverage.json",
+      "master": "rendered/japan-regions-20261103/01-hokkaido-and-tohoku/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "oWARR3JLO0s",
+      "files": [
+        {
+          "path": "subtitles/japan-regions/01-japan-regions-hokkaido-and-tohoku/subtitles.en.srt",
+          "source": "rendered/japan-regions-20261103/01-hokkaido-and-tohoku/geoclick/subtitles.en.srt",
+          "bytes": 4798,
+          "sha256": "eab562c1aadac53c6cc74e12051db270168cfb8bb2dfb33529f5c7cb1e220604"
+        },
+        {
+          "path": "subtitles/japan-regions/01-japan-regions-hokkaido-and-tohoku/subtitles.en.vtt",
+          "source": "rendered/japan-regions-20261103/01-hokkaido-and-tohoku/geoclick/subtitles.en.vtt",
+          "bytes": 6406,
+          "sha256": "c751780b5fc5d61f773e49b74d40545f716ffab8f21d9e794499de689d296fcd"
+        }
+      ]
+    },
+    {
+      "series": "japan-regions",
+      "episode": 2,
+      "id": "japan-regions-central-mountains",
+      "ledger": "src/lessons/japan-regions-coverage.json",
+      "master": "rendered/japan-regions-20261103/02-central-mountains/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "N9HK4i6NDz0",
+      "files": [
+        {
+          "path": "subtitles/japan-regions/02-japan-regions-central-mountains/subtitles.en.srt",
+          "source": "rendered/japan-regions-20261103/02-central-mountains/geoclick/subtitles.en.srt",
+          "bytes": 5214,
+          "sha256": "bc6a3350e98824131878502cdd4c18a71e4127350c5f24e1cad6b5057b71d42a"
+        },
+        {
+          "path": "subtitles/japan-regions/02-japan-regions-central-mountains/subtitles.en.vtt",
+          "source": "rendered/japan-regions-20261103/02-central-mountains/geoclick/subtitles.en.vtt",
+          "bytes": 7022,
+          "sha256": "1b229d3abac373c52dc1de36722d8a841a65b46e74bfe5d5946833606bb5953c"
+        }
+      ]
+    },
+    {
+      "series": "japan-regions",
+      "episode": 3,
+      "id": "japan-regions-kanto-and-kansai",
+      "ledger": "src/lessons/japan-regions-coverage.json",
+      "master": "rendered/japan-regions-20261103/03-kanto-and-kansai/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "wbJ1N6dVqMQ",
+      "files": [
+        {
+          "path": "subtitles/japan-regions/03-japan-regions-kanto-and-kansai/subtitles.en.srt",
+          "source": "rendered/japan-regions-20261103/03-kanto-and-kansai/geoclick/subtitles.en.srt",
+          "bytes": 9335,
+          "sha256": "143784918333c478690a438bcd249c399e42972179b56488405034c3d945722b"
+        },
+        {
+          "path": "subtitles/japan-regions/03-japan-regions-kanto-and-kansai/subtitles.en.vtt",
+          "source": "rendered/japan-regions-20261103/03-kanto-and-kansai/geoclick/subtitles.en.vtt",
+          "bytes": 12543,
+          "sha256": "e97d8f7516900a394a40b6dcf99fea27632082f620cddd008e5a2503b8613cd6"
+        }
+      ]
+    },
+    {
+      "series": "japan-regions",
+      "episode": 4,
+      "id": "japan-regions-west-and-south",
+      "ledger": "src/lessons/japan-regions-coverage.json",
+      "master": "rendered/japan-regions-20261103/04-west-and-south/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "dKx962W9Ujg",
+      "files": [
+        {
+          "path": "subtitles/japan-regions/04-japan-regions-west-and-south/subtitles.en.srt",
+          "source": "rendered/japan-regions-20261103/04-west-and-south/geoclick/subtitles.en.srt",
+          "bytes": 10316,
+          "sha256": "b6ffe269283e3fe4ded5f071ff91be5e8ef7fa89bce7835f77a649b0415fe17e"
+        },
+        {
+          "path": "subtitles/japan-regions/04-japan-regions-west-and-south/subtitles.en.vtt",
+          "source": "rendered/japan-regions-20261103/04-west-and-south/geoclick/subtitles.en.vtt",
+          "bytes": 13924,
+          "sha256": "e8bb8037b9327aa998448bcd8049fa56f7ec8c9d54f35f29fe8e64c2eb86d99d"
+        }
+      ]
+    },
+    {
+      "series": "new-zealand-regions",
+      "episode": 1,
+      "id": "new-zealand-regions-regions",
+      "ledger": "src/lessons/new-zealand-regions-coverage.json",
+      "master": "rendered/new-zealand-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "language": "en",
+      "youtube_video_id": "VTGm-gcURNs",
+      "files": [
+        {
+          "path": "subtitles/new-zealand-regions/01-new-zealand-regions-regions/subtitles.en.srt",
+          "source": "rendered/new-zealand-regions-20261103/geoclick/subtitles.en.srt",
+          "bytes": 10328,
+          "sha256": "cca3d35982ae6acdcc8fa5a34a46f935a2cbee71d2e7eb6b3166c28f21987f4c"
+        },
+        {
+          "path": "subtitles/new-zealand-regions/01-new-zealand-regions-regions/subtitles.en.vtt",
+          "source": "rendered/new-zealand-regions-20261103/geoclick/subtitles.en.vtt",
+          "bytes": 13736,
+          "sha256": "fff194e63536b57b65ae3e8bf14107f0ff574f5c65ed9b8af4b158143a3159aa"
+        }
+      ]
     }
   ]
 }

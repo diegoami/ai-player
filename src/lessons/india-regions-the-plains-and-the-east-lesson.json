@@ -1,0 +1,1583 @@
+{
+  "title": "India's states · The plains, the east and the south · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "india-regions",
+  "area": "India",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/india-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      70.11,
+      7.26
+    ],
+    [
+      95.49,
+      28.15
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Uttar Pradesh",
+      "location": [
+        80.8327,
+        27.1544
+      ],
+      "bounds": [
+        [
+          78.583,
+          25.404
+        ],
+        [
+          83.083,
+          28.904
+        ]
+      ]
+    },
+    {
+      "name": "Rajasthan",
+      "location": [
+        73.8441,
+        26.6201
+      ],
+      "bounds": [
+        [
+          71.594,
+          24.87
+        ],
+        [
+          76.094,
+          28.37
+        ]
+      ]
+    },
+    {
+      "name": "Nagaland",
+      "location": [
+        94.2914,
+        26.1195
+      ],
+      "bounds": [
+        [
+          93.097,
+          24.977
+        ],
+        [
+          95.486,
+          27.262
+        ]
+      ]
+    },
+    {
+      "name": "Assam",
+      "location": [
+        92.8325,
+        26.0629
+      ],
+      "bounds": [
+        [
+          90.582,
+          24.313
+        ],
+        [
+          95.082,
+          27.813
+        ]
+      ]
+    },
+    {
+      "name": "Bihar",
+      "location": [
+        85.8158,
+        25.9085
+      ],
+      "bounds": [
+        [
+          83.566,
+          24.158
+        ],
+        [
+          88.066,
+          27.658
+        ]
+      ]
+    },
+    {
+      "name": "Meghalaya",
+      "location": [
+        91.3071,
+        25.547
+      ],
+      "bounds": [
+        [
+          89.434,
+          24.869
+        ],
+        [
+          93.18,
+          26.225
+        ]
+      ]
+    },
+    {
+      "name": "Manipur",
+      "location": [
+        93.8521,
+        24.7634
+      ],
+      "bounds": [
+        [
+          92.781,
+          23.612
+        ],
+        [
+          94.923,
+          25.914
+        ]
+      ]
+    },
+    {
+      "name": "West Bengal",
+      "location": [
+        87.8587,
+        24.4025
+      ],
+      "bounds": [
+        [
+          85.609,
+          22.653
+        ],
+        [
+          90.109,
+          26.153
+        ]
+      ]
+    },
+    {
+      "name": "Madhya Pradesh",
+      "location": [
+        78.4133,
+        23.9629
+      ],
+      "bounds": [
+        [
+          76.163,
+          22.213
+        ],
+        [
+          80.663,
+          25.713
+        ]
+      ]
+    },
+    {
+      "name": "Tripura",
+      "location": [
+        91.7331,
+        23.7621
+      ],
+      "bounds": [
+        [
+          90.933,
+          22.787
+        ],
+        [
+          92.533,
+          24.737
+        ]
+      ]
+    },
+    {
+      "name": "Jharkhand",
+      "location": [
+        85.6163,
+        23.6679
+      ],
+      "bounds": [
+        [
+          83.366,
+          21.918
+        ],
+        [
+          87.866,
+          25.418
+        ]
+      ]
+    },
+    {
+      "name": "Mizoram",
+      "location": [
+        92.8426,
+        23.2244
+      ],
+      "bounds": [
+        [
+          92.043,
+          21.666
+        ],
+        [
+          93.643,
+          24.783
+        ]
+      ]
+    },
+    {
+      "name": "Gujarat",
+      "location": [
+        71.3109,
+        22.3905
+      ],
+      "bounds": [
+        [
+          69.061,
+          20.641
+        ],
+        [
+          73.561,
+          24.141
+        ]
+      ]
+    },
+    {
+      "name": "Chhattisgarh",
+      "location": [
+        82.3113,
+        20.9581
+      ],
+      "bounds": [
+        [
+          80.061,
+          19.208
+        ],
+        [
+          84.561,
+          22.708
+        ]
+      ]
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "location": [
+        73.0315,
+        20.1851
+      ],
+      "bounds": [
+        [
+          72.231,
+          19.585
+        ],
+        [
+          73.831,
+          20.785
+        ]
+      ]
+    },
+    {
+      "name": "Odisha",
+      "location": [
+        84.4357,
+        20.1769
+      ],
+      "bounds": [
+        [
+          82.186,
+          18.427
+        ],
+        [
+          86.686,
+          21.927
+        ]
+      ]
+    },
+    {
+      "name": "Maharashtra",
+      "location": [
+        76.772,
+        18.8278
+      ],
+      "bounds": [
+        [
+          74.522,
+          17.078
+        ],
+        [
+          79.022,
+          20.578
+        ]
+      ]
+    },
+    {
+      "name": "Telangana",
+      "location": [
+        79.5166,
+        17.8482
+      ],
+      "bounds": [
+        [
+          77.267,
+          16.098
+        ],
+        [
+          81.767,
+          19.598
+        ]
+      ]
+    },
+    {
+      "name": "Andhra Pradesh",
+      "location": [
+        80.7486,
+        15.8966
+      ],
+      "bounds": [
+        [
+          78.499,
+          14.147
+        ],
+        [
+          82.999,
+          17.647
+        ]
+      ]
+    },
+    {
+      "name": "Goa",
+      "location": [
+        74.001,
+        15.3298
+      ],
+      "bounds": [
+        [
+          73.201,
+          14.73
+        ],
+        [
+          74.801,
+          15.93
+        ]
+      ]
+    },
+    {
+      "name": "Karnataka",
+      "location": [
+        76.3298,
+        14.9886
+      ],
+      "bounds": [
+        [
+          74.08,
+          13.239
+        ],
+        [
+          78.58,
+          16.739
+        ]
+      ]
+    },
+    {
+      "name": "Puducherry",
+      "location": [
+        79.72,
+        10.9332
+      ],
+      "bounds": [
+        [
+          75.285,
+          10.648
+        ],
+        [
+          79.785,
+          12.262
+        ]
+      ]
+    },
+    {
+      "name": "Tamil Nadu",
+      "location": [
+        78.2943,
+        10.7722
+      ],
+      "bounds": [
+        [
+          76.044,
+          9.022
+        ],
+        [
+          80.544,
+          12.522
+        ]
+      ]
+    },
+    {
+      "name": "Kerala",
+      "location": [
+        75.137,
+        12.2675
+      ],
+      "bounds": [
+        [
+          74.536,
+          8.775
+        ],
+        [
+          77.717,
+          12.275
+        ]
+      ]
+    },
+    {
+      "name": "Andaman and Nicobar",
+      "location": [
+        92.5473,
+        10.5622
+      ],
+      "bounds": [
+        [
+          92.183,
+          8.436
+        ],
+        [
+          94.113,
+          11.936
+        ]
+      ]
+    },
+    {
+      "name": "Lakshadweep",
+      "location": [
+        73.0354,
+        8.2568
+      ],
+      "bounds": [
+        [
+          72.257,
+          7.682
+        ],
+        [
+          73.857,
+          8.882
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to India's states, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 26 of the India regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Uttar Pradesh",
+      "location": [
+        80.8327,
+        27.1544
+      ],
+      "lines": [
+        "Uttar Pradesh fills the northern heartland of India, the flat Gangetic plain between the Himalaya in the north and the Vindhya hills in the south, with Kanpur as its largest city.",
+        "With about two hundred and forty million people it would be the fifth most populous country on earth, and it has given India more prime ministers than any other state.",
+        "Remember the northern province with the Taj Mahal and Varanasi, the crowded heart of India."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uttar_Pradesh",
+        "https://en.wikipedia.org/wiki/Taj_Mahal",
+        "https://en.wikipedia.org/wiki/Varanasi"
+      ],
+      "cameraBounds": [
+        [
+          78.583,
+          25.404
+        ],
+        [
+          83.083,
+          28.904
+        ]
+      ],
+      "transition": "Let's bring Uttar Pradesh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              78.583,
+              25.404
+            ],
+            [
+              83.083,
+              28.904
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rajasthan",
+      "location": [
+        73.8441,
+        26.6201
+      ],
+      "lines": [
+        "Rajasthan fills the north-west of India, its sandy Thar desert reaching west to the Pakistan border and its plain meeting the Gangetic plain in the east, with Jaipur as its largest city.",
+        "Its towns are colour coded by tradition, so Jaipur is pink, Jodhpur blue, Udaipur white and Jaisalmer gold.",
+        "Remember the land of kings painted in four colours, with the Thar desert for a backyard."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajasthan",
+        "https://en.wikipedia.org/wiki/Thar_Desert",
+        "https://en.wikipedia.org/wiki/Jaipur"
+      ],
+      "cameraBounds": [
+        [
+          71.594,
+          24.87
+        ],
+        [
+          76.094,
+          28.37
+        ]
+      ],
+      "transition": "Let's bring Rajasthan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              71.594,
+              24.87
+            ],
+            [
+              76.094,
+              28.37
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nagaland",
+      "location": [
+        94.2914,
+        26.1195
+      ],
+      "lines": [
+        "Nagaland sits in the north-eastern hills of India, a narrow strip along the Myanmar border between Assam and Manipur, with Kohima as its capital.",
+        "Sixteen major tribes with their own languages live here, and each December the Hornbill Festival brings them all together, while the state grows the bhut jolokia, once the hottest chilli in the world.",
+        "Remember the sixteen tribes of the Hornbill festival, in the strip of hills along Myanmar."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nagaland",
+        "https://en.wikipedia.org/wiki/Hornbill_Festival",
+        "https://en.wikipedia.org/wiki/Bhut_Jolokia"
+      ],
+      "cameraBounds": [
+        [
+          93.097,
+          24.977
+        ],
+        [
+          95.486,
+          27.262
+        ]
+      ],
+      "transition": "Let's bring Nagaland into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              93.097,
+              24.977
+            ],
+            [
+              95.486,
+              27.262
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assam",
+      "location": [
+        92.8325,
+        26.0629
+      ],
+      "lines": [
+        "Assam lies in the far north-east of India, the Brahmaputra valley running west to east below the Himalaya and above Bangladesh, with Guwahati near its western end.",
+        "It grows about half of India’s tea from a variety native to the valley, and the Ahom people ruled here for six hundred years.",
+        "Remember the tea valley of the Brahmaputra, where two thirds of the world’s one-horned rhinos live."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Assam",
+        "https://en.wikipedia.org/wiki/Kaziranga_National_Park",
+        "https://en.wikipedia.org/wiki/Brahmaputra_River"
+      ],
+      "cameraBounds": [
+        [
+          90.582,
+          24.313
+        ],
+        [
+          95.082,
+          27.813
+        ]
+      ],
+      "transition": "Let's bring Assam into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              90.582,
+              24.313
+            ],
+            [
+              95.082,
+              27.813
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bihar",
+      "location": [
+        85.8158,
+        25.9085
+      ],
+      "lines": [
+        "Bihar sits on the southern edge of the Gangetic plain in the centre of India, between Uttar Pradesh, Jharkhand and West Bengal, with Patna on the Ganges.",
+        "Its name comes from the Buddhist monasteries that once filled the region, and the Buddha found enlightenment at Bodh Gaya here while Mahavira founded Jainism in the same land.",
+        "Remember the land of monasteries, where the Buddha woke up and Nalanda taught thousands of students."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bihar",
+        "https://en.wikipedia.org/wiki/Bodh_Gaya",
+        "https://en.wikipedia.org/wiki/Nalanda"
+      ],
+      "cameraBounds": [
+        [
+          83.566,
+          24.158
+        ],
+        [
+          88.066,
+          27.658
+        ]
+      ],
+      "transition": "Let's bring Bihar into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              83.566,
+              24.158
+            ],
+            [
+              88.066,
+              27.658
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Meghalaya",
+      "location": [
+        91.3071,
+        25.547
+      ],
+      "lines": [
+        "Meghalaya is a small hill state in the east of India, north of Bangladesh and pressed against Assam to the west, with Shillong as its capital.",
+        "Mawsynram and Cherrapunji here get around eleven thousand millimetres of rain a year, and the Khasi and Garo peoples pass property to the youngest daughter.",
+        "Remember the abode of clouds, the wettest place on earth, where the bridges are grown."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Meghalaya",
+        "https://en.wikipedia.org/wiki/Mawsynram",
+        "https://en.wikipedia.org/wiki/Living_root_bridge"
+      ],
+      "cameraBounds": [
+        [
+          89.434,
+          24.869
+        ],
+        [
+          93.18,
+          26.225
+        ]
+      ],
+      "transition": "Let's bring Meghalaya into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              89.434,
+              24.869
+            ],
+            [
+              93.18,
+              26.225
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manipur",
+      "location": [
+        93.8521,
+        24.7634
+      ],
+      "lines": [
+        "Manipur is a small state in the east of India, a ring of hills around the Imphal valley between Assam, Nagaland and Mizoram.",
+        "Modern polo was codified here, and the British took the game home from the Manipuri game called sagol kangjei in the eighteen hundreds.",
+        "Remember the jewelled land of polo, whose lake carries floating islands."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Manipur",
+        "https://en.wikipedia.org/wiki/Polo",
+        "https://en.wikipedia.org/wiki/Loktak_Lake"
+      ],
+      "cameraBounds": [
+        [
+          92.781,
+          23.612
+        ],
+        [
+          94.923,
+          25.914
+        ]
+      ],
+      "transition": "Let's bring Manipur into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              92.781,
+              23.612
+            ],
+            [
+              94.923,
+              25.914
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Bengal",
+      "location": [
+        87.8587,
+        24.4025
+      ],
+      "lines": [
+        "West Bengal runs down the east of India from the Himalayan foothills of Sikkim to the Bay of Bengal, with Kolkata on its coast at the mouth of the Hooghly.",
+        "Kolkata was the capital of British India until 1911, and the Sundarbans on its coast hold the largest mangrove forest in the world, where tigers swim between the islands.",
+        "Remember the western Bengal of the mangrove swamps, where tigers swim from island to island."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Bengal",
+        "https://en.wikipedia.org/wiki/Sundarbans_National_Park",
+        "https://en.wikipedia.org/wiki/Kolkata"
+      ],
+      "cameraBounds": [
+        [
+          85.609,
+          22.653
+        ],
+        [
+          90.109,
+          26.153
+        ]
+      ],
+      "transition": "Let's bring West Bengal into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              85.609,
+              22.653
+            ],
+            [
+              90.109,
+              26.153
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Madhya Pradesh",
+      "location": [
+        78.4133,
+        23.9629
+      ],
+      "lines": [
+        "Madhya Pradesh covers the middle of India, its plateau running from the Rajasthan border in the west down to the Deccan hills in the south, with Indore in the west.",
+        "The rock shelters at Bhimbetka carry paintings up to thirty thousand years old, and the temples at Khajuraho were carved around the year one thousand.",
+        "Remember the middle province, with ancient paintings and the carved temples of Khajuraho."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Madhya_Pradesh",
+        "https://en.wikipedia.org/wiki/Bhimbetka",
+        "https://en.wikipedia.org/wiki/Khajuraho"
+      ],
+      "cameraBounds": [
+        [
+          76.163,
+          22.213
+        ],
+        [
+          80.663,
+          25.713
+        ]
+      ],
+      "transition": "Let's bring Madhya Pradesh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              76.163,
+              22.213
+            ],
+            [
+              80.663,
+              25.713
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tripura",
+      "location": [
+        91.7331,
+        23.7621
+      ],
+      "lines": [
+        "Tripura lies in the east of India, surrounded on three sides by Bangladesh and joined to the rest of the country by a narrow neck of land, with Agartala as its capital.",
+        "The Manikya dynasty ruled it for about five hundred years, until 1949, one of the longest-reigning houses in India.",
+        "Remember the state with the narrow neck, three sides in Bangladesh and one long royal line."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tripura",
+        "https://en.wikipedia.org/wiki/Manikya_dynasty",
+        "https://en.wikipedia.org/wiki/Agartala"
+      ],
+      "cameraBounds": [
+        [
+          90.933,
+          22.787
+        ],
+        [
+          92.533,
+          24.737
+        ]
+      ],
+      "transition": "Let's bring Tripura into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              90.933,
+              22.787
+            ],
+            [
+              92.533,
+              24.737
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jharkhand",
+      "location": [
+        85.6163,
+        23.6679
+      ],
+      "lines": [
+        "Jharkhand lies in the centre of India on the Chota Nagpur plateau, between Bihar and Chhattisgarh with Odisha to the south and West Bengal to the east, and Jamshedpur as its largest city.",
+        "It was split from Bihar in 2000 after a long tribal movement, and Tata built India’s first planned industrial city at Jamshedpur in 1908.",
+        "Remember the forest country of coal and iron, and the first planned factory town in India."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jharkhand",
+        "https://en.wikipedia.org/wiki/Jamshedpur",
+        "https://en.wikipedia.org/wiki/Adivasi"
+      ],
+      "cameraBounds": [
+        [
+          83.366,
+          21.918
+        ],
+        [
+          87.866,
+          25.418
+        ]
+      ],
+      "transition": "Let's bring Jharkhand into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              83.366,
+              21.918
+            ],
+            [
+              87.866,
+              25.418
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mizoram",
+      "location": [
+        92.8426,
+        23.2244
+      ],
+      "lines": [
+        "Mizoram is a narrow strip of steep hills in the east of India, running north to south between Assam and Bangladesh, with Aizawl as its capital.",
+        "Its name means the land of the hill people in the Mizo language itself, and its bamboo flowers about every forty-eight years, a cycle called mautam that brings famine.",
+        "Remember the land of the hill people, where the bamboo flowers every forty-eight years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mizoram",
+        "https://en.wikipedia.org/wiki/Mautam",
+        "https://en.wikipedia.org/wiki/Aizawl"
+      ],
+      "cameraBounds": [
+        [
+          92.043,
+          21.666
+        ],
+        [
+          93.643,
+          24.783
+        ]
+      ],
+      "transition": "Let's bring Mizoram into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              92.043,
+              21.666
+            ],
+            [
+              93.643,
+              24.783
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gujarat",
+      "location": [
+        71.3109,
+        22.3905
+      ],
+      "lines": [
+        "Gujarat runs along the western coast of India from the Rann of Kutch in the north down past the Gulf of Khambhat, with Ahmedabad as its largest city.",
+        "Gandhi was born here and the Salt March of 1930 ended at Dandi on its coast, while the Gir forest holds every wild Asiatic lion left on earth.",
+        "Remember the western coast of lions, salt flats and the end of the Salt March."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gujarat",
+        "https://en.wikipedia.org/wiki/Gir_National_Park",
+        "https://en.wikipedia.org/wiki/Dandi"
+      ],
+      "cameraBounds": [
+        [
+          69.061,
+          20.641
+        ],
+        [
+          73.561,
+          24.141
+        ]
+      ],
+      "transition": "Let's bring Gujarat into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              69.061,
+              20.641
+            ],
+            [
+              73.561,
+              24.141
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chhattisgarh",
+      "location": [
+        82.3113,
+        20.9581
+      ],
+      "lines": [
+        "Chhattisgarh lies in the centre of India, its forested plateau running between Madhya Pradesh and Odisha, with Bhilai as its largest city.",
+        "It was split from Madhya Pradesh in 2000, it is forty-four per cent forest, and the steel works at Bhilai make a large share of India’s steel.",
+        "Remember the thirty-six forts of the forest state, where the steel comes from."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chhattisgarh",
+        "https://en.wikipedia.org/wiki/Bastar",
+        "https://en.wikipedia.org/wiki/Bhilai"
+      ],
+      "cameraBounds": [
+        [
+          80.061,
+          19.208
+        ],
+        [
+          84.561,
+          22.708
+        ]
+      ],
+      "transition": "Let's bring Chhattisgarh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              80.061,
+              19.208
+            ],
+            [
+              84.561,
+              22.708
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "location": [
+        73.0315,
+        20.1851
+      ],
+      "lines": [
+        "This small union territory is scattered along India’s western coast between Gujarat and Maharashtra, with Daman on the Arabian Sea and Diu lying off Gujarat.",
+        "The Portuguese held these ports for four centuries until 1961, and the fort on Diu island turned away a siege in 1538 by the sultan of Gujarat and an Ottoman fleet.",
+        "Remember India’s longest name, four Portuguese ports and the island fort that turned away an Ottoman fleet."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli_and_Daman_and_Diu",
+        "https://en.wikipedia.org/wiki/Diu",
+        "https://en.wikipedia.org/wiki/Daman"
+      ],
+      "cameraBounds": [
+        [
+          72.231,
+          19.585
+        ],
+        [
+          73.831,
+          20.785
+        ]
+      ],
+      "transition": "Let's bring Dadra and Nagar Haveli and Daman and Diu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              72.231,
+              19.585
+            ],
+            [
+              73.831,
+              20.785
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Odisha",
+      "location": [
+        84.4357,
+        20.1769
+      ],
+      "lines": [
+        "Odisha faces the Bay of Bengal on India’s east coast, its delta and coastal plain running from West Bengal down towards Andhra Pradesh, with Bhubaneswar set inland.",
+        "Its Konark sun temple is built as a stone chariot standing on twelve pairs of carved wheels that work as sundials.",
+        "Remember the temple chariot on wheels that tell the time, where a war turned Ashoka to Buddhism."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Odisha",
+        "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+        "https://en.wikipedia.org/wiki/Kalinga_war"
+      ],
+      "cameraBounds": [
+        [
+          82.186,
+          18.427
+        ],
+        [
+          86.686,
+          21.927
+        ]
+      ],
+      "transition": "Let's bring Odisha into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              82.186,
+              18.427
+            ],
+            [
+              86.686,
+              21.927
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maharashtra",
+      "location": [
+        76.772,
+        18.8278
+      ],
+      "lines": [
+        "Maharashtra covers the western Deccan, its coastline running from Gujarat past the little state of Goa down to Karnataka, with Mumbai on the sea.",
+        "At Ellora the Kailasa temple was carved downward out of a single rock, and the caves at Ajanta were cut into the cliffs over centuries.",
+        "Remember the great country of the western coast, with a temple carved downward out of one rock."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maharashtra",
+        "https://en.wikipedia.org/wiki/Ellora_Caves",
+        "https://en.wikipedia.org/wiki/Ajanta_Caves"
+      ],
+      "cameraBounds": [
+        [
+          74.522,
+          17.078
+        ],
+        [
+          79.022,
+          20.578
+        ]
+      ],
+      "transition": "Let's bring Maharashtra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              74.522,
+              17.078
+            ],
+            [
+              79.022,
+              20.578
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telangana",
+      "location": [
+        79.5166,
+        17.8482
+      ],
+      "lines": [
+        "Telangana sits on the dry Deccan plateau in the centre-south of India, inland from the east coast and west of Andhra Pradesh, with Hyderabad as its capital.",
+        "It is India’s newest state, created in 2014 after a movement lasting decades, and the mines at Golconda once produced the Koh-i-Noor diamond.",
+        "Remember the newest state on the Deccan, whose mines gave up the Koh-i-Noor."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Telangana",
+        "https://en.wikipedia.org/wiki/Hyderabad,_Telangana",
+        "https://en.wikipedia.org/wiki/Koh-i-Noor"
+      ],
+      "cameraBounds": [
+        [
+          77.267,
+          16.098
+        ],
+        [
+          81.767,
+          19.598
+        ]
+      ],
+      "transition": "Let's bring Telangana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              77.267,
+              16.098
+            ],
+            [
+              81.767,
+              19.598
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Andhra Pradesh",
+      "location": [
+        80.7486,
+        15.8966
+      ],
+      "lines": [
+        "Andhra Pradesh runs down India’s south-eastern coast from Odisha towards Tamil Nadu, with Amaravati on the Krishna river in its heart.",
+        "Tirupati here draws more pilgrims than any other religious site in the world, and the island of Sriharikota is India’s spaceport.",
+        "Remember the east-coast state of the busiest temple in the world and the island rocket base."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Andhra_Pradesh",
+        "https://en.wikipedia.org/wiki/Tirupati",
+        "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre"
+      ],
+      "cameraBounds": [
+        [
+          78.499,
+          14.147
+        ],
+        [
+          82.999,
+          17.647
+        ]
+      ],
+      "transition": "Let's bring Andhra Pradesh into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              78.499,
+              14.147
+            ],
+            [
+              82.999,
+              17.647
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goa",
+      "location": [
+        74.001,
+        15.3298
+      ],
+      "lines": [
+        "Goa is a tiny state on India’s west coast, sandwiched between Maharashtra and Karnataka, with Panaji on the Mandovi river.",
+        "The Portuguese ruled it for four hundred and fifty-one years until 1961, longer than anywhere else in India, which is why it is Catholic in parts and its food uses vinegar and chillies.",
+        "Remember the smallest state with the richest people, a Portuguese corner of India on the west coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Goa",
+        "https://en.wikipedia.org/wiki/Portuguese_India",
+        "https://en.wikipedia.org/wiki/Panaji"
+      ],
+      "cameraBounds": [
+        [
+          73.201,
+          14.73
+        ],
+        [
+          74.801,
+          15.93
+        ]
+      ],
+      "transition": "Let's bring Goa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              73.201,
+              14.73
+            ],
+            [
+              74.801,
+              15.93
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karnataka",
+      "location": [
+        76.3298,
+        14.9886
+      ],
+      "lines": [
+        "Karnataka covers the south-western Deccan from the Western Ghats down to the coast, running from Goa and Maharashtra in the north to Tamil Nadu in the south, with Bengaluru inland.",
+        "Hampi, the ruined capital of the Vijayanagara empire, lies among its granite boulders, and Bengaluru was once a quiet garden city for people who had retired.",
+        "Remember the black land of the Deccan, with the ruined city of Hampi among its boulders."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Karnataka",
+        "https://en.wikipedia.org/wiki/Hampi",
+        "https://en.wikipedia.org/wiki/Bengaluru"
+      ],
+      "cameraBounds": [
+        [
+          74.08,
+          13.239
+        ],
+        [
+          78.58,
+          16.739
+        ]
+      ],
+      "transition": "Let's bring Karnataka into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              74.08,
+              13.239
+            ],
+            [
+              78.58,
+              16.739
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puducherry",
+      "location": [
+        79.72,
+        10.9332
+      ],
+      "lines": [
+        "Puducherry is a small union territory on India’s south-east coast, a scatter of enclaves between Tamil Nadu and Kerala, with the town of Puducherry on the Bay of Bengal.",
+        "It stayed French until 1954, so its old town still carries French street signs and a French lycée, and the experimental township of Auroville was founded nearby in 1968.",
+        "Remember the French pocket on the Bay of Bengal, and the town that belongs to no nation."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Puducherry",
+        "https://en.wikipedia.org/wiki/Auroville",
+        "https://en.wikipedia.org/wiki/French_India"
+      ],
+      "cameraBounds": [
+        [
+          75.285,
+          10.648
+        ],
+        [
+          79.785,
+          12.262
+        ]
+      ],
+      "transition": "Let's bring Puducherry into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              75.285,
+              10.648
+            ],
+            [
+              79.785,
+              12.262
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tamil Nadu",
+      "location": [
+        78.2943,
+        10.7722
+      ],
+      "lines": [
+        "Tamil Nadu covers the far south of India along the Coromandel coast, from the border with Andhra Pradesh down to the southern tip, with Chennai on its shore.",
+        "Its temple gateways, the gopurams at Madurai and Thanjavur, are the signature of Dravidian architecture, and Tamil has a written literature more than two thousand years old.",
+        "Remember the Tamil country of the great temple gateways at Madurai and Thanjavur."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tamil_Nadu",
+        "https://en.wikipedia.org/wiki/Gopuram",
+        "https://en.wikipedia.org/wiki/Madurai"
+      ],
+      "cameraBounds": [
+        [
+          76.044,
+          9.022
+        ],
+        [
+          80.544,
+          12.522
+        ]
+      ],
+      "transition": "Let's bring Tamil Nadu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              76.044,
+              9.022
+            ],
+            [
+              80.544,
+              12.522
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kerala",
+      "location": [
+        75.137,
+        12.2675
+      ],
+      "lines": [
+        "Kerala runs along India’s south-western coast between Karnataka and Tamil Nadu, a narrow strip between the Western Ghats and the sea, with Kochi as its largest city.",
+        "Its literacy rate is the highest in India at about ninety-six per cent, and its Jewish community is of great antiquity, with the tradition that Saint Thomas landed here in the year fifty-two.",
+        "Remember the narrow strip of coconuts and backwaters, with the highest literacy in India."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kerala",
+        "https://en.wikipedia.org/wiki/Saint_Thomas_Christians",
+        "https://en.wikipedia.org/wiki/Kochi"
+      ],
+      "cameraBounds": [
+        [
+          74.536,
+          8.775
+        ],
+        [
+          77.717,
+          12.275
+        ]
+      ],
+      "transition": "Let's bring Kerala into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              74.536,
+              8.775
+            ],
+            [
+              77.717,
+              12.275
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Andaman and Nicobar",
+      "location": [
+        92.5473,
+        10.5622
+      ],
+      "lines": [
+        "The Andaman and Nicobar Islands lie in the Bay of Bengal, off India’s south-east coast and to the east of the mainland, with Port Blair on the Andamans.",
+        "The British built a penal colony here, and the Cellular Jail on South Andaman held independence prisoners in solitary confinement.",
+        "Remember the island prison of cellular solitary confinement, and the island where nobody has ever made contact."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands",
+        "https://en.wikipedia.org/wiki/Cellular_Jail",
+        "https://en.wikipedia.org/wiki/North_Sentinel_Island"
+      ],
+      "cameraBounds": [
+        [
+          92.183,
+          8.436
+        ],
+        [
+          94.113,
+          11.936
+        ]
+      ],
+      "transition": "Let's bring Andaman and Nicobar into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              92.183,
+              8.436
+            ],
+            [
+              94.113,
+              11.936
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lakshadweep",
+      "location": [
+        73.0354,
+        8.2568
+      ],
+      "lines": [
+        "Lakshadweep is a scatter of coral islands in the Arabian Sea, off the coast of Kerala in India’s south-west, with Kavaratti as its administrative centre.",
+        "Its name means a hundred thousand islands in Sanskrit, though there are only thirty-six and ten of them are inhabited, and it is the smallest territory in India.",
+        "Remember the hundred thousand islands that are really thirty-six coral atolls on the Arabian Sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lakshadweep",
+        "https://en.wikipedia.org/wiki/Kavaratti",
+        "https://en.wikipedia.org/wiki/Coral_atoll"
+      ],
+      "cameraBounds": [
+        [
+          72.257,
+          7.682
+        ],
+        [
+          73.857,
+          8.882
+        ]
+      ],
+      "transition": "Let's bring Lakshadweep into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              72.257,
+              7.682
+            ],
+            [
+              73.857,
+              8.882
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          70.11,
+          7.26
+        ],
+        [
+          95.49,
+          28.15
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "26 regions of India, one for each target of the map: Uttar Pradesh, Rajasthan, Nagaland, Assam, Bihar, Meghalaya, Manipur, West Bengal, Madhya Pradesh, Tripura, Jharkhand, Mizoram, Gujarat, Chhattisgarh, Dadra and Nagar Haveli and Daman and Diu, Odisha, Maharashtra, Telangana, Andhra Pradesh, Goa, Karnataka, Puducherry, Tamil Nadu, Kerala, Andaman and Nicobar and Lakshadweep.",
+    "Remember the shape of India from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "edition": "Greece · Regions of Europe · one lesson per country · November 2026",
+  "status": "in-production",
+  "scope": "All 14 region targets of GeoClick's native greece-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 14,
+  "countryCount": 1,
+  "nativeTargetCount": 14,
+  "nativeTeachingStopCount": 14,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 0,
+  "episodes": [
+    {
+      "id": "greece-regions-regions",
+      "title": "Greece's regions",
+      "status": "preflight-passed",
+      "lesson": "src/lessons/greece-regions-lesson.json",
+      "places": [
+        "Eastern Macedonia and Thrace",
+        "Central Macedonia",
+        "Western Macedonia",
+        "Mount Athos",
+        "Epirus",
+        "Thessaly",
+        "North Aegean",
+        "Ionian Islands",
+        "Central Greece",
+        "Western Greece",
+        "Peloponnese",
+        "Attica",
+        "South Aegean",
+        "Crete"
+      ],
+      "countries": [
+        "Eastern Macedonia and Thrace",
+        "Central Macedonia",
+        "Western Macedonia",
+        "Mount Athos",
+        "Epirus",
+        "Thessaly",
+        "North Aegean",
+        "Ionian Islands",
+        "Central Greece",
+        "Western Greece",
+        "Peloponnese",
+        "Attica",
+        "South Aegean",
+        "Crete"
+      ],
+      "nativeTargets": [
+        "Eastern Macedonia and Thrace",
+        "Central Macedonia",
+        "Western Macedonia",
+        "Mount Athos",
+        "Epirus",
+        "Thessaly",
+        "North Aegean",
+        "Ionian Islands",
+        "Central Greece",
+        "Western Greece",
+        "Peloponnese",
+        "Attica",
+        "South Aegean",
+        "Crete"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/greece-regions-20261103/geoclick/play-no-subtitles.mp4"
+    }
+  ]
+}

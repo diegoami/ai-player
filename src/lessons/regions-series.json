@@ -508,6 +508,270 @@
       "zip": "all-new-zealand-regions-videos.zip",
       "targetCount": 16,
       "label": "New Zealand Regions"
+    },
+    {
+      "id": "china-regions",
+      "country": "China",
+      "mapId": "china-regions",
+      "title": "China's provinces",
+      "content": "src/lessons/china-regions-content.mjs",
+      "root": "rendered/china-regions-20261103",
+      "zip": "all-china-regions-videos.zip",
+      "targetCount": 31,
+      "label": "China Regions",
+      "groups": [
+        {
+          "id": "north-and-west",
+          "title": "The north and the west",
+          "names": [
+            "Heilongjiang",
+            "Inner Mongol",
+            "Jilin",
+            "Xinjiang",
+            "Liaoning",
+            "Beijing",
+            "Tianjin",
+            "Hebei",
+            "Gansu",
+            "Shanxi",
+            "Ningxia",
+            "Shandong",
+            "Shaanxi",
+            "Qinghai",
+            "Henan",
+            "Xizang"
+          ]
+        },
+        {
+          "id": "centre-east-and-south",
+          "title": "The centre, the east and the south",
+          "names": [
+            "Jiangsu",
+            "Anhui",
+            "Shanghai",
+            "Hubei",
+            "Chongqing",
+            "Sichuan",
+            "Zhejiang",
+            "Hunan",
+            "Jiangxi",
+            "Guizhou",
+            "Fujian",
+            "Yunnan",
+            "Guangxi",
+            "Guangdong",
+            "Hainan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india-regions",
+      "country": "India",
+      "mapId": "india-regions",
+      "title": "India's states",
+      "content": "src/lessons/india-regions-content.mjs",
+      "root": "rendered/india-regions-20261103",
+      "zip": "all-india-regions-videos.zip",
+      "targetCount": 36,
+      "label": "India Regions",
+      "groups": [
+        {
+          "id": "the-mountains",
+          "title": "The mountains and the north",
+          "names": [
+            "Ladakh",
+            "Jammu and Kashmir",
+            "Himachal Pradesh",
+            "Punjab",
+            "Chandigarh",
+            "Uttarakhand",
+            "Haryana",
+            "Delhi",
+            "Arunachal Pradesh",
+            "Sikkim"
+          ]
+        },
+        {
+          "id": "the-plains-and-the-east",
+          "title": "The plains, the east and the south",
+          "names": [
+            "Uttar Pradesh",
+            "Rajasthan",
+            "Nagaland",
+            "Assam",
+            "Bihar",
+            "Meghalaya",
+            "Manipur",
+            "West Bengal",
+            "Madhya Pradesh",
+            "Tripura",
+            "Jharkhand",
+            "Mizoram",
+            "Gujarat",
+            "Chhattisgarh",
+            "Dadra and Nagar Haveli and Daman and Diu",
+            "Odisha",
+            "Maharashtra",
+            "Telangana",
+            "Andhra Pradesh",
+            "Goa",
+            "Karnataka",
+            "Puducherry",
+            "Tamil Nadu",
+            "Kerala",
+            "Andaman and Nicobar",
+            "Lakshadweep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greece-regions",
+      "country": "Greece",
+      "mapId": "greece-regions",
+      "title": "Greece's regions",
+      "content": "src/lessons/greece-regions-content.mjs",
+      "root": "rendered/greece-regions-20261103",
+      "zip": "all-greece-regions-videos.zip",
+      "targetCount": 14,
+      "label": "Greece Regions"
+    },
+    {
+      "id": "romania-counties",
+      "country": "Romania",
+      "mapId": "romania-counties",
+      "title": "Romania's counties",
+      "content": "src/lessons/romania-counties-content.mjs",
+      "root": "rendered/romania-counties-20261103",
+      "zip": "all-romania-counties-videos.zip",
+      "targetCount": 42,
+      "label": "Romania Counties",
+      "groups": [
+        {
+          "id": "north-and-centre",
+          "title": "The north and the centre",
+          "names": [
+            "Botoșani",
+            "Satu Mare",
+            "Maramureș",
+            "Suceava",
+            "Iași",
+            "Bistrița-Năsăud",
+            "Sălaj",
+            "Bihor",
+            "Neamț",
+            "Cluj",
+            "Harghita",
+            "Mureș",
+            "Vaslui",
+            "Bacău",
+            "Arad",
+            "Alba",
+            "Covasna",
+            "Sibiu",
+            "Hunedoara",
+            "Brașov",
+            "Vrancea"
+          ]
+        },
+        {
+          "id": "south-and-east",
+          "title": "The south and the east",
+          "names": [
+            "Galați",
+            "Timiș",
+            "Buzău",
+            "Brăila",
+            "Caraș-Severin",
+            "Prahova",
+            "Tulcea",
+            "Vâlcea",
+            "Argeș",
+            "Gorj",
+            "Dâmbovița",
+            "Ialomița",
+            "Mehedinți",
+            "Ilfov",
+            "Bucharest",
+            "Olt",
+            "Călărași",
+            "Constanța",
+            "Dolj",
+            "Giurgiu",
+            "Teleorman"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherlands-regions",
+      "country": "Netherlands",
+      "mapId": "netherlands-regions",
+      "title": "The Netherlands' provinces",
+      "content": "src/lessons/netherlands-regions-content.mjs",
+      "root": "rendered/netherlands-regions-20261103",
+      "zip": "all-netherlands-regions-videos.zip",
+      "targetCount": 12,
+      "label": "Netherlands Regions"
+    },
+    {
+      "id": "indonesia-regions",
+      "country": "Indonesia",
+      "mapId": "indonesia-regions",
+      "title": "Indonesia's provinces",
+      "content": "src/lessons/indonesia-regions-content.mjs",
+      "root": "rendered/indonesia-regions-20261103",
+      "zip": "all-indonesia-regions-videos.zip",
+      "targetCount": 33,
+      "label": "Indonesia Regions",
+      "groups": [
+        {
+          "id": "sumatra-and-borneo",
+          "title": "Sumatra and Borneo",
+          "names": [
+            "Aceh",
+            "Sumatera Utara",
+            "Kepulauan Riau",
+            "Kalimantan Timur",
+            "Riau",
+            "Kalimantan Barat",
+            "Sumatera Barat",
+            "Kalimantan Tengah",
+            "Jambi",
+            "Papua Barat",
+            "Bangka-Belitung",
+            "Kalimantan Selatan",
+            "Sumatera Selatan",
+            "Bengkulu"
+          ]
+        },
+        {
+          "id": "java-sulawesi-and-the-east",
+          "title": "Java, Sulawesi and the eastern islands",
+          "names": [
+            "Sulawesi Utara",
+            "Gorontalo",
+            "Maluku Utara",
+            "Sulawesi Tengah",
+            "Sulawesi Barat",
+            "Sulawesi Selatan",
+            "Sulawesi Tenggara",
+            "Lampung",
+            "Papua",
+            "Maluku",
+            "Jakarta Raya",
+            "Banten",
+            "Jawa Barat",
+            "Jawa Tengah",
+            "Jawa Timur",
+            "Yogyakarta",
+            "Bali",
+            "Nusa Tenggara Barat",
+            "Nusa Tenggara Timur"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "edition": "Iran · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 31 region targets of GeoClick's native iran-provinces map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 31,
   "countryCount": 1,
   "nativeTargetCount": 31,
   "nativeTeachingStopCount": 31,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 31,
   "episodes": [
     {
       "id": "iran-provinces-north-and-west",
       "title": "The north and the west",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/iran-provinces-north-and-west-lesson.json",
       "places": [
         "Ardabil",
@@ -70,12 +70,31 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/iran-provinces-20261103/01-north-and-west/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/iran-provinces-20261103/01-north-and-west/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 842.28,
+      "covered": [
+        "Ardabil",
+        "East Azerbaijan",
+        "West Azerbaijan",
+        "Gilan",
+        "North Khorasan",
+        "Golestan",
+        "Zanjan",
+        "Mazandaran",
+        "Qazvin",
+        "Alborz",
+        "Semnan",
+        "Kurdistan",
+        "Tehran",
+        "Hamadan",
+        "Qom",
+        "Markazi"
+      ]
     },
     {
       "id": "iran-provinces-south-and-east",
       "title": "The south and the east",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/iran-provinces-south-and-east-lesson.json",
       "places": [
         "Razavi Khorasan",
@@ -130,7 +149,25 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/iran-provinces-20261103/02-south-and-east/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/iran-provinces-20261103/02-south-and-east/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 744.48,
+      "covered": [
+        "Razavi Khorasan",
+        "Kermanshah",
+        "Lorestan",
+        "Ilam",
+        "Isfahan",
+        "Yazd",
+        "South Khorasan",
+        "Chaharmahal and Bakhtiari",
+        "Khuzestan",
+        "Kohgiluyeh and Boyer-Ahmad",
+        "Fars",
+        "Kerman",
+        "Bushehr",
+        "Sistan and Baluchestan",
+        "Hormozgan"
+      ]
     }
   ]
 }

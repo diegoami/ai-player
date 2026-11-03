@@ -1,0 +1,993 @@
+{
+  "title": "China's provinces · The north and the west · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "china-regions",
+  "area": "China",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/china-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      83.78,
+      30.88
+    ],
+    [
+      129.17,
+      49.5
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Heilongjiang",
+      "location": [
+        127.9733,
+        48.502
+      ],
+      "bounds": [
+        [
+          125.723,
+          46.752
+        ],
+        [
+          130.223,
+          50.252
+        ]
+      ]
+    },
+    {
+      "name": "Inner Mongol",
+      "location": [
+        100.398,
+        40.9296
+      ],
+      "bounds": [
+        [
+          98.148,
+          39.18
+        ],
+        [
+          102.648,
+          42.68
+        ]
+      ]
+    },
+    {
+      "name": "Jilin",
+      "location": [
+        126.4736,
+        43.5658
+      ],
+      "bounds": [
+        [
+          124.224,
+          41.816
+        ],
+        [
+          128.724,
+          45.316
+        ]
+      ]
+    },
+    {
+      "name": "Xinjiang",
+      "location": [
+        84.9843,
+        41.7529
+      ],
+      "bounds": [
+        [
+          82.734,
+          40.003
+        ],
+        [
+          87.234,
+          43.503
+        ]
+      ]
+    },
+    {
+      "name": "Liaoning",
+      "location": [
+        122.3106,
+        41.0909
+      ],
+      "bounds": [
+        [
+          120.061,
+          39.341
+        ],
+        [
+          124.561,
+          42.841
+        ]
+      ]
+    },
+    {
+      "name": "Beijing",
+      "location": [
+        116.4278,
+        40.2366
+      ],
+      "bounds": [
+        [
+          115.177,
+          39.243
+        ],
+        [
+          117.679,
+          41.23
+        ]
+      ]
+    },
+    {
+      "name": "Tianjin",
+      "location": [
+        117.3602,
+        39.4081
+      ],
+      "bounds": [
+        [
+          116.548,
+          38.347
+        ],
+        [
+          118.172,
+          40.469
+        ]
+      ]
+    },
+    {
+      "name": "Hebei",
+      "location": [
+        116.6521,
+        39.3255
+      ],
+      "bounds": [
+        [
+          114.402,
+          37.576
+        ],
+        [
+          118.902,
+          41.076
+        ]
+      ]
+    },
+    {
+      "name": "Gansu",
+      "location": [
+        94.5425,
+        40.5251
+      ],
+      "bounds": [
+        [
+          92.293,
+          38.775
+        ],
+        [
+          96.793,
+          42.275
+        ]
+      ]
+    },
+    {
+      "name": "Shanxi",
+      "location": [
+        112.3966,
+        37.6632
+      ],
+      "bounds": [
+        [
+          110.147,
+          35.913
+        ],
+        [
+          114.647,
+          39.413
+        ]
+      ]
+    },
+    {
+      "name": "Ningxia",
+      "location": [
+        106.008,
+        37.3173
+      ],
+      "bounds": [
+        [
+          103.946,
+          35.567
+        ],
+        [
+          108.07,
+          39.067
+        ]
+      ]
+    },
+    {
+      "name": "Shandong",
+      "location": [
+        118.7451,
+        36.335
+      ],
+      "bounds": [
+        [
+          116.495,
+          34.585
+        ],
+        [
+          120.995,
+          38.085
+        ]
+      ]
+    },
+    {
+      "name": "Shaanxi",
+      "location": [
+        106.1349,
+        33.4518
+      ],
+      "bounds": [
+        [
+          103.885,
+          31.702
+        ],
+        [
+          108.385,
+          35.202
+        ]
+      ]
+    },
+    {
+      "name": "Qinghai",
+      "location": [
+        96.2378,
+        35.5112
+      ],
+      "bounds": [
+        [
+          93.988,
+          33.761
+        ],
+        [
+          98.488,
+          37.261
+        ]
+      ]
+    },
+    {
+      "name": "Henan",
+      "location": [
+        113.4844,
+        33.8882
+      ],
+      "bounds": [
+        [
+          111.234,
+          32.138
+        ],
+        [
+          115.734,
+          35.638
+        ]
+      ]
+    },
+    {
+      "name": "Xizang",
+      "location": [
+        88.7449,
+        31.8822
+      ],
+      "bounds": [
+        [
+          86.495,
+          30.132
+        ],
+        [
+          90.995,
+          33.632
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to China's provinces, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 16 of the China regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Heilongjiang",
+      "location": [
+        127.9733,
+        48.502
+      ],
+      "lines": [
+        "Heilongjiang fills the far north-east corner of China, a cold inland province on the Russian border, with Harbin as its largest city and Jilin and Inner Mongol along its southern and western edges.",
+        "Its name means \"black dragon river\", the Chinese name for the Amur, and Harbin builds a whole city of ice each winter, when minus thirty degrees is an ordinary January morning.",
+        "Remember the black dragon river on the Russian border, and the ice city raised from the frozen river in China’s coldest corner."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Heilongjiang",
+        "https://en.wikipedia.org/wiki/Harbin",
+        "https://en.wikipedia.org/wiki/Amur_River"
+      ],
+      "cameraBounds": [
+        [
+          125.723,
+          46.752
+        ],
+        [
+          130.223,
+          50.252
+        ]
+      ],
+      "transition": "Let's bring Heilongjiang into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              125.723,
+              46.752
+            ],
+            [
+              130.223,
+              50.252
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inner Mongol",
+      "location": [
+        100.398,
+        40.9296
+      ],
+      "lines": [
+        "Inner Mongol is the long belt of grassland and desert arcing across the whole top of China, its western arm reaching into the Gobi and its eastern end on the Russian border, with Baotou as its largest city.",
+        "The name means \"inner\" as opposed to Outer Mongolia, which became an independent country, and one mine at Bayan Obo supplies most of the world’s rare earths, the metals in every phone and wind turbine.",
+        "Remember the strip two thousand four hundred kilometres long along the top of China, where \"inner\" only meant nearer to Beijing."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inner_Mongolia",
+        "https://en.wikipedia.org/wiki/Bayan_Obo_mine",
+        "https://en.wikipedia.org/wiki/Mongolia"
+      ],
+      "cameraBounds": [
+        [
+          98.148,
+          39.18
+        ],
+        [
+          102.648,
+          42.68
+        ]
+      ],
+      "transition": "Let's bring Inner Mongol into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              98.148,
+              39.18
+            ],
+            [
+              102.648,
+              42.68
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jilin",
+      "location": [
+        126.4736,
+        43.5658
+      ],
+      "lines": [
+        "Jilin lies in the north-east between Inner Mongol to the west and the Korean border to the east, with Changchun as its largest city and Heilongjiang on its northern side.",
+        "Its name comes from the Manchu for \"along the river\", the Songhua, and Mount Changbai on the Korean border is a volcano with a crater lake that feeds three great rivers.",
+        "Remember the province named along the river, with the volcano lake on its Korean border feeding the Songhua and two more."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jilin",
+        "https://en.wikipedia.org/wiki/Mount_Changbai",
+        "https://en.wikipedia.org/wiki/Songhua_River"
+      ],
+      "cameraBounds": [
+        [
+          124.224,
+          41.816
+        ],
+        [
+          128.724,
+          45.316
+        ]
+      ],
+      "transition": "Let's bring Jilin into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              124.224,
+              41.816
+            ],
+            [
+              128.724,
+              45.316
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xinjiang",
+      "location": [
+        84.9843,
+        41.7529
+      ],
+      "lines": [
+        "Xinjiang fills the far west of China, the great inland region of deserts and basins stretching from the Pamirs in the west to the Gobi in the east, with Ürümqi as its largest city and Gansu, Qinghai and Xizang along its eastern edge.",
+        "It is China’s largest region, a sixth of the whole country and the farthest place on earth from any ocean, and the name means \"new frontier\", given when it became a province in 1884.",
+        "Remember the westernmost region, a sixth of China, where Turpan lies below sea level and water still runs in two-thousand-year-old underground channels."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Xinjiang",
+        "https://en.wikipedia.org/wiki/Turpan",
+        "https://en.wikipedia.org/wiki/Karez"
+      ],
+      "cameraBounds": [
+        [
+          82.734,
+          40.003
+        ],
+        [
+          87.234,
+          43.503
+        ]
+      ],
+      "transition": "Let's bring Xinjiang into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              82.734,
+              40.003
+            ],
+            [
+              87.234,
+              43.503
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liaoning",
+      "location": [
+        122.3106,
+        41.0909
+      ],
+      "lines": [
+        "Liaoning is the north-east coastal province on the Yellow Sea, north of Hebei and across the gulf from Shandong, with Shenyang as its largest city and Inner Mongol and Jilin inland to the north-west.",
+        "It was the Manchu capital before Beijing, and its old industrial heartland of coal, steel and shipyards built much of the country’s navy.",
+        "Remember the old Manchu capital on the Yellow Sea, with the coal and steel of the north-east industry behind it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Liaoning",
+        "https://en.wikipedia.org/wiki/Shenyang",
+        "https://en.wikipedia.org/wiki/Mukden_Palace"
+      ],
+      "cameraBounds": [
+        [
+          120.061,
+          39.341
+        ],
+        [
+          124.561,
+          42.841
+        ]
+      ],
+      "transition": "Let's bring Liaoning into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              120.061,
+              39.341
+            ],
+            [
+              124.561,
+              42.841
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beijing",
+      "location": [
+        116.4278,
+        40.2366
+      ],
+      "lines": [
+        "Beijing is the inland capital municipality in the north-east of China, ringed by Hebei on three sides with the coastal city of Tianjin just to its south-east.",
+        "It has been the capital on and off since Kublai Khan made it one in 1272, and the Forbidden City, with its nine hundred and eighty buildings, was closed to ordinary people for nearly five hundred years.",
+        "Remember the northern capital facing south toward the crowded coast, with the Forbidden City that ordinary people could not enter for centuries."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Beijing",
+        "https://en.wikipedia.org/wiki/Forbidden_City",
+        "https://en.wikipedia.org/wiki/Kublai_Khan"
+      ],
+      "cameraBounds": [
+        [
+          115.177,
+          39.243
+        ],
+        [
+          117.679,
+          41.23
+        ]
+      ],
+      "transition": "Let's bring Beijing into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              115.177,
+              39.243
+            ],
+            [
+              117.679,
+              41.23
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tianjin",
+      "location": [
+        117.3602,
+        39.4081
+      ],
+      "lines": [
+        "Tianjin is the coastal municipality on the Bohai Sea just south-east of Beijing, the port at the mouth of the Hai river, with Hebei wrapping around it.",
+        "Its name means \"the ford of heaven\", the crossing where an emperor forded the river on his way to the throne in 1400, and nine foreign powers held concessions here before 1945.",
+        "Remember the heavenly ford, the port that let the capital stay inland, with its old European concession streets."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tianjin",
+        "https://en.wikipedia.org/wiki/Bohai_Sea",
+        "https://en.wikipedia.org/wiki/Hai_River"
+      ],
+      "cameraBounds": [
+        [
+          116.548,
+          38.347
+        ],
+        [
+          118.172,
+          40.469
+        ]
+      ],
+      "transition": "Let's bring Tianjin into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              116.548,
+              38.347
+            ],
+            [
+              118.172,
+              40.469
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hebei",
+      "location": [
+        116.6521,
+        39.3255
+      ],
+      "lines": [
+        "Hebei wraps around Beijing and Tianjin on three sides in the north-east of China, a crowded coastal province reaching the sea at Shanhaiguan, with Shijiazhuang as its largest city and Shanxi and Henan to the west.",
+        "Its name means \"north of the river\", the Yellow River, with Henan as the south bank on the same map, and the Great Wall reaches the sea here at the pass called the First Pass Under Heaven.",
+        "Remember the province that surrounds the capital, where the Great Wall ends at the sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hebei",
+        "https://en.wikipedia.org/wiki/Shanhaiguan",
+        "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+      ],
+      "cameraBounds": [
+        [
+          114.402,
+          37.576
+        ],
+        [
+          118.902,
+          41.076
+        ]
+      ],
+      "transition": "Let's bring Hebei into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              114.402,
+              37.576
+            ],
+            [
+              118.902,
+              41.076
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gansu",
+      "location": [
+        94.5425,
+        40.5251
+      ],
+      "lines": [
+        "Gansu is the long thin province running across the middle of China from the Gobi in the north-west down to the Tibetan plateau in the south, its northern arm the Hexi Corridor, with Lanzhou on the Yellow River as its largest city.",
+        "Its name joins two Silk Road garrison towns, Ganzhou and Suzhou, and that narrow northern arm is the only easy way between China proper and Central Asia, which is why the Great Wall stops out here at Jiayuguan.",
+        "Remember the corridor of the north-west where the Silk Road ran and the Great Wall stopped, with the painted caves of Dunhuang at its far end."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gansu",
+        "https://en.wikipedia.org/wiki/Hexi_Corridor",
+        "https://en.wikipedia.org/wiki/Mogao_Caves"
+      ],
+      "cameraBounds": [
+        [
+          92.293,
+          38.775
+        ],
+        [
+          96.793,
+          42.275
+        ]
+      ],
+      "transition": "Let's bring Gansu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              92.293,
+              38.775
+            ],
+            [
+              96.793,
+              42.275
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shanxi",
+      "location": [
+        112.3966,
+        37.6632
+      ],
+      "lines": [
+        "Shanxi stands on the loess plateau in the inland centre of China, west of the Taihang mountains that separate it from Hebei and Shandong, with Taiyuan as its largest city and Shaanxi on its western edge.",
+        "About a quarter of China’s coal comes from here, and the plateau it stands on is made of wind-blown loess hundreds of metres deep.",
+        "Remember the coal plateau west of the mountains, where Pingyao still keeps its Ming walls because the town grew too poor to rebuild them."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shanxi",
+        "https://en.wikipedia.org/wiki/Taihang_Mountains",
+        "https://en.wikipedia.org/wiki/Pingyao"
+      ],
+      "cameraBounds": [
+        [
+          110.147,
+          35.913
+        ],
+        [
+          114.647,
+          39.413
+        ]
+      ],
+      "transition": "Let's bring Shanxi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              110.147,
+              35.913
+            ],
+            [
+              114.647,
+              39.413
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ningxia",
+      "location": [
+        106.008,
+        37.3173
+      ],
+      "lines": [
+        "Ningxia is a small inland region on the Yellow River in the north-centre of China, a green ribbon of irrigated fields between Gansu to the west and Inner Mongol and Shaanxi to the east and south.",
+        "Its name means \"pacified Xia\", the Western Xia kingdom the Mongols destroyed in 1227, and the Yellow River runs through it as an oasis in otherwise dry country.",
+        "Remember the narrow green strip along the Yellow River at the edge of the Gobi, where the Hui Chinese Muslims settled."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ningxia",
+        "https://en.wikipedia.org/wiki/Western_Xia",
+        "https://en.wikipedia.org/wiki/Hui_people"
+      ],
+      "cameraBounds": [
+        [
+          103.946,
+          35.567
+        ],
+        [
+          108.07,
+          39.067
+        ]
+      ],
+      "transition": "Let's bring Ningxia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              103.946,
+              35.567
+            ],
+            [
+              108.07,
+              39.067
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shandong",
+      "location": [
+        118.7451,
+        36.335
+      ],
+      "lines": [
+        "Shandong is the coastal province jutting out into the Yellow Sea on China’s crowded eastern side, with Zibo as its largest city and Hebei and Henan to the west and Jiangsu to the south-west.",
+        "Its name means \"east of the mountains\", the same Taihang range that names Shanxi seen from the other side, and Confucius was born here, at Qufu.",
+        "Remember the eastern shore where Confucius was born, with Mount Tai climbed by emperors for two thousand years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shandong",
+        "https://en.wikipedia.org/wiki/Confucius",
+        "https://en.wikipedia.org/wiki/Mount_Tai"
+      ],
+      "cameraBounds": [
+        [
+          116.495,
+          34.585
+        ],
+        [
+          120.995,
+          38.085
+        ]
+      ],
+      "transition": "Let's bring Shandong into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              116.495,
+              34.585
+            ],
+            [
+              120.995,
+              38.085
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shaanxi",
+      "location": [
+        106.1349,
+        33.4518
+      ],
+      "lines": [
+        "Shaanxi is the inland province in the centre of China, home to Xi’an, running from the loess plateau in the north down to the Qinling mountains in the south, with Gansu and Ningxia along its western edge.",
+        "It is spelled with a double a on purpose, because Shanxi and Shaanxi sound alike in Mandarin and differ only in tone, and its terracotta army of some eight thousand figures was found by farmers digging a well in 1974.",
+        "Remember the double a that keeps the two Shans apart on a page, and the army of clay soldiers uncovered by a well."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shaanxi",
+        "https://en.wikipedia.org/wiki/Terracotta_Army",
+        "https://en.wikipedia.org/wiki/Xi%27an"
+      ],
+      "cameraBounds": [
+        [
+          103.885,
+          31.702
+        ],
+        [
+          108.385,
+          35.202
+        ]
+      ],
+      "transition": "Let's bring Shaanxi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              103.885,
+              31.702
+            ],
+            [
+              108.385,
+              35.202
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qinghai",
+      "location": [
+        96.2378,
+        35.5112
+      ],
+      "lines": [
+        "Qinghai is the high inland province on the Tibetan plateau in the west of China, holding the blue-green lake that gives it its name, with Xining as its largest city and Xinjiang and Xizang along its western rim.",
+        "Both the Yellow River and the Yangtze rise here, within a few hundred kilometres of each other, so the water for nearly two billion people downstream starts on this plateau.",
+        "Remember the blue-green sea on the roof of China, where the Yellow River and the Yangtze begin side by side."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qinghai",
+        "https://en.wikipedia.org/wiki/Qinghai_Lake",
+        "https://en.wikipedia.org/wiki/Yangtze"
+      ],
+      "cameraBounds": [
+        [
+          93.988,
+          33.761
+        ],
+        [
+          98.488,
+          37.261
+        ]
+      ],
+      "transition": "Let's bring Qinghai into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              93.988,
+              33.761
+            ],
+            [
+              98.488,
+              37.261
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Henan",
+      "location": [
+        113.4844,
+        33.8882
+      ],
+      "lines": [
+        "Henan is the inland province on the Yellow River floodplain in the centre of China, the crowded heartland south of the river, with Zhengzhou as its largest city and Shanxi and Shaanxi to the west.",
+        "Its name means \"south of the river\", the other bank from Hebei, and the Shaolin monastery is here, near Luoyang and Kaifeng, both imperial capitals long before Beijing.",
+        "Remember the southern bank of the Yellow River, where Chinese civilisation began, with the monks of Shaolin and the old capital cities of Luoyang and Kaifeng."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Henan",
+        "https://en.wikipedia.org/wiki/Shaolin_Monastery",
+        "https://en.wikipedia.org/wiki/Zhengzhou"
+      ],
+      "cameraBounds": [
+        [
+          111.234,
+          32.138
+        ],
+        [
+          115.734,
+          35.638
+        ]
+      ],
+      "transition": "Let's bring Henan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              111.234,
+              32.138
+            ],
+            [
+              115.734,
+              35.638
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xizang",
+      "location": [
+        88.7449,
+        31.8822
+      ],
+      "lines": [
+        "Xizang is the high plateau in the south-west of China, the roof of the world above the Himalayan ranges, with Lhasa as its largest city and Yunnan on its southern edge.",
+        "It is the highest region on earth, averaging over four and a half thousand metres, and Everest stands on its border with Nepal while the Potala Palace in Lhasa holds a thousand rooms.",
+        "Remember the roof of the world, where Everest is on the border and a palace of a thousand rooms looks out over the plateau."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tibet",
+        "https://en.wikipedia.org/wiki/Potala_Palace",
+        "https://en.wikipedia.org/wiki/Mount_Everest"
+      ],
+      "cameraBounds": [
+        [
+          86.495,
+          30.132
+        ],
+        [
+          90.995,
+          33.632
+        ]
+      ],
+      "transition": "Let's bring Xizang into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              86.495,
+              30.132
+            ],
+            [
+              90.995,
+              33.632
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          83.78,
+          30.88
+        ],
+        [
+          129.17,
+          49.5
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "16 regions of China, one for each target of the map: Heilongjiang, Inner Mongol, Jilin, Xinjiang, Liaoning, Beijing, Tianjin, Hebei, Gansu, Shanxi, Ningxia, Shandong, Shaanxi, Qinghai, Henan and Xizang.",
+    "Remember the shape of China from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

@@ -4,21 +4,21 @@ For GeoClick YouTube publishing, read [docs/YOUTUBE_PUBLISHING.md](docs/YOUTUBE_
 Use `bin/geoclick-youtube.ps1` and installed youtube3 **2.10.0**. OAuth,
 uploads, captions and uncertain-write recovery belong to youtube3; do not
 reimplement them or modify its repository. The profile/channel/playlist,
-all 77 known video IDs and original queue locations are pinned in
+all 90 known video IDs and original queue locations are pinned in
 `config/geoclick-youtube.json`. Preserve all native checkpoints and the shared
 upload ledger. Never reupload known videos. The old operational scripts now
 delegate here; their originals are backed up. Stop calls using an exhausted quota bucket; private uploads have a separate
 quota bucket and may continue through the upload-only runner. Stop on upload quota
 errors; do not create a scheduled task.
 
-**All 77 GeoClick videos are published.** Thirty-two are public (2 November
+**All 90 GeoClick videos are published.** Thirty-two are public (2 November
 2026): US 5, Europe 6, Asia 7, Africa 8, North America 3 and South America 3,
 each with the playlist link in every description. Twenty-one more went out the
 same day as **unlisted** members at the end of the same public playlist: the
 Europe capitals, Asia capitals, South America capitals and North America
 capitals lessons. Four more, the Oceania capitals lessons, the six Africa
-capitals lessons and the thirteen regions lessons went out unlisted on
-3 November 2026. The playlist `PLNl_MybP55PE` is public with all 77 members
+capitals lessons and the nineteen regions lessons went out unlisted on
+3 November 2026. The playlist `PLNl_MybP55PE` is public with all 90 members
 in order, confirmed by a fresh read on 3 November 2026: none missing, none
 duplicated, the playlist link in every description.
 The owner postponed
@@ -26,7 +26,7 @@ subtitles, so no caption
 track was installed for Europe 6, the seven Asia videos, the eight Africa
 videos, the twenty North America, South America and capitals videos, the
 four Oceania capitals videos, the six Africa capitals videos or any of
-the thirteen regions lessons; the ten US and Europe captions already accepted
+the nineteen regions lessons; the ten US and Europe captions already accepted
 remain. Add the deferred captions later per video with
 `bin/install-captions.py`, which uses youtube3's own caption upload, keeps a
 ledger of accepted caption IDs and stops on a quota refusal. **Do not resume
@@ -106,9 +106,9 @@ package scripts are shared (`bin/prepare-regions-series.mjs`,
 with a `groups` list becomes one lesson per group, and each group keeps the
 map's own tour order within itself.
 
-Thirteen countries are done and published, all **unlisted** in the same playlist
-on 3 November 2026, with their screenshot thumbnails and the playlist link and
-their captions deferred:
+Nineteen countries are done and published, all **unlisted** in the same
+playlist on 3 November 2026, with their screenshot thumbnails and the playlist
+link and their captions deferred:
 
 | Country | Lesson | Regions | Duration | Video ID |
 |---|---|---|---|---|
@@ -126,6 +126,19 @@ their captions deferred:
 | Morocco | Morocco's regions | 12 | 9:29 | `o2jXgTKKJRo` |
 | Egypt | Egypt's regions | 27 | 21:04 | `I-4uyV_cjQI` |
 | Sweden | Sweden's regions | 21 | 16:13 | `eELcpw0Qycw` |
+| Brazil | The north and the northeast | 14 | 11:26 | `S2oYPMXLQz0` |
+| Brazil | The centre and the south | 13 | 10:14 | `7-cbif09wPk` |
+| Mexico | The north and the west | 16 | 14:04 | `-_YFonal76o` |
+| Mexico | The centre and the south | 16 | 12:37 | `gSXzTJizZmw` |
+| New Zealand | New Zealand's regions | 16 | 12:12 | `VTGm-gcURNs` |
+| Nigeria | The north and the middle belt | 20 | 16:46 | `NPZVIMoh8FE` |
+| Nigeria | The south | 17 | 13:34 | `5NqrXcxxRhA` |
+| Iran | The north and the west | 16 | 14:02 | `OF4V42HcSmM` |
+| Iran | The south and the east | 15 | 12:24 | `80ktJdnbA_Q` |
+| Japan | Hokkaido and the northern mainland | 7 | 5:34 | `oWARR3JLO0s` |
+| Japan | The central mountains and the north coast | 8 | 6:32 | `N9HK4i6NDz0` |
+| Japan | The capital region and the western heartland | 15 | 11:13 | `wbJ1N6dVqMQ` |
+| Japan | The west and the south | 17 | 12:08 | `dKx962W9Ujg` |
 
 Each content file is `src/lessons/<country>-regions-content.mjs` and each
 ledger `src/lessons/<country>-regions-coverage.json`; the outputs are

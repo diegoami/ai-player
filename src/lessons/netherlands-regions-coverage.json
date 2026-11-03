@@ -1,0 +1,64 @@
+{
+  "edition": "Netherlands · Regions of Europe · one lesson per country · November 2026",
+  "status": "in-production",
+  "scope": "All 12 region targets of GeoClick's native netherlands-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 12,
+  "countryCount": 1,
+  "nativeTargetCount": 12,
+  "nativeTeachingStopCount": 12,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 0,
+  "episodes": [
+    {
+      "id": "netherlands-regions-regions",
+      "title": "The Netherlands' provinces",
+      "status": "preflight-passed",
+      "lesson": "src/lessons/netherlands-regions-lesson.json",
+      "places": [
+        "Groningen",
+        "Friesland",
+        "Drenthe",
+        "Noord-Holland",
+        "Flevoland",
+        "Overijssel",
+        "Gelderland",
+        "Utrecht",
+        "Zuid-Holland",
+        "Noord-Brabant",
+        "Zeeland",
+        "Limburg"
+      ],
+      "countries": [
+        "Groningen",
+        "Friesland",
+        "Drenthe",
+        "Noord-Holland",
+        "Flevoland",
+        "Overijssel",
+        "Gelderland",
+        "Utrecht",
+        "Zuid-Holland",
+        "Noord-Brabant",
+        "Zeeland",
+        "Limburg"
+      ],
+      "nativeTargets": [
+        "Groningen",
+        "Friesland",
+        "Drenthe",
+        "Noord-Holland",
+        "Flevoland",
+        "Overijssel",
+        "Gelderland",
+        "Utrecht",
+        "Zuid-Holland",
+        "Noord-Brabant",
+        "Zeeland",
+        "Limburg"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/netherlands-regions-20261103/geoclick/play-no-subtitles.mp4"
+    }
+  ]
+}

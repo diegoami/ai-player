@@ -1,0 +1,875 @@
+{
+  "title": "Greece's regions · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "greece-regions",
+  "area": "Greece",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/greece-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      19.42,
+      34.29
+    ],
+    [
+      29,
+      42.07
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Eastern Macedonia and Thrace",
+      "location": [
+        25.1307,
+        41.072
+      ],
+      "bounds": [
+        [
+          23.248,
+          40.23
+        ],
+        [
+          27.013,
+          41.914
+        ]
+      ]
+    },
+    {
+      "name": "Central Macedonia",
+      "location": [
+        22.9105,
+        40.6616
+      ],
+      "bounds": [
+        [
+          21.396,
+          39.739
+        ],
+        [
+          24.425,
+          41.584
+        ]
+      ]
+    },
+    {
+      "name": "Western Macedonia",
+      "location": [
+        21.4553,
+        40.3664
+      ],
+      "bounds": [
+        [
+          20.561,
+          39.664
+        ],
+        [
+          22.35,
+          41.068
+        ]
+      ]
+    },
+    {
+      "name": "Mount Athos",
+      "location": [
+        24.1925,
+        40.2578
+      ],
+      "bounds": [
+        [
+          23.392,
+          39.658
+        ],
+        [
+          24.992,
+          40.858
+        ]
+      ]
+    },
+    {
+      "name": "Epirus",
+      "location": [
+        20.7632,
+        39.6384
+      ],
+      "bounds": [
+        [
+          19.963,
+          38.778
+        ],
+        [
+          21.563,
+          40.499
+        ]
+      ]
+    },
+    {
+      "name": "Thessaly",
+      "location": [
+        22.2264,
+        39.5622
+      ],
+      "bounds": [
+        [
+          20.831,
+          38.806
+        ],
+        [
+          23.621,
+          40.319
+        ]
+      ]
+    },
+    {
+      "name": "North Aegean",
+      "location": [
+        25.9352,
+        39.1972
+      ],
+      "bounds": [
+        [
+          24.795,
+          37.205
+        ],
+        [
+          27.298,
+          40.351
+        ]
+      ]
+    },
+    {
+      "name": "Ionian Islands",
+      "location": [
+        20.6203,
+        38.1344
+      ],
+      "bounds": [
+        [
+          19.469,
+          37.38
+        ],
+        [
+          21.069,
+          40.096
+        ]
+      ]
+    },
+    {
+      "name": "Central Greece",
+      "location": [
+        23.0194,
+        38.6078
+      ],
+      "bounds": [
+        [
+          20.948,
+          37.813
+        ],
+        [
+          25.091,
+          39.403
+        ]
+      ]
+    },
+    {
+      "name": "Western Greece",
+      "location": [
+        20.9118,
+        38.7595
+      ],
+      "bounds": [
+        [
+          20.524,
+          37.157
+        ],
+        [
+          22.578,
+          39.376
+        ]
+      ]
+    },
+    {
+      "name": "Peloponnese",
+      "location": [
+        22.5047,
+        37.3031
+      ],
+      "bounds": [
+        [
+          21.333,
+          36.228
+        ],
+        [
+          23.676,
+          38.378
+        ]
+      ]
+    },
+    {
+      "name": "Attica",
+      "location": [
+        23.2956,
+        38.0975
+      ],
+      "bounds": [
+        [
+          22.694,
+          35.87
+        ],
+        [
+          24.294,
+          38.616
+        ]
+      ]
+    },
+    {
+      "name": "South Aegean",
+      "location": [
+        27.7996,
+        36.0494
+      ],
+      "bounds": [
+        [
+          24.009,
+          35.18
+        ],
+        [
+          28.509,
+          38.31
+        ]
+      ]
+    },
+    {
+      "name": "Crete",
+      "location": [
+        24.9197,
+        35.2927
+      ],
+      "bounds": [
+        [
+          23.168,
+          34.693
+        ],
+        [
+          26.671,
+          35.893
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Greece's regions, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 14 of the Greece regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Eastern Macedonia and Thrace",
+      "location": [
+        25.1307,
+        41.072
+      ],
+      "lines": [
+        "Eastern Macedonia and Thrace fills Greece’s north-eastern mainland, along the Aegean coast at the western tip of Thrace, with Kavala as its largest city and Central Macedonia to the west.",
+        "At Philippi, near Kavala, Octavian and Mark Antony beat Brutus and Cassius, the assassins of Caesar, in 42 BC; the region also holds Greece’s Muslim minority of Turkish-speakers and Pomaks, the one group the 1923 exchange with Turkey left in place.",
+        "Remember the north-eastern corner where Thrace runs out towards Bulgaria and Turkey, and the Muslim minority that the 1923 exchange left behind."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eastern_Macedonia_and_Thrace",
+        "https://en.wikipedia.org/wiki/Philippi",
+        "https://en.wikipedia.org/wiki/Thrace"
+      ],
+      "cameraBounds": [
+        [
+          23.248,
+          40.23
+        ],
+        [
+          27.013,
+          41.914
+        ]
+      ],
+      "transition": "Let's bring Eastern Macedonia and Thrace into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.248,
+              40.23
+            ],
+            [
+              27.013,
+              41.914
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central Macedonia",
+      "location": [
+        22.9105,
+        40.6616
+      ],
+      "lines": [
+        "Central Macedonia fills the middle of Greece’s northern mainland, with Thessaloniki on the Thermaic Gulf as its largest city and Mount Athos standing on the coast to the east.",
+        "At Vergina, the ancient Aigai, a tomb opened in 1977 is believed to be that of Philip II, Alexander the Great’s father, and the sixteen-rayed sun found there now flies on the flag of North Macedonia.",
+        "Remember the middle of the north, where Thessaloniki guards the Thermaic Gulf and the tomb of Alexander’s father came out of a hillside in 1977."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Central_Macedonia",
+        "https://en.wikipedia.org/wiki/Vergina",
+        "https://en.wikipedia.org/wiki/Thessaloniki"
+      ],
+      "cameraBounds": [
+        [
+          21.396,
+          39.739
+        ],
+        [
+          24.425,
+          41.584
+        ]
+      ],
+      "transition": "Let's bring Central Macedonia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.396,
+              39.739
+            ],
+            [
+              24.425,
+              41.584
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Western Macedonia",
+      "location": [
+        21.4553,
+        40.3664
+      ],
+      "lines": [
+        "Western Macedonia is the inland north-western region of Greece, meeting Epirus to the west and Thessaly to the south, and it has no sea coast at all.",
+        "Its lignite mines around Kozani and Ptolemaida generated most of Greece’s electricity for decades, and both towns grew up out of the workings, which run hundreds of metres down beneath the plain.",
+        "Remember the power region with no sea, whose towns grew down into the coal, and the beaver lake of Kastoria at its far edge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Western_Macedonia",
+        "https://en.wikipedia.org/wiki/Kozani",
+        "https://en.wikipedia.org/wiki/Kastoria"
+      ],
+      "cameraBounds": [
+        [
+          20.561,
+          39.664
+        ],
+        [
+          22.35,
+          41.068
+        ]
+      ],
+      "transition": "Let's bring Western Macedonia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              20.561,
+              39.664
+            ],
+            [
+              22.35,
+              41.068
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mount Athos",
+      "location": [
+        24.1925,
+        40.2578
+      ],
+      "lines": [
+        "Mount Athos is the finger of land that juts into the northern Aegean off the coast of Central Macedonia, and it is a self-governing monastic state rather than an ordinary region.",
+        "It is a republic of twenty monasteries with its own law under Greek sovereignty, and the rule that no woman may set foot on the mountain has been kept for close to a thousand years; the name comes from Athos, the giant of Greek myth.",
+        "Remember the holy thumb of Greece, where twenty monasteries share the land and no woman has set foot for a thousand years."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mount_Athos",
+        "https://en.wikipedia.org/wiki/Athos_(mythology)",
+        "https://en.wikipedia.org/wiki/Great_Lavra"
+      ],
+      "cameraBounds": [
+        [
+          23.392,
+          39.658
+        ],
+        [
+          24.992,
+          40.858
+        ]
+      ],
+      "transition": "Let's bring Mount Athos into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.392,
+              39.658
+            ],
+            [
+              24.992,
+              40.858
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Epirus",
+      "location": [
+        20.7632,
+        39.6384
+      ],
+      "lines": [
+        "Epirus fills Greece’s north-western corner, running from the Ionian Sea coast inland to the Pindus mountains, with Ioanina on the shore of its lake as the largest city.",
+        "Herodotus called Dodona the oldest oracle in Greece, where the priests read the will of Zeus in the rustling of an oak, and the Vikos Gorge above it is listed by Guinness as the deepest canyon in the world for its width.",
+        "Remember the mainland seen from the islands, with the oldest oracle in its oak grove and the deepest canyon cut above it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Epirus",
+        "https://en.wikipedia.org/wiki/Dodona",
+        "https://en.wikipedia.org/wiki/Vikos_Gorge"
+      ],
+      "cameraBounds": [
+        [
+          19.963,
+          38.778
+        ],
+        [
+          21.563,
+          40.499
+        ]
+      ],
+      "transition": "Let's bring Epirus into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19.963,
+              38.778
+            ],
+            [
+              21.563,
+              40.499
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thessaly",
+      "location": [
+        22.2264,
+        39.5622
+      ],
+      "lines": [
+        "Thessaly is the wide plain of central Greece, ringed by mountains and opening to the Aegean, with Larissa in the middle and the Pindus on its western edge.",
+        "At Meteora, monks began in the 14th century to build monasteries on top of sandstone pillars, reached for centuries only by ladders and nets; Volos stands where the myth put Iolcos, the town from which Jason sailed with the Argonauts.",
+        "Remember the wide plain ringed by mountains, with the monastery towns perched on stone pillars above it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thessaly",
+        "https://en.wikipedia.org/wiki/Meteora",
+        "https://en.wikipedia.org/wiki/Volos"
+      ],
+      "cameraBounds": [
+        [
+          20.831,
+          38.806
+        ],
+        [
+          23.621,
+          40.319
+        ]
+      ],
+      "transition": "Let's bring Thessaly into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              20.831,
+              38.806
+            ],
+            [
+              23.621,
+              40.319
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North Aegean",
+      "location": [
+        25.9352,
+        39.1972
+      ],
+      "lines": [
+        "The North Aegean is the group of islands lying off the Turkish coast in the northern Aegean, east of mainland Greece, and the largest of them is Lesbos, whose town is Mitilini.",
+        "Lesbos is where Sappho was born around 630 BC, and the English word lesbian comes from the island; the mastic tree that gives the chewing gum of antiquity grows only in the south of Chios.",
+        "Remember the islands off Turkey, where the word lesbian comes from and the mastic tree grows in one corner of Chios only."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Aegean",
+        "https://en.wikipedia.org/wiki/Lesbos",
+        "https://en.wikipedia.org/wiki/Mastic_(plant_resin)"
+      ],
+      "cameraBounds": [
+        [
+          24.795,
+          37.205
+        ],
+        [
+          27.298,
+          40.351
+        ]
+      ],
+      "transition": "Let's bring North Aegean into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.795,
+              37.205
+            ],
+            [
+              27.298,
+              40.351
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ionian Islands",
+      "location": [
+        20.6203,
+        38.1344
+      ],
+      "lines": [
+        "The Ionian Islands lie in the Ionian Sea off the west coast of Greece, the long chain running down from Corfu towards the heel of Italy, with Kerkira, the town on the island of Corfu, the largest of them.",
+        "Venice held Corfu and most of the islands until 1797, and Corfu never fell to the Ottomans; Britain ruled them as a protectorate from 1815 and handed them to Greece in 1864.",
+        "Remember the western chain of islands, Venetian for centuries and never once taken by the Ottomans."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ionian_Islands",
+        "https://en.wikipedia.org/wiki/Corfu",
+        "https://en.wikipedia.org/wiki/Ionian_Sea"
+      ],
+      "cameraBounds": [
+        [
+          19.469,
+          37.38
+        ],
+        [
+          21.069,
+          40.096
+        ]
+      ],
+      "transition": "Let's bring Ionian Islands into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              19.469,
+              37.38
+            ],
+            [
+              21.069,
+              40.096
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central Greece",
+      "location": [
+        23.0194,
+        38.6078
+      ],
+      "lines": [
+        "Central Greece is the mainland heart of the country, between Epirus and Thessaly to the north and Attica to the south, with the city of Chalkida, called Chalcis in English, on the narrow strait of Euripus.",
+        "The Greeks called it Sterea Ellada, the solid Greece, as against the islands and the Peloponnese, and Delphi here was held to be the centre of the world; at Thermopylae, the hot gates, Leonidas and his Spartans held the pass against the Persians in 480 BC.",
+        "Remember the solid Greece, the mainland that is not an island, with the oracle of Delphi at its centre and the hot gates on the road north."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Central_Greece",
+        "https://en.wikipedia.org/wiki/Delphi",
+        "https://en.wikipedia.org/wiki/Thermopylae"
+      ],
+      "cameraBounds": [
+        [
+          20.948,
+          37.813
+        ],
+        [
+          25.091,
+          39.403
+        ]
+      ],
+      "transition": "Let's bring Central Greece into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              20.948,
+              37.813
+            ],
+            [
+              25.091,
+              39.403
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Western Greece",
+      "location": [
+        20.9118,
+        38.7595
+      ],
+      "lines": [
+        "Western Greece covers the mainland shore on the Ionian Sea from Epirus down to the Peloponnese, with Patra on its eastern edge as the largest city.",
+        "Olympia, where the Olympic Games were held for more than a thousand years from 776 BC by the traditional count, lies in its southern part, and Byron died of a fever at Missolonghi here in 1824 while fighting for Greek independence.",
+        "Remember the western mainland with Olympia and its thousand-year games, and the poet who died here for Greek freedom."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Western_Greece",
+        "https://en.wikipedia.org/wiki/Olympia,_Greece",
+        "https://en.wikipedia.org/wiki/Missolonghi"
+      ],
+      "cameraBounds": [
+        [
+          20.524,
+          37.157
+        ],
+        [
+          22.578,
+          39.376
+        ]
+      ],
+      "transition": "Let's bring Western Greece into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              20.524,
+              37.157
+            ],
+            [
+              22.578,
+              39.376
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peloponnese",
+      "location": [
+        22.5047,
+        37.3031
+      ],
+      "lines": [
+        "The Peloponnese is the big hand of land at the foot of Greece, joined to the mainland by the narrow isthmus of Corinth, with Kalamata on its southern shore as the largest city.",
+        "It was a peninsula until the Corinth Canal opened in 1893 and cut it off, and Mycenae here, Agamemnon’s city in Homer, gave its name to the whole Bronze Age civilisation of Greece.",
+        "Remember the hand-shaped land at the foot of Greece, and the canal that turned it into an island."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Peloponnese",
+        "https://en.wikipedia.org/wiki/Mycenae",
+        "https://en.wikipedia.org/wiki/Corinth_Canal"
+      ],
+      "cameraBounds": [
+        [
+          21.333,
+          36.228
+        ],
+        [
+          23.676,
+          38.378
+        ]
+      ],
+      "transition": "Let's bring Peloponnese into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.333,
+              36.228
+            ],
+            [
+              23.676,
+              38.378
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Attica",
+      "location": [
+        23.2956,
+        38.0975
+      ],
+      "lines": [
+        "Attica wraps the capital Athens in the middle of the country, a peninsula with the sea on three sides, running from the Boeotian border down to the cape of Sounion.",
+        "The silver mines of Lavrio paid for the fleet that beat the Persians at Salamis in 480 BC, and the marathon race still remembers the runner who carried the news of victory from Marathon to Athens in 490 BC.",
+        "Remember the three-sided shore around Athens, with the silver that paid for the fleet at Salamis and the marble of the Acropolis above the city."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Attica",
+        "https://en.wikipedia.org/wiki/Lavrio",
+        "https://en.wikipedia.org/wiki/Athens"
+      ],
+      "cameraBounds": [
+        [
+          22.694,
+          35.87
+        ],
+        [
+          24.294,
+          38.616
+        ]
+      ],
+      "transition": "Let's bring Attica into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.694,
+              35.87
+            ],
+            [
+              24.294,
+              38.616
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South Aegean",
+      "location": [
+        27.7996,
+        36.0494
+      ],
+      "lines": [
+        "The South Aegean is the scatter of islands in the south-east of the Aegean, the Cyclades in the west and the Dodecanese along the Turkish coast in the east, and the largest town is Rodos on Rhodes.",
+        "Italy held the Dodecanese from 1912 and they became Greek only in 1947; Santorini’s crescent is the rim of a volcano that erupted around 1600 BC and buried the Bronze Age town of Akrotiri.",
+        "Remember the circle of islands around Delos and the twelve that are really more, with the Bronze Age town under Santorini’s rim."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_Aegean",
+        "https://en.wikipedia.org/wiki/Dodecanese",
+        "https://en.wikipedia.org/wiki/Akrotiri"
+      ],
+      "cameraBounds": [
+        [
+          24.009,
+          35.18
+        ],
+        [
+          28.509,
+          38.31
+        ]
+      ],
+      "transition": "Let's bring South Aegean into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.009,
+              35.18
+            ],
+            [
+              28.509,
+              38.31
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crete",
+      "location": [
+        24.9197,
+        35.2927
+      ],
+      "lines": [
+        "Crete is the long island lying off the southern tip of Greece, separated from the mainland by the Sea of Crete, and its largest town is Iraklio, called Heraklion in English, on the north coast.",
+        "Knossos was the centre of the Minoans, named by Arthur Evans after King Minos, and the myth of the labyrinth may remember its maze of rooms; the island became part of Greece only in 1913.",
+        "Remember the long island at the foot of the country, with the palace of Knossos and the rooms that may have been the labyrinth."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Crete",
+        "https://en.wikipedia.org/wiki/Knossos",
+        "https://en.wikipedia.org/wiki/Minoan_civilization"
+      ],
+      "cameraBounds": [
+        [
+          23.168,
+          34.693
+        ],
+        [
+          26.671,
+          35.893
+        ]
+      ],
+      "transition": "Let's bring Crete into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.168,
+              34.693
+            ],
+            [
+              26.671,
+              35.893
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          19.42,
+          34.29
+        ],
+        [
+          29,
+          42.07
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "14 regions of Greece, one for each target of the map: Eastern Macedonia and Thrace, Central Macedonia, Western Macedonia, Mount Athos, Epirus, Thessaly, North Aegean, Ionian Islands, Central Greece, Western Greece, Peloponnese, Attica, South Aegean and Crete.",
+    "Remember the shape of Greece from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "edition": "Nigeria · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 37 region targets of GeoClick's native nigeria-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 37,
   "countryCount": 1,
   "nativeTargetCount": 37,
   "nativeTeachingStopCount": 37,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 37,
   "episodes": [
     {
       "id": "nigeria-regions-north-and-middle-belt",
       "title": "The north and the middle belt",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/nigeria-regions-north-and-middle-belt-lesson.json",
       "places": [
         "Sokoto",
@@ -82,12 +82,35 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/nigeria-regions-20261103/01-north-and-middle-belt/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/nigeria-regions-20261103/01-north-and-middle-belt/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 1006.56,
+      "covered": [
+        "Sokoto",
+        "Katsina",
+        "Zamfara",
+        "Yobe",
+        "Jigawa",
+        "Borno",
+        "Kebbi",
+        "Kano",
+        "Bauchi",
+        "Gombe",
+        "Kaduna",
+        "Niger",
+        "Plateau",
+        "Adamawa",
+        "Kwara",
+        "Federal Capital Territory",
+        "Nasarawa",
+        "Oyo",
+        "Taraba",
+        "Benue"
+      ]
     },
     {
       "id": "nigeria-regions-south",
       "title": "The south",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/nigeria-regions-south-lesson.json",
       "places": [
         "Ekiti",
@@ -148,7 +171,27 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/nigeria-regions-20261103/02-south/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/nigeria-regions-20261103/02-south/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 814.2,
+      "covered": [
+        "Ekiti",
+        "Kogi",
+        "Osun",
+        "Ogun",
+        "Ondo",
+        "Edo",
+        "Lagos",
+        "Enugu",
+        "Anambra",
+        "Ebonyi",
+        "Cross River",
+        "Delta",
+        "Imo",
+        "Abia",
+        "Rivers",
+        "Akwa Ibom",
+        "Bayelsa"
+      ]
     }
   ]
 }

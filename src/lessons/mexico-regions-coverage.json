@@ -1,18 +1,18 @@
 {
   "edition": "Mexico · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 32 region targets of GeoClick's native mexico-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 32,
   "countryCount": 1,
   "nativeTargetCount": 32,
   "nativeTeachingStopCount": 32,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 32,
   "episodes": [
     {
       "id": "mexico-regions-north-and-west",
       "title": "The north and the west",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/mexico-regions-north-and-west-lesson.json",
       "places": [
         "Baja California",
@@ -70,12 +70,31 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/mexico-regions-20261103/01-north-and-west/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/mexico-regions-20261103/01-north-and-west/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 844.8,
+      "covered": [
+        "Baja California",
+        "Sonora",
+        "Chihuahua",
+        "Coahuila",
+        "Nuevo León",
+        "Baja California Sur",
+        "Tamaulipas",
+        "Sinaloa",
+        "Durango",
+        "Zacatecas",
+        "San Luis Potosí",
+        "Aguascalientes",
+        "Nayarit",
+        "Guanajuato",
+        "Jalisco",
+        "Querétaro"
+      ]
     },
     {
       "id": "mexico-regions-centre-and-south",
       "title": "The centre and the south",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/mexico-regions-centre-and-south-lesson.json",
       "places": [
         "Yucatán",
@@ -133,7 +152,26 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/mexico-regions-20261103/02-centre-and-south/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/mexico-regions-20261103/02-centre-and-south/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 757.2,
+      "covered": [
+        "Yucatán",
+        "Hidalgo",
+        "Veracruz",
+        "Quintana Roo",
+        "Tlaxcala",
+        "Puebla",
+        "México",
+        "Distrito Federal",
+        "Campeche",
+        "Michoacán",
+        "Colima",
+        "Morelos",
+        "Tabasco",
+        "Guerrero",
+        "Oaxaca",
+        "Chiapas"
+      ]
     }
   ]
 }

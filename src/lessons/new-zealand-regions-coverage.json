@@ -1,18 +1,18 @@
 {
   "edition": "New Zealand · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 16 region targets of GeoClick's native new-zealand-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 16,
   "countryCount": 1,
   "nativeTargetCount": 16,
   "nativeTeachingStopCount": 16,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 16,
   "episodes": [
     {
       "id": "new-zealand-regions-regions",
       "title": "New Zealand's regions",
-      "status": "preflight-passed",
+      "status": "complete",
       "lesson": "src/lessons/new-zealand-regions-lesson.json",
       "places": [
         "Northland",
@@ -70,7 +70,26 @@
       ],
       "relatedTargets": [],
       "supplemental": [],
-      "video": "rendered/new-zealand-regions-20261103/geoclick/play-no-subtitles.mp4"
+      "video": "rendered/new-zealand-regions-20261103/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 726.88,
+      "covered": [
+        "Northland",
+        "Auckland",
+        "Waikato",
+        "Bay of Plenty",
+        "Gisborne",
+        "Taranaki",
+        "Hawke's Bay",
+        "Manawatū-Whanganui",
+        "Wellington",
+        "Nelson",
+        "Tasman",
+        "Marlborough",
+        "West Coast",
+        "Canterbury",
+        "Otago",
+        "Southland"
+      ]
     }
   ]
 }
