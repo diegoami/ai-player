@@ -411,5 +411,6 @@
   "recap": [
     "Retrace the islands first: Iceland far northwest, Ireland west of Great Britain, and the United Kingdom spanning Great Britain and Northern Ireland.",
     "Then Denmark below the Scandinavian Peninsula, Norway along its Atlantic side, Sweden on its Baltic side, and Finland farther east. Connect each location with its fact, and try tracing the route without the labels."
-  ]
+  ],
+  "layout": "tall"
 }
