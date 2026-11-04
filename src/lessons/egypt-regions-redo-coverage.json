@@ -1,18 +1,18 @@
 {
   "edition": "Egypt · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 27 region targets of GeoClick's native egypt-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 27,
   "countryCount": 1,
   "nativeTargetCount": 27,
   "nativeTeachingStopCount": 27,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 27,
   "episodes": [
     {
       "id": "egypt-regions-redo-regions",
       "title": "Egypt's regions",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/egypt-regions-redo-lesson.json",
       "places": [
         "Damietta",
@@ -104,7 +104,37 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/egypt-regions-redo-20261104/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/egypt-regions-20261103/geoclick"
+      "audioCache": "rendered/egypt-regions-20261103/geoclick",
+      "durationSeconds": 1216.88,
+      "covered": [
+        "Damietta",
+        "Kafr el-Sheikh",
+        "Port Said",
+        "Dakahlia",
+        "Gharbia",
+        "Alexandria",
+        "Al Sharqia",
+        "Beheira",
+        "Ismailia",
+        "Monufia",
+        "North Sinai",
+        "Qalyubia",
+        "Cairo",
+        "Matrouh",
+        "Suez",
+        "Faiyum",
+        "Beni Suef",
+        "Giza",
+        "South Sinai",
+        "Minya",
+        "Asyut",
+        "Sohag",
+        "Luxor",
+        "Qena",
+        "Red Sea",
+        "New Valley",
+        "Aswan"
+      ]
     }
   ]
 }

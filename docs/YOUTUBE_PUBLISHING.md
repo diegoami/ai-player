@@ -622,6 +622,20 @@ The offline batch keeps its caption rows, exactly like the Africa and Asia
 batches; the derived upload batch omits them, so nothing caption-related
 happens on the account.
 
+## The regions redo: taller layout, 4 November 2026
+
+The owner judged the US-pilot frame layout wasteful for non-US maps, so a
+fitting pass (bin/fit-lesson-layout.mjs) now measures the classic layout
+against a taller variant per lesson and picks the better fit before every
+recording. Fifteen regions lessons went tall and were re-recorded on
+4 November 2026 with their narration reused from cached clips; Canada,
+Ukraine, Nigeria and three partial parts kept classic and were not
+re-recorded. The 16 replaced videos were deleted after their replacements
+were seated (bin/retire-videos.py holds the ledger), the seventeen dead
+playlist slots were cleared, and a reorder pass restored canonical order.
+The config's video_ids are the live IDs; the manifest carries the redo
+caption files and a redo_note on each replaced episode.
+
 ## The regions editions: uploaded unlisted
 
 A new kind of edition: one video that teaches one country's own first-level

@@ -428,6 +428,22 @@ def prepare(config, batch_module, captions, series_id=None):
              'romania-counties': 'Romania Counties',
              'netherlands-regions': 'Netherlands Regions',
              'indonesia-regions': 'Indonesia Regions',
+             'sweden-regions-redo': 'Sweden Regions Redo',
+             'spain-regions-redo': 'Spain Regions Redo',
+             'italy-regions-redo': 'Italy Regions Redo',
+             'france-regions-redo': 'France Regions Redo',
+             'germany-states-redo': 'Germany Regions Redo',
+             'great-britain-regions-redo': 'Great Britain Regions Redo',
+             'poland-regions-redo': 'Poland Regions Redo',
+             'australia-regions-redo': 'Australia Regions Redo',
+             'south-africa-provinces-redo': 'South Africa Regions Redo',
+             'morocco-regions-redo': 'Morocco Regions Redo',
+             'egypt-regions-redo': 'Egypt Regions Redo',
+             'new-zealand-regions-redo': 'New Zealand Regions Redo',
+             'brazil-regions-redo': 'Brazil Regions Redo',
+             'mexico-regions-redo': 'Mexico Regions Redo',
+             'iran-provinces-redo': 'Iran Regions Redo',
+             'japan-regions-redo': 'Japan Regions Redo',
              }.get(identity, identity.title())
     production = read(ROOT / series['ledger'])
     if production['status'] != 'complete':
@@ -521,7 +537,7 @@ def prepare(config, batch_module, captions, series_id=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=['audit', 'migrate', 'prepare', 'plan', 'resume', 'verify'], default='audit', nargs='?')
-    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions', 'italy-regions', 'france-regions', 'germany-states', 'great-britain-regions', 'poland-regions', 'ukraine-regions', 'australia-regions', 'canada-regions', 'south-africa-provinces', 'morocco-regions', 'egypt-regions', 'sweden-regions', 'brazil-regions', 'mexico-regions', 'nigeria-regions', 'iran-provinces', 'japan-regions', 'new-zealand-regions', 'china-regions', 'india-regions', 'greece-regions', 'romania-counties', 'netherlands-regions', 'indonesia-regions'], help='Offline prepare only; defaults to Asia')
+    parser.add_argument('--series', choices=['asia', 'africa', 'north-america', 'south-america', 'europe-capitals', 'asia-capitals', 'south-america-capitals', 'north-america-capitals', 'oceania-capitals', 'africa-capitals', 'spain-regions', 'italy-regions', 'france-regions', 'germany-states', 'great-britain-regions', 'poland-regions', 'ukraine-regions', 'australia-regions', 'canada-regions', 'south-africa-provinces', 'morocco-regions', 'egypt-regions', 'sweden-regions', 'brazil-regions', 'mexico-regions', 'nigeria-regions', 'iran-provinces', 'japan-regions', 'new-zealand-regions', 'china-regions', 'india-regions', 'greece-regions', 'romania-counties', 'netherlands-regions', 'indonesia-regions', 'spain-regions-redo', 'italy-regions-redo', 'france-regions-redo', 'germany-states-redo', 'great-britain-regions-redo', 'poland-regions-redo', 'australia-regions-redo', 'south-africa-provinces-redo', 'morocco-regions-redo', 'egypt-regions-redo', 'new-zealand-regions-redo', 'brazil-regions-redo', 'mexico-regions-redo', 'iran-provinces-redo', 'japan-regions-redo', 'sweden-regions-redo'], help='Offline prepare only; defaults to Asia')
     args = parser.parse_args()
     config = read(CONFIG)
     modules = library()

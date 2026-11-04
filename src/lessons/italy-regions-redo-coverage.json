@@ -1,18 +1,18 @@
 {
   "edition": "Italy · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 20 region targets of GeoClick's native italy-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 20,
   "countryCount": 1,
   "nativeTargetCount": 20,
   "nativeTeachingStopCount": 20,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 20,
   "episodes": [
     {
       "id": "italy-regions-redo-regions",
       "title": "Italy's regions",
-      "status": "preflight-passed",
+      "status": "complete",
       "lesson": "src/lessons/italy-regions-redo-lesson.json",
       "places": [
         "Trentino-Alto Adige",
@@ -83,7 +83,30 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/italy-regions-redo-20261104/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/italy-regions-20261103/geoclick"
+      "audioCache": "rendered/italy-regions-20261103/geoclick",
+      "durationSeconds": 1096.4,
+      "covered": [
+        "Trentino-Alto Adige",
+        "Friuli-Venezia Giulia",
+        "Veneto",
+        "Valle d'Aosta",
+        "Lombardia",
+        "Piemonte",
+        "Emilia-Romagna",
+        "Liguria",
+        "Toscana",
+        "Marche",
+        "Umbria",
+        "Abruzzo",
+        "Lazio",
+        "Molise",
+        "Puglia",
+        "Campania",
+        "Basilicata",
+        "Sardegna",
+        "Calabria",
+        "Sicilia"
+      ]
     }
   ]
 }

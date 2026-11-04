@@ -1,18 +1,18 @@
 {
   "edition": "South Africa · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 9 region targets of GeoClick's native south-africa-provinces map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 9,
   "countryCount": 1,
   "nativeTargetCount": 9,
   "nativeTeachingStopCount": 9,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 9,
   "episodes": [
     {
-      "id": "south-africa-provinces-redo-regions",
+      "id": "south-africa-provinces-redo",
       "title": "South Africa's provinces",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/south-africa-provinces-redo-lesson.json",
       "places": [
         "Limpopo",
@@ -50,7 +50,19 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/south-africa-provinces-redo-20261104/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/south-africa-provinces-20261103/geoclick"
+      "audioCache": "rendered/south-africa-provinces-20261103/geoclick",
+      "durationSeconds": 541.16,
+      "covered": [
+        "Limpopo",
+        "Mpumalanga",
+        "Gauteng",
+        "North West",
+        "Free State",
+        "Northern Cape",
+        "KwaZulu-Natal",
+        "Eastern Cape",
+        "Western Cape"
+      ]
     }
   ]
 }

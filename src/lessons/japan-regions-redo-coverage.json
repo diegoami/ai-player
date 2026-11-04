@@ -1,18 +1,18 @@
 {
   "edition": "Japan · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 47 region targets of GeoClick's native japan-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 47,
   "countryCount": 1,
   "nativeTargetCount": 47,
   "nativeTeachingStopCount": 47,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 23,
   "episodes": [
     {
       "id": "japan-regions-redo-central-mountains",
       "title": "The central mountains and the north coast",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/japan-regions-redo-central-mountains-lesson.json",
       "places": [
         "Niigata",
@@ -47,12 +47,23 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/japan-regions-redo-20261104/02-central-mountains/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/japan-regions-20261103/02-central-mountains/geoclick"
+      "audioCache": "rendered/japan-regions-20261103/02-central-mountains/geoclick",
+      "durationSeconds": 364.2,
+      "covered": [
+        "Niigata",
+        "Ishikawa",
+        "Tochigi",
+        "Toyama",
+        "Gunma",
+        "Ibaraki",
+        "Nagano",
+        "Fukui"
+      ]
     },
     {
       "id": "japan-regions-redo-kanto-and-kansai",
       "title": "The capital region and the western heartland",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/japan-regions-redo-kanto-and-kansai-lesson.json",
       "places": [
         "Saitama",
@@ -108,7 +119,25 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/japan-regions-redo-20261104/03-kanto-and-kansai/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/japan-regions-20261103/03-kanto-and-kansai/geoclick"
+      "audioCache": "rendered/japan-regions-20261103/03-kanto-and-kansai/geoclick",
+      "durationSeconds": 662.04,
+      "covered": [
+        "Saitama",
+        "Gifu",
+        "Tokyo",
+        "Yamanashi",
+        "Chiba",
+        "Kanagawa",
+        "Kyōto",
+        "Shiga",
+        "Shizuoka",
+        "Aichi",
+        "Hyōgo",
+        "Ōsaka",
+        "Mie",
+        "Nara",
+        "Wakayama"
+      ]
     }
   ]
 }

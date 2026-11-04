@@ -180,87 +180,93 @@
     },
     {
       "id": "spain-regions",
-      "ledger": "src/lessons/spain-regions-coverage.json",
-      "publishing_dir": "rendered/spain-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/spain-regions-redo-coverage.json",
+      "publishing_dir": "rendered/spain-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "spain-regions",
       "country": "Spain",
       "targetCount": 16,
       "video_ids": [
-        "Z8iZlY9Qzjw"
+        "o5n-0eooyJc"
       ],
-      "scope": "This one-part edition covers all 16 region targets of GeoClick's native spain-regions map exactly once: the first-level regions of Spain that the map names. Map targets do not settle political status or boundaries."
+      "scope": "This one-part edition covers all 16 region targets of GeoClick's native spain-regions map exactly once: the first-level regions of Spain that the map names. Map targets do not settle political status or boundaries.",
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "italy-regions",
-      "ledger": "src/lessons/italy-regions-coverage.json",
-      "publishing_dir": "rendered/italy-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/italy-regions-redo-coverage.json",
+      "publishing_dir": "rendered/italy-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "italy-regions",
       "country": "Italy",
       "targetCount": 20,
       "scope": "This one-part edition covers all 20 region targets of GeoClick's native italy-regions map exactly once: the first-level regions of Italy that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "5i72VO8Wvuc"
-      ]
+        "uf4LBUcCsHw"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "france-regions",
-      "ledger": "src/lessons/france-regions-coverage.json",
-      "publishing_dir": "rendered/france-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/france-regions-redo-coverage.json",
+      "publishing_dir": "rendered/france-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "france-regions",
       "country": "France",
       "targetCount": 13,
       "scope": "This one-part edition covers all 13 region targets of GeoClick's native france-regions map exactly once: the first-level regions of France that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "s9J0aijRe_s"
-      ]
+        "kMmA0suw83I"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "germany-states",
-      "ledger": "src/lessons/germany-states-coverage.json",
-      "publishing_dir": "rendered/germany-states-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/germany-states-redo-coverage.json",
+      "publishing_dir": "rendered/germany-states-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "germany-states",
       "country": "Germany",
       "targetCount": 16,
       "scope": "This one-part edition covers all 16 state targets of GeoClick's native germany-states map exactly once: the states of Germany that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "7KuXcUTaqjI"
-      ]
+        "zfykI7_IkT4"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "great-britain-regions",
-      "ledger": "src/lessons/great-britain-regions-coverage.json",
-      "publishing_dir": "rendered/great-britain-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/great-britain-regions-redo-coverage.json",
+      "publishing_dir": "rendered/great-britain-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "great-britain-regions",
       "country": "Great Britain",
       "targetCount": 15,
       "scope": "This one-part edition covers all 15 region targets of GeoClick's native great-britain-regions map exactly once: the regions of Great Britain that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "vMJ_OlR3H_Q"
-      ]
+        "FCu28jTDkMM"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "poland-regions",
-      "ledger": "src/lessons/poland-regions-coverage.json",
-      "publishing_dir": "rendered/poland-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/poland-regions-redo-coverage.json",
+      "publishing_dir": "rendered/poland-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "poland-regions",
       "country": "Poland",
       "targetCount": 16,
       "scope": "This one-part edition covers all 16 region targets of GeoClick's native poland-regions map exactly once: the regions of Poland that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "8ekHRnJEBSk"
-      ]
+        "4bHrNSEp3zA"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "ukraine-regions",
@@ -279,17 +285,18 @@
     },
     {
       "id": "australia-regions",
-      "ledger": "src/lessons/australia-regions-coverage.json",
-      "publishing_dir": "rendered/australia-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/australia-regions-redo-coverage.json",
+      "publishing_dir": "rendered/australia-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "australia-regions",
       "country": "Australia",
       "targetCount": 8,
       "scope": "This one-part edition covers all 8 region targets of GeoClick's native australia-regions map exactly once: the first-level regions of Australia that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "i1y0HpL7AT0"
-      ]
+        "wE1qu0ABV04"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "canada-regions",
@@ -307,65 +314,69 @@
     },
     {
       "id": "south-africa-provinces",
-      "ledger": "src/lessons/south-africa-provinces-coverage.json",
-      "publishing_dir": "rendered/south-africa-provinces-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/south-africa-provinces-redo-coverage.json",
+      "publishing_dir": "rendered/south-africa-provinces-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "south-africa-provinces",
       "country": "South Africa",
       "targetCount": 9,
       "scope": "This one-part edition covers all 9 region targets of GeoClick's native south-africa-provinces map exactly once: the first-level regions of South Africa that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "IfKuFofmhKY"
-      ]
+        "PjiBtBeRHpE"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "morocco-regions",
-      "ledger": "src/lessons/morocco-regions-coverage.json",
-      "publishing_dir": "rendered/morocco-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/morocco-regions-redo-coverage.json",
+      "publishing_dir": "rendered/morocco-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "morocco-regions",
       "country": "Morocco",
       "targetCount": 12,
       "scope": "This one-part edition covers all 12 region targets of GeoClick's native morocco-regions map exactly once: the first-level regions of Morocco that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "o2jXgTKKJRo"
-      ]
+        "gnkcolBw_Qs"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "egypt-regions",
-      "ledger": "src/lessons/egypt-regions-coverage.json",
-      "publishing_dir": "rendered/egypt-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/egypt-regions-redo-coverage.json",
+      "publishing_dir": "rendered/egypt-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "egypt-regions",
       "country": "Egypt",
       "targetCount": 27,
       "scope": "This one-part edition covers all 27 region targets of GeoClick's native egypt-regions map exactly once: the first-level regions of Egypt that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "I-4uyV_cjQI"
-      ]
+        "ldHNBmPmrzw"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "sweden-regions",
-      "ledger": "src/lessons/sweden-regions-coverage.json",
-      "publishing_dir": "rendered/sweden-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/sweden-regions-redo-coverage.json",
+      "publishing_dir": "rendered/sweden-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "sweden-regions",
       "country": "Sweden",
       "targetCount": 21,
       "scope": "This one-part edition covers all 21 region targets of GeoClick's native sweden-regions map exactly once: the first-level regions of Sweden that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "eELcpw0Qycw"
-      ]
+        "FXwxo6k9jrg"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "brazil-regions",
-      "ledger": "src/lessons/brazil-regions-coverage.json",
-      "publishing_dir": "rendered/brazil-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/brazil-regions-redo-coverage.json",
+      "publishing_dir": "rendered/brazil-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "brazil-regions",
       "country": "Brazil",
@@ -373,23 +384,25 @@
       "scope": "This 2-part edition covers all 27 region targets of GeoClick's native brazil-regions map exactly once: the first-level regions of Brazil that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
         "S2oYPMXLQz0",
-        "7-cbif09wPk"
-      ]
+        "FxeLfG_1WOc"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "mexico-regions",
-      "ledger": "src/lessons/mexico-regions-coverage.json",
-      "publishing_dir": "rendered/mexico-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/mexico-regions-redo-coverage.json",
+      "publishing_dir": "rendered/mexico-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "mexico-regions",
       "country": "Mexico",
       "targetCount": 32,
       "scope": "This 2-part edition covers all 32 region targets of GeoClick's native mexico-regions map exactly once: the first-level regions of Mexico that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "-_YFonal76o",
+        "mDLMymqn59I",
         "gSXzTJizZmw"
-      ]
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "nigeria-regions",
@@ -408,24 +421,25 @@
     },
     {
       "id": "iran-provinces",
-      "ledger": "src/lessons/iran-provinces-coverage.json",
-      "publishing_dir": "rendered/iran-provinces-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/iran-provinces-redo-coverage.json",
+      "publishing_dir": "rendered/iran-provinces-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "iran-provinces",
       "country": "Iran",
       "targetCount": 31,
       "scope": "This 2-part edition covers all 31 region targets of GeoClick's native iran-provinces map exactly once: the first-level regions of Iran that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "OF4V42HcSmM",
+        "ihC2hpDSFB8",
         "80ktJdnbA_Q"
-      ]
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "japan-regions",
-      "ledger": "src/lessons/japan-regions-coverage.json",
-      "publishing_dir": "rendered/japan-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/japan-regions-redo-coverage.json",
+      "publishing_dir": "rendered/japan-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "japan-regions",
       "country": "Japan",
@@ -433,24 +447,26 @@
       "scope": "This 4-part edition covers all 47 region targets of GeoClick's native japan-regions map exactly once: the first-level regions of Japan that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
         "oWARR3JLO0s",
-        "N9HK4i6NDz0",
-        "wbJ1N6dVqMQ",
+        "nqxLMBnSbI4",
+        "iavIaBf-mmA",
         "dKx962W9Ujg"
-      ]
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "new-zealand-regions",
-      "ledger": "src/lessons/new-zealand-regions-coverage.json",
-      "publishing_dir": "rendered/new-zealand-regions-20261103/youtube-publishing",
-      "published": "unlisted 2026-11-03",
+      "ledger": "src/lessons/new-zealand-regions-redo-coverage.json",
+      "publishing_dir": "rendered/new-zealand-regions-redo-20261104/youtube-publishing",
+      "published": "unlisted 2026-11-03; replaced by taller-layout redo 2026-11-04",
       "captions": "deferred",
       "mapId": "new-zealand-regions",
       "country": "New Zealand",
       "targetCount": 16,
       "scope": "This 1-part edition covers all 16 region targets of GeoClick's native new-zealand-regions map exactly once: the first-level regions of New Zealand that the map names. Map targets do not settle political status or boundaries.",
       "video_ids": [
-        "VTGm-gcURNs"
-      ]
+        "YtlHG5V2Xpo"
+      ],
+      "redo": "2026-11-04 taller-layout recording; narration reused from cached clips"
     },
     {
       "id": "china-regions",

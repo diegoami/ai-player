@@ -1,18 +1,18 @@
 {
   "edition": "Sweden · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 21 region targets of GeoClick's native sweden-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 21,
   "countryCount": 1,
   "nativeTargetCount": 21,
   "nativeTeachingStopCount": 21,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 21,
   "episodes": [
     {
       "id": "sweden-regions-redo-regions",
       "title": "Sweden's regions",
-      "status": "media-verified-awaiting-visual-review",
+      "status": "complete",
       "lesson": "src/lessons/sweden-regions-redo-lesson.json",
       "places": [
         "Norrbotten",
@@ -87,7 +87,30 @@
       "supplemental": [],
       "video": "rendered/sweden-regions-redo-20261104/geoclick/play-no-subtitles.mp4",
       "audioCache": "rendered/sweden-regions-20261103/geoclick",
-      "durationSeconds": 927.24
+      "durationSeconds": 927.24,
+      "covered": [
+        "Norrbotten",
+        "Västerbotten",
+        "Jämtland",
+        "Västernorrland",
+        "Gävleborg",
+        "Dalarna",
+        "Uppsala",
+        "Värmland",
+        "Västmanland",
+        "Stockholm",
+        "Örebro",
+        "Södermanland",
+        "Östergötland",
+        "Västra Götaland",
+        "Jönköping",
+        "Gotland",
+        "Kalmar",
+        "Halland",
+        "Kronoberg",
+        "Blekinge",
+        "Skåne"
+      ]
     }
   ]
 }

@@ -11,16 +11,22 @@ delegate here; their originals are backed up. Stop calls using an exhausted quot
 quota bucket and may continue through the upload-only runner. Stop on upload quota
 errors; do not create a scheduled task.
 
-**All 90 GeoClick videos are published.** Thirty-two are public (2 November
-2026): US 5, Europe 6, Asia 7, Africa 8, North America 3 and South America 3,
-each with the playlist link in every description. Twenty-one more went out the
-same day as **unlisted** members at the end of the same public playlist: the
-Europe capitals, Asia capitals, South America capitals and North America
-capitals lessons. Four more, the Oceania capitals lessons, the six Africa
-capitals lessons and the nineteen regions lessons went out unlisted on
-3 November 2026. The playlist `PLNl_MybP55PE` is public with all 90 members
-in order, confirmed by a fresh read on 3 November 2026: none missing, none
-duplicated, the playlist link in every description.
+**All 90 GeoClick videos are published**, now in the taller recording
+layout wherever the fitting pass said the map needed it. Thirty-two are
+public (2 November 2026): US 5, Europe 6, Asia 7, Africa 8, North America 3
+and South America 3. The rest are unlisted members of the public playlist
+`PLNl_MybP55PE`, confirmed by a fresh read on 4 November 2026: 90 members,
+none missing, none duplicated, the playlist link in every description, in
+canonical order after a reorder pass.
+
+**The regions videos were re-recorded on 4 November 2026** in the taller
+layout (bin/fit-lesson-layout.mjs measures classic against tall per lesson
+and picks the better fit; 15 lessons went tall, Canada and three others kept
+classic and were NOT re-recorded). The 16 replaced videos were deleted after
+their replacements were seated (bin/retire-videos.py keeps the ledger), and
+the playlist was reordered to canonical. The old regions IDs in git history
+are retired; the config's video_ids are the live ones. The United States
+videos keep their original recordings by the owner's decision.
 The owner postponed
 subtitles, so no caption
 track was installed for Europe 6, the seven Asia videos, the eight Africa
@@ -112,32 +118,32 @@ link and their captions deferred:
 
 | Country | Lesson | Regions | Duration | Video ID |
 |---|---|---|---|---|
-| Spain | Spain's regions | 16 | 10:26 | `Z8iZlY9Qzjw` |
-| Italy | Italy's regions | 20 | 17:33 | `5i72VO8Wvuc` |
-| France | France's regions | 13 | 11:16 | `s9J0aijRe_s` |
-| Germany | Germany's states | 16 | 13:16 | `7KuXcUTaqjI` |
-| Great Britain | Great Britain's regions | 15 | 11:16 | `vMJ_OlR3H_Q` |
-| Poland | Poland's regions | 16 | 12:29 | `8ekHRnJEBSk` |
+| Spain | Spain's regions | 16 | 12:40 | `o5n-0eooyJc` |
+| Italy | Italy's regions | 20 | 18:16 | `uf4LBUcCsHw` |
+| France | France's regions | 13 | 11:41 | `kMmA0suw83I` |
+| Germany | Germany's states | 16 | 13:16 | `zfykI7_IkT4` |
+| Great Britain | Great Britain's regions | 15 | 11:23 | `FCu28jTDkMM` |
+| Poland | Poland's regions | 16 | 12:15 | `4bHrNSEp3zA` |
 | Ukraine | Western and northern Ukraine | 12 | 10:41 | `sURTlO3p-GU` |
 | Ukraine | Eastern and southern Ukraine | 15 | 11:46 | `gJuGUEOPU3U` |
-| Australia | Australia's states | 8 | 7:00 | `i1y0HpL7AT0` |
+| Australia | Australia's states | 8 | 6:43 | `wE1qu0ABV04` |
 | Canada | Canada's provinces | 13 | 12:11 | `kbvMYoH0bDY` |
-| South Africa | South Africa's provinces | 9 | 7:30 | `IfKuFofmhKY` |
-| Morocco | Morocco's regions | 12 | 9:29 | `o2jXgTKKJRo` |
-| Egypt | Egypt's regions | 27 | 21:04 | `I-4uyV_cjQI` |
-| Sweden | Sweden's regions | 21 | 16:13 | `eELcpw0Qycw` |
+| South Africa | South Africa's provinces | 9 | 7:30 | `PjiBtBeRHpE` |
+| Morocco | Morocco's regions | 12 | 9:19 | `gnkcolBw_Qs` |
+| Egypt | Egypt's regions | 27 | 20:16 | `ldHNBmPmrzw` |
+| Sweden | Sweden's regions | 21 | 15:27 | `FXwxo6k9jrg` |
 | Brazil | The north and the northeast | 14 | 11:26 | `S2oYPMXLQz0` |
-| Brazil | The centre and the south | 13 | 10:14 | `7-cbif09wPk` |
-| Mexico | The north and the west | 16 | 14:04 | `-_YFonal76o` |
+| Brazil | The centre and the south | 13 | 9:47 | `FxeLfG_1WOc` |
+| Mexico | The north and the west | 16 | 12:27 | `mDLMymqn59I` |
 | Mexico | The centre and the south | 16 | 12:37 | `gSXzTJizZmw` |
 | New Zealand | New Zealand's regions | 16 | 12:12 | `VTGm-gcURNs` |
 | Nigeria | The north and the middle belt | 20 | 16:46 | `NPZVIMoh8FE` |
 | Nigeria | The south | 17 | 13:34 | `5NqrXcxxRhA` |
-| Iran | The north and the west | 16 | 14:02 | `OF4V42HcSmM` |
+| Iran | The north and the west | 16 | 12:19 | `ihC2hpDSFB8` |
 | Iran | The south and the east | 15 | 12:24 | `80ktJdnbA_Q` |
 | Japan | Hokkaido and the northern mainland | 7 | 5:34 | `oWARR3JLO0s` |
-| Japan | The central mountains and the north coast | 8 | 6:32 | `N9HK4i6NDz0` |
-| Japan | The capital region and the western heartland | 15 | 11:13 | `wbJ1N6dVqMQ` |
+| Japan | The central mountains and the north coast | 8 | 6:04 | `nqxLMBnSbI4` |
+| Japan | The capital region and the western heartland | 15 | 11:02 | `iavIaBf-mmA` |
 | Japan | The west and the south | 17 | 12:08 | `dKx962W9Ujg` |
 
 Each content file is `src/lessons/<country>-regions-content.mjs` and each

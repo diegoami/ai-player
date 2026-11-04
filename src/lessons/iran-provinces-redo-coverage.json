@@ -1,18 +1,18 @@
 {
   "edition": "Iran · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 31 region targets of GeoClick's native iran-provinces map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 31,
   "countryCount": 1,
   "nativeTargetCount": 31,
   "nativeTeachingStopCount": 31,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 16,
   "episodes": [
     {
       "id": "iran-provinces-redo-north-and-west",
       "title": "The north and the west",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/iran-provinces-redo-north-and-west-lesson.json",
       "places": [
         "Ardabil",
@@ -71,7 +71,26 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/iran-provinces-redo-20261104/01-north-and-west/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/iran-provinces-20261103/01-north-and-west/geoclick"
+      "audioCache": "rendered/iran-provinces-20261103/01-north-and-west/geoclick",
+      "durationSeconds": 739,
+      "covered": [
+        "Ardabil",
+        "East Azerbaijan",
+        "West Azerbaijan",
+        "Gilan",
+        "North Khorasan",
+        "Golestan",
+        "Zanjan",
+        "Mazandaran",
+        "Qazvin",
+        "Alborz",
+        "Semnan",
+        "Kurdistan",
+        "Tehran",
+        "Hamadan",
+        "Qom",
+        "Markazi"
+      ]
     }
   ]
 }

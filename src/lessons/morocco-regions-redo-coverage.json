@@ -1,18 +1,18 @@
 {
   "edition": "Morocco · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 12 region targets of GeoClick's native morocco-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 12,
   "countryCount": 1,
   "nativeTargetCount": 12,
   "nativeTeachingStopCount": 12,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 12,
   "episodes": [
     {
       "id": "morocco-regions-redo-regions",
       "title": "Morocco's regions",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/morocco-regions-redo-lesson.json",
       "places": [
         "Tangier-Tetouan-Al Hoceima",
@@ -59,7 +59,22 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/morocco-regions-redo-20261104/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/morocco-regions-20261103/geoclick"
+      "audioCache": "rendered/morocco-regions-20261103/geoclick",
+      "durationSeconds": 559.6,
+      "covered": [
+        "Tangier-Tetouan-Al Hoceima",
+        "Rabat-Salé-Kénitra",
+        "Fès-Meknès",
+        "Oriental",
+        "Casablanca-Settat",
+        "Béni Mellal-Khénifra",
+        "Marrakech-Safi",
+        "Drâa-Tafilalet",
+        "Souss-Massa",
+        "Guelmim-Oued Noun",
+        "Laâyoune-Sakia El Hamra",
+        "Dakhla-Oued Ed-Dahab"
+      ]
     }
   ]
 }

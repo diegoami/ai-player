@@ -1,18 +1,18 @@
 {
   "edition": "Great Britain · Regions of Europe · one lesson per country · November 2026",
-  "status": "in-production",
+  "status": "complete",
   "scope": "All 15 region targets of GeoClick's native great-britain-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
   "targetCount": 15,
   "countryCount": 1,
   "nativeTargetCount": 15,
   "nativeTeachingStopCount": 15,
   "supplementalCount": 0,
-  "coveredPlaceCount": 0,
+  "coveredPlaceCount": 15,
   "episodes": [
     {
       "id": "great-britain-regions-redo-regions",
       "title": "Great Britain's regions",
-      "status": "prepared",
+      "status": "complete",
       "lesson": "src/lessons/great-britain-regions-redo-lesson.json",
       "places": [
         "Highlands and Islands",
@@ -68,7 +68,25 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/great-britain-regions-redo-20261104/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/great-britain-regions-20261103/geoclick"
+      "audioCache": "rendered/great-britain-regions-20261103/geoclick",
+      "durationSeconds": 683.72,
+      "covered": [
+        "Highlands and Islands",
+        "North Eastern",
+        "Eastern",
+        "South Western",
+        "North East",
+        "North West",
+        "Yorkshire and the Humber",
+        "East Midlands",
+        "West Midlands",
+        "East Wales",
+        "West Wales and the Valleys",
+        "East",
+        "Greater London",
+        "South East",
+        "South West"
+      ]
     }
   ]
 }
