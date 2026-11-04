@@ -1,0 +1,935 @@
+{
+  "title": "Ukraine's regions · Eastern and southern Ukraine · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "ukraine-regions",
+  "area": "Ukraine",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/ukraine-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      27.34,
+      43.63
+    ],
+    [
+      40.2,
+      51.61
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Sumy",
+      "location": [
+        33.2498,
+        50.6128
+      ],
+      "bounds": [
+        [
+          32.601,
+          49.835
+        ],
+        [
+          36.036,
+          52.636
+        ]
+      ]
+    },
+    {
+      "name": "Poltava",
+      "location": [
+        32.4479,
+        49.9461
+      ],
+      "bounds": [
+        [
+          31.644,
+          48.521
+        ],
+        [
+          35.901,
+          50.771
+        ]
+      ]
+    },
+    {
+      "name": "Kharkiv",
+      "location": [
+        36.4531,
+        49.4781
+      ],
+      "bounds": [
+        [
+          34.439,
+          48.295
+        ],
+        [
+          38.468,
+          50.662
+        ]
+      ]
+    },
+    {
+      "name": "Cherkasy",
+      "location": [
+        31.221,
+        49.3469
+      ],
+      "bounds": [
+        [
+          29.191,
+          48.232
+        ],
+        [
+          33.251,
+          50.462
+        ]
+      ]
+    },
+    {
+      "name": "Vinnytsya",
+      "location": [
+        28.7233,
+        48.941
+      ],
+      "bounds": [
+        [
+          27.032,
+          47.765
+        ],
+        [
+          30.414,
+          50.117
+        ]
+      ]
+    },
+    {
+      "name": "Luhansk",
+      "location": [
+        39.0034,
+        48.936
+      ],
+      "bounds": [
+        [
+          37.558,
+          47.53
+        ],
+        [
+          40.449,
+          50.342
+        ]
+      ]
+    },
+    {
+      "name": "Kirovohrad",
+      "location": [
+        30.2028,
+        48.2523
+      ],
+      "bounds": [
+        [
+          29.579,
+          47.558
+        ],
+        [
+          34.079,
+          49.451
+        ]
+      ]
+    },
+    {
+      "name": "Dnipropetrovsk",
+      "location": [
+        34.9555,
+        48.3295
+      ],
+      "bounds": [
+        [
+          32.706,
+          47.266
+        ],
+        [
+          37.206,
+          49.393
+        ]
+      ]
+    },
+    {
+      "name": "Donetsk",
+      "location": [
+        37.795,
+        48.0542
+      ],
+      "bounds": [
+        [
+          36.219,
+          46.582
+        ],
+        [
+          39.371,
+          49.526
+        ]
+      ]
+    },
+    {
+      "name": "Mykolayiv",
+      "location": [
+        31.6755,
+        47.3466
+      ],
+      "bounds": [
+        [
+          29.851,
+          46.266
+        ],
+        [
+          33.5,
+          48.427
+        ]
+      ]
+    },
+    {
+      "name": "Zaporizhzhya",
+      "location": [
+        35.7123,
+        47.1927
+      ],
+      "bounds": [
+        [
+          33.827,
+          46.021
+        ],
+        [
+          37.598,
+          48.365
+        ]
+      ]
+    },
+    {
+      "name": "Odesa",
+      "location": [
+        28.5434,
+        45.5478
+      ],
+      "bounds": [
+        [
+          27.813,
+          44.967
+        ],
+        [
+          31.681,
+          48.467
+        ]
+      ]
+    },
+    {
+      "name": "Kherson",
+      "location": [
+        33.4607,
+        46.6525
+      ],
+      "bounds": [
+        [
+          31.405,
+          45.489
+        ],
+        [
+          35.516,
+          47.816
+        ]
+      ]
+    },
+    {
+      "name": "Crimea",
+      "location": [
+        34.56,
+        45.2893
+      ],
+      "bounds": [
+        [
+          32.31,
+          44.156
+        ],
+        [
+          36.81,
+          46.422
+        ]
+      ]
+    },
+    {
+      "name": "Sevastopol",
+      "location": [
+        33.6159,
+        44.6253
+      ],
+      "bounds": [
+        [
+          32.816,
+          44.025
+        ],
+        [
+          34.416,
+          45.225
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Ukraine's regions, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 15 of the Ukraine regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Sumy",
+      "location": [
+        33.2498,
+        50.6128
+      ],
+      "lines": [
+        "Sumy is in the north-east of Ukraine, with Chernihiv to the west, Poltava to the south-west and Kharkiv to the south, and its largest city is the town of Sumy.",
+        "It was founded in 1655 by Cossacks moving east away from Polish rule, and its name comes from sumka, a bag or pouch.",
+        "Remember the three hunting bags on the arms of a town that grew rich on sugar."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sumy_Oblast",
+        "https://en.wikipedia.org/wiki/Sumy",
+        "https://en.wikipedia.org/wiki/Cossacks"
+      ],
+      "cameraBounds": [
+        [
+          32.601,
+          49.835
+        ],
+        [
+          36.036,
+          52.636
+        ]
+      ],
+      "transition": "Let's bring Sumy into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              32.601,
+              49.835
+            ],
+            [
+              36.036,
+              52.636
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poltava",
+      "location": [
+        32.4479,
+        49.9461
+      ],
+      "lines": [
+        "Poltava is in the centre of Ukraine, with Sumy to the north, Kharkiv to the east, Kyiv Oblast to the west and Dnipropetrovsk to the south-east, and Poltava as its largest city.",
+        "Peter the Great defeated the Swedes here in 1709, and that battle ended Sweden’s time as a great power.",
+        "Remember the central region where the writer Gogol was born, and the local dialect that became the base of literary Ukrainian."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Poltava_Oblast",
+        "https://en.wikipedia.org/wiki/Poltava",
+        "https://en.wikipedia.org/wiki/Battle_of_Poltava"
+      ],
+      "cameraBounds": [
+        [
+          31.644,
+          48.521
+        ],
+        [
+          35.901,
+          50.771
+        ]
+      ],
+      "transition": "Let's bring Poltava into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              31.644,
+              48.521
+            ],
+            [
+              35.901,
+              50.771
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kharkiv",
+      "location": [
+        36.4531,
+        49.4781
+      ],
+      "lines": [
+        "Kharkiv is in the east of Ukraine, with Sumy to the north and Poltava to the north-west, and its border with Russia runs along the eastern side for three hundred kilometres, with Kharkiv as its largest city.",
+        "It was the capital of Soviet Ukraine until 1934, which is why it has the constructivist Derzhprom, one of the first skyscrapers in Europe.",
+        "Remember Freedom Square, one of the largest in Europe, and the river Kharkiv that lent the city its name."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kharkiv_Oblast",
+        "https://en.wikipedia.org/wiki/Kharkiv",
+        "https://en.wikipedia.org/wiki/Derzhprom"
+      ],
+      "cameraBounds": [
+        [
+          34.439,
+          48.295
+        ],
+        [
+          38.468,
+          50.662
+        ]
+      ],
+      "transition": "Let's bring Kharkiv into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              34.439,
+              48.295
+            ],
+            [
+              38.468,
+              50.662
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cherkasy",
+      "location": [
+        31.221,
+        49.3469
+      ],
+      "lines": [
+        "Cherkasy is in the centre of Ukraine, with Kyiv Oblast to the north, Poltava to the north-east, Vinnytsya to the west and Kirovohrad to the south, and Cherkasy as its largest city.",
+        "The Dnipro widens here into the Kremenchuk Reservoir, about a hundred and fifty kilometres long, the largest body of water in the country.",
+        "Remember the reservoir spreading out below the river, with the poet Shevchenko buried on a hill above it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cherkasy_Oblast",
+        "https://en.wikipedia.org/wiki/Kremenchuk_Reservoir",
+        "https://en.wikipedia.org/wiki/Taras_Shevchenko"
+      ],
+      "cameraBounds": [
+        [
+          29.191,
+          48.232
+        ],
+        [
+          33.251,
+          50.462
+        ]
+      ],
+      "transition": "Let's bring Cherkasy into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              29.191,
+              48.232
+            ],
+            [
+              33.251,
+              50.462
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vinnytsya",
+      "location": [
+        28.7233,
+        48.941
+      ],
+      "lines": [
+        "Vinnytsya is in the centre of Ukraine, with Zhytomyr to the north-west, Kyiv Oblast to the north, Kirovohrad to the east and Odesa to the south, and the Southern Buh runs through its largest city.",
+        "Its fountain on the Southern Buh is the largest floating fountain in Europe, shooting water seventy metres into the air.",
+        "Remember the central region whose name probably comes from vino, an old Slavic word for a dowry paid in land."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vinnytsia_Oblast",
+        "https://en.wikipedia.org/wiki/Vinnytsia",
+        "https://en.wikipedia.org/wiki/Southern_Buh"
+      ],
+      "cameraBounds": [
+        [
+          27.032,
+          47.765
+        ],
+        [
+          30.414,
+          50.117
+        ]
+      ],
+      "transition": "Let's bring Vinnytsya into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              27.032,
+              47.765
+            ],
+            [
+              30.414,
+              50.117
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Luhansk",
+      "location": [
+        39.0034,
+        48.936
+      ],
+      "lines": [
+        "Luhansk is in the far east of Ukraine, with Kharkiv to the north-west and Donetsk to the west, and its largest city sits on the river Luhan near the Russian border.",
+        "It was founded in 1795 around a British-built cannon foundry, made to arm the fleet on the Black Sea.",
+        "Remember the eastern steppe, some of the last unploughed grassland in Europe, protected in reserves since 1968."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Luhansk_Oblast",
+        "https://en.wikipedia.org/wiki/Luhansk",
+        "https://en.wikipedia.org/wiki/Donbas"
+      ],
+      "cameraBounds": [
+        [
+          37.558,
+          47.53
+        ],
+        [
+          40.449,
+          50.342
+        ]
+      ],
+      "transition": "Let's bring Luhansk into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              37.558,
+              47.53
+            ],
+            [
+              40.449,
+              50.342
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kirovohrad",
+      "location": [
+        30.2028,
+        48.2523
+      ],
+      "lines": [
+        "Kirovohrad is in the centre of Ukraine, with Cherkasy to the north, Poltava to the north-east, Dnipropetrovsk to the east and Odesa and Mykolayiv to the south, and Kirovohrad as its largest city.",
+        "The map still carries the Soviet name of Sergei Kirov, and since 2016 the city itself has been called Kropyvnytskyi, after a playwright.",
+        "Remember the region holding the geographical centre of the country, marked by a monument in a field."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kirovohrad_Oblast",
+        "https://en.wikipedia.org/wiki/Kropyvnytskyi",
+        "https://en.wikipedia.org/wiki/Sergei_Kirov"
+      ],
+      "cameraBounds": [
+        [
+          29.579,
+          47.558
+        ],
+        [
+          34.079,
+          49.451
+        ]
+      ],
+      "transition": "Let's bring Kirovohrad into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              29.579,
+              47.558
+            ],
+            [
+              34.079,
+              49.451
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dnipropetrovsk",
+      "location": [
+        34.9555,
+        48.3295
+      ],
+      "lines": [
+        "Dnipropetrovsk is in the east of Ukraine, on the middle Dnipro, with Poltava to the north, Kharkiv to the north-east and Zaporizhzhya and Kherson to the south, and its largest city is now simply called Dnipro.",
+        "The city was founded as Katerynoslav, Catherine’s glory, by Potemkin for Catherine the Great, and it was closed to foreigners until 1987.",
+        "Remember the rocket works on the middle river, and the city that dropped the second half of its name in 2016."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dnipropetrovsk_Oblast",
+        "https://en.wikipedia.org/wiki/Dnipro",
+        "https://en.wikipedia.org/wiki/Pivdenmash"
+      ],
+      "cameraBounds": [
+        [
+          32.706,
+          47.266
+        ],
+        [
+          37.206,
+          49.393
+        ]
+      ],
+      "transition": "Let's bring Dnipropetrovsk into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              32.706,
+              47.266
+            ],
+            [
+              37.206,
+              49.393
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Donetsk",
+      "location": [
+        37.795,
+        48.0542
+      ],
+      "lines": [
+        "Donetsk is in the east of Ukraine, with Kharkiv to the north, Luhansk to the east and Zaporizhzhya and Dnipropetrovsk to the west, and Donetsk as its largest city, on the Siverskyi Donets river.",
+        "The city was founded in 1869 by a Welsh ironmaster, John Hughes, and was called Yuzivka for fifty years, a Russian rendering of his name.",
+        "Remember the mine workings honeycombing the ground, and the spoil heaps that form the best-known skyline outside the city."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Donetsk_Oblast",
+        "https://en.wikipedia.org/wiki/Donetsk",
+        "https://en.wikipedia.org/wiki/Siverskyi_Donets"
+      ],
+      "cameraBounds": [
+        [
+          36.219,
+          46.582
+        ],
+        [
+          39.371,
+          49.526
+        ]
+      ],
+      "transition": "Let's bring Donetsk into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              36.219,
+              46.582
+            ],
+            [
+              39.371,
+              49.526
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mykolayiv",
+      "location": [
+        31.6755,
+        47.3466
+      ],
+      "lines": [
+        "Mykolayiv is on the Black Sea coast in the south of Ukraine, on the estuary of the Southern Bug, with Odesa to the west and Kherson to the east, and Mykolayiv as its largest city.",
+        "Most of the Soviet Union’s aircraft carriers were built in this city, on a river a hundred kilometres from the sea.",
+        "Remember the southern shipyard city with the oldest working observatory in the region, recording since 1821."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mykolaiv_Oblast",
+        "https://en.wikipedia.org/wiki/Mykolaiv",
+        "https://en.wikipedia.org/wiki/Mykolaiv_Observatory"
+      ],
+      "cameraBounds": [
+        [
+          29.851,
+          46.266
+        ],
+        [
+          33.5,
+          48.427
+        ]
+      ],
+      "transition": "Let's bring Mykolayiv into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              29.851,
+              46.266
+            ],
+            [
+              33.5,
+              48.427
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zaporizhzhya",
+      "location": [
+        35.7123,
+        47.1927
+      ],
+      "lines": [
+        "Zaporizhzhya is in the south-east of Ukraine, with Donetsk to the north-east, Dnipropetrovsk to the north-west and the Black Sea coast along its southern edge, and Zaporizhzhya as its largest city.",
+        "Its name means beyond the rapids, and those Dnipro cataracts were the site of the first Cossack Sich in the 1550s.",
+        "Remember the rapids drowned by the 1932 dam, with the Sich island of Khortytsia still standing in the reservoir."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zaporizhzhia_Oblast",
+        "https://en.wikipedia.org/wiki/Zaporizhzhia",
+        "https://en.wikipedia.org/wiki/Khortytsia"
+      ],
+      "cameraBounds": [
+        [
+          33.827,
+          46.021
+        ],
+        [
+          37.598,
+          48.365
+        ]
+      ],
+      "transition": "Let's bring Zaporizhzhya into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              33.827,
+              46.021
+            ],
+            [
+              37.598,
+              48.365
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Odesa",
+      "location": [
+        28.5434,
+        45.5478
+      ],
+      "lines": [
+        "Odesa is on the Black Sea coast in the south of Ukraine, with Mykolayiv to the east and Kirovohrad and Vinnytsya inland to the north, and Odesa as its largest city.",
+        "The name was given in 1795 after Odessos, a Greek colony that was thought to have stood nearby but never did.",
+        "Remember the free port that filled with Greeks, Italians, Jews and Frenchmen, and the long Potemkin Steps down to the harbour."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Odesa_Oblast",
+        "https://en.wikipedia.org/wiki/Odesa",
+        "https://en.wikipedia.org/wiki/Potemkin_Steps"
+      ],
+      "cameraBounds": [
+        [
+          27.813,
+          44.967
+        ],
+        [
+          31.681,
+          48.467
+        ]
+      ],
+      "transition": "Let's bring Odesa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              27.813,
+              44.967
+            ],
+            [
+              31.681,
+              48.467
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kherson",
+      "location": [
+        33.4607,
+        46.6525
+      ],
+      "lines": [
+        "Kherson is on the Black Sea coast in the south of Ukraine, with Mykolayiv to the west, Crimea across the strait to the south and Dnipropetrovsk to the north, and Kherson as its largest city.",
+        "The first shipyard on the Black Sea was built here, before Mykolayiv and before Sevastopol.",
+        "Remember the southern region where the Dnipro fans into a delta of two thousand islands and channels before it reaches the sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kherson_Oblast",
+        "https://en.wikipedia.org/wiki/Kherson",
+        "https://en.wikipedia.org/wiki/Dnieper"
+      ],
+      "cameraBounds": [
+        [
+          31.405,
+          45.489
+        ],
+        [
+          35.516,
+          47.816
+        ]
+      ],
+      "transition": "Let's bring Kherson into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              31.405,
+              45.489
+            ],
+            [
+              35.516,
+              47.816
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crimea",
+      "location": [
+        34.56,
+        45.2893
+      ],
+      "lines": [
+        "Crimea is the peninsula in the south-east of Ukraine, across the strait from Kherson, with Sevastopol shown separately on this map at its south-west corner, and Simferopol as its largest city.",
+        "Greeks, Scythians, Goths, Genoese, Tatars, Ottomans and Russians have all held the peninsula over the centuries, and the Tatars were deported wholesale in 1944.",
+        "Remember the subtropical southern coast sheltered by the mountains, where the tsars and then the Politburo holidayed."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Crimea",
+        "https://en.wikipedia.org/wiki/Simferopol",
+        "https://en.wikipedia.org/wiki/Crimean_Tatars"
+      ],
+      "cameraBounds": [
+        [
+          32.31,
+          44.156
+        ],
+        [
+          36.81,
+          46.422
+        ]
+      ],
+      "transition": "Let's bring Crimea into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              32.31,
+              44.156
+            ],
+            [
+              36.81,
+              46.422
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sevastopol",
+      "location": [
+        33.6159,
+        44.6253
+      ],
+      "lines": [
+        "Sevastopol is the small harbour city on the southern coast of Ukraine, at the foot of the Crimean peninsula, and the map shows it separately from Crimea.",
+        "The name was coined in 1783 from the Greek for venerable city, one of Catherine the Great’s classical inventions.",
+        "Remember the harbour besieged for eleven months in the Crimean War, with the Greek ruins of Chersonesus inside the modern city."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sevastopol",
+        "https://en.wikipedia.org/wiki/Chersonesus",
+        "https://en.wikipedia.org/wiki/Siege_of_Sevastopol_(1854%E2%80%931855)"
+      ],
+      "cameraBounds": [
+        [
+          32.816,
+          44.025
+        ],
+        [
+          34.416,
+          45.225
+        ]
+      ],
+      "transition": "Let's bring Sevastopol into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              32.816,
+              44.025
+            ],
+            [
+              34.416,
+              45.225
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          27.34,
+          43.63
+        ],
+        [
+          40.2,
+          51.61
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "15 regions of Ukraine, one for each target of the map: Sumy, Poltava, Kharkiv, Cherkasy, Vinnytsya, Luhansk, Kirovohrad, Dnipropetrovsk, Donetsk, Mykolayiv, Zaporizhzhya, Odesa, Kherson, Crimea and Sevastopol.",
+    "Remember the shape of Ukraine from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "classic"
+}

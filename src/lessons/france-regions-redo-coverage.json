@@ -1,0 +1,68 @@
+{
+  "edition": "France · Regions of Europe · one lesson per country · November 2026",
+  "status": "in-production",
+  "scope": "All 13 region targets of GeoClick's native france-regions map, each exactly once. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 13,
+  "countryCount": 1,
+  "nativeTargetCount": 13,
+  "nativeTeachingStopCount": 13,
+  "supplementalCount": 0,
+  "coveredPlaceCount": 0,
+  "episodes": [
+    {
+      "id": "france-regions-redo-regions",
+      "title": "France's regions",
+      "status": "preflight-passed",
+      "lesson": "src/lessons/france-regions-redo-lesson.json",
+      "places": [
+        "Hauts-de-France",
+        "Normandie",
+        "Grand Est",
+        "Île-de-France",
+        "Bretagne",
+        "Centre-Val de Loire",
+        "Pays de la Loire",
+        "Bourgogne-Franche-Comté",
+        "Auvergne-Rhône-Alpes",
+        "Nouvelle-Aquitaine",
+        "Provence-Alpes-Côte-d'Azur",
+        "Occitanie",
+        "Corse"
+      ],
+      "countries": [
+        "Hauts-de-France",
+        "Normandie",
+        "Grand Est",
+        "Île-de-France",
+        "Bretagne",
+        "Centre-Val de Loire",
+        "Pays de la Loire",
+        "Bourgogne-Franche-Comté",
+        "Auvergne-Rhône-Alpes",
+        "Nouvelle-Aquitaine",
+        "Provence-Alpes-Côte-d'Azur",
+        "Occitanie",
+        "Corse"
+      ],
+      "nativeTargets": [
+        "Hauts-de-France",
+        "Normandie",
+        "Grand Est",
+        "Île-de-France",
+        "Bretagne",
+        "Centre-Val de Loire",
+        "Pays de la Loire",
+        "Bourgogne-Franche-Comté",
+        "Auvergne-Rhône-Alpes",
+        "Nouvelle-Aquitaine",
+        "Provence-Alpes-Côte-d'Azur",
+        "Occitanie",
+        "Corse"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/france-regions-redo-20261104/geoclick/play-no-subtitles.mp4",
+      "audioCache": "rendered/france-regions-20261103/geoclick"
+    }
+  ]
+}

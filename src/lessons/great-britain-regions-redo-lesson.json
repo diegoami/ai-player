@@ -1,0 +1,935 @@
+{
+  "title": "Great Britain's regions · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "great-britain-regions",
+  "area": "Great Britain",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/great-britain-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -6.23,
+      49.77
+    ],
+    [
+      1.74,
+      59.07
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Highlands and Islands",
+      "location": [
+        -4.1583,
+        58.0695
+      ],
+      "bounds": [
+        [
+          -6.408,
+          56.319
+        ],
+        [
+          -1.908,
+          59.819
+        ]
+      ]
+    },
+    {
+      "name": "North Eastern",
+      "location": [
+        -2.7778,
+        57.2227
+      ],
+      "bounds": [
+        [
+          -4.051,
+          56.62
+        ],
+        [
+          -1.505,
+          57.826
+        ]
+      ]
+    },
+    {
+      "name": "Eastern",
+      "location": [
+        -3.428,
+        56.048
+      ],
+      "bounds": [
+        [
+          -5.184,
+          54.877
+        ],
+        [
+          -1.672,
+          57.219
+        ]
+      ]
+    },
+    {
+      "name": "South Western",
+      "location": [
+        -4.0129,
+        55.38
+      ],
+      "bounds": [
+        [
+          -5.466,
+          54.508
+        ],
+        [
+          -2.56,
+          56.252
+        ]
+      ]
+    },
+    {
+      "name": "North East",
+      "location": [
+        -1.7319,
+        55.13
+      ],
+      "bounds": [
+        [
+          -2.923,
+          54.286
+        ],
+        [
+          -0.541,
+          55.974
+        ]
+      ]
+    },
+    {
+      "name": "North West",
+      "location": [
+        -2.7657,
+        54.069
+      ],
+      "bounds": [
+        [
+          -3.851,
+          52.667
+        ],
+        [
+          -1.68,
+          55.471
+        ]
+      ]
+    },
+    {
+      "name": "Yorkshire and the Humber",
+      "location": [
+        -1.207,
+        53.9236
+      ],
+      "bounds": [
+        [
+          -2.883,
+          53.131
+        ],
+        [
+          0.469,
+          54.716
+        ]
+      ]
+    },
+    {
+      "name": "East Midlands",
+      "location": [
+        -0.8301,
+        52.793
+      ],
+      "bounds": [
+        [
+          -2.313,
+          51.776
+        ],
+        [
+          0.653,
+          53.81
+        ]
+      ]
+    },
+    {
+      "name": "West Midlands",
+      "location": [
+        -2.193,
+        52.5143
+      ],
+      "bounds": [
+        [
+          -3.451,
+          51.648
+        ],
+        [
+          -0.935,
+          53.381
+        ]
+      ]
+    },
+    {
+      "name": "East Wales",
+      "location": [
+        -5.0303,
+        51.8662
+      ],
+      "bounds": [
+        [
+          -5.58,
+          51.17
+        ],
+        [
+          -2.67,
+          53.677
+        ]
+      ]
+    },
+    {
+      "name": "West Wales and the Valleys",
+      "location": [
+        -3.288,
+        52.368
+      ],
+      "bounds": [
+        [
+          -4.088,
+          51.138
+        ],
+        [
+          -2.488,
+          53.598
+        ]
+      ]
+    },
+    {
+      "name": "East",
+      "location": [
+        0.5415,
+        52.2138
+      ],
+      "bounds": [
+        [
+          -0.996,
+          51.263
+        ],
+        [
+          2.079,
+          53.165
+        ]
+      ]
+    },
+    {
+      "name": "Greater London",
+      "location": [
+        -0.0886,
+        51.4831
+      ],
+      "bounds": [
+        [
+          -0.889,
+          50.883
+        ],
+        [
+          0.711,
+          52.083
+        ]
+      ]
+    },
+    {
+      "name": "South East",
+      "location": [
+        -1.5752,
+        50.7673
+      ],
+      "bounds": [
+        [
+          -2.372,
+          50.389
+        ],
+        [
+          1.846,
+          52.393
+        ]
+      ]
+    },
+    {
+      "name": "South West",
+      "location": [
+        -3.596,
+        51.0363
+      ],
+      "bounds": [
+        [
+          -5.846,
+          49.699
+        ],
+        [
+          -1.346,
+          52.373
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Great Britain's regions, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 15 of the Great Britain regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Highlands and Islands",
+      "location": [
+        -4.1583,
+        58.0695
+      ],
+      "lines": [
+        "The Highlands and Islands take up the far north of Great Britain, the glens and mountains of the Scottish mainland above the Highland line together with the Western Isles, Orkney and Shetland, with Inverness as the largest town.",
+        "Ben Nevis here is the highest mountain in Britain at 1,345 metres, and the Highland Clearances emptied many of these glens of people so that sheep could graze them between 1750 and 1860.",
+        "Remember the roof of Britain, where the glens were emptied for sheep and Gaelic is still spoken every day."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Highlands_and_Islands",
+        "https://en.wikipedia.org/wiki/Ben_Nevis",
+        "https://en.wikipedia.org/wiki/Highland_Clearances"
+      ],
+      "cameraBounds": [
+        [
+          -6.408,
+          56.319
+        ],
+        [
+          -1.908,
+          59.819
+        ]
+      ],
+      "transition": "Let's bring Highlands and Islands into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -6.408,
+              56.319
+            ],
+            [
+              -1.908,
+              59.819
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North Eastern",
+      "location": [
+        -2.7778,
+        57.2227
+      ],
+      "lines": [
+        "North Eastern is the far north-east corner of Scotland, facing the North Sea and the Moray Firth, north of the Eastern region, with Aberdeen on the coast.",
+        "Aberdeen here is called the Granite City, because it was built almost entirely from grey stone quarried at Rubislaw, once the biggest man-made hole in Europe.",
+        "Remember the granite city on the North Sea, where oil from under the seabed turned a fishing port into an offshore capital."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aberdeen",
+        "https://en.wikipedia.org/wiki/Rubislaw_Quarry",
+        "https://en.wikipedia.org/wiki/North_Sea_oil"
+      ],
+      "cameraBounds": [
+        [
+          -4.051,
+          56.62
+        ],
+        [
+          -1.505,
+          57.826
+        ]
+      ],
+      "transition": "Let's bring North Eastern into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -4.051,
+              56.62
+            ],
+            [
+              -1.505,
+              57.826
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eastern",
+      "location": [
+        -3.428,
+        56.048
+      ],
+      "lines": [
+        "Eastern is the belt of Scotland along the North Sea, between the Highlands in the north and the English border in the south, holding Edinburgh and the old kingdom of Fife, and it touches five other regions on this map.",
+        "Edinburgh here climbs a volcanic ridge in its old town and spreads in a grid below it in the new town, laid out in 1767, and the two together are a world heritage site.",
+        "Remember the city on the dead volcano, with the Forth Bridge beside it whose painting was never finished."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Edinburgh",
+        "https://en.wikipedia.org/wiki/Old_and_New_Towns_of_Edinburgh",
+        "https://en.wikipedia.org/wiki/Forth_Bridge"
+      ],
+      "cameraBounds": [
+        [
+          -5.184,
+          54.877
+        ],
+        [
+          -1.672,
+          57.219
+        ]
+      ],
+      "transition": "Let's bring Eastern into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.184,
+              54.877
+            ],
+            [
+              -1.672,
+              57.219
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South Western",
+      "location": [
+        -4.0129,
+        55.38
+      ],
+      "lines": [
+        "South Western is Scotland’s south-west corner, on the Irish Sea and the Firth of Clyde, with Glasgow as its largest city and the Highlands rising to the north.",
+        "The Clyde shipyards here built a fifth of the world’s ships by 1900, and later the ocean liners Queen Mary and Queen Elizabeth.",
+        "Remember the green hollow of the Clyde, the name behind Glasgow, where the great liners were launched."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Glasgow",
+        "https://en.wikipedia.org/wiki/Queen_Mary",
+        "https://en.wikipedia.org/wiki/River_Clyde"
+      ],
+      "cameraBounds": [
+        [
+          -5.466,
+          54.508
+        ],
+        [
+          -2.56,
+          56.252
+        ]
+      ],
+      "transition": "Let's bring South Western into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.466,
+              54.508
+            ],
+            [
+              -2.56,
+              56.252
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North East",
+      "location": [
+        -1.7319,
+        55.13
+      ],
+      "lines": [
+        "North East is the wedge of north-east England between the Pennines and the North Sea, running from the Scottish border down to the Tees, with Newcastle as its largest city.",
+        "This was Northumbria, the land north of the Humber, a kingdom that once reached from the Humber up to Edinburgh, and Hadrian’s Wall crosses the region, begun in the year 122.",
+        "Remember the Roman wall running across the region to the sea, with the wild coast and its island monastery beyond."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_East_England",
+        "https://en.wikipedia.org/wiki/Northumbria",
+        "https://en.wikipedia.org/wiki/Hadrian%27s_Wall"
+      ],
+      "cameraBounds": [
+        [
+          -2.923,
+          54.286
+        ],
+        [
+          -0.541,
+          55.974
+        ]
+      ],
+      "transition": "Let's bring North East into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.923,
+              54.286
+            ],
+            [
+              -0.541,
+              55.974
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North West",
+      "location": [
+        -2.7657,
+        54.069
+      ],
+      "lines": [
+        "North West covers England’s north-west corner, from the Irish Sea and the Lake District up to the Scottish border, with Manchester as its largest city, and on this map it touches seven other regions.",
+        "Manchester here was the first industrial city in the world, and cotton made it; the Lake District in the same region is England’s largest national park, made famous by Wordsworth and Beatrix Potter.",
+        "Remember the cotton city with the fells behind it, and the lake poets who wrote about those hills."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_West_England",
+        "https://en.wikipedia.org/wiki/Manchester",
+        "https://en.wikipedia.org/wiki/Lake_District"
+      ],
+      "cameraBounds": [
+        [
+          -3.851,
+          52.667
+        ],
+        [
+          -1.68,
+          55.471
+        ]
+      ],
+      "transition": "Let's bring North West into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -3.851,
+              52.667
+            ],
+            [
+              -1.68,
+              55.471
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yorkshire and the Humber",
+      "location": [
+        -1.207,
+        53.9236
+      ],
+      "lines": [
+        "Yorkshire and the Humber is the east-central region of England, from the Pennines across to the North Sea and the Humber estuary, with Leeds as its largest city.",
+        "Yorkshire was once the largest English county and was split into three Ridings, from the Norse word for a third, which is why there was never a South Riding.",
+        "Remember the county too big to be one county, split into three Ridings, with York its Viking capital for almost a century."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yorkshire_and_the_Humber",
+        "https://en.wikipedia.org/wiki/Yorkshire",
+        "https://en.wikipedia.org/wiki/York"
+      ],
+      "cameraBounds": [
+        [
+          -2.883,
+          53.131
+        ],
+        [
+          0.469,
+          54.716
+        ]
+      ],
+      "transition": "Let's bring Yorkshire and the Humber into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.883,
+              53.131
+            ],
+            [
+              0.469,
+              54.716
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East Midlands",
+      "location": [
+        -0.8301,
+        52.793
+      ],
+      "lines": [
+        "East Midlands is the middle land of England, running from the hills of Derbyshire and Nottingham in the west across to the flat Lincolnshire coast on the North Sea.",
+        "This was the core of Mercia, the kingdom that dominated the 700s, and the Danelaw’s Five Boroughs were all here, which is why Norse words survive in the local dialect.",
+        "Remember the middle land of Mercia, with Sherwood Forest and the Robin Hood story in its eastern woods."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/East_Midlands",
+        "https://en.wikipedia.org/wiki/Mercia",
+        "https://en.wikipedia.org/wiki/Danelaw"
+      ],
+      "cameraBounds": [
+        [
+          -2.313,
+          51.776
+        ],
+        [
+          0.653,
+          53.81
+        ]
+      ],
+      "transition": "Let's bring East Midlands into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.313,
+              51.776
+            ],
+            [
+              0.653,
+              53.81
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Midlands",
+      "location": [
+        -2.193,
+        52.5143
+      ],
+      "lines": [
+        "West Midlands is the inland half of the Midlands, between Wales and the East Midlands with no coast of its own, and Birmingham as its largest city.",
+        "Birmingham here had more canal miles than Venice at its peak, all built to haul coal and iron out of the Black Country, whose name comes from the soot and the thick coal seam beneath it.",
+        "Remember the black country and its canals, with Shakespeare’s birthplace at Stratford upon Avon down by the river."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/West_Midlands",
+        "https://en.wikipedia.org/wiki/Birmingham",
+        "https://en.wikipedia.org/wiki/Black_Country"
+      ],
+      "cameraBounds": [
+        [
+          -3.451,
+          51.648
+        ],
+        [
+          -0.935,
+          53.381
+        ]
+      ],
+      "transition": "Let's bring West Midlands into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -3.451,
+              51.648
+            ],
+            [
+              -0.935,
+              53.381
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East Wales",
+      "location": [
+        -5.0303,
+        51.8662
+      ],
+      "lines": [
+        "East Wales is the part of Wales that meets England, running from the Bristol Channel coast in the south up along the English boundary to the northern coast, with Swansea as its largest city.",
+        "Offa’s Dyke, the earthwork Mercia raised along this border in the eighth century, can still be walked for 285 kilometres.",
+        "Remember the old dyke still walking the Welsh border, and the two names for one people, Wealas to the English and Cymru to the Welsh."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wales",
+        "https://en.wikipedia.org/wiki/Offa%27s_Dyke",
+        "https://en.wikipedia.org/wiki/Swansea"
+      ],
+      "cameraBounds": [
+        [
+          -5.58,
+          51.17
+        ],
+        [
+          -2.67,
+          53.677
+        ]
+      ],
+      "transition": "Let's bring East Wales into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.58,
+              51.17
+            ],
+            [
+              -2.67,
+              53.677
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "West Wales and the Valleys",
+      "location": [
+        -3.288,
+        52.368
+      ],
+      "lines": [
+        "West Wales and the Valleys takes the western and southern side of Wales, the narrow valleys between the mountains and the sea, with Cardiff on the coast as its largest city.",
+        "The Valleys are the narrow coal valleys of the south, and Wales once had over 600 working pits in 1913, with the last deep mine, Tower Colliery, bought by its own miners and running until 2008.",
+        "Remember the valleys of coal with slate roofs over the mountains, and the last pit run by the men who bought it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_Wales_Vallleys",
+        "https://en.wikipedia.org/wiki/Tower_Colliery",
+        "https://en.wikipedia.org/wiki/Snowdonia"
+      ],
+      "cameraBounds": [
+        [
+          -4.088,
+          51.138
+        ],
+        [
+          -2.488,
+          53.598
+        ]
+      ],
+      "transition": "Let's bring West Wales and the Valleys into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -4.088,
+              51.138
+            ],
+            [
+              -2.488,
+              53.598
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "East",
+      "location": [
+        0.5415,
+        52.2138
+      ],
+      "lines": [
+        "East is England’s easternmost region, the bulge of East Anglia on the North Sea between the Wash and the Thames estuary, with Southend-on-Sea as its largest city.",
+        "The Fens were drained by Dutch engineers from the 1630s, and they are now the flattest and most fertile land in Britain, with some of it below sea level.",
+        "Remember the flat reclaimed fenland and its drainage ditches, with the warrior helmet from the ship burial at Sutton Hoo."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/East_Anglia",
+        "https://en.wikipedia.org/wiki/The_Fens",
+        "https://en.wikipedia.org/wiki/Sutton_Hoo"
+      ],
+      "cameraBounds": [
+        [
+          -0.996,
+          51.263
+        ],
+        [
+          2.079,
+          53.165
+        ]
+      ],
+      "transition": "Let's bring East into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -0.996,
+              51.263
+            ],
+            [
+              2.079,
+              53.165
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greater London",
+      "location": [
+        -0.0886,
+        51.4831
+      ],
+      "lines": [
+        "Greater London is a small region set on its own inside the south-east corner of England, ringed by the South East and the East region, and the map names it separately.",
+        "It was the largest city in the world from about 1825 to 1925, and the Great Fire of 1666 destroyed 13,200 houses and 87 churches, of which Wren rebuilt 51.",
+        "Remember the tiny separate patch in the south-east corner, holding the city that was the biggest in the world for a century."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Greater_London",
+        "https://en.wikipedia.org/wiki/Great_Fire_of_London",
+        "https://en.wikipedia.org/wiki/Londinium"
+      ],
+      "cameraBounds": [
+        [
+          -0.889,
+          50.883
+        ],
+        [
+          0.711,
+          52.083
+        ]
+      ],
+      "transition": "Let's bring Greater London into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -0.889,
+              50.883
+            ],
+            [
+              0.711,
+              52.083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South East",
+      "location": [
+        -1.5752,
+        50.7673
+      ],
+      "lines": [
+        "South East is the ring of country around London, from the Thames estuary and the Channel coast up to the Chiltern hills, with Brighton as its largest city.",
+        "The Channel is 33 kilometres wide at Dover, and the tunnel under it, opened in 1994, has the longest undersea section of any rail tunnel.",
+        "Remember the narrowest crossing to France at Dover, with Canterbury, the seat of English Christianity since 597, in the same region."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_East_England",
+        "https://en.wikipedia.org/wiki/Channel_Tunnel",
+        "https://en.wikipedia.org/wiki/Canterbury"
+      ],
+      "cameraBounds": [
+        [
+          -2.372,
+          50.389
+        ],
+        [
+          1.846,
+          52.393
+        ]
+      ],
+      "transition": "Let's bring South East into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.372,
+              50.389
+            ],
+            [
+              1.846,
+              52.393
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South West",
+      "location": [
+        -3.596,
+        51.0363
+      ],
+      "lines": [
+        "South West is England’s far south-west corner, from the Dorset coast and the Bristol Channel up to Bristol, with Cornwall and Devon at its western tip.",
+        "Stonehenge and Bath are both here, the stones raised around 2500 BC, and Bath’s spring has poured hot water at 46 degrees Celsius since long before Rome plumbed it.",
+        "Remember the standing stones and the hot spring, with the tin coast of Cornwall and its name meaning the foreigners of Kernow beyond."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_West_England",
+        "https://en.wikipedia.org/wiki/Stonehenge",
+        "https://en.wikipedia.org/wiki/Bath,_Somerset"
+      ],
+      "cameraBounds": [
+        [
+          -5.846,
+          49.699
+        ],
+        [
+          -1.346,
+          52.373
+        ]
+      ],
+      "transition": "Let's bring South West into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.846,
+              49.699
+            ],
+            [
+              -1.346,
+              52.373
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -6.23,
+          49.77
+        ],
+        [
+          1.74,
+          59.07
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "15 regions of Great Britain, one for each target of the map: Highlands and Islands, North Eastern, Eastern, South Western, North East, North West, Yorkshire and the Humber, East Midlands, West Midlands, East Wales, West Wales and the Valleys, East, Greater London, South East and South West.",
+    "Remember the shape of Great Britain from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "tall"
+}

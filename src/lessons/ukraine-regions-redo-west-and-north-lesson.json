@@ -1,0 +1,758 @@
+{
+  "title": "Ukraine's regions · Western and northern Ukraine · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "ukraine-regions",
+  "area": "Ukraine",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/ukraine-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      22.19,
+      47.2
+    ],
+    [
+      33.18,
+      52.36
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Chernihiv",
+      "location": [
+        31.9809,
+        51.356
+      ],
+      "bounds": [
+        [
+          30.145,
+          50.09
+        ],
+        [
+          33.817,
+          52.622
+        ]
+      ]
+    },
+    {
+      "name": "Volyn",
+      "location": [
+        24.8421,
+        51.1223
+      ],
+      "bounds": [
+        [
+          23.282,
+          50.088
+        ],
+        [
+          26.402,
+          52.157
+        ]
+      ]
+    },
+    {
+      "name": "Rivne",
+      "location": [
+        26.3844,
+        50.9708
+      ],
+      "bounds": [
+        [
+          24.733,
+          49.774
+        ],
+        [
+          28.035,
+          52.168
+        ]
+      ]
+    },
+    {
+      "name": "Zhytomyr",
+      "location": [
+        28.4629,
+        50.6191
+      ],
+      "bounds": [
+        [
+          26.875,
+          49.328
+        ],
+        [
+          30.051,
+          51.91
+        ]
+      ]
+    },
+    {
+      "name": "Kyiv",
+      "location": [
+        30.5317,
+        50.3412
+      ],
+      "bounds": [
+        [
+          29.732,
+          49.741
+        ],
+        [
+          31.332,
+          50.941
+        ]
+      ]
+    },
+    {
+      "name": "Kyiv Oblast",
+      "location": [
+        29.5892,
+        49.4278
+      ],
+      "bounds": [
+        [
+          28.912,
+          48.881
+        ],
+        [
+          32.498,
+          51.775
+        ]
+      ]
+    },
+    {
+      "name": "Lviv",
+      "location": [
+        24.0345,
+        49.682
+      ],
+      "bounds": [
+        [
+          22.293,
+          48.484
+        ],
+        [
+          25.777,
+          50.88
+        ]
+      ]
+    },
+    {
+      "name": "Khmelnytskyi",
+      "location": [
+        27.0187,
+        49.5197
+      ],
+      "bounds": [
+        [
+          25.931,
+          48.192
+        ],
+        [
+          28.107,
+          50.848
+        ]
+      ]
+    },
+    {
+      "name": "Ternopil",
+      "location": [
+        25.5438,
+        49.3908
+      ],
+      "bounds": [
+        [
+          24.498,
+          48.299
+        ],
+        [
+          26.59,
+          50.483
+        ]
+      ]
+    },
+    {
+      "name": "Ivano-Frankivsk",
+      "location": [
+        24.5846,
+        48.6193
+      ],
+      "bounds": [
+        [
+          23.27,
+          47.488
+        ],
+        [
+          25.899,
+          49.751
+        ]
+      ]
+    },
+    {
+      "name": "Zakarpattia",
+      "location": [
+        23.386,
+        48.4846
+      ],
+      "bounds": [
+        [
+          21.819,
+          47.75
+        ],
+        [
+          24.953,
+          49.219
+        ]
+      ]
+    },
+    {
+      "name": "Chernivtsi",
+      "location": [
+        26.2163,
+        48.196
+      ],
+      "bounds": [
+        [
+          24.607,
+          47.593
+        ],
+        [
+          27.826,
+          48.799
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Ukraine's regions, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 12 of the Ukraine regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Chernihiv",
+      "location": [
+        31.9809,
+        51.356
+      ],
+      "lines": [
+        "Chernihiv is in the north of Ukraine, with Russia and Belarus along its northern edge and Kyiv Oblast, Poltava and Sumy to the south and east, and its largest city is the town of Chernihiv.",
+        "Its name probably comes from chornyi, black, for the dark soil or the dark woods around the town.",
+        "Remember the black north, where the Saviour Cathedral was begun before 1036, older than anything standing in Kyiv."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chernihiv_Oblast",
+        "https://en.wikipedia.org/wiki/Chernihiv",
+        "https://en.wikipedia.org/wiki/Saviour_Cathedral,_Chernihiv"
+      ],
+      "cameraBounds": [
+        [
+          30.145,
+          50.09
+        ],
+        [
+          33.817,
+          52.622
+        ]
+      ],
+      "transition": "Let's bring Chernihiv into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              30.145,
+              50.09
+            ],
+            [
+              33.817,
+              52.622
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volyn",
+      "location": [
+        24.8421,
+        51.1223
+      ],
+      "lines": [
+        "Volyn is in the north-west of Ukraine, with Poland and Belarus on its western and northern edges, Lviv to the south and Rivne to the east, and Lutsk as its largest city.",
+        "The name comes from the vanished town of Volyn and the Volhynians who lived around it, a name recorded in the eleventh century.",
+        "Remember the castle at Lutsk printed on the 200 hryvnia note, and the Shatsky lakes on the Belarusian and Polish border."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Volyn_Oblast",
+        "https://en.wikipedia.org/wiki/Lutsk",
+        "https://en.wikipedia.org/wiki/Shatsk_National_Natural_Park"
+      ],
+      "cameraBounds": [
+        [
+          23.282,
+          50.088
+        ],
+        [
+          26.402,
+          52.157
+        ]
+      ],
+      "transition": "Let's bring Volyn into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.282,
+              50.088
+            ],
+            [
+              26.402,
+              52.157
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rivne",
+      "location": [
+        26.3844,
+        50.9708
+      ],
+      "lines": [
+        "Rivne is in the north-west of Ukraine, with Volyn to the north-west, Zhytomyr to the north-east, Lviv to the west and Ternopil and Khmelnytskyi to the south, and Rivne as its largest city.",
+        "Its name comes from rivnyi, flat or even, for the level ground around the town.",
+        "Remember the flat northern plain, where amber is dug out of the peat bog on a scale visible from orbit."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rivne_Oblast",
+        "https://en.wikipedia.org/wiki/Rivne",
+        "https://en.wikipedia.org/wiki/Amber"
+      ],
+      "cameraBounds": [
+        [
+          24.733,
+          49.774
+        ],
+        [
+          28.035,
+          52.168
+        ]
+      ],
+      "transition": "Let's bring Rivne into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.733,
+              49.774
+            ],
+            [
+              28.035,
+              52.168
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zhytomyr",
+      "location": [
+        28.4629,
+        50.6191
+      ],
+      "lines": [
+        "Zhytomyr is in the north of Ukraine, with Rivne to the north-west, Kyiv Oblast to the north-east, Khmelnytskyi to the west and Vinnytsya to the south, and Zhytomyr as its largest city.",
+        "Korolev, the rocket designer whose launchers carried Sputnik and Gagarin into orbit, was born here.",
+        "Remember the pink granite quarries, the largest in Ukraine, whose stone faces buildings across the former Soviet Union."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zhytomyr_Oblast",
+        "https://en.wikipedia.org/wiki/Zhytomyr",
+        "https://en.wikipedia.org/wiki/Sergey_Korolev"
+      ],
+      "cameraBounds": [
+        [
+          26.875,
+          49.328
+        ],
+        [
+          30.051,
+          51.91
+        ]
+      ],
+      "transition": "Let's bring Zhytomyr into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              26.875,
+              49.328
+            ],
+            [
+              30.051,
+              51.91
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kyiv",
+      "location": [
+        30.5317,
+        50.3412
+      ],
+      "lines": [
+        "Kyiv is the capital of Ukraine, and the map shows it as a target in its own right, administered separately from the Kyiv Oblast that surrounds it.",
+        "It was named for Kyi, the eldest of three brothers who legend says founded the city with their sister Lybid.",
+        "Remember the capital with a metro station 105 metres down through the cliffs above the Dnipro."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kyiv",
+        "https://en.wikipedia.org/wiki/Kyivan_Rus",
+        "https://en.wikipedia.org/wiki/Arsenalna_(Kyiv_Metro)"
+      ],
+      "cameraBounds": [
+        [
+          29.732,
+          49.741
+        ],
+        [
+          31.332,
+          50.941
+        ]
+      ],
+      "transition": "Let's bring Kyiv into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              29.732,
+              49.741
+            ],
+            [
+              31.332,
+              50.941
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kyiv Oblast",
+      "location": [
+        29.5892,
+        49.4278
+      ],
+      "lines": [
+        "Kyiv Oblast is the region that surrounds the capital, which the map shows separately as its own target, with Chernihiv to the north and Zhytomyr to the west, and Bila Tserkva as its largest city.",
+        "Chornobyl lies in this oblast, and the exclusion zone around it has become one of Europe’s largest wildlife refuges.",
+        "Remember the ring of country round the capital, where Trypillia builders raised settlements of fifteen thousand people around 4000 BC."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kyiv_Oblast",
+        "https://en.wikipedia.org/wiki/Chernobyl_Disaster",
+        "https://en.wikipedia.org/wiki/Trypillia_culture"
+      ],
+      "cameraBounds": [
+        [
+          28.912,
+          48.881
+        ],
+        [
+          32.498,
+          51.775
+        ]
+      ],
+      "transition": "Let's bring Kyiv Oblast into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              28.912,
+              48.881
+            ],
+            [
+              32.498,
+              51.775
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lviv",
+      "location": [
+        24.0345,
+        49.682
+      ],
+      "lines": [
+        "Lviv is in the west of Ukraine, with Volyn to the north, Ternopil to the east, Ivano-Frankivsk to the south-east and Zakarpattia to the south, with Poland beyond its western edge and Lviv as its largest city.",
+        "King Danylo of Galicia founded it around 1250 and named it for his son Lev, and it stayed Austrian until 1918 and Polish until 1939.",
+        "Remember Lev’s city with more coffee houses per head than any other in Ukraine, and a cemetery the size of Père Lachaise."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lviv_Oblast",
+        "https://en.wikipedia.org/wiki/Lviv",
+        "https://en.wikipedia.org/wiki/Lychakiv_Cemetery"
+      ],
+      "cameraBounds": [
+        [
+          22.293,
+          48.484
+        ],
+        [
+          25.777,
+          50.88
+        ]
+      ],
+      "transition": "Let's bring Lviv into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              22.293,
+              48.484
+            ],
+            [
+              25.777,
+              50.88
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Khmelnytskyi",
+      "location": [
+        27.0187,
+        49.5197
+      ],
+      "lines": [
+        "Khmelnytskyi is in the west of Ukraine, with Rivne and Zhytomyr to the north, Vinnytsya to the east, Ternopil to the west and Chernivtsi to the south, and the town of Khmelnytskyy as its largest city.",
+        "The region was renamed in 1954 for the Cossack hetman Bohdan Khmelnytskyi, whose uprising of 1648 created a Cossack state.",
+        "Remember the western region named for the hetman, with the rock island town of Kamianets-Podilskyi standing in a river canyon."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Khmelnytskyi_Oblast",
+        "https://en.wikipedia.org/wiki/Kamianets-Podilskyi",
+        "https://en.wikipedia.org/wiki/Bohdan_Khmelnytskyi"
+      ],
+      "cameraBounds": [
+        [
+          25.931,
+          48.192
+        ],
+        [
+          28.107,
+          50.848
+        ]
+      ],
+      "transition": "Let's bring Khmelnytskyi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              25.931,
+              48.192
+            ],
+            [
+              28.107,
+              50.848
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ternopil",
+      "location": [
+        25.5438,
+        49.3908
+      ],
+      "lines": [
+        "Ternopil is a small region in the west of Ukraine, with Rivne to the north, Lviv to the west and Ivano-Frankivsk and Chernivtsi to the south, and Ternopil as its largest city.",
+        "Its name means thorn field, from the blackthorn scrub the town was built on, and the cave beneath it runs for more than 260 kilometres, the longest gypsum cave in the world.",
+        "Remember the lake dug four centuries ago as a defence, and the world’s longest gypsum cave running under the town."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ternopil_Oblast",
+        "https://en.wikipedia.org/wiki/Ternopil",
+        "https://en.wikipedia.org/wiki/Optymistychna_Cave"
+      ],
+      "cameraBounds": [
+        [
+          24.498,
+          48.299
+        ],
+        [
+          26.59,
+          50.483
+        ]
+      ],
+      "transition": "Let's bring Ternopil into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.498,
+              48.299
+            ],
+            [
+              26.59,
+              50.483
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ivano-Frankivsk",
+      "location": [
+        24.5846,
+        48.6193
+      ],
+      "lines": [
+        "Ivano-Frankivsk is in the west of Ukraine, with Lviv to the north, Ternopil to the north-east, Zakarpattia to the west and Chernivtsi to the south. Its largest city, Ivano-Frankivsk, is the gateway to the Carpathians.",
+        "The city was renamed in 1962 for the poet Ivan Franko, and for three centuries before that it was called Stanislaviv.",
+        "Remember the gateway to the Carpathians, with Hoverla, the highest mountain in Ukraine, standing on its border with Zakarpattia."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ivano-Frankivsk_Oblast",
+        "https://en.wikipedia.org/wiki/Ivano-Frankivsk",
+        "https://en.wikipedia.org/wiki/Hoverla"
+      ],
+      "cameraBounds": [
+        [
+          23.27,
+          47.488
+        ],
+        [
+          25.899,
+          49.751
+        ]
+      ],
+      "transition": "Let's bring Ivano-Frankivsk into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              23.27,
+              47.488
+            ],
+            [
+              25.899,
+              49.751
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zakarpattia",
+      "location": [
+        23.386,
+        48.4846
+      ],
+      "lines": [
+        "Zakarpattia is the far-western region of Ukraine, lying beyond the Carpathians from Lviv, with Ivano-Frankivsk to the north-east and Uzhgorod as its largest city.",
+        "It is the only Ukrainian region on the far side of the Carpathians, and four countries meet along its borders, more than any other region in the country.",
+        "Remember the land beyond the mountains, where Hungarian, Romanian and Rusyn villages share the frontier with four countries."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zakarpattia_Oblast",
+        "https://en.wikipedia.org/wiki/Uzhhorod",
+        "https://en.wikipedia.org/wiki/Carpathian_Mountains"
+      ],
+      "cameraBounds": [
+        [
+          21.819,
+          47.75
+        ],
+        [
+          24.953,
+          49.219
+        ]
+      ],
+      "transition": "Let's bring Zakarpattia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              21.819,
+              47.75
+            ],
+            [
+              24.953,
+              49.219
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chernivtsi",
+      "location": [
+        26.2163,
+        48.196
+      ],
+      "lines": [
+        "Chernivtsi is in the south-west of Ukraine, on the Prut river, with Ternopil to the north-west, Khmelnytskyi to the north-east and Vinnytsya to the east, and Romania lies beyond its western edge.",
+        "Austrian until 1918, the city was so mixed that its university was German, its theatre Romanian and its poets, Paul Celan among them, wrote in German.",
+        "Remember the university town of brick patterns and coloured roofs, a world heritage site, named for black earth on the Prut."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chernivtsi_Oblast",
+        "https://en.wikipedia.org/wiki/Chernivtsi",
+        "https://en.wikipedia.org/wiki/Paul_Celan"
+      ],
+      "cameraBounds": [
+        [
+          24.607,
+          47.593
+        ],
+        [
+          27.826,
+          48.799
+        ]
+      ],
+      "transition": "Let's bring Chernivtsi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              24.607,
+              47.593
+            ],
+            [
+              27.826,
+              48.799
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          22.19,
+          47.2
+        ],
+        [
+          33.18,
+          52.36
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "12 regions of Ukraine, one for each target of the map: Chernihiv, Volyn, Rivne, Zhytomyr, Kyiv, Kyiv Oblast, Lviv, Khmelnytskyi, Ternopil, Ivano-Frankivsk, Zakarpattia and Chernivtsi.",
+    "Remember the shape of Ukraine from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "classic"
+}

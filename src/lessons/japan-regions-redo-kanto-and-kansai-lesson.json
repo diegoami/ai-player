@@ -1,0 +1,935 @@
+{
+  "title": "Japan's prefectures · The capital region and the western heartland · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "japan-regions",
+  "area": "Japan",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/japan-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      133.65,
+      32.93
+    ],
+    [
+      141.51,
+      37.01
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Saitama",
+      "location": [
+        139.2878,
+        36.0113
+      ],
+      "bounds": [
+        [
+          138.488,
+          35.411
+        ],
+        [
+          140.088,
+          36.611
+        ]
+      ]
+    },
+    {
+      "name": "Gifu",
+      "location": [
+        136.9409,
+        35.7948
+      ],
+      "bounds": [
+        [
+          136.086,
+          34.975
+        ],
+        [
+          137.795,
+          36.615
+        ]
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "location": [
+        139.3935,
+        35.6944
+      ],
+      "bounds": [
+        [
+          138.594,
+          35.094
+        ],
+        [
+          140.194,
+          36.294
+        ]
+      ]
+    },
+    {
+      "name": "Yamanashi",
+      "location": [
+        138.6452,
+        35.574
+      ],
+      "bounds": [
+        [
+          137.845,
+          34.974
+        ],
+        [
+          139.445,
+          36.174
+        ]
+      ]
+    },
+    {
+      "name": "Chiba",
+      "location": [
+        140.3062,
+        35.4898
+      ],
+      "bounds": [
+        [
+          139.506,
+          34.753
+        ],
+        [
+          141.106,
+          36.227
+        ]
+      ]
+    },
+    {
+      "name": "Kanagawa",
+      "location": [
+        139.3434,
+        35.3858
+      ],
+      "bounds": [
+        [
+          138.543,
+          34.786
+        ],
+        [
+          140.143,
+          35.986
+        ]
+      ]
+    },
+    {
+      "name": "Kyōto",
+      "location": [
+        135.4498,
+        35.2357
+      ],
+      "bounds": [
+        [
+          134.65,
+          34.565
+        ],
+        [
+          136.25,
+          35.906
+        ]
+      ]
+    },
+    {
+      "name": "Shiga",
+      "location": [
+        136.0931,
+        35.2244
+      ],
+      "bounds": [
+        [
+          135.293,
+          34.624
+        ],
+        [
+          136.893,
+          35.824
+        ]
+      ]
+    },
+    {
+      "name": "Shizuoka",
+      "location": [
+        138.3044,
+        35.1119
+      ],
+      "bounds": [
+        [
+          137.259,
+          34.467
+        ],
+        [
+          139.35,
+          35.757
+        ]
+      ]
+    },
+    {
+      "name": "Aichi",
+      "location": [
+        137.2395,
+        34.9867
+      ],
+      "bounds": [
+        [
+          136.439,
+          34.387
+        ],
+        [
+          138.04,
+          35.587
+        ]
+      ]
+    },
+    {
+      "name": "Hyōgo",
+      "location": [
+        134.8541,
+        34.9316
+      ],
+      "bounds": [
+        [
+          134.054,
+          34.006
+        ],
+        [
+          135.654,
+          35.857
+        ]
+      ]
+    },
+    {
+      "name": "Ōsaka",
+      "location": [
+        135.2923,
+        34.3547
+      ],
+      "bounds": [
+        [
+          134.596,
+          34.036
+        ],
+        [
+          136.196,
+          35.236
+        ]
+      ]
+    },
+    {
+      "name": "Mie",
+      "location": [
+        136.3818,
+        34.4591
+      ],
+      "bounds": [
+        [
+          135.582,
+          33.493
+        ],
+        [
+          137.182,
+          35.425
+        ]
+      ]
+    },
+    {
+      "name": "Nara",
+      "location": [
+        135.8769,
+        34.2988
+      ],
+      "bounds": [
+        [
+          135.077,
+          33.699
+        ],
+        [
+          136.677,
+          34.899
+        ]
+      ]
+    },
+    {
+      "name": "Wakayama",
+      "location": [
+        135.5296,
+        33.9266
+      ],
+      "bounds": [
+        [
+          134.73,
+          33.327
+        ],
+        [
+          136.33,
+          34.527
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Japan's prefectures, part 3 of 4. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 15 of the Japan regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Saitama",
+      "location": [
+        139.2878,
+        36.0113
+      ],
+      "lines": [
+        "Saitama is inland just north of Tokyo on the Kantō plain, with Gunma above it and the old warehouse town of Kawagoe in its southern half.",
+        "It has no coastline at all and the longest average commute in Japan, because much of it sleeps here and works in Tokyo.",
+        "Remember the little Edo of Kawagoe’s warehouse streets, on the plain where people commute into the capital every morning."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saitama_Prefecture",
+        "https://en.wikipedia.org/wiki/Kawagoe",
+        "https://en.wikipedia.org/wiki/Little_Edo"
+      ],
+      "cameraBounds": [
+        [
+          138.488,
+          35.411
+        ],
+        [
+          140.088,
+          36.611
+        ]
+      ],
+      "transition": "Let's bring Saitama into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              138.488,
+              35.411
+            ],
+            [
+              140.088,
+              36.611
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gifu",
+      "location": [
+        136.9409,
+        35.7948
+      ],
+      "lines": [
+        "Gifu is inland in the centre of Honshū, with Nagano and Toyama above and Aichi below, and the city of Gifu in the plain beside the Nagara river.",
+        "Its name was invented in 1567 by Oda Nobunaga, who took one character from the Chinese mountain where the Zhou dynasty began and one from Confucius’s birthplace, announcing that he meant to rule the country.",
+        "Remember the steep thatched roofs of Shirakawa-gō that shed metres of snow, and the cormorant fishing families on the Nagara river."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gifu_Prefecture",
+        "https://en.wikipedia.org/wiki/Shirakawa-g%C5%8D",
+        "https://en.wikipedia.org/wiki/Cormorant_fishing"
+      ],
+      "cameraBounds": [
+        [
+          136.086,
+          34.975
+        ],
+        [
+          137.795,
+          36.615
+        ]
+      ],
+      "transition": "Let's bring Gifu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              136.086,
+              34.975
+            ],
+            [
+              137.795,
+              36.615
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tokyo",
+      "location": [
+        139.3935,
+        35.6944
+      ],
+      "lines": [
+        "Tokyo is the capital prefecture in the middle of the Kantō plain, facing the Pacific and Tokyo Bay, with Saitama to the north and Chiba and Kanagawa to the south.",
+        "Edo was already the world’s largest city by 1720, with over a million people, and greater Tokyo today is the largest metropolitan area in the world, about 37 million people.",
+        "Remember the eastern capital, renamed in 1868 when the emperor moved here, with its fire brigades once organised street by street."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tokyo",
+        "https://en.wikipedia.org/wiki/Edo",
+        "https://en.wikipedia.org/wiki/Tokyo_Bay"
+      ],
+      "cameraBounds": [
+        [
+          138.594,
+          35.094
+        ],
+        [
+          140.194,
+          36.294
+        ]
+      ],
+      "transition": "Let's bring Tokyo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              138.594,
+              35.094
+            ],
+            [
+              140.194,
+              36.294
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamanashi",
+      "location": [
+        138.6452,
+        35.574
+      ],
+      "lines": [
+        "Yamanashi is inland in the mountains north-west of Tokyo, with the city of Kōfu in its central basin and Mount Fuji standing on its border with Shizuoka.",
+        "The five lakes at the foot of Fuji are here, and Japanese winemaking began in this prefecture with the koshū grape.",
+        "Remember the mountain pear and the vineyards of the old koshū grape, with Fuji on the edge of the basin."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yamanashi_Prefecture",
+        "https://en.wikipedia.org/wiki/Mount_Fuji",
+        "https://en.wikipedia.org/wiki/Koshu_(grape)"
+      ],
+      "cameraBounds": [
+        [
+          137.845,
+          34.974
+        ],
+        [
+          139.445,
+          36.174
+        ]
+      ],
+      "transition": "Let's bring Yamanashi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              137.845,
+              34.974
+            ],
+            [
+              139.445,
+              36.174
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chiba",
+      "location": [
+        140.3062,
+        35.4898
+      ],
+      "lines": [
+        "Chiba wraps around the Bōsō Peninsula on the Pacific east of Tokyo, with the city of Chiba on the bay and Ibaraki along its northern edge.",
+        "Narita, Japan’s main international airport, is here, and so is Tokyo Disneyland, which is not in Tokyo.",
+        "Remember the thousand leaves, the peanuts, and the soy sauce that has been brewed at Noda since 1661."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chiba_Prefecture",
+        "https://en.wikipedia.org/wiki/Narita_International_Airport",
+        "https://en.wikipedia.org/wiki/Tokyo_Disney_Resort"
+      ],
+      "cameraBounds": [
+        [
+          139.506,
+          34.753
+        ],
+        [
+          141.106,
+          36.227
+        ]
+      ],
+      "transition": "Let's bring Chiba into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              139.506,
+              34.753
+            ],
+            [
+              141.106,
+              36.227
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kanagawa",
+      "location": [
+        139.3434,
+        35.3858
+      ],
+      "lines": [
+        "Kanagawa faces the Pacific on the coast south-west of Tokyo, with the city of Yokohama on the bay and Yamanashi and Shizuoka behind it.",
+        "Yokohama was a fishing village until 1859, when it was opened to foreign trade, and Kamakura, seat of the shogunate from 1185 to 1333, lies on its western shore.",
+        "Remember the fishing village that became a great port, and the bronze Buddha sitting in the open since a tsunami took its hall."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kanagawa_Prefecture",
+        "https://en.wikipedia.org/wiki/Yokohama",
+        "https://en.wikipedia.org/wiki/Kamakura"
+      ],
+      "cameraBounds": [
+        [
+          138.543,
+          34.786
+        ],
+        [
+          140.143,
+          35.986
+        ]
+      ],
+      "transition": "Let's bring Kanagawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              138.543,
+              34.786
+            ],
+            [
+              140.143,
+              35.986
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kyōto",
+      "location": [
+        135.4498,
+        35.2357
+      ],
+      "lines": [
+        "Kyōto sits in the centre of Honshū, reaching the Sea of Japan in the north, with Shiga to the north-east and Ōsaka to the west and the old capital city of Kyōto in its southern half.",
+        "It was the capital of Japan for more than a thousand years, from 794 to 1868, and it was deliberately left off the atomic bomb target list, which is why its 1,600 temples survive.",
+        "Remember the thousand-year capital, and the Kiyomizu temple stage built without a single nail."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ky%C5%8Dto_Prefecture",
+        "https://en.wikipedia.org/wiki/Kyoto",
+        "https://en.wikipedia.org/wiki/Kiyomizu-dera"
+      ],
+      "cameraBounds": [
+        [
+          134.65,
+          34.565
+        ],
+        [
+          136.25,
+          35.906
+        ]
+      ],
+      "transition": "Let's bring Kyōto into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              134.65,
+              34.565
+            ],
+            [
+              136.25,
+              35.906
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shiga",
+      "location": [
+        136.0931,
+        35.2244
+      ],
+      "lines": [
+        "Shiga is inland in the centre of Honshū and wraps around Lake Biwa, with the city of Ōtsu on the eastern shore and no sea at all.",
+        "Lake Biwa, which fills a sixth of the prefecture, is the largest lake in Japan and one of the oldest on earth, at about four million years.",
+        "Remember the ancient lake, and the castle of Hikone on its shore, one of the few in Japan that still keeps its original tower."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shiga_Prefecture",
+        "https://en.wikipedia.org/wiki/Lake_Biwa",
+        "https://en.wikipedia.org/wiki/Hikone_Castle"
+      ],
+      "cameraBounds": [
+        [
+          135.293,
+          34.624
+        ],
+        [
+          136.893,
+          35.824
+        ]
+      ],
+      "transition": "Let's bring Shiga into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              135.293,
+              34.624
+            ],
+            [
+              136.893,
+              35.824
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shizuoka",
+      "location": [
+        138.3044,
+        35.1119
+      ],
+      "lines": [
+        "Shizuoka faces the Pacific on the south coast of central Honshū, between Kanagawa and Aichi, with the city of Hamamatsu in the west and Mount Fuji in the north.",
+        "It grows about 40% of Japan’s tea on the slopes below Fuji, and Fuji’s southern half stands here, at 3,776 metres.",
+        "Remember the quiet hill of tea under Fuji, and the plastic models and musical instruments made in the same prefecture."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shizuoka_Prefecture",
+        "https://en.wikipedia.org/wiki/Mount_Fuji",
+        "https://en.wikipedia.org/wiki/Green_tea"
+      ],
+      "cameraBounds": [
+        [
+          137.259,
+          34.467
+        ],
+        [
+          139.35,
+          35.757
+        ]
+      ],
+      "transition": "Let's bring Shizuoka into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              137.259,
+              34.467
+            ],
+            [
+              139.35,
+              35.757
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aichi",
+      "location": [
+        137.2395,
+        34.9867
+      ],
+      "lines": [
+        "Aichi faces the Pacific in the middle of Honshū, between Shizuoka and Mie, with the city of Nagoya, the country’s fourth largest, on the bay and Gifu and Nagano behind it.",
+        "Toyota is based here and takes its name from the founder’s family, with the spelling changed from Toyoda because eight brush strokes are thought luckier.",
+        "Remember the bay where all three warlords who unified Japan were born, and the carmaker that changed its name for luck."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aichi_Prefecture",
+        "https://en.wikipedia.org/wiki/Toyota",
+        "https://en.wikipedia.org/wiki/Nagoya"
+      ],
+      "cameraBounds": [
+        [
+          136.439,
+          34.387
+        ],
+        [
+          138.04,
+          35.587
+        ]
+      ],
+      "transition": "Let's bring Aichi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              136.439,
+              34.387
+            ],
+            [
+              138.04,
+              35.587
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hyōgo",
+      "location": [
+        134.8541,
+        34.9316
+      ],
+      "lines": [
+        "Hyōgo runs along the Sea of Japan coast of western Honshū and round to the Inland Sea, with the city of Kōbe on Osaka Bay and Tottori at its northern end.",
+        "The earthquake of 1995 killed more than 6,400 people here and changed Japanese building codes, while Himeji castle to the west came through it undamaged.",
+        "Remember the arsenal of the seventh century, Kobe beef, and the white castle that shrugged the earthquake off."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hy%C5%8Dgo_Prefecture",
+        "https://en.wikipedia.org/wiki/Great_Hanshin_earthquake",
+        "https://en.wikipedia.org/wiki/Himeji_Castle"
+      ],
+      "cameraBounds": [
+        [
+          134.054,
+          34.006
+        ],
+        [
+          135.654,
+          35.857
+        ]
+      ],
+      "transition": "Let's bring Hyōgo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              134.054,
+              34.006
+            ],
+            [
+              135.654,
+              35.857
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ōsaka",
+      "location": [
+        135.2923,
+        34.3547
+      ],
+      "lines": [
+        "Ōsaka sits at the mouth of the Yodo river on Osaka Bay in western Honshū, with the city of Ōsaka in the middle and Wakayama and Nara to the south.",
+        "The world’s first futures exchange traded rice here from 1697, and the people still greet each other by asking whether business is good.",
+        "Remember the merchant capital and the kitchen of the country, where a good meal is said to eat you bankrupt."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C5%8Csaka_Prefecture",
+        "https://en.wikipedia.org/wiki/Osaka",
+        "https://en.wikipedia.org/wiki/D%C5%8Djima_Rice_Exchange"
+      ],
+      "cameraBounds": [
+        [
+          134.596,
+          34.036
+        ],
+        [
+          136.196,
+          35.236
+        ]
+      ],
+      "transition": "Let's bring Ōsaka into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              134.596,
+              34.036
+            ],
+            [
+              136.196,
+              35.236
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mie",
+      "location": [
+        136.3818,
+        34.4591
+      ],
+      "lines": [
+        "Mie wraps the Kii Peninsula on the Pacific in the middle of Honshū, between Aichi and Wakayama, with the city of Tsu on the Ise bay.",
+        "Ise Jingū here is the most sacred Shinto shrine and has been rebuilt from new timber every twenty years for thirteen centuries.",
+        "Remember the three-fold prince, the rebuilding of the shrine, and the pearls invented in Ago Bay."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mie_Prefecture",
+        "https://en.wikipedia.org/wiki/Ise_Grand_Shrine",
+        "https://en.wikipedia.org/wiki/Cultured_pearl"
+      ],
+      "cameraBounds": [
+        [
+          135.582,
+          33.493
+        ],
+        [
+          137.182,
+          35.425
+        ]
+      ],
+      "transition": "Let's bring Mie into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              135.582,
+              33.493
+            ],
+            [
+              137.182,
+              35.425
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nara",
+      "location": [
+        135.8769,
+        34.2988
+      ],
+      "lines": [
+        "Nara is inland south of Kyōto, between Ōsaka and Mie with Wakayama below it, and the old city of Nara in its northern basin.",
+        "It was Japan’s first permanent capital, from 710 to 784, and its Tōdai-ji temple holds the largest bronze Buddha in the world.",
+        "Remember the levelled basin, the great bronze Buddha, and the twelve hundred deer that walk in the park."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nara_Prefecture",
+        "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji",
+        "https://en.wikipedia.org/wiki/Nara_Park"
+      ],
+      "cameraBounds": [
+        [
+          135.077,
+          33.699
+        ],
+        [
+          136.677,
+          34.899
+        ]
+      ],
+      "transition": "Let's bring Nara into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              135.077,
+              33.699
+            ],
+            [
+              136.677,
+              34.899
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wakayama",
+      "location": [
+        135.5296,
+        33.9266
+      ],
+      "lines": [
+        "Wakayama takes the southern tip of the Kii Peninsula on the Pacific, with Nara to the north, Mie to the east and the city of Wakayama at the narrow neck.",
+        "The Kumano Kodō pilgrimage routes cross it, one of only two pilgrimage roads on the UNESCO list, the other being the road to Santiago de Compostela.",
+        "Remember the young mountain, the plum vinegar, and the mandarin orchards on the warm southern slopes."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wakayama_Prefecture",
+        "https://en.wikipedia.org/wiki/Kumano_Kod%C5%8D",
+        "https://en.wikipedia.org/wiki/Umeboshi"
+      ],
+      "cameraBounds": [
+        [
+          134.73,
+          33.327
+        ],
+        [
+          136.33,
+          34.527
+        ]
+      ],
+      "transition": "Let's bring Wakayama into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              134.73,
+              33.327
+            ],
+            [
+              136.33,
+              34.527
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          133.65,
+          32.93
+        ],
+        [
+          141.51,
+          37.01
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "15 regions of Japan, one for each target of the map: Saitama, Gifu, Tokyo, Yamanashi, Chiba, Kanagawa, Kyōto, Shiga, Shizuoka, Aichi, Hyōgo, Ōsaka, Mie, Nara and Wakayama.",
+    "Remember the shape of Japan from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "tall"
+}

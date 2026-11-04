@@ -1,0 +1,994 @@
+{
+  "title": "Spain's regions · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "spain-regions",
+  "area": "Spain",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/spain-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -9.2,
+      36.37
+    ],
+    [
+      3.96,
+      44.29
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Asturias",
+      "location": [
+        -5.8403,
+        43.2888
+      ],
+      "bounds": [
+        [
+          -7.499,
+          42.689
+        ],
+        [
+          -4.182,
+          43.889
+        ]
+      ]
+    },
+    {
+      "name": "Cantabria",
+      "location": [
+        -3.9912,
+        43.1397
+      ],
+      "bounds": [
+        [
+          -5.042,
+          42.54
+        ],
+        [
+          -2.94,
+          43.74
+        ]
+      ]
+    },
+    {
+      "name": "País Vasco",
+      "location": [
+        -2.5903,
+        42.9737
+      ],
+      "bounds": [
+        [
+          -3.641,
+          42.374
+        ],
+        [
+          -1.54,
+          43.574
+        ]
+      ]
+    },
+    {
+      "name": "Galicia",
+      "location": [
+        -8.0032,
+        42.7711
+      ],
+      "bounds": [
+        [
+          -9.563,
+          41.571
+        ],
+        [
+          -6.443,
+          43.972
+        ]
+      ]
+    },
+    {
+      "name": "Navarra",
+      "location": [
+        -1.5769,
+        42.6018
+      ],
+      "bounds": [
+        [
+          -2.617,
+          41.736
+        ],
+        [
+          -0.537,
+          43.468
+        ]
+      ]
+    },
+    {
+      "name": "La Rioja",
+      "location": [
+        -2.4031,
+        42.2849
+      ],
+      "bounds": [
+        [
+          -3.3,
+          41.685
+        ],
+        [
+          -1.506,
+          42.885
+        ]
+      ]
+    },
+    {
+      "name": "Cataluña",
+      "location": [
+        1.7453,
+        41.6823
+      ],
+      "bounds": [
+        [
+          -0.22,
+          40.237
+        ],
+        [
+          3.711,
+          43.127
+        ]
+      ]
+    },
+    {
+      "name": "Castilla y León",
+      "location": [
+        -4.4391,
+        41.666
+      ],
+      "bounds": [
+        [
+          -6.689,
+          39.916
+        ],
+        [
+          -2.189,
+          43.416
+        ]
+      ]
+    },
+    {
+      "name": "Aragón",
+      "location": [
+        -0.7024,
+        41.3981
+      ],
+      "bounds": [
+        [
+          -2.532,
+          39.648
+        ],
+        [
+          1.127,
+          43.148
+        ]
+      ]
+    },
+    {
+      "name": "Madrid",
+      "location": [
+        -3.8224,
+        40.5768
+      ],
+      "bounds": [
+        [
+          -4.759,
+          39.845
+        ],
+        [
+          -2.885,
+          41.308
+        ]
+      ]
+    },
+    {
+      "name": "Castilla-La Mancha",
+      "location": [
+        -3.1473,
+        39.6638
+      ],
+      "bounds": [
+        [
+          -5.397,
+          37.914
+        ],
+        [
+          -0.897,
+          41.414
+        ]
+      ]
+    },
+    {
+      "name": "Islas Baleares",
+      "location": [
+        2.7576,
+        39.465
+      ],
+      "bounds": [
+        [
+          0.826,
+          38.712
+        ],
+        [
+          4.689,
+          40.218
+        ]
+      ]
+    },
+    {
+      "name": "Comunidad Valenciana",
+      "location": [
+        -0.4886,
+        39.3129
+      ],
+      "bounds": [
+        [
+          -1.754,
+          37.563
+        ],
+        [
+          0.777,
+          41.063
+        ]
+      ]
+    },
+    {
+      "name": "Extremadura",
+      "location": [
+        -6.125,
+        39.2083
+      ],
+      "bounds": [
+        [
+          -7.915,
+          37.622
+        ],
+        [
+          -4.335,
+          40.795
+        ]
+      ]
+    },
+    {
+      "name": "Murcia",
+      "location": [
+        -1.5219,
+        38.0675
+      ],
+      "bounds": [
+        [
+          -2.543,
+          37.209
+        ],
+        [
+          -0.501,
+          38.926
+        ]
+      ]
+    },
+    {
+      "name": "Andalucía",
+      "location": [
+        -4.5857,
+        37.3675
+      ],
+      "bounds": [
+        [
+          -6.836,
+          35.666
+        ],
+        [
+          -2.336,
+          39.069
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Spain's regions, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 16 of the Spain regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Asturias",
+      "location": [
+        -5.8403,
+        43.2888
+      ],
+      "lines": [
+        "Asturias sits on Spain’s north-western coast, between Galicia and Cantabria, with the Cantabrian mountains between the sea and the plain.",
+        "It is the one part of Iberia the Moors never held, which is why the heir to the Spanish throne is called the Prince of Asturias.",
+        "Remember the green coast that was never conquered, and the homeland of the heir to the throne."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Asturias",
+        "https://en.wikipedia.org/wiki/Prince_of_Asturias",
+        "https://en.wikipedia.org/wiki/Gijón"
+      ],
+      "cameraBounds": [
+        [
+          -7.499,
+          42.689
+        ],
+        [
+          -4.182,
+          43.889
+        ]
+      ],
+      "transition": "Let's bring Asturias into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -7.499,
+              42.689
+            ],
+            [
+              -4.182,
+              43.889
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cantabria",
+      "location": [
+        -3.9912,
+        43.1397
+      ],
+      "lines": [
+        "Cantabria faces the Bay of Biscay between Asturias and the Basque Country, with its largest city, Santander, at the mouth of the river.",
+        "The Altamira caves here hold paintings around 36,000 years old, and when they were found in 1880 nobody believed they were prehistoric.",
+        "Remember the green north that gets more rain than London, and the cave paintings that rewrote the story of art."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cantabria",
+        "https://en.wikipedia.org/wiki/Cave_of_Altamira",
+        "https://en.wikipedia.org/wiki/Santander,_Cantabria"
+      ],
+      "cameraBounds": [
+        [
+          -5.042,
+          42.54
+        ],
+        [
+          -2.94,
+          43.74
+        ]
+      ],
+      "transition": "Let's bring Cantabria into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.042,
+              42.54
+            ],
+            [
+              -2.94,
+              43.74
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "País Vasco",
+      "location": [
+        -2.5903,
+        42.9737
+      ],
+      "lines": [
+        "The Basque Country sits in the north-coast corner where Spain meets France, with Bilbao on the estuary of the Nervión.",
+        "Basque is unrelated to any other living language on earth and was spoken here before Indo-European reached Europe; the region calls itself Euskadi.",
+        "Remember the language that is a cousin of nobody, and the steel port the Guggenheim turned into a destination."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basque_Country",
+        "https://en.wikipedia.org/wiki/Basque_language",
+        "https://en.wikipedia.org/wiki/Bilbao"
+      ],
+      "cameraBounds": [
+        [
+          -3.641,
+          42.374
+        ],
+        [
+          -1.54,
+          43.574
+        ]
+      ],
+      "transition": "Let's bring País Vasco into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -3.641,
+              42.374
+            ],
+            [
+              -1.54,
+              43.574
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Galicia",
+      "location": [
+        -8.0032,
+        42.7711
+      ],
+      "lines": [
+        "Galicia fills Spain’s north-western corner above Portugal, with its coast cut into rías, drowned river valleys.",
+        "Santiago de Compostela stands here, the end of the pilgrim road, and Galician was close enough to Portuguese that the two were one language until the 1300s.",
+        "Remember the drowned valleys and the end of the pilgrimage, where Galician and Portuguese were once the same tongue."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Galicia",
+        "https://en.wikipedia.org/wiki/Santiago_de_Compostela",
+        "https://en.wikipedia.org/wiki/Ría"
+      ],
+      "cameraBounds": [
+        [
+          -9.563,
+          41.571
+        ],
+        [
+          -6.443,
+          43.972
+        ]
+      ],
+      "transition": "Let's bring Galicia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -9.563,
+              41.571
+            ],
+            [
+              -6.443,
+              43.972
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Navarra",
+      "location": [
+        -1.5769,
+        42.6018
+      ],
+      "lines": [
+        "Navarra straddles the Pyrenees, north of La Rioja and east of the Basque Country, with Pamplona as its capital.",
+        "It was an independent kingdom for seven centuries and France kept the northern half until 1620; the bulls still run through Pamplona every July.",
+        "Remember the small kingdom that straddled the mountains, half French until 1620, with the running of the bulls at its capital."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Navarre",
+        "https://en.wikipedia.org/wiki/Pamplona",
+        "https://en.wikipedia.org/wiki/Running_of_the_bulls"
+      ],
+      "cameraBounds": [
+        [
+          -2.617,
+          41.736
+        ],
+        [
+          -0.537,
+          43.468
+        ]
+      ],
+      "transition": "Let's bring Navarra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.617,
+              41.736
+            ],
+            [
+              -0.537,
+              43.468
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "La Rioja",
+      "location": [
+        -2.4031,
+        42.2849
+      ],
+      "lines": [
+        "La Rioja is a small region on the upper Ebro, between Navarra and Castilla y León, north of Zaragoza.",
+        "It is Spain’s smallest mainland region and the one whose name appears on more bottles than any other; Spanish was first written down at the San Millán monastery here.",
+        "Remember the smallest region, the wine label on every table, and the monastery where Spanish was first written down."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/La_Rioja",
+        "https://en.wikipedia.org/wiki/Rioja_(wine)",
+        "https://en.wikipedia.org/wiki/San_Millán_de_la_Cogolla"
+      ],
+      "cameraBounds": [
+        [
+          -3.3,
+          41.685
+        ],
+        [
+          -1.506,
+          42.885
+        ]
+      ],
+      "transition": "Let's bring La Rioja into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -3.3,
+              41.685
+            ],
+            [
+              -1.506,
+              42.885
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cataluña",
+      "location": [
+        1.7453,
+        41.6823
+      ],
+      "lines": [
+        "Cataluña occupies Spain’s north-eastern corner, facing the Mediterranean between the Pyrenees and the Valencian border.",
+        "Barcelona was the Frankish empire’s southern march against the Moors, which is why the region faces the Mediterranean and France more than Madrid; Catalan is spoken by about nine million people.",
+        "Remember the Mediterranean corner that faces France, with nine million Catalan speakers and a basilica building since 1882."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Catalonia",
+        "https://en.wikipedia.org/wiki/Barcelona",
+        "https://en.wikipedia.org/wiki/Catalan_language"
+      ],
+      "cameraBounds": [
+        [
+          -0.22,
+          40.237
+        ],
+        [
+          3.711,
+          43.127
+        ]
+      ],
+      "transition": "Let's bring Cataluña into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -0.22,
+              40.237
+            ],
+            [
+              3.711,
+              43.127
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Castilla y León",
+      "location": [
+        -4.4391,
+        41.666
+      ],
+      "lines": [
+        "Castilla y León fills Spain’s north-western interior, touching nine regions, with Valladolid in the middle.",
+        "Castilla is “land of castles”, the frontier forts against the Moors, and León is not the lion but the Latin legio, the Seventh Legion’s camp.",
+        "Remember the largest region, bigger than Portugal, whose arms carry a pun: the lion is really a legion."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Castilla_and_León",
+        "https://en.wikipedia.org/wiki/University_of_Salamanca",
+        "https://en.wikipedia.org/wiki/Valladolid"
+      ],
+      "cameraBounds": [
+        [
+          -6.689,
+          39.916
+        ],
+        [
+          -2.189,
+          43.416
+        ]
+      ],
+      "transition": "Let's bring Castilla y León into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -6.689,
+              39.916
+            ],
+            [
+              -2.189,
+              43.416
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aragón",
+      "location": [
+        -0.7024,
+        41.3981
+      ],
+      "lines": [
+        "Aragón spreads across Spain’s north-eastern interior, from the Pyrenees down to the arid Monegros south of Zaragoza.",
+        "Its marriage to Castilla in 1469 made Spain, and its own crown had already taken Sicily, Sardinia and Naples.",
+        "Remember the kingdom that married itself into Spain, with the highest peaks outside the Sierra Nevada above it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aragon",
+        "https://en.wikipedia.org/wiki/Crown_of_Aragon",
+        "https://en.wikipedia.org/wiki/Zaragoza"
+      ],
+      "cameraBounds": [
+        [
+          -2.532,
+          39.648
+        ],
+        [
+          1.127,
+          43.148
+        ]
+      ],
+      "transition": "Let's bring Aragón into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.532,
+              39.648
+            ],
+            [
+              1.127,
+              43.148
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Madrid",
+      "location": [
+        -3.8224,
+        40.5768
+      ],
+      "lines": [
+        "Madrid sits almost in the middle of Spain, where the country folds together, and its region has no sea.",
+        "It was a provincial town until Philip II moved the court there in 1561, and at 650 metres it is the highest capital in Europe.",
+        "Remember the capital chosen for being in the middle, at 650 metres the highest in Europe, with the Prado’s Spanish painting."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Madrid",
+        "https://en.wikipedia.org/wiki/Museo_del_Prado",
+        "https://en.wikipedia.org/wiki/Royal_Palace_of_Madrid"
+      ],
+      "cameraBounds": [
+        [
+          -4.759,
+          39.845
+        ],
+        [
+          -2.885,
+          41.308
+        ]
+      ],
+      "transition": "Let's bring Madrid into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -4.759,
+              39.845
+            ],
+            [
+              -2.885,
+              41.308
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Castilla-La Mancha",
+      "location": [
+        -3.1473,
+        39.6638
+      ],
+      "lines": [
+        "Castilla-La Mancha is the high plain south of Madrid and east of Extremadura, between the mountains and the Mediterranean coast.",
+        "Its name means “the dry land”, from the Arabic, and Don Quixote rode here; the windmills he charged still stand on the ridge at Consuegra.",
+        "Remember the dry land of Don Quixote, with his windmills still standing on the ridge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Castilla%E2%80%93La_Mancha",
+        "https://en.wikipedia.org/wiki/Consuegra",
+        "https://en.wikipedia.org/wiki/Toledo"
+      ],
+      "cameraBounds": [
+        [
+          -5.397,
+          37.914
+        ],
+        [
+          -0.897,
+          41.414
+        ]
+      ],
+      "transition": "Let's bring Castilla-La Mancha into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.397,
+              37.914
+            ],
+            [
+              -0.897,
+              41.414
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Islas Baleares",
+      "location": [
+        2.7576,
+        39.465
+      ],
+      "lines": [
+        "The Balearic Islands lie in the Mediterranean east of the Valencian coast: Mallorca, Menorca and Ibiza.",
+        "Mallorca and Menorca are simply the larger and the smaller, from the Latin maior and minor, and the prehistoric stone towers called talayots stand on Menorca.",
+        "Remember the islands of the greater and the lesser, with the prehistoric stone towers of Menorca."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Balearic_Islands",
+        "https://en.wikipedia.org/wiki/Mallorca",
+        "https://en.wikipedia.org/wiki/Talayot"
+      ],
+      "cameraBounds": [
+        [
+          0.826,
+          38.712
+        ],
+        [
+          4.689,
+          40.218
+        ]
+      ],
+      "transition": "Let's bring Islas Baleares into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              0.826,
+              38.712
+            ],
+            [
+              4.689,
+              40.218
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Comunidad Valenciana",
+      "location": [
+        -0.4886,
+        39.3129
+      ],
+      "lines": [
+        "The Valencian Community runs down Spain’s east coast, from the Pyrenees past Valencia to the border with Murcia.",
+        "Its Albufera lagoon is where paella comes from, cooked over orange wood with rabbit and beans rather than seafood, and the region grows most of Spain’s oranges.",
+        "Remember the orange coast and the lagoon where paella was born, with rabbit and beans instead of seafood."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Valencian_Community",
+        "https://en.wikipedia.org/wiki/Albufera",
+        "https://en.wikipedia.org/wiki/Paella"
+      ],
+      "cameraBounds": [
+        [
+          -1.754,
+          37.563
+        ],
+        [
+          0.777,
+          41.063
+        ]
+      ],
+      "transition": "Let's bring Comunidad Valenciana into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -1.754,
+              37.563
+            ],
+            [
+              0.777,
+              41.063
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extremadura",
+      "location": [
+        -6.125,
+        39.2083
+      ],
+      "lines": [
+        "Extremadura is the western region between Portugal and Andalucía, north of the Sierra Morena.",
+        "Its name means “the land beyond the Duero”, the outer edge of the reconquered frontier, and Cortés, Pizarro and Balboa all came from this one province.",
+        "Remember the land beyond the Duero, which sent three conquerors to the Americas and feeds the black pigs of ibérico ham."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Extremadura",
+        "https://en.wikipedia.org/wiki/Jamon_iberico",
+        "https://en.wikipedia.org/wiki/Badajoz"
+      ],
+      "cameraBounds": [
+        [
+          -7.915,
+          37.622
+        ],
+        [
+          -4.335,
+          40.795
+        ]
+      ],
+      "transition": "Let's bring Extremadura into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -7.915,
+              37.622
+            ],
+            [
+              -4.335,
+              40.795
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Murcia",
+      "location": [
+        -1.5219,
+        38.0675
+      ],
+      "lines": [
+        "Murcia is the small south-eastern region between the Valencian coast and Andalucía, around the city of the same name.",
+        "Its huerta, the irrigated orchard, is watered by canals the Moors dug eleven centuries ago that still run on the same gradients, and the region grows vegetables for half the continent.",
+        "Remember the orchard of Europe, green from eleven-century Moorish canals in one of the driest places in Spain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Region_of_Murcia",
+        "https://en.wikipedia.org/wiki/Murcia",
+        "https://en.wikipedia.org/wiki/Huerta"
+      ],
+      "cameraBounds": [
+        [
+          -2.543,
+          37.209
+        ],
+        [
+          -0.501,
+          38.926
+        ]
+      ],
+      "transition": "Let's bring Murcia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.543,
+              37.209
+            ],
+            [
+              -0.501,
+              38.926
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Andalucía",
+      "location": [
+        -4.5857,
+        37.3675
+      ],
+      "lines": [
+        "Andalucía fills Spain’s southern third, from the Atlantic at Huelva to the Mediterranean at Almería, with Seville in the middle.",
+        "Its name comes from al-Andalus, the Moorish name for all of Iberia, and the Moors held it for nearly eight hundred years, until 1492.",
+        "Remember al-Andalus, held for eight hundred years, with the Alhambra and flamenco and the southernmost ski resort in Europe above Granada."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Andalusia",
+        "https://en.wikipedia.org/wiki/Al-Andalus",
+        "https://en.wikipedia.org/wiki/Alhambra"
+      ],
+      "cameraBounds": [
+        [
+          -6.836,
+          35.666
+        ],
+        [
+          -2.336,
+          39.069
+        ]
+      ],
+      "transition": "Let's bring Andalucía into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -6.836,
+              35.666
+            ],
+            [
+              -2.336,
+              39.069
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -9.2,
+          36.37
+        ],
+        [
+          3.96,
+          44.29
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "16 regions of Spain, one for each target of the map: Asturias, Cantabria, País Vasco, Galicia, Navarra, La Rioja, Cataluña, Castilla y León, Aragón, Madrid, Castilla-La Mancha, Islas Baleares, Comunidad Valenciana, Extremadura, Murcia and Andalucía.",
+    "Remember the shape of Spain from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "tall"
+}

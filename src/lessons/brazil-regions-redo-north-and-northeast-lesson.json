@@ -1,0 +1,876 @@
+{
+  "title": "Brazil's states · The north and the northeast · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "brazil-regions",
+  "area": "Brazil",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/brazil-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -71.51,
+      -11.54
+    ],
+    [
+      -35.49,
+      2.93
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Roraima",
+      "location": [
+        -61.8359,
+        1.9339
+      ],
+      "bounds": [
+        [
+          -64.086,
+          0.184
+        ],
+        [
+          -59.586,
+          3.684
+        ]
+      ]
+    },
+    {
+      "name": "Amapá",
+      "location": [
+        -52.3302,
+        1.6322
+      ],
+      "bounds": [
+        [
+          -54.58,
+          -0.118
+        ],
+        [
+          -50.08,
+          3.382
+        ]
+      ]
+    },
+    {
+      "name": "Pará",
+      "location": [
+        -52.5283,
+        -3.6267
+      ],
+      "bounds": [
+        [
+          -54.778,
+          -5.377
+        ],
+        [
+          -50.278,
+          -1.877
+        ]
+      ]
+    },
+    {
+      "name": "Amazonas",
+      "location": [
+        -65.0982,
+        -3.801
+      ],
+      "bounds": [
+        [
+          -67.348,
+          -5.551
+        ],
+        [
+          -62.848,
+          -2.051
+        ]
+      ]
+    },
+    {
+      "name": "Ceará",
+      "location": [
+        -39.3429,
+        -5.3201
+      ],
+      "bounds": [
+        [
+          -41.593,
+          -7.07
+        ],
+        [
+          -37.093,
+          -3.57
+        ]
+      ]
+    },
+    {
+      "name": "Maranhão",
+      "location": [
+        -45.2739,
+        -5.7392
+      ],
+      "bounds": [
+        [
+          -47.524,
+          -7.489
+        ],
+        [
+          -43.024,
+          -3.989
+        ]
+      ]
+    },
+    {
+      "name": "Rio Grande do Norte",
+      "location": [
+        -36.7751,
+        -5.903
+      ],
+      "bounds": [
+        [
+          -39.025,
+          -7.244
+        ],
+        [
+          -34.525,
+          -4.562
+        ]
+      ]
+    },
+    {
+      "name": "Piauí",
+      "location": [
+        -43.1989,
+        -6.8308
+      ],
+      "bounds": [
+        [
+          -45.449,
+          -8.581
+        ],
+        [
+          -40.949,
+          -5.081
+        ]
+      ]
+    },
+    {
+      "name": "Paraíba",
+      "location": [
+        -36.7625,
+        -7.1541
+      ],
+      "bounds": [
+        [
+          -39.012,
+          -8.566
+        ],
+        [
+          -34.512,
+          -5.742
+        ]
+      ]
+    },
+    {
+      "name": "Pernambuco",
+      "location": [
+        -38.0881,
+        -8.378
+      ],
+      "bounds": [
+        [
+          -40.338,
+          -9.763
+        ],
+        [
+          -35.838,
+          -6.993
+        ]
+      ]
+    },
+    {
+      "name": "Acre",
+      "location": [
+        -70.3141,
+        -9.122
+      ],
+      "bounds": [
+        [
+          -72.564,
+          -10.872
+        ],
+        [
+          -68.064,
+          -7.372
+        ]
+      ]
+    },
+    {
+      "name": "Tocantins",
+      "location": [
+        -48.2502,
+        -9.259
+      ],
+      "bounds": [
+        [
+          -50.5,
+          -11.009
+        ],
+        [
+          -46,
+          -7.509
+        ]
+      ]
+    },
+    {
+      "name": "Alagoas",
+      "location": [
+        -36.6917,
+        -9.6681
+      ],
+      "bounds": [
+        [
+          -38.621,
+          -10.711
+        ],
+        [
+          -34.762,
+          -8.626
+        ]
+      ]
+    },
+    {
+      "name": "Sergipe",
+      "location": [
+        -37.3206,
+        -10.543
+      ],
+      "bounds": [
+        [
+          -38.461,
+          -11.813
+        ],
+        [
+          -36.18,
+          -9.273
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Brazil's states, part 1 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 14 of the Brazil regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Roraima",
+      "location": [
+        -61.8359,
+        1.9339
+      ],
+      "lines": [
+        "Roraima sits in Brazil’s far north-west, inland in the Amazon basin on the borders with Venezuela and Guyana, with Boa Vista as its capital and Pará and Amazonas to the south.",
+        "Mount Roraima, the tabletop mountain where Brazil, Venezuela and Guyana meet, is thought to have inspired Conan Doyle’s The Lost World, and its summit is a plateau of rock and rare plants.",
+        "Remember the green-blue peak at the triple border, in the least populated state in Brazil that the equator runs through."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roraima_(state)",
+        "https://en.wikipedia.org/wiki/Mount_Roraima",
+        "https://en.wikipedia.org/wiki/Boa_Vista"
+      ],
+      "cameraBounds": [
+        [
+          -64.086,
+          0.184
+        ],
+        [
+          -59.586,
+          3.684
+        ]
+      ],
+      "transition": "Let's bring Roraima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -64.086,
+              0.184
+            ],
+            [
+              -59.586,
+              3.684
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amapá",
+      "location": [
+        -52.3302,
+        1.6322
+      ],
+      "lines": [
+        "Amapá sits in the far north of Brazil on the Atlantic, with French Guiana to the north and Pará to the south and west. Macapá is its capital, and the old riverside town of Vila Velha stands near the Amazon mouth.",
+        "Its Tumucumaque park is the largest tropical forest national park in the world, about the size of Belgium, and the equator runs through Macapá straight down the middle of the football stadium.",
+        "Remember the northern state where the equator cuts the football pitch in half, guarding the largest tropical forest park on earth."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amap%C3%A1",
+        "https://en.wikipedia.org/wiki/Tumucumaque_Mountains",
+        "https://en.wikipedia.org/wiki/Macap%C3%A1"
+      ],
+      "cameraBounds": [
+        [
+          -54.58,
+          -0.118
+        ],
+        [
+          -50.08,
+          3.382
+        ]
+      ],
+      "transition": "Let's bring Amapá into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -54.58,
+              -0.118
+            ],
+            [
+              -50.08,
+              3.382
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pará",
+      "location": [
+        -52.5283,
+        -3.6267
+      ],
+      "lines": [
+        "Pará fills the lower Amazon, running from the Atlantic coast at Belém deep inland along the river, with Amapá to the north and Maranhão and Tocantins to the south.",
+        "Its Carajás mine is the largest iron ore operation on earth, and the Tucuruí dam above it flooded 2,800 square kilometres of forest when it was filled.",
+        "Remember the mouth of the Amazon, wide enough to be called the sea, with the biggest iron ore mine on earth behind it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Par%C3%A1",
+        "https://en.wikipedia.org/wiki/Caraj%C3%A1s_Mine",
+        "https://en.wikipedia.org/wiki/Tucuru%C3%AD_Dam"
+      ],
+      "cameraBounds": [
+        [
+          -54.778,
+          -5.377
+        ],
+        [
+          -50.278,
+          -1.877
+        ]
+      ],
+      "transition": "Let's bring Pará into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -54.778,
+              -5.377
+            ],
+            [
+              -50.278,
+              -1.877
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amazonas",
+      "location": [
+        -65.0982,
+        -3.801
+      ],
+      "lines": [
+        "Amazonas fills the heart of the Amazon basin, the largest state in Brazil, far inland from the Atlantic, with Manaus on the Rio Negro and Pará to the east and Rondônia to the south-west.",
+        "At Manaus the dark Rio Negro and the sandy Solimões run side by side for six kilometres without mixing, because they differ in speed, temperature and density.",
+        "Remember the black river and the sandy river flowing side by side without mixing, in the biggest state in the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amazonas_(Brazilian_state)",
+        "https://en.wikipedia.org/wiki/Meeting_of_the_Waters",
+        "https://en.wikipedia.org/wiki/Manaus"
+      ],
+      "cameraBounds": [
+        [
+          -67.348,
+          -5.551
+        ],
+        [
+          -62.848,
+          -2.051
+        ]
+      ],
+      "transition": "Let's bring Amazonas into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -67.348,
+              -5.551
+            ],
+            [
+              -62.848,
+              -2.051
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ceará",
+      "location": [
+        -39.3429,
+        -5.3201
+      ],
+      "lines": [
+        "Ceará sits on the north-east coast of Brazil, facing the Atlantic, with Fortaleza, its largest city, on the shore and Piauí, Pernambuco, Paraíba and Rio Grande do Norte around it.",
+        "It is the driest populated part of the country, and the droughts of the sertão here drove waves of migration south and are the subject of much Brazilian literature.",
+        "Remember the dry sertão that once sent people south, and the dunes and steady wind on the coast that pull kite surfers from far away."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cear%C3%A1",
+        "https://en.wikipedia.org/wiki/Jericoacoara",
+        "https://en.wikipedia.org/wiki/Fortaleza"
+      ],
+      "cameraBounds": [
+        [
+          -41.593,
+          -7.07
+        ],
+        [
+          -37.093,
+          -3.57
+        ]
+      ],
+      "transition": "Let's bring Ceará into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -41.593,
+              -7.07
+            ],
+            [
+              -37.093,
+              -3.57
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maranhão",
+      "location": [
+        -45.2739,
+        -5.7392
+      ],
+      "lines": [
+        "Maranhão lies on the north-east coast around the great bay where the Amazon nears the Atlantic, with São Luís, its largest city, on an island and Pará, Piauí and Tocantins inland.",
+        "Its Lençóis Maranhenses are white dunes that fill with rainwater every year into thousands of blue lagoons, and the French founded its capital São Luís in 1612.",
+        "Remember the bay where the Amazon comes near the sea, and the white dunes that turn into a thousand blue lagoons after the rain."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maranh%C3%A3o",
+        "https://en.wikipedia.org/wiki/Len%C3%A7%C3%B3is_Maranhenses",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Lu%C3%ADs"
+      ],
+      "cameraBounds": [
+        [
+          -47.524,
+          -7.489
+        ],
+        [
+          -43.024,
+          -3.989
+        ]
+      ],
+      "transition": "Let's bring Maranhão into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -47.524,
+              -7.489
+            ],
+            [
+              -43.024,
+              -3.989
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rio Grande do Norte",
+      "location": [
+        -36.7751,
+        -5.903
+      ],
+      "lines": [
+        "Rio Grande do Norte is a narrow strip on the north-east coast, with Natal, its largest city, facing the Atlantic and Ceará and Paraíba to the west and south.",
+        "It produces most of Brazil’s sea salt, and the Pirangi cashew tree near Natal covers about 8,500 square metres, the largest cashew tree in the world.",
+        "Remember the salt state, with the tree so wide it looks like a small forest and the black dune rising straight out of the beach at Natal."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rio_Grande_do_Norte",
+        "https://en.wikipedia.org/wiki/Pirangi_Cashew_Tree",
+        "https://en.wikipedia.org/wiki/Natal,_Rio_Grande_do_Norte"
+      ],
+      "cameraBounds": [
+        [
+          -39.025,
+          -7.244
+        ],
+        [
+          -34.525,
+          -4.562
+        ]
+      ],
+      "transition": "Let's bring Rio Grande do Norte into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -39.025,
+              -7.244
+            ],
+            [
+              -34.525,
+              -4.562
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Piauí",
+      "location": [
+        -43.1989,
+        -6.8308
+      ],
+      "lines": [
+        "Piauí lies in the north-east between Maranhão, Ceará, Pernambuco and Bahia, with Teresina, its largest city, in the interior and a short Atlantic coast in the far north.",
+        "Serra da Capivara here holds rock paintings that may be 25,000 years old, and it has the shortest coastline of any Brazilian state, only 66 kilometres.",
+        "Remember the state with almost no coastline, and the painted rock shelters in its sierra that changed what we know about when people reached the Americas."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Piau%C3%AD",
+        "https://en.wikipedia.org/wiki/Serra_da_Capivara",
+        "https://en.wikipedia.org/wiki/Teresina"
+      ],
+      "cameraBounds": [
+        [
+          -45.449,
+          -8.581
+        ],
+        [
+          -40.949,
+          -5.081
+        ]
+      ],
+      "transition": "Let's bring Piauí into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -45.449,
+              -8.581
+            ],
+            [
+              -40.949,
+              -5.081
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paraíba",
+      "location": [
+        -36.7625,
+        -7.1541
+      ],
+      "lines": [
+        "Paraíba is a small north-east state on the Atlantic, with João Pessoa, its largest city, on the shore and Ceará, Pernambuco and Rio Grande do Norte around it.",
+        "Ponta do Seixas in it is the easternmost point of continental South America, so the mainland sees the sunrise here before anywhere else in Brazil.",
+        "Remember the eastern tip of the continent, where the mainland first catches the sunrise, with dinosaur footprints in the valley at Sousa."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Para%C3%ADba",
+        "https://en.wikipedia.org/wiki/Ponta_do_Seixas",
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_Pessoa"
+      ],
+      "cameraBounds": [
+        [
+          -39.012,
+          -8.566
+        ],
+        [
+          -34.512,
+          -5.742
+        ]
+      ],
+      "transition": "Let's bring Paraíba into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -39.012,
+              -8.566
+            ],
+            [
+              -34.512,
+              -5.742
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pernambuco",
+      "location": [
+        -38.0881,
+        -8.378
+      ],
+      "lines": [
+        "Pernambuco runs down the east coast of Brazil, with Recife, its largest city, on the shore and Ceará, Paraíba, Piauí, Bahia and Alagoas around it.",
+        "The Dutch held it from 1630 to 1654 and made Recife a planned city with the first synagogue in the Americas.",
+        "Remember the reef coast where the sea breaks, and the frevo and maracatu bands of Recife carnival."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pernambuco",
+        "https://en.wikipedia.org/wiki/Recife",
+        "https://en.wikipedia.org/wiki/Frevo"
+      ],
+      "cameraBounds": [
+        [
+          -40.338,
+          -9.763
+        ],
+        [
+          -35.838,
+          -6.993
+        ]
+      ],
+      "transition": "Let's bring Pernambuco into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -40.338,
+              -9.763
+            ],
+            [
+              -35.838,
+              -6.993
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Acre",
+      "location": [
+        -70.3141,
+        -9.122
+      ],
+      "lines": [
+        "Acre is the far-western state, deep in the Amazon on the borders with Peru and Bolivia, with Rio Branco, its largest city, in the middle and Rondônia and Amazonas to its east.",
+        "It was Bolivian territory until rubber tappers from Brazil revolted in 1899, and Brazil bought it in 1903.",
+        "Remember the state Brazil bought after a revolt of rubber tappers, and the tapper leader Chico Mendes, murdered in 1988 for defending the forest."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Acre_(state)",
+        "https://en.wikipedia.org/wiki/Chico_Mendes",
+        "https://en.wikipedia.org/wiki/Rio_Branco"
+      ],
+      "cameraBounds": [
+        [
+          -72.564,
+          -10.872
+        ],
+        [
+          -68.064,
+          -7.372
+        ]
+      ],
+      "transition": "Let's bring Acre into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -72.564,
+              -10.872
+            ],
+            [
+              -68.064,
+              -7.372
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tocantins",
+      "location": [
+        -48.2502,
+        -9.259
+      ],
+      "lines": [
+        "Tocantins lies in the north-central interior, a wedge reaching north between Pará and Maranhão and touching Bahia, Piauí, Goiás and Mato Grosso, with Palmas as its capital.",
+        "It is the newest Brazilian state, split from Goiás in 1988, and its capital Palmas was built from scratch in 1989.",
+        "Remember the youngest state, carved out of Goiás with a brand new capital, and the Jalapão dunes and clear springs in its east."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tocantins",
+        "https://en.wikipedia.org/wiki/Palmas,_Tocantins",
+        "https://en.wikipedia.org/wiki/Jalap%C3%A3o"
+      ],
+      "cameraBounds": [
+        [
+          -50.5,
+          -11.009
+        ],
+        [
+          -46,
+          -7.509
+        ]
+      ],
+      "transition": "Let's bring Tocantins into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -50.5,
+              -11.009
+            ],
+            [
+              -46,
+              -7.509
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alagoas",
+      "location": [
+        -36.6917,
+        -9.6681
+      ],
+      "lines": [
+        "Alagoas is a small east-coast state, with Maceió, its largest city, beside the coastal lagoons that give the state its name and Pernambuco, Sergipe and Bahia around it.",
+        "Palmares, the great republic of escaped slaves that held out for most of the 1600s, was in its hills, and its leader Zumbi is a national symbol of resistance.",
+        "Remember the lagoon state, where reef pools form at low tide and Zumbi kept a free republic in the hills."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alagoas",
+        "https://en.wikipedia.org/wiki/Quilombo_dos_Palmares",
+        "https://en.wikipedia.org/wiki/Zumbi_dos_Palmares"
+      ],
+      "cameraBounds": [
+        [
+          -38.621,
+          -10.711
+        ],
+        [
+          -34.762,
+          -8.626
+        ]
+      ],
+      "transition": "Let's bring Alagoas into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -38.621,
+              -10.711
+            ],
+            [
+              -34.762,
+              -8.626
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sergipe",
+      "location": [
+        -37.3206,
+        -10.543
+      ],
+      "lines": [
+        "Sergipe is the smallest state in Brazil, squeezed between Alagoas and Bahia on the east coast, with Aracaju, its largest city, on the shore.",
+        "São Cristóvão in it has a square from 1608 that is a UNESCO site, and the São Francisco river canyon along its border is crossed by boat between cliffs.",
+        "Remember the smallest state, with the river canyon sailing past its border and an old colonial square at São Cristóvão."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sergipe",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Crist%C3%B3v%C3%A3o,_Sergipe",
+        "https://en.wikipedia.org/wiki/Aracaju"
+      ],
+      "cameraBounds": [
+        [
+          -38.461,
+          -11.813
+        ],
+        [
+          -36.18,
+          -9.273
+        ]
+      ],
+      "transition": "Let's bring Sergipe into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -38.461,
+              -11.813
+            ],
+            [
+              -36.18,
+              -9.273
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -71.51,
+          -11.54
+        ],
+        [
+          -35.49,
+          2.93
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "14 regions of Brazil, one for each target of the map: Roraima, Amapá, Pará, Amazonas, Ceará, Maranhão, Rio Grande do Norte, Piauí, Paraíba, Pernambuco, Acre, Tocantins, Alagoas and Sergipe.",
+    "Remember the shape of Brazil from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "classic"
+}

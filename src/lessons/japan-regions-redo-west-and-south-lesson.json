@@ -1,0 +1,1053 @@
+{
+  "title": "Japan's prefectures · The west and the south · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "japan-regions",
+  "area": "Japan",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/japan-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      126.5,
+      25.15
+    ],
+    [
+      135.39,
+      36.33
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Tottori",
+      "location": [
+        133.8163,
+        35.3253
+      ],
+      "bounds": [
+        [
+          132.956,
+          34.725
+        ],
+        [
+          134.677,
+          35.925
+        ]
+      ]
+    },
+    {
+      "name": "Shimane",
+      "location": [
+        131.856,
+        34.5323
+      ],
+      "bounds": [
+        [
+          131.455,
+          34.051
+        ],
+        [
+          133.579,
+          36.597
+        ]
+      ]
+    },
+    {
+      "name": "Okayama",
+      "location": [
+        133.83,
+        34.8853
+      ],
+      "bounds": [
+        [
+          133.03,
+          34.285
+        ],
+        [
+          134.63,
+          35.485
+        ]
+      ]
+    },
+    {
+      "name": "Hiroshima",
+      "location": [
+        132.7467,
+        34.6286
+      ],
+      "bounds": [
+        [
+          131.876,
+          34.029
+        ],
+        [
+          133.617,
+          35.229
+        ]
+      ]
+    },
+    {
+      "name": "Yamaguchi",
+      "location": [
+        131.551,
+        34.2837
+      ],
+      "bounds": [
+        [
+          130.689,
+          33.684
+        ],
+        [
+          132.413,
+          34.884
+        ]
+      ]
+    },
+    {
+      "name": "Kagawa",
+      "location": [
+        134.0172,
+        34.2761
+      ],
+      "bounds": [
+        [
+          133.217,
+          33.676
+        ],
+        [
+          134.817,
+          34.876
+        ]
+      ]
+    },
+    {
+      "name": "Tokushima",
+      "location": [
+        134.1901,
+        33.8812
+      ],
+      "bounds": [
+        [
+          133.39,
+          33.281
+        ],
+        [
+          134.99,
+          34.481
+        ]
+      ]
+    },
+    {
+      "name": "Nagasaki",
+      "location": [
+        129.2198,
+        34.2203
+      ],
+      "bounds": [
+        [
+          128.425,
+          32.331
+        ],
+        [
+          130.593,
+          34.947
+        ]
+      ]
+    },
+    {
+      "name": "Ehime",
+      "location": [
+        133.0208,
+        33.5251
+      ],
+      "bounds": [
+        [
+          132.221,
+          32.755
+        ],
+        [
+          133.821,
+          34.295
+        ]
+      ]
+    },
+    {
+      "name": "Fukuoka",
+      "location": [
+        130.6186,
+        33.46
+      ],
+      "bounds": [
+        [
+          129.819,
+          32.86
+        ],
+        [
+          131.419,
+          34.06
+        ]
+      ]
+    },
+    {
+      "name": "Kōchi",
+      "location": [
+        132.8092,
+        32.8642
+      ],
+      "bounds": [
+        [
+          132.414,
+          32.601
+        ],
+        [
+          134.505,
+          33.995
+        ]
+      ]
+    },
+    {
+      "name": "Saga",
+      "location": [
+        130.145,
+        33.2454
+      ],
+      "bounds": [
+        [
+          129.345,
+          32.645
+        ],
+        [
+          130.945,
+          33.845
+        ]
+      ]
+    },
+    {
+      "name": "Ōita",
+      "location": [
+        131.4085,
+        33.204
+      ],
+      "bounds": [
+        [
+          130.608,
+          32.604
+        ],
+        [
+          132.208,
+          33.804
+        ]
+      ]
+    },
+    {
+      "name": "Kumamoto",
+      "location": [
+        130.6496,
+        32.6258
+      ],
+      "bounds": [
+        [
+          129.807,
+          31.957
+        ],
+        [
+          131.492,
+          33.294
+        ]
+      ]
+    },
+    {
+      "name": "Miyazaki",
+      "location": [
+        131.2923,
+        32.1017
+      ],
+      "bounds": [
+        [
+          130.492,
+          31.201
+        ],
+        [
+          132.092,
+          33.002
+        ]
+      ]
+    },
+    {
+      "name": "Kagoshima",
+      "location": [
+        130.2848,
+        31.3068
+      ],
+      "bounds": [
+        [
+          129.882,
+          29.995
+        ],
+        [
+          131.482,
+          32.404
+        ]
+      ]
+    },
+    {
+      "name": "Okinawa",
+      "location": [
+        127.6995,
+        26.1474
+      ],
+      "bounds": [
+        [
+          124.445,
+          24.634
+        ],
+        [
+          128.945,
+          28.134
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Japan's prefectures, part 4 of 4. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 17 of the Japan regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Tottori",
+      "location": [
+        133.8163,
+        35.3253
+      ],
+      "lines": [
+        "Tottori faces the Sea of Japan on the west of Honshū, with Shimane and Okayama around it and Hyōgo to the south, and the city of Tottori on the shore.",
+        "It is the least populated prefecture, with about 540,000 people, and in 2015 it became the last in Japan to get a Starbucks, joking that it had the sand dunes instead.",
+        "Remember the sixteen kilometres of sand dunes with camels for the tourists, and the waterfowl that once paid the tax."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tottori_Prefecture",
+        "https://en.wikipedia.org/wiki/Tottori_Sand_Dunes",
+        "https://en.wikipedia.org/wiki/Tottori_(city)"
+      ],
+      "cameraBounds": [
+        [
+          132.956,
+          34.725
+        ],
+        [
+          134.677,
+          35.925
+        ]
+      ],
+      "transition": "Let's bring Tottori into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              132.956,
+              34.725
+            ],
+            [
+              134.677,
+              35.925
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shimane",
+      "location": [
+        131.856,
+        34.5323
+      ],
+      "lines": [
+        "Shimane is on the Sea of Japan coast at the far west of Honshū, with Tottori above it and Yamaguchi and Hiroshima to the south, and the city of Matsue on the shore of Lake Shinji.",
+        "The Iwami silver mine here supplied perhaps a third of the world’s silver in the 1600s and is now a UNESCO world heritage site.",
+        "Remember the oldest shrine in Japan at Izumo, where all the gods of the country gather each October."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shimane_Prefecture",
+        "https://en.wikipedia.org/wiki/Iwami_Ginzan_Silver_Mine",
+        "https://en.wikipedia.org/wiki/Izumo-taisha"
+      ],
+      "cameraBounds": [
+        [
+          131.455,
+          34.051
+        ],
+        [
+          133.579,
+          36.597
+        ]
+      ],
+      "transition": "Let's bring Shimane into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              131.455,
+              34.051
+            ],
+            [
+              133.579,
+              36.597
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Okayama",
+      "location": [
+        133.83,
+        34.8853
+      ],
+      "lines": [
+        "Okayama faces the Inland Sea on the west of Honshū, with Tottori and Hyōgo above and Hiroshima below, and the city of Okayama on the bay.",
+        "The Kōrakuen garden here is the third of Japan’s three great gardens, and the prefecture claims the story of Momotarō, the peach boy.",
+        "Remember the peach boy, and the white peaches and muscat grapes that back the story."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Okayama_Prefecture",
+        "https://en.wikipedia.org/wiki/K%C5%8Drakuen",
+        "https://en.wikipedia.org/wiki/Momotar%C5%8D"
+      ],
+      "cameraBounds": [
+        [
+          133.03,
+          34.285
+        ],
+        [
+          134.63,
+          35.485
+        ]
+      ],
+      "transition": "Let's bring Okayama into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              133.03,
+              34.285
+            ],
+            [
+              134.63,
+              35.485
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hiroshima",
+      "location": [
+        132.7467,
+        34.6286
+      ],
+      "lines": [
+        "Hiroshima faces the Inland Sea on the west of Honshū, with the city of Hiroshima built across the delta of the Ōta river.",
+        "The first atomic bomb was dropped here on 6 August 1945, and the Genbaku Dome was left standing as it was and is now a UNESCO world heritage site.",
+        "Remember the wide island of the river delta, and the torii gate that seems to float at high tide out at Miyajima."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hiroshima_Prefecture",
+        "https://en.wikipedia.org/wiki/Genbaku_Dome",
+        "https://en.wikipedia.org/wiki/Miyajima"
+      ],
+      "cameraBounds": [
+        [
+          131.876,
+          34.029
+        ],
+        [
+          133.617,
+          35.229
+        ]
+      ],
+      "transition": "Let's bring Hiroshima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              131.876,
+              34.029
+            ],
+            [
+              133.617,
+              35.229
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamaguchi",
+      "location": [
+        131.551,
+        34.2837
+      ],
+      "lines": [
+        "Yamaguchi sits at the far west end of Honshū, facing the Sea of Japan to the north and the Inland Sea to the south, with the city of Shimonoseki on its western tip.",
+        "Its Chōshū domain led the overthrow of the shogunate in 1868, and eight of Japan’s prime ministers have come from the prefecture.",
+        "Remember the mouth of the mountain, and the karst plateau with ten kilometres of cave under it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yamaguchi_Prefecture",
+        "https://en.wikipedia.org/wiki/Akiyoshidai",
+        "https://en.wikipedia.org/wiki/Shimonoseki"
+      ],
+      "cameraBounds": [
+        [
+          130.689,
+          33.684
+        ],
+        [
+          132.413,
+          34.884
+        ]
+      ],
+      "transition": "Let's bring Yamaguchi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              130.689,
+              33.684
+            ],
+            [
+              132.413,
+              34.884
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kagawa",
+      "location": [
+        134.0172,
+        34.2761
+      ],
+      "lines": [
+        "Kagawa is the smallest prefecture in Japan, in the north of Shikoku, with the city of Takamatsu on the Seto Inland Sea and Ehime and Tokushima around it.",
+        "It eats the most udon of any prefecture, with hundreds of shops in its capital serving Sanuki udon.",
+        "Remember the fragrant river, the smallest prefecture, and the bowls of udon on the counter of every shop in Takamatsu."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kagawa_Prefecture",
+        "https://en.wikipedia.org/wiki/Sanuki_udon",
+        "https://en.wikipedia.org/wiki/Takamatsu,_Kagawa"
+      ],
+      "cameraBounds": [
+        [
+          133.217,
+          33.676
+        ],
+        [
+          134.817,
+          34.876
+        ]
+      ],
+      "transition": "Let's bring Kagawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              133.217,
+              33.676
+            ],
+            [
+              134.817,
+              34.876
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tokushima",
+      "location": [
+        134.1901,
+        33.8812
+      ],
+      "lines": [
+        "Tokushima is on the Pacific in the east of Shikoku, across the strait from Kōchi and between Kagawa and Ehime, with the city of Tokushima on the delta.",
+        "The Naruto whirlpools in the strait off it are among the largest in the world, up to 20 metres across, and the Awa Odori festival draws over a million people every August.",
+        "Remember the virtue island and the whirlpools, and the August dance that empties the streets of Tokushima."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tokushima_Prefecture",
+        "https://en.wikipedia.org/wiki/Naruto_whirlpools",
+        "https://en.wikipedia.org/wiki/Awa_Odori"
+      ],
+      "cameraBounds": [
+        [
+          133.39,
+          33.281
+        ],
+        [
+          134.99,
+          34.481
+        ]
+      ],
+      "transition": "Let's bring Tokushima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              133.39,
+              33.281
+            ],
+            [
+              134.99,
+              34.481
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nagasaki",
+      "location": [
+        129.2198,
+        34.2203
+      ],
+      "lines": [
+        "Nagasaki lies in the north-west of Kyūshū on the East China Sea, with Saga to its east and the city of Nagasaki curled around its harbour.",
+        "For more than two hundred years the artificial island of Dejima was the only place in Japan where foreigners could trade, and Dutch books were the only window on the West.",
+        "Remember the long cape with the second atomic bomb, and the small fan-shaped island where Dutch learning came in."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nagasaki_Prefecture",
+        "https://en.wikipedia.org/wiki/Dejima",
+        "https://en.wikipedia.org/wiki/Nagasaki"
+      ],
+      "cameraBounds": [
+        [
+          128.425,
+          32.331
+        ],
+        [
+          130.593,
+          34.947
+        ]
+      ],
+      "transition": "Let's bring Nagasaki into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              128.425,
+              32.331
+            ],
+            [
+              130.593,
+              34.947
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ehime",
+      "location": [
+        133.0208,
+        33.5251
+      ],
+      "lines": [
+        "Ehime is in the west of Shikoku, facing both the Pacific and the Seto Inland Sea, with the city of Matsuyama on the bay and Tokushima to its east.",
+        "Dōgo Onsen here claims to be Japan’s oldest hot spring, mentioned in the eighth century, and it inspired the bathhouse in the animated film Spirited Away.",
+        "Remember the lovely princess and the oldest hot spring in the country, with the keep of Matsuyama castle above it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ehime_Prefecture",
+        "https://en.wikipedia.org/wiki/D%C5%8Dgo_Onsen",
+        "https://en.wikipedia.org/wiki/Matsuyama,_Ehime"
+      ],
+      "cameraBounds": [
+        [
+          132.221,
+          32.755
+        ],
+        [
+          133.821,
+          34.295
+        ]
+      ],
+      "transition": "Let's bring Ehime into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              132.221,
+              32.755
+            ],
+            [
+              133.821,
+              34.295
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fukuoka",
+      "location": [
+        130.6186,
+        33.46
+      ],
+      "lines": [
+        "Fukuoka is on the north coast of Kyūshū on the Sea of Japan side, with the city of Fukuoka on its wide bay, Saga to the west and Ōita and Kumamoto around the rest.",
+        "It is closer to Seoul than to Tokyo, and it has been Japan’s gate to the continent since the Mongol invasions failed on its coast in 1274 and 1281.",
+        "Remember the fortune hill, the ramen invented here, and the food stalls that fill the streets at night."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fukuoka_Prefecture",
+        "https://en.wikipedia.org/wiki/Fukuoka_City",
+        "https://en.wikipedia.org/wiki/Tonkotsu_ramen"
+      ],
+      "cameraBounds": [
+        [
+          129.819,
+          32.86
+        ],
+        [
+          131.419,
+          34.06
+        ]
+      ],
+      "transition": "Let's bring Fukuoka into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              129.819,
+              32.86
+            ],
+            [
+              131.419,
+              34.06
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kōchi",
+      "location": [
+        132.8092,
+        32.8642
+      ],
+      "lines": [
+        "Kōchi is on the Pacific in the south of Shikoku, the one prefecture of the island that never reaches the Seto Inland Sea, with the city of Kōchi at the head of a deep bay.",
+        "The Shimanto river here is called Japan’s last clear stream, with no dam on its main course, and the prefecture is the wettest in the country.",
+        "Remember the high knowledge and Ryoma on every souvenir, and the clear river with no dam on it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/K%C5%8Dchi_Prefecture",
+        "https://en.wikipedia.org/wiki/Shimanto_River",
+        "https://en.wikipedia.org/wiki/Sakamoto_Ry%C5%8Dma"
+      ],
+      "cameraBounds": [
+        [
+          132.414,
+          32.601
+        ],
+        [
+          134.505,
+          33.995
+        ]
+      ],
+      "transition": "Let's bring Kōchi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              132.414,
+              32.601
+            ],
+            [
+              134.505,
+              33.995
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saga",
+      "location": [
+        130.145,
+        33.2454
+      ],
+      "lines": [
+        "Saga lies in the north-west of Kyūshū, facing the Sea of Japan between Fukuoka and Nagasaki, with the city of Saga inland on the plain.",
+        "Arita in it made Japan’s first porcelain around 1616, after a Korean potter found kaolin, and it was shipped to Europe from Imari.",
+        "Remember the moated settlement at Yoshinogari, and the blue and white porcelain that crossed to Europe."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saga_Prefecture",
+        "https://en.wikipedia.org/wiki/Arita_ware",
+        "https://en.wikipedia.org/wiki/Yoshinogari"
+      ],
+      "cameraBounds": [
+        [
+          129.345,
+          32.645
+        ],
+        [
+          130.945,
+          33.845
+        ]
+      ],
+      "transition": "Let's bring Saga into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              129.345,
+              32.645
+            ],
+            [
+              130.945,
+              33.845
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ōita",
+      "location": [
+        131.4085,
+        33.204
+      ],
+      "lines": [
+        "Ōita is on the east of Kyūshū, facing the Pacific and the Bungo Channel, with the city of Ōita on the coast, Kumamoto to the west and Miyazaki to the south.",
+        "It produces more hot spring water than any other prefecture, and Beppu alone has over 2,000 vents.",
+        "Remember the great field of many rice paddies, and the boiling pits of Beppu on the coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C5%8Cita_Prefecture",
+        "https://en.wikipedia.org/wiki/Beppu",
+        "https://en.wikipedia.org/wiki/Usa_Shrine"
+      ],
+      "cameraBounds": [
+        [
+          130.608,
+          32.604
+        ],
+        [
+          132.208,
+          33.804
+        ]
+      ],
+      "transition": "Let's bring Ōita into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              130.608,
+              32.604
+            ],
+            [
+              132.208,
+              33.804
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kumamoto",
+      "location": [
+        130.6496,
+        32.6258
+      ],
+      "lines": [
+        "Kumamoto is in the west of Kyūshū, facing the East China Sea, with the city of Kumamoto on its delta, Fukuoka above it and Ōita to the east.",
+        "Mount Aso here has one of the largest volcanic calderas in the world, 25 kilometres across, with towns and farms inside it.",
+        "Remember the bear that is only a spelling accident, and the villages that live inside the crater."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kumamoto_Prefecture",
+        "https://en.wikipedia.org/wiki/Mount_Aso",
+        "https://en.wikipedia.org/wiki/Kumamoto_Castle"
+      ],
+      "cameraBounds": [
+        [
+          129.807,
+          31.957
+        ],
+        [
+          131.492,
+          33.294
+        ]
+      ],
+      "transition": "Let's bring Kumamoto into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              129.807,
+              31.957
+            ],
+            [
+              131.492,
+              33.294
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Miyazaki",
+      "location": [
+        131.2923,
+        32.1017
+      ],
+      "lines": [
+        "Miyazaki is on the Pacific in the south-east of Kyūshū, between Ōita and Kagoshima, with the city of Miyazaki on the coast.",
+        "It has the most sunshine hours of any prefecture and grows mangoes sold as eggs of the sun.",
+        "Remember the shrine cape and the gorge where the sun goddess hid, under the sunniest sky in Japan."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Miyazaki_Prefecture",
+        "https://en.wikipedia.org/wiki/Takachiho",
+        "https://en.wikipedia.org/wiki/Takamori"
+      ],
+      "cameraBounds": [
+        [
+          130.492,
+          31.201
+        ],
+        [
+          132.092,
+          33.002
+        ]
+      ],
+      "transition": "Let's bring Miyazaki into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              130.492,
+              31.201
+            ],
+            [
+              132.092,
+              33.002
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kagoshima",
+      "location": [
+        130.2848,
+        31.3068
+      ],
+      "lines": [
+        "Kagoshima is the southern tip of Kyūshū, facing the Pacific, with the city of Kagoshima under a volcano and Kumamoto and Miyazaki above it.",
+        "Sakurajima in that bay is one of the world’s most active volcanoes and dusts the city with ash most weeks, and the prefecture grows most of Japan’s sweet potatoes.",
+        "Remember the deer child island with its smoking volcano, and the rockets launched from the island to the south of it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kagoshima_Prefecture",
+        "https://en.wikipedia.org/wiki/Sakurajima",
+        "https://en.wikipedia.org/wiki/Tanegashima"
+      ],
+      "cameraBounds": [
+        [
+          129.882,
+          29.995
+        ],
+        [
+          131.482,
+          32.404
+        ]
+      ],
+      "transition": "Let's bring Kagoshima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              129.882,
+              29.995
+            ],
+            [
+              131.482,
+              32.404
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Okinawa",
+      "location": [
+        127.6995,
+        26.1474
+      ],
+      "lines": [
+        "Okinawa is Japan’s southernmost prefecture, a chain of islands in the East China Sea several hundred kilometres to the south-west of Kyūshū, with the city of Naha on the main island.",
+        "It was the independent Ryūkyū Kingdom, trading with China and south-east Asia, until Japan annexed it in 1879.",
+        "Remember the rope in the offing, the island whose name is not Japanese, and the people with among the longest lives in the world."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Okinawa_Prefecture",
+        "https://en.wikipedia.org/wiki/Ryukyu_Kingdom",
+        "https://en.wikipedia.org/wiki/Naha"
+      ],
+      "cameraBounds": [
+        [
+          124.445,
+          24.634
+        ],
+        [
+          128.945,
+          28.134
+        ]
+      ],
+      "transition": "Let's bring Okinawa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              124.445,
+              24.634
+            ],
+            [
+              128.945,
+              28.134
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          126.5,
+          25.15
+        ],
+        [
+          135.39,
+          36.33
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "17 regions of Japan, one for each target of the map: Tottori, Shimane, Okayama, Hiroshima, Yamaguchi, Kagawa, Tokushima, Nagasaki, Ehime, Fukuoka, Kōchi, Saga, Ōita, Kumamoto, Miyazaki, Kagoshima and Okinawa.",
+    "Remember the shape of Japan from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "classic"
+}

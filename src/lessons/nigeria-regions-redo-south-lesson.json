@@ -1,0 +1,1053 @@
+{
+  "title": "Nigeria's states · The south · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "nigeria-regions",
+  "area": "Nigeria",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/nigeria-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      2.32,
+      3.84
+    ],
+    [
+      9.88,
+      8.72
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Ekiti",
+      "location": [
+        5.3619,
+        7.719
+      ],
+      "bounds": [
+        [
+          4.562,
+          7.119
+        ],
+        [
+          6.162,
+          8.319
+        ]
+      ]
+    },
+    {
+      "name": "Kogi",
+      "location": [
+        6.5712,
+        7.6326
+      ],
+      "bounds": [
+        [
+          5.053,
+          6.261
+        ],
+        [
+          8.089,
+          9.004
+        ]
+      ]
+    },
+    {
+      "name": "Osun",
+      "location": [
+        4.5491,
+        7.5305
+      ],
+      "bounds": [
+        [
+          3.749,
+          6.843
+        ],
+        [
+          5.349,
+          8.218
+        ]
+      ]
+    },
+    {
+      "name": "Ogun",
+      "location": [
+        3.6334,
+        7.1376
+      ],
+      "bounds": [
+        [
+          2.431,
+          6.116
+        ],
+        [
+          4.835,
+          8.159
+        ]
+      ]
+    },
+    {
+      "name": "Ondo",
+      "location": [
+        4.5408,
+        6.6998
+      ],
+      "bounds": [
+        [
+          4.146,
+          5.617
+        ],
+        [
+          6.238,
+          7.994
+        ]
+      ]
+    },
+    {
+      "name": "Edo",
+      "location": [
+        5.1726,
+        6.1645
+      ],
+      "bounds": [
+        [
+          4.762,
+          5.535
+        ],
+        [
+          6.937,
+          7.8
+        ]
+      ]
+    },
+    {
+      "name": "Lagos",
+      "location": [
+        3.5229,
+        6.5305
+      ],
+      "bounds": [
+        [
+          2.499,
+          5.931
+        ],
+        [
+          4.547,
+          7.13
+        ]
+      ]
+    },
+    {
+      "name": "Enugu",
+      "location": [
+        7.3785,
+        6.5249
+      ],
+      "bounds": [
+        [
+          6.579,
+          5.796
+        ],
+        [
+          8.179,
+          7.254
+        ]
+      ]
+    },
+    {
+      "name": "Anambra",
+      "location": [
+        6.9847,
+        6.2352
+      ],
+      "bounds": [
+        [
+          6.185,
+          5.559
+        ],
+        [
+          7.785,
+          6.911
+        ]
+      ]
+    },
+    {
+      "name": "Ebonyi",
+      "location": [
+        7.9665,
+        6.2319
+      ],
+      "bounds": [
+        [
+          7.167,
+          5.555
+        ],
+        [
+          8.767,
+          6.909
+        ]
+      ]
+    },
+    {
+      "name": "Cross River",
+      "location": [
+        8.6832,
+        5.7979
+      ],
+      "bounds": [
+        [
+          7.676,
+          4.431
+        ],
+        [
+          9.69,
+          7.165
+        ]
+      ]
+    },
+    {
+      "name": "Delta",
+      "location": [
+        5.1983,
+        5.5306
+      ],
+      "bounds": [
+        [
+          4.783,
+          4.84
+        ],
+        [
+          6.981,
+          6.723
+        ]
+      ]
+    },
+    {
+      "name": "Imo",
+      "location": [
+        7.0156,
+        5.5605
+      ],
+      "bounds": [
+        [
+          6.216,
+          4.961
+        ],
+        [
+          7.816,
+          6.16
+        ]
+      ]
+    },
+    {
+      "name": "Abia",
+      "location": [
+        7.5302,
+        5.419
+      ],
+      "bounds": [
+        [
+          6.73,
+          4.667
+        ],
+        [
+          8.33,
+          6.171
+        ]
+      ]
+    },
+    {
+      "name": "Rivers",
+      "location": [
+        6.9596,
+        5.0389
+      ],
+      "bounds": [
+        [
+          6.16,
+          4.184
+        ],
+        [
+          7.76,
+          5.894
+        ]
+      ]
+    },
+    {
+      "name": "Akwa Ibom",
+      "location": [
+        7.8978,
+        5.0247
+      ],
+      "bounds": [
+        [
+          7.098,
+          4.4
+        ],
+        [
+          8.698,
+          5.649
+        ]
+      ]
+    },
+    {
+      "name": "Bayelsa",
+      "location": [
+        6.0914,
+        4.8355
+      ],
+      "bounds": [
+        [
+          5.291,
+          4.139
+        ],
+        [
+          6.891,
+          5.532
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Nigeria's states, part 2 of 2. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 17 of the Nigeria regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Ekiti",
+      "location": [
+        5.3619,
+        7.719
+      ],
+      "lines": [
+        "Ekiti lies in the south-west of Nigeria, inland and north of Ondo and Osun, bordered by Kogi, Kwara and Ondo, with Ado Ekiti as its capital.",
+        "Its name comes from the Yoruba word for hill, and it has produced an unusual number of professors for its size, so Nigerians call it the fountain of knowledge.",
+        "Remember the little land of hills, the fountain of knowledge, where two springs run side by side without mixing at once."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ekiti_State",
+        "https://en.wikipedia.org/wiki/Ado_Ekiti",
+        "https://en.wikipedia.org/wiki/Ikogosi_Warm_Springs"
+      ],
+      "cameraBounds": [
+        [
+          4.562,
+          7.119
+        ],
+        [
+          6.162,
+          8.319
+        ]
+      ],
+      "transition": "Let's bring Ekiti into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.562,
+              7.119
+            ],
+            [
+              6.162,
+              8.319
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kogi",
+      "location": [
+        6.5712,
+        7.6326
+      ],
+      "lines": [
+        "Kogi lies in the middle-south of Nigeria, where the Niger and the Benue rivers meet, bordered by ten other states including Anambra, Delta, Edo and Enugu, with Idah in the north.",
+        "Lokoja, at the meeting of the two rivers, was the first administrative capital of colonial Nigeria, and Kogi is the state that touches more neighbours than any other.",
+        "Remember the place where the two great rivers meet, the old colonial capital, and the state that touches the most others."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kogi_State",
+        "https://en.wikipedia.org/wiki/Lokoja",
+        "https://en.wikipedia.org/wiki/Niger_River"
+      ],
+      "cameraBounds": [
+        [
+          5.053,
+          6.261
+        ],
+        [
+          8.089,
+          9.004
+        ]
+      ],
+      "transition": "Let's bring Kogi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.053,
+              6.261
+            ],
+            [
+              8.089,
+              9.004
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Osun",
+      "location": [
+        4.5491,
+        7.5305
+      ],
+      "lines": [
+        "Osun lies in the south-west of Nigeria, north of Ogun and Ondo and south of Oyo and Kwara, with Ile-Ife in the middle of the forest country.",
+        "The Osun-Osogbo sacred grove is a UNESCO world heritage site, one of the last intact forest shrines of the Yoruba religion, and Ile-Ife is where Yoruba tradition places the creation of the world.",
+        "Remember the grove of the river goddess and the town where the world was made, with bronze heads from about 1300 that astonished Europe."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Osun_State",
+        "https://en.wikipedia.org/wiki/Osun-Osogbo_Sacred_Grove",
+        "https://en.wikipedia.org/wiki/Ile-Ife"
+      ],
+      "cameraBounds": [
+        [
+          3.749,
+          6.843
+        ],
+        [
+          5.349,
+          8.218
+        ]
+      ],
+      "transition": "Let's bring Osun into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.749,
+              6.843
+            ],
+            [
+              5.349,
+              8.218
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ogun",
+      "location": [
+        3.6334,
+        7.1376
+      ],
+      "lines": [
+        "Ogun lies in the south-west of Nigeria, between the Atlantic coast and the inland states, bordered by Lagos, Ondo, Osun and Oyo, with Abeokuta at its centre.",
+        "Abeokuta means under the rock, and the Olumo rock there sheltered refugees during the wars of the nineteenth century; the state has produced more heads of state than any other, including Fela Kuti.",
+        "Remember the rock that sheltered refugees, and the state that has given Nigeria the most leaders."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ogun_State",
+        "https://en.wikipedia.org/wiki/Abeokuta",
+        "https://en.wikipedia.org/wiki/Olumo_Rock"
+      ],
+      "cameraBounds": [
+        [
+          2.431,
+          6.116
+        ],
+        [
+          4.835,
+          8.159
+        ]
+      ],
+      "transition": "Let's bring Ogun into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2.431,
+              6.116
+            ],
+            [
+              4.835,
+              8.159
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ondo",
+      "location": [
+        4.5408,
+        6.6998
+      ],
+      "lines": [
+        "Ondo lies in the south-west of Nigeria on the Gulf of Guinea, beside Lagos and Delta, bordered by Edo, Ekiti, Kogi, Ogun and Osun, with the Atlantic on its southern edge.",
+        "It is Nigeria’s largest cocoa producer, and cocoa was the country’s main export before oil, and the old town of Idanre on its hills is reached by 660 steps.",
+        "Remember the cocoa state on the coast, and the hill town of Idanre that you climb by six hundred and sixty steps."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ondo_State",
+        "https://en.wikipedia.org/wiki/Cocoa",
+        "https://en.wikipedia.org/wiki/Idanre_Hill"
+      ],
+      "cameraBounds": [
+        [
+          4.146,
+          5.617
+        ],
+        [
+          6.238,
+          7.994
+        ]
+      ],
+      "transition": "Let's bring Ondo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.146,
+              5.617
+            ],
+            [
+              6.238,
+              7.994
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edo",
+      "location": [
+        5.1726,
+        6.1645
+      ],
+      "lines": [
+        "Edo lies in the south of Nigeria, inland just north of the coast, bordered by Anambra, Delta, Kogi and Ondo, with Benin City in the middle.",
+        "The Benin Bronzes were looted from its royal palace by a British expedition in 1897 and are now among the most contested objects in European museums.",
+        "Remember the bronzes taken by force in 1897, and the walls of Benin that some reckon were several times the length of the Great Wall of China."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Edo_State",
+        "https://en.wikipedia.org/wiki/Benin_Bronzes",
+        "https://en.wikipedia.org/wiki/Walls_of_Benin"
+      ],
+      "cameraBounds": [
+        [
+          4.762,
+          5.535
+        ],
+        [
+          6.937,
+          7.8
+        ]
+      ],
+      "transition": "Let's bring Edo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.762,
+              5.535
+            ],
+            [
+              6.937,
+              7.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lagos",
+      "location": [
+        3.5229,
+        6.5305
+      ],
+      "lines": [
+        "Lagos is the smallest state by area in Nigeria, a narrow strip of lagoons and coast on the Gulf of Guinea west of Ogun, with the city of Lagos spreading across the water.",
+        "Its name is Portuguese for lakes, and it was Nigeria’s capital until 1991, and Nollywood, the second largest film industry in the world by output, is based here.",
+        "Remember the lagoons on the Atlantic, the smallest state and the biggest city, where Nigerian films are made."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lagos_State",
+        "https://en.wikipedia.org/wiki/Lagos",
+        "https://en.wikipedia.org/wiki/Nollywood"
+      ],
+      "cameraBounds": [
+        [
+          2.499,
+          5.931
+        ],
+        [
+          4.547,
+          7.13
+        ]
+      ],
+      "transition": "Let's bring Lagos into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2.499,
+              5.931
+            ],
+            [
+              4.547,
+              7.13
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enugu",
+      "location": [
+        7.3785,
+        6.5249
+      ],
+      "lines": [
+        "Enugu lies in the south-east of Nigeria, on the hills above the eastern Niger delta, bordered by Abia, Anambra, Benue, Ebonyi and Kogi, with the city of Enugu in the middle.",
+        "Coal was found here in 1909 and the city grew around it, so it is still called the coal city, and it was the capital of Biafra at the start of the war of 1967 to 1970.",
+        "Remember the coal city on the hill, the place the war started from."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Enugu_State",
+        "https://en.wikipedia.org/wiki/Enugu",
+        "https://en.wikipedia.org/wiki/Biafra"
+      ],
+      "cameraBounds": [
+        [
+          6.579,
+          5.796
+        ],
+        [
+          8.179,
+          7.254
+        ]
+      ],
+      "transition": "Let's bring Enugu into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.579,
+              5.796
+            ],
+            [
+              8.179,
+              7.254
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anambra",
+      "location": [
+        6.9847,
+        6.2352
+      ],
+      "lines": [
+        "Anambra lies in the south-east of Nigeria, on the eastern side of the Niger river, bordered by Abia, Delta, Edo, Enugu, Imo, Kogi and Rivers, with Awka in the middle.",
+        "At Igbo-Ukwu here, bronze castings were made by the lost-wax method from the ninth century, centuries before Benin or Ife, and the state is known for its trading and apprenticeship system.",
+        "Remember the lost-wax bronzes older than Benin, and the trading and apprenticeship system that runs in the markets."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anambra_State",
+        "https://en.wikipedia.org/wiki/Igbo-Ukwu",
+        "https://en.wikipedia.org/wiki/Awka"
+      ],
+      "cameraBounds": [
+        [
+          6.185,
+          5.559
+        ],
+        [
+          7.785,
+          6.911
+        ]
+      ],
+      "transition": "Let's bring Anambra into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.185,
+              5.559
+            ],
+            [
+              7.785,
+              6.911
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ebonyi",
+      "location": [
+        7.9665,
+        6.2319
+      ],
+      "lines": [
+        "Ebonyi lies in the south-east of Nigeria, east of the middle belt, bordered by Abia, Benue, Cross River and Enugu, with Abakaliki in the middle.",
+        "Created in 1996, it is a major rice state and a source of salt, so that Abakaliki is called the salt of the nation, and its lead and zinc have been mined since colonial times.",
+        "Remember the salt of the nation in the young state of 1996, growing rice in the east."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ebonyi_State",
+        "https://en.wikipedia.org/wiki/Abakaliki",
+        "https://en.wikipedia.org/wiki/Salt"
+      ],
+      "cameraBounds": [
+        [
+          7.167,
+          5.555
+        ],
+        [
+          8.767,
+          6.909
+        ]
+      ],
+      "transition": "Let's bring Ebonyi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.167,
+              5.555
+            ],
+            [
+              8.767,
+              6.909
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cross River",
+      "location": [
+        8.6832,
+        5.7979
+      ],
+      "lines": [
+        "Cross River lies in the south-east of Nigeria, on the Atlantic coast east of the Niger delta, bordered by Abia, Akwa Ibom, Benue and Ebonyi, with Calabar on the estuary.",
+        "It is named in English for the Cross River, which the Efik called the Oyono, and its rainforest holds the Cross River gorilla, the rarest great ape in the world, with about three hundred left.",
+        "Remember the forest with the rarest gorilla in the world, and the old slave port on the estuary."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cross_River_State",
+        "https://en.wikipedia.org/wiki/Calabar",
+        "https://en.wikipedia.org/wiki/Cross_River_gorilla"
+      ],
+      "cameraBounds": [
+        [
+          7.676,
+          4.431
+        ],
+        [
+          9.69,
+          7.165
+        ]
+      ],
+      "transition": "Let's bring Cross River into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.676,
+              4.431
+            ],
+            [
+              9.69,
+              7.165
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Delta",
+      "location": [
+        5.1983,
+        5.5306
+      ],
+      "lines": [
+        "Delta lies in the south of Nigeria, where the Niger river splits into a great fan of creeks and mangrove, bordered by Anambra, Bayelsa, Edo, Kogi, Ondo and Rivers, with Warri in the west.",
+        "It is named for the Niger Delta, one of the largest river deltas in the world, and it produces a large share of Nigeria’s oil, with the pollution and gas flaring here the subject of international litigation.",
+        "Remember the fan of the river where the oil is, the mangrove creeks and the gas flares seen from the water."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Delta_State",
+        "https://en.wikipedia.org/wiki/Niger_Delta",
+        "https://en.wikipedia.org/wiki/Warri"
+      ],
+      "cameraBounds": [
+        [
+          4.783,
+          4.84
+        ],
+        [
+          6.981,
+          6.723
+        ]
+      ],
+      "transition": "Let's bring Delta into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              4.783,
+              4.84
+            ],
+            [
+              6.981,
+              6.723
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Imo",
+      "location": [
+        7.0156,
+        5.5605
+      ],
+      "lines": [
+        "Imo lies in the south-east of Nigeria, inland between the Niger delta and the Enugu hills, bordered by Abia, Anambra and Rivers, with Owerri in the middle.",
+        "The Women’s War of 1929 spread through this region, when thousands of women protested colonial taxation and forced a change of policy.",
+        "Remember the women of 1929 who marched against the tax, and the deep gullies cut into the soil."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Imo_State",
+        "https://en.wikipedia.org/wiki/Owerri",
+        "https://en.wikipedia.org/wiki/Women%27s_War"
+      ],
+      "cameraBounds": [
+        [
+          6.216,
+          4.961
+        ],
+        [
+          7.816,
+          6.16
+        ]
+      ],
+      "transition": "Let's bring Imo into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.216,
+              4.961
+            ],
+            [
+              7.816,
+              6.16
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abia",
+      "location": [
+        7.5302,
+        5.419
+      ],
+      "lines": [
+        "Abia lies in the south-east of Nigeria, on the eastern side of the delta, bordered by Akwa Ibom, Anambra, Cross River, Ebonyi, Enugu, Imo and Rivers, with Aba in the middle.",
+        "Its name is an acronym, unusual for a place, made from the initials of Aba, Bende, Isuikwuato and Afikpo, the districts joined to create it in 1991.",
+        "Remember the only state whose name is an acronym, and the workshops of Aba making shoes and clothes for all of West Africa."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abia_State",
+        "https://en.wikipedia.org/wiki/Aba,_Nigeria",
+        "https://en.wikipedia.org/wiki/Arochukwu"
+      ],
+      "cameraBounds": [
+        [
+          6.73,
+          4.667
+        ],
+        [
+          8.33,
+          6.171
+        ]
+      ],
+      "transition": "Let's bring Abia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.73,
+              4.667
+            ],
+            [
+              8.33,
+              6.171
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rivers",
+      "location": [
+        6.9596,
+        5.0389
+      ],
+      "lines": [
+        "Rivers lies in the south of Nigeria, along the creeks where the Niger delta meets the Atlantic, bordered by Abia, Akwa Ibom, Anambra, Bayelsa, Delta and Imo, with Port Harcourt in the middle.",
+        "Port Harcourt is the centre of the oil industry and was built by the British in 1913 to export coal from Enugu, and Ken Saro-Wiwa was executed in 1995 for leading the Ogoni protests against oil pollution here.",
+        "Remember the oil capital on the creeks, and the man who gave his life for the Ogoni."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rivers_State",
+        "https://en.wikipedia.org/wiki/Port_Harcourt",
+        "https://en.wikipedia.org/wiki/Ken_Saro-Wiwa"
+      ],
+      "cameraBounds": [
+        [
+          6.16,
+          4.184
+        ],
+        [
+          7.76,
+          5.894
+        ]
+      ],
+      "transition": "Let's bring Rivers into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              6.16,
+              4.184
+            ],
+            [
+              7.76,
+              5.894
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akwa Ibom",
+      "location": [
+        7.8978,
+        5.0247
+      ],
+      "lines": [
+        "Akwa Ibom lies on the Atlantic coast in the far south-east of Nigeria, bordered by Abia, Cross River and Rivers, with Uyo in the middle.",
+        "Its name comes from the Qua Iboe river, rendered in Ibibio as Akwa Ibom, it has one of the highest oil outputs in the country, and its Ibeno beach is one of the longest sand beaches in West Africa.",
+        "Remember the oil state on the Atlantic with the long sand beach of Ibeno, and the river that names it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Akwa_Ibom_State",
+        "https://en.wikipedia.org/wiki/Uyo",
+        "https://en.wikipedia.org/wiki/Kwa_Ibo_River"
+      ],
+      "cameraBounds": [
+        [
+          7.098,
+          4.4
+        ],
+        [
+          8.698,
+          5.649
+        ]
+      ],
+      "transition": "Let's bring Akwa Ibom into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              7.098,
+              4.4
+            ],
+            [
+              8.698,
+              5.649
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bayelsa",
+      "location": [
+        6.0914,
+        4.8355
+      ],
+      "lines": [
+        "Bayelsa lies in the far south of Nigeria, in the creeks, swamp and mangrove of the delta, bordered only by Delta and Rivers, and much of it can be reached only by boat.",
+        "Its name is an acronym of Brass, Yenagoa and Sagbama, the three areas joined to make it in 1996, and it is the smallest state by population in the country.",
+        "Remember the boat state, the smallest of them all by people, made from three areas and reached only by water."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bayelsa_State",
+        "https://en.wikipedia.org/wiki/Yenagoa",
+        "https://en.wikipedia.org/wiki/Oloibiri"
+      ],
+      "cameraBounds": [
+        [
+          5.291,
+          4.139
+        ],
+        [
+          6.891,
+          5.532
+        ]
+      ],
+      "transition": "Let's bring Bayelsa into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              5.291,
+              4.139
+            ],
+            [
+              6.891,
+              5.532
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          2.32,
+          3.84
+        ],
+        [
+          9.88,
+          8.72
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "17 regions of Nigeria, one for each target of the map: Ekiti, Kogi, Osun, Ogun, Ondo, Edo, Lagos, Enugu, Anambra, Ebonyi, Cross River, Delta, Imo, Abia, Rivers, Akwa Ibom and Bayelsa.",
+    "Remember the shape of Nigeria from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "classic"
+}

@@ -1,0 +1,817 @@
+{
+  "title": "France's regions · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "france-regions",
+  "area": "France",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/france-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -4.11,
+      41.23
+    ],
+    [
+      10.26,
+      50.97
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Hauts-de-France",
+      "location": [
+        2.8105,
+        49.9688
+      ],
+      "bounds": [
+        [
+          1.014,
+          48.57
+        ],
+        [
+          4.607,
+          51.367
+        ]
+      ]
+    },
+    {
+      "name": "Normandie",
+      "location": [
+        -0.0651,
+        49.1258
+      ],
+      "bounds": [
+        [
+          -2.315,
+          47.951
+        ],
+        [
+          2.185,
+          50.301
+        ]
+      ]
+    },
+    {
+      "name": "Grand Est",
+      "location": [
+        5.7891,
+        48.7856
+      ],
+      "bounds": [
+        [
+          3.539,
+          47.076
+        ],
+        [
+          8.039,
+          50.495
+        ]
+      ]
+    },
+    {
+      "name": "Île-de-France",
+      "location": [
+        2.4959,
+        48.6762
+      ],
+      "bounds": [
+        [
+          1.194,
+          47.983
+        ],
+        [
+          3.798,
+          49.369
+        ]
+      ]
+    },
+    {
+      "name": "Bretagne",
+      "location": [
+        -2.912,
+        48.1619
+      ],
+      "bounds": [
+        [
+          -5.162,
+          47.275
+        ],
+        [
+          -0.662,
+          49.049
+        ]
+      ]
+    },
+    {
+      "name": "Centre-Val de Loire",
+      "location": [
+        1.5896,
+        47.6452
+      ],
+      "bounds": [
+        [
+          -0.314,
+          46.027
+        ],
+        [
+          3.493,
+          49.263
+        ]
+      ]
+    },
+    {
+      "name": "Pays de la Loire",
+      "location": [
+        -0.8219,
+        47.4146
+      ],
+      "bounds": [
+        [
+          -2.99,
+          46.002
+        ],
+        [
+          1.346,
+          48.828
+        ]
+      ]
+    },
+    {
+      "name": "Bourgogne-Franche-Comté",
+      "location": [
+        4.9918,
+        47.2918
+      ],
+      "bounds": [
+        [
+          2.742,
+          45.892
+        ],
+        [
+          7.242,
+          48.692
+        ]
+      ]
+    },
+    {
+      "name": "Auvergne-Rhône-Alpes",
+      "location": [
+        4.6097,
+        45.4564
+      ],
+      "bounds": [
+        [
+          2.36,
+          43.788
+        ],
+        [
+          6.86,
+          47.125
+        ]
+      ]
+    },
+    {
+      "name": "Nouvelle-Aquitaine",
+      "location": [
+        0.3992,
+        44.965
+      ],
+      "bounds": [
+        [
+          -1.851,
+          43.215
+        ],
+        [
+          2.649,
+          46.715
+        ]
+      ]
+    },
+    {
+      "name": "Provence-Alpes-Côte-d'Azur",
+      "location": [
+        5.9489,
+        44.1015
+      ],
+      "bounds": [
+        [
+          3.77,
+          42.822
+        ],
+        [
+          8.128,
+          45.381
+        ]
+      ]
+    },
+    {
+      "name": "Occitanie",
+      "location": [
+        2.2723,
+        43.6848
+      ],
+      "bounds": [
+        [
+          0.022,
+          42.005
+        ],
+        [
+          4.522,
+          45.365
+        ]
+      ]
+    },
+    {
+      "name": "Corse",
+      "location": [
+        9.0627,
+        42.2292
+      ],
+      "bounds": [
+        [
+          8.263,
+          41.244
+        ],
+        [
+          9.863,
+          43.214
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to France's regions, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 13 of the France regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Hauts-de-France",
+      "location": [
+        2.8105,
+        49.9688
+      ],
+      "lines": [
+        "Hauts-de-France runs along the northern border of France, above Île-de-France and between Grand Est and Normandie, reaching the coast of the Channel with Lille as its largest city.",
+        "The Somme flows through the region, and the battlefields of 1916 with their war cemeteries are the reason that most visitors come here.",
+        "Remember the upper France whose name was voted on in 2016, and the older Picardy below it named for the pike its soldiers carried."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hauts-de-France",
+        "https://en.wikipedia.org/wiki/Somme_(river)",
+        "https://en.wikipedia.org/wiki/Picardy"
+      ],
+      "cameraBounds": [
+        [
+          1.014,
+          48.57
+        ],
+        [
+          4.607,
+          51.367
+        ]
+      ],
+      "transition": "Let's bring Hauts-de-France into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              1.014,
+              48.57
+            ],
+            [
+              4.607,
+              51.367
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Normandie",
+      "location": [
+        -0.0651,
+        49.1258
+      ],
+      "lines": [
+        "Normandie fills the north-west of the country, facing the Channel between Brittany and the Belgian border, with Rouen as its largest city and Mont-Saint-Michel standing on its edge.",
+        "Vikings under Rollo were given this land in the year 911 and were speaking French and calling themselves Normans within a century, and their descendants took England in 1066.",
+        "Remember the land of the Northmen whose speech fed into English, with the landing beaches of 1944 along its shore."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Normandy",
+        "https://en.wikipedia.org/wiki/Rollo",
+        "https://en.wikipedia.org/wiki/Battle_of_Normandy"
+      ],
+      "cameraBounds": [
+        [
+          -2.315,
+          47.951
+        ],
+        [
+          2.185,
+          50.301
+        ]
+      ],
+      "transition": "Let's bring Normandie into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.315,
+              47.951
+            ],
+            [
+              2.185,
+              50.301
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grand Est",
+      "location": [
+        5.7891,
+        48.7856
+      ],
+      "lines": [
+        "Grand Est fills the north-eastern corner of France and reaches the border with Germany, with Strasbourg as its largest city and the old lands of Alsace, Lorraine and Champagne inside it.",
+        "Champagne may only be called champagne if the wine comes from this region, a name France has defended in courts all over the world for more than a century.",
+        "Remember the great east that was only named in 2016, where the name champagne is protected and Strasbourg keeps the parliament of Europe."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grand_Est",
+        "https://en.wikipedia.org/wiki/Champagne_(wine)",
+        "https://en.wikipedia.org/wiki/Strasbourg"
+      ],
+      "cameraBounds": [
+        [
+          3.539,
+          47.076
+        ],
+        [
+          8.039,
+          50.495
+        ]
+      ],
+      "transition": "Let's bring Grand Est into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.539,
+              47.076
+            ],
+            [
+              8.039,
+              50.495
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Île-de-France",
+      "location": [
+        2.4959,
+        48.6762
+      ],
+      "lines": [
+        "Île-de-France wraps around Paris in the north of the country, the small piece of land between the Seine, the Marne and the Oise, with Normandie and Grand Est beyond it.",
+        "It is the smallest region of France by area and still holds about a fifth of the whole population, and every one of the high speed lines in the country leaves from Paris.",
+        "Remember the island that is not an island, the royal domain the kingdom grew out from, with Versailles and every fast train leaving from its centre."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C3%8Ele-de-France",
+        "https://en.wikipedia.org/wiki/Paris",
+        "https://en.wikipedia.org/wiki/Versailles"
+      ],
+      "cameraBounds": [
+        [
+          1.194,
+          47.983
+        ],
+        [
+          3.798,
+          49.369
+        ]
+      ],
+      "transition": "Let's bring Île-de-France into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              1.194,
+              47.983
+            ],
+            [
+              3.798,
+              49.369
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bretagne",
+      "location": [
+        -2.912,
+        48.1619
+      ],
+      "lines": [
+        "Bretagne is the peninsula at the far west of France, with Rennes as its largest city and the Channel on one side and the Bay of Biscay on the other.",
+        "Breton is a Celtic language much closer to Welsh than to French, and about two hundred thousand people still speak it in every day conversation.",
+        "Remember the western peninsula that took its name from Britons who crossed from Britain, with more coastline than any other region of France."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brittany",
+        "https://en.wikipedia.org/wiki/Breton_language",
+        "https://en.wikipedia.org/wiki/Rennes"
+      ],
+      "cameraBounds": [
+        [
+          -5.162,
+          47.275
+        ],
+        [
+          -0.662,
+          49.049
+        ]
+      ],
+      "transition": "Let's bring Bretagne into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -5.162,
+              47.275
+            ],
+            [
+              -0.662,
+              49.049
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Centre-Val de Loire",
+      "location": [
+        1.5896,
+        47.6452
+      ],
+      "lines": [
+        "Centre-Val de Loire sits in the middle of France along the valley of the Loire, with Tours as its largest city and the river running right through the heart of it.",
+        "The Loire is the longest river in France at one thousand and six kilometres, and it is the last great river in Europe with no dam across its lower stretch.",
+        "Remember the middle of the country where the long river passes the great châteaux of Chambord and Chenonceau, kept as a world heritage site."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Centre-Val_de_Loire",
+        "https://en.wikipedia.org/wiki/Loire",
+        "https://en.wikipedia.org/wiki/Loire_Valley"
+      ],
+      "cameraBounds": [
+        [
+          -0.314,
+          46.027
+        ],
+        [
+          3.493,
+          49.263
+        ]
+      ],
+      "transition": "Let's bring Centre-Val de Loire into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -0.314,
+              46.027
+            ],
+            [
+              3.493,
+              49.263
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pays de la Loire",
+      "location": [
+        -0.8219,
+        47.4146
+      ],
+      "lines": [
+        "Pays de la Loire runs down the west side of France from Normandie to the Atlantic, with Nantes as its largest city and the river Loire only clipping its southern half.",
+        "The region was put together in 1955 out of several older provinces, and Nantes was the historic capital of Brittany, which many Bretons still treat as the capital to this day.",
+        "Remember the awkward name for lands the Loire only grazes, with the twenty four hour race at Le Mans running on ordinary public roads."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pays_de_la_Loire",
+        "https://en.wikipedia.org/wiki/Nantes",
+        "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans"
+      ],
+      "cameraBounds": [
+        [
+          -2.99,
+          46.002
+        ],
+        [
+          1.346,
+          48.828
+        ]
+      ],
+      "transition": "Let's bring Pays de la Loire into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -2.99,
+              46.002
+            ],
+            [
+              1.346,
+              48.828
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bourgogne-Franche-Comté",
+      "location": [
+        4.9918,
+        47.2918
+      ],
+      "lines": [
+        "Bourgogne-Franche-Comté lies in eastern France between Paris and the Alps, with Dijon as its largest city and no sea anywhere in sight.",
+        "The Côte d’Or hillside inside it produces the most expensive wine on earth by the hectare, and some of those plots are smaller than a tennis court.",
+        "Remember the free county and the land of the Burgundians, whose dukes were so rich in the fifteenth century that they behaved like a rival kingdom."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bourgogne-Franche-Comt%C3%A9",
+        "https://en.wikipedia.org/wiki/C%C3%B4te_d%27Or",
+        "https://en.wikipedia.org/wiki/Dijon"
+      ],
+      "cameraBounds": [
+        [
+          2.742,
+          45.892
+        ],
+        [
+          7.242,
+          48.692
+        ]
+      ],
+      "transition": "Let's bring Bourgogne-Franche-Comté into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2.742,
+              45.892
+            ],
+            [
+              7.242,
+              48.692
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auvergne-Rhône-Alpes",
+      "location": [
+        4.6097,
+        45.4564
+      ],
+      "lines": [
+        "Auvergne-Rhône-Alpes covers the mountainous centre and east of France, from the volcanic hills of the Massif Central up to the Alps, with Lyon as its largest city.",
+        "The Chaîne des Puys here is a chain of about eighty extinct volcanoes and a world heritage site, and Mont Blanc stands on the border of the region at four thousand eight hundred and eight metres.",
+        "Remember the land of the Arverni, whose chief Vercingetorix fought Caesar, with the highest summit in the Alps on its edge."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Auvergne-Rh%C3%B4ne-Alpes",
+        "https://en.wikipedia.org/wiki/Cha%C3%AEne_des_Puys",
+        "https://en.wikipedia.org/wiki/Lyon"
+      ],
+      "cameraBounds": [
+        [
+          2.36,
+          43.788
+        ],
+        [
+          6.86,
+          47.125
+        ]
+      ],
+      "transition": "Let's bring Auvergne-Rhône-Alpes into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              2.36,
+              43.788
+            ],
+            [
+              6.86,
+              47.125
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nouvelle-Aquitaine",
+      "location": [
+        0.3992,
+        44.965
+      ],
+      "lines": [
+        "Nouvelle-Aquitaine is the largest region in France, bigger than Austria, stretching from the Atlantic coast up to the Loire and down to the Pyrenees, with Bordeaux in the middle.",
+        "Eleanor of Aquitaine carried the land to the English crown by her marriage in 1152, and it stayed under English rule for the three hundred years that followed.",
+        "Remember the new Aquitaine, the land of waters, where a duchess married an English king and took the whole region across the Channel."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nouvelle-Aquitaine",
+        "https://en.wikipedia.org/wiki/Aquitaine",
+        "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine"
+      ],
+      "cameraBounds": [
+        [
+          -1.851,
+          43.215
+        ],
+        [
+          2.649,
+          46.715
+        ]
+      ],
+      "transition": "Let's bring Nouvelle-Aquitaine into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -1.851,
+              43.215
+            ],
+            [
+              2.649,
+              46.715
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Provence-Alpes-Côte-d'Azur",
+      "location": [
+        5.9489,
+        44.1015
+      ],
+      "lines": [
+        "Provence-Alpes-Côte-d’Azur fills the south-eastern corner of France on the Mediterranean, with Marseille as its largest city and the Alps along its northern edge.",
+        "The Romans made this their first province outside Italy and called it provincia, and because it mattered so much to them, Provence became their word for the whole region.",
+        "Remember the province whose coast was named for the colour of the sea, with the Roman arena at Arles and the theatre at Orange among the finest outside Italy."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Provence-Alpes-C%C3%B4te-d%27Azur",
+        "https://en.wikipedia.org/wiki/Arles",
+        "https://en.wikipedia.org/wiki/C%C3%B4te_d%27Azur"
+      ],
+      "cameraBounds": [
+        [
+          3.77,
+          42.822
+        ],
+        [
+          8.128,
+          45.381
+        ]
+      ],
+      "transition": "Let's bring Provence-Alpes-Côte-d'Azur into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              3.77,
+              42.822
+            ],
+            [
+              8.128,
+              45.381
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Occitanie",
+      "location": [
+        2.2723,
+        43.6848
+      ],
+      "lines": [
+        "Occitanie runs across the south of France from the Atlantic to the Mediterranean, with Toulouse as its largest city and the Pyrenees along its southern border.",
+        "The region took its name in 2016 from the langue d’oc, the southern tongue in which yes was oc, and the troubadours wrote the earliest poetry of Europe in a living language in it.",
+        "Remember the tongue of the troubadours, with the double walls of Carcassonne and the canal dug to join the Atlantic to the Mediterranean."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occitanie",
+        "https://en.wikipedia.org/wiki/Occitan_language",
+        "https://en.wikipedia.org/wiki/Canal_du_Midi"
+      ],
+      "cameraBounds": [
+        [
+          0.022,
+          42.005
+        ],
+        [
+          4.522,
+          45.365
+        ]
+      ],
+      "transition": "Let's bring Occitanie into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              0.022,
+              42.005
+            ],
+            [
+              4.522,
+              45.365
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corse",
+      "location": [
+        9.0627,
+        42.2292
+      ],
+      "lines": [
+        "Corse is the island in the Mediterranean off the south-east of France, with Ajaccio as its largest city and no land border with the mainland.",
+        "Genoa sold the island to France in 1768, and Napoleon was born in Ajaccio a year later, so the Corsican became French by a margin of only months.",
+        "Remember the island the Greeks called the most beautiful, with the trail along its spine rated the hardest long walk in Europe."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Corsica",
+        "https://en.wikipedia.org/wiki/Ajaccio",
+        "https://en.wikipedia.org/wiki/GR20"
+      ],
+      "cameraBounds": [
+        [
+          8.263,
+          41.244
+        ],
+        [
+          9.863,
+          43.214
+        ]
+      ],
+      "transition": "Let's bring Corse into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              8.263,
+              41.244
+            ],
+            [
+              9.863,
+              43.214
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -4.11,
+          41.23
+        ],
+        [
+          10.26,
+          50.97
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "13 regions of France, one for each target of the map: Hauts-de-France, Normandie, Grand Est, Île-de-France, Bretagne, Centre-Val de Loire, Pays de la Loire, Bourgogne-Franche-Comté, Auvergne-Rhône-Alpes, Nouvelle-Aquitaine, Provence-Alpes-Côte-d'Azur, Occitanie and Corse.",
+    "Remember the shape of France from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "tall"
+}

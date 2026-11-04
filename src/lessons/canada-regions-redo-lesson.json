@@ -1,0 +1,817 @@
+{
+  "title": "Canada's provinces · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "canada-regions",
+  "area": "Canada",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/canada-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      -140.3,
+      44.27
+    ],
+    [
+      -59.02,
+      68.53
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Northwest Territories",
+      "location": [
+        -132.6176,
+        66.2555
+      ],
+      "bounds": [
+        [
+          -134.868,
+          64.505
+        ],
+        [
+          -130.368,
+          68.005
+        ]
+      ]
+    },
+    {
+      "name": "Nunavut",
+      "location": [
+        -90.8832,
+        67.5274
+      ],
+      "bounds": [
+        [
+          -93.133,
+          65.777
+        ],
+        [
+          -88.633,
+          69.277
+        ]
+      ]
+    },
+    {
+      "name": "Yukon",
+      "location": [
+        -139.096,
+        61.0728
+      ],
+      "bounds": [
+        [
+          -141.346,
+          59.323
+        ],
+        [
+          -136.846,
+          62.823
+        ]
+      ]
+    },
+    {
+      "name": "Manitoba",
+      "location": [
+        -95.4743,
+        54.4964
+      ],
+      "bounds": [
+        [
+          -97.724,
+          52.746
+        ],
+        [
+          -93.224,
+          56.246
+        ]
+      ]
+    },
+    {
+      "name": "Saskatchewan",
+      "location": [
+        -105.6822,
+        54.4964
+      ],
+      "bounds": [
+        [
+          -107.932,
+          52.746
+        ],
+        [
+          -103.432,
+          56.246
+        ]
+      ]
+    },
+    {
+      "name": "Alberta",
+      "location": [
+        -115.0002,
+        54.4963
+      ],
+      "bounds": [
+        [
+          -117.25,
+          52.746
+        ],
+        [
+          -112.75,
+          56.246
+        ]
+      ]
+    },
+    {
+      "name": "British Columbia",
+      "location": [
+        -126.5542,
+        54.1572
+      ],
+      "bounds": [
+        [
+          -128.804,
+          52.407
+        ],
+        [
+          -124.304,
+          55.907
+        ]
+      ]
+    },
+    {
+      "name": "Québec",
+      "location": [
+        -68.3883,
+        53.7938
+      ],
+      "bounds": [
+        [
+          -70.638,
+          52.044
+        ],
+        [
+          -66.138,
+          55.544
+        ]
+      ]
+    },
+    {
+      "name": "Newfoundland and Labrador",
+      "location": [
+        -60.2184,
+        53.4612
+      ],
+      "bounds": [
+        [
+          -62.468,
+          51.711
+        ],
+        [
+          -57.968,
+          55.211
+        ]
+      ]
+    },
+    {
+      "name": "Ontario",
+      "location": [
+        -84.7534,
+        49.265
+      ],
+      "bounds": [
+        [
+          -87.003,
+          47.515
+        ],
+        [
+          -82.503,
+          51.015
+        ]
+      ]
+    },
+    {
+      "name": "Prince Edward Island",
+      "location": [
+        -64.1487,
+        46.6691
+      ],
+      "bounds": [
+        [
+          -64.718,
+          45.832
+        ],
+        [
+          -61.702,
+          47.154
+        ]
+      ]
+    },
+    {
+      "name": "New Brunswick",
+      "location": [
+        -68.4778,
+        47.3141
+      ],
+      "bounds": [
+        [
+          -68.678,
+          44.613
+        ],
+        [
+          -64.178,
+          48.113
+        ]
+      ]
+    },
+    {
+      "name": "Nova Scotia",
+      "location": [
+        -63.0212,
+        45.2669
+      ],
+      "bounds": [
+        [
+          -65.271,
+          43.517
+        ],
+        [
+          -60.771,
+          47.017
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Canada's provinces, part 1 of 1. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 13 of the Canada regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Northwest Territories",
+      "location": [
+        -132.6176,
+        66.2555
+      ],
+      "lines": [
+        "The Northwest Territories is one of Canada’s three territories, not a province, and it fills the far north-west of the country, reaching the Arctic Ocean to the north and Alaska to the west, with Yellowknife on the shore of Great Slave Lake.",
+        "It has eleven official languages and nine of them are Indigenous, more than any other jurisdiction in the country, and it has been carved up again and again, with Alberta, Saskatchewan, Yukon and Nunavut all taken out of it.",
+        "Remember the far north-west, where the forest stops and the tundra runs to the Arctic Ocean, and eleven languages are spoken side by side in one town."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Northwest_Territories",
+        "https://en.wikipedia.org/wiki/Yellowknife",
+        "https://en.wikipedia.org/wiki/Languages_of_Canada"
+      ],
+      "cameraBounds": [
+        [
+          -134.868,
+          64.505
+        ],
+        [
+          -130.368,
+          68.005
+        ]
+      ],
+      "transition": "Let's bring Northwest Territories into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -134.868,
+              64.505
+            ],
+            [
+              -130.368,
+              68.005
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nunavut",
+      "location": [
+        -90.8832,
+        67.5274
+      ],
+      "lines": [
+        "Nunavut is one of Canada’s three territories, not a province, and it covers the whole centre-north of the country, reaching the Arctic Ocean in the north and Hudson Bay in the south, and touching Québec in the east and Manitoba in the south, with Iqaluit on Frobisher Bay off Baffin Island.",
+        "It is the youngest and largest jurisdiction in Canada, created in 1999 and named by the people who live there, our land in Inuktitut, with about 40,000 people and no road connecting it to the rest of the country.",
+        "Remember our land, the newest region on the map, where in midsummer the sun sets for only a few hours and no road reaches it."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nunavut",
+        "https://en.wikipedia.org/wiki/Iqaluit",
+        "https://en.wikipedia.org/wiki/Inuktitut"
+      ],
+      "cameraBounds": [
+        [
+          -93.133,
+          65.777
+        ],
+        [
+          -88.633,
+          69.277
+        ]
+      ],
+      "transition": "Let's bring Nunavut into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -93.133,
+              65.777
+            ],
+            [
+              -88.633,
+              69.277
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yukon",
+      "location": [
+        -139.096,
+        61.0728
+      ],
+      "lines": [
+        "Yukon is one of Canada’s three territories, not a province, and it lies in the far west of the country, touching Alaska to the west and the Beaufort Sea to the north, with Whitehorse in the south.",
+        "Its name comes from a Gwich’in word for great river, the Yukon River, which runs 3,190 kilometres to the Bering Sea, and the Klondike gold rush of 1897 brought about 100,000 people north.",
+        "Remember the white horse country of the great river running to the Bering Sea, with Mount Logan, Canada’s highest peak, standing over the icefields to the east."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yukon",
+        "https://en.wikipedia.org/wiki/Klondike_Gold_Rush",
+        "https://en.wikipedia.org/wiki/Mount_Logan"
+      ],
+      "cameraBounds": [
+        [
+          -141.346,
+          59.323
+        ],
+        [
+          -136.846,
+          62.823
+        ]
+      ],
+      "transition": "Let's bring Yukon into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -141.346,
+              59.323
+            ],
+            [
+              -136.846,
+              62.823
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manitoba",
+      "location": [
+        -95.4743,
+        54.4964
+      ],
+      "lines": [
+        "Manitoba is a province, not a territory, and it stands in the middle of the country, running north to Hudson Bay and south to the border with the United States, with Winnipeg in the middle.",
+        "Its name comes from Cree or Ojibwe words for the strait of the spirit, the sound the waves make on the rocks of Lake Manitoba, and Churchill on its Hudson Bay coast calls itself the polar bear capital of the world.",
+        "Remember the strait of the spirit, the province with about a hundred thousand lakes, where polar bears walk through the town of Churchill."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Manitoba",
+        "https://en.wikipedia.org/wiki/Churchill,_Manitoba",
+        "https://en.wikipedia.org/wiki/Lake_Manitoba"
+      ],
+      "cameraBounds": [
+        [
+          -97.724,
+          52.746
+        ],
+        [
+          -93.224,
+          56.246
+        ]
+      ],
+      "transition": "Let's bring Manitoba into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -97.724,
+              52.746
+            ],
+            [
+              -93.224,
+              56.246
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saskatchewan",
+      "location": [
+        -105.6822,
+        54.4964
+      ],
+      "lines": [
+        "Saskatchewan is a province, not a territory, and it is the prairie strip between Alberta and Manitoba, touching the American border to the south and the Northwest Territories and Nunavut to the north, with Saskatoon in the middle.",
+        "Its name comes from Cree words for swift-flowing river, and it supplies a large share of the world’s potash and uranium, both mined from under the prairie.",
+        "Remember the nearly rectangular province, flat enough to see the grain elevators for miles, sitting on top of the world’s potash."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saskatchewan",
+        "https://en.wikipedia.org/wiki/Potash",
+        "https://en.wikipedia.org/wiki/Saskatoon"
+      ],
+      "cameraBounds": [
+        [
+          -107.932,
+          52.746
+        ],
+        [
+          -103.432,
+          56.246
+        ]
+      ],
+      "transition": "Let's bring Saskatchewan into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -107.932,
+              52.746
+            ],
+            [
+              -103.432,
+              56.246
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alberta",
+      "location": [
+        -115.0002,
+        54.4963
+      ],
+      "lines": [
+        "Alberta is a province, not a territory, and it lies in the west between British Columbia and Saskatchewan, with its southern edge on the border with the United States and Calgary near the middle.",
+        "It was named in 1882 for Princess Louise Caroline Alberta, Queen Victoria’s daughter, whose husband was then governor general, and its oil sands hold one of the largest crude reserves on earth.",
+        "Remember the province that is one vast oil field under the prairie, with the country’s first national park and the dinosaur beds of the badlands in the same province."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alberta",
+        "https://en.wikipedia.org/wiki/Oil_sands",
+        "https://en.wikipedia.org/wiki/Banff_National_Park"
+      ],
+      "cameraBounds": [
+        [
+          -117.25,
+          52.746
+        ],
+        [
+          -112.75,
+          56.246
+        ]
+      ],
+      "transition": "Let's bring Alberta into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -117.25,
+              52.746
+            ],
+            [
+              -112.75,
+              56.246
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "British Columbia",
+      "location": [
+        -126.5542,
+        54.1572
+      ],
+      "lines": [
+        "British Columbia is a province, not a territory, and it forms the whole Pacific coast of Canada, running from Alaska and Yukon in the north down to the American border in the south, with Vancouver on the coast.",
+        "Queen Victoria chose the name, Columbia for the Columbia River and British to tell it apart from the American side, and once the fjords and islands are counted the province has more than 25,000 kilometres of coastline.",
+        "Remember the misty Pacific province, where the temperate rainforest grows trees over 90 metres tall and Vancouver is the mildest big city in the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Columbia",
+        "https://en.wikipedia.org/wiki/Douglas_fir",
+        "https://en.wikipedia.org/wiki/Vancouver"
+      ],
+      "cameraBounds": [
+        [
+          -128.804,
+          52.407
+        ],
+        [
+          -124.304,
+          55.907
+        ]
+      ],
+      "transition": "Let's bring British Columbia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -128.804,
+              52.407
+            ],
+            [
+              -124.304,
+              55.907
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Québec",
+      "location": [
+        -68.3883,
+        53.7938
+      ],
+      "lines": [
+        "Québec is a province, not a territory, and it lies in the east of the country, running from the American border in the south up the St Lawrence River to the Atlantic coast, with Montréal in the south and Québec City at the narrowing of the river.",
+        "French is the only official language in this province and about 85 per cent of people speak it at home, and the province also generates almost all of its electricity from water.",
+        "Remember where the river narrows, the French-speaking province on the St Lawrence, whose towns run from the American border up to the Atlantic sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qu%C3%A9bec",
+        "https://en.wikipedia.org/wiki/St._Lawrence_River",
+        "https://en.wikipedia.org/wiki/Montreal"
+      ],
+      "cameraBounds": [
+        [
+          -70.638,
+          52.044
+        ],
+        [
+          -66.138,
+          55.544
+        ]
+      ],
+      "transition": "Let's bring Québec into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -70.638,
+              52.044
+            ],
+            [
+              -66.138,
+              55.544
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Newfoundland and Labrador",
+      "location": [
+        -60.2184,
+        53.4612
+      ],
+      "lines": [
+        "Newfoundland and Labrador is a province, not a territory, and it sits on the Atlantic in the far east of Canada, the island of Newfoundland and the coast of Labrador opposite it, with St. John’s at the south-east corner of the island.",
+        "L’Anse aux Meadows here is the only confirmed Norse site in North America, five hundred years before Columbus, and the cod fishery that was the richest in the world for four centuries collapsed in 1992, when 30,000 people lost their work in a day.",
+        "Remember the new found land of 1497, with Viking turf houses above the bay and the cod shoals that made the region rich fished out."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Newfoundland_and_Labrador",
+        "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows",
+        "https://en.wikipedia.org/wiki/Atlantic_Canada"
+      ],
+      "cameraBounds": [
+        [
+          -62.468,
+          51.711
+        ],
+        [
+          -57.968,
+          55.211
+        ]
+      ],
+      "transition": "Let's bring Newfoundland and Labrador into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -62.468,
+              51.711
+            ],
+            [
+              -57.968,
+              55.211
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ontario",
+      "location": [
+        -84.7534,
+        49.265
+      ],
+      "lines": [
+        "Ontario is a province, not a territory, and it fills the centre-east of the country, from the border with the United States in the south up to Hudson Bay, with Toronto on Lake Ontario and Québec to the east.",
+        "Its name comes from an Iroquoian word for great lake or beautiful water, and the border with the United States runs through four of the five Great Lakes, with Niagara Falls on it.",
+        "Remember the province of great lakes, where nearly two in five Canadians live and the American border runs straight through the water."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ontario",
+        "https://en.wikipedia.org/wiki/Niagara_Falls",
+        "https://en.wikipedia.org/wiki/Great_Lakes"
+      ],
+      "cameraBounds": [
+        [
+          -87.003,
+          47.515
+        ],
+        [
+          -82.503,
+          51.015
+        ]
+      ],
+      "transition": "Let's bring Ontario into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -87.003,
+              47.515
+            ],
+            [
+              -82.503,
+              51.015
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prince Edward Island",
+      "location": [
+        -64.1487,
+        46.6691
+      ],
+      "lines": [
+        "Prince Edward Island is a province, not a territory, and it is a small island in the Gulf of St Lawrence off the coast of Nova Scotia, with Charlottetown in the middle and no land border with any other region.",
+        "Its soil is red from iron oxide and the island grows a quarter of Canada’s potatoes, and at about 5,700 square kilometres it is the smallest province and the most densely populated.",
+        "Remember the smallest province, the red-soil island where the farmland is one field of potatoes and one story about a girl with red hair."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prince_Edward_Island",
+        "https://en.wikipedia.org/wiki/Anne_of_Green_Gables",
+        "https://en.wikipedia.org/wiki/Charlottetown"
+      ],
+      "cameraBounds": [
+        [
+          -64.718,
+          45.832
+        ],
+        [
+          -61.702,
+          47.154
+        ]
+      ],
+      "transition": "Let's bring Prince Edward Island into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -64.718,
+              45.832
+            ],
+            [
+              -61.702,
+              47.154
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Brunswick",
+      "location": [
+        -68.4778,
+        47.3141
+      ],
+      "lines": [
+        "New Brunswick is a province, not a territory, and it lies on the Atlantic in the east, its southern edge on the border with the United States, between Québec to the north and Nova Scotia to the south-west, with Moncton in the south-east.",
+        "It is the only officially bilingual province, with about a third of it Acadian French-speaking, and the Bay of Fundy on its coast has the highest tides on earth, up to 16 metres.",
+        "Remember the province where the water rises and falls the highest in the world twice a day, and where English and French share the towns."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/New_Brunswick",
+        "https://en.wikipedia.org/wiki/Bay_of_Fundy",
+        "https://en.wikipedia.org/wiki/Saint_John,_New_Brunswick"
+      ],
+      "cameraBounds": [
+        [
+          -68.678,
+          44.613
+        ],
+        [
+          -64.178,
+          48.113
+        ]
+      ],
+      "transition": "Let's bring New Brunswick into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -68.678,
+              44.613
+            ],
+            [
+              -64.178,
+              48.113
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nova Scotia",
+      "location": [
+        -63.0212,
+        45.2669
+      ],
+      "lines": [
+        "Nova Scotia is a province, not a territory, and it lies on the Atlantic in the far east of the country, facing the American states of Maine and Massachusetts across the Gulf of Maine, with Halifax on its coast and only New Brunswick sharing a land border with it.",
+        "Its name is Latin for New Scotland, from a 1621 land grant by James VI of Scotland, and Halifax harbour saw the largest man-made explosion before the atomic bomb when a munitions ship blew up in 1917.",
+        "Remember New Scotland, joined to the mainland by a strip only 24 kilometres wide, with no point on it more than 67 kilometres from the sea."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nova_Scotia",
+        "https://en.wikipedia.org/wiki/Halifax,_Nova_Scotia",
+        "https://en.wikipedia.org/wiki/Halifax_Explosion"
+      ],
+      "cameraBounds": [
+        [
+          -65.271,
+          43.517
+        ],
+        [
+          -60.771,
+          47.017
+        ]
+      ],
+      "transition": "Let's bring Nova Scotia into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              -65.271,
+              43.517
+            ],
+            [
+              -60.771,
+              47.017
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          -140.3,
+          44.27
+        ],
+        [
+          -59.02,
+          68.53
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "13 regions of Canada, one for each target of the map: Northwest Territories, Nunavut, Yukon, Manitoba, Saskatchewan, Alberta, British Columbia, Québec, Newfoundland and Labrador, Ontario, Prince Edward Island, New Brunswick and Nova Scotia.",
+    "Remember the shape of Canada from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "classic"
+}

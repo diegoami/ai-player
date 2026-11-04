@@ -783,6 +783,376 @@
       "zip": "all-sweden-regions-videos.zip",
       "targetCount": 21,
       "label": "Sweden Regions"
+    },
+    {
+      "id": "spain-regions-redo",
+      "country": "Spain",
+      "mapId": "spain-regions",
+      "title": "Spain's regions",
+      "content": "src/lessons/spain-regions-content.mjs",
+      "root": "rendered/spain-regions-redo-20261104",
+      "zip": "all-spain-regions-videos.zip",
+      "targetCount": 16,
+      "label": "Spain Regions"
+    },
+    {
+      "id": "italy-regions-redo",
+      "country": "Italy",
+      "mapId": "italy-regions",
+      "title": "Italy's regions",
+      "content": "src/lessons/italy-regions-content.mjs",
+      "root": "rendered/italy-regions-redo-20261104",
+      "zip": "all-italy-regions-videos.zip",
+      "targetCount": 20,
+      "label": "Italy Regions"
+    },
+    {
+      "id": "france-regions-redo",
+      "country": "France",
+      "mapId": "france-regions",
+      "title": "France's regions",
+      "content": "src/lessons/france-regions-content.mjs",
+      "root": "rendered/france-regions-redo-20261104",
+      "zip": "all-france-regions-videos.zip",
+      "targetCount": 13,
+      "label": "France Regions"
+    },
+    {
+      "id": "germany-states-redo",
+      "country": "Germany",
+      "mapId": "germany-states",
+      "title": "Germany's states",
+      "content": "src/lessons/germany-states-content.mjs",
+      "root": "rendered/germany-states-redo-20261104",
+      "zip": "all-germany-states-videos.zip",
+      "targetCount": 16,
+      "label": "Germany States"
+    },
+    {
+      "id": "great-britain-regions-redo",
+      "country": "Great Britain",
+      "mapId": "great-britain-regions",
+      "title": "Great Britain's regions",
+      "content": "src/lessons/great-britain-regions-content.mjs",
+      "root": "rendered/great-britain-regions-redo-20261104",
+      "zip": "all-great-britain-regions-videos.zip",
+      "targetCount": 15,
+      "label": "Great Britain Regions"
+    },
+    {
+      "id": "poland-regions-redo",
+      "country": "Poland",
+      "mapId": "poland-regions",
+      "title": "Poland's regions",
+      "content": "src/lessons/poland-regions-content.mjs",
+      "root": "rendered/poland-regions-redo-20261104",
+      "zip": "all-poland-regions-videos.zip",
+      "targetCount": 16,
+      "label": "Poland Regions"
+    },
+    {
+      "id": "australia-regions-redo",
+      "country": "Australia",
+      "mapId": "australia-regions",
+      "title": "Australia's states",
+      "content": "src/lessons/australia-regions-content.mjs",
+      "root": "rendered/australia-regions-redo-20261104",
+      "zip": "all-australia-regions-videos.zip",
+      "targetCount": 8,
+      "label": "Australia Regions"
+    },
+    {
+      "id": "south-africa-provinces-redo",
+      "country": "South Africa",
+      "mapId": "south-africa-provinces",
+      "title": "South Africa's provinces",
+      "content": "src/lessons/south-africa-provinces-content.mjs",
+      "root": "rendered/south-africa-provinces-redo-20261104",
+      "zip": "all-south-africa-provinces-videos.zip",
+      "targetCount": 9,
+      "label": "South Africa Provinces"
+    },
+    {
+      "id": "morocco-regions-redo",
+      "country": "Morocco",
+      "mapId": "morocco-regions",
+      "title": "Morocco's regions",
+      "content": "src/lessons/morocco-regions-content.mjs",
+      "root": "rendered/morocco-regions-redo-20261104",
+      "zip": "all-morocco-regions-videos.zip",
+      "targetCount": 12,
+      "label": "Morocco Regions"
+    },
+    {
+      "id": "egypt-regions-redo",
+      "country": "Egypt",
+      "mapId": "egypt-regions",
+      "title": "Egypt's regions",
+      "content": "src/lessons/egypt-regions-content.mjs",
+      "root": "rendered/egypt-regions-redo-20261104",
+      "zip": "all-egypt-regions-videos.zip",
+      "targetCount": 27,
+      "label": "Egypt Regions"
+    },
+    {
+      "id": "new-zealand-regions-redo",
+      "country": "New Zealand",
+      "mapId": "new-zealand-regions",
+      "title": "New Zealand's regions",
+      "content": "src/lessons/new-zealand-regions-content.mjs",
+      "root": "rendered/new-zealand-regions-redo-20261104",
+      "zip": "all-new-zealand-regions-videos.zip",
+      "targetCount": 16,
+      "label": "New Zealand Regions"
+    },
+    {
+      "id": "brazil-regions-redo",
+      "country": "Brazil",
+      "mapId": "brazil-regions",
+      "title": "Brazil's states",
+      "content": "src/lessons/brazil-regions-content.mjs",
+      "root": "rendered/brazil-regions-redo-20261104",
+      "zip": "all-brazil-regions-videos.zip",
+      "targetCount": 27,
+      "label": "Brazil Regions",
+      "groups": [
+        {
+          "id": "north-and-northeast",
+          "title": "The north and the northeast",
+          "names": [
+            "Roraima",
+            "Amapá",
+            "Pará",
+            "Amazonas",
+            "Ceará",
+            "Maranhão",
+            "Rio Grande do Norte",
+            "Piauí",
+            "Paraíba",
+            "Pernambuco",
+            "Acre",
+            "Tocantins",
+            "Alagoas",
+            "Sergipe"
+          ]
+        },
+        {
+          "id": "centre-and-south",
+          "title": "The centre and the south",
+          "names": [
+            "Rondônia",
+            "Mato Grosso",
+            "Bahia",
+            "Distrito Federal",
+            "Goiás",
+            "Minas Gerais",
+            "Espírito Santo",
+            "Mato Grosso do Sul",
+            "Rio de Janeiro",
+            "São Paulo",
+            "Paraná",
+            "Santa Catarina",
+            "Rio Grande do Sul"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mexico-regions-redo",
+      "country": "Mexico",
+      "mapId": "mexico-regions",
+      "title": "Mexico's states",
+      "content": "src/lessons/mexico-regions-content.mjs",
+      "root": "rendered/mexico-regions-redo-20261104",
+      "zip": "all-mexico-regions-videos.zip",
+      "targetCount": 32,
+      "label": "Mexico Regions",
+      "groups": [
+        {
+          "id": "north-and-west",
+          "title": "The north and the west",
+          "names": [
+            "Baja California",
+            "Baja California Sur",
+            "Sonora",
+            "Sinaloa",
+            "Chihuahua",
+            "Durango",
+            "Zacatecas",
+            "Coahuila",
+            "Nuevo León",
+            "Tamaulipas",
+            "San Luis Potosí",
+            "Aguascalientes",
+            "Nayarit",
+            "Jalisco",
+            "Guanajuato",
+            "Querétaro"
+          ]
+        },
+        {
+          "id": "centre-and-south",
+          "title": "The centre and the south",
+          "names": [
+            "Hidalgo",
+            "México",
+            "Distrito Federal",
+            "Morelos",
+            "Tlaxcala",
+            "Puebla",
+            "Michoacán",
+            "Guerrero",
+            "Colima",
+            "Veracruz",
+            "Tabasco",
+            "Campeche",
+            "Yucatán",
+            "Quintana Roo",
+            "Oaxaca",
+            "Chiapas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iran-provinces-redo",
+      "country": "Iran",
+      "mapId": "iran-provinces",
+      "title": "Iran's provinces",
+      "content": "src/lessons/iran-provinces-content.mjs",
+      "root": "rendered/iran-provinces-redo-20261104",
+      "zip": "all-iran-provinces-videos.zip",
+      "targetCount": 31,
+      "label": "Iran Provinces",
+      "groups": [
+        {
+          "id": "north-and-west",
+          "title": "The north and the west",
+          "names": [
+            "Ardabil",
+            "East Azerbaijan",
+            "West Azerbaijan",
+            "Gilan",
+            "North Khorasan",
+            "Golestan",
+            "Zanjan",
+            "Mazandaran",
+            "Qazvin",
+            "Alborz",
+            "Semnan",
+            "Kurdistan",
+            "Tehran",
+            "Hamadan",
+            "Qom",
+            "Markazi"
+          ]
+        },
+        {
+          "id": "south-and-east",
+          "title": "The south and the east",
+          "names": [
+            "Razavi Khorasan",
+            "Kermanshah",
+            "Lorestan",
+            "Ilam",
+            "Isfahan",
+            "Yazd",
+            "South Khorasan",
+            "Chaharmahal and Bakhtiari",
+            "Khuzestan",
+            "Kohgiluyeh and Boyer-Ahmad",
+            "Fars",
+            "Kerman",
+            "Bushehr",
+            "Sistan and Baluchestan",
+            "Hormozgan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan-regions-redo",
+      "country": "Japan",
+      "mapId": "japan-regions",
+      "title": "Japan's prefectures",
+      "content": "src/lessons/japan-regions-content.mjs",
+      "root": "rendered/japan-regions-redo-20261104",
+      "zip": "all-japan-regions-videos.zip",
+      "targetCount": 47,
+      "label": "Japan Regions",
+      "groups": [
+        {
+          "id": "hokkaido-and-tohoku",
+          "title": "Hokkaido and the northern mainland",
+          "names": [
+            "Hokkaidō",
+            "Aomori",
+            "Iwate",
+            "Miyagi",
+            "Akita",
+            "Yamagata",
+            "Fukushima"
+          ]
+        },
+        {
+          "id": "central-mountains",
+          "title": "The central mountains and the north coast",
+          "names": [
+            "Niigata",
+            "Toyama",
+            "Ishikawa",
+            "Fukui",
+            "Nagano",
+            "Gunma",
+            "Tochigi",
+            "Ibaraki"
+          ]
+        },
+        {
+          "id": "kanto-and-kansai",
+          "title": "The capital region and the western heartland",
+          "names": [
+            "Saitama",
+            "Tokyo",
+            "Yamanashi",
+            "Kanagawa",
+            "Chiba",
+            "Gifu",
+            "Shiga",
+            "Mie",
+            "Aichi",
+            "Shizuoka",
+            "Kyōto",
+            "Ōsaka",
+            "Hyōgo",
+            "Nara",
+            "Wakayama"
+          ]
+        },
+        {
+          "id": "west-and-south",
+          "title": "The west and the south",
+          "names": [
+            "Tottori",
+            "Shimane",
+            "Okayama",
+            "Hiroshima",
+            "Yamaguchi",
+            "Tokushima",
+            "Kagawa",
+            "Ehime",
+            "Kōchi",
+            "Fukuoka",
+            "Saga",
+            "Nagasaki",
+            "Kumamoto",
+            "Ōita",
+            "Miyazaki",
+            "Kagoshima",
+            "Okinawa"
+          ]
+        }
+      ]
     }
   ]
 }

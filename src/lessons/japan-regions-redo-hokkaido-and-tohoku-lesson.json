@@ -1,0 +1,463 @@
+{
+  "title": "Japan's prefectures · Hokkaido and the northern mainland · GeoClick Geography",
+  "edition": "Regions of Europe · one lesson per country · November 2026",
+  "mapId": "japan-regions",
+  "area": "Japan",
+  "unit": "regions",
+  "url": "http://localhost:5187/map/japan-regions",
+  "manual": "http://localhost:5187/manual",
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "initialBounds": [
+    [
+      138.64,
+      36.38
+    ],
+    [
+      143.79,
+      44.46
+    ]
+  ],
+  "restore": [
+    {
+      "name": "Hokkaidō",
+      "location": [
+        142.5908,
+        43.4556
+      ],
+      "bounds": [
+        [
+          140.341,
+          41.706
+        ],
+        [
+          144.841,
+          45.206
+        ]
+      ]
+    },
+    {
+      "name": "Aomori",
+      "location": [
+        140.0627,
+        40.4979
+      ],
+      "bounds": [
+        [
+          139.633,
+          40.05
+        ],
+        [
+          141.909,
+          41.662
+        ]
+      ]
+    },
+    {
+      "name": "Akita",
+      "location": [
+        139.8383,
+        39.9602
+      ],
+      "bounds": [
+        [
+          139.53,
+          38.679
+        ],
+        [
+          141.13,
+          40.702
+        ]
+      ]
+    },
+    {
+      "name": "Iwate",
+      "location": [
+        141.3637,
+        39.6024
+      ],
+      "bounds": [
+        [
+          140.482,
+          38.542
+        ],
+        [
+          142.246,
+          40.663
+        ]
+      ]
+    },
+    {
+      "name": "Yamagata",
+      "location": [
+        140.0824,
+        38.4189
+      ],
+      "bounds": [
+        [
+          139.282,
+          37.549
+        ],
+        [
+          140.882,
+          39.289
+        ]
+      ]
+    },
+    {
+      "name": "Miyagi",
+      "location": [
+        140.9549,
+        38.383
+      ],
+      "bounds": [
+        [
+          140.098,
+          37.652
+        ],
+        [
+          141.812,
+          39.114
+        ]
+      ]
+    },
+    {
+      "name": "Fukushima",
+      "location": [
+        140.101,
+        37.3807
+      ],
+      "bounds": [
+        [
+          138.925,
+          36.651
+        ],
+        [
+          141.277,
+          38.11
+        ]
+      ]
+    }
+  ],
+  "intro": [
+    "Welcome to Japan's prefectures, part 1 of 4. First, I clear the chosen names for a fresh regional lesson.",
+    "We work through 7 of the Japan regions the map names, once each: where it sits, one fact worth keeping, and a hook to remember it by."
+  ],
+  "states": [
+    {
+      "name": "Hokkaidō",
+      "location": [
+        142.5908,
+        43.4556
+      ],
+      "lines": [
+        "Hokkaidō is Japan’s northern island, lying north of Honshū across the Tsugaru Strait, with Sapporo in its southern plain and no land border with any other prefecture.",
+        "Its name was only settled in 1869, when the old word Ezo, the land of the Ainu, was replaced by a phrase meaning north sea circuit.",
+        "Remember the northern island that reaches up out of the monsoon belt, with Sapporo’s snow slides and the potato fields."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hokkaid%C5%8D",
+        "https://en.wikipedia.org/wiki/Sapporo",
+        "https://en.wikipedia.org/wiki/Sapporo_Snow_Festival"
+      ],
+      "cameraBounds": [
+        [
+          140.341,
+          41.706
+        ],
+        [
+          144.841,
+          45.206
+        ]
+      ],
+      "transition": "Let's bring Hokkaidō into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              140.341,
+              41.706
+            ],
+            [
+              144.841,
+              45.206
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aomori",
+      "location": [
+        140.0627,
+        40.4979
+      ],
+      "lines": [
+        "Aomori stands at the northern tip of Honshū on the Sea of Japan, with Iwate below it and Akita to the south-west, and the city of Aomori on its bay.",
+        "The Sannai-Maruyama site here was a settled village 5,900 years ago, which showed that the Jōmon people farmed and built rather than only foraging.",
+        "Remember the blue forest at the top of the island, where half of Japan’s apples grow and house-sized paper warriors parade each August."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aomori_Prefecture",
+        "https://en.wikipedia.org/wiki/Sannai-Maruyama",
+        "https://en.wikipedia.org/wiki/Nebuta"
+      ],
+      "cameraBounds": [
+        [
+          139.633,
+          40.05
+        ],
+        [
+          141.909,
+          41.662
+        ]
+      ],
+      "transition": "Let's bring Aomori into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              139.633,
+              40.05
+            ],
+            [
+              141.909,
+              41.662
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akita",
+      "location": [
+        139.8383,
+        39.9602
+      ],
+      "lines": [
+        "Akita faces the Sea of Japan on the north-west of Honshū, below Aomori and beside Iwate, with Miyagi and Yamagata to the south and the city of Akita on the shore.",
+        "It is the home of the Akita dog, and Hachikō, one of them, waited nine years at Shibuya station in Tokyo for a master who never came back.",
+        "Remember the autumn field on the grey northern coast, the dog that waited, and the rice paddies with the highest yield in the country."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Akita_Prefecture",
+        "https://en.wikipedia.org/wiki/Hachik%C5%8D",
+        "https://en.wikipedia.org/wiki/Akita_dog"
+      ],
+      "cameraBounds": [
+        [
+          139.53,
+          38.679
+        ],
+        [
+          141.13,
+          40.702
+        ]
+      ],
+      "transition": "Let's bring Akita into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              139.53,
+              38.679
+            ],
+            [
+              141.13,
+              40.702
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iwate",
+      "location": [
+        141.3637,
+        39.6024
+      ],
+      "lines": [
+        "Iwate faces the Pacific on the north-east of Honshū, with Aomori above it and Akita and Miyagi to the west and south, and Morioka a little way inland.",
+        "Miyazawa Kenji, the poet whose verse every Japanese schoolchild learns, wrote about these hills and fields, and the Sanriku coast here was the worst hit by the 2011 tsunami, which reached over 30 metres in places.",
+        "Remember the boulder with the demon’s handprint and the long curve of the Sanriku coast where the water reached thirty metres."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iwate_Prefecture",
+        "https://en.wikipedia.org/wiki/Miyazawa_Kenji",
+        "https://en.wikipedia.org/wiki/Sanriku"
+      ],
+      "cameraBounds": [
+        [
+          140.482,
+          38.542
+        ],
+        [
+          142.246,
+          40.663
+        ]
+      ],
+      "transition": "Let's bring Iwate into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              140.482,
+              38.542
+            ],
+            [
+              142.246,
+              40.663
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yamagata",
+      "location": [
+        140.0824,
+        38.4189
+      ],
+      "lines": [
+        "Yamagata lies inland in the north of Honshū in a ring of peaks around its basin, with Akita to the north and Miyagi to the east, and Fukushima and Niigata to the south.",
+        "It grows about 70% of Japan’s cherries, and its Yonezawa beef ranks with Kobe’s.",
+        "Remember the three sacred mountains of Dewa and the wooden street of Ginzan hot spring under the snow."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yamagata_Prefecture",
+        "https://en.wikipedia.org/wiki/Yonezawa_beef",
+        "https://en.wikipedia.org/wiki/Ginzan_Onsen"
+      ],
+      "cameraBounds": [
+        [
+          139.282,
+          37.549
+        ],
+        [
+          140.882,
+          39.289
+        ]
+      ],
+      "transition": "Let's bring Yamagata into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              139.282,
+              37.549
+            ],
+            [
+              140.882,
+              39.289
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Miyagi",
+      "location": [
+        140.9549,
+        38.383
+      ],
+      "lines": [
+        "Miyagi faces the Pacific on the east of Honshū, below Iwate and above Fukushima, with Sendai, the largest city in northern Honshū, on the bay.",
+        "The bay off it, Matsushima, with its 260 pine islands, is one of the three classic views of Japan, and Sendai was built by Date Masamune, the one-eyed warlord.",
+        "Remember the bay of 260 pine islands and the one-eyed warlord’s castle city on the north-east coast."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Miyagi_Prefecture",
+        "https://en.wikipedia.org/wiki/Matsushima",
+        "https://en.wikipedia.org/wiki/Sendai"
+      ],
+      "cameraBounds": [
+        [
+          140.098,
+          37.652
+        ],
+        [
+          141.812,
+          39.114
+        ]
+      ],
+      "transition": "Let's bring Miyagi into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              140.098,
+              37.652
+            ],
+            [
+              141.812,
+              39.114
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fukushima",
+      "location": [
+        140.101,
+        37.3807
+      ],
+      "lines": [
+        "Fukushima faces the Pacific on the east of Honshū, with Miyagi and Yamagata to the north, and Iwaki on its coast with Gunma, Tochigi and Ibaraki inland behind it.",
+        "Its Aizu region held out for the shogun against the imperial army in 1868, and the story of the teenage Byakkotai is still taught in Japanese schools.",
+        "Remember the fortune island with the castle on the rise in the marsh, and the boy soldiers who held the snowed-in fortress."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fukushima_Prefecture",
+        "https://en.wikipedia.org/wiki/Byakkotai",
+        "https://en.wikipedia.org/wiki/Aizu-Wakamatsu"
+      ],
+      "cameraBounds": [
+        [
+          138.925,
+          36.651
+        ],
+        [
+          141.277,
+          38.11
+        ]
+      ],
+      "transition": "Let's bring Fukushima into view.",
+      "gestures": [
+        {
+          "bounds": [
+            [
+              138.925,
+              36.651
+            ],
+            [
+              141.277,
+              38.11
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recapGestures": [
+    {
+      "bounds": [
+        [
+          138.64,
+          36.38
+        ],
+        [
+          143.79,
+          44.46
+        ]
+      ]
+    }
+  ],
+  "recap": [
+    "7 regions of Japan, one for each target of the map: Hokkaidō, Aomori, Akita, Iwate, Yamagata, Miyagi and Fukushima.",
+    "Remember the shape of Japan from the inside: the regions nest around each other, and every name on the map belongs somewhere in this one country."
+  ],
+  "layout": "classic"
+}

@@ -12,7 +12,7 @@
     {
       "id": "sweden-regions-redo-regions",
       "title": "Sweden's regions",
-      "status": "preflight-passed",
+      "status": "media-verified-awaiting-visual-review",
       "lesson": "src/lessons/sweden-regions-redo-lesson.json",
       "places": [
         "Norrbotten",
@@ -86,7 +86,8 @@
       "relatedTargets": [],
       "supplemental": [],
       "video": "rendered/sweden-regions-redo-20261104/geoclick/play-no-subtitles.mp4",
-      "audioCache": "rendered/sweden-regions-20261103/geoclick"
+      "audioCache": "rendered/sweden-regions-20261103/geoclick",
+      "durationSeconds": 927.24
     }
   ]
 }
