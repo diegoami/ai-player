@@ -1,0 +1,98 @@
+{
+  "edition": "South America · Three regional lessons · November 2026 · taller-layout redo 2026-11-04",
+  "status": "in-production",
+  "scope": "All 12 country targets of GeoClick's native south-america-countries map, each exactly once: the four northern countries, the four Andean western countries and the four eastern and southern countries. French Guiana is not a target of this map.",
+  "targetCount": 12,
+  "coveredPlaceCount": 0,
+  "replaces": "src/lessons/south-america-coverage.json",
+  "note": "Only the lessons the fitting pass measured better in the tall layout are redone; the other episodes keep their published videos.",
+  "episodes": [
+    {
+      "id": "northern-countries",
+      "title": "The Northern Countries",
+      "status": "complete",
+      "lesson": "src/lessons/south-america-01-northern-countries.json",
+      "places": [
+        "Colombia",
+        "Venezuela",
+        "Guyana",
+        "Suriname"
+      ],
+      "countries": [
+        "Colombia",
+        "Venezuela",
+        "Guyana",
+        "Suriname"
+      ],
+      "nativeTargets": [
+        "Colombia",
+        "Venezuela",
+        "Guyana",
+        "Suriname"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/south-america-redo-20261104/01-northern-countries/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 241.12,
+      "audioCache": "rendered/south-america-three-20261102/01-northern-countries/geoclick"
+    },
+    {
+      "id": "along-the-andes",
+      "title": "Along the Andes",
+      "status": "complete",
+      "lesson": "src/lessons/south-america-02-along-the-andes.json",
+      "places": [
+        "Ecuador",
+        "Peru",
+        "Bolivia",
+        "Chile"
+      ],
+      "countries": [
+        "Ecuador",
+        "Peru",
+        "Bolivia",
+        "Chile"
+      ],
+      "nativeTargets": [
+        "Ecuador",
+        "Peru",
+        "Bolivia",
+        "Chile"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/south-america-redo-20261104/02-along-the-andes/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 252.28,
+      "audioCache": "rendered/south-america-three-20261102/02-along-the-andes/geoclick"
+    },
+    {
+      "id": "brazil-and-the-south",
+      "title": "Brazil and the Southern Countries",
+      "status": "complete",
+      "lesson": "src/lessons/south-america-03-brazil-and-the-south.json",
+      "places": [
+        "Brazil",
+        "Paraguay",
+        "Uruguay",
+        "Argentina"
+      ],
+      "countries": [
+        "Brazil",
+        "Paraguay",
+        "Uruguay",
+        "Argentina"
+      ],
+      "nativeTargets": [
+        "Brazil",
+        "Paraguay",
+        "Uruguay",
+        "Argentina"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/south-america-redo-20261104/03-brazil-and-the-south/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 242.64,
+      "audioCache": "rendered/south-america-three-20261102/03-brazil-and-the-south/geoclick"
+    }
+  ]
+}

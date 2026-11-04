@@ -1,0 +1,257 @@
+{
+  "edition": "Africa · Eight regional lessons · November 2026 · taller-layout redo 2026-11-04",
+  "status": "in-production",
+  "scope": "54 countries plus Western Sahara as a disputed-territory teaching stop; Somaliland is a related selection within Somalia, not an additional country",
+  "targetCount": 45,
+  "coveredPlaceCount": 0,
+  "replaces": "src/lessons/africa-coverage.json",
+  "note": "Only the lessons the fitting pass measured better in the tall layout are redone; the other episodes keep their published videos.",
+  "episodes": [
+    {
+      "id": "atlantic-west-africa",
+      "title": "Atlantic West Africa",
+      "status": "complete",
+      "lesson": "src/lessons/africa-02-atlantic-west-africa.json",
+      "places": [
+        "Cabo Verde",
+        "Mauritania",
+        "Senegal",
+        "The Gambia",
+        "Guinea-Bissau",
+        "Guinea",
+        "Sierra Leone",
+        "Liberia"
+      ],
+      "countries": [
+        "Cabo Verde",
+        "Mauritania",
+        "Senegal",
+        "The Gambia",
+        "Guinea-Bissau",
+        "Guinea",
+        "Sierra Leone",
+        "Liberia"
+      ],
+      "nativeTargets": [
+        "Cabo Verde",
+        "Mauritania",
+        "Senegal",
+        "The Gambia",
+        "Guinea-Bissau",
+        "Guinea",
+        "Sierra Leone",
+        "Liberia"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-redo-20261104/02-atlantic-west-africa/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 387.44,
+      "youtubeVideoId": "s0vsG7yVHlY",
+      "audioCache": "rendered/africa-eight-20261102/02-atlantic-west-africa/geoclick"
+    },
+    {
+      "id": "sahel-gulf-guinea",
+      "title": "Sahel and Gulf of Guinea",
+      "status": "complete",
+      "lesson": "src/lessons/africa-03-sahel-gulf-guinea.json",
+      "places": [
+        "Mali",
+        "Burkina Faso",
+        "Niger",
+        "Côte d'Ivoire",
+        "Ghana",
+        "Togo",
+        "Benin",
+        "Nigeria"
+      ],
+      "countries": [
+        "Mali",
+        "Burkina Faso",
+        "Niger",
+        "Côte d'Ivoire",
+        "Ghana",
+        "Togo",
+        "Benin",
+        "Nigeria"
+      ],
+      "nativeTargets": [
+        "Mali",
+        "Burkina Faso",
+        "Niger",
+        "Côte d'Ivoire",
+        "Ghana",
+        "Togo",
+        "Benin",
+        "Nigeria"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-redo-20261104/03-sahel-gulf-guinea/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 376.84,
+      "youtubeVideoId": "Xy_DXMAmwA0",
+      "audioCache": "rendered/africa-eight-20261102/03-sahel-gulf-guinea/geoclick"
+    },
+    {
+      "id": "central-africa",
+      "title": "Central Africa",
+      "status": "complete",
+      "lesson": "src/lessons/africa-04-central-africa.json",
+      "places": [
+        "Chad",
+        "Cameroon",
+        "Central African Republic",
+        "Equatorial Guinea",
+        "Gabon",
+        "Republic of the Congo",
+        "Democratic Republic of the Congo",
+        "São Tomé and Príncipe"
+      ],
+      "countries": [
+        "Chad",
+        "Cameroon",
+        "Central African Republic",
+        "Equatorial Guinea",
+        "Gabon",
+        "Republic of the Congo",
+        "Democratic Republic of the Congo",
+        "São Tomé and Príncipe"
+      ],
+      "nativeTargets": [
+        "Chad",
+        "Cameroon",
+        "Central African Republic",
+        "Equatorial Guinea",
+        "Gabon",
+        "Republic of the Congo",
+        "Democratic Republic of the Congo"
+      ],
+      "relatedTargets": [],
+      "supplemental": [
+        "São Tomé and Príncipe"
+      ],
+      "video": "rendered/africa-redo-20261104/04-central-africa/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 411.16,
+      "youtubeVideoId": "hLO1bU245W0",
+      "audioCache": "rendered/africa-eight-20261102/04-central-africa/geoclick"
+    },
+    {
+      "id": "nile-horn",
+      "title": "Nile and Horn",
+      "status": "complete",
+      "lesson": "src/lessons/africa-05-nile-horn.json",
+      "places": [
+        "Sudan",
+        "South Sudan",
+        "Eritrea",
+        "Djibouti",
+        "Ethiopia",
+        "Somalia"
+      ],
+      "countries": [
+        "Sudan",
+        "South Sudan",
+        "Eritrea",
+        "Djibouti",
+        "Ethiopia",
+        "Somalia"
+      ],
+      "nativeTargets": [
+        "Sudan",
+        "South Sudan",
+        "Eritrea",
+        "Djibouti",
+        "Ethiopia",
+        "Somalia"
+      ],
+      "relatedTargets": [
+        "Somaliland"
+      ],
+      "supplemental": [],
+      "video": "rendered/africa-redo-20261104/05-nile-horn/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 337.4,
+      "youtubeVideoId": "Y76NzmtwcmY",
+      "audioCache": "rendered/africa-eight-20261102/05-nile-horn/geoclick"
+    },
+    {
+      "id": "east-africa-great-lakes",
+      "title": "East Africa and Great Lakes",
+      "status": "complete",
+      "lesson": "src/lessons/africa-06-east-africa-great-lakes.json",
+      "places": [
+        "Uganda",
+        "Kenya",
+        "Rwanda",
+        "Burundi",
+        "Tanzania"
+      ],
+      "countries": [
+        "Uganda",
+        "Kenya",
+        "Rwanda",
+        "Burundi",
+        "Tanzania"
+      ],
+      "nativeTargets": [
+        "Uganda",
+        "Kenya",
+        "Rwanda",
+        "Burundi",
+        "Tanzania"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-redo-20261104/06-east-africa-great-lakes/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 267.04,
+      "youtubeVideoId": "b86GIVPIUwk",
+      "audioCache": "rendered/africa-eight-20261102/06-east-africa-great-lakes/geoclick"
+    },
+    {
+      "id": "southern-africa",
+      "title": "Southern Africa",
+      "status": "complete",
+      "lesson": "src/lessons/africa-07-southern-africa.json",
+      "places": [
+        "Angola",
+        "Zambia",
+        "Malawi",
+        "Mozambique",
+        "Zimbabwe",
+        "Botswana",
+        "Namibia",
+        "South Africa",
+        "Lesotho",
+        "Eswatini"
+      ],
+      "countries": [
+        "Angola",
+        "Zambia",
+        "Malawi",
+        "Mozambique",
+        "Zimbabwe",
+        "Botswana",
+        "Namibia",
+        "South Africa",
+        "Lesotho",
+        "Eswatini"
+      ],
+      "nativeTargets": [
+        "Angola",
+        "Zambia",
+        "Malawi",
+        "Mozambique",
+        "Zimbabwe",
+        "Botswana",
+        "Namibia",
+        "South Africa",
+        "Lesotho",
+        "Eswatini"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/africa-redo-20261104/07-southern-africa/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 482.4,
+      "youtubeVideoId": "s8dLsVaWWHs",
+      "audioCache": "rendered/africa-eight-20261102/07-southern-africa/geoclick"
+    }
+  ]
+}

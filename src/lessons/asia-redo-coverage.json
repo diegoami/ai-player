@@ -1,0 +1,133 @@
+{
+  "edition": "Asia · Seven regional lessons · November 2026 · taller-layout redo 2026-11-04",
+  "status": "in-production",
+  "scope": "49 teaching stops: 46 primary native targets plus Bahrain, Maldives and Singapore; Northern Cyprus is a related selection within Cyprus, not an additional country count",
+  "targetCount": 29,
+  "coveredPlaceCount": 0,
+  "replaces": "src/lessons/asia-coverage.json",
+  "note": "Only the lessons the fitting pass measured better in the tall layout are redone; the other episodes keep their published videos.",
+  "episodes": [
+    {
+      "id": "turkiye-cyprus-caucasus",
+      "title": "Türkiye, Cyprus and the Caucasus",
+      "status": "complete",
+      "lesson": "src/lessons/asia-01-turkiye-cyprus-caucasus.json",
+      "places": [
+        "Turkey",
+        "Cyprus",
+        "Georgia",
+        "Armenia",
+        "Azerbaijan"
+      ],
+      "nativeTargets": [
+        "Turkey",
+        "Cyprus",
+        "Georgia",
+        "Armenia",
+        "Azerbaijan"
+      ],
+      "relatedTargets": [
+        "Northern Cyprus"
+      ],
+      "supplemental": [],
+      "video": "rendered/asia-redo-20261104/01-turkiye-cyprus-caucasus/geoclick/play-no-subtitles.mp4",
+      "audioCache": "rendered/asia-seven-20261101/01-turkiye-cyprus-caucasus-refined/geoclick",
+      "durationSeconds": 290.96
+    },
+    {
+      "id": "arabian-peninsula",
+      "title": "Arabian Peninsula",
+      "status": "complete",
+      "lesson": "src/lessons/asia-03-arabian-peninsula.json",
+      "places": [
+        "Saudi Arabia",
+        "Yemen",
+        "Oman",
+        "United Arab Emirates",
+        "Qatar",
+        "Bahrain",
+        "Kuwait"
+      ],
+      "nativeTargets": [
+        "Saudi Arabia",
+        "Yemen",
+        "Oman",
+        "United Arab Emirates",
+        "Qatar",
+        "Kuwait"
+      ],
+      "relatedTargets": [],
+      "supplemental": [
+        "Bahrain"
+      ],
+      "video": "rendered/asia-redo-20261104/03-arabian-peninsula/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 379.16,
+      "audioCache": "rendered/asia-seven-20261101/03-arabian-peninsula/geoclick"
+    },
+    {
+      "id": "east-asia",
+      "title": "East Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-06-east-asia.json",
+      "places": [
+        "China",
+        "Mongolia",
+        "Taiwan",
+        "North Korea",
+        "South Korea",
+        "Japan"
+      ],
+      "nativeTargets": [
+        "China",
+        "Mongolia",
+        "Taiwan",
+        "North Korea",
+        "South Korea",
+        "Japan"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-redo-20261104/06-east-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 332.12,
+      "audioCache": "rendered/asia-seven-20261101/06-east-asia/geoclick"
+    },
+    {
+      "id": "southeast-asia",
+      "title": "Southeast Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-07-southeast-asia.json",
+      "places": [
+        "Myanmar",
+        "Thailand",
+        "Laos",
+        "Cambodia",
+        "Vietnam",
+        "Malaysia",
+        "Singapore",
+        "Brunei",
+        "Indonesia",
+        "Philippines",
+        "Timor-Leste"
+      ],
+      "nativeTargets": [
+        "Myanmar",
+        "Thailand",
+        "Laos",
+        "Cambodia",
+        "Vietnam",
+        "Malaysia",
+        "Brunei",
+        "Indonesia",
+        "Philippines",
+        "Timor-Leste"
+      ],
+      "relatedTargets": [],
+      "supplemental": [
+        "Singapore"
+      ],
+      "video": "rendered/asia-redo-20261104/07-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 604.28,
+      "audioCache": "rendered/asia-seven-20261101/07-southeast-asia/geoclick"
+    }
+  ]
+}

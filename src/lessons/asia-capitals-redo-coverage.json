@@ -1,0 +1,122 @@
+{
+  "edition": "Asia capitals · Seven regional lessons · November 2026 · taller-layout redo 2026-11-04",
+  "status": "in-production",
+  "scope": "All 47 capital targets of GeoClick's native asia-capitals map, each exactly once: the capitals of every Asian country the map names. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 20,
+  "coveredPlaceCount": 0,
+  "replaces": "src/lessons/asia-capitals-coverage.json",
+  "note": "Only the lessons the fitting pass measured better in the tall layout are redone; the other episodes keep their published videos.",
+  "episodes": [
+    {
+      "id": "central-asia-and-caucasus",
+      "title": "Central Asia and the Caucasus",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-01-central-asia-and-caucasus.json",
+      "places": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent",
+        "Dushanbe",
+        "Ashgabat",
+        "Tbilisi",
+        "Baku",
+        "Yerevan"
+      ],
+      "countries": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent",
+        "Dushanbe",
+        "Ashgabat",
+        "Tbilisi",
+        "Baku",
+        "Yerevan"
+      ],
+      "nativeTargets": [
+        "Astana",
+        "Ulaanbaatar",
+        "Bishkek",
+        "Tashkent",
+        "Dushanbe",
+        "Ashgabat",
+        "Tbilisi",
+        "Baku",
+        "Yerevan"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-redo-20261104/01-central-asia-and-caucasus/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 392.84,
+      "audioCache": "rendered/asia-capitals-20261102/01-central-asia-and-caucasus/geoclick"
+    },
+    {
+      "id": "mainland-southeast-asia",
+      "title": "Mainland Southeast Asia",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-06-mainland-southeast-asia.json",
+      "places": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Naypyidaw",
+        "Kuala Lumpur"
+      ],
+      "countries": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Naypyidaw",
+        "Kuala Lumpur"
+      ],
+      "nativeTargets": [
+        "Bangkok",
+        "Phnom Penh",
+        "Vientiane",
+        "Hanoi",
+        "Naypyidaw",
+        "Kuala Lumpur"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-redo-20261104/06-mainland-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 275.44,
+      "audioCache": "rendered/asia-capitals-20261102/06-mainland-southeast-asia/geoclick"
+    },
+    {
+      "id": "maritime-southeast-asia",
+      "title": "The Maritime South-East",
+      "status": "complete",
+      "lesson": "src/lessons/asia-capitals-07-maritime-southeast-asia.json",
+      "places": [
+        "Manila",
+        "Jakarta",
+        "Bandar Seri Begawan",
+        "Singapore",
+        "Dili"
+      ],
+      "countries": [
+        "Manila",
+        "Jakarta",
+        "Bandar Seri Begawan",
+        "Singapore",
+        "Dili"
+      ],
+      "nativeTargets": [
+        "Manila",
+        "Jakarta",
+        "Bandar Seri Begawan",
+        "Singapore",
+        "Dili"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/asia-capitals-redo-20261104/07-maritime-southeast-asia/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 247.04,
+      "audioCache": "rendered/asia-capitals-20261102/07-maritime-southeast-asia/geoclick"
+    }
+  ]
+}

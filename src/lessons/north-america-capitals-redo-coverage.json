@@ -1,0 +1,66 @@
+{
+  "edition": "North America capitals · Five regional lessons · November 2026 · taller-layout redo 2026-11-04",
+  "status": "in-production",
+  "scope": "All 23 capital targets of GeoClick's native north-america-capitals map, each exactly once: the capitals of the countries of Canada, the United States, Mexico, Central America and the Caribbean that the map names. The fact card shows the English display name, so Mexico City is taught as Mexico City. Episode groups are teaching routes, not an official classification.",
+  "targetCount": 7,
+  "coveredPlaceCount": 0,
+  "replaces": "src/lessons/north-america-capitals-coverage.json",
+  "note": "Only the lessons the fitting pass measured better in the tall layout are redone; the other episodes keep their published videos.",
+  "episodes": [
+    {
+      "id": "canada-the-united-states-and-mexico",
+      "title": "Canada, the United States and Mexico",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-capitals-01-canada-the-united-states-and-mexico.json",
+      "places": [
+        "Ottawa",
+        "Washington, D.C.",
+        "Mexico City"
+      ],
+      "countries": [
+        "Ottawa",
+        "Washington, D.C.",
+        "Mexico City"
+      ],
+      "nativeTargets": [
+        "Ottawa",
+        "Washington, D.C.",
+        "Mexico City"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-capitals-redo-20261104/01-canada-the-united-states-and-mexico/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 177.8,
+      "audioCache": "rendered/north-america-capitals-20261102/01-canada-the-united-states-and-mexico/geoclick"
+    },
+    {
+      "id": "cuba-hispaniola-and-jamaica",
+      "title": "Cuba, Hispaniola and Jamaica",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-capitals-03-cuba-hispaniola-and-jamaica.json",
+      "places": [
+        "Havana",
+        "Kingston",
+        "Port-au-Prince",
+        "Santo Domingo"
+      ],
+      "countries": [
+        "Havana",
+        "Kingston",
+        "Port-au-Prince",
+        "Santo Domingo"
+      ],
+      "nativeTargets": [
+        "Havana",
+        "Kingston",
+        "Port-au-Prince",
+        "Santo Domingo"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-capitals-redo-20261104/03-cuba-hispaniola-and-jamaica/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 198.12,
+      "audioCache": "rendered/north-america-capitals-20261102/03-cuba-hispaniola-and-jamaica/geoclick"
+    }
+  ]
+}

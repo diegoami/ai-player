@@ -1,0 +1,86 @@
+{
+  "edition": "Oceania capitals · Four regional lessons · November 2026 · taller-layout redo 2026-11-04",
+  "status": "in-production",
+  "scope": "All 11 capital targets of GeoClick's native oceania-capitals map, each exactly once: the capitals of the Pacific island states and of Australia and New Zealand that the map names. Episode groups are teaching routes, not an official classification, and map targets do not settle political status or boundaries.",
+  "targetCount": 8,
+  "coveredPlaceCount": 0,
+  "replaces": "src/lessons/oceania-capitals-coverage.json",
+  "note": "Only the lessons the fitting pass measured better in the tall layout are redone; the other episodes keep their published videos.",
+  "episodes": [
+    {
+      "id": "palau-pohnpei-and-the-marshalls",
+      "title": "Palau, Pohnpei and the Marshalls",
+      "status": "complete",
+      "lesson": "src/lessons/oceania-capitals-01-palau-pohnpei-and-the-marshalls.json",
+      "places": [
+        "Ngerulmud",
+        "Palikir",
+        "Majuro"
+      ],
+      "countries": [
+        "Ngerulmud",
+        "Palikir",
+        "Majuro"
+      ],
+      "nativeTargets": [
+        "Ngerulmud",
+        "Palikir",
+        "Majuro"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/oceania-capitals-redo-20261104/01-palau-pohnpei-and-the-marshalls/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 151.52,
+      "audioCache": "rendered/oceania-capitals-20261102/01-palau-pohnpei-and-the-marshalls/geoclick"
+    },
+    {
+      "id": "kiribati-and-tuvalu",
+      "title": "Kiribati and Tuvalu",
+      "status": "complete",
+      "lesson": "src/lessons/oceania-capitals-02-kiribati-and-tuvalu.json",
+      "places": [
+        "Tarawa",
+        "Funafuti"
+      ],
+      "countries": [
+        "Tarawa",
+        "Funafuti"
+      ],
+      "nativeTargets": [
+        "Tarawa",
+        "Funafuti"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/oceania-capitals-redo-20261104/02-kiribati-and-tuvalu/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 123.08,
+      "audioCache": "rendered/oceania-capitals-20261102/02-kiribati-and-tuvalu/geoclick"
+    },
+    {
+      "id": "the-melanesian-capitals",
+      "title": "The Melanesian capitals",
+      "status": "complete",
+      "lesson": "src/lessons/oceania-capitals-03-the-melanesian-capitals.json",
+      "places": [
+        "Honiara",
+        "Port Moresby",
+        "Port Vila"
+      ],
+      "countries": [
+        "Honiara",
+        "Port Moresby",
+        "Port Vila"
+      ],
+      "nativeTargets": [
+        "Honiara",
+        "Port Moresby",
+        "Port Vila"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/oceania-capitals-redo-20261104/03-the-melanesian-capitals/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 150.6,
+      "audioCache": "rendered/oceania-capitals-20261102/03-the-melanesian-capitals/geoclick"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "edition": "North America · Three regional lessons · November 2026 · taller-layout redo 2026-11-04",
+  "status": "in-production",
+  "scope": "All 16 country targets of GeoClick's native north-america-countries map: Canada, the United States, Mexico, seven Central American countries and six Caribbean countries, each exactly once. Greenland is not part of this map.",
+  "targetCount": 16,
+  "coveredPlaceCount": 0,
+  "replaces": "src/lessons/north-america-coverage.json",
+  "note": "Only the lessons the fitting pass measured better in the tall layout are redone; the other episodes keep their published videos.",
+  "episodes": [
+    {
+      "id": "canada-united-states",
+      "title": "Canada and the United States",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-01-canada-united-states.json",
+      "places": [
+        "Canada",
+        "United States"
+      ],
+      "countries": [
+        "Canada",
+        "United States"
+      ],
+      "nativeTargets": [
+        "Canada",
+        "United States"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-redo-20261104/01-canada-united-states/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 167.24,
+      "audioCache": "rendered/north-america-three-20261102/01-canada-united-states/geoclick"
+    },
+    {
+      "id": "mexico-central-america",
+      "title": "Mexico and Central America",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-02-mexico-central-america.json",
+      "places": [
+        "Mexico",
+        "Belize",
+        "Guatemala",
+        "Honduras",
+        "El Salvador",
+        "Nicaragua",
+        "Costa Rica",
+        "Panama"
+      ],
+      "countries": [
+        "Mexico",
+        "Belize",
+        "Guatemala",
+        "Honduras",
+        "El Salvador",
+        "Nicaragua",
+        "Costa Rica",
+        "Panama"
+      ],
+      "nativeTargets": [
+        "Mexico",
+        "Belize",
+        "Guatemala",
+        "Honduras",
+        "El Salvador",
+        "Nicaragua",
+        "Costa Rica",
+        "Panama"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-redo-20261104/02-mexico-central-america/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 412.12,
+      "audioCache": "rendered/north-america-three-20261102/02-mexico-central-america/geoclick"
+    },
+    {
+      "id": "caribbean",
+      "title": "The Caribbean",
+      "status": "complete",
+      "lesson": "src/lessons/north-america-03-caribbean.json",
+      "places": [
+        "The Bahamas",
+        "Cuba",
+        "Haiti",
+        "Dominican Republic",
+        "Jamaica",
+        "Trinidad and Tobago"
+      ],
+      "countries": [
+        "The Bahamas",
+        "Cuba",
+        "Haiti",
+        "Dominican Republic",
+        "Jamaica",
+        "Trinidad and Tobago"
+      ],
+      "nativeTargets": [
+        "The Bahamas",
+        "Cuba",
+        "Haiti",
+        "Dominican Republic",
+        "Jamaica",
+        "Trinidad and Tobago"
+      ],
+      "relatedTargets": [],
+      "supplemental": [],
+      "video": "rendered/north-america-redo-20261104/03-caribbean/geoclick/play-no-subtitles.mp4",
+      "durationSeconds": 324.84,
+      "audioCache": "rendered/north-america-three-20261102/03-caribbean/geoclick"
+    }
+  ]
+}
