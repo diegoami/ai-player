@@ -63,6 +63,12 @@ five captioned replacements get their caption tracks reinstalled. Wave three
 checked, lessons prepared) and the Oceania countries edition remain staged,
 blocked on the MiniMax narration top-up.
 
+**Open dilemma:** the masters are 1600x900, which YouTube buckets below
+1080p — playback starts at 240p with no better option apparent. A 1080p
+pilot (scaled layout, one lesson, unlisted test upload, quality-menu check)
+is planned before the pipeline converts; see the runbook's *Open dilemma*
+section. The layout code must not change while the R2/R3 run is live.
+
 The completed Africa edition has **eight regional lessons** with John.
 Use `src/lessons/africa-coverage.json`: 54 countries once each, plus Western
 Sahara as a disputed-territory stop. Somaliland is a related selection within

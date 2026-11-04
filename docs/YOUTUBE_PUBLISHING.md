@@ -636,6 +636,38 @@ playlist slots were cleared, and a reorder pass restored canonical order.
 The config's video_ids are the live IDs; the manifest carries the redo
 caption files and a redo_note on each replaced episode.
 
+## Open dilemma: the 900p ceiling and the 1080p pilot
+
+Every master in the series is 1600x900 — the US pilot's viewport, inherited
+by every lesson file since. That sits between YouTube's quality rungs, so
+the player never offers 1080p. The owner reports something worse on
+playback: the videos start at 240p and no higher option is apparent, which
+suggests the transcoder is also rating the source poorly — the recorded
+WebM capture runs at only ~150-300 kbps, and fine map text is exactly what
+low-bitrate screen capture smears first.
+
+Two levers, one known and one to be measured by a pilot:
+
+1. **The resolution tier (known fix).** Render at 1920x1080 and scale the
+   layout boxes and fonts by 1.2; the layout system centralizes this, so it
+   is a small opt-in change (a lesson-level resolution field, default
+   unchanged so existing recordings are untouched). Whether YouTube then
+   serves a true 1080p rendition is what the pilot checks.
+2. **The capture codec quality (unknown).** Playwright's video capture does
+   not expose a bitrate control; if the pilot's 1080p upload still tops out
+   low or looks soft, the recording approach itself needs revisiting
+   (higher-quality capture or a screenshot-sequence assembly).
+
+**The pilot, when the owner calls for it:** record one lesson at the scaled
+1080p layout, export, upload unlisted as a test, and inspect the quality
+menu on YouTube before and after processing completes. Only then decide
+whether the pipeline converts.
+
+**Timing constraint:** the R2/R3 redo run records at 1600x900 by design;
+the layout code must not change while that run is live. The 40 lessons stay
+consistent at the current tier; a conversion of the back catalogue, if ever
+wanted, can reuse the fitting-pass and redo machinery per edition.
+
 ## The regions editions: uploaded unlisted
 
 A new kind of edition: one video that teaches one country's own first-level
