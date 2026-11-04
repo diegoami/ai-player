@@ -772,6 +772,17 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sweden-regions-redo",
+      "country": "Sweden",
+      "mapId": "sweden-regions",
+      "title": "Sweden's regions",
+      "content": "src/lessons/sweden-regions-content.mjs",
+      "root": "rendered/sweden-regions-redo-20261104",
+      "zip": "all-sweden-regions-videos.zip",
+      "targetCount": 21,
+      "label": "Sweden Regions"
     }
   ]
 }

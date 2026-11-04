@@ -1,24 +1,54 @@
 // Recording-only layout. The app's real fact card sits beside its real map.
 // No GeoClick source files or earned progress are changed.
-export async function lessonLayout(page, title, area = 'United States') {
+// Two layout variants exist; the lesson's `layout` field picks one and the
+// fitting pass (bin/fit-lesson-layout.mjs) chooses it per map:
+//   classic - the original US-pilot proportions, map 1160x638 low left.
+//   tall    - the map rises to the top edge and grows to 1160x876, which
+//             suits tall and maritime shapes that a wide box wastes.
+// The card column is identical in both, so the card never covers the map
+// and every layout assertion keeps working unchanged.
+export const LAYOUT_BOXES = {
+  classic: { left: 12, top: 250, width: 1160, height: 638 },
+  tall: { left: 12, top: 12, width: 1160, height: 876 }
+};
+
+export async function lessonLayout(page, title, area = 'United States', layout = 'classic') {
+  const box = LAYOUT_BOXES[layout] ?? LAYOUT_BOXES.classic;
+  const headingTop = layout === 'tall' ? 20 : 115;
   await page.addStyleTag({ content: `
     body { margin:0!important; background:#f3efe5!important; overflow:hidden!important; }
-    [data-map-fit-root] { position:absolute!important; left:12px!important; top:250px!important; width:1160px!important; height:638px!important; }
+    [data-map-fit-root] { position:absolute!important; left:${box.left}px!important; top:${box.top}px!important; width:${box.width}px!important; height:${box.height}px!important; }
     .nav-overlay { position:fixed!important; left:22px!important; top:96px!important; }
-    .fact-card { position:fixed!important; left:1192px!important; top:280px!important; right:auto!important; bottom:auto!important; width:390px!important; max-width:390px!important; padding:18px!important; }
+    .fact-card { position:fixed!important; left:1192px!important; right:auto!important; bottom:auto!important; width:390px!important; max-width:390px!important; padding:18px!important; }
     .fact-body { font-size:19px!important; line-height:1.5!important; }
     .fact-extra { margin-top:16px!important; }
     .fact-city { display:none!important; }
     .fact-name { display:block; font-size:26px!important; margin-bottom:12px!important; }
     .fact-name::after { content:''!important; }
-    #lesson-heading {position:fixed;left:1200px;top:115px;width:370px;font:26px/1.25 Georgia;color:#203b30;}
-    #lesson-status {position:fixed;left:1200px;top:215px;width:370px;font:17px/1.4 system-ui;color:#65563c;}
+    #lesson-heading {position:fixed;left:1200px;top:${headingTop}px;width:370px;font:26px/1.25 Georgia;color:#203b30;}
+    #lesson-status {position:fixed;left:1200px;width:370px;font:17px/1.4 system-ui;color:#65563c;}
   ` });
   await page.evaluate(({title,area}) => {
     const heading=document.createElement('div');heading.id='lesson-heading';heading.textContent=title;document.body.append(heading);
     const status=document.createElement('div');status.id='lesson-status';status.textContent=`Known mode · ${area}`;document.body.append(status);
     window.dispatchEvent(new Event('resize'));
   }, {title,area});
+  // Flow the right column: status sits under the title whatever its wrapped
+  // height, and the card under the status, so a long title can never collide
+  // with either. The column is clear of the map horizontally, so no check
+  // changes.
+  const placed = await page.evaluate(({headingTop}) => {
+    const heading = document.getElementById('lesson-heading');
+    const status = document.getElementById('lesson-status');
+    const headingHeight = heading.getBoundingClientRect().height;
+    const statusTop = headingTop + headingHeight + 12;
+    status.style.top = `${statusTop}px`;
+    const statusHeight = status.getBoundingClientRect().height;
+    return { statusTop, cardTop: statusTop + statusHeight + 16 };
+  }, {headingTop});
+  await page.addStyleTag({ content: `
+    .fact-card { top:${placed.cardTop}px!important; }
+  ` });
   await page.waitForTimeout(1800);
 }
 

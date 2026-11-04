@@ -79,7 +79,7 @@ try {
   await page.getByTestId('known-empty').getByRole('button', {name:'Close this notice'}).click();
   trace.knownNoticeClosed = true;
   await sleep(6000);
-  await lessonLayout(page, lesson.title, lesson.area??'United States');
+  await lessonLayout(page, lesson.title, lesson.area??'United States', lesson.layout??'classic');
   await attachCamera(page,mapId);
   await gesture(page,{bounds:lesson.initialBounds??[[-125,24],[-66,50]]});
   if(lesson.supplement)await installSupplement(page,lesson);
