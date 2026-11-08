@@ -44,33 +44,30 @@ ledger of accepted caption IDs and stops on a quota refusal. **Do not resume
 the Africa or Europe 6 native queues**: their queued publication target is
 still private or unlisted and would un-publish those videos.
 
-**Historical R2/R3 layout redo of the capitals and continent
-editions (4 November checkpoint).** The fitting passes measured all 58 lessons (bin/fit-lesson-layout.mjs):
-40 chose the tall layout, 18 chose classic and keep their published videos
-unchanged. The redo harness (bin/redo-lesson.mjs plus the eleven redo ledgers
-src/lessons/<edition>-redo-coverage.json) records the tall lessons with their
-narration reused from cached clips — no MiniMax calls. The driver
-rendered/r2r3-redo-run.ps1 runs them one at a time in the owner's own
-PowerShell terminal (Claude-side background tasks are reaped under this
-machine's memory pressure; see the memory note). As of the session close on
-4 November 2026, 24 of the 40 lessons were recorded and verified; the driver
-skips finished lessons, so relaunching it in PowerShell continues cleanly.
+**Historical move and v2 plan (5 November 2026).**
+docs/RECORDING_PIPELINE_V2.md preserves the diagnosis of the 1600x900
+pipeline, the native-1080p replacement proposal and new-machine setup.
+Its proposed recording order and pilot are superseded by the tested HD
+implementation and latest owner instructions at the top of docs/GEOCLICK.md.
+Generated media, narration caches and youtube3 credentials/ledger still
+travel separately from Git; use the MISSING.md checklist for runtime setup.
 
-When the run prints R2R3 REDO RUN DONE, the remaining chain is: frame review
-and the owner's sign-off into the redo verification reports, packaging,
-subtitle backups (bin/backup-geoclick-subtitles.py accepts the -redo series
-names), then per-edition delete-and-replace publishing in playlist order —
-bin/retire-videos.py retires each edition's replaced IDs, upload-series.py
-uploads the replacements unlisted, the config absorbs the redo ledgers, the
-manifest merges, and a playlist reorder restores canonical order. Europe's
-five captioned replacements get their caption tracks reinstalled. Wave three
-(China, India, Greece, Romania, Netherlands, Indonesia — content written and
-checked, lessons prepared) and the Oceania countries edition remain staged,
-blocked on the MiniMax narration top-up.
+The R2/R3 900p redo run stopped at 30 of 40 lessons recorded and verified
+when the process moved; those 900p exports stay on disk under
+rendered/*-redo-20261104/ as interim quality and the eleven redo ledgers
+(src/lessons/<edition>-redo-coverage.json) carry their state. The fitting
+passes' verdicts (40 tall, 18 classic) do not transfer to the v2 geometry —
+re-measure per lesson once the v2 layout exists. The ninety published
+videos are untouched and live: 32 public, the rest unlisted in playlist
+PLNl_MybP55PE in canonical order, 90 members, none missing.
 
 The 900p quality dilemma and planned pilot described in older notes have
 been superseded by the tested HD path documented at the top of GEOCLICK.md.
 Keep the legacy layout intact for historical recording reproducibility.
+
+Wave three (China, India, Greece, Romania, Netherlands, Indonesia — content
+written and checked, lessons prepared) and the Oceania countries edition
+remain staged, blocked on the MiniMax narration top-up.
 
 The completed Africa edition has **eight regional lessons** with John.
 Use `src/lessons/africa-coverage.json`: 54 countries once each, plus Western
