@@ -1,10 +1,11 @@
 # GeoClick: learned controls and recording notes
 
-## Current 1080p rebuild: Northeast approved, South Atlantic next
+## Current 1080p rebuild: recreate Northeast with prominent game homepage
 
 The owner approved trying the first video of the five-video USA rebuild.
-The new Northeast lesson is complete as an **unlisted review copy**:
-<https://www.youtube.com/watch?v=eON2vJokGtM>. Duration 6:51.43, native
+The first Northeast lesson was completed as an **unlisted review copy**,
+`eON2vJokGtM`, which the owner subsequently reported accidentally deleting
+from YouTube. Its original export is 6:51.43, native
 1920x1080 at 30 fps. Output:
 `rendered/usa-hd-20261108/01-northeast/geoclick/`.
 
@@ -20,21 +21,34 @@ YouTube confirms processed/unlisted status and offers 1080p HD. Normal
 playback was verified at actual 1920x1080 through the Maine stop (35.5s),
 with readable fullscreen text. Two automated seek attempts caused a player
 error, so the evidence does not establish a full YouTube seek/playback pass.
-The owner watched the video and said **"it was good"**, approving this result
-and the approach for continuing. They then asked to continue tomorrow; no
-further rendering or uploading should run during this handoff.
-The original `Ee6KhuqvxJU` and the canonical playlist are unchanged. Never
-reupload the review copy: its native queue is `queue-review.json` in the
-output folder, with the same shared channel ledger as the quality demo.
+The owner watched the video and said **"it was good"**, approving its framing
+and pacing. After reporting the accidental deletion, they explicitly changed
+the continuation request: **recreate Northeast first as the demo**, with the
+game's home, <https://diegoami.github.io/Geoclick2027/>, prominent in the video.
+Use a readable, persistent sidebar line such as "Play GeoClick" plus
+"diegoami.github.io/Geoclick2027/", repeat it clearly in the opening/closing,
+and put the full clickable URL near the top of the YouTube description.
+Keep it clear of the map, fact cards and optional captions. Preserve the
+approved John narration; no new spoken promotion is required.
 
-Next session: start **South Atlantic**, then South Central, Midwest and West.
+This revised, visibly branded render is authorized as a new unlisted demo on
+Lynx Supercluster. The original canonical `Ee6KhuqvxJU` and playlist seats
+remain unchanged. The deleted review ID is historical, not an active demo.
+Preserve its completed `queue-review.json` and shared-ledger record; do not
+erase its fingerprint or resume that completed queue to force another upload.
+Use a new export folder and youtube3-native plan/queue for the changed render.
+
+Next session: start **Northeast again with the homepage treatment** and supply
+the new demo link for review before continuing. Then South Atlantic, South
+Central, Midwest and West follow.
+For the later South Atlantic episode:
 Use `src/lessons/usa-five-02-south-atlantic.json` and its existing cache at
 `C:/Users/diego/Videos/leopardrendered/usa-five-20261101/02-south-atlantic/geoclick`.
 Create a separate framing config for that episode; the Northeast bounds are
 specific to its states. Repeat preflight, full recording, every-state frame
 review, media/caption checks and an unlisted review upload. Keep original
 published videos and canonical playlist seats until a separate replacement
-decision; approval of Northeast does not request their deletion. Further
+decision; the deleted demo does not authorize deleting other videos. Further
 full-series conversion is still unfinished, deliberately awaiting this
 episode-by-episode process.
 
