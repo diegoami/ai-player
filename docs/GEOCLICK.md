@@ -1,5 +1,93 @@
 # GeoClick: learned controls and recording notes
 
+## Current 1080p rebuild: Northeast approved, South Atlantic next
+
+The owner approved trying the first video of the five-video USA rebuild.
+The new Northeast lesson is complete as an **unlisted review copy**:
+<https://www.youtube.com/watch?v=eON2vJokGtM>. Duration 6:51.43, native
+1920x1080 at 30 fps. Output:
+`rendered/usa-hd-20261108/01-northeast/geoclick/`.
+
+All 36 John clips were reused byte-for-byte; no speech API calls. All nine
+states are selected in canonical order. Each selected state's bounding box
+has at least 25 pixels of clearance inside the map, fact cards stay outside
+the map and within the frame, and all nine exported stop frames plus the
+recap were reviewed. Full media decode passed, audio peak -3.5 dB, separate
+English SRT/WebVTT have 36 cues. WebVTT captions fit the lower sidebar and
+their on/off previews were inspected. This was not a full listening review.
+
+YouTube confirms processed/unlisted status and offers 1080p HD. Normal
+playback was verified at actual 1920x1080 through the Maine stop (35.5s),
+with readable fullscreen text. Two automated seek attempts caused a player
+error, so the evidence does not establish a full YouTube seek/playback pass.
+The owner watched the video and said **"it was good"**, approving this result
+and the approach for continuing. They then asked to continue tomorrow; no
+further rendering or uploading should run during this handoff.
+The original `Ee6KhuqvxJU` and the canonical playlist are unchanged. Never
+reupload the review copy: its native queue is `queue-review.json` in the
+output folder, with the same shared channel ledger as the quality demo.
+
+Next session: start **South Atlantic**, then South Central, Midwest and West.
+Use `src/lessons/usa-five-02-south-atlantic.json` and its existing cache at
+`C:/Users/diego/Videos/leopardrendered/usa-five-20261101/02-south-atlantic/geoclick`.
+Create a separate framing config for that episode; the Northeast bounds are
+specific to its states. Repeat preflight, full recording, every-state frame
+review, media/caption checks and an unlisted review upload. Keep original
+published videos and canonical playlist seats until a separate replacement
+decision; approval of Northeast does not request their deletion. Further
+full-series conversion is still unfinished, deliberately awaiting this
+episode-by-episode process.
+
+The separate HD path leaves the legacy layout/recorder intact:
+`bin/geoclick-hd-lesson.mjs`, `src/core/geoclick-hd-ui.mjs`,
+`src/core/lossless-recording.mjs`, `config/usa-northeast-hd.json`.
+It uses cache-only narration and lossless PNG capture with a lossless
+intermediate before CRF16 H.264/AAC export. `bin/verify-hd-lesson.mjs`
+checks media, timing, exact cached bytes, geometry and optional captions.
+New recordings require a new output folder. Example:
+
+```powershell
+node bin/geoclick-hd-lesson.mjs --lesson=src/lessons/usa-five-01-northeast.json --framing=config/usa-northeast-hd.json --audio-cache=C:/Users/diego/Videos/leopardrendered/usa-five-20261101/01-northeast/geoclick --out=rendered/usa-hd-NEW/01-northeast --base=http://127.0.0.1:5187
+```
+
+## Downloaded assets audit: 8 November 2026
+
+The owner restored the earlier production tree at
+`C:/Users/diego/Videos/leopardrendered` and wants the videos redone because of
+resolution and framing problems. Treat it as a source archive; new exports
+belong in this repository's ignored `rendered/` directory.
+
+The read-only audit found all 90 published lesson masters, all at 1600x900,
+and a complete matching John narration cache for every current lesson:
+3,564 narration lines, zero missing. The current runner's offline
+`--prepare-only --audio-cache=... --review` check prepared the 36-line USA
+Northeast lesson with all 36 clips byte-identical to the source and no speech
+API calls. One cached clip from each of the 31 published series decoded
+successfully; this is not a full listening review. The six staged countries
+have ten lessons in their ledgers, none with a complete traced narration
+cache in this audit.
+
+Eight representative exported frames were inspected. Classic layouts waste
+a large top band; small labels suffer, and a sampled Oceania capital view is
+mostly ocean around a tiny marker. Recorded fact-card rectangles were within
+the viewport, but the old verification checks do not establish that the
+geographical framing is useful or complete. Their historical `passed` marks
+must not be treated as approval for the new exports.
+
+Reuse lesson text, researched content, John clips and vector geography.
+Regenerate map footage and screenshot thumbnails at native 1080p with
+per-lesson camera/framing review, using the successful quality pilot's
+capture approach. Rebuild subtitle timings against the new footage. The
+legacy recorder still expects the removed `known-empty` notice. The separate
+HD path described above handles that change and enforces cache-only speech;
+the old recorder remains intact. At the time of this audit no production
+renderer had been changed or full-series redo started.
+
+Evidence: `rendered/leopard-audit/audit.json`, `episodes.csv`,
+`contact-sheet.jpg`, `samples.json` and `reuse-proof/`. The source archive
+contains old publishing checkpoints with paths from another machine; none
+were resumed or rewritten.
+
 ## Published release: 2 November 2026
 
 The owner asked to publish the videos and to postpone subtitles, because

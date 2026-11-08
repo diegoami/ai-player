@@ -146,7 +146,7 @@ export function assemble(cfg, trace) {
 			'-preset',
 			'medium',
 			'-crf',
-			'20',
+			String(cfg.videoCrf ?? 20),
 			'-pix_fmt',
 			'yuv420p',
 			'-c:a',

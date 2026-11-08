@@ -668,6 +668,34 @@ the layout code must not change while that run is live. The 40 lessons stay
 consistent at the current tier; a conversion of the back catalogue, if ever
 wanted, can reuse the fitting-pass and redo machinery per edition.
 
+## 1080p quality pilot: 8 November 2026
+
+A new, silent 47-second USA demo selects Washington, Oregon, California and
+Nevada through real Known-mode clicks. It is unlisted on the pinned channel:
+<https://www.youtube.com/watch?v=aiOOSFXF9Mo>. It was not inserted into the
+canonical teaching playlist. Its native youtube3 plan, completed queue,
+checkpoints, media and playback evidence are under
+`rendered/usa-quality-demo-20261108/`; never upload this demo again.
+
+The demo captures native 1920x1080 lossless PNG frames through Chromium's CDP
+screencast, then exports 30 fps H.264 at CRF 16. YouTube processing succeeded.
+The player offered **1080p HD**; selecting it yielded `hd1080` playback with
+decoded video dimensions 1920x1080. Auto initially selected 720p in this
+browser. Fullscreen playback retained readable map labels and fact-card text,
+with some compression softening. This validates this demo's capture/export
+path; the shared lesson recorder and existing recordings were not changed.
+
+On this Windows machine, youtube3 2.10.0 plus its artwork extra is installed
+in `rendered/youtube3-env/`. For the standard entrypoint, set
+`YOUTUBE3_PYTHON` to that environment's absolute `Scripts/python.exe` path.
+The existing OAuth client file is `~/.config/youtube3/client.json.txt`;
+youtube3 registered profile `lynxsupercluster` and owns its saved login and
+default shared channel ledger under `%APPDATA%/youtube3/`. No credentials
+were copied into the repository. The historical queues/media were later
+located in `C:/Users/diego/Videos/leopardrendered`; see the downloaded-assets
+audit in `GEOCLICK.md`. They have not been restored to their original paths
+or resumed by this installation.
+
 ## The regions editions: uploaded unlisted
 
 A new kind of edition: one video that teaches one country's own first-level

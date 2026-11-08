@@ -1,5 +1,10 @@
 # ai-player working notes
 
+**Current rebuild:** read the first section of [docs/GEOCLICK.md](docs/GEOCLICK.md)
+for the owner's latest approval and the next episode. It supersedes the
+historical 900p redo plan below. Do not resume legacy redo/publishing queues
+as the next step for the current 1080p rebuild.
+
 For GeoClick YouTube publishing, read [docs/YOUTUBE_PUBLISHING.md](docs/YOUTUBE_PUBLISHING.md).
 Use `bin/geoclick-youtube.ps1` and installed youtube3 **2.10.0**. OAuth,
 uploads, captions and uncertain-write recovery belong to youtube3; do not
@@ -39,8 +44,8 @@ ledger of accepted caption IDs and stops on a quota refusal. **Do not resume
 the Africa or Europe 6 native queues**: their queued publication target is
 still private or unlisted and would un-publish those videos.
 
-**In progress: the R2/R3 layout redo of the capitals and continent
-editions.** The fitting passes measured all 58 lessons (bin/fit-lesson-layout.mjs):
+**Historical R2/R3 layout redo of the capitals and continent
+editions (4 November checkpoint).** The fitting passes measured all 58 lessons (bin/fit-lesson-layout.mjs):
 40 chose the tall layout, 18 chose classic and keep their published videos
 unchanged. The redo harness (bin/redo-lesson.mjs plus the eleven redo ledgers
 src/lessons/<edition>-redo-coverage.json) records the tall lessons with their
@@ -63,11 +68,9 @@ five captioned replacements get their caption tracks reinstalled. Wave three
 checked, lessons prepared) and the Oceania countries edition remain staged,
 blocked on the MiniMax narration top-up.
 
-**Open dilemma:** the masters are 1600x900, which YouTube buckets below
-1080p — playback starts at 240p with no better option apparent. A 1080p
-pilot (scaled layout, one lesson, unlisted test upload, quality-menu check)
-is planned before the pipeline converts; see the runbook's *Open dilemma*
-section. The layout code must not change while the R2/R3 run is live.
+The 900p quality dilemma and planned pilot described in older notes have
+been superseded by the tested HD path documented at the top of GEOCLICK.md.
+Keep the legacy layout intact for historical recording reproducibility.
 
 The completed Africa edition has **eight regional lessons** with John.
 Use `src/lessons/africa-coverage.json`: 54 countries once each, plus Western
