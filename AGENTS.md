@@ -39,35 +39,29 @@ ledger of accepted caption IDs and stops on a quota refusal. **Do not resume
 the Africa or Europe 6 native queues**: their queued publication target is
 still private or unlisted and would un-publish those videos.
 
-**In progress: the R2/R3 layout redo of the capitals and continent
-editions.** The fitting passes measured all 58 lessons (bin/fit-lesson-layout.mjs):
-40 chose the tall layout, 18 chose classic and keep their published videos
-unchanged. The redo harness (bin/redo-lesson.mjs plus the eleven redo ledgers
-src/lessons/<edition>-redo-coverage.json) records the tall lessons with their
-narration reused from cached clips — no MiniMax calls. The driver
-rendered/r2r3-redo-run.ps1 runs them one at a time in the owner's own
-PowerShell terminal (Claude-side background tasks are reaped under this
-machine's memory pressure; see the memory note). As of the session close on
-4 November 2026, 24 of the 40 lessons were recorded and verified; the driver
-skips finished lessons, so relaunching it in PowerShell continues cleanly.
+**The process is moving to another computer (5 November 2026) and the
+recording pipeline restarts from zero on the v2 plan.** Read
+docs/RECORDING_PIPELINE_V2.md first: it records what the 1600x900 pipeline
+measurably does wrong (YouTube playback starting at 240p, low-bitrate
+capture smearing map labels), what the replacement does (1920x1080 native
+recording, a layout designed at 1080p, the capture-quality pilot with its
+acceptance test and fallbacks), the new-machine setup (the MISSING.md
+checklist; rendered/ media, the MiniMax key, the youtube3 credentials and
+the speech caches travel outside Git), and the proposed re-recording order
+(pilot, then wave three and Oceania, then the editions).
 
-When the run prints R2R3 REDO RUN DONE, the remaining chain is: frame review
-and the owner's sign-off into the redo verification reports, packaging,
-subtitle backups (bin/backup-geoclick-subtitles.py accepts the -redo series
-names), then per-edition delete-and-replace publishing in playlist order —
-bin/retire-videos.py retires each edition's replaced IDs, upload-series.py
-uploads the replacements unlisted, the config absorbs the redo ledgers, the
-manifest merges, and a playlist reorder restores canonical order. Europe's
-five captioned replacements get their caption tracks reinstalled. Wave three
-(China, India, Greece, Romania, Netherlands, Indonesia — content written and
-checked, lessons prepared) and the Oceania countries edition remain staged,
-blocked on the MiniMax narration top-up.
+The R2/R3 900p redo run stopped at 30 of 40 lessons recorded and verified
+when the process moved; those 900p exports stay on disk under
+rendered/*-redo-20261104/ as interim quality and the eleven redo ledgers
+(src/lessons/<edition>-redo-coverage.json) carry their state. The fitting
+passes' verdicts (40 tall, 18 classic) do not transfer to the v2 geometry —
+re-measure per lesson once the v2 layout exists. The ninety published
+videos are untouched and live: 32 public, the rest unlisted in playlist
+PLNl_MybP55PE in canonical order, 90 members, none missing.
 
-**Open dilemma:** the masters are 1600x900, which YouTube buckets below
-1080p — playback starts at 240p with no better option apparent. A 1080p
-pilot (scaled layout, one lesson, unlisted test upload, quality-menu check)
-is planned before the pipeline converts; see the runbook's *Open dilemma*
-section. The layout code must not change while the R2/R3 run is live.
+Wave three (China, India, Greece, Romania, Netherlands, Indonesia — content
+written and checked, lessons prepared) and the Oceania countries edition
+remain staged, blocked on the MiniMax narration top-up.
 
 The completed Africa edition has **eight regional lessons** with John.
 Use `src/lessons/africa-coverage.json`: 54 countries once each, plus Western
